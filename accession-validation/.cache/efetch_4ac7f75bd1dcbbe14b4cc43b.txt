@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-18926309	INSDC	GU116480.1	1	852	+	ACY56506.1	(-) gamma-lactamase	Microbacterium hydrocarbonoxydans		

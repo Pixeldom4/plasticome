@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-190015143	INSDC	PYBV01000047.1	36153	37550	+	PYC64928.1	lipase	Micromonospora arborensis	NRRL 8041	GCA_003205615.1

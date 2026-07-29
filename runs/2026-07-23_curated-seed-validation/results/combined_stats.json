@@ -1,0 +1,19 @@
+{
+  "input_tsv": "outputs/curated_seed_putative/input.tsv",
+  "input_md5": "9f3fe1842ed23c0b06666ed292716b6c",
+  "v1_overlay_csv": "outputs/curated_seed_putative/_empty_overlay.csv",
+  "n_rows": 19,
+  "n_blank_seq_dropped": 5,
+  "n_rows_with_seq": 14,
+  "n_nodes": 14,
+  "n_md5_collapsed_rows": 0,
+  "n_multi_row_nodes": 0,
+  "n_unique_md5": 14,
+  "db_letters": 4738,
+  "len_min": 194,
+  "len_median": 294,
+  "len_max": 617,
+  "n_lt_200aa": 1,
+  "n_lt_100aa": 0,
+  "n_with_v1_overlay": 0
+}

@@ -1,0 +1,31 @@
+{
+  "tag": "curatedseed",
+  "date": "2026-07-23",
+  "prefix": "outputs/curated_seed_putative/combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 4738,
+  "usearch": "v11.0.667 -allpairs_local -acceptall, both orientations",
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 4738-residue db",
+  "n_nodes": 14,
+  "raw_alignments": 102,
+  "aligned_pairs": 51,
+  "edges_passing": 21,
+  "n_components": 8,
+  "n_singletons": 7,
+  "largest_component": 7,
+  "top10_component_sizes": [
+    7,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "n_nodes_with_v1_overlay": 0,
+  "n_v1_labels_split_across_components": 0,
+  "v1_labels_split": {}
+}

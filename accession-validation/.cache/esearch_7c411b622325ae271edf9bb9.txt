@@ -1,1 +1,0 @@
-{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["9406404"],"translationset":[],"querytranslation":"\"10 1128 aem 63 12 4844 4852 1997\"[Publisher ID]"}}

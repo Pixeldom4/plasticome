@@ -1,3 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-194481069	RefSeq	NZ_UEFQ01000028.1	130372	131466	-	WP_111881932.1	T9SS type A sorting domain-containing protein	Aequorivita sp. CIP111184	CIP111184	GCF_900489465.1
-194481069	INSDC	UEFQ01000028.1	130372	131466	-	SRX55697.1	Poly(ethylene terephthalate) hydrolase	Aequorivita sp. CIP111184	CIP111184	GCA_900489465.1

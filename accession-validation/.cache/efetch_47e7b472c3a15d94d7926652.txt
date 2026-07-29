@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-265254147	INSDC	CP041061.1	7220132	7221595	+	QDY11989.1	lipase	Micromonospora sp. HM134	HM134	GCA_007833915.1

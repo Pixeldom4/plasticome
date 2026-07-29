@@ -1,1 +1,0 @@
-{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["40995134"],"translationset":[],"querytranslation":"\"10 1021 acscatal 5c03460\"[Publisher ID]"}}

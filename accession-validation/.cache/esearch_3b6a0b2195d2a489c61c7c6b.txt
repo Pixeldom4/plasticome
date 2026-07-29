@@ -1,1 +1,0 @@
-{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"0","retmax":"0","retstart":"0","idlist":[],"translationset":[],"querytranslation":"\"10.1016\"[All Fields] AND \"s1389 1723 02 80022 6\"[Publisher ID]","warninglist":{"phrasesignored":[],"quotedphrasesnotfound":[],"outputmessages":["No items found."]}}}

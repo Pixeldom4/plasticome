@@ -1,3 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-1298294	INSDC	J04223.2	99	1565	+	AAA21974.1	poly(3-hydroxybutyrate) depolymerase precursor	Ralstonia pickettii	T1	
-1298294	Swiss-Prot	N/A				P12625.1	Poly(3-hydroxybutyrate) depolymerase	Ralstonia pickettii		

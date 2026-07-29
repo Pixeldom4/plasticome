@@ -1,0 +1,33 @@
+{
+  "tag": "v10",
+  "date": "2026-07-21",
+  "prefix": "outputs/v10/combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 168497,
+  "usearch": "v11.0.667 -allpairs_local -acceptall, both orientations",
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 168497-residue db",
+  "n_nodes": 481,
+  "raw_alignments": 88750,
+  "aligned_pairs": 43845,
+  "edges_passing": 32441,
+  "n_components": 46,
+  "n_singletons": 23,
+  "largest_component": 280,
+  "top10_component_sizes": [
+    280,
+    48,
+    25,
+    18,
+    15,
+    10,
+    8,
+    7,
+    5,
+    5
+  ],
+  "n_nodes_with_v1_overlay": 191,
+  "n_v1_labels_split_across_components": 0,
+  "v1_labels_split": {}
+}

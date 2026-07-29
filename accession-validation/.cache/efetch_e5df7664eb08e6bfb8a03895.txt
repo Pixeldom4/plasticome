@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-194123664	INSDC	QFZU02000057.1	34523	35833	-	RGA04531.1	lipase	Microbispora triticiradicis	NEAU-HRDPA2-9	GCA_003260025.2

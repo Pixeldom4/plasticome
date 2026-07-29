@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-220697508	INSDC	QDGB01000371.1	80949	82346	-	RQX11448.1	lipase	Micromonospora ureilytica	LB19	GCA_003857405.1

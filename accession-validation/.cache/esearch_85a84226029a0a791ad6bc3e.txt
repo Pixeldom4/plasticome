@@ -1,1 +1,0 @@
-{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["22112773"],"translationset":[],"querytranslation":"\"10 1016 j enzmictec 2010 09 011\"[Publisher ID]"}}

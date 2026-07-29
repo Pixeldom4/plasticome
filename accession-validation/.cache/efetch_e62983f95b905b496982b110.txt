@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-115021015	INSDC	LT607412.1	6844030	6845412	+	SCF17189.1	Dienelactone hydrolase	Micromonospora coriariae	DSM 44875	GCA_900091455.1

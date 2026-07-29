@@ -1,8 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-71289217	RefSeq	NZ_FOLA01000011.1	233	1333	-	WP_039353427.1	T9SS type A sorting domain-containing protein	Kaistella jeonii	DSM 17048	GCF_900112115.1
-71289217	RefSeq	NZ_JSYL01000009.1	794	1894	-	WP_039353427.1	T9SS type A sorting domain-containing protein	Kaistella jeonii	DSM 17048	GCF_000812865.1
-71289217	RefSeq	NZ_LR134503.1	1343393	1344493	-	WP_039353427.1	T9SS type A sorting domain-containing protein	Kaistella jeonii	NCTC13459	GCF_900638245.1
-71289217	PDB	N/A				7PZJ_A	Chain A, Lipase	Kaistella jeonii		
-71289217	INSDC	JSYL01000009.1	794	1894	-	KIA88187.1	lipase	Kaistella jeonii	DSM 17048	GCA_000812865.1
-71289217	INSDC	FOLA01000011.1	233	1333	-	SFC25343.1	Por secretion system C-terminal sorting domain-containing protein	Kaistella jeonii	DSM 17048	GCA_900112115.1
-71289217	INSDC	LR134503.1	1343393	1344493	-	VEI95647.1	Lipase 1	Kaistella jeonii	NCTC13459	GCA_900638245.1

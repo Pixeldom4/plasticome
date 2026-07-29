@@ -2,3 +2,11 @@
 __pycache__/
 *.pyc
 .env
+.ipynb_checkpoints/
+
+# third-party binaries and fetch caches — large, reproducible, not source
+bin/usearch11
+bin/usearch12
+bin/diamond/
+bin/diamond-linux64.tar.gz
+cache/

@@ -1,0 +1,19 @@
+{
+  "input_tsv": "data/plasticome-substrings-collapsed-singletons-validated.tsv",
+  "input_md5": "5b412db4e64ee3b4ec533e30608c7246",
+  "v1_overlay_csv": "/Users/Pixel/Documents/projects/plasticome/petadex-alignment/analysis/data/plasticome_v1.csv",
+  "n_rows": 481,
+  "n_blank_seq_dropped": 0,
+  "n_rows_with_seq": 481,
+  "n_nodes": 481,
+  "n_md5_collapsed_rows": 0,
+  "n_multi_row_nodes": 0,
+  "n_unique_md5": 481,
+  "db_letters": 168497,
+  "len_min": 28,
+  "len_median": 315,
+  "len_max": 734,
+  "n_lt_200aa": 6,
+  "n_lt_100aa": 1,
+  "n_with_v1_overlay": 191
+}

@@ -1,3 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-14910367	INSDC	EU660533.1	828	1754	+	ACC95208.1	lipIAF5-2	uncultured bacterium		
-14910367	PAT	N/A				APN37499.1	Sequence 16 from patent US 9303264	Unknown		

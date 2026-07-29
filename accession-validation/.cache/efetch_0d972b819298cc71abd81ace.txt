@@ -1,3 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-1688161	INSDC	AY230855.1	1	2037	+	AAP41848.1	70 kDa protein	Xanthomonas sp. 35Y	35Y	
-1688161	INSDC	KC980911.1	1	2037	+	AGT20506.1	rubber oxygenase A	Xanthomonas sp. 35Y	35Y	

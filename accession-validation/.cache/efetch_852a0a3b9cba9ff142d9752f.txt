@@ -1,3 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-143643672	INSDC	CP015109.1	2724302	2725720	+	ARF18137.1	glutamyl-tRNA amidotransferase	Sporosarcina ureae	P17a	GCA_002082015.1
-143643672	RefSeq	NZ_CP015109.1	2724302	2725720	+	WP_083035115.1	amidase	Sporosarcina ureae	P17a	GCF_002082015.1

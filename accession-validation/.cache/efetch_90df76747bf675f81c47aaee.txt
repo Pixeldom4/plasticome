@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-606550847	INSDC	ON332566.1	1	789	+	WAU86704.1	PET40	synthetic construct		

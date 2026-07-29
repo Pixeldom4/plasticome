@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-238505481	INSDC	SMKF01000021.1	22449	23780	-	TDC42446.1	lipase	Micromonospora sp. KC213	KC213	GCA_004348325.1

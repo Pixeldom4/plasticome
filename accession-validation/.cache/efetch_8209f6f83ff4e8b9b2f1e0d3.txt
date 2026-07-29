@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-124835687	INSDC	FNPH01000002.1	420055	421446	-	SDY46727.1	Dienelactone hydrolase	Micromonospora pattaloongensis	DSM 45245	GCA_900107255.1

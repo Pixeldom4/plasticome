@@ -1,2 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-192544156	INSDC	POTY01000067.1	27230	28618	-	PZG18712.1	lipase	Micromonospora craterilacus	NA12	GCA_003236315.1

@@ -1,3 +1,0 @@
-Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-298844595	INSDC	SAIY01000011.1	142478	143776	+	NEE66696.1	prolyl oligopeptidase family serine peptidase	Verrucosispora sioxanthis	CWR15	GCA_010560025.1
-298844595	INSDC	SAIY01000011.1	142478	143776	+	NGM15806.1	prolyl oligopeptidase family serine peptidase	Verrucosispora sioxanthis	CWR15	GCA_010560025.1
