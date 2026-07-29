@@ -1,0 +1,10 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+28441531	RefSeq	NZ_AKVJ01000066.1	88571	89779	+	WP_007937185.1	esterase/lipase family protein	Pelosinus fermentans B4	B4	GCF_000271505.1
+28441531	RefSeq	NZ_AKVM01000079.1	307323	308531	-	WP_007937185.1	esterase/lipase family protein	Pelosinus fermentans A11	A11	GCF_000271545.1
+28441531	RefSeq	NZ_AKVN02000001.1	3850811	3852019	+	WP_007937185.1	esterase/lipase family protein	Pelosinus fermentans DSM 17108	R7	GCF_000271485.2
+28441531	RefSeq	NZ_AMZI01000051.1	15848	17056	+	WP_007937185.1	esterase/lipase family protein	Pelosinus sp. HCF1	HCF1	GCF_000317005.1
+28441531	RefSeq	NZ_FNKF01000002.1	3850811	3852019	+	WP_007937185.1	esterase/lipase family protein	Pelosinus fermentans	R7, DSM 17108	GCF_900100555.1
+28441531	INSDC	AKVJ01000066.1	88571	89779	+	EIW16269.1	lipase	Pelosinus fermentans B4	B4	GCA_000271505.1
+28441531	INSDC	AKVM01000079.1	307323	308531	-	EIW22750.1	lipase	Pelosinus fermentans A11	A11	GCA_000271545.1
+28441531	INSDC	AKVN02000001.1	3850811	3852019	+	OAM95576.1	Triacylglycerol lipase	Pelosinus fermentans DSM 17108	R7	GCA_000271485.2
+28441531	INSDC	FNKF01000002.1	3850811	3852019	+	SDR30031.1	triacylglycerol lipase	Pelosinus fermentans	R7, DSM 17108	GCA_900100555.1

@@ -1,0 +1,12 @@
+CLAIM 2 / evidence 01 — the ALIGNMENTS are identical across versions
+Controlled: same command (-usearch_local), same FASTA, same params; version is the only variable.
+
+shared directed pairs compared: 7903
+
+difference (v12 - v11) on shared pairs:
+  percent identity : median +0.000   mean +0.1509   |Δ|>1%%: 431/7903
+  bit score        : median +0.000   mean +1.0682   |Δ|>1 : 667/7903
+  alignment length : median +0.000   mean -0.1578   |Δ|>0 : 758/7903
+
+=> identity, score, and alignment length are unchanged. The e-value difference below
+   therefore cannot be attributed to different alignments or different scoring.

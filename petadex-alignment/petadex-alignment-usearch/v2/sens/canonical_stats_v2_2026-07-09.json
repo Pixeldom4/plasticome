@@ -1,0 +1,33 @@
+{
+  "prefix": "canonical",
+  "evalue_mode": "paper_fixed",
+  "db_letters": 167699,
+  "evalue_scale": 0.442781,
+  "n_nodes": 492,
+  "n_v1": 205,
+  "n_delta": 287,
+  "raw_alignments": 100521,
+  "aligned_pairs": 49620,
+  "edges_passing": 37153,
+  "v1_induced_edges": 2651,
+  "v1_induced_components": 42,
+  "baseline_merges": [
+    [
+      "1",
+      "35"
+    ]
+  ],
+  "n_components": 45,
+  "kinds": {
+    "inherited": 39,
+    "merged": 1,
+    "novel": 5
+  },
+  "delta_outcomes": {
+    "merge": 217,
+    "join": 65,
+    "novel": 5
+  },
+  "singletons": 22,
+  "largest_component": 302
+}

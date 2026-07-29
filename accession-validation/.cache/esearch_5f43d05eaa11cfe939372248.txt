@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["32117139"],"translationset":[],"querytranslation":"\"10 3389 fmicb 2020 00114\"[Publisher ID]"}}

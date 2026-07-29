@@ -1,0 +1,31 @@
+# =====================================================================
+# Substring-scan experiment configuration
+# =====================================================================
+# Central settings for both scans. Edit here rather than in the scripts.
+#   - substring_scan.py           reads `workbook`, `joined_sheet`, `exact`
+#   - substring_scan_extended.py  additionally reads `near`
+#
+# Paths are resolved relative to the working directory you run from
+# (i.e. this folder, petadex-clustering/).
+
+# Input workbook and the sheet holding one row per unique aa_sequence.
+workbook: plasticomev1_join_retrievingfromaccession.xlsx
+joined_sheet: joined
+
+# --- Exact scan (substring_scan.py) -----------------------------------
+# Groups sequences where the shorter is a CONTIGUOUS EXACT substring of the
+# longer. Catches terminal additions/truncations and exact internal containment.
+exact:
+  sheet_name: substring-scan
+
+# --- Near scan (substring_scan_extended.py) ---------------------------
+# Relaxed test: also catches point substitutions and internal indels.
+near:
+  sheet_name: near-substring-scan
+  # Fraction of the SHORTER sequence that must be covered by difflib matching
+  # blocks within the longer sequence to count as a near-substring.
+  #   higher  -> stricter (fewer, more confident groupings)
+  #   lower   -> looser   (more groupings, more false positives)
+  # For ~200-300 aa enzymes, 0.92 tolerates a handful of substitutions/indels
+  # (a single substitution in a 260-aa protein is ~0.996 coverage).
+  min_coverage: 0.92

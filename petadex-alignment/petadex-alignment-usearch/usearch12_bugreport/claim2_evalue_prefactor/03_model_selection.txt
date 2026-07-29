@@ -1,0 +1,33 @@
+CLAIM 2 / evidence 03 — model selection: both versions fit E = K * (search space) * 2^(-bits)
+Identify the search-space form by lowest residual scatter (std of implied log10 K).
+[ m = query length ; N = 74254 total db letters ; Ndb = 213 db seqs ]
+
+=== usearch v11.0.667 ===
+     model  log10K (mean)      std
+  m(query)          4.874    0.087
+       m*N          0.003    0.087
+   m*N*Ndb         -2.325    0.087
+     m*Ndb          2.546    0.087
+ n(target)          4.873    0.115
+         N          2.483    0.115
+     N*Ndb          0.154    0.115
+     const          7.353    0.115
+       m*n          2.393    0.118
+
+=== usearch v12.0-beta ===
+     model  log10K (mean)      std
+       m*N          4.132    0.087
+   m*N*Ndb          1.804    0.087
+     m*Ndb          6.675    0.087
+  m(query)          9.003    0.087
+         N          6.612    0.116
+     N*Ndb          4.283    0.116
+     const         11.482    0.116
+ n(target)          9.002    0.116
+       m*n          6.523    0.118
+
+Both versions select the SAME form (m*N), with identical residual scatter -> the difference
+is localized to the constant prefactor K alone:
+  usearch11: K = 1.01  (log10K median +0.003, IQR[-0.072,+0.081])
+  usearch12: K = 1.356e+04  (log10K median +4.132, IQR[+4.056,+4.211])
+  K_v12 / K_v11 = 13472  ( = 10^4.13 )

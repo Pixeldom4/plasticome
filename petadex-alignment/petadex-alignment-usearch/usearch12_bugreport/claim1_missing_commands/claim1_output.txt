@@ -1,0 +1,8 @@
+command          | usearch v11.0.667                                    | usearch v12.0-beta
+-----------------+------------------------------------------------------+-----------------------------------------------------
+-allpairs_local  | RECOGNIZED (parses command; runs or requests expected args) | REJECTED: Unknown command-line option -allpairs_local
+-allpairs_global | RECOGNIZED (parses command; runs or requests expected args) | REJECTED: Unknown command-line option -allpairs_global
+-ublast          | RECOGNIZED (parses command; runs or requests expected args) | REJECTED: Unknown command-line option -ublast
+-calc_distmx     | RECOGNIZED (parses command; runs or requests expected args) | REJECTED: Unknown command-line option -calc_distmx
+-usearch_local   | RECOGNIZED (parses command; runs or requests expected args) | RECOGNIZED (parses command; runs or requests expected args)
+-usearch_global  | RECOGNIZED (parses command; runs or requests expected args) | RECOGNIZED (parses command; runs or requests expected args)

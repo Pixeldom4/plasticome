@@ -1,0 +1,8 @@
+usearch v11.0.667_i86linux64, 8.0Gb RAM, 10 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+From 2024 donated to public domain under CC0-1.0 license
+
+00:00 332Mb     0.1% Reading /d/v5/step0_check/v1_213_rev.fasta00:00 337Mb   100.0% Reading /d/v5/step0_check/v1_213_rev.fasta
+00:00 304Mb     0.1% Aligning, 0.0% matched                    00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 304Mb     0.1% Aligning, 0.0% matched00:00 306Mb   100.0% Aligning, 99.1% matched

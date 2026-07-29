@@ -1,0 +1,12 @@
+usearch v11.0.667_i86linux64, 791Gb RAM, 480 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+From 2024 donated to public domain under CC0-1.0 license
+
+
+
+../../bin/usearch11 -ublast ../inputs/mre_n84_n35.fasta -output /dev/null -userout /dev/null
+
+---Fatal error---
+--userout requires --userfields

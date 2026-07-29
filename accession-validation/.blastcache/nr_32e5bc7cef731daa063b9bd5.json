@@ -1,0 +1,1887 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_523507",
+          "query_title": "unnamed protein product",
+          "query_len": 259,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7E31|A",
+                  "accession": "7E31_A",
+                  "title": "Chain A, alpha/beta hydrolase [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7E31|B",
+                  "accession": "7E31_B",
+                  "title": "Chain B, alpha/beta hydrolase [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W66|A",
+                  "accession": "7W66_A",
+                  "title": "Chain A, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W66|B",
+                  "accession": "7W66_B",
+                  "title": "Chain B, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W69|A",
+                  "accession": "7W69_A",
+                  "title": "Chain A, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 533.487,
+                  "score": 1373,
+                  "evalue": 0,
+                  "identity": 258,
+                  "positive": 258,
+                  "query_from": 2,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 258,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "midline": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|XLT16887.1|",
+                  "accession": "XLT16887",
+                  "title": "PHL7 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                },
+                {
+                  "id": "gb|XLT16888.1|",
+                  "accession": "XLT16888",
+                  "title": "PHL7 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 261,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 528.865,
+                  "score": 1361,
+                  "evalue": 0,
+                  "identity": 255,
+                  "positive": 257,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|7NEI|A",
+                  "accession": "7NEI_A",
+                  "title": "Chain A, Polyester Hydrolase Leipzig 7 (PHL-7) [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7NEI|B",
+                  "accession": "7NEI_B",
+                  "title": "Chain B, Polyester Hydrolase Leipzig 7 (PHL-7) [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 267,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 528.865,
+                  "score": 1361,
+                  "evalue": 0,
+                  "identity": 255,
+                  "positive": 257,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gb|XTQ11879.1|",
+                  "accession": "XTQ11879",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 528.865,
+                  "score": 1361,
+                  "evalue": 0,
+                  "identity": 255,
+                  "positive": 257,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|8BRA|A",
+                  "accession": "8BRA_A",
+                  "title": "Chain A, Polyester Hydrolase Leipzig 7 (PHL-7), catalysis-deficient S131A mutant [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|8BRA|B",
+                  "accession": "8BRA_B",
+                  "title": "Chain B, Polyester Hydrolase Leipzig 7 (PHL-7), catalysis-deficient S131A mutant [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|8BRB|A",
+                  "accession": "8BRB_A",
+                  "title": "Chain A, Polyester Hydrolase Leipzig 7 (PHL-7), catalysis-deficient S131A mutant [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|8BRB|B",
+                  "accession": "8BRB_B",
+                  "title": "Chain B, Polyester Hydrolase Leipzig 7 (PHL-7), catalysis-deficient S131A mutant [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 267,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 528.094,
+                  "score": 1359,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 257,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHAMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGH+MGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|XTQ11886.1|",
+                  "accession": "XTQ11886",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 526.939,
+                  "score": 1356,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDSPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLD PDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gb|MFO7281263.1|",
+                  "accession": "MFO7281263",
+                  "title": "dienelactone hydrolase family protein [Thermoanaerobacterales bacterium]",
+                  "taxid": 2304039,
+                  "sciname": "Thermoanaerobacterales bacterium"
+                },
+                {
+                  "id": "gb|MFS8586545.1|",
+                  "accession": "MFS8586545",
+                  "title": "dienelactone hydrolase family protein [Acidimicrobiia bacterium]",
+                  "taxid": 2080302,
+                  "sciname": "Acidimicrobiia bacterium"
+                }
+              ],
+              "len": 315,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 526.939,
+                  "score": 1356,
+                  "evalue": 0,
+                  "identity": 256,
+                  "positive": 256,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 36,
+                  "hit_to": 292,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRDTCP",
+                  "midline": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|7CUV|A",
+                  "accession": "7CUV_A",
+                  "title": "Chain A, alpha/beta hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                },
+                {
+                  "id": "pdb|7CUV|B",
+                  "accession": "7CUV_B",
+                  "title": "Chain B, alpha/beta hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                },
+                {
+                  "id": "pdb|7E30|A",
+                  "accession": "7E30_A",
+                  "title": "Chain A, alpha/beta hydrolase [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7E30|B",
+                  "accession": "7E30_B",
+                  "title": "Chain B, alpha/beta hydrolase [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W6C|A",
+                  "accession": "7W6C_A",
+                  "title": "Chain A, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W6C|B",
+                  "accession": "7W6C_B",
+                  "title": "Chain B, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W6O|A",
+                  "accession": "7W6O_A",
+                  "title": "Chain A, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W6O|B",
+                  "accession": "7W6O_B",
+                  "title": "Chain B, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W6Q|A",
+                  "accession": "7W6Q_A",
+                  "title": "Chain A, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                },
+                {
+                  "id": "pdb|7W6Q|B",
+                  "accession": "7W6Q_B",
+                  "title": "Chain B, PSH1 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 526.939,
+                  "score": 1356,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 256,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 2,
+                  "hit_to": 258,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gb|XTQ11885.1|",
+                  "accession": "XTQ11885",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 526.554,
+                  "score": 1355,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDYPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLD PDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|XTQ11888.1|",
+                  "accession": "XTQ11888",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 526.168,
+                  "score": 1354,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITLLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTIT LDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gb|XTQ11889.1|",
+                  "accession": "XTQ11889",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 526.168,
+                  "score": 1354,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTVSSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPT SSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|XTQ11890.1|",
+                  "accession": "XTQ11890",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 526.168,
+                  "score": 1354,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTPVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQT VSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gb|XTQ11887.1|",
+                  "accession": "XTQ11887",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 525.783,
+                  "score": 1353,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSITPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VS TPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|XTQ11893.1|",
+                  "accession": "XTQ11893",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 525.398,
+                  "score": 1352,
+                  "evalue": 0,
+                  "identity": 253,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFSAGQESIAWLGPRIASQGFVVITIDTITRLDYPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGF+AGQESIAWLGPRIASQGFVVITIDTITRLD PDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gb|MFS8480518.1|",
+                  "accession": "MFS8480518",
+                  "title": "dienelactone hydrolase family protein [Acidimicrobiia bacterium]",
+                  "taxid": 2080302,
+                  "sciname": "Acidimicrobiia bacterium"
+                }
+              ],
+              "len": 315,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 525.398,
+                  "score": 1352,
+                  "evalue": 0,
+                  "identity": 255,
+                  "positive": 256,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 36,
+                  "hit_to": 292,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANDTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRDTCP",
+                  "midline": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAAN+TSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gb|XTQ11884.1|",
+                  "accession": "XTQ11884",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 524.242,
+                  "score": 1349,
+                  "evalue": 0,
+                  "identity": 253,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRFDYPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITR D PDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gb|XTQ11892.1|",
+                  "accession": "XTQ11892",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 523.472,
+                  "score": 1347,
+                  "evalue": 0,
+                  "identity": 252,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITLLDQPDSRGRQLQAALDHLHTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTVAPVSSHSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTIT LDQPDSRGRQLQAALDHL TNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDT+APVSSHSEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|XTQ11891.1|",
+                  "accession": "XTQ11891",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 523.472,
+                  "score": 1347,
+                  "evalue": 0,
+                  "identity": 253,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDYPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSNSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLD PDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSS+SEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gb|XTQ11882.1|",
+                  "accession": "XTQ11882",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 523.087,
+                  "score": 1346,
+                  "evalue": 0,
+                  "identity": 252,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRANSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAELDTIAPVSSNSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLR NSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGA+LDTIAPVSS+SEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gb|XTQ11896.1|",
+                  "accession": "XTQ11896",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 521.931,
+                  "score": 1343,
+                  "evalue": 0,
+                  "identity": 251,
+                  "positive": 256,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLHTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAELDTIAPVSSNSEAFYNSLPSDLDKAYMELKGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHL TNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGA+LDTIAPVSS+SEAFYNSLPSDLDKAYMEL+GASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|XTQ11895.1|",
+                  "accession": "XTQ11895",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 520.776,
+                  "score": 1340,
+                  "evalue": 0,
+                  "identity": 252,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANTYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDYPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSNSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M N YERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLD PDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSS+SEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gb|XTQ11894.1|",
+                  "accession": "XTQ11894",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 520.005,
+                  "score": 1338,
+                  "evalue": 0,
+                  "identity": 251,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSPLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRANSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSNSEAFYNSLPSDLDKAYMELKGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVS LQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLR NSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSS+SEAFYNSLPSDLDKAYMEL+GASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gb|XTQ11897.1|",
+                  "accession": "XTQ11897",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 520.005,
+                  "score": 1338,
+                  "evalue": 0,
+                  "identity": 251,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQVDGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAELDTIAPVSSNSEAFYNSLPSDLDKAYMELRGASHLVSITPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQ DGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGA+LDTIAPVSS+SEAFYNSLPSDLDKAYMELRGASH VS TPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gb|XTQ11898.1|",
+                  "accession": "XTQ11898",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 519.62,
+                  "score": 1337,
+                  "evalue": 0,
+                  "identity": 252,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSPLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSNSEAFYNSLPSDLDKAYMELRGASHLVSITPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVS LQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSS+SEAFYNSLPSDLDKAYMELRGASH VS TPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gb|XTQ11899.1|",
+                  "accession": "XTQ11899",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 519.62,
+                  "score": 1337,
+                  "evalue": 0,
+                  "identity": 251,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFSAGQESIAWLGPRIASQGFVVITIDTITRLDYPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSNSEAFYNSLPSDLDKAYMELRGASHLVSITPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGF+AGQESIAWLGPRIASQGFVVITIDTITRLD PDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSS+SEAFYNSLPSDLDKAYMELRGASH VS TPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gb|XTQ11881.1|",
+                  "accession": "XTQ11881",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 519.235,
+                  "score": 1336,
+                  "evalue": 0,
+                  "identity": 250,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASHGFVVITIDTITRLDYPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAELDTIAPVSSNSEAFYNSLPSDLDKAYMELKGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIAS GFVVITIDTITRLD PDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGA+LDTIAPVSS+SEAFYNSLPSDLDKAYMEL+GASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|XTQ11880.1|",
+                  "accession": "XTQ11880",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 518.464,
+                  "score": 1334,
+                  "evalue": 0,
+                  "identity": 250,
+                  "positive": 254,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSRLQVDGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDYPDSRGRQLQAALDHLRINSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAELDTIAPVSSNSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQ DGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLD PDSRGRQLQAALDHLR NSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGA+LDTIAPVSS+SEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|XTQ11883.1|",
+                  "accession": "XTQ11883",
+                  "title": "PHL7, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 518.079,
+                  "score": 1333,
+                  "evalue": 0,
+                  "identity": 250,
+                  "positive": 255,
+                  "query_from": 1,
+                  "query_to": 259,
+                  "hit_from": 1,
+                  "hit_to": 259,
+                  "align_len": 259,
+                  "gaps": 0,
+                  "qseq": "MENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "MANPYERGPDPTESSIEAVRGPFAVAQTTVSPLQADGFGGGTIYYPTDTSQGTFGAVAISPGFSAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLHTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAELDTIAPVSSNSEAFYNSLPSDLDKAYMELRGASHLVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRSTCPF",
+                  "midline": "M NPYERGPDPTESSIEAVRGPFAVAQTTVS LQADGFGGGTIYYPTDTSQGTFGAVAISPGF+AGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHL TNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGA+LDTIAPVSS+SEAFYNSLPSDLDKAYMELRGASH VSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR+TCPF"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "tpg|HLT70754.1|",
+                  "accession": "HLT70754",
+                  "title": "dienelactone hydrolase family protein [Acidimicrobiales bacterium]",
+                  "taxid": 2201156,
+                  "sciname": "Acidimicrobiales bacterium"
+                }
+              ],
+              "len": 315,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 479.945,
+                  "score": 1234,
+                  "evalue": 1.1666e-168,
+                  "identity": 241,
+                  "positive": 249,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 36,
+                  "hit_to": 292,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "ENPYERGPDPTESSIEAVRGPFTVAQTSVSRLAANGFGGGTIYYPTDTSQGTFGAVAISPGFTAGESSIAWLGPRIASQGFVVITIDTLTRLDQPDSRGRQLQAALDHLRTNSTVRNRIDPNRMAVMGHSMGGGGALSAAASNTDLEAAIPLQGWHTRKNWSSVRTPTLVIGAQLDSIAPVGSHSEAFYESLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDDDLRYEQFLCPAPDDFAISEYRDTCP",
+                  "midline": "ENPYERGPDPTESSIEAVRGPF VAQT+VSRL A+GFGGGTIYYPTDTSQGTFGAVAISPGFTAG+ SIAWLGPRIASQGFVVITIDT+TRLDQPDSRGRQLQAALDHLRTNS VRNRIDPNRMAVMGHSMGGGGALSAAA+NT LEAAIPLQGWHTRKNWSSVRTPTLV+GAQLD+IAPV SHSEAFY SLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVD+DLRYEQFLCPAPDDFAISEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "pdb|8EU1|A",
+                  "accession": "8EU1_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 401.364,
+                  "score": 1030,
+                  "evalue": 3.92533e-138,
+                  "identity": 192,
+                  "positive": 218,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 24,
+                  "hit_to": 281,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAP-DDFAISEYRATCPF",
+                  "hseq": "NPYERGPDPTESSLEASSGPFSVSETSVSRLSASGFGGGTIYYPTTTSEGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTLDQPDSRARQLMAALNYLVNRSSVRSRIDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHFAPNSSNTTIGKYSIAWLKRFVDNDTRYSQFLCPAPHDDSAISEYRSTCPY",
+                  "midline": "NPYERGPDPTESS+EA  GPF+V++T+VSRL A GFGGGTIYYPT TS+GT+GAVAISPG+TA Q SIAWLGPR+AS GFVVITIDT T LDQPDSR RQL AAL++L   S VR+RID +R+AVMGHSMGGGG L AA +N SL+AAIPL  WHT KNWSSVR PTL++GA+ DTIAPVSSH++ FYNSLPS   KAY+EL GASHF  N+ +TT  KYSIAWLKRFVDND RY QFLCPAP DD AISEYR+TCP+"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "pdb|8ETY|A",
+                  "accession": "8ETY_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 399.438,
+                  "score": 1025,
+                  "evalue": 1.99061e-137,
+                  "identity": 191,
+                  "positive": 217,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 25,
+                  "hit_to": 282,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAP-DDFAISEYRATCPF",
+                  "hseq": "NPYERGPDPTESSLEASSGPFSVSETSVSRLSASGFGGGTIYYPTTTSEGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTFDQPDSRARQLMAALNYLVNRSSVRSRIDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHFAPNSSNTTIGKYSIAWLKRFVDNDTRYSQFLCPAPHDDSAISEYRSTCPY",
+                  "midline": "NPYERGPDPTESS+EA  GPF+V++T+VSRL A GFGGGTIYYPT TS+GT+GAVAISPG+TA Q SIAWLGPR+AS GFVVITIDT T  DQPDSR RQL AAL++L   S VR+RID +R+AVMGHSMGGGG L AA +N SL+AAIPL  WHT KNWSSVR PTL++GA+ DTIAPVSSH++ FYNSLPS   KAY+EL GASHF  N+ +TT  KYSIAWLKRFVDND RY QFLCPAP DD AISEYR+TCP+"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "pdb|8ETZ|A",
+                  "accession": "8ETZ_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 397.512,
+                  "score": 1020,
+                  "evalue": 9.61287e-137,
+                  "identity": 190,
+                  "positive": 217,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 24,
+                  "hit_to": 281,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAP-DDFAISEYRATCPF",
+                  "hseq": "NPYERGPDPTDSSLEASSGPFSVSETSVSRLSASGFGGGTIYYPTTTSEGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTFDQPDSRARQLMAALNYLVNRSSVRSRIDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHFAPNSSNTTIGKYSIAWLKRFVDNDTRYSQFLCPAPHDDSAISEYRSTCPY",
+                  "midline": "NPYERGPDPT+SS+EA  GPF+V++T+VSRL A GFGGGTIYYPT TS+GT+GAVAISPG+TA Q SIAWLGPR+AS GFVVITIDT T  DQPDSR RQL AAL++L   S VR+RID +R+AVMGHSMGGGG L AA +N SL+AAIPL  WHT KNWSSVR PTL++GA+ DTIAPVSSH++ FYNSLPS   KAY+EL GASHF  N+ +TT  KYSIAWLKRFVDND RY QFLCPAP DD AISEYR+TCP+"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_189211040.1|",
+                  "accession": "WP_189211040",
+                  "title": "alpha/beta hydrolase family protein [Actinokineospora fastidiosa]",
+                  "taxid": 1816,
+                  "sciname": "Actinokineospora fastidiosa"
+                },
+                {
+                  "id": "dbj|GGS33946.1|",
+                  "accession": "GGS33946",
+                  "title": "lipase [Actinokineospora fastidiosa]",
+                  "taxid": 1816,
+                  "sciname": "Actinokineospora fastidiosa"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 397.127,
+                  "score": 1019,
+                  "evalue": 1.99302e-136,
+                  "identity": 187,
+                  "positive": 215,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 31,
+                  "hit_to": 286,
+                  "align_len": 257,
+                  "gaps": 1,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "DNPYERGPDPTESSIEASRGPFAVAQSTVSRTAARGFGGGTVYYPTDTSQGTFGAIAISPGYTATQSSIAWLGPRIASQGFVVITIDTLSRYDQPSARADQLLAALDHL-TGSSLRNRIDPTRLGVMGHSMGGGGAIEAANDRPSLQASIPLTGWHTTKTWSRMAVPTLVVGAENDGVAPVASHSEPFYEGMPAELDKAYLELNDASHYAPNSPNVTIAKYSISWLKRFIDNDTRYEQFLCPAPAESTISEYRDTCP",
+                  "midline": "+NPYERGPDPTESSIEA RGPFAVAQ+TVSR  A GFGGGT+YYPTDTSQGTFGA+AISPG+TA Q SIAWLGPRIASQGFVVITIDT++R DQP +R  QL AALDHL T S +RNRIDP R+ VMGHSMGGGGA+ AA +  SL+A+IPL GWHT K WS +  PTLVVGA+ D +APV+SHSE FY  +P++LDKAY+EL  ASH+  N+P+ T AKYSI+WLKRF+DND RYEQFLCPAP +  ISEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "pdb|8EU0|A",
+                  "accession": "8EU0_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                },
+                {
+                  "id": "pdb|8EU0|B",
+                  "accession": "8EU0_B",
+                  "title": "Chain B, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 396.356,
+                  "score": 1017,
+                  "evalue": 3.50047e-136,
+                  "identity": 191,
+                  "positive": 216,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 24,
+                  "hit_to": 281,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAP-DDFAISEYRATCPF",
+                  "hseq": "NPYERGPDPTESSLEASSGPFSVSQTSVSRLSASGFGGGTIYYPTTTSEGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTFDQPDSRARQLMAALNYLVNRSSVRSRIDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHFAPNSSNTTIGKYSIAWLKRFVDNDTRYSQFLCPAPHDDSAISEYRSTXPY",
+                  "midline": "NPYERGPDPTESS+EA  GPF+V+QT+VSRL A GFGGGTIYYPT TS+GT+GAVAISPG+TA Q SIAWLGPR+AS GFVVITIDT T  DQPDSR RQL AAL++L   S VR+RID +R+AVMGHSMGGGG L AA +N SL+AAIPL  WHT KNWSSVR PTL++GA+ DTIAPVSSH++ FYNSLPS   KAY+EL GASHF  N+ +TT  KYSIAWLKRFVDND RY QFLCPAP DD AISEYR+T P+"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "pdb|8ETX|A",
+                  "accession": "8ETX_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 395.971,
+                  "score": 1016,
+                  "evalue": 3.99213e-136,
+                  "identity": 188,
+                  "positive": 216,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 24,
+                  "hit_to": 281,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAP-DDFAISEYRATCPF",
+                  "hseq": "NPYERGPDPTEASLEASSGPFSVSETSVSRLSASGFGGGTIYYPTTTSSGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTFDQPDSRARQLMAALNYLVNRSSVRSRIDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHFAPNSSNTTIGKYSVSWLKRFVDNDTRYSQFLCPAPHDDSAISEYRSTCPY",
+                  "midline": "NPYERGPDPTE+S+EA  GPF+V++T+VSRL A GFGGGTIYYPT TS GT+GAVAISPG+TA Q SIAWLGPR+AS GFVVITIDT T  DQPDSR RQL AAL++L   S VR+RID +R+AVMGHSMGGGG L AA +N SL+AAIPL  WHT KNWSSVR PTL++GA+ DTIAPVSSH++ FYNSLPS   KAY+EL GASHF  N+ +TT  KYS++WLKRFVDND RY QFLCPAP DD AISEYR+TCP+"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_396122770.1|",
+                  "accession": "WP_396122770",
+                  "title": "alpha/beta hydrolase family protein [Actinokineospora sp. UTMC 2448]",
+                  "taxid": 2268449,
+                  "sciname": "Actinokineospora sp. UTMC 2448"
+                },
+                {
+                  "id": "gb|UVS80242.1|",
+                  "accession": "UVS80242",
+                  "title": "Lipase 1 [Actinokineospora sp. UTMC 2448]",
+                  "taxid": 2268449,
+                  "sciname": "Actinokineospora sp. UTMC 2448"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 393.66,
+                  "score": 1010,
+                  "evalue": 4.27718e-135,
+                  "identity": 186,
+                  "positive": 214,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 31,
+                  "hit_to": 286,
+                  "align_len": 257,
+                  "gaps": 1,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "DNPYERGPDPTESSIEASRGPFAVAQSTVSRTAARGFGGGTVYYPTDTSQGTFGAIAISPGYTATQSSIAWLGPRIASQGFVVITIDTLSRYDQPSARADQLLAALDHL-TGSSLRDRIDPTRLGVMGHSMGGGGAIEAANDRPSLQASIPLTGWHTTKTWSRMAVPTLVVGAENDGVAPVASHSEPFYEGTPAELDKAYLELNDASHYAPNSPNVTIAKYSISWLKRFIDNDTRYEQFLCPAPAESTISEYRDTCP",
+                  "midline": "+NPYERGPDPTESSIEA RGPFAVAQ+TVSR  A GFGGGT+YYPTDTSQGTFGA+AISPG+TA Q SIAWLGPRIASQGFVVITIDT++R DQP +R  QL AALDHL T S +R+RIDP R+ VMGHSMGGGGA+ AA +  SL+A+IPL GWHT K WS +  PTLVVGA+ D +APV+SHSE FY   P++LDKAY+EL  ASH+  N+P+ T AKYSI+WLKRF+DND RYEQFLCPAP +  ISEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gb|MBN2624289.1|",
+                  "accession": "MBN2624289",
+                  "title": "hypothetical protein [Acidimicrobiales bacterium]",
+                  "taxid": 2201156,
+                  "sciname": "Acidimicrobiales bacterium"
+                }
+              ],
+              "len": 275,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 390.193,
+                  "score": 1001,
+                  "evalue": 5.99754e-134,
+                  "identity": 183,
+                  "positive": 213,
+                  "query_from": 3,
+                  "query_to": 258,
+                  "hit_from": 19,
+                  "hit_to": 274,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "NPYERGPAPSQSSIEAVRGPFSTSQTSVWSFSVSGFGGGTIYYPTTTSQGTFGAVAISPGFTASQSSIAWMGPRLASQGFVVFTIDTTSRFDQPASRGRQLQAALDYLVRYSSVRNRVDADRLAVAGHSMGGGGSLEASADNPDLQASIPLQPWNLDKTWGEVRVPTMIIGAQYDTIASVSSHSIPFFNSIPASSEKAYLELRGASHFVSNTSDTTTAKYMISWLKRYVDNDTRYEQFLCPAPRELAISDYRDTCP",
+                  "midline": "NPYERGP P++SSIEAVRGPF+ +QT+V      GFGGGTIYYPT TSQGTFGAVAISPGFTA Q SIAW+GPR+ASQGFVV TIDT +R DQP SRGRQLQAALD+L   S VRNR+D +R+AV GHSMGGGG+L A+A+N  L+A+IPLQ W+  K W  VR PT+++GAQ DTIA VSSHS  F+NS+P+  +KAY+ELRGASHFVSNT DTTTAKY I+WLKR+VDND RYEQFLCPAP + AIS+YR TCP"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_051712657.1|",
+                  "accession": "WP_051712657",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Spirillospora albida]",
+                  "taxid": 58123,
+                  "sciname": "Spirillospora albida"
+                }
+              ],
+              "len": 330,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 391.349,
+                  "score": 1004,
+                  "evalue": 1.75048e-133,
+                  "identity": 181,
+                  "positive": 216,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 72,
+                  "hit_to": 328,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "ENPYERGPDPTEASIEALRGPFATSETSVSGLSVTGFGGGTIYYPTSTAQGTFGAVAIAPGFTAGQSSMAWLGPRLASQGFVVFTIDTLTRLDQPSSRARQLEAALDYLTQRSSVRSRIDASRLGLMGHSMGGGGTLEAAANRPQLQAAIPLTPWHTDKTFNDVRVPTMIIGAQADTVAPVSSHSEPFYSTIPAASEKAYLELAGASHFAPNSNNTTIAKYSISWLKRFIDNDTRYEQFICPAPREATISEYRDTCP",
+                  "midline": "ENPYERGPDPTE+SIEA+RGPFA ++T+VS L   GFGGGTIYYPT T+QGTFGAVAI+PGFTAGQ S+AWLGPR+ASQGFVV TIDT+TRLDQP SR RQL+AALD+L   S VR+RID +R+ +MGHSMGGGG L AAAN   L+AAIPL  WHT K ++ VR PT+++GAQ DT+APVSSHSE FY+++P+  +KAY+EL GASHF  N+ +TT AKYSI+WLKRF+DND RYEQF+CPAP +  ISEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_483883498.1|",
+                  "accession": "WP_483883498",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces indicus]",
+                  "taxid": 417292,
+                  "sciname": "Streptomyces indicus"
+                },
+                {
+                  "id": "emb|SDK08674.1|",
+                  "accession": "SDK08674",
+                  "title": "Dienelactone hydrolase family protein [Streptomyces indicus]",
+                  "taxid": 417292,
+                  "sciname": "Streptomyces indicus"
+                }
+              ],
+              "len": 314,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 390.578,
+                  "score": 1002,
+                  "evalue": 1.97852e-133,
+                  "identity": 187,
+                  "positive": 209,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 54,
+                  "hit_to": 311,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPD-DFAISEYRATCP",
+                  "hseq": "DNPYERGPAPTQSSIEASRGPYAVSQTSVSSLSASGFGGGTIYYPTTTSDGTFGAVVISPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDHLTQRSTVRSRVDASRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTGWNTDKTWPEIQTPTLVIGADGDTIAPVSSHSEPFYQSLPSSLDKAYLELNGASHFTPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCP",
+                  "midline": "+NPYERGP PT+SSIEA RGP+AV+QT+VS L A GFGGGTIYYPT TS GTFGAV ISPGFTA + SIAWLGPR+ASQGFVV TIDT+T LDQPDSRGRQL AALDHL   S VR+R+D +R+ VMGHSMGGGG L AA +  SL+AAIPL GW+T K W  ++TPTLV+GA  DTIAPVSSHSE FY SLPS LDKAY+EL GASHF  NT +TT AKYSI+WLKRF+DND RYEQFLCP P     I EYR  CP"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_033432831.1|",
+                  "accession": "WP_033432831",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Saccharothrix syringae]",
+                  "taxid": 103733,
+                  "sciname": "Saccharothrix syringae"
+                },
+                {
+                  "id": "gb|QFZ23029.1|",
+                  "accession": "QFZ23029",
+                  "title": "alpha/beta hydrolase [Saccharothrix syringae]",
+                  "taxid": 103733,
+                  "sciname": "Saccharothrix syringae"
+                }
+              ],
+              "len": 290,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.423,
+                  "score": 999,
+                  "evalue": 2.21383e-133,
+                  "identity": 182,
+                  "positive": 212,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 31,
+                  "hit_to": 287,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "ENPYERGPAPTTSSIEATRGPFATSQTTVSSLSASGFGGGTIYYPTSTAEGTFGAVAIAPGYTAAQSSISWLGPRLASQGFVIFTIDTNSRYDQPASRGDQLLAALDYLTTRSSVRDRIDPNRLGVMGHSMGGGGALEATKDRPTLQASIPLTAWNTTKTWSSVQTPTLIIGAENDSVASVTTHSERFYTGLPSTLDKAYLELAGASHFAPNSSNTTIAKYSIAWLKRFIDDDTRYEQFLCPAPRALAISEYRDTCP",
+                  "midline": "ENPYERGP PT SSIEA RGPFA +QTTVS L A GFGGGTIYYPT T++GTFGAVAI+PG+TA Q SI+WLGPR+ASQGFV+ TIDT +R DQP SRG QL AALD+L T S VR+RIDPNR+ VMGHSMGGGGAL A  +  +L+A+IPL  W+T K WSSV+TPTL++GA+ D++A V++HSE FY  LPS LDKAY+EL GASHF  N+ +TT AKYSIAWLKRF+D+D RYEQFLCPAP   AISEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_399204826.1|",
+                  "accession": "WP_399204826",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC050418]",
+                  "taxid": 3365612,
+                  "sciname": "Streptomyces sp. NPDC050418"
+                },
+                {
+                  "id": "gb|MFI6940975.1|",
+                  "accession": "MFI6940975",
+                  "title": "alpha/beta hydrolase family protein [Streptomyces sp. NPDC050418]",
+                  "taxid": 3365612,
+                  "sciname": "Streptomyces sp. NPDC050418"
+                }
+              ],
+              "len": 286,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.423,
+                  "score": 999,
+                  "evalue": 2.24201e-133,
+                  "identity": 186,
+                  "positive": 209,
+                  "query_from": 3,
+                  "query_to": 258,
+                  "hit_from": 27,
+                  "hit_to": 283,
+                  "align_len": 257,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPD-DFAISEYRATCP",
+                  "hseq": "NPYERGPAPTESSIEAARGPYAVSQTSVSSLSASGFGGGTIYYPTTTSDGTFGAVVISPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDHLTQRSTVRSRVDASRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTGWNTDKSWPEIQTPTLVIGADGDTIAPVATHSEPFYESLPGSLDKAYLELNGASHFTPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGTCP",
+                  "midline": "NPYERGP PTESSIEA RGP+AV+QT+VS L A GFGGGTIYYPT TS GTFGAV ISPGFTA + SIAWLGPR+ASQGFVV TIDT+T LDQPDSRGRQL AALDHL   S VR+R+D +R+ VMGHSMGGGG L AA +  SL+AAIPL GW+T K+W  ++TPTLV+GA  DTIAPV++HSE FY SLP  LDKAY+EL GASHF  NT +TT AKYSI+WLKRF+DND RYEQFLCP P     I EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "dbj|GAA4291813.1|",
+                  "accession": "GAA4291813",
+                  "title": "lipase [Actinokineospora soli]",
+                  "taxid": 1048753,
+                  "sciname": "Actinokineospora soli"
+                }
+              ],
+              "len": 290,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.423,
+                  "score": 999,
+                  "evalue": 2.78614e-133,
+                  "identity": 185,
+                  "positive": 210,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 31,
+                  "hit_to": 288,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPD-DFAISEYRATCP",
+                  "hseq": "DNPYQRGPDPTTSSIEASRGPFATAQTTVSRTAVRGFGGGTIYYPTDTSQGTFGAIAISPGYTATQSSISWLGPRIASQGFVVITIDTLSRYDQPGSRADQLLAALDHLTTASTVRSRIDASRLGVMGHSMGGGGAIEAANERPTLQASVPLTAWHTTKTWSRMAVPTLVVGAENDSVAPVSSHSEPFYTGMPSTLDKAYLELNGASHYAPNSSNTTIAKYSIAWLKRFIDNDTRYEQFLCPAPSPSAAIEEYRDTCP",
+                  "midline": "+NPY+RGPDPT SSIEA RGPFA AQTTVSR    GFGGGTIYYPTDTSQGTFGA+AISPG+TA Q SI+WLGPRIASQGFVVITIDT++R DQP SR  QL AALDHL T S VR+RID +R+ VMGHSMGGGGA+ AA    +L+A++PL  WHT K WS +  PTLVVGA+ D++APVSSHSE FY  +PS LDKAY+EL GASH+  N+ +TT AKYSIAWLKRF+DND RYEQFLCPAP    AI EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_084430972.1|",
+                  "accession": "WP_084430972",
+                  "title": "alpha/beta hydrolase family protein [Kibdelosporangium aridum]",
+                  "taxid": 2030,
+                  "sciname": "Kibdelosporangium aridum"
+                },
+                {
+                  "id": "emb|SMD21773.1|",
+                  "accession": "SMD21773",
+                  "title": "Predicted dienelactone hydrolase [Kibdelosporangium aridum]",
+                  "taxid": 2030,
+                  "sciname": "Kibdelosporangium aridum"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.423,
+                  "score": 999,
+                  "evalue": 4.15895e-133,
+                  "identity": 181,
+                  "positive": 215,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 50,
+                  "hit_to": 306,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "ENPYERGPDPTESSIEASRGPFSVSQTTVSRLSATGFGGGTIYYPTSTSEGTFGALAISPGFTATQSSISWMGPRLASQGFVVITIDTLSTLDQPDSRGDQLRAALTYLTQRSTVRTRIDASRLAVAGHSMGGGGSLEAAADQPTLQAAIPIAAWNTQKTWSTLRVPTFVIGGESDSVAPVASHSIPFYTSIPASAEKAYMELDNASHFFPQTPNTTMAKYMISWLKRFVDNDTRYEQFLCPAPNDREISDYRDTCP",
+                  "midline": "ENPYERGPDPTESSIEA RGPF+V+QTTVSRL A GFGGGTIYYPT TS+GTFGA+AISPGFTA Q SI+W+GPR+ASQGFVVITIDT++ LDQPDSRG QL+AAL +L   S VR RID +R+AV GHSMGGGG+L AAA+  +L+AAIP+  W+T+K WS++R PT V+G + D++APV+SHS  FY S+P+  +KAYMEL  ASHF   TP+TT AKY I+WLKRFVDND RYEQFLCPAP+D  IS+YR TCP"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_380141366.1|",
+                  "accession": "WP_380141366",
+                  "title": "alpha/beta hydrolase family protein [Kibdelosporangium aridum]",
+                  "taxid": 2030,
+                  "sciname": "Kibdelosporangium aridum"
+                },
+                {
+                  "id": "gb|MFC0107125.1|",
+                  "accession": "MFC0107125",
+                  "title": "alpha/beta hydrolase family protein [Kibdelosporangium aridum subsp. largum]",
+                  "taxid": 145996,
+                  "sciname": "Kibdelosporangium aridum subsp. largum"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.423,
+                  "score": 999,
+                  "evalue": 4.53955e-133,
+                  "identity": 181,
+                  "positive": 215,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 50,
+                  "hit_to": 306,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "ENPYERGPDPTESSIEASRGPFSVSQTTVSRLSATGFGGGTIYYPTSTSEGTFGALAISPGFTATQSSISWMGPRLASQGFVVITIDTLSTLDQPDSRGDQLRAALTYLTQRSTVRTRIDASRLAVAGHSMGGGGSLEAAADQPTLQAAIPIAAWNTQKTWSTLRVPTFVIGGESDSVAPVASHSIPFYTSIPASAEKAYMELDNASHFFPQTPNTTMAKYMISWLKRFVDNDTRYEQFLCPAPNDREISDYRDTCP",
+                  "midline": "ENPYERGPDPTESSIEA RGPF+V+QTTVSRL A GFGGGTIYYPT TS+GTFGA+AISPGFTA Q SI+W+GPR+ASQGFVVITIDT++ LDQPDSRG QL+AAL +L   S VR RID +R+AV GHSMGGGG+L AAA+  +L+AAIP+  W+T+K WS++R PT V+G + D++APV+SHS  FY S+P+  +KAYMEL  ASHF   TP+TT AKY I+WLKRFVDND RYEQFLCPAP+D  IS+YR TCP"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_173125978.1|",
+                  "accession": "WP_173125978",
+                  "title": "alpha/beta hydrolase family protein [Kibdelosporangium persicum]",
+                  "taxid": 2698649,
+                  "sciname": "Kibdelosporangium persicum"
+                },
+                {
+                  "id": "gb|NRN64286.1|",
+                  "accession": "NRN64286",
+                  "title": "putative dienelactone hydrolase [Kibdelosporangium persicum]",
+                  "taxid": 2698649,
+                  "sciname": "Kibdelosporangium persicum"
+                },
+                {
+                  "id": "emb|CAM3475890.1|",
+                  "accession": "CAM3475890",
+                  "title": "alpha/beta hydrolase [Kibdelosporangium persicum]",
+                  "taxid": 2698649,
+                  "sciname": "Kibdelosporangium persicum"
+                }
+              ],
+              "len": 292,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 388.652,
+                  "score": 997,
+                  "evalue": 5.11096e-133,
+                  "identity": 184,
+                  "positive": 214,
+                  "query_from": 2,
+                  "query_to": 258,
+                  "hit_from": 34,
+                  "hit_to": 290,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCP",
+                  "hseq": "ENPYERGPDPTESSIEASRGPFSVSQTTVSRLSATGFGGGTIYYPTSTSEGTFGALAISPGFTATQSSISWMGPRLASQGFVVITIDTLSTLDQPDSRGDQLRAALSYLTQRSTVRTRIDATRLAVAGHSMGGGGSLEAAADQPSLQAAIPIAAWNTQKSWSGLRVPTFVIGGENDSIAPVSSHSIPFYTSIPASSEKAYMELDNASHFFPQTPNTTMAKYMISWLKRFVDNDTRYEQFLCPAPNDRDISDYRDTCP",
+                  "midline": "ENPYERGPDPTESSIEA RGPF+V+QTTVSRL A GFGGGTIYYPT TS+GTFGA+AISPGFTA Q SI+W+GPR+ASQGFVVITIDT++ LDQPDSRG QL+AAL +L   S VR RID  R+AV GHSMGGGG+L AAA+  SL+AAIP+  W+T+K+WS +R PT V+G + D+IAPVSSHS  FY S+P+  +KAYMEL  ASHF   TP+TT AKY I+WLKRFVDND RYEQFLCPAP+D  IS+YR TCP"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_392330601.1|",
+                  "accession": "WP_392330601",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC014861]",
+                  "taxid": 3364923,
+                  "sciname": "Streptomyces sp. NPDC014861"
+                },
+                {
+                  "id": "gb|MFF9144648.1|",
+                  "accession": "MFF9144648",
+                  "title": "alpha/beta hydrolase family protein [Streptomyces sp. NPDC014861]",
+                  "taxid": 3364923,
+                  "sciname": "Streptomyces sp. NPDC014861"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.882,
+                  "score": 995,
+                  "evalue": 8.56632e-133,
+                  "identity": 184,
+                  "positive": 209,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 29,
+                  "hit_to": 286,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPD-DFAISEYRATCPF",
+                  "hseq": "NPYERGPAPTEASVEAARGSYAVAQTSVSSLAASGFGGGTIYYPTSTADGTFGAVAISPGFTATQSSVAWLGPRLASQGFVVFVIDTLTTLDQPDSRGRQLLAALDHLTQRSAVRGRVDASRLAVMGHSMGGGGTLEAAKSRPSLKAAVPLTGWNTDKTWPELRTPTLVIGADGDTVAPVATHSEPFYESLPSDLDKAYLELNGATHFTPNTSNTTLAKYSLAWLKRFVDDDTRYEQFLCPLPRPSLTIDEYRGTCPL",
+                  "midline": "NPYERGP PTE+S+EA RG +AVAQT+VS L A GFGGGTIYYPT T+ GTFGAVAISPGFTA Q S+AWLGPR+ASQGFVV  IDT+T LDQPDSRGRQL AALDHL   S VR R+D +R+AVMGHSMGGGG L AA +  SL+AA+PL GW+T K W  +RTPTLV+GA  DT+APV++HSE FY SLPSDLDKAY+EL GA+HF  NT +TT AKYS+AWLKRFVD+D RYEQFLCP P     I EYR TCP "
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_384119431.1|",
+                  "accession": "WP_384119431",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                },
+                {
+                  "id": "gb|MFD3535685.1|",
+                  "accession": "MFD3535685",
+                  "title": "alpha/beta hydrolase family protein [Streptomyces sp. NPDC058661]",
+                  "taxid": 3346582,
+                  "sciname": "Streptomyces sp. NPDC058661"
+                },
+                {
+                  "id": "gb|MFD3636452.1|",
+                  "accession": "MFD3636452",
+                  "title": "alpha/beta hydrolase family protein [Streptomyces sp. NPDC058664]",
+                  "taxid": 3346585,
+                  "sciname": "Streptomyces sp. NPDC058664"
+                }
+              ],
+              "len": 291,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.882,
+                  "score": 995,
+                  "evalue": 9.94426e-133,
+                  "identity": 186,
+                  "positive": 208,
+                  "query_from": 3,
+                  "query_to": 258,
+                  "hit_from": 32,
+                  "hit_to": 288,
+                  "align_len": 257,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPD-DFAISEYRATCP",
+                  "hseq": "NPYERGPAPTQSSIEALRGPYAVSQTSVSSLAASGFGGGTIYYPTSTSDGTFGAVVISPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDHLTQRSSVRGRIDASRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTGWNTDKTWPEISTPTLVIGADGDTVAPVASHSEPFYQSLPSSLDKAYLELNGATHFTPNTSDTTIAKYSISWLKRFIDDDTRYEQFLCPLPRPSLTIEEYRGTCP",
+                  "midline": "NPYERGP PT+SSIEA+RGP+AV+QT+VS L A GFGGGTIYYPT TS GTFGAV ISPGFTA + SIAWLGPR+ASQGFVV TIDT+T LDQPDSRGRQL AALDHL   S VR RID +R+ VMGHSMGGGG L AA +  SL+AAIPL GW+T K W  + TPTLV+GA  DT+APV+SHSE FY SLPS LDKAY+EL GA+HF  NT DTT AKYSI+WLKRF+D+D RYEQFLCP P     I EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gb|WTT71385.1|",
+                  "accession": "WTT71385",
+                  "title": "dienelactone hydrolase family protein [Streptomyces exfoliatus]",
+                  "taxid": 1905,
+                  "sciname": "Streptomyces exfoliatus"
+                }
+              ],
+              "len": 274,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.111,
+                  "score": 993,
+                  "evalue": 1.27035e-132,
+                  "identity": 185,
+                  "positive": 208,
+                  "query_from": 3,
+                  "query_to": 258,
+                  "hit_from": 15,
+                  "hit_to": 271,
+                  "align_len": 257,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAP-DDFAISEYRATCP",
+                  "hseq": "NPYERGPAPSQSSIEALRGPYAVSQTSVSSLAATGFGGGTIYYPTSTSDGTFGAVVISPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDHLTERSSVRGRIDSTRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTGWNTDKSWPEITTPTLVIGADGDTVAPVASHSEPFYQSLPSSLDKAYLELNGATHFTPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGTCP",
+                  "midline": "NPYERGP P++SSIEA+RGP+AV+QT+VS L A GFGGGTIYYPT TS GTFGAV ISPGFTA + SIAWLGPR+ASQGFVV TIDT+T LDQPDSRGRQL AALDHL   S VR RID  R+ VMGHSMGGGG L AA +  SL+AAIPL GW+T K+W  + TPTLV+GA  DT+APV+SHSE FY SLPS LDKAY+EL GA+HF  NT +TT AKYSI+WLKRF+DND RYEQFLCP P     I EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_354710853.1|",
+                  "accession": "WP_354710853",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Amycolatopsis sp. NPDC006125]",
+                  "taxid": 3156730,
+                  "sciname": "Amycolatopsis sp. NPDC006125"
+                },
+                {
+                  "id": "gb|MEU0511389.1|",
+                  "accession": "MEU0511389",
+                  "title": "dienelactone hydrolase family protein [Amycolatopsis sp. NPDC006125]",
+                  "taxid": 3156730,
+                  "sciname": "Amycolatopsis sp. NPDC006125"
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.497,
+                  "score": 994,
+                  "evalue": 1.31594e-132,
+                  "identity": 183,
+                  "positive": 209,
+                  "query_from": 2,
+                  "query_to": 259,
+                  "hit_from": 32,
+                  "hit_to": 289,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "ENPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPDDFAISEYRATCPF",
+                  "hseq": "DNPYERGPDPTESSIEASRGPFAVSQTTVSSLAVSGFGGGTIYYPTDTSQGTFGAVAISPGYTADQSSIAWIGPRLASQGFVVFTIDTITRYDQPSSRGDQLLAALDYLTQRSTVRSRIDSSRLGVAGHSMGGGGTLEAADERPSLQAAVPLAPWNLRKNFSSVQVPTFIIGGESDSVAPVSSHSEPFYTSLPSSLDKAYMELNNASHFFPNTSNTTMAKYMISWFKRFIDDDTRYDQFLCPNPSGLAIEEYRSTCPY",
+                  "midline": "+NPYERGPDPTESSIEA RGPFAV+QTTVS L   GFGGGTIYYPTDTSQGTFGAVAISPG+TA Q SIAW+GPR+ASQGFVV TIDTITR DQP SRG QL AALD+L   S VR+RID +R+ V GHSMGGGG L AA    SL+AA+PL  W+ RKN+SSV+ PT ++G + D++APVSSHSE FY SLPS LDKAYMEL  ASHF  NT +TT AKY I+W KRF+D+D RY+QFLCP P   AI EYR+TCP+"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_453750066.1|",
+                  "accession": "WP_453750066",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                },
+                {
+                  "id": "gb|MGW6534677.1|",
+                  "accession": "MGW6534677",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC055011]",
+                  "taxid": 3345510,
+                  "sciname": "Streptomyces sp. NPDC055011"
+                },
+                {
+                  "id": "gb|MGW6554367.1|",
+                  "accession": "MGW6554367",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC055051]",
+                  "taxid": 3345520,
+                  "sciname": "Streptomyces sp. NPDC055051"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.497,
+                  "score": 994,
+                  "evalue": 1.35678e-132,
+                  "identity": 184,
+                  "positive": 208,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 29,
+                  "hit_to": 286,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTESSIEAVRGPFAVAQTTVSRLQADGFGGGTIYYPTDTSQGTFGAVAISPGFTAGQESIAWLGPRIASQGFVVITIDTITRLDQPDSRGRQLQAALDHLRTNSVVRNRIDPNRMAVMGHSMGGGGALSAAANNTSLEAAIPLQGWHTRKNWSSVRTPTLVVGAQLDTIAPVSSHSEAFYNSLPSDLDKAYMELRGASHFVSNTPDTTTAKYSIAWLKRFVDNDLRYEQFLCPAPD-DFAISEYRATCPF",
+                  "hseq": "NPYERGPAPTEASVEAARGSYAVAQTSVSSLAASGFGGGTIYYPTSTADGTFGAVAISPGFTATQSSVAWLGPRLASQGFVVFVIDTLTTLDQPDSRGRQLLAALDHLTQRSAVRGRVDATRLAVMGHSMGGGGTLEAAKSRPSLKAAVPLTGWNTDKTWPELRTPTLVIGADGDTVAPVATHSEPFYESLPSDLDKAYLELNGATHFTPNTSNTTLAKYSLAWLKRFVDDDTRYEQFLCPLPRPSLTIDEYRGTCPL",
+                  "midline": "NPYERGP PTE+S+EA RG +AVAQT+VS L A GFGGGTIYYPT T+ GTFGAVAISPGFTA Q S+AWLGPR+ASQGFVV  IDT+T LDQPDSRGRQL AALDHL   S VR R+D  R+AVMGHSMGGGG L AA +  SL+AA+PL GW+T K W  +RTPTLV+GA  DT+APV++HSE FY SLPSDLDKAY+EL GA+HF  NT +TT AKYS+AWLKRFVD+D RYEQFLCP P     I EYR TCP "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 1123578564,
+            "db_len": 424066497980,
+            "hsp_len": 165,
+            "eff_space": 22435547282480,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          },
+          "message": "Warning: Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/\u000A"
+        }
+      }
+    }
+  }
+]
+}
+

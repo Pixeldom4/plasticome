@@ -1,0 +1,10 @@
+# Dependencies for the substring / near-substring scan.
+#   substring_scan.py, substring_scan_extended.py, petadex-clustering-notebook.ipynb
+# Install with:  pip install -r requirements.txt
+
+pandas>=1.5        # dataframes + read_excel
+openpyxl>=3.1      # .xlsx read/write engine used by pandas and the sheet writer
+PyYAML>=6.0        # parse config.yaml (falls back to JSON if absent)
+
+# Only needed to run the notebook itself (not the .py scripts):
+jupyter>=1.0

@@ -1,0 +1,19 @@
+{
+  "input_tsv": "cleaned_pazy_final.tsv",
+  "input_md5": "f6541cf34a745411ba651bbe21e23b79",
+  "v1_overlay_csv": "plasticome_v1.csv",
+  "n_rows": 491,
+  "n_blank_seq_dropped": 0,
+  "n_rows_with_seq": 491,
+  "n_nodes": 490,
+  "n_md5_collapsed_rows": 1,
+  "n_multi_row_nodes": 1,
+  "n_unique_md5": 490,
+  "db_letters": 171118,
+  "len_min": 28,
+  "len_median": 314,
+  "len_max": 734,
+  "n_lt_200aa": 7,
+  "n_lt_100aa": 1,
+  "n_with_v1_overlay": 193
+}

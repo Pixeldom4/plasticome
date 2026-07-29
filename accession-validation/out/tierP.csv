@@ -1,0 +1,3 @@
+row,accession,enzyme_name,nuccore_accession,tierP_flag,matched_protein_id,provenance_detail
+439,AAK11724.1,Amidase,AY026386,cds_id_match,AAK11724.1,AAK11724.1 is a CDS of AY026386
+442,ACY56506.1,Amidase,GU116480,cds_id_match,ACY56506.1,ACY56506.1 is a CDS of GU116480

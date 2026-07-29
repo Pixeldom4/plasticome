@@ -1,0 +1,447 @@
+row,pazy_id,enzyme_name,accession,pazy_organism,pazy_taxid,record_organism,record_taxid,tierO_flag,organism_detail
+0,1,ISPETase,WP_054022242.1,Piscinibacter sakaiensis,1547922,Pseudideonella sakaiensis,1547922,exact,Pseudideonella sakaiensis (taxid 1547922)
+1,2,PET5,CCK74972.1,Oleispira antarctica,188908,Oleispira antarctica RB-8,698738,same_species,same species (taxid 188908); Oleispira antarctica vs Oleispira antarctica RB-8
+2,3,PET6,ASA57064.1,Vibrio gazogenes,687,Vibrio gazogenes,687,exact,Vibrio gazogenes (taxid 687)
+3,4,PET12,WP_047194864.1,Caldimonas brevitalea,413882,Caldimonas brevitalea,413882,exact,Caldimonas brevitalea (taxid 413882)
+4,7,PpCutA,ADK73612.1,Ectopseudomonas oleovorans,301,Ectopseudomonas oleovorans,301,exact,Ectopseudomonas oleovorans (taxid 301)
+5,8,PpelaLip,WP_022964382.1,Halopseudomonas pelagia,553151,Halopseudomonas pelagia,553151,exact,Halopseudomonas pelagia (taxid 553151)
+6,9,PE-H,WP_088276085.1,Halopseudomonas aestusnigri,857252,Halopseudomonas aestusnigri,857252,exact,Halopseudomonas aestusnigri (taxid 857252)
+7,10,PmC,ABP86951,Ectopseudomonas mendocina,300,Pseudomonas mendocina ymp,399739,same_species,same species (taxid 300); Ectopseudomonas mendocina vs Ectopseudomonas mendocina ymp
+8,11,Mors1,P19833.1,Moraxella sp. TA144,77152,Moraxella sp. TA144,77152,exact,Moraxella sp. TA144 (taxid 77152)
+9,12,PpEst,WP_003460012.1,Ectopseudomonas oleovorans,301,Ectopseudomonas oleovorans,301,exact,Ectopseudomonas oleovorans (taxid 301)
+10,13,MG8,MGYP000532440779,Pseudomonas sp.,306,,,uncomparable,no record taxid
+11,14,EstB,WP_085690612,Pseudomonas sp. B10,118613,Pseudomonas,286,same_genus,same genus (taxid 286); Pseudomonas sp. B10 vs Pseudomonas
+12,15,RgPETase,WP_085749752.1,Piscinibacter gummiphilus,946333,Rhizobacter gummiphilus,946333,exact,Rhizobacter gummiphilus (taxid 946333)
+13,16,LCC,AEV21261.1,,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+14,17,BhrPETase,GBD22443.1,bacterium HR29,2035424,bacterium HR29,2035424,exact,bacterium HR29 (taxid 2035424)
+15,18,Cut190,WP_015787089.1,Saccharomonospora viridis,1852,Saccharomonospora viridis,1852,exact,Saccharomonospora viridis (taxid 1852)
+16,19,BTA-1,CAH17553.1,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+17,20,BTA-2,CAH17554.1,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+18,21,TfH42_Cut1,ADV92528.1,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+19,22,Tfu_0883,WP_011291330.1,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+20,23,Tfu_0882,AAZ54920.1,Thermobifida fusca,2021,Thermobifida fusca YX,269800,same_species,same species (taxid 2021); Thermobifida fusca vs Thermobifida fusca YX
+21,25,TfCut_2,CBY05530,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+22,26,Cut1,AET05798.1,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+23,27,Cut2,AET05799.1,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+24,28,Thc_Cut1,ADV92526.1,Thermobifida cellulosilytica,144786,Thermobifida cellulosilytica,144786,exact,Thermobifida cellulosilytica (taxid 144786)
+25,29,Thc_Cut2,ADV92527.1,Thermobifida cellulosilytica,144786,Thermobifida cellulosilytica,144786,exact,Thermobifida cellulosilytica (taxid 144786)
+26,30,Tcur_1278,WP_012851645.1,Thermomonospora curvata,2020,Thermomonospora curvata,2020,exact,Thermomonospora curvata (taxid 2020)
+27,31,Tcur0390,WP_012850775.1,Thermomonospora curvata,2020,Thermomonospora curvata,2020,exact,Thermomonospora curvata (taxid 2020)
+28,32,Thh_Est,AFA45122.1,Thermobifida halotolerans,483545,Thermobifida halotolerans,483545,exact,Thermobifida halotolerans (taxid 483545)
+29,33,Est1,BAI99230.2,Thermobifida alba,53522,Thermobifida alba,53522,exact,Thermobifida alba (taxid 53522)
+30,34,Tha_Cut1,ADV92525.1,Thermobifida alba,53522,Thermobifida alba,53522,exact,Thermobifida alba (taxid 53522)
+31,35,Est119,BAK48590.1,Thermobifida alba,53522,Thermobifida alba,53522,exact,Thermobifida alba (taxid 53522)
+32,36,BsEstB,ADH43200.1,Bacillus subtilis,1423,Bacillus subtilis,1423,exact,Bacillus subtilis (taxid 1423)
+33,37,PHL-7,7NEI,Compost metagenome,,unidentified,32644,uncomparable,no PAZy taxid
+34,38,PET27,WP_111881932.1,Aequorivita sp. CIP111184,2211356,Aequorivita sp. CIP111184,2211356,exact,Aequorivita sp. CIP111184 (taxid 2211356)
+35,39,PET30,WP_039353427.1,Kaistella jeonii,266749,Kaistella jeonii,266749,exact,Kaistella jeonii (taxid 266749)
+36,40,PET2,ACC95208.1,Metagenome-derived with  no obvious affiliation,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+37,41,PET46,RLI42440.1,Candidatus Bathyarchaeota archaeon,2026714,Candidatus Bathyarchaeota archaeon,2026714,exact,Candidatus Bathyarchaeota archaeon (taxid 2026714)
+38,42,CalB,CAA83122.1,Moesziomyces antarcticus,84753,Moesziomyces antarcticus,84753,exact,Moesziomyces antarcticus (taxid 84753)
+39,43,FsC,AAA33335.1,Fusarium solani,169388,Fusarium solani,169388,exact,Fusarium solani (taxid 169388)
+40,44,HiC,A0A075B5G4,Mycothermus thermophilus,85995,,,uncomparable,no record taxid
+41,46,PudA,BAA76305.1,Delftia acidovorans,80866,Delftia acidovorans,80866,exact,Delftia acidovorans (taxid 80866)
+42,47,LipasePueA,AAD22743.1,Pseudomonas chlororaphis,587753,Pseudomonas chlororaphis,587753,exact,Pseudomonas chlororaphis (taxid 587753)
+43,48,LipasePueB,AAF01331.1,Pseudomonas chlororaphis,587753,Pseudomonas chlororaphis,587753,exact,Pseudomonas chlororaphis (taxid 587753)
+44,49,EsterasePulA,AAF66684.1,Pseudomonas fluorescens,294,Pseudomonas fluorescens,294,exact,Pseudomonas fluorescens (taxid 294)
+45,50,PueA,WP_011061486.1,Pseudomonas protegens,380021,Pseudomonas protegens,380021,exact,Pseudomonas protegens (taxid 380021)
+46,51,PueB,WP_011061489.1,Pseudomonas protegens,380021,Pseudomonas,286,same_genus,same genus (taxid 286); Pseudomonas protegens vs Pseudomonas
+47,54,P-nylA,AAA25908.1,Pseudomonas sp. NK87,314,Pseudomonas sp.,306,uncomparable,no shared species/genus rank to compare
+48,59,NylA,WP_012476897.1,Paenarthrobacter ureafaciens,37931,Bacteria,2,uncomparable,no shared species/genus rank to compare
+49,60,NylB,CAA24927.1,Paenarthrobacter ureafaciens,37931,Flavobacterium sp.,239,mismatch,different genus; PAZy Paenarthrobacter ureafaciens vs record Flavobacterium sp.
+50,61,NylC,WP_012476895.1,Paenarthrobacter ureafaciens,37931,Micrococcales,85006,uncomparable,no shared species/genus rank to compare
+51,62,NylCA,BAE95769.2,Agromyces sp. KY5R,388924,Agromyces sp. KY5R,388924,exact,Agromyces sp. KY5R (taxid 388924)
+52,63,NylCK,BAE95770.1,Kocuria sp. KY2,388923,Kocuria sp. KY2,388923,exact,Kocuria sp. KY2 (taxid 388923)
+53,64,Arylacylamidase,P80008.1,Nocardia globerula,1818,Nocardia globerula,1818,exact,Nocardia globerula (taxid 1818)
+54,65,Arylacylamidase,WP_011209364.1,Nocardia farcinica,37329,Nocardia farcinica,37329,exact,Nocardia farcinica (taxid 37329)
+55,66,serineprotease,WP_378272130.1,Actinomadura keratinilytica,547461,Actinomadura keratinilytica,547461,exact,Actinomadura keratinilytica (taxid 547461)
+56,68,PLAase I,WP_037320891.1,Amycolatopsis orientalis,31958,Amycolatopsis orientalis,31958,exact,Amycolatopsis orientalis (taxid 31958)
+57,69,PLAase II,ABY53108.1,Amycolatopsis orientalis,31958,Amycolatopsis orientalis,31958,exact,Amycolatopsis orientalis (taxid 31958)
+58,70,PLAase III,ABY67151.1,Amycolatopsis orientalis,31958,Amycolatopsis orientalis,31958,exact,Amycolatopsis orientalis (taxid 31958)
+59,71,PLaA,BAC67195.1,Paenibacillus amylolyticus,1451,Paenibacillus amylolyticus,1451,exact,Paenibacillus amylolyticus (taxid 1451)
+60,74,ABO2449,WP_011589723.1,Alcanivorax borkumensis,59754,Alcanivorax,59753,same_genus,same genus (taxid 59753); Alcanivorax borkumensis vs Alcanivorax
+61,75,RPA1511,WP_011157072.1,Rhodopseudomonas palustris,1076,Rhodopseudomonas palustris,1076,exact,Rhodopseudomonas palustris (taxid 1076)
+62,76,Subtilisin Savinase,P29600,Lederbergia lenta,1467,Lederbergia lenta,1467,exact,Lederbergia lenta (taxid 1467)
+63,77,Subtilisin BL,P29599,Lederbergia lenta,1467,Lederbergia lenta,1467,exact,Lederbergia lenta (taxid 1467)
+64,79,Subtilisin SubC,CAB56500,Bacillus licheniformis,1402,Bacillus licheniformis,1402,exact,Bacillus licheniformis (taxid 1402)
+65,81,LP175,ATG80622.1,Laceyella sacchari,37482,Laceyella sacchari,37482,exact,Laceyella sacchari (taxid 37482)
+66,82,MGS0109,AGT96415.1,Marine metagenome,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+67,83,MGS0010,AHG30919.1,Marine metagenome,,gamma proteobacterium enrichment culture clone L-Tri-Mess-8_orf1,1448355,uncomparable,no PAZy taxid
+68,84,MGS0105,AGT96414.1,Marine metagenome,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+69,85,MGS0084,AKJ87250,Environmental metagenome,,uncultured organism,155900,uncomparable,no PAZy taxid
+70,86,MGS0156,AKJ87264,Environmental metagenome,,uncultured organism,155900,uncomparable,no PAZy taxid
+71,87,GEN0105,AKJ87216,Environmental metagenome,,uncultured organism,155900,uncomparable,no PAZy taxid
+72,88,PlaM4,BAF57210.1,PLA disk compost metagenome,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+73,90,PlaM7,BAF57212.1,PLA disk compost metagenome,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+74,92,PlaM9,BAF57214.1,PLA disk compost metagenome,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+75,93,Proteinase K,CAA32820.1,Parengyodontium album,37998,Parengyodontium album,37998,exact,Parengyodontium album (taxid 37998)
+76,94,CutL1,XP_001817153.1,Aspergillus oryzae,5062,Aspergillus oryzae RIB40,510516,same_species,same species (taxid 5062); Aspergillus oryzae vs Aspergillus oryzae RIB40
+77,95,Cutinase,BAC67242.1,Cryptococcus sp. S-2,87049,Cryptococcus sp. S-2,87049,exact,Cryptococcus sp. S-2 (taxid 87049)
+78,96,CfCLE,BAT32793.1,Saitozyma flava,5416,Saitozyma flava,5416,exact,Saitozyma flava (taxid 5416)
+79,97,CmCut,BAN42606.1,Filobasidium magnum,104409,Cryptococcus sp. BPD1A,1197862,mismatch,different genus; PAZy Filobasidium magnum vs record Cryptococcus sp. BPD1A
+80,98,PCLE,BAN51852.1,Paraphoma sp. B47-9,1804209,Paraphoma sp. B47-9,1804209,exact,Paraphoma sp. B47-9 (taxid 1804209)
+81,99,PaE,XP_014659518.1,Moesziomyces antarcticus,84753,Moesziomyces antarcticus,84753,exact,Moesziomyces antarcticus (taxid 84753)
+82,100,PhaZ1,WP_011614907.1,Cupriavidus necator,106590,Cupriavidus necator,106590,exact,Cupriavidus necator (taxid 106590)
+83,101,PhaZ2,WP_010813770.1,Cupriavidus necator,106590,Cupriavidus,106589,same_genus,same genus (taxid 106589); Cupriavidus necator vs Cupriavidus
+84,102,PhaZ3,WP_011616504.1,Cupriavidus necator,106590,Cupriavidus,106589,same_genus,same genus (taxid 106589); Cupriavidus necator vs Cupriavidus
+85,103,PhaZ4,AAP85930.1,Cupriavidus necator,106590,Cupriavidus necator H16,381666,same_species,same species (taxid 106590); Cupriavidus necator vs Cupriavidus necator H16
+86,104,PhaZ5,WP_011616952.1,Cupriavidus necator,106590,Cupriavidus,106589,same_genus,same genus (taxid 106589); Cupriavidus necator vs Cupriavidus
+87,105,PhaZd1,WP_010811062.1,Cupriavidus necator,106590,Cupriavidus,106589,same_genus,same genus (taxid 106589); Cupriavidus necator vs Cupriavidus
+88,107,PhaY1(PhaZ2),WP_011615575.1,Cupriavidus necator,106590,Cupriavidus necator,106590,exact,Cupriavidus necator (taxid 106590)
+89,108,PhaY2,WP_011615004.1,Cupriavidus necator,106590,Cupriavidus necator,106590,exact,Cupriavidus necator (taxid 106590)
+90,109,PhaZAfa,AAA21974.1,Alcaligenes faecalis,511,Ralstonia pickettii,329,mismatch,different genus; PAZy Alcaligenes faecalis vs record Ralstonia pickettii
+91,110,PhaZ7,WP_132259156.1,Paucimonas lemoignei,29443,Paucimonas lemoignei,29443,exact,Paucimonas lemoignei (taxid 29443)
+92,111,PhaZ5,AAA65705.1,Paucimonas lemoignei,29443,Paucimonas lemoignei,29443,exact,Paucimonas lemoignei (taxid 29443)
+93,112,PhaZpst,BAA32541.1,Stutzerimonas stutzeri,316,Stutzerimonas stutzeri,316,exact,Stutzerimonas stutzeri (taxid 316)
+94,113,PhaZCac,WP_034398300.1,Delftia acidovorans,80866,Delftia acidovorans,80866,exact,Delftia acidovorans (taxid 80866)
+95,115,PHB depolymerase,BAG32152.1,Talaromyces funiculosus,28572,Talaromyces funiculosus,28572,exact,Talaromyces funiculosus (taxid 28572)
+96,116,PBATHRF,BCL64964.1,Rhodococcoides fascians,1828,Rhodococcus sp. (in: high G+C Gram-positive bacteria),1831,mismatch,different genus; PAZy Rhodococcoides fascians vs record Rhodococcus sp. (in: high G+C Gram-positive bacteria)
+97,117,Chath_Est1,ALS54749.1,Hungatella hathewayi,154046,synthetic construct,32630,uncomparable,no shared species/genus rank to compare
+98,118,TfH,5ZOA_A,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+99,119,PFL1,EIW29778.1,Pelosinus fermentans,365349,Pelosinus fermentans DSM 17108,1122947,same_species,same species (taxid 365349); Pelosinus fermentans vs Pelosinus fermentans DSM 17108
+100,120,Cbotu_EstA,AKZ20828.1,Clostridium botulinum,1491,synthetic construct,32630,uncomparable,no shared species/genus rank to compare
+101,121,Cbotu_EstB,AKZ20829.1,Clostridium botulinum,1491,synthetic construct,32630,uncomparable,no shared species/genus rank to compare
+102,122,PBATHBp,BAV72205.1,Bacillus pumilus,1408,Bacillus pumilus,1408,exact,Bacillus pumilus (taxid 1408)
+103,123,LCP_STRK3,AAR25849.1,Streptomyces sp. K30,256642,Streptomyces sp. K30,256642,exact,Streptomyces sp. K30 (taxid 256642)
+104,124,RoxA,AAP41848.1,Steroidobacter cummioxidans,1803913,Xanthomonas sp. 35Y,230757,mismatch,different genus; PAZy Steroidobacter cummioxidans vs record Xanthomonas sp. 35Y
+105,125,RoxB,AQV11968.1,Steroidobacter cummioxidans,1803913,Xanthomonas sp. 35Y,230757,mismatch,different genus; PAZy Steroidobacter cummioxidans vs record Xanthomonas sp. 35Y
+106,126,LatA,WP_085748997.1,Piscinibacter gummiphilus,946333,Rhizobacter gummiphilus,946333,exact,Rhizobacter gummiphilus (taxid 946333)
+107,141,403,RLU00646.1,Ketobacter sp.,2083498,Ketobacter sp.,2083498,exact,Ketobacter sp. (taxid 2083498)
+108,142,405,KPI12031.1,Actinobacteria bacterium OK074,1592327,Actinobacteria bacterium OK074,1592327,exact,Actinobacteria bacterium OK074 (taxid 1592327)
+109,143,406,ODU60407.1,Comamonadaceae bacterium,1871071,Comamonadaceae bacterium SCN 68-20,1660161,uncomparable,no shared species/genus rank to compare
+110,144,407,WP_162908185.1,Allorhizocola rhizosphaerae,1872709,Allorhizocola rhizosphaerae,1872709,exact,Allorhizocola rhizosphaerae (taxid 1872709)
+111,145,409,RLT92980.1,Ketobacter sp.,2083498,Ketobacter sp.,2083498,exact,Ketobacter sp. (taxid 2083498)
+112,146,412,WP_158643351.1,Ketobacter alkanivorans,1917421,Ketobacter alkanivorans,1917421,exact,Ketobacter alkanivorans (taxid 1917421)
+113,147,503,EGD44994.1,Nocardioidaceae bacterium,1871072,Nocardioidaceae bacterium Broad-1,408672,uncomparable,no shared species/genus rank to compare
+114,148,CtPl,WP_062195544.1,Caldimonas taiwanensis,307483,Caldimonas taiwanensis,307483,exact,Caldimonas taiwanensis (taxid 307483)
+115,149,606,SJZ42839.1,Marinactinospora thermotolerans,531310,Marinactinospora thermotolerans DSM 45154,1122192,same_species,same species (taxid 531310); Marinactinospora thermotolerans vs Marinactinospora thermotolerans DSM 45154
+116,150,607-Nsp,KPI31299.1,Actinobacteria bacterium OV320,1592329,Actinobacteria bacterium OV320,1592329,exact,Actinobacteria bacterium OV320 (taxid 1592329)
+117,151,611,WP_093412886.1,Saccharopolyspora flava,95161,Saccharopolyspora flava,95161,exact,Saccharopolyspora flava (taxid 95161)
+118,152,701,WP_104613137.1,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+119,153,702,ADM47605.1,Thermobifida fusca,2021,Thermobifida fusca,2021,exact,Thermobifida fusca (taxid 2021)
+120,154,711,WP_083947829,Thermobifida cellulosilytica,144786,Thermobifida cellulosilytica,144786,exact,Thermobifida cellulosilytica (taxid 144786)
+121,155,UMG-SP-1,OP972509,Environmental sample,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+122,156,UMG-SP-2,OP972510,Environmental sample,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+123,157,UMG-SP-3,OP972511,Environmental sample,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+124,158,Urethanase,ANG60415,Lysinibacillus fusiformis,28031,Lysinibacillus fusiformis,28031,exact,Lysinibacillus fusiformis (taxid 28031)
+125,162,AmdA,AAK28498.1,Agrobacterium tumefaciens,358,Agrobacterium tumefaciens,358,exact,Agrobacterium tumefaciens (taxid 358)
+126,166,CPUTNase,BBP47208.1,Candida parapsilosis,5480,Lodderomyces parapsilosis,5480,exact,Lodderomyces parapsilosis (taxid 5480)
+127,170,RCut,UNZ22463.1,Rhodococcus sp. (in: high G+C Gram-positive bacteria),1831,Rhodococcus sp. (in: high G+C Gram-positive bacteria),1831,exact,Rhodococcus sp. (in: high G+C Gram-positive bacteria) (taxid 1831)
+128,171,PHL-2,SAY37582.1,compost metagenome,,compost metagenome,702656,uncomparable,no PAZy taxid
+129,172,PHL-1,SAY37579.1,compost metagenome,,compost metagenome,702656,uncomparable,no PAZy taxid
+130,173,PHL-3,SAY37583.1,Compost metagenome,,compost metagenome,702656,uncomparable,no PAZy taxid
+131,174,PHL-4,SAY37584.1,Compost metagenome,,compost metagenome,702656,uncomparable,no PAZy taxid
+132,175,PHL-5,SAY37587,Compost metagenome,,compost metagenome,702656,uncomparable,no PAZy taxid
+133,176,PHL-6,SAY37589,Compost metagenome,,compost metagenome,702656,uncomparable,no PAZy taxid
+134,177,Sub1,QEX94755.1,Streptomyces scabiei,1930,Streptomyces scabiei,1930,exact,Streptomyces scabiei (taxid 1930)
+135,178,RgCut-2,WP_085749238,Piscinibacter gummiphilus,946333,Rhizobacter gummiphilus,946333,exact,Rhizobacter gummiphilus (taxid 946333)
+136,179,PsCut,WP_044499735.1,Pseudomonas saudimassiliensis,1461581,Pseudomonas saudimassiliensis,1461581,exact,Pseudomonas saudimassiliensis (taxid 1461581)
+137,180,PbauzCut,WP_036989706.1,Halopseudomonas bauzanensis,653930,Halopseudomonas,2901189,same_genus,same genus (taxid 2901189); Halopseudomonas bauzanensis vs Halopseudomonas
+138,181,AdCut,BAB86909,Acidovorax delafieldii,47920,Acidovorax delafieldii,47920,exact,Acidovorax delafieldii (taxid 47920)
+139,182,FoCut5a,EXK81749,Fusarium oxysporum,5507,Fusarium oxysporum f. sp. raphani 54005,1089458,same_species,same species (taxid 5507); Fusarium oxysporum vs Fusarium oxysporum f. sp. raphani 54005
+140,183,MRCUT1,ESK97883.1,Moniliophthora roreri,221103,Moniliophthora roreri MCA 2997,1381753,same_species,same species (taxid 221103); Moniliophthora roreri vs Moniliophthora roreri MCA 2997
+141,184,PET1,ADV66860.1,Deinococcus maricopensis,309887,Deinococcus maricopensis DSM 21211,709986,same_species,same species (taxid 309887); Deinococcus maricopensis vs Deinococcus maricopensis DSM 21211
+142,185,SM14est,DAC80635.1,Streptomyces sp. SM14,1736045,Streptomyces sp. SM14,1736045,exact,Streptomyces sp. SM14 (taxid 1736045)
+143,186,IS10,UNZ81746.1,Chloroflexi bacterium enrichment culture,1607791,Chloroflexi bacterium enrichment culture,1607791,exact,Chloroflexi bacterium enrichment culture (taxid 1607791)
+144,187,IS11,UNZ81747.1,Dehalococcoidia bacterium,2026734,Dehalococcoidia bacterium enrichment culture,2928186,uncomparable,no shared species/genus rank to compare
+145,188,IS12,UNZ81748.1,Chloroflexi bacterium enrichment culture,1607791,Chloroflexi bacterium enrichment culture,1607791,exact,Chloroflexi bacterium enrichment culture (taxid 1607791)
+146,191,Lcp1VH2,WP_006368739.1,Gordonia polyisoprenivorans,84595,Gordonia polyisoprenivorans,84595,exact,Gordonia polyisoprenivorans (taxid 84595)
+147,192,Lcp2VH2,AFA76036.1,Gordonia polyisoprenivorans,84595,Gordonia polyisoprenivorans VH2,1112204,same_species,same species (taxid 84595); Gordonia polyisoprenivorans vs Gordonia polyisoprenivorans VH2
+148,195,BurPL,OGB27210,Burkholderiales bacterium,1891238,Burkholderiales bacterium RIFCSPLOWO2_02_FULL_57_36,1797562,uncomparable,no shared species/genus rank to compare
+149,196,PET40,WAU86704,Amycolatopsis bacterium,,synthetic construct,32630,uncomparable,no PAZy taxid
+150,197,PbsA,BAB86909,Acidovorax delafieldii,47920,Acidovorax delafieldii,47920,exact,Acidovorax delafieldii (taxid 47920)
+151,199,FSC,Q99174,Fusarium solani,169388,Fusarium solani-melongenae,2747967,same_genus,same genus (taxid 5506); Fusarium solani vs Fusarium solani-melongenae
+152,200,Hfor_PE-H,WP_090538641,Halopseudomonas formosensis,1002526,Halopseudomonas formosensis,1002526,exact,Halopseudomonas formosensis (taxid 1002526)
+153,201,PaCut,SUD16364,Aquipseudomonas alcaligenes,43263,Aquipseudomonas alcaligenes,43263,exact,Aquipseudomonas alcaligenes (taxid 43263)
+154,205,MnP,AAA33742.1,,,Phanerodontia chrysosporium,2822231,uncomparable,no PAZy taxid
+155,207,Tcca,WP_015255658,Thermobacillus composti,377615,Thermobacillus,76632,same_genus,same genus (taxid 76632); Thermobacillus composti vs Thermobacillus
+156,208,aryl acylamidase,WZH92451.1,Nocardia farcinica,37329,Nocardia farcinica,37329,exact,Nocardia farcinica (taxid 37329)
+157,209,Lip4_120,WP_108898452,Caldibacillus thermoamylovorans,35841,Caldibacillus thermoamylovorans,35841,exact,Caldibacillus thermoamylovorans (taxid 35841)
+158,210,Est8_89,WP_034768559.1,Caldibacillus thermoamylovorans,35841,Bacillaceae,186817,uncomparable,no shared species/genus rank to compare
+159,211,Est11_32,WP_041846030,Caldibacillus thermoamylovorans,35841,Bacillaceae,186817,uncomparable,no shared species/genus rank to compare
+160,212,Est18_23,WP_041847557,Caldibacillus thermoamylovorans,35841,Caldibacillus thermoamylovorans,35841,exact,Caldibacillus thermoamylovorans (taxid 35841)
+161,213,Ces19_14,WP_034767800,Caldibacillus thermoamylovorans,35841,Bacillaceae,186817,uncomparable,no shared species/genus rank to compare
+162,214,Ces39_5,WP_108898647,Caldibacillus thermoamylovorans,35841,Bacillaceae,186817,uncomparable,no shared species/genus rank to compare
+163,215,CaPETase,SHM40309,Cryptosporangium aurantiacum,134849,Cryptosporangium aurantiacum,134849,exact,Cryptosporangium aurantiacum (taxid 134849)
+164,216,CE_Ubrb,SIP63154.1,,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+165,217,TtA,WP_185053500,Thermocatellispora tengchongensis,1073253,Thermocatellispora tengchongensis,1073253,exact,Thermocatellispora tengchongensis (taxid 1073253)
+166,218,M-NylC,KQR39103,Microbacterium sp.,51671,Microbacterium sp. Leaf159,1736279,same_genus,same genus (taxid 33882); Microbacterium sp. vs Microbacterium sp. Leaf159
+167,219,Nc-NylC,WP_312893488.1,Nocardiopsis composta,157465,Nocardiopsis composta,157465,exact,Nocardiopsis composta (taxid 157465)
+168,221,OoH,BAI44731,Rhodococcus sp. Oct1,638587,Rhodococcus sp. Oct1,638587,exact,Rhodococcus sp. Oct1 (taxid 638587)
+169,223,HG-2,WP_118011433.1,Holdemanella biformis,1735,Holdemanella biformis,1735,exact,Holdemanella biformis (taxid 1735)
+170,224,HG-3,RGD93181.1,Clostridiales bacterium AM23-16LB,2306574,Clostridiales bacterium AM23-16LB,2306574,exact,Clostridiales bacterium AM23-16LB (taxid 2306574)
+171,225,HG-4,WP_013858543.1,Heyndrickxia coagulans,1398,Heyndrickxia,2837504,same_genus,same genus (taxid 2837504); Heyndrickxia coagulans vs Heyndrickxia
+172,226,HG-5,WP_008690040.1,Longicatena bacterium,,Bacillota,1239,uncomparable,no PAZy taxid
+173,229,CpCut1,WKA69984.1,Cladosporium sp.,1707700,Cladosporium sp.,1707700,exact,Cladosporium sp. (taxid 1707700)
+174,231,DmC,KAH7127633,Dactylonectria macrodidyma,307937,Dactylonectria macrodidyma,307937,exact,Dactylonectria macrodidyma (taxid 307937)
+175,233,BaCut1,XAQ58225,Blastobotrys sp. G-9,3112566,Blastobotrys sp. G-9,3112566,exact,Blastobotrys sp. G-9 (taxid 3112566)
+176,234,GatA,ANG60415,Lysinibacillus fusiformis,28031,Lysinibacillus fusiformis,28031,exact,Lysinibacillus fusiformis (taxid 28031)
+177,235,LipMRD9,APJ12152,Bacillus safensis,561879,Bacillus safensis,561879,exact,Bacillus safensis (taxid 561879)
+178,238,dsPETase06,MEC8523093,Pseudomonadota bacterium,1977087,Pseudomonadota bacterium,1977087,exact,Pseudomonadota bacterium (taxid 1977087)
+179,240,Dkca1,WID88783,Dietzia kunjamensis,322509,Dietzia kunjamensis,322509,exact,Dietzia kunjamensis (taxid 322509)
+180,241,PpPETase,WP_220815207,Pseudomonas paralcaligenes,2772558,Pseudomonas paralcaligenes,2772558,exact,Pseudomonas paralcaligenes (taxid 2772558)
+181,242,ScPETase,WP_142197250.1,Streptomyces calvus,67282,Streptomyces,1883,same_genus,same genus (taxid 1883); Streptomyces calvus vs Streptomyces
+182,244,PD3,QPA27412.1,Brucella anthropi,529,Brucella anthropi,529,exact,Brucella anthropi (taxid 529)
+183,245,TvgC,WP_068749367,Thermovenabulum gondwanense,520767,Thermovenabulum gondwanense,520767,exact,Thermovenabulum gondwanense (taxid 520767)
+184,246,NylC1,XHH12374,Leucobacter chromiiresistens,1079994,Leucobacter chromiiresistens,1079994,exact,Leucobacter chromiiresistens (taxid 1079994)
+185,247,NylC2,XHH12375,Microbacterium oxydans,82380,uncultured Microbacterium sp.,191216,same_genus,same genus (taxid 33882); Microbacterium oxydans vs uncultured Microbacterium sp.
+186,248,NylC5,XHH12378,Gordonia sp. (in: high G+C Gram-positive bacteria),84139,Gordonia sp. (in: high G+C Gram-positive bacteria),84139,exact,Gordonia sp. (in: high G+C Gram-positive bacteria) (taxid 84139)
+187,249,PA4-degrading enzyme,BEG79545,Pseudoalteromonas sp.,53249,Pseudoalteromonas sp.,53249,exact,Pseudoalteromonas sp. (taxid 53249)
+188,251,Trypsin,P00761.1,Sus scrofa,9823,Sus scrofa,9823,exact,Sus scrofa (taxid 9823)
+189,252,CYP450,P08684.4,Homo sapiens,9606,Homo sapiens,9606,exact,Homo sapiens (taxid 9606)
+190,253,TGL,WAT79796.1,Bacillus safensis,561879,Bacillus safensis,561879,exact,Bacillus safensis (taxid 561879)
+191,254,PAM,BAU20375,Actinomadura keratinilytica,547461,Actinomadura sp. RD001933,1307831,same_genus,same genus (taxid 1988); Actinomadura keratinilytica vs Actinomadura sp. RD001933
+192,256,APET-5,WP_218920366.1,Lentzea guizhouensis,1586287,Lentzea guizhouensis,1586287,exact,Lentzea guizhouensis (taxid 1586287)
+193,257,KbPETase,WP_209642273.1,Kibdelosporangium banguiense,1365924,Kibdelosporangium banguiense,1365924,exact,Kibdelosporangium banguiense (taxid 1365924)
+194,258,APET-15,WP_019629726.1,Actinomadura atramentaria,1990,Actinomadura atramentaria,1990,exact,Actinomadura atramentaria (taxid 1990)
+195,259,APET-17,MBX3625601.1,Rhizobacter sp.,1909292,Rhizobacter sp.,1909292,exact,Rhizobacter sp. (taxid 1909292)
+196,260,APET-19,WP_116023875.1,Thermomonospora umbrina,111806,Thermomonospora umbrina,111806,exact,Thermomonospora umbrina (taxid 111806)
+197,261,APET-20,MBO9532528.1,Solirubrobacteraceae bacterium,2586742,Solirubrobacteraceae bacterium,2586742,exact,Solirubrobacteraceae bacterium (taxid 2586742)
+198,262,APET-23,MSQ87502.1,Alphaproteobacteria bacterium,1913988,Alphaproteobacteria bacterium,1913988,exact,Alphaproteobacteria bacterium (taxid 1913988)
+199,263,APET-24,WP_018657411.1,Actinomadura flavalba,1120938,Actinomadura flavalba,1120938,exact,Actinomadura flavalba (taxid 1120938)
+200,264,APET-25,MPZ00478.1,Actinophytocola sp.,1872138,Actinophytocola sp.,1872138,exact,Actinophytocola sp. (taxid 1872138)
+201,265,APET-26,WP_203847453.1,Dactylosporangium siamense,685454,Dactylosporangium siamense,685454,exact,Dactylosporangium siamense (taxid 685454)
+202,266,APET-27,WP_104739856.1,Halopseudomonas oceani,1708783,Halopseudomonas oceani,1708783,exact,Halopseudomonas oceani (taxid 1708783)
+203,267,APET-28,MBX2857432.1,Cellvibrionaceae bacterium,2026723,Cellvibrionaceae bacterium,2026723,exact,Cellvibrionaceae bacterium (taxid 2026723)
+204,268,APET-29,MBE65357.1,Gammaproteobacteria bacterium,1913989,Gammaproteobacteria bacterium,1913989,exact,Gammaproteobacteria bacterium (taxid 1913989)
+205,269,APET-32,KZY99137.1,Oleibacter sp. HI0075,1822250,Oleibacter sp. HI0075,1822250,exact,Oleibacter sp. HI0075 (taxid 1822250)
+206,270,Mipa-P,SDZ16714.1,Micromonospora pattaloongensis,405436,Micromonospora pattaloongensis,405436,exact,Micromonospora pattaloongensis (taxid 405436)
+207,271,1628,WP_091553551.1,Micromonospora pattaloongensis,405436,Micromonospora pattaloongensis,405436,exact,Micromonospora pattaloongensis (taxid 405436)
+208,272,1611,WP_124822775.1,Micromonospora ureilytica,709868,Micromonospora ureilytica,709868,exact,Micromonospora ureilytica (taxid 709868)
+209,273,1625,WP_101366623.1,Plantactinospora sp. CNZ320,2035246,Plantactinospora sp. CNZ320,2035246,exact,Plantactinospora sp. CNZ320 (taxid 2035246)
+210,274,1603,WP_110567505.1,Micromonospora arborensis,2116518,Micromonospora arborensis,2116518,exact,Micromonospora arborensis (taxid 2116518)
+211,275,1663,WP_084434874.1,Kibdelosporangium aridum,2030,Kibdelosporangium aridum,2030,exact,Kibdelosporangium aridum (taxid 2030)
+212,276,Kubu-P,WP_116180173.1,Kutzneria buriramensis,1045776,Kutzneria buriramensis,1045776,exact,Kutzneria buriramensis (taxid 1045776)
+213,277,1538,WP_130464304.1,Plantactinospora sp. B6F1,3158971,unclassified Plantactinospora,2631981,same_genus,same genus (taxid 673534); Plantactinospora sp. B6F1 vs unclassified Plantactinospora
+214,278,1465,WP_073887759.1,Saccharothrix sp. CB00851,1835005,Saccharothrix sp. CB00851,1835005,exact,Saccharothrix sp. CB00851 (taxid 1835005)
+215,279,1621,WP_088988822.1,Micromonospora chokoriensis,356851,Micromonospora chokoriensis,356851,exact,Micromonospora chokoriensis (taxid 356851)
+216,280,1617,CCH19814.1,Micromonospora lupini,285679,Micromonospora lupini str. Lupac 08,1150864,same_species,same species (taxid 285679); Micromonospora lupini vs Micromonospora lupini str. Lupac 08
+217,281,1534,WP_082377728.1,Micromonospora sp. NRRL B-16802,1415541,Micromonospora sp. NRRL B-16802,1415541,exact,Micromonospora sp. NRRL B-16802 (taxid 1415541)
+218,282,1489,WP_132386942.1,Micromonospora sp. KC723,2530381,Micromonospora sp. KC723,2530381,exact,Micromonospora sp. KC723 (taxid 2530381)
+219,283,1521,WP_132337032.1,Micromonospora sp. KC213,2530378,Micromonospora sp. KC213,2530378,exact,Micromonospora sp. KC213 (taxid 2530378)
+220,284,1525,WP_099848711.1,Verrucosispora sp. CNZ293,2035249,Verrucosispora sp. CNZ293,2035249,exact,Verrucosispora sp. CNZ293 (taxid 2035249)
+221,285,1468,WP_132413760.1,Kribbella albertanoniae,1266829,Kribbella albertanoniae,1266829,exact,Kribbella albertanoniae (taxid 1266829)
+222,286,1507,WP_144126986.1,Catellatospora sichuanensis,1969805,Catellatospora sichuanensis,1969805,exact,Catellatospora sichuanensis (taxid 1969805)
+223,287,1491,WP_082403176.1,Saccharothrix sp. NRRL B-16348,1415542,Saccharothrix sp. NRRL B-16348,1415542,exact,Saccharothrix sp. NRRL B-16348 (taxid 1415542)
+224,288,1821,WP_137976057.1,Streptomyces violaceusniger,68280,Streptomyces violaceusniger,68280,exact,Streptomyces violaceusniger (taxid 68280)
+225,289,1477,WP_125191182.1,Streptomyces sp. RP5T,2490848,Streptomyces sp. RP5T,2490848,exact,Streptomyces sp. RP5T (taxid 2490848)
+226,290,1482,WP_141984372.1,Saccharothrix saharensis,571190,Saccharothrix saharensis,571190,exact,Saccharothrix saharensis (taxid 571190)
+227,291,1522,WP_155388305.1,Catellatospora paridis,1617086,Catellatospora paridis,1617086,exact,Catellatospora paridis (taxid 1617086)
+228,292,1546,WP_013736455.1,Micromonospora sp. (multispecies),,Micromonospora,1873,uncomparable,no PAZy taxid
+229,293,385,WP_143590710.1,Thermoactinospora rubra,1088767,Thermoactinospora rubra,1088767,exact,Thermoactinospora rubra (taxid 1088767)
+230,294,1642,WP_139584963.1,Micromonospora orduensis,1420891,Micromonospora orduensis,1420891,exact,Micromonospora orduensis (taxid 1420891)
+231,295,917,WP_083950838.1,Actinomadura bacterium,1988,Actinomadura,1988,exact,Actinomadura (taxid 1988)
+232,296,1537,OKK16161.1,Streptomyces sp. CB00455,1703927,Streptomyces sp. CB00455,1703927,exact,Streptomyces sp. CB00455 (taxid 1703927)
+233,297,1519,WP_131056699.1,Verrucosispora sp. SN26_14.1,2527879,Verrucosispora sp. SN26_14.1,2527879,exact,Verrucosispora sp. SN26_14.1 (taxid 2527879)
+234,298,1678,WP_045318561.1,Lentzea aerocolonigenes,68170,Lentzea aerocolonigenes,68170,exact,Lentzea aerocolonigenes (taxid 68170)
+235,299,1496,WP_075737041.1,Streptomyces acidiscabies,42234,Streptomyces acidiscabies,42234,exact,Streptomyces acidiscabies (taxid 42234)
+236,300,1169,WP_065917710.1,Lentzea guizhouensis,1586287,Lentzea guizhouensis,1586287,exact,Lentzea guizhouensis (taxid 1586287)
+237,301,1637,WP_130401777.1,Micromonospora violae,1278207,Micromonospora violae,1278207,exact,Micromonospora violae (taxid 1278207)
+238,302,1463,WP_081971423.1,Dactylosporangium aurantiacum,35754,Dactylosporangium aurantiacum,35754,exact,Dactylosporangium aurantiacum (taxid 35754)
+239,303,1545,WP_093411427.1,Micromonospora sediminimaris,547162,Micromonospora sediminimaris,547162,exact,Micromonospora sediminimaris (taxid 547162)
+240,304,554,WP_086849962.1,Amycolatopsis kentuckyensis,218823,Amycolatopsis kentuckyensis,218823,exact,Amycolatopsis kentuckyensis (taxid 218823)
+241,305,1573,WP_109639600.1,Lentzea atacamensis,531938,Lentzea atacamensis,531938,exact,Lentzea atacamensis (taxid 531938)
+242,306,1654,WP_086784246.1,Crossiella equi,130796,Crossiella equi,130796,exact,Crossiella equi (taxid 130796)
+243,307,1555,WP_078844206.1,Streptomyces achromogenes,67255,Streptomyces achromogenes,67255,exact,Streptomyces achromogenes (taxid 67255)
+244,308,1591,WP_091283529.1,Micromonospora haikouensis,686309,Micromonospora haikouensis,686309,exact,Micromonospora haikouensis (taxid 686309)
+245,309,1620,WP_112669767.1,Micromonospora saelicesensis,285676,Micromonospora saelicesensis,285676,exact,Micromonospora saelicesensis (taxid 285676)
+246,310,1240,KNX38636.1,Luteipulveratus halotolerans,1631356,Luteipulveratus halotolerans,1631356,exact,Luteipulveratus halotolerans (taxid 1631356)
+247,311,1594,WP_083302694.1,Micromonospora carbonacea,47853,Micromonospora carbonacea,47853,exact,Micromonospora carbonacea (taxid 47853)
+248,312,1457,WP_093954453.1,Amycolatopsis vastitatis,1905142,Amycolatopsis vastitatis,1905142,exact,Amycolatopsis vastitatis (taxid 1905142)
+249,313,247,WP_116813002.1,Steroidobacter cummioxidans,1803913,Steroidobacter cummioxidans,1803913,exact,Steroidobacter cummioxidans (taxid 1803913)
+250,314,1641,WP_089021493.1,Micromonospora coriariae,285665,Micromonospora coriariae,285665,exact,Micromonospora coriariae (taxid 285665)
+251,315,1309,TQL66274.1,Nocardioides albertanoniae,1175486,Nocardioides albertanoniae,1175486,exact,Nocardioides albertanoniae (taxid 1175486)
+252,316,414,WP_123685830.1,Amycolatopsis bacterium,,Amycolatopsis,1813,uncomparable,no PAZy taxid
+253,317,1506,WP_084400763.1,Lentzea albidocapillata,40571,Lentzea albidocapillata,40571,exact,Lentzea albidocapillata (taxid 40571)
+254,318,1493,WP_132183354.1,Micromonospora sp. KC606,2530379,Micromonospora sp. KC606,2530379,exact,Micromonospora sp. KC606 (taxid 2530379)
+255,319,1395,RZL02950.1,Herbihabitans rhizosphaerae,1872711,Rubrivivax sp.,50259,mismatch,different genus; PAZy Herbihabitans rhizosphaerae vs record Rubrivivax sp.
+256,320,1478,WP_141569747.1,Streptomyces ipomoeae,103232,Streptomyces ipomoeae,103232,exact,Streptomyces ipomoeae (taxid 103232)
+257,321,1571,WP_124770494.1,Micromonospora inaquosa,2203716,Micromonospora inaquosa,2203716,exact,Micromonospora inaquosa (taxid 2203716)
+258,322,169,OPG10926.1,Microbispora sp. GKU 823,1652100,Microbispora sp. GKU 823,1652100,exact,Microbispora sp. GKU 823 (taxid 1652100)
+259,323,1638,WP_051808300.1,Actinoplanes subtropicus,543632,Actinoplanes subtropicus,543632,exact,Actinoplanes subtropicus (taxid 543632)
+260,324,1868,WP_111700265.1,Microbispora triticiradicis,2200763,Microbispora triticiradicis,2200763,exact,Microbispora triticiradicis (taxid 2200763)
+261,325,1718,WP_084578793.1,Kutzneria sp. 744,345341,Kutzneria sp. 744,345341,exact,Kutzneria sp. 744 (taxid 345341)
+262,326,401,WP_104115406.1,Micromonospora chalcea,1874,Micromonospora chalcea,1874,exact,Micromonospora chalcea (taxid 1874)
+263,327,1392,SPF04022.1,Streptomyces sp. MA5143a,2083010,Streptomyces sp. MA5143a,2083010,exact,Streptomyces sp. MA5143a (taxid 2083010)
+264,328,486,WP_120326365.1,Micromonospora globbae,1894969,Micromonospora globbae,1894969,exact,Micromonospora globbae (taxid 1894969)
+265,329,1424,WP_110080872.1,Actinokineospora spheciospongiae,909613,Actinokineospora spheciospongiae,909613,exact,Actinokineospora spheciospongiae (taxid 909613)
+266,330,1475,WP_086668955.1,Lentzea kentuckyensis,360086,Lentzea kentuckyensis,360086,exact,Lentzea kentuckyensis (taxid 360086)
+267,331,282,WP_092528534.1,Amycolatopsis arida,587909,Amycolatopsis arida,587909,exact,Amycolatopsis arida (taxid 587909)
+268,332,1635,WP_145923095.1,Micromonospora sp. HM134,2583243,Micromonospora sp. HM134,2583243,exact,Micromonospora sp. HM134 (taxid 2583243)
+269,333,1228,WP_091450391.1,Actinokineospora iranica,1271860,Actinokineospora iranica,1271860,exact,Actinokineospora iranica (taxid 1271860)
+270,334,1876,WP_067035690.1,Streptomyces dysideae,909626,Streptomyces dysideae,909626,exact,Streptomyces dysideae (taxid 909626)
+271,335,1340,WP_103564314.1,Actinomadura rubteroloni,1926885,Actinomadura rubteroloni,1926885,exact,Actinomadura rubteroloni (taxid 1926885)
+272,336,191,WP_129849678.1,Streptomyces sp. SCA2-2,1563677,Streptomyces sp. SCA2-2,1563677,exact,Streptomyces sp. SCA2-2 (taxid 1563677)
+273,337,PC3,WP_103939557.1,Thermomonospora echinospora,1992,Thermomonospora echinospora,1992,exact,Thermomonospora echinospora (taxid 1992)
+274,338,PC4,WP_125313231.1,Amycolatopsis eburnea,2267691,Amycolatopsis eburnea,2267691,exact,Amycolatopsis eburnea (taxid 2267691)
+275,339,PC5,WP_075975245.1,Actinokineospora bangkokensis,1193682,Actinokineospora bangkokensis,1193682,exact,Actinokineospora bangkokensis (taxid 1193682)
+276,340,PC6,WP_068752972.1,Thermobifida cellulosilytica,144786,Thermobifida cellulosilytica,144786,exact,Thermobifida cellulosilytica (taxid 144786)
+277,341,PC8,MBA55398.1,Pseudomonadales bacterium,1891229,Pseudomonadales bacterium,1891229,exact,Pseudomonadales bacterium (taxid 1891229)
+278,342,Nepenthesin-1,BAD07474.1,Nepenthes distillatoria,122309,Nepenthes gracilis,150966,same_genus,same genus (taxid 4375); Nepenthes distillatoria vs Nepenthes gracilis
+279,343,Nyl04,KXS08985,Gonapodya prolifera,1123529,Gonapodya prolifera JEL478,1344416,same_species,same species (taxid 1123529); Gonapodya prolifera vs Gonapodya prolifera JEL478
+280,344,Nyl10,WP_073391230.1,Jatrophihabitans endophyticus,1206085,Jatrophihabitans endophyticus,1206085,exact,Jatrophihabitans endophyticus (taxid 1206085)
+281,345,Nyl11,WP_082766707.1,Ferrimonas marina,299255,Ferrimonas marina,299255,exact,Ferrimonas marina (taxid 299255)
+282,346,Nyl12,A0A1Q3SHB0,Gammaproteobacteria bacterium 39-13,1895767,,,uncomparable,no record taxid
+283,347,Nyl13,WP_075885500.1,Faecalibaculum rodentium,1702221,Faecalibaculum rodentium,1702221,exact,Faecalibaculum rodentium (taxid 1702221)
+284,348,Nyl14,A0A1Y4BJH4,Olsenella sp. An290,1965625,,,uncomparable,no record taxid
+285,349,Nyl16,OWT56952,Candidimonas nitroreducens,683354,Candidimonas nitroreducens,683354,exact,Candidimonas nitroreducens (taxid 683354)
+286,350,Nyl18,A0A2E3XQJ6,Halobacteriovoraceae bacterium,2026745,,,uncomparable,no record taxid
+287,351,Nyl25,PSR30050,Sulfobacillus benefaciens,453960,Sulfobacillus benefaciens,453960,exact,Sulfobacillus benefaciens (taxid 453960)
+288,352,Nyl29,A0A315R6Z8,Halanaerobium sp.,1895664,,,uncomparable,no record taxid
+289,353,Nyl30,PWX09261.1,Clostridium perfringens,1502,Clostridium perfringens,1502,exact,Clostridium perfringens (taxid 1502)
+290,354,Nyl32,A0A351YZM4,Treponema sp.,166,,,uncomparable,no record taxid
+291,355,Nyl34,A0A368EC02,SAR116 cluster bacterium,2024888,,,uncomparable,no record taxid
+292,356,Nyl37,A0A3D1YDR8,Dehalococcoidia bacterium,2026734,,,uncomparable,no record taxid
+293,357,Nyl39,A0A3D4HM79,Synergistaceae bacterium,2053624,,,uncomparable,no record taxid
+294,358,Nyl40,A0A3M1X2K7,Deltaproteobacteria bacterium,2026735,,,uncomparable,no record taxid
+295,359,Nyl44,A0A432H965,Deltaproteobacteria bacterium,2026735,,,uncomparable,no record taxid
+296,360,Nyl45,RYL92504.1,Sporolactobacillus sp. THM7-4,2511170,Sporolactobacillus sp. THM7-4,2511170,exact,Sporolactobacillus sp. THM7-4 (taxid 2511170)
+297,361,Nyl47,WP_131292212.1,Kribbella sindirgiensis,1124744,Kribbella sindirgiensis,1124744,exact,Kribbella sindirgiensis (taxid 1124744)
+298,362,Nyl50,TAL40028,Alphaproteobacteria bacterium,1913988,Alphaproteobacteria bacterium,1913988,exact,Alphaproteobacteria bacterium (taxid 1913988)
+299,363,Nyl54,WP_170322449.1,Acrocarpospora macrocephala,150177,Acrocarpospora macrocephala,150177,exact,Acrocarpospora macrocephala (taxid 150177)
+300,364,Nyl57,A0A661XAJ6,Candidatus Zhuqueibacterota bacterium,2172550,,,uncomparable,no record taxid
+301,365,Nyl58,A0A6A7M915,Rhodospirillales bacterium,2026786,,,uncomparable,no record taxid
+302,366,Nyl60,A0A6I1QW75,Dehalococcoidia bacterium,2026734,,,uncomparable,no record taxid
+303,367,Nyl63,A0A7C3G8G6,Oceanithermus sp.,2268145,,,uncomparable,no record taxid
+304,368,Nyl65,A0A7C6SQZ1,Clostridiales bacterium,1898207,,,uncomparable,no record taxid
+305,369,Nyl66,A0A7C7DKE8,Candidatus Fermentithermobacillaceae bacterium,3085339,,,uncomparable,no record taxid
+306,370,Nyl68,A0A7V5VEC1,Bacteroidota bacterium,1898104,,,uncomparable,no record taxid
+307,371,Nyl71,A0A7V9NEU5,Acidobacteriota bacterium,1978231,,,uncomparable,no record taxid
+308,372,Nyl72,A0A7W0NYQ1,Acidimicrobiia bacterium,2080302,,,uncomparable,no record taxid
+309,373,Nyl73,MSS57807,Stecheria intestinalis,2606630,Stecheria intestinalis,2606630,exact,Stecheria intestinalis (taxid 2606630)
+310,374,Nyl74,A0A7X7N2B0,Coriobacteriaceae bacterium,2011094,,,uncomparable,no record taxid
+311,375,Nyl82,WP_014810472.1,Desulfomonile tiedjei,2358,Desulfomonile tiedjei,2358,exact,Desulfomonile tiedjei (taxid 2358)
+312,376,Nyl83,XP_005707592.1,Galdieria sulphuraria,130081,Galdieria sulphuraria,130081,exact,Galdieria sulphuraria (taxid 130081)
+313,377,Nyl84,WP_010949597.1,Mycobacterium avium subsp. paratuberculosis,1770,Mycobacterium avium,1764,same_species,same species (taxid 1764); Mycobacterium avium subsp. paratuberculosis vs Mycobacterium avium
+314,378,Nyl85,R5FI29,Faecalibacterium sp. CAG:1138,1262896,,,uncomparable,no record taxid
+315,379,Nyl87,U7UHN3,Peptoniphilus sp. BV3C26,1111134,,,uncomparable,no record taxid
+316,380,Nyl93,WP_170196788.1,Gordonia asplenii,2725283,Gordonia asplenii,2725283,exact,Gordonia asplenii (taxid 2725283)
+317,381,DP003,ACV09511,Jonesia denitrificans,43674,Jonesia denitrificans DSM 20603,471856,same_species,same species (taxid 43674); Jonesia denitrificans vs Jonesia denitrificans DSM 20603
+318,382,DP006,TDP67440,Actinokineospora alba,504798,Actinokineospora alba,504798,exact,Actinokineospora alba (taxid 504798)
+319,383,DP007,WP_035284691,Actinokineospora spheciospongiae,909613,Actinokineospora spheciospongiae,909613,exact,Actinokineospora spheciospongiae (taxid 909613)
+320,384,DP008,WP_130342639,Herbihabitans rhizosphaerae,1872711,Herbihabitans rhizosphaerae,1872711,exact,Herbihabitans rhizosphaerae (taxid 1872711)
+321,385,DP016,WP_151597653.1,Actinomadura physcomitrii,2650748,Actinomadura physcomitrii,2650748,exact,Actinomadura physcomitrii (taxid 2650748)
+322,386,DP017,WP_187224800.1,Actinokineospora xionganensis,2684470,Actinokineospora xionganensis,2684470,exact,Actinokineospora xionganensis (taxid 2684470)
+323,387,DP021,MBT8227529.1,Dactylosporangium sp.,60453,Dactylosporangium sp.,60453,exact,Dactylosporangium sp. (taxid 60453)
+324,388,DP038,MBX3624429.1,Rhizobacter sp.,1909292,Rhizobacter sp.,1909292,exact,Rhizobacter sp. (taxid 1909292)
+325,389,DP039,WP_085750434.1,Piscinibacter gummiphilus,946333,Rhizobacter gummiphilus,946333,exact,Rhizobacter gummiphilus (taxid 946333)
+326,390,DP040,WP_233427406.1,Actinokineospora spheciospongiae,909613,Actinokineospora spheciospongiae,909613,exact,Actinokineospora spheciospongiae (taxid 909613)
+327,391,DP043,WP_229068674.1,Actinoplanes sp. DH11,2857011,Actinoplanes sp. DH11,2857011,exact,Actinoplanes sp. DH11 (taxid 2857011)
+328,392,DP054,WP_161104454.1,Actinomadura rayongensis,1429076,Actinomadura rayongensis,1429076,exact,Actinomadura rayongensis (taxid 1429076)
+329,393,DP056,MGYP001489421514,,,,,uncomparable,no taxid on either side
+330,394,DP057,MBN2622270.1,Acidimicrobiales bacterium,2201156,Acidimicrobiales bacterium,2201156,exact,Acidimicrobiales bacterium (taxid 2201156)
+331,395,DP059,MGYP001121581011,,,,,uncomparable,no taxid on either side
+332,396,DP061,WP_221382552.1,Paractinoplanes polyasparticus,2856853,Paractinoplanes polyasparticus,2856853,exact,Paractinoplanes polyasparticus (taxid 2856853)
+333,397,DP068,MGYP000271253724,,,,,uncomparable,no taxid on either side
+334,398,DP078,WP_184682765.1,Pseudomonas fluvialis,1793966,Pseudomonas fluvialis,1793966,exact,Pseudomonas fluvialis (taxid 1793966)
+335,399,DP080,MBJ7347705.1,Thermoleophilaceae bacterium,2732252,Thermoleophilaceae bacterium,2732252,exact,Thermoleophilaceae bacterium (taxid 2732252)
+336,400,DP081,MGYP000221121644,,,,,uncomparable,no taxid on either side
+337,401,DP082,WP_203733135.1,Paractinoplanes durhamensis,113563,Paractinoplanes durhamensis,113563,exact,Paractinoplanes durhamensis (taxid 113563)
+338,402,DP084,NUT34383.1,Hamadaea sp.,2024425,Hamadaea sp.,2024425,exact,Hamadaea sp. (taxid 2024425)
+339,403,DP089,WP_129786244.1,Promicromonospora panici,2219658,Promicromonospora panici,2219658,exact,Promicromonospora panici (taxid 2219658)
+340,404,DP090,WP_233872418.1,Streptomyces sp. ST2-7A,2907214,Streptomyces sp. ST2-7A,2907214,exact,Streptomyces sp. ST2-7A (taxid 2907214)
+341,405,DP092,WP_139580723.1,Microbispora catharanthi,1712871,Microbispora catharanthi,1712871,exact,Microbispora catharanthi (taxid 1712871)
+342,406,ESM006,WP_267938240.1,Saccharothrix sp. S26,2907215,Saccharothrix sp. S26,2907215,exact,Saccharothrix sp. S26 (taxid 2907215)
+343,407,ESM010,WP_167521412.1,Microbispora sp. (multispecies),,Microbispora,2005,uncomparable,no PAZy taxid
+344,408,ESM012,WBC00352.1,Solwaraspora sp. WMMA2059,3015160,Solwaraspora sp. WMMA2059,3015160,exact,Solwaraspora sp. WMMA2059 (taxid 3015160)
+345,409,ESM021,WP_210157342.1,Microbispora oryzae,2806554,Microbispora oryzae,2806554,exact,Microbispora oryzae (taxid 2806554)
+346,410,ESM024,MBO4274871.1,Microbispora triticiradicis,2200763,Microbispora triticiradicis,2200763,exact,Microbispora triticiradicis (taxid 2200763)
+347,411,ESM026,WP_232326807.1,Microbispora sp. ATCC PTA-5024,316330,Microbispora sp. ATCC PTA-5024,316330,exact,Microbispora sp. ATCC PTA-5024 (taxid 316330)
+348,412,ESM033,GFJ87714.1,Phytohabitans rumicis,1076125,Phytohabitans rumicis,1076125,exact,Phytohabitans rumicis (taxid 1076125)
+349,413,ESM035,WP_158852571.1,Saccharothrix deserti,2593674,Saccharothrix deserti,2593674,exact,Saccharothrix deserti (taxid 2593674)
+350,414,ESM038,WP_182904095.1,Microbispora sp. H10830,2729109,Microbispora sp. H10830,2729109,exact,Microbispora sp. H10830 (taxid 2729109)
+351,415,ESM043,WP_031525917.1,Streptomyces sp. NRRL F-5123,1463856,Streptomyces sp. NRRL F-5123,1463856,exact,Streptomyces sp. NRRL F-5123 (taxid 1463856)
+352,416,ESM045,MBX3621832.1,Rhizobacter sp.,1909292,Rhizobacter sp.,1909292,exact,Rhizobacter sp. (taxid 1909292)
+353,417,ESM050,GIU85367.1,Acidimicrobiales bacterium,2201156,Acidimicrobiales bacterium,2201156,exact,Acidimicrobiales bacterium (taxid 2201156)
+354,418,ESM052,WP_203777396.1,Paractinoplanes deccanensis,113561,Paractinoplanes deccanensis,113561,exact,Paractinoplanes deccanensis (taxid 113561)
+355,419,ESM058,WP_173061649.1,Phytohabitans houttuyneae,1076126,Phytohabitans houttuyneae,1076126,exact,Phytohabitans houttuyneae (taxid 1076126)
+356,420,ESM059,WP_111214096.1,Micromonospora craterilacus,1655439,Micromonospora craterilacus,1655439,exact,Micromonospora craterilacus (taxid 1655439)
+357,421,ESM060,WP_203790592.1,Paractinoplanes rishiriensis,1050105,Paractinoplanes rishiriensis,1050105,exact,Paractinoplanes rishiriensis (taxid 1050105)
+358,422,ESM061,MBF9135495.1,Plantactinospora alkalitolerans,2789879,Plantactinospora alkalitolerans,2789879,exact,Plantactinospora alkalitolerans (taxid 2789879)
+359,423,ESM062,TWG17167.1,Micromonospora taraxaci,1316803,Micromonospora taraxaci,1316803,exact,Micromonospora taraxaci (taxid 1316803)
+360,424,ESM064,WP_281901711.1,Phytohabitans aurantiacus,3016789,Phytohabitans aurantiacus,3016789,exact,Phytohabitans aurantiacus (taxid 3016789)
+361,425,ESM065,WP_204038550.1,Micromonospora qiuiae,502268,Micromonospora qiuiae,502268,exact,Micromonospora qiuiae (taxid 502268)
+362,426,ESM069,WP_181548579.1,Micromonospora saelicesensis,285676,Micromonospora saelicesensis,285676,exact,Micromonospora saelicesensis (taxid 285676)
+363,427,ESM070,GHJ08786.1,Micromonospora sp. AKA109,2733865,Micromonospora humidisoli,2807622,same_genus,same genus (taxid 1873); Micromonospora sp. AKA109 vs Micromonospora humidisoli
+364,428,ESM080,WP_084261341.1,Micromonospora rifamycinica,291594,Micromonospora rifamycinica,291594,exact,Micromonospora rifamycinica (taxid 291594)
+365,429,ESM081,WP_265247586.1,Micromonospora sp. CPCC 205371,2865942,Micromonospora sp. CPCC 205371,2865942,exact,Micromonospora sp. CPCC 205371 (taxid 2865942)
+366,430,ESM082,UAC02078.1,Dactylosporangium vinaceum,53362,Dactylosporangium vinaceum,53362,exact,Dactylosporangium vinaceum (taxid 53362)
+367,431,ESM084,WP_252811421.1,Actinoallomurus spadix,79912,Actinoallomurus spadix,79912,exact,Actinoallomurus spadix (taxid 79912)
+368,432,ESM090,WP_229836555.1,Dactylosporangium sucinum,1424081,Dactylosporangium sucinum,1424081,exact,Dactylosporangium sucinum (taxid 1424081)
+369,433,ESM093,WP_239135698.1,Dactylosporangium siamense,685454,Dactylosporangium siamense,685454,exact,Dactylosporangium siamense (taxid 685454)
+370,434,ESM096,WP_252275389.1,Pseudomonas subflava,2952933,Pseudomonas subflava,2952933,exact,Pseudomonas subflava (taxid 2952933)
+371,435,ESM097,WP_271190254.1,Dactylosporangium matsuzakiense,53360,Dactylosporangium vinaceum,53362,exact,Dactylosporangium vinaceum (taxid 53362)
+372,436,ESM101,MBW4703769.1,Micromonospora sp. RL09-050-HVF-A,1703433,Micromonospora sp. RL09-050-HVF-A,1703433,exact,Micromonospora sp. RL09-050-HVF-A (taxid 1703433)
+373,437,ESM121,WP_247684544.1,Micromonospora sp. D93,2824886,Micromonospora sp. D93,2824886,exact,Micromonospora sp. D93 (taxid 2824886)
+374,438,ESM128,WP_269740835.1,Verrucosispora sp. WMMA2121,3015164,Verrucosispora sp. WMMA2121,3015164,exact,Verrucosispora sp. WMMA2121 (taxid 3015164)
+375,439,ESM130,MCF0091346.1,Micromonospora sp. MH99,1945510,Micromonospora sp. MH99,1945510,exact,Micromonospora sp. MH99 (taxid 1945510)
+376,440,ESM136,GGR16917.1,Actinoplanes ianthinogenes,122358,Actinoplanes ianthinogenes,122358,exact,Actinoplanes ianthinogenes (taxid 122358)
+377,441,ESM139,WP_199199185.1,Amycolatopsis sp. CA-128772,2073159,Amycolatopsis sp. CA-128772,2073159,exact,Amycolatopsis sp. CA-128772 (taxid 2073159)
+378,442,ESM140,WP_247056560.1,Amycolatopsis sp. WQ 127309,2932773,Amycolatopsis sp. WQ 127309,2932773,exact,Amycolatopsis sp. WQ 127309 (taxid 2932773)
+379,443,ESM144,WP_239125827.1,Catellatospora bangladeshensis,310355,Catellatospora bangladeshensis,310355,exact,Catellatospora bangladeshensis (taxid 310355)
+380,444,ESM156,WP_203812622.1,Paractinoplanes tereljensis,571912,Paractinoplanes tereljensis,571912,exact,Paractinoplanes tereljensis (taxid 571912)
+381,445,ESM157,PWR09075.1,Micromonospora acroterricola,2202421,Micromonospora acroterricola,2202421,exact,Micromonospora acroterricola (taxid 2202421)
+382,446,ESM159,WP_203906211.1,Rhizocola hellebori,1392758,Rhizocola hellebori,1392758,exact,Rhizocola hellebori (taxid 1392758)
+383,447,ESM160,WP_144022925.1,Asanoa hainanensis,560556,Asanoa hainanensis,560556,exact,Asanoa hainanensis (taxid 560556)
+384,448,ESM167,WP_091317053.1,Amycolatopsis tolypomycina,208445,Amycolatopsis tolypomycina,208445,exact,Amycolatopsis tolypomycina (taxid 208445)
+385,449,ESM169,MBT9528079.1,Rhizobacter sp.,1909292,Rhizobacter sp.,1909292,exact,Rhizobacter sp. (taxid 1909292)
+386,450,ESM173,MTK05241.1,Micromonospora sp. CP22,2580517,Micromonospora sp. CP22,2580517,exact,Micromonospora sp. CP22 (taxid 2580517)
+387,451,ESM177,WP_239086781.1,Catellatospora methionotrophica,121620,Catellatospora methionotrophica,121620,exact,Catellatospora methionotrophica (taxid 121620)
+388,452,ESM186,WP_093473685.1,Halopseudomonas yangmingensis,1720063,Halopseudomonas yangmingensis,1720063,exact,Halopseudomonas yangmingensis (taxid 1720063)
+389,453,TEP010,WP_164449727.1,Verrucosispora sioxanthis,2499994,Verrucosispora sioxanthis,2499994,exact,Verrucosispora sioxanthis (taxid 2499994)
+390,454,TEP014,MGYP001477358452,Thermobifida cellulosilytica,144786,,,uncomparable,no record taxid
+391,455,TEP024,WP_264933993.1,Streptomyces sp. A012304,375446,Streptomyces sp. A012304,375446,exact,Streptomyces sp. A012304 (taxid 375446)
+392,456,TEP037,MGYP000321434903,,,,,uncomparable,no taxid on either side
+393,457,TEP041,WP_256510026.1,Crossiella sp. SN42,2944808,Crossiella sp. SN42,2944808,exact,Crossiella sp. SN42 (taxid 2944808)
+394,458,TEP054,WP_260709492.1,Dactylosporangium aurantiacum,35754,Dactylosporangium aurantiacum,35754,exact,Dactylosporangium aurantiacum (taxid 35754)
+395,459,TEP061,GGO06455.1,Microbispora rosea subsp. aerata,147065,Microbispora rosea subsp. aerata,147065,exact,Microbispora rosea subsp. aerata (taxid 147065)
+396,460,TEP067,WP_149259982.1,Actinomadura sp. K4S16,1316147,Actinomadura sp. K4S16,1316147,exact,Actinomadura sp. K4S16 (taxid 1316147)
+397,461,TEP083,MBN1171866.1,Micromonosporaceae bacterium,1873464,Micromonosporaceae bacterium,1873464,exact,Micromonosporaceae bacterium (taxid 1873464)
+398,462,TEP091,MBO9569276.1,Cellulomonas iranensis,76862,Cellulomonas iranensis,76862,exact,Cellulomonas iranensis (taxid 76862)
+399,463,TEP092,GIG90696.1,Plantactinospora endophytica,673535,Plantactinospora endophytica,673535,exact,Plantactinospora endophytica (taxid 673535)
+400,464,TEP097,WP_086599340.1,Streptomyces swartbergensis,487165,Streptomyces swartbergensis,487165,exact,Streptomyces swartbergensis (taxid 487165)
+401,465,TEP101,WP_019633337.1,Actinomadura atramentaria,1990,Actinomadura atramentaria,1990,exact,Actinomadura atramentaria (taxid 1990)
+402,466,TEP102,WP_109361459.1,Streptomyces sp. V2,1424099,Streptomyces sp. V2,1424099,exact,Streptomyces sp. V2 (taxid 1424099)
+403,467,TEP103,WP_211769896.1,Kutzneria sp. CA-103260,2802641,Kutzneria sp. CA-103260,2802641,exact,Kutzneria sp. CA-103260 (taxid 2802641)
+404,468,TEP105,WP_150070118.1,Saccharopolyspora hirsuta,1837,Saccharopolyspora hirsuta,1837,exact,Saccharopolyspora hirsuta (taxid 1837)
+405,469,TEP109,WP_307855560.1,Kibdelosporangium banguiense,1365924,Kibdelosporangium banguiense,1365924,exact,Kibdelosporangium banguiense (taxid 1365924)
+406,470,TEP111,WP_260422593.1,Micromonospora carbonacea,47853,Micromonospora carbonacea,47853,exact,Micromonospora carbonacea (taxid 47853)
+407,471,TEP114,WP_252811421.1,Actinoallomurus spadix,79912,Actinoallomurus spadix,79912,exact,Actinoallomurus spadix (taxid 79912)
+408,472,TEP163,WP_218517662.1,Streptomyces sp. TRM70350,2856165,Streptomyces sp. TRM70350,2856165,exact,Streptomyces sp. TRM70350 (taxid 2856165)
+409,473,TEP164,WP_256510519.1,Crossiella sp. SN42,2944808,Crossiella sp. SN42,2944808,exact,Crossiella sp. SN42 (taxid 2944808)
+410,474,TEP165,WP_233604767.1,Micromonospora sp. HM5-17,2487710,Micromonospora sp. HM5-17,2487710,exact,Micromonospora sp. HM5-17 (taxid 2487710)
+411,475,TEP168,WP_239095870.1,Micromonospora lutea,419825,Micromonospora lutea,419825,exact,Micromonospora lutea (taxid 419825)
+412,476,TEP178,WP_253762837.1,Hamadaea flava,1742688,Hamadaea flava,1742688,exact,Hamadaea flava (taxid 1742688)
+413,477,TEP181,WP_212846608.1,Actinoplanes ianthinogenes,122358,Actinoplanes ianthinogenes,122358,exact,Actinoplanes ianthinogenes (taxid 122358)
+414,478,TEP189,GIU85371.1,Acidimicrobiales bacterium,2201156,Acidimicrobiales bacterium,2201156,exact,Acidimicrobiales bacterium (taxid 2201156)
+415,479,TEP194,WP_250563816.1,Sphaerisporangium fuscum,2835868,Sphaerisporangium fuscum,2835868,exact,Sphaerisporangium fuscum (taxid 2835868)
+416,480,KaPETase,WP_143447025.1,Kibdelosporangium aridum,2030,Kibdelosporangium aridum,2030,exact,Kibdelosporangium aridum (taxid 2030)
+417,481,Sis,XDS72785.1,uncultured bacterium,,uncultured bacterium,77133,uncomparable,no PAZy taxid
+418,482,NylB',CAA26616.1,Paenarthrobacter ureafaciens,37931,Flavobacterium sp.,239,mismatch,different genus; PAZy Paenarthrobacter ureafaciens vs record Flavobacterium sp.
+419,483,DIEGO,YCL34723,uncultured bacterium,77133,uncultured bacterium,77133,exact,uncultured bacterium (taxid 77133)
+420,484,TA21,WDT94064,Thermoleophilum album,29539,Thermoleophilum album,29539,exact,Thermoleophilum album (taxid 29539)
+421,485,TA26,WDT94443,Thermoleophilum album,29539,Thermoleophilum album,29539,exact,Thermoleophilum album (taxid 29539)
+422,486,TA29,WDT94189,Thermoleophilum album,29539,Thermoleophilum album,29539,exact,Thermoleophilum album (taxid 29539)
+423,490,HP,ATH80290,Ectopseudomonas mendocina,300,Ectopseudomonas mendocina,300,exact,Ectopseudomonas mendocina (taxid 300)
+424,494,E4,7C2A_A,Altericroceibacterium indicum,374177,Altericroceibacterium indicum,374177,exact,Altericroceibacterium indicum (taxid 374177)
+425,495,PET93,WKW63607.1,Maribacter dokdonensis,320912,Maribacter dokdonensis,320912,exact,Maribacter dokdonensis (taxid 320912)
+426,496,PET94,WKW63608.1,Arenibacter palladensis,237373,Arenibacter palladensis,237373,exact,Arenibacter palladensis (taxid 237373)
+427,497,BsMPPE,NP_390179.1,Bacillus subtilis,1423,Bacillus subtilis subsp. subtilis str. 168,224308,same_species,same species (taxid 1423); Bacillus subtilis vs Bacillus subtilis subsp. subtilis str. 168
+428,498,porcine pancreatic lipase,NP_999368.1,Sus scrofa,9823,Sus scrofa,9823,exact,Sus scrofa (taxid 9823)
+429,499,CRL,CAA34684,Diutina rugosa,5481,Limtongozyma cylindracea,44322,mismatch,different genus; PAZy Diutina rugosa vs record Limtongozyma cylindracea
+430,,PhaZcac,BAA19791.1,,,Delftia acidovorans,80866,uncomparable,no PAZy taxid
+431,,PhaZ Sa,WP_011617846.1,Cupriavidus necator,,Cupriavidus necator,106590,uncomparable,no PAZy taxid
+432,5,PLE628,UUT36764,Marinobacter sp.,50741,Marinobacter sp.,50741,exact,Marinobacter sp. (taxid 50741)
+433,6,PLE629,UUT36763,Marinobacter sp.,50741,Marinobacter sp.,50741,exact,Marinobacter sp. (taxid 50741)
+434,127,Lcp1,WP_189902969.1,Streptomyces sp. AC04842,2775327,Streptomyces sp. AC04842,2775327,exact,Streptomyces sp. AC04842 (taxid 2775327)
+435,128,Lcp2,WP_254586337.1,Streptomyces sp. AC04842,2775327,unclassified Streptomyces,2593676,same_genus,same genus (taxid 1883); Streptomyces sp. AC04842 vs unclassified Streptomyces
+436,129,Lcp1,UFE15760.1,Microtetraspora sp. AC03309,2779376,Microtetraspora sp. AC03309,2779376,exact,Microtetraspora sp. AC03309 (taxid 2779376)
+437,130,Lcp2,UFE15761.1,Microtetraspora sp. AC03309,2779376,Microtetraspora sp. AC03309,2779376,exact,Microtetraspora sp. AC03309 (taxid 2779376)
+438,159,Amidase,AGT90042.1,Rhodococcus erythropolis,1833,Rhodococcus erythropolis CCM2595,1136179,same_species,same species (taxid 1833); Rhodococcus erythropolis vs Rhodococcus erythropolis CCM2595
+439,160,Amidase,AAK11724.1,Rhodococcus erythropolis,1833,Rhodococcus erythropolis,1833,exact,Rhodococcus erythropolis (taxid 1833)
+440,161,Amidase,ARF18137.1,Sporosarcina ureae,1571,Sporosarcina ureae,1571,exact,Sporosarcina ureae (taxid 1571)
+441,164,Amidase,WP_012433325.1,Paraburkholderia phytofirmans,261302,Paraburkholderia,1822464,same_genus,same genus (taxid 1822464); Paraburkholderia phytofirmans vs Paraburkholderia
+442,165,Amidase,ACY56506.1,Microbacterium hydrocarbonoxydans,273678,Microbacterium hydrocarbonoxydans,273678,exact,Microbacterium hydrocarbonoxydans (taxid 273678)
+443,,lcp1,UFE15762.1,,,Dactylosporangium sp. AC04546,2862460,uncomparable,no PAZy taxid
+444,,lcp2,UFE15763.1,,,Dactylosporangium sp. AC04546,2862460,uncomparable,no PAZy taxid
+445,,lcp3,UFE15764.1,,,Dactylosporangium sp. AC04546,2862460,uncomparable,no PAZy taxid

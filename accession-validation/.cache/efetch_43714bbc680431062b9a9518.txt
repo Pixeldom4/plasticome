@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+613541690	INSDC	BSFP01000123.1	2685	3938	-	GLL08040.1	triacylglycerol lipase	Dactylosporangium vinaceum	VKM Ac-1321	GCA_027922405.1

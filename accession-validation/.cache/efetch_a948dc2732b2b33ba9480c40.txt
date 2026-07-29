@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+187060902	INSDC	CP023704.1	2837809	2839062	-	AWI13148.1	lipase	Caldibacillus thermoamylovorans	SSBM	GCA_003096215.1

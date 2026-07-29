@@ -1,0 +1,19 @@
+{
+  "input_tsv": "results/input.tsv",
+  "input_md5": "33e2e3d9eb3fac6dd990cea87877620f",
+  "v1_overlay_csv": "../analysis/data/archive/plasticome_v1.csv",
+  "n_rows": 412,
+  "n_blank_seq_dropped": 0,
+  "n_rows_with_seq": 412,
+  "n_nodes": 412,
+  "n_md5_collapsed_rows": 0,
+  "n_multi_row_nodes": 0,
+  "n_unique_md5": 412,
+  "db_letters": 144774,
+  "len_min": 186,
+  "len_median": 315,
+  "len_max": 734,
+  "n_lt_200aa": 4,
+  "n_lt_100aa": 0,
+  "n_with_v1_overlay": 156
+}

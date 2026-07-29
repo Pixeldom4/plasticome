@@ -1,0 +1,2378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="my-svg"
+   width="654.89062"
+   class="flowchart"
+   viewBox="0 0 654.89062 1900.2"
+   role="graphics-document document"
+   aria-roledescription="flowchart-v2"
+   version="1.1"
+   sodipodi:docname="plasticome-v2-curation-flowchart-mermaid.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   height="1900.2"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview311"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.56024455"
+     inkscape:cx="49.978175"
+     inkscape:cy="1457.3993"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1710"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g306" />
+  <style
+     id="style1">#my-svg{font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#my-svg .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#my-svg .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#my-svg .error-icon{fill:#552222;}#my-svg .error-text{fill:#552222;stroke:#552222;}#my-svg .edge-thickness-normal{stroke-width:1px;}#my-svg .edge-thickness-thick{stroke-width:3.5px;}#my-svg .edge-pattern-solid{stroke-dasharray:0;}#my-svg .edge-thickness-invisible{stroke-width:0;fill:none;}#my-svg .edge-pattern-dashed{stroke-dasharray:3;}#my-svg .edge-pattern-dotted{stroke-dasharray:2;}#my-svg .marker{fill:#333333;stroke:#333333;}#my-svg .marker.cross{stroke:#333333;}#my-svg svg{font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;font-size:16px;}#my-svg p{margin:0;}#my-svg .label{font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;color:#333;}#my-svg .cluster-label text{fill:#333;}#my-svg .cluster-label span{color:#333;}#my-svg .cluster-label span p{background-color:transparent;}#my-svg .label text,#my-svg span{fill:#333;color:#333;}#my-svg .node rect,#my-svg .node circle,#my-svg .node ellipse,#my-svg .node polygon,#my-svg .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#my-svg .rough-node .label text,#my-svg .node .label text,#my-svg .image-shape .label,#my-svg .icon-shape .label{text-anchor:middle;}#my-svg .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#my-svg .rough-node .label,#my-svg .node .label,#my-svg .image-shape .label,#my-svg .icon-shape .label{text-align:center;}#my-svg .node.clickable{cursor:pointer;}#my-svg .root .anchor path{fill:#333333!important;stroke-width:0;stroke:#333333;}#my-svg .arrowheadPath{fill:#333333;}#my-svg .edgePath .path{stroke:#333333;stroke-width:1px;}#my-svg .flowchart-link{stroke:#333333;fill:none;}#my-svg .edgeLabel{background-color:rgba(232,232,232, 0.8);text-align:center;}#my-svg .edgeLabel p{background-color:rgba(232,232,232, 0.8);}#my-svg .edgeLabel rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#my-svg .labelBkg{background-color:rgba(232, 232, 232, 0.5);}#my-svg .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#my-svg .cluster text{fill:#333;}#my-svg .cluster span{color:#333;}#my-svg div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#my-svg .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#333;}#my-svg rect.text{fill:none;stroke-width:0;}#my-svg .icon-shape,#my-svg .image-shape{background-color:rgba(232,232,232, 0.8);text-align:center;}#my-svg .icon-shape p,#my-svg .image-shape p{background-color:rgba(232,232,232, 0.8);padding:2px;}#my-svg .icon-shape .label rect,#my-svg .image-shape .label rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#my-svg .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#my-svg .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#my-svg .node .neo-node{stroke:#9370DB;}#my-svg [data-look=&quot;neo&quot;].node rect,#my-svg [data-look=&quot;neo&quot;].cluster rect,#my-svg [data-look=&quot;neo&quot;].node polygon{stroke:#9370DB;filter:drop-shadow(1px 2px 2px rgba(185, 185, 185, 1));}#my-svg [data-look=&quot;neo&quot;].swimlane.cluster rect{filter:none;}#my-svg [data-look=&quot;neo&quot;].node path{stroke:#9370DB;stroke-width:1px;}#my-svg [data-look=&quot;neo&quot;].node .outer-path{filter:drop-shadow(1px 2px 2px rgba(185, 185, 185, 1));}#my-svg [data-look=&quot;neo&quot;].node .neo-line path{stroke:#9370DB;filter:none;}#my-svg [data-look=&quot;neo&quot;].node circle{stroke:#9370DB;filter:drop-shadow(1px 2px 2px rgba(185, 185, 185, 1));}#my-svg [data-look=&quot;neo&quot;].node circle .state-start{fill:#000000;}#my-svg [data-look=&quot;neo&quot;].icon-shape .icon{fill:#9370DB;filter:drop-shadow(1px 2px 2px rgba(185, 185, 185, 1));}#my-svg [data-look=&quot;neo&quot;].icon-shape .icon-neo path{stroke:#9370DB;filter:drop-shadow(1px 2px 2px rgba(185, 185, 185, 1));}#my-svg :root{--mermaid-font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;}#my-svg .product rect{fill:rgb(219, 234, 254)!important;stroke:rgb(37, 99, 235)!important;color:rgb(30, 58, 138)!important;}#my-svg .product polygon{fill:rgb(219, 234, 254)!important;stroke:rgb(37, 99, 235)!important;color:rgb(30, 58, 138)!important;}#my-svg .product ellipse{fill:rgb(219, 234, 254)!important;stroke:rgb(37, 99, 235)!important;color:rgb(30, 58, 138)!important;}#my-svg .product circle{fill:rgb(219, 234, 254)!important;stroke:rgb(37, 99, 235)!important;color:rgb(30, 58, 138)!important;}#my-svg .product path{fill:rgb(219, 234, 254)!important;stroke:rgb(37, 99, 235)!important;color:rgb(30, 58, 138)!important;}#my-svg .product tspan{fill:rgb(30, 58, 138)!important;}#my-svg .output rect{fill:rgb(220, 252, 231)!important;stroke:rgb(22, 163, 74)!important;color:rgb(20, 83, 45)!important;}#my-svg .output polygon{fill:rgb(220, 252, 231)!important;stroke:rgb(22, 163, 74)!important;color:rgb(20, 83, 45)!important;}#my-svg .output ellipse{fill:rgb(220, 252, 231)!important;stroke:rgb(22, 163, 74)!important;color:rgb(20, 83, 45)!important;}#my-svg .output circle{fill:rgb(220, 252, 231)!important;stroke:rgb(22, 163, 74)!important;color:rgb(20, 83, 45)!important;}#my-svg .output path{fill:rgb(220, 252, 231)!important;stroke:rgb(22, 163, 74)!important;color:rgb(20, 83, 45)!important;}#my-svg .output tspan{fill:rgb(20, 83, 45)!important;}</style>
+  <g
+     id="g310"
+     inkscape:label="g310"
+     transform="translate(0,46)">
+    <marker
+       id="my-svg_flowchart-v2-pointEnd"
+       class="marker flowchart-v2"
+       viewBox="0 0 10 10"
+       refX="5"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         class="arrowMarkerPath"
+         style="stroke-width:1;stroke-dasharray:1, 0"
+         id="path1" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-pointStart"
+       class="marker flowchart-v2"
+       viewBox="0 0 10 10"
+       refX="4.5"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto">
+      <path
+         d="m 0,5 10,5 V 0 Z"
+         class="arrowMarkerPath"
+         style="stroke-width:1;stroke-dasharray:1, 0"
+         id="path2" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-pointEnd-margin"
+       class="marker flowchart-v2"
+       viewBox="0 0 11.5 14"
+       refX="11.5"
+       refY="7"
+       markerUnits="userSpaceOnUse"
+       markerWidth="10.5"
+       markerHeight="14"
+       orient="auto">
+      <path
+         d="M 0,0 11.5,7 0,14 Z"
+         class="arrowMarkerPath"
+         style="stroke-width:0;stroke-dasharray:1, 0"
+         id="path3" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-pointStart-margin"
+       class="marker flowchart-v2"
+       viewBox="0 0 11.5 14"
+       refX="1"
+       refY="7"
+       markerUnits="userSpaceOnUse"
+       markerWidth="11.5"
+       markerHeight="14"
+       orient="auto">
+      <polygon
+         points="11.5,14 11.5,0 0,7 "
+         class="arrowMarkerPath"
+         style="stroke-width:0;stroke-dasharray:1, 0"
+         id="polygon3" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-circleEnd"
+       class="marker flowchart-v2"
+       viewBox="0 0 10 10"
+       refX="11"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="11"
+       markerHeight="11"
+       orient="auto">
+      <circle
+         cx="5"
+         cy="5"
+         r="5"
+         class="arrowMarkerPath"
+         style="stroke-width:1;stroke-dasharray:1, 0"
+         id="circle3" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-circleStart"
+       class="marker flowchart-v2"
+       viewBox="0 0 10 10"
+       refX="-1"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="11"
+       markerHeight="11"
+       orient="auto">
+      <circle
+         cx="5"
+         cy="5"
+         r="5"
+         class="arrowMarkerPath"
+         style="stroke-width:1;stroke-dasharray:1, 0"
+         id="circle4" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-circleEnd-margin"
+       class="marker flowchart-v2"
+       viewBox="0 0 10 10"
+       refY="5"
+       refX="12.25"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto">
+      <circle
+         cx="5"
+         cy="5"
+         r="5"
+         class="arrowMarkerPath"
+         style="stroke-width:0;stroke-dasharray:1, 0"
+         id="circle5" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-circleStart-margin"
+       class="marker flowchart-v2"
+       viewBox="0 0 10 10"
+       refX="-2"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto">
+      <circle
+         cx="5"
+         cy="5"
+         r="5"
+         class="arrowMarkerPath"
+         style="stroke-width:0;stroke-dasharray:1, 0"
+         id="circle6" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-crossEnd"
+       class="marker cross flowchart-v2"
+       viewBox="0 0 11 11"
+       refX="12"
+       refY="5.1999998"
+       markerUnits="userSpaceOnUse"
+       markerWidth="11"
+       markerHeight="11"
+       orient="auto">
+      <path
+         d="m 1,1 9,9 m 0,-9 -9,9"
+         class="arrowMarkerPath"
+         style="stroke-width:2;stroke-dasharray:1, 0"
+         id="path6" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-crossStart"
+       class="marker cross flowchart-v2"
+       viewBox="0 0 11 11"
+       refX="-1"
+       refY="5.1999998"
+       markerUnits="userSpaceOnUse"
+       markerWidth="11"
+       markerHeight="11"
+       orient="auto">
+      <path
+         d="m 1,1 9,9 m 0,-9 -9,9"
+         class="arrowMarkerPath"
+         style="stroke-width:2;stroke-dasharray:1, 0"
+         id="path7" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-crossEnd-margin"
+       class="marker cross flowchart-v2"
+       viewBox="0 0 15 15"
+       refX="17.700001"
+       refY="7.5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="12"
+       markerHeight="12"
+       orient="auto">
+      <path
+         d="M 1,1 14,14 M 1,14 14,1"
+         class="arrowMarkerPath"
+         style="stroke-width:2.5"
+         id="path8" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-crossStart-margin"
+       class="marker cross flowchart-v2"
+       viewBox="0 0 15 15"
+       refX="-3.5"
+       refY="7.5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="12"
+       markerHeight="12"
+       orient="auto">
+      <path
+         d="M 1,1 14,14 M 1,14 14,1"
+         class="arrowMarkerPath"
+         style="stroke-width:2.5;stroke-dasharray:1, 0"
+         id="path9" />
+    </marker>
+    <g
+       class="root"
+       id="g309">
+      <path
+         style="fill:#d7d7d7;fill-opacity:1;stroke:#070707;stroke-opacity:1"
+         d="M 356.23888,109 V 7.5728371 H 555 V 109 Z"
+         id="path89"
+         sodipodi:nodetypes="ccccc" />
+      <g
+         class="cluster"
+         id="my-svg-S21"
+         data-look="classic"
+         transform="translate(-5e-6,-0.44623372)">
+        <rect
+           x="356.41864"
+           y="265.69968"
+           width="290.50647"
+           height="318.38327"
+           id="rect9" />
+        <g
+           class="cluster-label"
+           transform="translate(379.78906,266.2)"
+           id="g17">
+          <g
+             id="g16">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect10"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="21.9"
+               id="text16"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ba1515;fill-opacity:1"
+               x="11.195315"><tspan
+                 sodipodi:role="line"
+                 id="tspan327"
+                 x="11.195315"
+                 y="21.9"><tspan
+   style="font-weight:bold;fill:#ba1515;fill-opacity:1"
+   id="tspan328">Step 2</tspan>: Validate Plasticome v.1</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="cluster"
+         id="my-svg-S1"
+         data-look="classic"
+         transform="matrix(1.0001239,0,0,0.92017664,-0.02133199,0.6182458)">
+        <rect
+           x="8"
+           y="8"
+           width="328.45312"
+           height="625.59998"
+           id="rect17" />
+        <g
+           class="cluster-label"
+           transform="translate(48.6875,14.016376)"
+           id="g25">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect18"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="cluster-label"
+           transform="translate(379.59606,7.495889)"
+           id="g25-8" />
+      </g>
+      <a
+         id="a319"
+         transform="matrix(1.0001239,0,0,0.92017664,48.6722,13.515788)"
+         inkscape:label="Step 1 Title">
+        <text
+           y="16.942707"
+           id="text24"
+           style="font-size:16.6785px;fill:#ba1515;fill-opacity:1;stroke-width:0.952825"
+           x="-21.343121"
+           transform="scale(0.95282479,1.0495109)"><tspan
+             sodipodi:role="line"
+             id="tspan311"
+             x="-21.343121"
+             y="16.942707"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.6785px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';fill:#ba1515;fill-opacity:1;stroke-width:0.952825">Step 1: Data Processing Pazy-v260701</tspan></text>
+      </a>
+      <a
+         id="a319-7"
+         transform="matrix(1.0001239,0,0,0.92017664,37.216029,-29.54926)"
+         inkscape:label="Step 1 Title">
+        <text
+           y="16.942707"
+           id="text24-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.238px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ba1515;fill-opacity:1;stroke-width:0.104241;stroke-dasharray:none"
+           x="-20.146652"
+           transform="scale(0.95282479,1.0495109)"><tspan
+             sodipodi:role="line"
+             id="tspan103"
+             style="font-weight:bold;font-size:22.238px;stroke:#000000;stroke-width:0.104241;stroke-dasharray:none;stroke-opacity:1"
+             x="-20.146652"
+             y="16.942707">Lab Notebook Plasticome V260701</tspan></text>
+      </a>
+      <g
+         class="edgePaths"
+         id="g27">
+        <path
+           d="m 172.227,99.6 v 4.167 c 0,4.166 0,12.5 0,20.166 0,7.667 0,14.667 0,18.167 v 3.5"
+           id="my-svg-L_A_B_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_A_B_0"
+           data-points="W3sieCI6MTcyLjIyNjU2MjUsInkiOjk5LjU5OTk5ODQ3NDEyMTF9LHsieCI6MTcyLjIyNjU2MjUsInkiOjEyNC41OTk5OTg0NzQxMjExfSx7IngiOjE3Mi4yMjY1NjI1LCJ5IjoxNDkuNTk5OTk4NDc0MTIxMX1d"
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           inkscape:label="pull-manual.curation" />
+        <path
+           d="m 172.227,178.2 v 4.167 c 0,4.166 0,12.5 0,20.833 0,8.333 0,16.667 0,24.333 0,7.667 0,14.667 0,18.167 v 3.5"
+           id="my-svg-L_B_C_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_B_C_0"
+           data-points="W3sieCI6MTcyLjIyNjU2MjUsInkiOjIxNi4xOTk5OTY5NDgyNDIyfSx7IngiOjE3Mi4yMjY1NjI1LCJ5IjoyNDEuMTk5OTk2OTQ4MjQyMn0seyJ4IjoxNzIuMjI2NTYyNSwieSI6MjY2LjE5OTk5Njk0ODI0MjJ9LHsieCI6MTcyLjIyNjU2MjUsInkiOjI5MS4xOTk5OTY5NDgyNDIyfV0="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           inkscape:label="manual.curation-cleaned.pazy" />
+        <path
+           d="m 172.227,311.8 v 4.167 c 0,4.166 0,12.5 0,20.166 0,7.667 0,14.667 0,18.167 v 3.5"
+           id="my-svg-L_C_D_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_C_D_0"
+           data-points="W3sieCI6MTcyLjIyNjU2MjUsInkiOjM1Ny43OTk5OTU0MjIzNjMzfSx7IngiOjE3Mi4yMjY1NjI1LCJ5IjozODIuNzk5OTk1NDIyMzYzM30seyJ4IjoxNzIuMjI2NTYyNSwieSI6NDA3Ljc5OTk5NTQyMjM2MzN9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 172.227,422.4 v 4.167 c 0,4.166 0,12.5 0,20.166 0,7.667 0,14.667 0,18.167 v 3.5"
+           id="my-svg-L_D_E_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_D_E_0"
+           data-points="W3sieCI6MTcyLjIyNjU2MjUsInkiOjQ3NC4zOTk5OTM4OTY0ODQ0fSx7IngiOjE3Mi4yMjY1NjI1LCJ5Ijo0OTkuMzk5OTkzODk2NDg0NH0seyJ4IjoxNzIuMjI2NTYyNSwieSI6NTI0LjM5OTk5Mzg5NjQ4NDR9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 501.672,327 v 5.633 c 0,5.634 0,16.9 0,26.034 0,9.133 0,16.133 0,19.633 v 3.5"
+           id="my-svg-L_F_G_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_F_G_0"
+           data-points="W3sieCI6NTAxLjY3MTg3NSwieSI6MzQ4Ljk5OTk5NjE4NTMwMjczfSx7IngiOjUwMS42NzE4NzUsInkiOjM4Mi43OTk5OTU0MjIzNjMzfSx7IngiOjUwMS42NzE4NzUsInkiOjQwNy43OTk5OTU0MjIzNjMzfV0="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 501.672,428.4 v 4.167 c 0,4.166 0,12.5 0,21.633 0,9.133 0,19.067 0,24.033 v 4.967"
+           id="my-svg-L_G_H_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_G_H_0"
+           data-points="W3sieCI6NTAxLjY3MTg3NSwieSI6NDc0LjM5OTk5Mzg5NjQ4NDR9LHsieCI6NTAxLjY3MTg3NSwieSI6NDk5LjM5OTk5Mzg5NjQ4NDR9LHsieCI6NTAxLjY3MTg3NSwieSI6NTMzLjE5OTk5MzEzMzU0NDl9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 172.227,542.6 v 4.167 20.833 c 0,8.333 -0.89247,21.12934 6.04113,32.78021 9.16477,12.0981 19.46309,19.03663 29.07409,22.95163 l 9.611,3.915"
+           id="my-svg-L_E_U_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_E_U_0"
+           data-points="W3sieCI6MTcyLjIyNjU2MjUsInkiOjYwOC41OTk5OTA4NDQ3MjY2fSx7IngiOjE3Mi4yMjY1NjI1LCJ5Ijo2MzMuNTk5OTkwODQ0NzI2Nn0seyJ4IjoxNzIuMjI2NTYyNSwieSI6NjU4LjU5OTk5MDg0NDcyNjZ9LHsieCI6MjMzLjU5ODY0MTQ4NTA0MjYzLCJ5Ijo2ODMuNTk5OTkwODQ0NzI2Nn1d"
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           sodipodi:nodetypes="ccscsc" />
+        <path
+           d="m 501.672,533.84948 v 5.633 26.7 c 0,9.8 -0.89247,19.02647 -6.04113,30.67734 -5.07608,11.48663 -20.80179,24.83767 -30.41279,28.75267 l -9.612,3.915"
+           id="my-svg-L_H_U_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_H_U_0"
+           data-points="W3sieCI6NTAxLjY3MTg3NSwieSI6NTk5Ljc5OTk5MTYwNzY2Nn0seyJ4Ijo1MDEuNjcxODc1LCJ5Ijo2MzMuNTk5OTkwODQ0NzI2Nn0seyJ4Ijo1MDEuNjcxODc1LCJ5Ijo2NTguNTk5OTkwODQ0NzI2Nn0seyJ4Ijo0NDAuMjk5Nzk2MDE0OTU3MzQsInkiOjY4My41OTk5OTA4NDQ3MjY2fV0="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           sodipodi:nodetypes="ccsscc" />
+        <path
+           d="m 336.949,693.8 v 4.167 c 0,4.166 0,12.5 0,20.166 0,7.667 0,14.667 0,18.167 v 3.5"
+           id="my-svg-L_U_UNION_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_U_UNION_0"
+           data-points="W3sieCI6MzM2Ljk0OTIxODc1LCJ5Ijo3NjcuNzk5OTg3NzkyOTY4OH0seyJ4IjozMzYuOTQ5MjE4NzUsInkiOjc5Mi43OTk5ODc3OTI5Njg4fSx7IngiOjMzNi45NDkyMTg3NSwieSI6ODE3Ljc5OTk4Nzc5Mjk2ODh9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 270.893,844 -6.537,4.167 c -6.538,4.166 -19.613,12.5 -26.15,20.166 C 231.668,876 231.668,883 231.668,886.5 v 3.5"
+           id="my-svg-L_UNION_SEED_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_UNION_SEED_0"
+           data-points="W3sieCI6MjcwLjg5MzQ3MjYyMjYyODQ1LCJ5Ijo5MDEuOTk5OTg0NzQxMjEwOX0seyJ4IjoyMzEuNjY3OTY4NzUsInkiOjkyNi45OTk5ODQ3NDEyMTA5fSx7IngiOjIzMS42Njc5Njg3NSwieSI6OTUxLjk5OTk4NDc0MTIxMDl9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 403.005,844 6.538,4.167 c 6.537,4.166 19.612,12.5 26.15,20.166 C 442.23,876 442.23,883 442.23,886.5 v 3.5"
+           id="my-svg-L_UNION_NOSEED_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_UNION_NOSEED_0"
+           data-points="W3sieCI6NDAzLjAwNDk2NDg3NzM3MTU1LCJ5Ijo5MDEuOTk5OTg0NzQxMjEwOX0seyJ4Ijo0NDIuMjMwNDY4NzUsInkiOjkyNi45OTk5ODQ3NDEyMTA5fSx7IngiOjQ0Mi4yMzA0Njg3NSwieSI6OTUxLjk5OTk4NDc0MTIxMDl9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 231.668,943 v 4.167 c 0,4.166 0,12.5 5.239,20.443 5.239,7.944 15.716,15.497 20.955,19.274 l 5.239,3.777"
+           id="my-svg-L_SEED_CL_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_SEED_CL_0"
+           data-points="W3sieCI6MjMxLjY2Nzk2ODc1LCJ5IjoxMDAwLjk5OTk4NDc0MTIxMDl9LHsieCI6MjMxLjY2Nzk2ODc1LCJ5IjoxMDI1Ljk5OTk4NDc0MTIxMX0seyJ4IjoyNjYuMzQ1NTg2NjI5OTIzLCJ5IjoxMDUwLjk5OTk4NDc0MTIxMX1d"
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 442.23,943 v 4.167 c 0,4.166 0,12.5 -5.238,20.443 -5.239,7.944 -15.717,15.497 -20.956,19.274 l -5.238,3.777"
+           id="my-svg-L_NOSEED_CL_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_NOSEED_CL_0"
+           data-points="W3sieCI6NDQyLjIzMDQ2ODc1LCJ5IjoxMDAwLjk5OTk4NDc0MTIxMDl9LHsieCI6NDQyLjIzMDQ2ODc1LCJ5IjoxMDI1Ljk5OTk4NDc0MTIxMX0seyJ4Ijo0MDcuNTUyODUwODcwMDc3LCJ5IjoxMDUwLjk5OTk4NDc0MTIxMX1d"
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 336.949,1076.8 v 4.167 c 0,4.166 0,12.5 0,20.166 0,7.667 0,14.667 0,18.167 v 3.5"
+           id="my-svg-L_CL_CENT_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_CL_CENT_0"
+           data-points="W3sieCI6MzM2Ljk0OTIxODc1LCJ5IjoxMTUyLjc5OTk4Nzc5Mjk2ODh9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxMTc3Ljc5OTk4Nzc5Mjk2ODh9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxMjAyLjc5OTk4Nzc5Mjk2ODh9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 336.949,1193.4 v 4.167 c 0,4.166 0,12.5 0,20.166 0,7.667 0,14.667 0,18.167 v 3.5"
+           id="my-svg-L_CENT_ALIGN_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_CENT_ALIGN_0"
+           data-points="W3sieCI6MzM2Ljk0OTIxODc1LCJ5IjoxMjY5LjM5OTk4NjI2NzA4OTh9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxMjk0LjM5OTk4NjI2NzA4OTh9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxMzE5LjM5OTk4NjI2NzA4OTh9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+        <path
+           d="m 336.949,1344.4 v 4.167 c 0,0 -207.66692,21.3766 -219.83493,26.6232 -12.16801,5.2466 -18.078367,13.2741 -18.078367,25.3069"
+           id="my-svg-L_ALIGN_VAL_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_ALIGN_VAL_0"
+           data-points="W3sieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNDU2LjM5OTk4NjI2NzA4OTh9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNDgxLjM5OTk4NjI2NzA4OTh9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNTA2LjM5OTk4NjI2NzA4OTh9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           sodipodi:nodetypes="cczc" />
+        <path
+           d="m 521.5307,1486.8924 c 0,14.2292 -63.05065,42.638 -98.65571,43.363 -34.47949,0.7021 -85.44152,21.2375 -85.44152,38.921"
+           id="my-svg-L_ALIGN_VAL_0-3"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_ALIGN_VAL_0"
+           data-points="W3sieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNDU2LjM5OTk4NjI2NzA4OTh9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNDgxLjM5OTk4NjI2NzA4OTh9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNTA2LjM5OTk4NjI2NzA4OTh9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd-4)"
+           sodipodi:nodetypes="csc"
+           style="fill:none;stroke:#333333;stroke-width:1.06537px;stroke-dasharray:none;marker-end:url(#my-svg_flowchart-v2-pointEnd-4)" />
+        <path
+           d="m 182.30331,1457.4489 h 3.21112 15.54008 13.99963 2.69712"
+           id="my-svg-L_VAL_R1_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_VAL_R1_0"
+           data-points="W3sieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNjA4LjE5OTk4OTMxODg0Nzd9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNjMzLjE5OTk4OTMxODg0Nzd9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNjU4LjE5OTk4OTMxODg0Nzd9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           d="m 380,1457.4489 h 3.21112 15.54008 13.99963 2.69712"
+           id="my-svg-L_VAL_R1_0-9"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_VAL_R1_0"
+           data-points="W3sieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNjA4LjE5OTk4OTMxODg0Nzd9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNjMzLjE5OTk4OTMxODg0Nzd9LHsieCI6MzM2Ljk0OTIxODc1LCJ5IjoxNjU4LjE5OTk4OTMxODg0Nzd9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd-2)"
+           sodipodi:nodetypes="ccccc"
+           style="fill:none;stroke:#333333;stroke-width:0.877843px;stroke-dasharray:none;marker-end:url(#my-svg_flowchart-v2-pointEnd-2)" />
+        <path
+           d="m 336.949,1642 v 4.167 c 0,4.166 0,12.5 0,20.166 0,7.667 0,14.667 0,18.167 v 3.5"
+           id="my-svg-L_R3_OUT_0"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           data-edge="true"
+           data-et="edge"
+           data-id="L_R3_OUT_0"
+           data-points="W3sieCI6MzM2Ljk0OTIxODc1LCJ5IjoxOTU3Ljk5OTk4NDc0MTIxMX0seyJ4IjozMzYuOTQ5MjE4NzUsInkiOjE5ODIuOTk5OTg0NzQxMjExfSx7IngiOjMzNi45NDkyMTg3NSwieSI6MjAwNy45OTk5ODQ3NDEyMTF9XQ=="
+           data-look="classic"
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)" />
+      </g>
+      <g
+         class="edgeLabels"
+         id="g88">
+        <g
+           class="edgeLabel"
+           id="g29">
+          <g
+             class="label"
+             data-id="L_A_B_0"
+             id="g28">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text27"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan27" /></text>
+          </g>
+        </g>
+        <g
+           id="g30">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect29"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g32">
+          <g
+             class="label"
+             data-id="L_B_C_0"
+             id="g31">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text30"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan30" /></text>
+          </g>
+        </g>
+        <g
+           id="g33">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect32"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g35">
+          <g
+             class="label"
+             data-id="L_C_D_0"
+             id="g34">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text33"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan33" /></text>
+          </g>
+        </g>
+        <g
+           id="g36">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect35"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g38">
+          <g
+             class="label"
+             data-id="L_D_E_0"
+             id="g37">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text36"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan36" /></text>
+          </g>
+        </g>
+        <g
+           id="g39">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect38"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g41">
+          <g
+             class="label"
+             data-id="L_F_G_0"
+             id="g40">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text39"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan39" /></text>
+          </g>
+        </g>
+        <g
+           id="g42">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect41"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g44">
+          <g
+             class="label"
+             data-id="L_G_H_0"
+             id="g43">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text42"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan42" /></text>
+          </g>
+        </g>
+        <g
+           id="g45">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect44"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g47">
+          <g
+             class="label"
+             data-id="L_E_U_0"
+             id="g46">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text45"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan45" /></text>
+          </g>
+        </g>
+        <g
+           id="g48">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect47"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g50">
+          <g
+             class="label"
+             data-id="L_H_U_0"
+             id="g49">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text48"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan48" /></text>
+          </g>
+        </g>
+        <g
+           id="g51">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect50"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g53">
+          <g
+             class="label"
+             data-id="L_U_UNION_0"
+             id="g52">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text51"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan51" /></text>
+          </g>
+        </g>
+        <g
+           id="g54">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect53"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g56">
+          <g
+             class="label"
+             data-id="L_UNION_SEED_0"
+             id="g55">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text54"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan54" /></text>
+          </g>
+        </g>
+        <g
+           id="g57">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect56"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g59">
+          <g
+             class="label"
+             data-id="L_UNION_NOSEED_0"
+             id="g58">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text57"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan57" /></text>
+          </g>
+        </g>
+        <g
+           id="g60">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect59"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g62">
+          <g
+             class="label"
+             data-id="L_SEED_CL_0"
+             id="g61">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text60"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan60" /></text>
+          </g>
+        </g>
+        <g
+           id="g63">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect62"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g65">
+          <g
+             class="label"
+             data-id="L_NOSEED_CL_0"
+             id="g64">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text63"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan63" /></text>
+          </g>
+        </g>
+        <g
+           id="g66">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect65"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g68">
+          <g
+             class="label"
+             data-id="L_CL_CENT_0"
+             id="g67">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text66"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan66" /></text>
+          </g>
+        </g>
+        <g
+           id="g69">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect68"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g71">
+          <g
+             class="label"
+             data-id="L_CENT_ALIGN_0"
+             id="g70">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text69"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan69" /></text>
+          </g>
+        </g>
+        <g
+           id="g72">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect71"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g74">
+          <g
+             class="label"
+             data-id="L_ALIGN_VAL_0"
+             id="g73">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text72"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan72" /></text>
+          </g>
+        </g>
+        <g
+           id="g75">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect74"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g77">
+          <g
+             class="label"
+             data-id="L_VAL_R1_0"
+             id="g76">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text75"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan75" /></text>
+          </g>
+        </g>
+        <g
+           id="g78">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect77"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g80">
+          <g
+             class="label"
+             data-id="L_R1_R2_0"
+             id="g79">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text78"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan78" /></text>
+          </g>
+        </g>
+        <g
+           id="g81">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect80"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g83">
+          <g
+             class="label"
+             data-id="L_R2_R3_0"
+             id="g82">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text81"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan81" /></text>
+          </g>
+        </g>
+        <g
+           id="g84">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect83"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+        <g
+           class="edgeLabel"
+           id="g86">
+          <g
+             class="label"
+             data-id="L_R3_OUT_0"
+             id="g85">
+            <text
+               y="-10.1"
+               text-anchor="middle"
+               id="text84"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 text-anchor="middle"
+                 id="tspan84" /></text>
+          </g>
+        </g>
+        <g
+           id="g87">
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect86"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-B-1"
+         data-look="classic"
+         transform="translate(172.22656,182.9)"
+         inkscape:label="manual-curation">
+        <g
+           class="label"
+           transform="translate(0,-18.299999)"
+           id="g106">
+          <rect
+             class="basic label-container"
+             x="-117.90625"
+             y="-33.299999"
+             width="235.8125"
+             height="66.599998"
+             id="rect95"
+             transform="translate(-2.5e-6,18.300002)" />
+          <rect
+             id="rect96"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g105"
+             style="display:inline"
+             transform="translate(0,24)">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect97"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="-10.1"
+               id="text105"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#304fac;fill-opacity:1"><tspan
+                 sodipodi:role="line"
+                 id="tspan318"
+                 x="0"
+                 y="-10.1"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue'"><tspan
+   style="font-weight:bold"
+   id="tspan16">Manual Curation</tspan> (n=473)</tspan></text>
+          </g>
+        </g>
+        <g
+           class="label"
+           style="color:#333333;font-family:'trebuchet ms', verdana, arial, sans-serif;text-align:center"
+           transform="translate(10.796454,4.997483)"
+           id="g106-0">
+          <rect
+             id="rect96-6"
+             style="fill:#ececff;stroke:#9370db;stroke-width:1px"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g105-5"
+             style="display:inline"
+             transform="translate(0,24)">
+            <rect
+               class="background"
+               style="fill:#ececff;stroke:none;stroke-width:1px"
+               id="rect97-3"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="-10.1"
+               id="text105-1"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"><tspan
+                 sodipodi:role="line"
+                 id="tspan317"
+                 x="0"
+                 y="-10.1">+ 4 Added | -26 Removed</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default product"
+         id="my-svg-flowchart-C-3"
+         data-look="classic"
+         transform="translate(172.22656,288.5)"
+         inkscape:label="cleaned-pazy-260701">
+        <rect
+           class="basic label-container"
+           style="fill:#dbeafe !important;stroke:#2563eb !important"
+           x="-106.78906"
+           y="-33.299999"
+           width="213.57812"
+           height="66.599998"
+           id="rect106" />
+        <g
+           class="label"
+           style="color:#1e3a8a !important"
+           transform="translate(0,-18.299999)"
+           id="g112">
+          <rect
+             id="rect107"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g111">
+            <rect
+               class="background"
+               id="rect108"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="-10.1"
+               style="fill:#1e3a8a !important"
+               id="text111"><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="-0.1em"
+                 dy="1.1em"
+                 id="tspan109"><tspan
+                   font-style="normal"
+                   class="text-inner-tspan"
+                   font-weight="normal"
+                   id="tspan108">cleaned_pazy-260701</tspan></tspan><tspan
+                 class="text-outer-tspan row"
+                 x="0"
+                 y="1em"
+                 dy="1.1em"
+                 id="tspan111"><tspan
+                   font-style="normal"
+                   class="text-inner-tspan"
+                   font-weight="normal"
+                   id="tspan110">n=473</tspan></tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g320"
+         inkscape:label="Legend"
+         transform="translate(10,4.2502826)">
+        <g
+           id="g89">
+          <g
+             id="g321"
+             inkscape:label="Data Processing Block"
+             style="display:inline">
+            <rect
+               class="basic label-container"
+               style="fill:#ececff;fill-opacity:1;stroke:#bca9ec;stroke-width:0.520599px;stroke-opacity:1"
+               x="355.26031"
+               y="38.2603"
+               width="179.4794"
+               height="21.479401"
+               id="rect106-1" />
+          </g>
+          <text
+             y="53.257812"
+             id="text94-01"
+             style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#304fac;fill-opacity:1"
+             x="446.29477"><tspan
+               sodipodi:role="line"
+               id="tspan319"
+               x="446.29477"
+               y="53.257812">Data Processing Block</tspan><tspan
+               sodipodi:role="line"
+               id="tspan320"
+               x="446.29477"
+               y="73.257812" /></text>
+          <text
+             y="25.277445"
+             id="text24-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ba1515;fill-opacity:1"
+             x="353.89606"
+             inkscape:label="Legend Title"><tspan
+               sodipodi:role="line"
+               id="tspan311-9"
+               x="353.89606"
+               y="25.277445"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ba1515;fill-opacity:1">Legend</tspan></text>
+          <g
+             id="g322">
+            <rect
+               class="basic label-container"
+               style="fill:#dbeafe;fill-opacity:1;stroke:#2563eb;stroke-width:0.520599px;stroke-opacity:1"
+               x="355.26031"
+               y="70.2603"
+               width="179.4794"
+               height="21.479401"
+               id="rect106-3" />
+          </g>
+          <text
+             y="86.820312"
+             id="text94-01-5-2"
+             style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#304fac;fill-opacity:1"
+             x="446.29477"><tspan
+               sodipodi:role="line"
+               id="tspan322"
+               x="446.29477"
+               y="86.820312">Data file Block</tspan><tspan
+               sodipodi:role="line"
+               id="tspan323"
+               x="446.29477"
+               y="106.82031" /></text>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-A-0"
+         data-look="classic"
+         transform="translate(172.22656,76.3)"
+         onclick="">
+        <rect
+           class="basic label-container"
+           x="-99.296875"
+           y="-33.299999"
+           width="198.59375"
+           height="66.599998"
+           id="rect88" />
+        <rect
+           id="rect89"
+           width="0"
+           height="0"
+           x="0"
+           y="-18.299999"
+           style="color:#333333;font-family:'trebuchet ms', verdana, arial, sans-serif;text-align:center" />
+        <text
+           y="21.082489"
+           id="text94-0"
+           style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#333333"
+           x="-0.0859375"><tspan
+             sodipodi:role="line"
+             id="tspan314-0"
+             x="-0.0859375"
+             y="21.082489">n=495</tspan></text>
+        <text
+           y="-4.3999996"
+           id="text94"
+           style="color:#333333;font-family:'trebuchet ms', verdana, arial, sans-serif;text-align:center;text-anchor:middle;fill:#304fac;fill-opacity:1"
+           x="-2.4999999e-06"
+           transform="translate(-2.5e-6)"><tspan
+             sodipodi:role="line"
+             id="tspan314"
+             x="-2.4999999e-06"
+             y="-4.3999996">Pull Pazy-260701</tspan></text>
+        <rect
+           class="background"
+           style="color:#333333;font-family:'trebuchet ms', verdana, arial, sans-serif;text-align:center;stroke:none"
+           id="rect90"
+           width="0"
+           height="0"
+           x="0"
+           y="-18.299999" />
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-D-5"
+         data-look="classic"
+         transform="translate(172.22656,397.09999)">
+        <rect
+           class="basic label-container"
+           x="-145.26111"
+           y="-33.270123"
+           width="290.52222"
+           height="66.540245"
+           id="rect112" />
+        <g
+           class="label"
+           transform="translate(0,-18.299999)"
+           id="g126">
+          <rect
+             id="rect113"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <rect
+             class="background"
+             style="stroke:none"
+             id="rect114"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <text
+             y="14.10078"
+             id="text125"
+             style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"><tspan
+               sodipodi:role="line"
+               id="tspan325"
+               x="1.9669533e-06"
+               y="14.10078"
+               style="font-weight:bold"
+               dx="0 0 0 0 0 0 0 0 0 0 0 0 0.89246738">Retrieve aa-Seqs by Accession</tspan><tspan
+               sodipodi:role="line"
+               id="tspan326"
+               x="0"
+               y="34.10078">446 NCBI + 27 Manual = 473</tspan></text>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-E-7"
+         data-look="classic"
+         transform="translate(172.22656,514.49999)">
+        <rect
+           class="basic label-container"
+           x="-118.23438"
+           y="-42.099998"
+           width="236.46875"
+           height="84.199997"
+           id="rect126" />
+        <g
+           class="label"
+           transform="translate(0,-27.099998)"
+           id="g137">
+          <rect
+             id="rect127"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g136">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect128"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="11.326561"
+               id="text136"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"
+               x="0.031242371"><tspan
+                 sodipodi:role="line"
+                 id="tspan25"
+                 x="0.031242371"
+                 y="11.326561">[QC]</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan26"
+                 x="0.031242371"
+                 y="31.326561">Annotate Activity</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan28"
+                 x="0.031242371"
+                 y="51.326561">(direct/ indirect)</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-F-8"
+         data-look="classic"
+         transform="translate(501.67187,324.5)">
+        <rect
+           class="basic label-container"
+           x="-79.5"
+           y="-24.5"
+           width="159"
+           height="49"
+           id="rect137" />
+        <g
+           class="label"
+           transform="translate(0,-9.5)"
+           id="g142">
+          <rect
+             id="rect138"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g141">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect139"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="15.320312"
+               id="text141"
+               style="color:#333333;text-anchor:middle;fill:#333333"
+               x="0.8828125"><tspan
+                 sodipodi:role="line"
+                 id="tspan329"
+                 x="0.8828125"
+                 y="15.320312">Plasticome v1</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-G-9"
+         data-look="classic"
+         transform="translate(501.67187,439.09999)">
+        <rect
+           class="basic label-container"
+           x="-137.36304"
+           y="-53.978989"
+           width="274.72607"
+           height="70.9104"
+           id="rect142" />
+        <g
+           class="label"
+           transform="translate(0,-36.299999)"
+           id="g152">
+          <rect
+             id="rect143"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g151">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect144"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="1.5020759"
+               id="text151"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"><tspan
+                 sodipodi:role="line"
+                 id="tspan21"
+                 x="0"
+                 y="1.5020759"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Fix Accessions</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan22"
+                 x="0"
+                 y="21.502075"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">1. Update 15 Erickson Seqs</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan23"
+                 x="0"
+                 y="41.502075"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">2. Fixed Accession &quot;Chen. 2024&quot;</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default product"
+         id="my-svg-flowchart-H-11"
+         data-look="classic"
+         transform="translate(501.67187,523.29999)">
+        <rect
+           class="basic label-container"
+           style="fill:#dbeafe !important;stroke:#2563eb !important"
+           x="-86.625"
+           y="-33.299999"
+           width="173.25"
+           height="66.599998"
+           id="rect152" />
+        <g
+           class="label"
+           style="color:#1e3a8a !important"
+           transform="translate(0,-18.299999)"
+           id="g160">
+          <rect
+             id="rect153"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g159">
+            <rect
+               class="background"
+               id="rect154"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="12.526562"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#1e3a8a"
+               id="text159"
+               x="0.94140625"><tspan
+                 sodipodi:role="line"
+                 id="tspan17"
+                 x="0.94140625"
+                 y="12.526562">plasticome v1.1</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan18"
+                 x="0.94140625"
+                 y="32.526562">(n=213)</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-U-13"
+         data-look="classic"
+         transform="translate(336.94922,665.69999)">
+        <rect
+           class="basic label-container"
+           x="-110.99219"
+           y="-42.099998"
+           width="221.98438"
+           height="84.199997"
+           id="rect160" />
+        <g
+           class="label"
+           transform="translate(0,-27.099998)"
+           id="g174">
+          <rect
+             id="rect161"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g173">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect162"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="11.283592"
+               id="text173"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"><tspan
+                 sodipodi:role="line"
+                 id="tspan337"
+                 x="0"
+                 y="11.283592"
+                 style="font-weight:bold">Step 2.2</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan338"
+                 x="0"
+                 y="31.283592">V1.V260701-union</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan339"
+                 x="0"
+                 y="51.283592">Merge on accession</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default product"
+         id="my-svg-flowchart-UNION-17"
+         data-look="classic"
+         transform="translate(336.94922,785.89999)">
+        <rect
+           class="basic label-container"
+           style="fill:#dbeafe !important;stroke:#2563eb !important"
+           x="-154.31036"
+           y="-41.988792"
+           width="308.62073"
+           height="98.257065"
+           id="rect174" />
+        <g
+           class="label"
+           style="color:#1e3a8a !important"
+           transform="translate(-0.03515625,-29.960258)"
+           id="g189">
+          <rect
+             id="rect175"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g188">
+            <rect
+               class="background"
+               id="rect176"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="11.52578"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#1e3a8a"
+               id="text188"><tspan
+                 sodipodi:role="line"
+                 id="tspan340"
+                 x="0"
+                 y="11.52578"
+                 style="font-weight:bold" /><tspan
+                 sodipodi:role="line"
+                 id="tspan14"
+                 x="0"
+                 y="31.52578">v260701 (n=398)</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan341"
+                 x="0"
+                 y="51.52578">v1.1 (n=38)</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan342"
+                 x="0"
+                 y="71.52578">merged (n=75)</tspan></text>
+            <text
+               y="9.5687485"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#1e3a8a"
+               id="text188-1"
+               x="0"><tspan
+                 sodipodi:role="line"
+                 id="tspan342-8"
+                 x="0"
+                 y="9.5687485"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Bold'">plasticome_v1.v260701-union</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-SEED-19"
+         data-look="classic"
+         transform="translate(231.66797,918.49998)">
+        <rect
+           class="basic label-container"
+           x="-78.976562"
+           y="-24.5"
+           width="157.95312"
+           height="49"
+           id="rect189" />
+        <g
+           class="label"
+           transform="translate(0,14.326563)"
+           id="g195">
+          <rect
+             id="rect190"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g194">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect191"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="-10.1"
+               id="text194"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"><tspan
+                 sodipodi:role="line"
+                 id="tspan343"
+                 x="0"
+                 y="-10.1">seed-set (n=13)</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-NOSEED-21"
+         data-look="classic"
+         transform="translate(442.23047,918.49998)">
+        <rect
+           class="basic label-container"
+           x="-81.585938"
+           y="-24.5"
+           width="163.17188"
+           height="49"
+           id="rect195" />
+        <g
+           class="label"
+           transform="translate(0,-9.5)"
+           id="g200">
+          <rect
+             id="rect196"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g199">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect197"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="13.726562"
+               id="text199"
+               style="color:#333333;text-anchor:middle;fill:#333333"><tspan
+                 sodipodi:role="line"
+                 id="tspan2"
+                 x="0"
+                 y="13.726562">no-seed (n=598)</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-CL-23"
+         data-look="classic"
+         transform="translate(336.94922,1043.9)">
+        <rect
+           class="basic label-container"
+           x="-149.12804"
+           y="-45.462074"
+           width="298.25607"
+           height="96.278969"
+           id="rect200" />
+        <g
+           class="label"
+           transform="translate(-2,-5.4312458)"
+           id="g219">
+          <rect
+             id="rect201"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g218">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect202"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="-7.6193409"
+               id="text218"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"
+               x="2.0559998"><tspan
+                 sodipodi:role="line"
+                 id="tspan8"
+                 x="2.0559998"
+                 y="-7.6193409"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Step 2.3 (USEARCH)</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan9"
+                 x="2.0559998"
+                 y="12.380659"
+                 dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9.3250762e-08">all-vs-all clustering -90% AAid</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan10"
+                 x="2.0559998"
+                 y="32.380661"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan11">3-phase</tspan>: closed &gt; ref &gt; de-novo</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default product"
+         id="my-svg-flowchart-CENT-27"
+         data-look="classic"
+         transform="translate(336.94922,1160.1)">
+        <rect
+           class="basic label-container"
+           style="fill:#dbeafe !important;stroke:#2563eb !important"
+           x="-115.81146"
+           y="-33.155872"
+           width="231.62292"
+           height="77.021355"
+           id="rect219" />
+        <g
+           class="label"
+           style="color:#1e3a8a !important"
+           transform="translate(0,-22.945193)"
+           id="g227">
+          <rect
+             id="rect220"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g226">
+            <rect
+               class="background"
+               id="rect221"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="12.72578"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#1e3a8a"
+               id="text226"
+               x="-0.30078125"><tspan
+                 sodipodi:role="line"
+                 x="-0.30078125"
+                 y="12.72578"
+                 id="tspan32"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">plasticome-clusters</tspan><tspan
+                 sodipodi:role="line"
+                 x="-0.30078125"
+                 y="32.72578"
+                 id="tspan34">412 clusters</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan13"
+                 x="-0.30078125"
+                 y="52.72578">273 singletons</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-ALIGN-29"
+         data-look="classic"
+         transform="translate(336.94922,1311.9)">
+        <rect
+           class="basic label-container"
+           x="-174.26288"
+           y="-68.456108"
+           width="348.52576"
+           height="111.92313"
+           id="rect227" />
+        <g
+           class="label"
+           transform="translate(0,-28.142889)"
+           id="g252">
+          <rect
+             id="rect228"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g251">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect229"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="-10.1"
+               id="text251"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"><tspan
+                 sodipodi:role="line"
+                 id="tspan35"
+                 x="0"
+                 y="-10.1"
+                 style="font-weight:bold">Step 2.4: Alignment</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan37"
+                 x="0"
+                 y="9.8999996">centroids→components</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan38"
+                 x="0"
+                 y="30.006063">DIAMOND/ USEARCH all-vs-all</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan40"
+                 x="0"
+                 y="50.006065"><tspan
+   style="font-weight:bold"
+   id="tspan43">Params</tspan>: ≥30% aaid + e&lt;1e-5 (single-linkage)</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-VAL-31"
+         data-look="classic"
+         transform="translate(336.94922,1445.3)">
+        <rect
+           class="basic label-container"
+           x="-318.30014"
+           y="-38.980228"
+           width="162.03581"
+           height="101.94111"
+           id="rect252" />
+        <g
+           class="label"
+           transform="translate(-206.70288,-18.158561)"
+           id="g270">
+          <rect
+             id="rect253"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g269">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect254"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="4.4146047"
+               id="text269"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"
+               x="-30.291348"><tspan
+                 sodipodi:role="line"
+                 id="tspan89"
+                 x="-30.291348"
+                 y="4.4146047"
+                 style="font-weight:bold"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan91">Step 2.5:</tspan></tspan><tspan
+                 sodipodi:role="line"
+                 x="-30.291348"
+                 y="24.427176"
+                 style="font-weight:bold"
+                 id="tspan92">Validate Singletons</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan90"
+                 x="-30.291348"
+                 y="44.427174">[PL14, PL458, PL46</tspan><tspan
+                 sodipodi:role="line"
+                 x="-30.291348"
+                 y="64.427177"
+                 id="tspan93">7, PL539]</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-R1-33"
+         data-look="classic"
+         transform="translate(336.94922,1579.5)">
+        <g
+           class="label"
+           transform="translate(-11.602076,-138.7831)"
+           id="g279">
+          <rect
+             id="rect271"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g278">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect272"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <rect
+               class="basic label-container"
+               x="-101.88521"
+               y="-16.791462"
+               width="153.91589"
+               height="66.729774"
+               id="rect270" />
+            <text
+               y="10.909363"
+               id="text278"
+               style="color:#333333;text-anchor:middle;fill:#333333"
+               x="-24.790543"><tspan
+                 sodipodi:role="line"
+                 id="tspan94"
+                 x="-24.790543"
+                 y="10.909363"
+                 style="font-weight:bold">Step 2.6a: Rebuild</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan95"
+                 x="-24.790543"
+                 y="30.909363">4-seqs updated</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-R2-35"
+         data-look="classic"
+         transform="translate(336.94922,1696.1)">
+        <g
+           id="g100"
+           transform="translate(179.22381,-238.80967)">
+          <rect
+             class="basic label-container"
+             x="-94.070312"
+             y="-33.299999"
+             width="188.14062"
+             height="66.599998"
+             id="rect279" />
+          <g
+             class="label"
+             transform="translate(0,-18.299999)"
+             id="g288">
+            <rect
+               id="rect280"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <g
+               id="g287">
+              <rect
+                 class="background"
+                 style="stroke:none"
+                 id="rect281"
+                 width="0"
+                 height="0"
+                 x="0"
+                 y="0" />
+              <text
+                 y="3.8999996"
+                 id="text287"
+                 style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"><tspan
+                   sodipodi:role="line"
+                   id="tspan98"
+                   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                   x="0"
+                   y="3.8999996">Step 2.6b: Recluster</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan99"
+                   x="0"
+                   y="24.389963"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">412 centroids</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan100"
+                   x="0"
+                   y="44.867355"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">-3 old/ +3 new</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default"
+         id="my-svg-flowchart-R3-37"
+         data-look="classic"
+         transform="translate(336.94922,1608.7)">
+        <rect
+           class="basic label-container"
+           x="-83.960938"
+           y="-33.299999"
+           width="167.92188"
+           height="66.599998"
+           id="rect288" />
+        <g
+           class="label"
+           transform="translate(0,-18.299999)"
+           id="g296">
+          <rect
+             id="rect289"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g295">
+            <rect
+               class="background"
+               style="stroke:none"
+               id="rect290"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="12.293731"
+               id="text295"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#333333"><tspan
+                 sodipodi:role="line"
+                 id="tspan101"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                 x="0"
+                 y="12.293731">Step 2.6c: Re-align</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan102"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+                 x="0"
+                 y="32.850273">46 components</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         class="node default output"
+         id="my-svg-flowchart-OUT-39"
+         data-look="classic"
+         transform="translate(336.94922,1734.1)">
+        <rect
+           class="basic label-container"
+           style="fill:#dcfce7 !important;stroke:#16a34a !important"
+           x="-81.794456"
+           y="-42.165005"
+           width="163.58891"
+           height="84.330009"
+           id="rect296" />
+        <g
+           class="label"
+           style="color:#14532d !important"
+           transform="translate(-0.08203125,-27.099998)"
+           id="g307">
+          <rect
+             id="rect297"
+             width="0"
+             height="0"
+             x="0"
+             y="0" />
+          <g
+             id="g306">
+            <rect
+               class="background"
+               id="rect298"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <text
+               y="12.846092"
+               style="color:#333333;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'trebuchet ms', verdana, arial, sans-serif;-inkscape-font-specification:'trebuchet ms, verdana, arial, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#14532d"
+               id="text306"><tspan
+                 sodipodi:role="line"
+                 id="tspan104"
+                 x="0"
+                 y="12.846092"
+                 style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">Output:</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan105"
+                 x="0"
+                 y="33.415207"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">412-centroid FASTA</tspan><tspan
+                 sodipodi:role="line"
+                 id="tspan106"
+                 x="0"
+                 y="53.971748"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">for nr-search</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs
+     id="defs310">
+    <filter
+       id="my-svg-drop-shadow"
+       height="1.3"
+       width="1.3">
+      <feDropShadow
+         dx="4"
+         dy="4"
+         stdDeviation="0"
+         flood-opacity="0.06"
+         flood-color="#000000" />
+    </filter>
+    <marker
+       id="my-svg_flowchart-v2-pointEnd-2"
+       class="marker flowchart-v2"
+       viewBox="0 0 10 10"
+       refX="5"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         class="arrowMarkerPath"
+         style="stroke-width:1;stroke-dasharray:1, 0"
+         id="path1-3" />
+    </marker>
+    <marker
+       id="my-svg_flowchart-v2-pointEnd-4"
+       class="marker flowchart-v2"
+       viewBox="0 0 10 10"
+       refX="5"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="8"
+       markerHeight="8"
+       orient="auto">
+      <path
+         d="M 0,0 10,5 0,10 Z"
+         class="arrowMarkerPath"
+         style="stroke-width:1;stroke-dasharray:1, 0"
+         id="path1-7" />
+    </marker>
+  </defs>
+  <defs
+     id="defs311">
+    <filter
+       id="my-svg-drop-shadow-small"
+       height="1.5"
+       width="1.5">
+      <feDropShadow
+         dx="2"
+         dy="2"
+         stdDeviation="0"
+         flood-opacity="0.06"
+         flood-color="#000000" />
+    </filter>
+  </defs>
+</svg>

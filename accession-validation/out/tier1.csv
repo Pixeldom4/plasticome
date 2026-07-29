@@ -1,0 +1,447 @@
+row,pazy_id,enzyme_name,accession,tier0_pass,clean_title,organism,name_families,title_families,shared_families,family_agreement,name_informative,uninformative_title,title_unmapped,token_jaccard,fuzzy_ratio,tier1_flag
+0,1,ISPETase,WP_054022242.1,True,poly(ethylene terephthalate) hydrolase,Pseudideonella sakaiensis,pet_hydrolase,pet_hydrolase,pet_hydrolase,match,True,False,False,0.0,0.261,concordant
+1,2,PET5,CCK74972.1,True,Lipase,Oleispira antarctica RB-8,pet_hydrolase,lipase,,related,True,False,False,0.0,0.4,related_family
+2,3,PET6,ASA57064.1,True,hypothetical protein BSQ33_03270,Vibrio gazogenes,pet_hydrolase,,,unknown,True,True,False,0.0,0.167,uninformative_title
+3,4,PET12,WP_047194864.1,True,dienelactone hydrolase family protein,Caldimonas brevitalea,pet_hydrolase,dienelactone_hydrolase,,related,True,False,False,0.0,0.095,related_family
+4,7,PpCutA,ADK73612.1,True,cutinase A precursor,Ectopseudomonas oleovorans,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.308,concordant
+5,8,PpelaLip,WP_022964382.1,True,alpha/beta hydrolase family protein,Halopseudomonas pelagia,lipase,ab_hydrolase,,generic,True,False,False,0.0,0.279,generic_title
+6,9,PE-H,WP_088276085.1,True,alpha/beta hydrolase family protein,Halopseudomonas aestusnigri,pet_hydrolase,ab_hydrolase,,generic,True,False,False,0.0,0.154,generic_title
+7,10,PmC,ABP86951,False,hypothetical protein Pmen_4204,Pseudomonas mendocina ymp,,,,unknown,False,True,False,0.0,0.121,skipped_tier0
+8,11,Mors1,P19833.1,True,Lipase 1,,,lipase,,unknown,False,False,False,0.0,0.308,name_uninformative
+9,12,PpEst,WP_003460012.1,True,arylesterase,Ectopseudomonas oleovorans,,esterase,,unknown,False,False,False,0.0,0.353,name_uninformative
+10,13,MG8,MGYP000532440779,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+11,14,EstB,WP_085690612,True,alpha/beta hydrolase,Pseudomonas,esterase,ab_hydrolase,,generic,True,False,False,0.0,0.167,generic_title
+12,15,RgPETase,WP_085749752.1,True,poly(ethylene terephthalate) hydrolase family protein,Rhizobacter gummiphilus,pet_hydrolase,pet_hydrolase,pet_hydrolase,match,True,False,False,0.0,0.197,concordant
+13,16,LCC,AEV21261.1,True,LCC,uncultured bacterium,cutinase,,,unknown,True,False,True,1.0,1.0,title_unmapped
+14,17,BhrPETase,GBD22443.1,True,Poly(ethylene terephthalate) hydrolase,bacterium HR29,pet_hydrolase,pet_hydrolase,pet_hydrolase,match,True,False,False,0.0,0.255,concordant
+15,18,Cut190,WP_015787089.1,True,poly(ethylene terephthalate) hydrolase family protein,Saccharomonospora viridis,cutinase,pet_hydrolase,,related,True,False,False,0.0,0.034,related_family
+16,19,BTA-1,CAH17553.1,True,BTA-hydrolase 1,Thermobifida fusca,pet_hydrolase,pet_hydrolase,pet_hydrolase,match,True,False,False,0.5,0.5,concordant
+17,20,BTA-2,CAH17554.1,True,BTA-hydrolase 2,Thermobifida fusca,pet_hydrolase,pet_hydrolase,pet_hydrolase,match,True,False,False,0.5,0.5,concordant
+18,21,TfH42_Cut1,ADV92528.1,True,"cutinase 1, partial",Thermobifida fusca,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.276,concordant
+19,22,Tfu_0883,WP_011291330.1,True,cutinase/poly(ethylene terephthalate) hydrolase,Thermobifida fusca,,"cutinase, pet_hydrolase",,unknown,False,False,False,0.0,0.036,name_uninformative
+20,23,Tfu_0882,AAZ54920.1,True,triacylglycerol lipase,Thermobifida fusca YX,,lipase,,unknown,False,False,False,0.0,0.067,name_uninformative
+21,25,TfCut_2,CBY05530,True,"cutinase, partial",Thermobifida fusca,,cutinase,,unknown,False,False,False,0.0,0.25,name_uninformative
+22,26,Cut1,AET05798.1,True,cutinase,Thermobifida fusca,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.5,concordant
+23,27,Cut2,AET05799.1,True,cutinase,Thermobifida fusca,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.5,concordant
+24,28,Thc_Cut1,ADV92526.1,True,"cutinase 1, partial",Thermobifida cellulosilytica,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.296,concordant
+25,29,Thc_Cut2,ADV92527.1,True,"cutinase 2, partial",Thermobifida cellulosilytica,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.296,concordant
+26,30,Tcur_1278,WP_012851645.1,True,alpha/beta hydrolase family protein,Thermomonospora curvata,,ab_hydrolase,,unknown,False,False,False,0.0,0.091,name_uninformative
+27,31,Tcur0390,WP_012850775.1,True,alpha/beta hydrolase family protein,Thermomonospora curvata,,ab_hydrolase,,unknown,False,False,False,0.0,0.093,name_uninformative
+28,32,Thh_Est,AFA45122.1,True,serine hydrolase,Thermobifida halotolerans,,hydrolase,,unknown,False,False,False,0.0,0.174,name_uninformative
+29,33,Est1,BAI99230.2,True,esterase,Thermobifida alba,esterase,esterase,esterase,match,True,False,False,0.0,0.5,concordant
+30,34,Tha_Cut1,ADV92525.1,True,"cutinase 1, partial",Thermobifida alba,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.296,concordant
+31,35,Est119,BAK48590.1,True,esterase,Thermobifida alba,esterase,esterase,esterase,match,True,False,False,0.0,0.429,concordant
+32,36,BsEstB,ADH43200.1,True,para-nitrobenzylesterase,Bacillus subtilis,,esterase,,unknown,False,False,False,0.0,0.267,name_uninformative
+33,37,PHL-7,7NEI,True,Polyester Hydrolase Leipzig 7 (PHL-7),,,pet_hydrolase,,unknown,False,False,False,0.25,0.238,name_uninformative
+34,38,PET27,WP_111881932.1,True,T9SS type A sorting domain-containing protein,Aequorivita sp. CIP111184,pet_hydrolase,,,unknown,True,False,True,0.0,0.12,title_unmapped
+35,39,PET30,WP_039353427.1,True,T9SS type A sorting domain-containing protein,Kaistella jeonii,pet_hydrolase,,,unknown,True,False,True,0.0,0.12,title_unmapped
+36,40,PET2,ACC95208.1,True,lipIAF5-2,uncultured bacterium,pet_hydrolase,,,unknown,True,False,True,0.0,0.308,title_unmapped
+37,41,PET46,RLI42440.1,True,alpha/beta hydrolase,Candidatus Bathyarchaeota archaeon,pet_hydrolase,ab_hydrolase,,generic,True,False,False,0.0,0.24,generic_title
+38,42,CalB,CAA83122.1,True,lipase B,Moesziomyces antarcticus,,lipase,,unknown,False,False,False,0.0,0.333,name_uninformative
+39,43,FsC,AAA33335.1,True,cutinase,Fusarium solani,,cutinase,,unknown,False,False,False,0.0,0.182,name_uninformative
+40,44,HiC,A0A075B5G4,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+41,46,PudA,BAA76305.1,True,polyurethane esterase,Delftia acidovorans,,esterase,,unknown,False,False,False,0.0,0.24,name_uninformative
+42,47,LipasePueA,AAD22743.1,True,polyurethanase esterase A,Pseudomonas chlororaphis,lipase,"esterase, urethanase",,related,True,False,False,0.0,0.343,related_family
+43,48,LipasePueB,AAF01331.1,True,polyurethanase esterase B,Pseudomonas chlororaphis,lipase,"esterase, urethanase",,related,True,False,False,0.0,0.343,related_family
+44,49,EsterasePulA,AAF66684.1,True,polyurethanase lipase A,Pseudomonas fluorescens,esterase,"lipase, urethanase",,related,True,False,False,0.0,0.4,related_family
+45,50,PueA,WP_011061486.1,True,polyurethane esterase A,Pseudomonas protegens,,esterase,,unknown,False,False,False,0.0,0.296,name_uninformative
+46,51,PueB,WP_011061489.1,True,polyurethane esterase B,Pseudomonas,,esterase,,unknown,False,False,False,0.0,0.296,name_uninformative
+47,54,P-nylA,AAA25908.1,True,6-aminohexanoate-cyclic-dimer hydrolase,Pseudomonas sp.,,hydrolase,,unknown,False,False,False,0.0,0.222,name_uninformative
+48,59,NylA,WP_012476897.1,False,6-aminohexanoate-cyclic-dimer hydrolase,Bacteria,,hydrolase,,unknown,False,False,False,0.0,0.186,skipped_tier0
+49,60,NylB,CAA24927.1,True,unnamed protein product,Flavobacterium sp.,,,,unknown,False,True,False,0.0,0.074,uninformative_title
+50,61,NylC,WP_012476895.1,True,endo-type 6-aminohexanoate oligomer hydrolase,Micrococcales,,hydrolase,,unknown,False,False,False,0.0,0.122,name_uninformative
+51,62,NylCA,BAE95769.2,True,endotype 6-aminohexanoat-oligomer hydrolase,Agromyces sp. KY5R,,hydrolase,,unknown,False,False,False,0.0,0.167,name_uninformative
+52,63,NylCK,BAE95770.1,True,endotype 6-aminohexanoat-oligomer hydrolase,Kocuria sp. KY2,,hydrolase,,unknown,False,False,False,0.0,0.125,name_uninformative
+53,64,Arylacylamidase,P80008.1,True,Aryl acylamidase,,amidase,amidase,amidase,match,True,False,False,0.0,0.968,concordant
+54,65,Arylacylamidase,WP_011209364.1,True,amidase,Nocardia farcinica,amidase,amidase,amidase,match,True,False,False,0.0,0.636,concordant
+55,66,serineprotease,WP_378272130.1,True,S8 family peptidase,Actinomadura keratinilytica,protease,protease,protease,match,True,False,False,0.0,0.485,concordant
+56,68,PLAase I,WP_037320891.1,True,S1 family peptidase,Amycolatopsis orientalis,,protease,,unknown,False,False,False,0.0,0.296,name_uninformative
+57,69,PLAase II,ABY53108.1,True,PLAase2,Amycolatopsis orientalis,,,,unknown,False,False,True,0.0,0.75,name_uninformative
+58,70,PLAase III,ABY67151.1,True,"PLAase3 precursor, partial",Amycolatopsis orientalis,,,,unknown,False,False,True,0.0,0.444,name_uninformative
+59,71,PLaA,BAC67195.1,True,PLA depolymerase,Paenibacillus amylolyticus,,depolymerase,,unknown,False,False,False,0.0,0.4,name_uninformative
+60,74,ABO2449,WP_011589723.1,True,alpha/beta fold hydrolase,Alcanivorax,,esterase,,unknown,False,False,False,0.0,0.188,name_uninformative
+61,75,RPA1511,WP_011157072.1,True,alpha/beta fold hydrolase BchO,Rhodopseudomonas palustris,,esterase,,unknown,False,False,False,0.0,0.108,name_uninformative
+62,76,Subtilisin Savinase,P29600,True,Subtilisin Savinase,,protease,protease,protease,match,True,False,False,1.0,1.0,concordant
+63,77,Subtilisin BL,P29599,True,Subtilisin BL,,protease,protease,protease,match,True,False,False,1.0,1.0,concordant
+64,79,Subtilisin SubC,CAB56500,True,subC,Bacillus licheniformis,protease,,,unknown,True,False,True,0.5,0.421,title_unmapped
+65,81,LP175,ATG80622.1,True,"poly(L-lactide)-degrading enzyme, partial",Laceyella sacchari,,,,unknown,False,False,True,0.0,0.087,name_uninformative
+66,82,MGS0109,AGT96415.1,True,esterase,uncultured bacterium,,esterase,,unknown,False,False,False,0.0,0.133,name_uninformative
+67,83,MGS0010,AHG30919.1,True,hypothetical protein,gamma proteobacterium enrichment culture clone L-Tri-Mess-8_orf1,,,,unknown,False,True,False,0.0,0.0,uninformative_title
+68,84,MGS0105,AGT96414.1,True,esterase,uncultured bacterium,,esterase,,unknown,False,False,False,0.0,0.133,name_uninformative
+69,85,MGS0084,AKJ87250,True,hypothetical protein,uncultured organism,,,,unknown,False,True,False,0.0,0.0,uninformative_title
+70,86,MGS0156,AKJ87264,True,hypothetical protein,uncultured organism,,,,unknown,False,True,False,0.0,0.0,uninformative_title
+71,87,GEN0105,AKJ87216,True,hypothetical protein,uncultured organism,,,,unknown,False,True,False,0.0,0.148,uninformative_title
+72,88,PlaM4,BAF57210.1,True,PLA depolymerase,uncultured bacterium,,depolymerase,,unknown,False,False,False,0.0,0.381,name_uninformative
+73,90,PlaM7,BAF57212.1,True,PLA depolymerase,uncultured bacterium,,depolymerase,,unknown,False,False,False,0.0,0.381,name_uninformative
+74,92,PlaM9,BAF57214.1,True,PLA depolymerase,uncultured bacterium,,depolymerase,,unknown,False,False,False,0.0,0.381,name_uninformative
+75,93,Proteinase K,CAA32820.1,True,proteinkinase K,Parengyodontium album,protease,,,unknown,True,False,True,0.333,0.889,title_unmapped
+76,94,CutL1,XP_001817153.1,True,cutinase family protein,Aspergillus oryzae RIB40,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.286,concordant
+77,95,Cutinase,BAC67242.1,True,cutinase-like protein,Cryptococcus sp. S-2,cutinase,cutinase,cutinase,match,True,False,False,0.5,0.552,concordant
+78,96,CfCLE,BAT32793.1,True,cutinase-like enzyme,Saitozyma flava,,cutinase,,unknown,False,False,False,0.0,0.24,name_uninformative
+79,97,CmCut,BAN42606.1,True,cutinase-like enzyme,Cryptococcus sp. BPD1A,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.24,concordant
+80,98,PCLE,BAN51852.1,True,cutinase,Paraphoma sp. B47-9,,cutinase,,unknown,False,False,False,0.0,0.333,name_uninformative
+81,99,PaE,XP_014659518.1,True,carbohydrate esterase family 5 protein,Moesziomyces antarcticus,,esterase,,unknown,False,False,False,0.0,0.098,name_uninformative
+82,100,PhaZ1,WP_011614907.1,True,polyhydroxyalkanoate depolymerase,Cupriavidus necator,,depolymerase,,unknown,False,False,False,0.0,0.158,name_uninformative
+83,101,PhaZ2,WP_010813770.1,True,polyhydroxyalkanoate depolymerase,Cupriavidus,,depolymerase,,unknown,False,False,False,0.0,0.158,name_uninformative
+84,102,PhaZ3,WP_011616504.1,True,polyhydroxyalkanoate depolymerase,Cupriavidus,,depolymerase,,unknown,False,False,False,0.0,0.158,name_uninformative
+85,103,PhaZ4,AAP85930.1,True,putative PHB depolymerase (plasmid),Cupriavidus necator H16,,depolymerase,,unknown,False,False,False,0.0,0.15,name_uninformative
+86,104,PhaZ5,WP_011616952.1,True,polyhydroxyalkanoate depolymerase,Cupriavidus,,depolymerase,,unknown,False,False,False,0.0,0.158,name_uninformative
+87,105,PhaZd1,WP_010811062.1,True,extracellular catalytic domain type 1 short-chain-length polyhydroxyalkanoate depolymerase,Cupriavidus,,depolymerase,,unknown,False,False,False,0.0,0.083,name_uninformative
+88,107,PhaY1(PhaZ2),WP_011615575.1,True,D-(-)-3-hydroxybutyrate oligomer hydrolase,Cupriavidus necator,,hydrolase,,unknown,False,False,False,0.0,0.148,name_uninformative
+89,108,PhaY2,WP_011615004.1,True,3-hydroxybutyrate-oligomer hydrolase PhaZc,Cupriavidus necator,,hydrolase,,unknown,False,False,False,0.0,0.128,name_uninformative
+90,109,PhaZAfa,AAA21974.1,True,poly(3-hydroxybutyrate) depolymerase precursor,Ralstonia pickettii,,depolymerase,,unknown,False,False,False,0.0,0.151,name_uninformative
+91,110,PhaZ7,WP_132259156.1,True,extracellular native short-chain-length polyhydroxyalkanoate depolymerase PhaZ7,Paucimonas lemoignei,,depolymerase,,unknown,False,False,False,0.143,0.119,name_uninformative
+92,111,PhaZ5,AAA65705.1,True,poly(3-hydroxybutyrate) depolymerase A precursor,Paucimonas lemoignei,,depolymerase,,unknown,False,False,False,0.0,0.113,name_uninformative
+93,112,PhaZpst,BAA32541.1,True,polyhydroxybutyrate depolymerase,Stutzerimonas stutzeri,,depolymerase,,unknown,False,False,False,0.0,0.256,name_uninformative
+94,113,PhaZCac,WP_034398300.1,True,3-hydroxybutyrate oligomer hydrolase family protein,Delftia acidovorans,,hydrolase,,unknown,False,False,False,0.0,0.034,name_uninformative
+95,115,PHB depolymerase,BAG32152.1,True,poly(3-hydroxybutyrate) depolymerase,Talaromyces funiculosus,depolymerase,depolymerase,depolymerase,match,True,False,False,0.25,0.615,concordant
+96,116,PBATHRF,BCL64964.1,True,PBAT hydrolase,Rhodococcus sp. (in: high G+C Gram-positive bacteria),,hydrolase,,unknown,False,False,False,0.0,0.571,name_uninformative
+97,117,Chath_Est1,ALS54749.1,True,esterase,synthetic construct,,esterase,,unknown,False,False,False,0.0,0.333,name_uninformative
+98,118,TfH,5ZOA_A,True,BTA-hydrolase 1,,,pet_hydrolase,,unknown,False,False,False,0.0,0.222,name_uninformative
+99,119,PFL1,EIW29778.1,False,lipase,Pelosinus fermentans DSM 17108,,lipase,,unknown,False,False,False,0.0,0.2,skipped_tier0
+100,120,Cbotu_EstA,AKZ20828.1,True,esterase,synthetic construct,,esterase,,unknown,False,False,False,0.0,0.444,name_uninformative
+101,121,Cbotu_EstB,AKZ20829.1,True,esterase,synthetic construct,,esterase,,unknown,False,False,False,0.0,0.333,name_uninformative
+102,122,PBATHBp,BAV72205.1,True,PBAT hydrolase,Bacillus pumilus,,hydrolase,,unknown,False,False,False,0.0,0.476,name_uninformative
+103,123,LCP_STRK3,AAR25849.1,True,latex clearing protein,Streptomyces sp. K30,,,,unknown,False,False,True,0.0,0.258,name_uninformative
+104,124,RoxA,AAP41848.1,True,70 kDa protein,Xanthomonas sp. 35Y,,,,unknown,False,False,True,0.0,0.222,name_uninformative
+105,125,RoxB,AQV11968.1,True,rubber oxygenase B,Xanthomonas sp. 35Y,,oxidase,,unknown,False,False,False,0.0,0.364,name_uninformative
+106,126,LatA,WP_085748997.1,True,rubber dioxygenase RoxB,Rhizobacter gummiphilus,,oxidase,,unknown,False,False,False,0.0,0.074,name_uninformative
+107,141,403,RLU00646.1,True,alpha/beta hydrolase,Ketobacter sp.,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+108,142,405,KPI12031.1,True,Triacylglycerol lipase,Actinobacteria bacterium OK074,,lipase,,unknown,False,False,False,0.0,0.0,name_uninformative
+109,143,406,ODU60407.1,True,hypothetical protein ABT02_06340,Comamonadaceae bacterium SCN 68-20,,,,unknown,False,True,False,0.0,0.114,uninformative_title
+110,144,407,WP_162908185.1,True,poly(ethylene terephthalate) hydrolase family protein,Allorhizocola rhizosphaerae,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+111,145,409,RLT92980.1,True,hypothetical protein D9N14_19170,Ketobacter sp.,,,,unknown,False,True,False,0.0,0.114,uninformative_title
+112,146,412,WP_158643351.1,True,dienelactone hydrolase family protein,Ketobacter alkanivorans,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+113,147,503,EGD44994.1,True,lipase 1 (Triacylglycerol lipase),Nocardioidaceae bacterium Broad-1,,lipase,,unknown,False,False,False,0.0,0.0,name_uninformative
+114,148,CtPl,WP_062195544.1,True,alpha/beta hydrolase family protein,Caldimonas taiwanensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.103,name_uninformative
+115,149,606,SJZ42839.1,True,cutinase,Marinactinospora thermotolerans DSM 45154,,cutinase,,unknown,False,False,False,0.0,0.0,name_uninformative
+116,150,607-Nsp,KPI31299.1,True,Triacylglycerol lipase,Actinobacteria bacterium OV320,,lipase,,unknown,False,False,False,0.0,0.069,name_uninformative
+117,151,611,WP_093412886.1,True,poly(ethylene terephthalate) hydrolase family protein,Saccharopolyspora flava,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+118,152,701,WP_104613137.1,True,cutinase/poly(ethylene terephthalate) hydrolase,Thermobifida fusca,,"cutinase, pet_hydrolase",,unknown,False,False,False,0.0,0.0,name_uninformative
+119,153,702,ADM47605.1,True,"acetylxylan esterase, partial",Thermobifida fusca,,esterase,,unknown,False,False,False,0.0,0.0,name_uninformative
+120,154,711,WP_083947829,False,cutinase/poly(ethylene terephthalate) hydrolase,Thermobifida cellulosilytica,,"cutinase, pet_hydrolase",,unknown,False,False,False,0.0,0.0,skipped_tier0
+121,155,UMG-SP-1,OP972509,False,"Uncultured bacterium clone UMG-SP-1 urethanase gene, partial cds",,,urethanase,,unknown,False,False,False,0.286,0.222,skipped_tier0
+122,156,UMG-SP-2,OP972510,False,"Uncultured bacterium clone UMG-SP-2 urethanase gene, partial cds",,,urethanase,,unknown,False,False,False,0.286,0.222,skipped_tier0
+123,157,UMG-SP-3,OP972511,False,"Uncultured bacterium clone UMG-SP-3 urethanase gene, partial cds",,,urethanase,,unknown,False,False,False,0.286,0.222,skipped_tier0
+124,158,Urethanase,ANG60415,True,urethanase,Lysinibacillus fusiformis,urethanase,urethanase,urethanase,match,True,False,False,1.0,1.0,concordant
+125,162,AmdA,AAK28498.1,True,enantioselective amidase,Agrobacterium tumefaciens,,amidase,,unknown,False,False,False,0.0,0.286,name_uninformative
+126,166,CPUTNase,BBP47208.1,True,urethanase,Lodderomyces parapsilosis,,urethanase,,unknown,False,False,False,0.0,0.667,name_uninformative
+127,170,RCut,UNZ22463.1,True,cutinase,Rhodococcus sp. (in: high G+C Gram-positive bacteria),cutinase,cutinase,cutinase,match,True,False,False,0.0,0.5,concordant
+128,171,PHL-2,SAY37582.1,False,Hydrolase 2,compost metagenome,,hydrolase,,unknown,False,False,False,0.0,0.375,skipped_tier0
+129,172,PHL-1,SAY37579.1,False,Hydrolase 1,compost metagenome,,hydrolase,,unknown,False,False,False,0.0,0.375,skipped_tier0
+130,173,PHL-3,SAY37583.1,False,Hydrolase 3,compost metagenome,,hydrolase,,unknown,False,False,False,0.0,0.375,skipped_tier0
+131,174,PHL-4,SAY37584.1,False,Hydrolase 4,compost metagenome,,hydrolase,,unknown,False,False,False,0.0,0.375,skipped_tier0
+132,175,PHL-5,SAY37587,False,Hydrolase 5,compost metagenome,,hydrolase,,unknown,False,False,False,0.0,0.375,skipped_tier0
+133,176,PHL-6,SAY37589,False,Hydrolase 6,compost metagenome,,hydrolase,,unknown,False,False,False,0.0,0.375,skipped_tier0
+134,177,Sub1,QEX94755.1,True,"cutinase family protein, partial",Streptomyces scabiei,,cutinase,,unknown,False,False,False,0.0,0.056,name_uninformative
+135,178,RgCut-2,WP_085749238,True,poly(ethylene terephthalate) hydrolase family protein,Rhizobacter gummiphilus,cutinase,pet_hydrolase,,related,True,False,False,0.0,0.067,related_family
+136,179,PsCut,WP_044499735.1,True,alpha/beta hydrolase family protein,Pseudomonas saudimassiliensis,cutinase,ab_hydrolase,,generic,True,False,False,0.0,0.15,generic_title
+137,180,PbauzCut,WP_036989706.1,True,alpha/beta hydrolase family protein,Halopseudomonas,cutinase,ab_hydrolase,,generic,True,False,False,0.0,0.186,generic_title
+138,181,AdCut,BAB86909,True,PBS(A) depolymerase,Acidovorax delafieldii,cutinase,depolymerase,,related,True,False,False,0.0,0.167,related_family
+139,182,FoCut5a,EXK81749,True,cutinase 3,Fusarium oxysporum f. sp. raphani 54005,,cutinase,,unknown,False,False,False,0.0,0.471,name_uninformative
+140,183,MRCUT1,ESK97883.1,True,cutinase,Moniliophthora roreri MCA 2997,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.429,concordant
+141,184,PET1,ADV66860.1,True,Triacylglycerol lipase,Deinococcus maricopensis DSM 21211,pet_hydrolase,lipase,,related,True,False,False,0.0,0.154,related_family
+142,185,SM14est,DAC80635.1,True,TPA_exp: alpha/beta hydrolase,Streptomyces sp. SM14,,ab_hydrolase,,unknown,False,False,False,0.0,0.111,name_uninformative
+143,186,IS10,UNZ81746.1,True,alpha/beta hydrolase,Chloroflexi bacterium enrichment culture,,ab_hydrolase,,unknown,False,False,False,0.0,0.083,name_uninformative
+144,187,IS11,UNZ81747.1,True,beta-lactamase,Dehalococcoidia bacterium enrichment culture,,,,unknown,False,False,True,0.0,0.111,name_uninformative
+145,188,IS12,UNZ81748.1,True,alpha/beta hydrolase,Chloroflexi bacterium enrichment culture,,ab_hydrolase,,unknown,False,False,False,0.0,0.083,name_uninformative
+146,191,Lcp1VH2,WP_006368739.1,True,oxygenase MpaB family protein,Gordonia polyisoprenivorans,,oxidase,,unknown,False,False,False,0.0,0.111,name_uninformative
+147,192,Lcp2VH2,AFA76036.1,True,latex clearing protein Lcp (plasmid),Gordonia polyisoprenivorans VH2,,,,unknown,False,False,True,0.0,0.14,name_uninformative
+148,195,BurPL,OGB27210,True,hypothetical protein A3I66_11710,Burkholderiales bacterium RIFCSPLOWO2_02_FULL_57_36,,,,unknown,False,True,False,0.0,0.054,uninformative_title
+149,196,PET40,WAU86704,True,"PET40, partial",synthetic construct,pet_hydrolase,,,unknown,True,False,True,1.0,0.526,title_unmapped
+150,197,PbsA,BAB86909,True,PBS(A) depolymerase,Acidovorax delafieldii,,depolymerase,,unknown,False,False,False,0.0,0.348,name_uninformative
+151,199,FSC,Q99174,True,Cutinase,,,cutinase,,unknown,False,False,False,0.0,0.182,name_uninformative
+152,200,Hfor_PE-H,WP_090538641,True,alpha/beta hydrolase family protein,Halopseudomonas formosensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.182,name_uninformative
+153,201,PaCut,SUD16364,True,Lipase 1,Aquipseudomonas alcaligenes,cutinase,lipase,,related,True,False,False,0.0,0.308,related_family
+154,205,MnP,AAA33742.1,True,manganese peroxidase I precursor,Phanerodontia chrysosporium,,"oxidase, peroxidase",,unknown,False,False,False,0.0,0.171,name_uninformative
+155,207,Tcca,WP_015255658,True,carboxylesterase/lipase family protein,Thermobacillus,,"esterase, lipase",,unknown,False,False,False,0.0,0.095,name_uninformative
+156,208,aryl acylamidase,WZH92451.1,True,amidase family protein,Nocardia farcinica,amidase,amidase,amidase,match,True,False,False,0.0,0.368,concordant
+157,209,Lip4_120,WP_108898452,False,esterase/lipase family protein,Caldibacillus thermoamylovorans,,"esterase, lipase",,unknown,False,False,False,0.0,0.158,skipped_tier0
+158,210,Est8_89,WP_034768559.1,True,"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase",Bacillaceae,,,,unknown,False,False,True,0.0,0.087,name_uninformative
+159,211,Est11_32,WP_041846030,True,prolyl oligopeptidase family serine peptidase,Bacillaceae,,protease,,unknown,False,False,False,0.0,0.113,name_uninformative
+160,212,Est18_23,WP_041847557,True,carboxylesterase/lipase family protein,Caldibacillus thermoamylovorans,,"esterase, lipase",,unknown,False,False,False,0.0,0.13,name_uninformative
+161,213,Ces19_14,WP_034767800,True,alpha/beta hydrolase,Bacillaceae,,ab_hydrolase,,unknown,False,False,False,0.0,0.143,name_uninformative
+162,214,Ces39_5,WP_108898647,True,alpha/beta hydrolase,Bacillaceae,,ab_hydrolase,,unknown,False,False,False,0.0,0.148,name_uninformative
+163,215,CaPETase,SHM40309,True,hypothetical protein SAMN05443668_101498,Cryptosporangium aurantiacum,pet_hydrolase,,,unknown,True,True,False,0.0,0.208,uninformative_title
+164,216,CE_Ubrb,SIP63154.1,True,"esterase, CE_Ubrb",uncultured bacterium,,esterase,,unknown,False,False,False,0.667,0.583,name_uninformative
+165,217,TtA,WP_185053500,True,amidase,Thermocatellispora tengchongensis,,amidase,,unknown,False,False,False,0.0,0.2,name_uninformative
+166,218,M-NylC,KQR39103,True,6-aminohexanoate hydrolase,Microbacterium sp. Leaf159,,hydrolase,,unknown,False,False,False,0.0,0.25,name_uninformative
+167,219,Nc-NylC,WP_312893488.1,True,P1 family peptidase,Nocardiopsis composta,,protease,,unknown,False,False,False,0.0,0.077,name_uninformative
+168,221,OoH,BAI44731,True,omega-octalactam hydrolase,Rhodococcus sp. Oct1,,hydrolase,,unknown,False,False,False,0.0,0.207,name_uninformative
+169,223,HG-2,WP_118011433.1,True,alpha/beta hydrolase,Holdemanella biformis,,ab_hydrolase,,unknown,False,False,False,0.0,0.083,name_uninformative
+170,224,HG-3,RGD93181.1,True,alpha/beta fold hydrolase,Clostridiales bacterium AM23-16LB,,esterase,,unknown,False,False,False,0.0,0.069,name_uninformative
+171,225,HG-4,WP_013858543.1,True,alpha/beta hydrolase,Heyndrickxia,,ab_hydrolase,,unknown,False,False,False,0.0,0.083,name_uninformative
+172,226,HG-5,WP_008690040.1,True,alpha/beta hydrolase family protein,Bacillota,,ab_hydrolase,,unknown,False,False,False,0.0,0.051,name_uninformative
+173,229,CpCut1,WKA69984.1,True,cutinase,Cladosporium sp.,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.429,concordant
+174,231,DmC,KAH7127633,True,cutinase,Dactylonectria macrodidyma,,cutinase,,unknown,False,False,False,0.0,0.182,name_uninformative
+175,233,BaCut1,XAQ58225,True,cutinase,Blastobotrys sp. G-9,cutinase,cutinase,cutinase,match,True,False,False,0.0,0.429,concordant
+176,234,GatA,ANG60415,True,urethanase,Lysinibacillus fusiformis,,urethanase,,unknown,False,False,False,0.0,0.286,name_uninformative
+177,235,LipMRD9,APJ12152,True,esterase,Bacillus safensis,,esterase,,unknown,False,False,False,0.0,0.133,name_uninformative
+178,238,dsPETase06,MEC8523093,True,hypothetical protein VXZ24_02475,Pseudomonadota bacterium,pet_hydrolase,,,unknown,True,True,False,0.0,0.286,uninformative_title
+179,240,Dkca1,WID88783,True,carboxylesterase,Dietzia kunjamensis,,esterase,,unknown,False,False,False,0.0,0.19,name_uninformative
+180,241,PpPETase,WP_220815207,True,alpha/beta hydrolase family protein,Pseudomonas paralcaligenes,pet_hydrolase,ab_hydrolase,,generic,True,False,False,0.0,0.279,generic_title
+181,242,ScPETase,WP_142197250.1,True,bis(hydroxyethyl) terephthalate hydrolase,Streptomyces,pet_hydrolase,hydrolase,,generic,True,False,False,0.0,0.245,generic_title
+182,244,PD3,QPA27412.1,True,alpha/beta hydrolase,Brucella anthropi,,ab_hydrolase,,unknown,False,False,False,0.0,0.174,name_uninformative
+183,245,TvgC,WP_068749367,True,P1 family peptidase,Thermovenabulum gondwanense,,protease,,unknown,False,False,False,0.0,0.087,name_uninformative
+184,246,NylC1,XHH12374,True,NylC1,Leucobacter chromiiresistens,,,,unknown,False,False,True,1.0,1.0,name_uninformative
+185,247,NylC2,XHH12375,True,NylC2,uncultured Microbacterium sp.,,,,unknown,False,False,True,1.0,1.0,name_uninformative
+186,248,NylC5,XHH12378,True,NylC5,Gordonia sp. (in: high G+C Gram-positive bacteria),,,,unknown,False,False,True,1.0,1.0,name_uninformative
+187,249,PA4-degrading enzyme,BEG79545,True,polyamide 4 hydrolase,Pseudoalteromonas sp.,,hydrolase,,unknown,False,False,False,0.0,0.341,name_uninformative
+188,251,Trypsin,P00761.1,True,Trypsin,,,,,unknown,False,False,True,1.0,1.0,name_uninformative
+189,252,CYP450,P08684.4,True,Cytochrome P450 3A4,,,,,unknown,False,False,True,0.0,0.48,name_uninformative
+190,253,TGL,WAT79796.1,True,triacylglycerol lipase,Bacillus safensis,,lipase,,unknown,False,False,False,0.0,0.24,name_uninformative
+191,254,PAM,BAU20375,True,protease,Actinomadura sp. RD001933,,protease,,unknown,False,False,False,0.0,0.364,name_uninformative
+192,256,APET-5,WP_218920366.1,True,alpha/beta hydrolase family protein,Lentzea guizhouensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.195,name_uninformative
+193,257,KbPETase,WP_209642273.1,True,alpha/beta hydrolase family protein,Kibdelosporangium banguiense,pet_hydrolase,ab_hydrolase,,generic,True,False,False,0.0,0.279,generic_title
+194,258,APET-15,WP_019629726.1,True,dienelactone hydrolase family protein,Actinomadura atramentaria,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.136,name_uninformative
+195,259,APET-17,MBX3625601.1,True,dienelactone hydrolase family protein,Rhizobacter sp.,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.136,name_uninformative
+196,260,APET-19,WP_116023875.1,True,alpha/beta hydrolase family protein,Thermomonospora umbrina,,ab_hydrolase,,unknown,False,False,False,0.0,0.19,name_uninformative
+197,261,APET-20,MBO9532528.1,True,hypothetical protein J7513_06105,Solirubrobacteraceae bacterium,,,,unknown,False,True,False,0.0,0.205,uninformative_title
+198,262,APET-23,MSQ87502.1,True,hypothetical protein EXR10_11845,Alphaproteobacteria bacterium,,,,unknown,False,True,False,0.0,0.154,uninformative_title
+199,263,APET-24,WP_018657411.1,True,poly(ethylene terephthalate) hydrolase family protein,Actinomadura flavalba,,pet_hydrolase,,unknown,False,False,False,0.0,0.1,name_uninformative
+200,264,APET-25,MPZ00478.1,True,acetylxylan esterase,Actinophytocola sp.,,esterase,,unknown,False,False,False,0.0,0.222,name_uninformative
+201,265,APET-26,WP_203847453.1,True,alpha/beta hydrolase family protein,Dactylosporangium siamense,,ab_hydrolase,,unknown,False,False,False,0.0,0.19,name_uninformative
+202,266,APET-27,WP_104739856.1,True,alpha/beta hydrolase family protein,Halopseudomonas oceani,,ab_hydrolase,,unknown,False,False,False,0.0,0.19,name_uninformative
+203,267,APET-28,MBX2857432.1,True,hypothetical protein KTR17_02115,Cellvibrionaceae bacterium,,,,unknown,False,True,False,0.0,0.205,uninformative_title
+204,268,APET-29,MBE65357.1,True,hypothetical protein CMQ30_01630,Gammaproteobacteria bacterium,,,,unknown,False,True,False,0.0,0.154,uninformative_title
+205,269,APET-32,KZY99137.1,True,hypothetical protein A3746_05805,Oleibacter sp. HI0075,,,,unknown,False,True,False,0.0,0.205,uninformative_title
+206,270,Mipa-P,SDZ16714.1,True,cutinase,Micromonospora pattaloongensis,,cutinase,,unknown,False,False,False,0.0,0.286,name_uninformative
+207,271,1628,WP_091553551.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora pattaloongensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+208,272,1611,WP_124822775.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora ureilytica,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+209,273,1625,WP_101366623.1,False,poly(ethylene terephthalate) hydrolase family protein,Plantactinospora sp. CNZ320,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+210,274,1603,WP_110567505.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora arborensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+211,275,1663,WP_084434874.1,False,poly(ethylene terephthalate) hydrolase family protein,Kibdelosporangium aridum,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+212,276,Kubu-P,WP_116180173.1,True,alpha/beta hydrolase family protein,Kutzneria buriramensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.098,name_uninformative
+213,277,1538,WP_130464304.1,True,poly(ethylene terephthalate) hydrolase family protein,unclassified Plantactinospora,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+214,278,1465,WP_073887759.1,False,poly(ethylene terephthalate) hydrolase family protein,Saccharothrix sp. CB00851,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+215,279,1621,WP_088988822.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora chokoriensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+216,280,1617,CCH19814.1,True,"Extracellular endo-1,4-beta-xylanase A",Micromonospora lupini str. Lupac 08,,,,unknown,False,False,True,0.0,0.048,name_uninformative
+217,281,1534,WP_082377728.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora sp. NRRL B-16802,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+218,282,1489,WP_132386942.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora sp. KC723,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+219,283,1521,WP_132337032.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora sp. KC213,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+220,284,1525,WP_099848711.1,False,poly(ethylene terephthalate) hydrolase family protein,Verrucosispora sp. CNZ293,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+221,285,1468,WP_132413760.1,True,poly(ethylene terephthalate) hydrolase family protein,Kribbella albertanoniae,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+222,286,1507,WP_144126986.1,False,poly(ethylene terephthalate) hydrolase family protein,Catellatospora sichuanensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+223,287,1491,WP_082403176.1,True,poly(ethylene terephthalate) hydrolase family protein,Saccharothrix sp. NRRL B-16348,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+224,288,1821,WP_137976057.1,False,poly(ethylene terephthalate) hydrolase family protein,Streptomyces violaceusniger,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+225,289,1477,WP_125191182.1,False,dienelactone hydrolase family protein,Streptomyces sp. RP5T,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+226,290,1482,WP_141984372.1,False,poly(ethylene terephthalate) hydrolase family protein,Saccharothrix saharensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+227,291,1522,WP_155388305.1,False,poly(ethylene terephthalate) hydrolase family protein,Catellatospora paridis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+228,292,1546,WP_013736455.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+229,293,385,WP_143590710.1,True,alpha/beta hydrolase family protein,Thermoactinospora rubra,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+230,294,1642,WP_139584963.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora orduensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+231,295,917,WP_083950838.1,False,poly(ethylene terephthalate) hydrolase family protein,Actinomadura,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+232,296,1537,OKK16161.1,True,lipase,Streptomyces sp. CB00455,,lipase,,unknown,False,False,False,0.0,0.0,name_uninformative
+233,297,1519,WP_131056699.1,False,"poly(ethylene terephthalate) hydrolase family protein, partial",Verrucosispora sp. SN26_14.1,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+234,298,1678,WP_045318561.1,True,poly(ethylene terephthalate) hydrolase family protein,Lentzea aerocolonigenes,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+235,299,1496,WP_075737041.1,True,alpha/beta hydrolase family protein,Streptomyces acidiscabies,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+236,300,1169,WP_065917710.1,True,dienelactone hydrolase family protein,Lentzea guizhouensis,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+237,301,1637,WP_130401777.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora violae,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+238,302,1463,WP_081971423.1,False,alpha/beta hydrolase family protein,Dactylosporangium aurantiacum,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+239,303,1545,WP_093411427.1,False,"poly(ethylene terephthalate) hydrolase family protein, partial",Micromonospora sediminimaris,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+240,304,554,WP_086849962.1,True,bis(hydroxyethyl) terephthalate hydrolase,Amycolatopsis kentuckyensis,,hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+241,305,1573,WP_109639600.1,True,poly(ethylene terephthalate) hydrolase family protein,Lentzea atacamensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+242,306,1654,WP_086784246.1,False,poly(ethylene terephthalate) hydrolase family protein,Crossiella equi,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+243,307,1555,WP_078844206.1,True,dienelactone hydrolase family protein,Streptomyces achromogenes,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+244,308,1591,WP_091283529.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora haikouensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+245,309,1620,WP_112669767.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora saelicesensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+246,310,1240,KNX38636.1,True,lipase,Luteipulveratus halotolerans,,lipase,,unknown,False,False,False,0.0,0.0,name_uninformative
+247,311,1594,WP_083302694.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora carbonacea,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+248,312,1457,WP_093954453.1,False,alpha/beta hydrolase family protein,Amycolatopsis vastitatis,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+249,313,247,WP_116813002.1,True,alpha/beta hydrolase family protein,Steroidobacter cummioxidans,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+250,314,1641,WP_089021493.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora coriariae,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+251,315,1309,TQL66274.1,True,cutinase,Nocardioides albertanoniae,,cutinase,,unknown,False,False,False,0.0,0.0,name_uninformative
+252,316,414,WP_123685830.1,True,bis(hydroxyethyl) terephthalate hydrolase,Amycolatopsis,,hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+253,317,1506,WP_084400763.1,True,poly(ethylene terephthalate) hydrolase family protein,Lentzea albidocapillata,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+254,318,1493,WP_132183354.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora sp. KC606,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+255,319,1395,RZL02950.1,True,alpha/beta hydrolase,Rubrivivax sp.,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+256,320,1478,WP_141569747.1,True,dienelactone hydrolase family protein,Streptomyces ipomoeae,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+257,321,1571,WP_124770494.1,False,"alpha/beta hydrolase family protein, partial",Micromonospora inaquosa,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+258,322,169,OPG10926.1,True,alpha/beta hydrolase,Microbispora sp. GKU 823,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+259,323,1638,WP_051808300.1,False,alpha/beta hydrolase,Actinoplanes subtropicus,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+260,324,1868,WP_111700265.1,False,RICIN domain-containing protein,Microbispora triticiradicis,,,,unknown,False,False,True,0.0,0.0,skipped_tier0
+261,325,1718,WP_084578793.1,True,alpha/beta hydrolase family protein,Kutzneria sp. 744,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+262,326,401,WP_104115406.1,True,alpha/beta hydrolase family protein,Micromonospora chalcea,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+263,327,1392,SPF04022.1,True,Lipase 1,Streptomyces sp. MA5143a,,lipase,,unknown,False,False,False,0.0,0.167,name_uninformative
+264,328,486,WP_120326365.1,True,alpha/beta hydrolase family protein,Micromonospora globbae,,ab_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+265,329,1424,WP_110080872.1,False,poly(ethylene terephthalate) hydrolase family protein,Actinokineospora spheciospongiae,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+266,330,1475,WP_086668955.1,False,poly(ethylene terephthalate) hydrolase family protein,Lentzea kentuckyensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+267,331,282,WP_092528534.1,False,bis(hydroxyethyl) terephthalate hydrolase,Amycolatopsis arida,,hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+268,332,1635,WP_145923095.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora sp. HM134,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+269,333,1228,WP_091450391.1,False,poly(ethylene terephthalate) hydrolase family protein,Actinokineospora iranica,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+270,334,1876,WP_067035690.1,True,poly(ethylene terephthalate) hydrolase family protein,Streptomyces dysideae,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+271,335,1340,WP_103564314.1,True,poly(ethylene terephthalate) hydrolase family protein,Actinomadura rubteroloni,,pet_hydrolase,,unknown,False,False,False,0.0,0.0,name_uninformative
+272,336,191,WP_129849678.1,False,bis(hydroxyethyl) terephthalate hydrolase,Streptomyces sp. SCA2-2,,hydrolase,,unknown,False,False,False,0.0,0.0,skipped_tier0
+273,337,PC3,WP_103939557.1,True,alpha/beta hydrolase family protein,Thermomonospora echinospora,,ab_hydrolase,,unknown,False,False,False,0.0,0.053,name_uninformative
+274,338,PC4,WP_125313231.1,True,bis(hydroxyethyl) terephthalate hydrolase,Amycolatopsis eburnea,,hydrolase,,unknown,False,False,False,0.0,0.045,name_uninformative
+275,339,PC5,WP_075975245.1,True,bis(hydroxyethyl) terephthalate hydrolase,Actinokineospora bangkokensis,,hydrolase,,unknown,False,False,False,0.0,0.045,name_uninformative
+276,340,PC6,WP_068752972.1,True,cutinase/poly(ethylene terephthalate) hydrolase,Thermobifida cellulosilytica,,"cutinase, pet_hydrolase",,unknown,False,False,False,0.0,0.04,name_uninformative
+277,341,PC8,MBA55398.1,True,alpha/beta hydrolase,Pseudomonadales bacterium,,ab_hydrolase,,unknown,False,False,False,0.0,0.087,name_uninformative
+278,342,Nepenthesin-1,BAD07474.1,True,aspartic proteinase nepenthesin I,Nepenthes gracilis,,protease,,unknown,False,False,False,0.25,0.478,name_uninformative
+279,343,Nyl04,KXS08985,True,hypothetical protein M427DRAFT_64947,Gonapodya prolifera JEL478,,,,unknown,False,True,False,0.0,0.098,uninformative_title
+280,344,Nyl10,WP_073391230.1,True,P1 family peptidase,Jatrophihabitans endophyticus,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+281,345,Nyl11,WP_082766707.1,True,P1 family peptidase,Ferrimonas marina,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+282,346,Nyl12,A0A1Q3SHB0,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+283,347,Nyl13,WP_075885500.1,True,P1 family peptidase,Faecalibaculum rodentium,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+284,348,Nyl14,A0A1Y4BJH4,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+285,349,Nyl16,OWT56952,True,peptidase S58,Candidimonas nitroreducens,,protease,,unknown,False,False,False,0.0,0.0,name_uninformative
+286,350,Nyl18,A0A2E3XQJ6,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+287,351,Nyl25,PSR30050,True,peptidase S58 family protein,Sulfobacillus benefaciens,,protease,,unknown,False,False,False,0.0,0.061,name_uninformative
+288,352,Nyl29,A0A315R6Z8,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+289,353,Nyl30,PWX09261.1,True,peptidase,Clostridium perfringens,,protease,,unknown,False,False,False,0.0,0.0,name_uninformative
+290,354,Nyl32,A0A351YZM4,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+291,355,Nyl34,A0A368EC02,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+292,356,Nyl37,A0A3D1YDR8,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+293,357,Nyl39,A0A3D4HM79,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+294,358,Nyl40,A0A3M1X2K7,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+295,359,Nyl44,A0A432H965,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+296,360,Nyl45,RYL92504.1,True,peptidase S58 family protein,Sporolactobacillus sp. THM7-4,,protease,,unknown,False,False,False,0.0,0.061,name_uninformative
+297,361,Nyl47,WP_131292212.1,True,P1 family peptidase,Kribbella sindirgiensis,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+298,362,Nyl50,TAL40028,True,peptidase S58 family protein,Alphaproteobacteria bacterium,,protease,,unknown,False,False,False,0.0,0.061,name_uninformative
+299,363,Nyl54,WP_170322449.1,True,P1 family peptidase,Acrocarpospora macrocephala,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+300,364,Nyl57,A0A661XAJ6,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+301,365,Nyl58,A0A6A7M915,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+302,366,Nyl60,A0A6I1QW75,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+303,367,Nyl63,A0A7C3G8G6,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+304,368,Nyl65,A0A7C6SQZ1,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+305,369,Nyl66,A0A7C7DKE8,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+306,370,Nyl68,A0A7V5VEC1,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+307,371,Nyl71,A0A7V9NEU5,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+308,372,Nyl72,A0A7W0NYQ1,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+309,373,Nyl73,MSS57807,True,P1 family peptidase,Erysipelotrichaceae bacterium Oil+RF-744-GAM-WT-6,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+310,374,Nyl74,A0A7X7N2B0,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+311,375,Nyl82,WP_014810472.1,True,P1 family peptidase,Desulfomonile tiedjei,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+312,376,Nyl83,XP_005707592.1,True,peptidase S58 DmpA isoform 1,Galdieria sulphuraria,,protease,,unknown,False,False,False,0.0,0.061,name_uninformative
+313,377,Nyl84,WP_010949597.1,True,P1 family peptidase,Mycobacterium avium,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+314,378,Nyl85,R5FI29,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+315,379,Nyl87,U7UHN3,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+316,380,Nyl93,WP_170196788.1,True,P1 family peptidase,Gordonia asplenii,,protease,,unknown,False,False,False,0.0,0.083,name_uninformative
+317,381,DP003,ACV09511,True,Triacylglycerol lipase,Jonesia denitrificans DSM 20603,,lipase,,unknown,False,False,False,0.0,0.074,name_uninformative
+318,382,DP006,TDP67440,True,alpha/beta hydrolase family protein,Actinokineospora alba,,ab_hydrolase,,unknown,False,False,False,0.0,0.1,name_uninformative
+319,383,DP007,WP_035284691,True,alpha/beta hydrolase family protein,Actinokineospora spheciospongiae,,ab_hydrolase,,unknown,False,False,False,0.0,0.1,name_uninformative
+320,384,DP008,WP_130342639,True,poly(ethylene terephthalate) hydrolase family protein,Herbihabitans rhizosphaerae,,pet_hydrolase,,unknown,False,False,False,0.0,0.069,name_uninformative
+321,385,DP016,WP_151597653.1,True,dienelactone hydrolase family protein,Actinomadura physcomitrii,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.095,name_uninformative
+322,386,DP017,WP_187224800.1,True,alpha/beta hydrolase family protein,Actinokineospora xionganensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.1,name_uninformative
+323,387,DP021,MBT8227529.1,True,cellulose binding domain-containing protein,Dactylosporangium sp.,,,,unknown,False,False,True,0.0,0.083,name_uninformative
+324,388,DP038,MBX3624429.1,True,alpha/beta hydrolase,Rhizobacter sp.,,ab_hydrolase,,unknown,False,False,False,0.0,0.08,name_uninformative
+325,389,DP039,WP_085750434.1,True,alpha/beta hydrolase family protein,Rhizobacter gummiphilus,,ab_hydrolase,,unknown,False,False,False,0.0,0.1,name_uninformative
+326,390,DP040,WP_233427406.1,True,dienelactone hydrolase family protein,Actinokineospora spheciospongiae,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.095,name_uninformative
+327,391,DP043,WP_229068674.1,True,dienelactone hydrolase family protein,Actinoplanes sp. DH11,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.095,name_uninformative
+328,392,DP054,WP_161104454.1,True,dienelactone hydrolase family protein,Actinomadura rayongensis,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.095,name_uninformative
+329,393,DP056,MGYP001489421514,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+330,394,DP057,MBN2622270.1,True,dienelactone hydrolase family protein,Acidimicrobiales bacterium,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.095,name_uninformative
+331,395,DP059,MGYP001121581011,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+332,396,DP061,WP_221382552.1,True,poly(ethylene terephthalate) hydrolase family protein,Paractinoplanes polyasparticus,,pet_hydrolase,,unknown,False,False,False,0.0,0.069,name_uninformative
+333,397,DP068,MGYP000271253724,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+334,398,DP078,WP_184682765.1,True,alpha/beta hydrolase family protein,Pseudomonas fluvialis,,ab_hydrolase,,unknown,False,False,False,0.0,0.1,name_uninformative
+335,399,DP080,MBJ7347705.1,True,hypothetical protein JHC87_03920,Thermoleophilaceae bacterium,,,,unknown,False,True,False,0.0,0.162,uninformative_title
+336,400,DP081,MGYP000221121644,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+337,401,DP082,WP_203733135.1,True,alpha/beta hydrolase family protein,Paractinoplanes durhamensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.1,name_uninformative
+338,402,DP084,NUT34383.1,True,alpha/beta hydrolase,Hamadaea sp.,,ab_hydrolase,,unknown,False,False,False,0.0,0.08,name_uninformative
+339,403,DP089,WP_129786244.1,True,poly(ethylene terephthalate) hydrolase family protein,Promicromonospora panici,,pet_hydrolase,,unknown,False,False,False,0.0,0.069,name_uninformative
+340,404,DP090,WP_233872418.1,True,alpha/beta hydrolase family protein,Streptomyces sp. ST2-7A,,ab_hydrolase,,unknown,False,False,False,0.0,0.1,name_uninformative
+341,405,DP092,WP_139580723.1,True,RICIN domain-containing protein,Microbispora catharanthi,,,,unknown,False,False,True,0.0,0.111,name_uninformative
+342,406,ESM006,WP_267938240.1,False,poly(ethylene terephthalate) hydrolase family protein,Saccharothrix sp. S26,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,skipped_tier0
+343,407,ESM010,WP_167521412.1,True,RICIN domain-containing protein,Microbispora,,,,unknown,False,False,True,0.0,0.054,name_uninformative
+344,408,ESM012,WBC00352.1,True,cellulose binding domain-containing protein,Solwaraspora sp. WMMA2059,,,,unknown,False,False,True,0.0,0.122,name_uninformative
+345,409,ESM021,WP_210157342.1,True,cellulose-binding domain-containing protein,Microbispora oryzae,,,,unknown,False,False,True,0.0,0.122,name_uninformative
+346,410,ESM024,MBO4274871.1,True,lipase,Microbispora triticiradicis,,lipase,,unknown,False,False,False,0.0,0.167,name_uninformative
+347,411,ESM026,WP_232326807.1,True,RICIN domain-containing protein,Microbispora sp. ATCC PTA-5024,,,,unknown,False,False,True,0.0,0.054,name_uninformative
+348,412,ESM033,GFJ87714.1,True,hypothetical protein Prum_013560,Phytohabitans rumicis,,,,unknown,False,True,False,0.0,0.211,uninformative_title
+349,413,ESM035,WP_158852571.1,True,poly(ethylene terephthalate) hydrolase family protein,Saccharothrix deserti,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+350,414,ESM038,WP_182904095.1,True,lectin,Microbispora sp. H10830,,,,unknown,False,False,True,0.0,0.167,name_uninformative
+351,415,ESM043,WP_031525917.1,True,poly(ethylene terephthalate) hydrolase family protein,Streptomyces sp. NRRL F-5123,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+352,416,ESM045,MBX3621832.1,True,dienelactone hydrolase family protein,Rhizobacter sp.,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.14,name_uninformative
+353,417,ESM050,GIU85367.1,True,hypothetical protein KatS3mg008_2142,Acidimicrobiales bacterium,,,,unknown,False,True,False,0.0,0.238,uninformative_title
+354,418,ESM052,WP_203777396.1,True,poly(ethylene terephthalate) hydrolase family protein,Paractinoplanes deccanensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+355,419,ESM058,WP_173061649.1,True,poly(ethylene terephthalate) hydrolase family protein,Phytohabitans houttuyneae,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+356,420,ESM059,WP_111214096.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora craterilacus,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,skipped_tier0
+357,421,ESM060,WP_203790592.1,True,poly(ethylene terephthalate) hydrolase family protein,Paractinoplanes rishiriensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+358,422,ESM061,MBF9135495.1,True,"dienelactone hydrolase family protein, partial",Plantactinospora sp. S1510,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.115,name_uninformative
+359,423,ESM062,TWG17167.1,True,dienelactone hydrolase,Micromonospora taraxaci,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.143,name_uninformative
+360,424,ESM064,WP_281901711.1,True,poly(ethylene terephthalate) hydrolase family protein,Phytohabitans aurantiacus,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+361,425,ESM065,WP_204038550.1,True,"alpha/beta hydrolase family protein, partial",Micromonospora qiuiae,,ab_hydrolase,,unknown,False,False,False,0.0,0.12,name_uninformative
+362,426,ESM069,WP_181548579.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora saelicesensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+363,427,ESM070,GHJ08786.1,True,triacylglycerol lipase,Micromonospora humidisoli,,lipase,,unknown,False,False,False,0.0,0.143,name_uninformative
+364,428,ESM080,WP_084261341.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora rifamycinica,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+365,429,ESM081,WP_265247586.1,False,alpha/beta fold hydrolase,Micromonospora sp. CPCC 205371,,esterase,,unknown,False,False,False,0.0,0.129,skipped_tier0
+366,430,ESM082,UAC02078.1,True,alpha/beta hydrolase,Dactylosporangium vinaceum,,ab_hydrolase,,unknown,False,False,False,0.0,0.154,name_uninformative
+367,431,ESM084,WP_252811421.1,True,poly(ethylene terephthalate) hydrolase family protein,Actinoallomurus spadix,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+368,432,ESM090,WP_229836555.1,True,alpha/beta hydrolase family protein,Dactylosporangium sucinum,,ab_hydrolase,,unknown,False,False,False,0.0,0.146,name_uninformative
+369,433,ESM093,WP_239135698.1,True,alpha/beta hydrolase family protein,Dactylosporangium siamense,,ab_hydrolase,,unknown,False,False,False,0.0,0.146,name_uninformative
+370,434,ESM096,WP_252275389.1,True,alpha/beta hydrolase family protein,Pseudomonas subflava,,ab_hydrolase,,unknown,False,False,False,0.0,0.146,name_uninformative
+371,435,ESM097,WP_271190254.1,False,poly(ethylene terephthalate) hydrolase family protein,Dactylosporangium vinaceum,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,skipped_tier0
+372,436,ESM101,MBW4703769.1,True,ricin-type beta-trefoil lectin domain protein,Micromonospora sp. RL09-050-HVF-A,,,,unknown,False,False,True,0.0,0.078,name_uninformative
+373,437,ESM121,WP_247684544.1,False,"poly(ethylene terephthalate) hydrolase family protein, partial",Micromonospora sp. D93,,pet_hydrolase,,unknown,False,False,False,0.0,0.088,skipped_tier0
+374,438,ESM128,WP_269740835.1,True,alpha/beta hydrolase family protein,Verrucosispora sp. WMMA2121,,ab_hydrolase,,unknown,False,False,False,0.0,0.146,name_uninformative
+375,439,ESM130,MCF0091346.1,True,Poly(ethylene terephthalate) hydrolase,Micromonospora sp. MH99,,pet_hydrolase,,unknown,False,False,False,0.0,0.091,name_uninformative
+376,440,ESM136,GGR16917.1,True,lipase,Actinoplanes ianthinogenes,,lipase,,unknown,False,False,False,0.0,0.167,name_uninformative
+377,441,ESM139,WP_199199185.1,True,RICIN domain-containing protein,Amycolatopsis sp. CA-128772,,,,unknown,False,False,True,0.0,0.054,name_uninformative
+378,442,ESM140,WP_247056560.1,True,bis(hydroxyethyl) terephthalate hydrolase,Amycolatopsis sp. WQ 127309,,hydrolase,,unknown,False,False,False,0.0,0.085,name_uninformative
+379,443,ESM144,WP_239125827.1,True,alpha/beta hydrolase family protein,Catellatospora bangladeshensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.146,name_uninformative
+380,444,ESM156,WP_203812622.1,True,alpha/beta hydrolase family protein,Paractinoplanes tereljensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.146,name_uninformative
+381,445,ESM157,PWR09075.1,True,triacylglycerol lipase,Micromonospora acroterricola,,lipase,,unknown,False,False,False,0.0,0.143,name_uninformative
+382,446,ESM159,WP_203906211.1,True,dienelactone hydrolase family protein,Rhizocola hellebori,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.14,name_uninformative
+383,447,ESM160,WP_144022925.1,True,dienelactone hydrolase family protein,Asanoa hainanensis,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.14,name_uninformative
+384,448,ESM167,WP_091317053.1,True,bis(hydroxyethyl) terephthalate hydrolase,Amycolatopsis tolypomycina,,hydrolase,,unknown,False,False,False,0.0,0.085,name_uninformative
+385,449,ESM169,MBT9528079.1,True,alpha/beta hydrolase,Rhizobacter sp.,,ab_hydrolase,,unknown,False,False,False,0.0,0.154,name_uninformative
+386,450,ESM173,MTK05241.1,True,lipase,Micromonospora sp. CP22,,lipase,,unknown,False,False,False,0.0,0.167,name_uninformative
+387,451,ESM177,WP_239086781.1,True,alpha/beta hydrolase family protein,Catellatospora methionotrophica,,ab_hydrolase,,unknown,False,False,False,0.0,0.146,name_uninformative
+388,452,ESM186,WP_093473685.1,True,alpha/beta hydrolase family protein,Halopseudomonas yangmingensis,,ab_hydrolase,,unknown,False,False,False,0.0,0.146,name_uninformative
+389,453,TEP010,WP_164449727.1,False,poly(ethylene terephthalate) hydrolase family protein,Verrucosispora sioxanthis,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,skipped_tier0
+390,454,TEP014,MGYP001477358452,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+391,455,TEP024,WP_264933993.1,True,poly(ethylene terephthalate) hydrolase family protein,Streptomyces sp. A012304,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+392,456,TEP037,MGYP000321434903,False,,,,,,unknown,False,False,False,0.0,0.0,skipped_tier0
+393,457,TEP041,WP_256510026.1,False,poly(ethylene terephthalate) hydrolase family protein,Crossiella sp. SN42,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,skipped_tier0
+394,458,TEP054,WP_260709492.1,True,poly(ethylene terephthalate) hydrolase family protein,Dactylosporangium aurantiacum,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+395,459,TEP061,GGO06455.1,True,lipase,Microbispora rosea subsp. aerata,,lipase,,unknown,False,False,False,0.0,0.167,name_uninformative
+396,460,TEP067,WP_149259982.1,True,dienelactone hydrolase family protein,Actinomadura sp. K4S16,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.093,name_uninformative
+397,461,TEP083,MBN1171866.1,True,"dienelactone hydrolase family protein, partial",Micromonosporaceae bacterium,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.115,name_uninformative
+398,462,TEP091,MBO9569276.1,True,dienelactone hydrolase family protein,Cellulomonas iranensis,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.093,name_uninformative
+399,463,TEP092,GIG90696.1,True,triacylglycerol lipase,Plantactinospora endophytica,,lipase,,unknown,False,False,False,0.0,0.214,name_uninformative
+400,464,TEP097,WP_086599340.1,True,poly(ethylene terephthalate) hydrolase family protein,Streptomyces swartbergensis,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+401,465,TEP101,WP_019633337.1,True,alpha/beta hydrolase family protein,Actinomadura atramentaria,,ab_hydrolase,,unknown,False,False,False,0.0,0.098,name_uninformative
+402,466,TEP102,WP_109361459.1,True,poly(ethylene terephthalate) hydrolase family protein,Streptomyces sp. V2,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+403,467,TEP103,WP_211769896.1,True,alpha/beta hydrolase family protein,Kutzneria sp. CA-103260,,ab_hydrolase,,unknown,False,False,False,0.0,0.098,name_uninformative
+404,468,TEP105,WP_150070118.1,True,poly(ethylene terephthalate) hydrolase family protein,Saccharopolyspora hirsuta,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+405,469,TEP109,WP_307855560.1,True,dienelactone hydrolase family protein,Kibdelosporangium banguiense,,dienelactone_hydrolase,,unknown,False,False,False,0.0,0.093,name_uninformative
+406,470,TEP111,WP_260422593.1,False,poly(ethylene terephthalate) hydrolase family protein,Micromonospora carbonacea,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,skipped_tier0
+407,471,TEP114,WP_252811421.1,True,poly(ethylene terephthalate) hydrolase family protein,Actinoallomurus spadix,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+408,472,TEP163,WP_218517662.1,True,poly(ethylene terephthalate) hydrolase family protein,Streptomyces sp. TRM70350,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+409,473,TEP164,WP_256510519.1,False,poly(ethylene terephthalate) hydrolase family protein,Crossiella sp. SN42,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,skipped_tier0
+410,474,TEP165,WP_233604767.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora sp. HM5-17,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+411,475,TEP168,WP_239095870.1,True,poly(ethylene terephthalate) hydrolase family protein,Micromonospora lutea,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+412,476,TEP178,WP_253762837.1,True,alpha/beta hydrolase family protein,Hamadaea flava,,ab_hydrolase,,unknown,False,False,False,0.0,0.098,name_uninformative
+413,477,TEP181,WP_212846608.1,True,poly(ethylene terephthalate) hydrolase family protein,Actinoplanes ianthinogenes,,pet_hydrolase,,unknown,False,False,False,0.0,0.102,name_uninformative
+414,478,TEP189,GIU85371.1,True,hypothetical protein KatS3mg008_2146,Acidimicrobiales bacterium,,,,unknown,False,True,False,0.0,0.143,uninformative_title
+415,479,TEP194,WP_250563816.1,False,alpha/beta hydrolase family protein,Sphaerisporangium fuscum,,ab_hydrolase,,unknown,False,False,False,0.0,0.098,skipped_tier0
+416,480,KaPETase,WP_143447025.1,True,poly(ethylene terephthalate) hydrolase family protein,Kibdelosporangium aridum,pet_hydrolase,pet_hydrolase,pet_hydrolase,match,True,False,False,0.0,0.197,concordant
+417,481,Sis,XDS72785.1,True,thermophilic PET hydrolase,uncultured bacterium,,pet_hydrolase,,unknown,False,False,False,0.0,0.069,name_uninformative
+418,482,NylB',CAA26616.1,True,unnamed protein product,Flavobacterium sp.,,,,unknown,False,True,False,0.0,0.071,uninformative_title
+419,483,DIEGO,YCL34723,True,DIEGO PETase,uncultured bacterium,,pet_hydrolase,,unknown,False,False,False,0.5,0.588,name_uninformative
+420,484,TA21,WDT94064,True,alpha/beta hydrolase,Thermoleophilum album,,ab_hydrolase,,unknown,False,False,False,0.0,0.167,name_uninformative
+421,485,TA26,WDT94443,True,alpha/beta fold hydrolase,Thermoleophilum album,,esterase,,unknown,False,False,False,0.0,0.138,name_uninformative
+422,486,TA29,WDT94189,True,alpha/beta fold hydrolase,Thermoleophilum album,,esterase,,unknown,False,False,False,0.0,0.138,name_uninformative
+423,490,HP,ATH80290,True,alpha/beta hydrolase,Ectopseudomonas mendocina,,ab_hydrolase,,unknown,False,False,False,0.0,0.091,name_uninformative
+424,494,E4,7C2A_A,True,SGNH-hydrolase family esterase,,,esterase,,unknown,False,False,False,0.0,0.062,name_uninformative
+425,495,PET93,WKW63607.1,True,dienelactone hydrolase,Maribacter dokdonensis,pet_hydrolase,dienelactone_hydrolase,,related,True,False,False,0.0,0.148,related_family
+426,496,PET94,WKW63608.1,True,dienelactone hydrolase,Arenibacter palladensis,pet_hydrolase,dienelactone_hydrolase,,related,True,False,False,0.0,0.148,related_family
+427,497,BsMPPE,NP_390179.1,True,putative phosphoesterase,Bacillus subtilis subsp. subtilis str. 168,,esterase,,unknown,False,False,False,0.0,0.2,name_uninformative
+428,498,porcine pancreatic lipase,NP_999368.1,True,colipase precursor,Sus scrofa,lipase,lipase,lipase,match,True,False,False,0.0,0.326,concordant
+429,499,CRL,CAA34684,True,"lipase 1, partial",Limtongozyma cylindracea,,lipase,,unknown,False,False,False,0.0,0.2,name_uninformative
+430,,PhaZcac,BAA19791.1,True,polyhydroxybutyrate depolymerase,Delftia acidovorans,,depolymerase,,unknown,False,False,False,0.0,0.205,name_uninformative
+431,,PhaZ Sa,WP_011617846.1,True,extracellular catalytic domain type 1 short-chain-length polyhydroxyalkanoate depolymerase,Cupriavidus necator,,depolymerase,,unknown,False,False,False,0.0,0.103,name_uninformative
+432,5,PLE628,UUT36764,True,hypothetical protein,Marinobacter sp.,,,,unknown,False,True,False,0.0,0.231,uninformative_title
+433,6,PLE629,UUT36763,True,hypothetical protein,Marinobacter sp.,,,,unknown,False,True,False,0.0,0.231,uninformative_title
+434,127,Lcp1,WP_189902969.1,True,oxygenase MpaB family protein,Streptomyces sp. AC04842,,oxidase,,unknown,False,False,False,0.0,0.121,name_uninformative
+435,128,Lcp2,WP_254586337.1,True,oxygenase MpaB family protein,unclassified Streptomyces,,oxidase,,unknown,False,False,False,0.0,0.121,name_uninformative
+436,129,Lcp1,UFE15760.1,True,latex clearing protein,Microtetraspora sp. AC03309,,,,unknown,False,False,True,0.0,0.231,name_uninformative
+437,130,Lcp2,UFE15761.1,True,latex clearing protein,Microtetraspora sp. AC03309,,,,unknown,False,False,True,0.0,0.231,name_uninformative
+438,159,Amidase,AGT90042.1,True,amidase,Rhodococcus erythropolis CCM2595,amidase,amidase,amidase,match,True,False,False,1.0,1.0,concordant
+439,160,Amidase,AAK11724.1,True,enantioselective amidase,Rhodococcus erythropolis,amidase,amidase,amidase,match,True,False,False,0.5,0.452,concordant
+440,161,Amidase,ARF18137.1,True,glutamyl-tRNA amidotransferase,Sporosarcina ureae,amidase,,,unknown,True,False,True,0.0,0.378,title_unmapped
+441,164,Amidase,WP_012433325.1,True,allantoinase PuuE,Paraburkholderia,amidase,,,unknown,True,False,True,0.0,0.417,title_unmapped
+442,165,Amidase,ACY56506.1,True,(-) gamma-lactamase,Microbacterium hydrocarbonoxydans,amidase,,,unknown,True,False,True,0.0,0.385,title_unmapped
+443,,lcp1,UFE15762.1,True,latex clearing protein,Dactylosporangium sp. AC04546,,,,unknown,False,False,True,0.0,0.231,name_uninformative
+444,,lcp2,UFE15763.1,True,latex clearing protein,Dactylosporangium sp. AC04546,,,,unknown,False,False,True,0.0,0.231,name_uninformative
+445,,lcp3,UFE15764.1,True,latex clearing protein,Dactylosporangium sp. AC04546,,,,unknown,False,False,True,0.0,0.231,name_uninformative

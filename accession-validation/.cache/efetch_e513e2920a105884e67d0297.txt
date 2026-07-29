@@ -1,0 +1,3 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+139021942	INSDC	KY498024.1	1	2046	+	AQV11968.1	rubber oxygenase B	Xanthomonas sp. 35Y	35Y	
+139021942	RefSeq	NZ_LSRW01000020.1	2123	4168	-	WP_116809520.1	rubber dioxygenase RoxB	Steroidobacter cummioxidans	35Y	GCF_003104955.1

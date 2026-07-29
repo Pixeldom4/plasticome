@@ -1,0 +1,33 @@
+{
+  "tag": "v7",
+  "date": "2026-07-17",
+  "prefix": "v7/combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 171118,
+  "usearch": "v11.0.667 -allpairs_local -acceptall, both orientations",
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 171118-residue db",
+  "n_nodes": 490,
+  "raw_alignments": 92854,
+  "aligned_pairs": 45859,
+  "edges_passing": 34135,
+  "n_components": 46,
+  "n_singletons": 23,
+  "largest_component": 287,
+  "top10_component_sizes": [
+    287,
+    48,
+    25,
+    18,
+    16,
+    11,
+    8,
+    7,
+    5,
+    5
+  ],
+  "n_nodes_with_v1_overlay": 193,
+  "n_v1_labels_split_across_components": 0,
+  "v1_labels_split": {}
+}

@@ -1,0 +1,1642 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "refseq_protein"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7832571",
+          "query_title": "unnamed protein product",
+          "query_len": 375,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "ref|WP_245849456.1|",
+                  "accession": "WP_245849456",
+                  "title": "alpha/beta hydrolase family protein [Lentzea kentuckyensis]",
+                  "taxid": 360086,
+                  "sciname": "Lentzea kentuckyensis"
+                }
+              ],
+              "len": 307,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 627.091,
+                  "score": 1616,
+                  "evalue": 0,
+                  "identity": 306,
+                  "positive": 307,
+                  "query_from": 69,
+                  "query_to": 375,
+                  "hit_from": 1,
+                  "hit_to": 307,
+                  "align_len": 307,
+                  "gaps": 0,
+                  "qseq": "LSQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLLQRRHQSDLDQAVTRNRT",
+                  "hseq": "MSQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLLQRRHQSDLDQAVTRNRT",
+                  "midline": "+SQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLLQRRHQSDLDQAVTRNRT"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_084400763.1|",
+                  "accession": "WP_084400763",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea albidocapillata]",
+                  "taxid": 40571,
+                  "sciname": "Lentzea albidocapillata"
+                }
+              ],
+              "len": 436,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 522.316,
+                  "score": 1344,
+                  "evalue": 0,
+                  "identity": 258,
+                  "positive": 275,
+                  "query_from": 57,
+                  "query_to": 358,
+                  "hit_from": 6,
+                  "hit_to": 307,
+                  "align_len": 302,
+                  "gaps": 0,
+                  "qseq": "LSPPLPRKRYCTLSQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LSSPEPSVQRGSGHVSGPLRGAVIACAVALGLLASTVAVGSASAADNPHQRGPNPTQASISANRGTFATAETSVGSGNGFGAAKIYYPTDTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDFDVARGTQLLAALDYLTQRSSVRTRVDPHRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTGMQVPTMLLAGQNDGTSTPASIITLHNNIPASTEKAYLELTGAGHGFPTSSNSVVTRKVIPWMKIFIDQDTRYTQFLCPLQDWTGIRSYRNSCPLL",
+                  "midline": "LS P P  +  +      LR A IAC  ALG+LASTVA G ASAADNP+QRGP+PT+ S++A+RGTFATAETSVG GNGFGAAKIYYPT TSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRND + ARGTQLLAALDYLTQRSSVRTRVDP+RLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTT M+VPTMLLAGQNDGTSTPASI+T +NNIPASTEKAYLELTGAGHGFPTS+NSV+TRKVIPWMKIFIDQD RY QFLCPLQDWTGIR+YRNSCPLL"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_240687195.1|",
+                  "accession": "WP_240687195",
+                  "title": "alpha/beta hydrolase family protein [Amycolatopsis suaedae]",
+                  "taxid": 2510978,
+                  "sciname": "Amycolatopsis suaedae"
+                }
+              ],
+              "len": 319,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 514.612,
+                  "score": 1324,
+                  "evalue": 0,
+                  "identity": 253,
+                  "positive": 265,
+                  "query_from": 76,
+                  "query_to": 358,
+                  "hit_from": 27,
+                  "hit_to": 310,
+                  "align_len": 284,
+                  "gaps": 1,
+                  "qseq": "RRAAIACTAALGILASTVAAGPASAA-DNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "RRAAITFLAALGILVSTVVHGSAFAAEDNPYQRGPNPTQASIAANRGTFATAETSVGGGHGFGAAKIYYPTDTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVVGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTPSGTRVPTMLLAGQNDATSTPASIINHYNAIPASTEKAYLELAGAGHGFPTSNNSVMTRKVIPWMKIFIDQDTRYPRFLCPLRDWTGIRSYRSSCPLL",
+                  "midline": "RRAAI   AALGIL STV  G A AA DNPYQRGP+PT+ S+AA+RGTFATAETSVGGG+GFGAAKIYYPT TSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVV+GIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQT +  RVPTMLLAGQND TSTPASI+ HYN IPASTEKAYLEL GAGHGFPTSNNSVMTRKVIPWMKIFIDQD RYP+FLCPL+DWTGIR+YR+SCPLL"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_090003781.1|",
+                  "accession": "WP_090003781",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea albidocapillata]",
+                  "taxid": 40571,
+                  "sciname": "Lentzea albidocapillata"
+                }
+              ],
+              "len": 436,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 515.768,
+                  "score": 1327,
+                  "evalue": 2.27478e-179,
+                  "identity": 251,
+                  "positive": 267,
+                  "query_from": 75,
+                  "query_to": 358,
+                  "hit_from": 24,
+                  "hit_to": 307,
+                  "align_len": 284,
+                  "gaps": 0,
+                  "qseq": "LRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LRGAAIACAAVLGLLASTVDPGSASATDNPHQRGPNPSQASISANRGTFATAETSVGSGNGFGAAKIYYPTDTGQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDFDVARGTQLLAALDYLTQRSSVRTRVDPSRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTGMQVPTVLLAGQNDGTSTPASIITLHNNIPASTEKAYLELTGAGHGFPTSNNSVVTRKVIPWMKIFIDQDTRYTQFLCPLQDWTGIRSYRNSCPLL",
+                  "midline": "LR AAIAC A LG+LASTV  G ASA DNP+QRGP+P++ S++A+RGTFATAETSVG GNGFGAAKIYYPT T QGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRND + ARGTQLLAALDYLTQRSSVRTRVDP+RLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTT M+VPT+LLAGQNDGTSTPASI+T +NNIPASTEKAYLELTGAGHGFPTSNNSV+TRKVIPWMKIFIDQD RY QFLCPLQDWTGIR+YRNSCPLL"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_166052885.1|",
+                  "accession": "WP_166052885",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea alba]",
+                  "taxid": 2714351,
+                  "sciname": "Lentzea alba"
+                }
+              ],
+              "len": 427,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 512.301,
+                  "score": 1318,
+                  "evalue": 3.94803e-178,
+                  "identity": 257,
+                  "positive": 273,
+                  "query_from": 69,
+                  "query_to": 358,
+                  "hit_from": 1,
+                  "hit_to": 294,
+                  "align_len": 294,
+                  "gaps": 4,
+                  "qseq": "LSQIQL----LRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "MSQIQLFPGPLRRVAIAFAAALGVLASTAAPGPAAAADNPYQRGPNPTQSSVAANRGTFATTETSVGGGNGFGAAKIYYPTDTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTISREDWDVARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPFSPSQNTSGLQVPTMLLAGQNDGTSTPASVLNHYNTIPASTEKAYLELSGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYTQFLCPVQDWTGIRTSRNTCPLL",
+                  "midline": "+SQIQL    LRR AIA  AALG+LAST A GPA+AADNPYQRGP+PT+ SVAA+RGTFAT ETSVGGGNGFGAAKIYYPT TSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTI+R D + ARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAP+SPSQ T+ ++VPTMLLAGQNDGTSTPAS+L HYN IPASTEKAYLEL+GAGHGFPTSNNSVMTRKVIPWMKIFIDQDARY QFLCP+QDWTGIRT RN+CPLL"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_052685689.1|",
+                  "accession": "WP_052685689",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea aerocolonigenes]",
+                  "taxid": 68170,
+                  "sciname": "Lentzea aerocolonigenes"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 511.916,
+                  "score": 1317,
+                  "evalue": 8.94626e-178,
+                  "identity": 259,
+                  "positive": 275,
+                  "query_from": 54,
+                  "query_to": 358,
+                  "hit_from": 6,
+                  "hit_to": 307,
+                  "align_len": 305,
+                  "gaps": 3,
+                  "qseq": "LNSLSPPLPRKRYCTLSQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LSPADPPIRRER--GRSSVPR-RRAAIAFTAALGILASTVAPGSASAADNRYQRGPNPTQSSIAANRGTFATAETSVGGGNGFGAAKIYYPTDTSKGTFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTLSRNDWDVARGTQLLEALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTPSAMQVPTMLLAGQNDGTSTPASVLTHYNNIPASTEKAYLELTGAAHSFPTSNNSVMTRKVIPWMKIFIDQDTRYTQFLCPLLDNTGIRTYRSSCPLL",
+                  "midline": "L+   PP+ R+R    S +   RRAAIA TAALGILASTVA G ASAADN YQRGP+PT+ S+AA+RGTFATAETSVGGGNGFGAAKIYYPT TS+GTFGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT++RND + ARGTQLL ALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQT + M+VPTMLLAGQNDGTSTPAS+LTHYNNIPASTEKAYLELTGA H FPTSNNSVMTRKVIPWMKIFIDQD RY QFLCPL D TGIRTYR+SCPLL"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_167975345.1|",
+                  "accession": "WP_167975345",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea indica]",
+                  "taxid": 2604800,
+                  "sciname": "Lentzea indica"
+                }
+              ],
+              "len": 430,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 509.22,
+                  "score": 1310,
+                  "evalue": 6.97667e-177,
+                  "identity": 255,
+                  "positive": 270,
+                  "query_from": 75,
+                  "query_to": 358,
+                  "hit_from": 24,
+                  "hit_to": 307,
+                  "align_len": 284,
+                  "gaps": 0,
+                  "qseq": "LRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LRRAAIACAAALGILASTVAHGSASAADNPHQRGPNPTQASITANRGTFATAETSVGGGNGFGAAKIYYPTDTSQGTFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTLNRNDFDVARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRWPTLKAAIGLAPYSPSQTTSGLQVPTMLLAGQNDGTSTPASIISLYNNIPASTEKSYLELAGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYTQFLCPLQDWTGIRSYRSSCPLL",
+                  "midline": "LRRAAIAC AALGILASTVA G ASAADNP+QRGP+PT+ S+ A+RGTFATAETSVGGGNGFGAAKIYYPT TSQGTFGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT+NRND + ARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALR PTLKAAIGLAPYSPSQTT+ ++VPTMLLAGQNDGTSTPASI++ YNNIPASTEK+YLEL GAGHGFPTSNNSVMTRKVIPWMKIFIDQDARY QFLCPLQDWTGIR+YR+SCPLL"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_166054040.1|",
+                  "accession": "WP_166054040",
+                  "title": "RICIN domain-containing protein [Lentzea alba]",
+                  "taxid": 2714351,
+                  "sciname": "Lentzea alba"
+                }
+              ],
+              "len": 438,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 508.064,
+                  "score": 1307,
+                  "evalue": 2.23996e-176,
+                  "identity": 259,
+                  "positive": 269,
+                  "query_from": 75,
+                  "query_to": 358,
+                  "hit_from": 24,
+                  "hit_to": 307,
+                  "align_len": 284,
+                  "gaps": 0,
+                  "qseq": "LRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LRRAAIAFAATLGILASTVAPGSASAADNPYQRGPNPTQASIAANRGTFATAETSVGGGNGFGGAKIYYPTDTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYYPSQSTSGMQVPTMLLAGQNDGTSTPASIVTFYNDIPASTEKVYLELTGAGHGFPTSNNSVVTRKVIPWMKIFIDQDTRYTQFLCPLQDLTGIRTYRNSCPLL",
+                  "midline": "LRRAAIA  A LGILASTVA G ASAADNPYQRGP+PT+ S+AA+RGTFATAETSVGGGNGFG AKIYYPT TSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPY PSQ+T+ M+VPTMLLAGQNDGTSTPASI+T YN+IPASTEK YLELTGAGHGFPTSNNSV+TRKVIPWMKIFIDQD RY QFLCPLQD TGIRTYRNSCPLL"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_363844700.1|",
+                  "accession": "WP_363844700",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea sp. NPDC051208]",
+                  "taxid": 3154642,
+                  "sciname": "Lentzea sp. NPDC051208"
+                }
+              ],
+              "len": 436,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 493.812,
+                  "score": 1270,
+                  "evalue": 1.07251e-170,
+                  "identity": 239,
+                  "positive": 255,
+                  "query_from": 91,
+                  "query_to": 358,
+                  "hit_from": 40,
+                  "hit_to": 307,
+                  "align_len": 268,
+                  "gaps": 0,
+                  "qseq": "STVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "STVVSGSASAADNPHQRGPNPTQASISANRGTFATAETSVGGGNGFGAAKIYYPTDTSQGTFGAVAVSPGYTATWAAEGAWMGRWLASFGFVVIGIDTINRNDFDVARGTQLLAALDYLTQRSSVRTKVDPHRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTGMQVPTMLLAGQNDGTSTPASITTLHNNIPAPTEKAYLELTGAGHGFPTSSNSVVTRKVIPWMKIFIDQDTRYTQFLCPLQDWTGIRSYRNSCPLL",
+                  "midline": "STV +G ASAADNP+QRGP+PT+ S++A+RGTFATAETSVGGGNGFGAAKIYYPT TSQGTFGA+AVSPGYTATWAAEGAWMG WLASFGFVVIGIDTINRND + ARGTQLLAALDYLTQRSSVRT+VDP+RLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTT M+VPTMLLAGQNDGTSTPASI T +NNIPA TEKAYLELTGAGHGFPTS+NSV+TRKVIPWMKIFIDQD RY QFLCPLQDWTGIR+YRNSCPLL"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_319990434.1|",
+                  "accession": "WP_319990434",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein, partial [Lentzea kristufekii]",
+                  "taxid": 3095430,
+                  "sciname": "Lentzea kristufekii"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 481.485,
+                  "score": 1238,
+                  "evalue": 3.16578e-168,
+                  "identity": 233,
+                  "positive": 250,
+                  "query_from": 89,
+                  "query_to": 358,
+                  "hit_from": 1,
+                  "hit_to": 270,
+                  "align_len": 270,
+                  "gaps": 0,
+                  "qseq": "LASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "MASAEATGSAFAVDNPYQRGPNPTQSSIAANRGTFATAETNVGGGNGFGAAKIYYPTDTSKGTFGAIAISPGYTATWAAEGAWMGHWLASFGFVVIGIDTISRTDWDVARGTQLLAALDYLTQHSTIRTRVDPSRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTPSGMQVPTMLLAGQNDGTSTPASILTHYNNIPATTEKAYLELTGAEHSFPTSNNSVMTRKVIPWMKIFIDHDTRYTQFLCPLQDTTGIRSYRNSCPLL",
+                  "midline": "+AS  A G A A DNPYQRGP+PT+ S+AA+RGTFATAET+VGGGNGFGAAKIYYPT TS+GTFGAIA+SPGYTATWAAEGAWMGHWLASFGFVVIGIDTI+R D + ARGTQLLAALDYLTQ S++RTRVDP+RLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQT + M+VPTMLLAGQNDGTSTPASILTHYNNIPA+TEKAYLELTGA H FPTSNNSVMTRKVIPWMKIFID D RY QFLCPLQD TGIR+YRNSCPLL"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_082115567.1|",
+                  "accession": "WP_082115567",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea aerocolonigenes]",
+                  "taxid": 68170,
+                  "sciname": "Lentzea aerocolonigenes"
+                }
+              ],
+              "len": 438,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 462.225,
+                  "score": 1188,
+                  "evalue": 2.89617e-158,
+                  "identity": 229,
+                  "positive": 247,
+                  "query_from": 60,
+                  "query_to": 358,
+                  "hit_from": 12,
+                  "hit_to": 304,
+                  "align_len": 299,
+                  "gaps": 6,
+                  "qseq": "PLPRKRYCTLSQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "PAPRSRG------GLLRRAAITVAAALGVLTTIVVPGPASAADNPYQRGPAPTQAGIAANRGTFATAETSVGGGNGFGAAKIYYPTDTSQGKFGAIAVSPGITATWAAEGAWMGHWLASFGFVVIGIDTLGRNDRDVERGTQLLAALDYLTQRSSVRDRVDASRLGVMGHSMGGGGAFSAALRRPSLKTAIGNAPYSPSQNLNNMRVPTALLAGQRDTTSTPSMVSANYNQIPAGVEKMYLELTGAGHAFPTSNNSVVTRKVVPWMKIFLDNDTRYQQFLCPLLDNTGIRTYRSTCPLL",
+                  "midline": "P PR R        LLRRAAI   AALG+L + V  GPASAADNPYQRGP PT+  +AA+RGTFATAETSVGGGNGFGAAKIYYPT TSQG FGAIAVSPG TATWAAEGAWMGHWLASFGFVVIGIDT+ RNDR+  RGTQLLAALDYLTQRSSVR RVD +RL VMGHSMGGGG  SAALRRP+LK AIG APYSPSQ   +MRVPT LLAGQ D TSTP+ +  +YN IPA  EK YLELTGAGH FPTSNNSV+TRKV+PWMKIF+D D RY QFLCPL D TGIRTYR++CPLL"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_109639600.1|",
+                  "accession": "WP_109639600",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea atacamensis]",
+                  "taxid": 531938,
+                  "sciname": "Lentzea atacamensis"
+                }
+              ],
+              "len": 422,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 459.914,
+                  "score": 1182,
+                  "evalue": 1.15362e-157,
+                  "identity": 234,
+                  "positive": 252,
+                  "query_from": 72,
+                  "query_to": 358,
+                  "hit_from": 4,
+                  "hit_to": 288,
+                  "align_len": 287,
+                  "gaps": 2,
+                  "qseq": "IQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "IRLLRRAAIACTAA--VLASTVAAVPAAAADNPYQRGPNPTRESVAASRGTFATAETSVGGGNGFAAAKIYYPTDTGQGKFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTLSRNDWDVARGTQLLAALDYLTQRSSVRDRVDATRLAVMGHSMGGGGAISAALRRPSLKTAIGNAPFSASQNLNNMQIPTALLAGQRDGTTTPSSISGYYNQIPAGVEKMYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDNDTRYHQFLCPLMDNTGISAYRSTCPLI",
+                  "midline": "I+LLRRAAIACTAA  +LASTVAA PA+AADNPYQRGP+PTRESVAASRGTFATAETSVGGGNGF AAKIYYPT T QG FGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVR RVD  RLAVMGHSMGGGG ISAALRRP+LK AIG AP+S SQ   +M++PT LLAGQ DGT+TP+SI  +YN IPA  EK YLELTGAGHGFPTSNNSVMTRKVIPWMKIFID D RY QFLCPL D TGI  YR++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_346127376.1|",
+                  "accession": "WP_346127376",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea roselyniae]",
+                  "taxid": 531940,
+                  "sciname": "Lentzea roselyniae"
+                }
+              ],
+              "len": 422,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 458.373,
+                  "score": 1178,
+                  "evalue": 4.82408e-157,
+                  "identity": 233,
+                  "positive": 252,
+                  "query_from": 72,
+                  "query_to": 358,
+                  "hit_from": 4,
+                  "hit_to": 288,
+                  "align_len": 287,
+                  "gaps": 2,
+                  "qseq": "IQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "IRLLRRAAIACTAA--VLASTVAAVPAAAADNPYQRGPNPTRESVAASRGTFATAETSVGGGNGFAAAKIYYPTDTGQGKFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTLSRNDWDVARGTQLLAALDYLTQRSSVRDRVDATRLAVMGHSMGGGGAISAALRRPSLKTAIGNAPFSASQNLNNMQIPTALLAGQRDGTTTPSSISGYYNQIPAGVEKMYLDLTGAGHGFPTSNNSVMTRKVIPWMKIFIDNDTRYHQFLCPLMDNTGISAYRSTCPLI",
+                  "midline": "I+LLRRAAIACTAA  +LASTVAA PA+AADNPYQRGP+PTRESVAASRGTFATAETSVGGGNGF AAKIYYPT T QG FGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVR RVD  RLAVMGHSMGGGG ISAALRRP+LK AIG AP+S SQ   +M++PT LLAGQ DGT+TP+SI  +YN IPA  EK YL+LTGAGHGFPTSNNSVMTRKVIPWMKIFID D RY QFLCPL D TGI  YR++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_443270991.1|",
+                  "accession": "WP_443270991",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Streptomyces sp. KR80]",
+                  "taxid": 3457426,
+                  "sciname": "Streptomyces sp. KR80"
+                }
+              ],
+              "len": 418,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 458.373,
+                  "score": 1178,
+                  "evalue": 5.52107e-157,
+                  "identity": 236,
+                  "positive": 251,
+                  "query_from": 74,
+                  "query_to": 358,
+                  "hit_from": 1,
+                  "hit_to": 285,
+                  "align_len": 285,
+                  "gaps": 0,
+                  "qseq": "LLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "MARRVAVAFMAALGILASTVALGSASAADNPYERGPNPTQSSVAANRGTFATAETSVGGGNGFGGAKIYYPTDTSQGTFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTISRNDFDVAGGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGAISAALRRPTLKAAIGNAPYSPSQNLNNMRVPTALLAGQRDGTVTPSLVMGYYNQIPATTEKMYLELTGAGHGFPTSNNSVATRKWIPWMKIFIDNDTRYHQFLCPLMDNTGISAYRSSCPLL",
+                  "midline": "+ RR A+A  AALGILASTVA G ASAADNPY+RGP+PT+ SVAA+RGTFATAETSVGGGNGFG AKIYYPT TSQGTFGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDTI+RND + A GTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGG ISAALRRPTLKAAIG APYSPSQ   +MRVPT LLAGQ DGT TP+ ++ +YN IPA+TEK YLELTGAGHGFPTSNNSV TRK IPWMKIFID D RY QFLCPL D TGI  YR+SCPLL"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_132413760.1|",
+                  "accession": "WP_132413760",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Kribbella albertanoniae]",
+                  "taxid": 1266829,
+                  "sciname": "Kribbella albertanoniae"
+                }
+              ],
+              "len": 444,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 455.292,
+                  "score": 1170,
+                  "evalue": 1.97797e-155,
+                  "identity": 223,
+                  "positive": 256,
+                  "query_from": 62,
+                  "query_to": 358,
+                  "hit_from": 17,
+                  "hit_to": 311,
+                  "align_len": 297,
+                  "gaps": 2,
+                  "qseq": "PRKRYCTLSQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "PRRTHGSLGR--LFRRTSTTLVAVTAVVASVISTAPASAADNPYERGPNPTQASIAASRGTFATAEVSVGGGNGFAAAKIYYPTDTSQGTFGAIAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTLSRNDFDTARGTQLLAALDYLTQRSSVRSRVDASRLAVMGHSMGGGGAISAALRRPSLKAAVGLAPFSPSQGTSGMRVPSMLLAGQRDGTVTPSSVRNLYNAIPATTEKAYLELTGAGHGFPTSANSVMMRKVIPWLKIFVDQDTRYQQFLCPLVDWTGITSYQSSCPLI",
+                  "midline": "PR+ + +L +  L RR +    A   ++AS ++  PASAADNPY+RGP+PT+ S+AASRGTFATAE SVGGGNGF AAKIYYPT TSQGTFGAIA+ PGYTATWAAEGAWMG WLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVR+RVD +RLAVMGHSMGGGG ISAALRRP+LKAA+GLAP+SPSQ T+ MRVP+MLLAGQ DGT TP+S+   YN IPA+TEKAYLELTGAGHGFPTS NSVM RKVIPW+KIF+DQD RY QFLCPL DWTGI +Y++SCPL+"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_218517662.1|",
+                  "accession": "WP_218517662",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Streptomyces sp. TRM70350]",
+                  "taxid": 2856165,
+                  "sciname": "Streptomyces sp. TRM70350"
+                }
+              ],
+              "len": 418,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 453.751,
+                  "score": 1166,
+                  "evalue": 3.42681e-155,
+                  "identity": 222,
+                  "positive": 242,
+                  "query_from": 74,
+                  "query_to": 357,
+                  "hit_from": 1,
+                  "hit_to": 283,
+                  "align_len": 284,
+                  "gaps": 1,
+                  "qseq": "LLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPL",
+                  "hseq": "MVKRIGFAAAIGLVILA-VVAPGSAPAAESPYQRGPDPTRESVAASRGTFATAEVSVPAGNGFGGGVIYYPTDTSQGTFGGVAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDWDTARGTQLLAALDYLTQRSSVRNRVDANRLAVMGHSMGGGGAMHAALQRPSLKAAIGLAPFSPSQNLTNMRVPTLLVAGQNDTTTTPTSILNLYNGIPATTEKAYLELTGAGHGFPTSANSVMTRKVIPWLKIFVDHDTRYHQFLCPLLDWTGITAYRSSCPL",
+                  "midline": "+++R   A    L ILA  VA G A AA++PYQRGPDPTRESVAASRGTFATAE SV  GNGFG   IYYPT TSQGTFG +A+ PGYTATWAAEGAWMGHWLASFGFVVIGIDTINRND + ARGTQLLAALDYLTQRSSVR RVD NRLAVMGHSMGGGG + AAL+RP+LKAAIGLAP+SPSQ  T+MRVPT+L+AGQND T+TP SIL  YN IPA+TEKAYLELTGAGHGFPTS NSVMTRKVIPW+KIF+D D RY QFLCPL DWTGI  YR+SCPL"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_045318561.1|",
+                  "accession": "WP_045318561",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Lentzea aerocolonigenes]",
+                  "taxid": 68170,
+                  "sciname": "Lentzea aerocolonigenes"
+                }
+              ],
+              "len": 424,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 451.055,
+                  "score": 1159,
+                  "evalue": 4.75684e-154,
+                  "identity": 228,
+                  "positive": 249,
+                  "query_from": 69,
+                  "query_to": 358,
+                  "hit_from": 1,
+                  "hit_to": 290,
+                  "align_len": 290,
+                  "gaps": 0,
+                  "qseq": "LSQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "MSQIQRLRRAAITCTAALGILASTVAAGPASAADNPYQRGPNPTRESVAANRGTFATAETSVGGGNGFGGAKIYYPADTSQGKFAALAVVPGYTATWAAEGAWMGHWLASFGFVIIGIDTNSRNDWDTARGDQLLAALDYLTQRSSVRDRVDANRLGVMGHSMGGGGAISAALKRPTLKAAIGNAPFSASQNLTTMRVPIALNAGQRDGTVTPSMVTGYYNQVPATTEKMYLEFSGAGHAFPTSNNSALTRKIIPWMKIFLDQDTRYQQFLCPVMDNTGISASRSSCPLI",
+                  "midline": "+SQIQ LRRAAI CTAALGILASTVAAGPASAADNPYQRGP+PTRESVAA+RGTFATAETSVGGGNGFG AKIYYP  TSQG F A+AV PGYTATWAAEGAWMGHWLASFGFV+IGIDT +RND + ARG QLLAALDYLTQRSSVR RVD NRL VMGHSMGGGG ISAAL+RPTLKAAIG AP+S SQ  T MRVP  L AGQ DGT TP+ +  +YN +PA+TEK YLE +GAGH FPTSNNS +TRK+IPWMKIF+DQD RY QFLCP+ D TGI   R+SCPL+"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_433005392.1|",
+                  "accession": "WP_433005392",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Kribbella sp. CA-294648]",
+                  "taxid": 3239948,
+                  "sciname": "Kribbella sp. CA-294648"
+                }
+              ],
+              "len": 429,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 450.284,
+                  "score": 1157,
+                  "evalue": 9.96193e-154,
+                  "identity": 219,
+                  "positive": 250,
+                  "query_from": 73,
+                  "query_to": 358,
+                  "hit_from": 10,
+                  "hit_to": 295,
+                  "align_len": 286,
+                  "gaps": 0,
+                  "qseq": "QLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "RLFRRTSTTLVAVTAVAAAVISVAPASAADNPYQRGPNPTQASIAASRGTFATAELSIGSGNGFGGAKIYYPTDASQGTFGAIAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTLSRNDFDTARGTQLLAALDYLTQRSSVRTRVDAGRLAVMGHSMGGGGAISAALRRPSLKAAVGLAPFSPSQSTSGMRVPSMLLAGQRDGTVTPSSVRNLYNAIPATTEKAYLELTGAGHGFPTTSNSVMMRKVIPWLKIFVDHDTRYPQFLCPLQDWTGITSYQSSCPLV",
+                  "midline": "+L RR +    A   + A+ ++  PASAADNPYQRGP+PT+ S+AASRGTFATAE S+G GNGFG AKIYYPT  SQGTFGAIA+ PGYTATWAAEGAWMGHWLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVRTRVD  RLAVMGHSMGGGG ISAALRRP+LKAA+GLAP+SPSQ+T+ MRVP+MLLAGQ DGT TP+S+   YN IPA+TEKAYLELTGAGHGFPT++NSVM RKVIPW+KIF+D D RYPQFLCPLQDWTGI +Y++SCPL+"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_162908185.1|",
+                  "accession": "WP_162908185",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Allorhizocola rhizosphaerae]",
+                  "taxid": 1872709,
+                  "sciname": "Allorhizocola rhizosphaerae"
+                }
+              ],
+              "len": 436,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 449.514,
+                  "score": 1155,
+                  "evalue": 2.86975e-153,
+                  "identity": 215,
+                  "positive": 240,
+                  "query_from": 84,
+                  "query_to": 355,
+                  "hit_from": 28,
+                  "hit_to": 299,
+                  "align_len": 272,
+                  "gaps": 0,
+                  "qseq": "AALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSC",
+                  "hseq": "ASLGILTAIAVPGPAMAADNPYQRGPDPTRDSVAASRGTFATASTTVGSGNGFGAGFIYYPTDTSQGTFGAVAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDWDTARGTQLLAALDYLTQRSTVRDRVDASRLAVMGHSMGGGGAMYAALQRPSLKAAVGLAPFSPSQNLNGMRVPTMLLAGQHDTTTTPASITSLYNGIPAATEKAYLELSGAGHGFPTSNNSVMMRKVIPWLKIFVDSDVRYTQFLCPLMDNTGIRSYQSTC",
+                  "midline": "A+LGIL +    GPA AADNPYQRGPDPTR+SVAASRGTFATA T+VG GNGFGA  IYYPT TSQGTFGA+A+ PGYTATWAAEGAWMGHWLASFGFVVIGIDTINRND + ARGTQLLAALDYLTQRS+VR RVD +RLAVMGHSMGGGG + AAL+RP+LKAA+GLAP+SPSQ    MRVPTMLLAGQ+D T+TPASI + YN IPA+TEKAYLEL+GAGHGFPTSNNSVM RKVIPW+KIF+D D RY QFLCPL D TGIR+Y+++C"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_252486006.1|",
+                  "accession": "WP_252486006",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Crossiella sp. SN42]",
+                  "taxid": 2944808,
+                  "sciname": "Crossiella sp. SN42"
+                }
+              ],
+              "len": 414,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 447.588,
+                  "score": 1150,
+                  "evalue": 8.82834e-153,
+                  "identity": 228,
+                  "positive": 246,
+                  "query_from": 79,
+                  "query_to": 358,
+                  "hit_from": 2,
+                  "hit_to": 281,
+                  "align_len": 280,
+                  "gaps": 0,
+                  "qseq": "AIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "AVACTAALGFLASIVVPGSAAAADNPYQRGPNPTQASVAANRGTFATAETSVGGGNGFGGAKIYYPTDTSQGTFGAIAVVPGYTATWAAEGAWMGHWLSSFGFVVIGIDTNSRNDNDTARGTQLLAALDYLTQRSSVRARVDPNRLAVMGHSMGGGGAISAALRRPTLKAAIGNAPFSPSQNLSTMRVPTALLAGQRDGTVTPSLVSGYYNQIPASTEKMYLELTGAGHGFPTSNNSVATRKWVPWMKIFLDQDTRYQQFLCPLLDNTGISAYRSTCPLI",
+                  "midline": "A+ACTAALG LAS V  G A+AADNPYQRGP+PT+ SVAA+RGTFATAETSVGGGNGFG AKIYYPT TSQGTFGAIAV PGYTATWAAEGAWMGHWL+SFGFVVIGIDT +RND + ARGTQLLAALDYLTQRSSVR RVDPNRLAVMGHSMGGGG ISAALRRPTLKAAIG AP+SPSQ  + MRVPT LLAGQ DGT TP+ +  +YN IPASTEK YLELTGAGHGFPTSNNSV TRK +PWMKIF+DQD RY QFLCPL D TGI  YR++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_360465730.1|",
+                  "accession": "WP_360465730",
+                  "title": "MULTISPECIES: poly(ethylene terephthalate) hydrolase family protein [unclassified Actinosynnema]",
+                  "taxid": 2637065,
+                  "sciname": "unclassified Actinosynnema"
+                }
+              ],
+              "len": 401,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 443.736,
+                  "score": 1140,
+                  "evalue": 1.70168e-151,
+                  "identity": 217,
+                  "positive": 232,
+                  "query_from": 93,
+                  "query_to": 358,
+                  "hit_from": 1,
+                  "hit_to": 266,
+                  "align_len": 266,
+                  "gaps": 0,
+                  "qseq": "VAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "MAPGSAFAADNPYQRGPNPTQASVAANRGTFATAETSVGGGNGFSGAKIYYPTDTSQGRFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTLSRNDFDVARGTQLLAALDYLTQRSSVRDRVDPNRLAVMGHSMGGGGAISAALRRPTLKAAIGNAPYSPSQNLNNMRVPTVLLAGQRDGTVTPSLVSGYYNQIPATTEKMYLELTGAGHAFPTSNNSVATRKWIPWMKIFLDQDTRYQQFLCPLMDNTGISAYRGSCPLI",
+                  "midline": "+A G A AADNPYQRGP+PT+ SVAA+RGTFATAETSVGGGNGF  AKIYYPT TSQG FGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVR RVDPNRLAVMGHSMGGGG ISAALRRPTLKAAIG APYSPSQ   +MRVPT+LLAGQ DGT TP+ +  +YN IPA+TEK YLELTGAGH FPTSNNSV TRK IPWMKIF+DQD RY QFLCPL D TGI  YR SCPL+"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_249044522.1|",
+                  "accession": "WP_249044522",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Crossiella equi]",
+                  "taxid": 130796,
+                  "sciname": "Crossiella equi"
+                }
+              ],
+              "len": 423,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 442.58,
+                  "score": 1137,
+                  "evalue": 8.40251e-151,
+                  "identity": 224,
+                  "positive": 246,
+                  "query_from": 73,
+                  "query_to": 358,
+                  "hit_from": 5,
+                  "hit_to": 290,
+                  "align_len": 286,
+                  "gaps": 0,
+                  "qseq": "QLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "HLLRRAAIACAATLGVLASTVTAGPASAADNPHQRGPNPTQASVAASRGTFATSETSVGGGNGFGGAKIYYPTDTSQGKFAALAVSPGYTATWAAEGAWMGHWLASFGFVIIGIDTISRTDWDVARGDQLLAALDYLTQRSSVRDRVDASRVGVMGHSMGGGGAISAGLKRPSLKVVIGNAPYSASQNLTNMRVPVALLAGQRDTTVTPATTNSYYNQVPATTEKMYLELTNAPHSFPTSNNSVMTRKVIPWMKIFLDQDTRYQQFLCPLLDNTGIRTYRSSCPLI",
+                  "midline": " LLRRAAIAC A LG+LASTV AGPASAADNP+QRGP+PT+ SVAASRGTFAT+ETSVGGGNGFG AKIYYPT TSQG F A+AVSPGYTATWAAEGAWMGHWLASFGFV+IGIDTI+R D + ARG QLLAALDYLTQRSSVR RVD +R+ VMGHSMGGGG ISA L+RP+LK  IG APYS SQ  T+MRVP  LLAGQ D T TPA+  ++YN +PA+TEK YLELT A H FPTSNNSVMTRKVIPWMKIF+DQD RY QFLCPL D TGIRTYR+SCPL+"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_241828563.1|",
+                  "accession": "WP_241828563",
+                  "title": "MULTISPECIES: poly(ethylene terephthalate) hydrolase family protein [Saccharothrix]",
+                  "taxid": 2071,
+                  "sciname": "Saccharothrix"
+                }
+              ],
+              "len": 406,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 433.721,
+                  "score": 1114,
+                  "evalue": 1.92338e-147,
+                  "identity": 208,
+                  "positive": 229,
+                  "query_from": 86,
+                  "query_to": 357,
+                  "hit_from": 6,
+                  "hit_to": 277,
+                  "align_len": 272,
+                  "gaps": 0,
+                  "qseq": "LGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPL",
+                  "hseq": "LGALTVAVAVQPASGADNPYQRGPDPTQSSVSASRGTFATAQVGVPAGNGFGGGVIYHPTDTSQGTFGAVAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDTARGTQLLAALDYLTQRSSVRDRVDPSRTAVMGHSMGGGGAMYAALQRPSLKTAVGLAPFSPSQNLTTTRVPTMLLSGQNDTTTTPASIVNLYNGIPSSVEKAYLELTGAGHGFPTSNNSTMMRNVIPWLKIFVDSDTRYTQFLCPLSDSNGIRTYQNTCPL",
+                  "midline": "LG L   VA  PAS ADNPYQRGPDPT+ SV+ASRGTFATA+  V  GNGFG   IY+PT TSQGTFGA+A+ PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVDP+R AVMGHSMGGGG + AAL+RP+LK A+GLAP+SPSQ  T  RVPTMLL+GQND T+TPASI+  YN IP+S EKAYLELTGAGHGFPTSNNS M R VIPW+KIF+D D RY QFLCPL D  GIRTY+N+CPL"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_245950728.1|",
+                  "accession": "WP_245950728",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Saccharothrix carnea]",
+                  "taxid": 1280637,
+                  "sciname": "Saccharothrix carnea"
+                }
+              ],
+              "len": 407,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 432.95,
+                  "score": 1112,
+                  "evalue": 3.58884e-147,
+                  "identity": 208,
+                  "positive": 230,
+                  "query_from": 86,
+                  "query_to": 358,
+                  "hit_from": 6,
+                  "hit_to": 278,
+                  "align_len": 273,
+                  "gaps": 0,
+                  "qseq": "LGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LGALTVAVAVQPASGADNPYQRGPDPTQSSVSASRGTFATAQVGVPAGNGFGGGVIYHPTDTGQGTFGAVAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDTARGTQLLAALDYLTQRSSVRDRVDPSRTAVMGHSMGGGGAMYAALQRPSLKAAVGLAPFSPSQNLTTTRVPTMLLSGQNDTTTTPASIVTLYNGIPSSVEKAYLELTGAGHGFPTSNNSTMMRNVIPWLKIFVDSDTRYTQFLCPLSDNNGIRAYQNTCPLV",
+                  "midline": "LG L   VA  PAS ADNPYQRGPDPT+ SV+ASRGTFATA+  V  GNGFG   IY+PT T QGTFGA+A+ PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVDP+R AVMGHSMGGGG + AAL+RP+LKAA+GLAP+SPSQ  T  RVPTMLL+GQND T+TPASI+T YN IP+S EKAYLELTGAGHGFPTSNNS M R VIPW+KIF+D D RY QFLCPL D  GIR Y+N+CPL+"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_305792141.1|",
+                  "accession": "WP_305792141",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Micromonospora sp. KC723]",
+                  "taxid": 2530381,
+                  "sciname": "Micromonospora sp. KC723"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 432.95,
+                  "score": 1112,
+                  "evalue": 5.01689e-147,
+                  "identity": 210,
+                  "positive": 234,
+                  "query_from": 75,
+                  "query_to": 357,
+                  "hit_from": 1,
+                  "hit_to": 283,
+                  "align_len": 283,
+                  "gaps": 0,
+                  "qseq": "LRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPL",
+                  "hseq": "MRRAGVLATVALCALSIVAVIRPASAADNPYQRGPDPTAESVRASRGTFATTQVTVPAGNGFGGGVIYHPTDTSQGTFGAVAIVPGYTATWAAEGAWMGHWLASFGFVVIGVDTINRNDWDTARGTQLLAALDYLTQQSPVRNRVDASRAAVMGHSMGGGGAMSAALRRPSLKAAVGLAPFSPSQNLTNTRVPTMLIAGQNDGTTTPASISTLYNGIPASTESAYLEFAGAGHGFPTSNNPLMMRVVIPWLKIFVDNDTRYSQFLCPLTDRTGITQYRSTCPL",
+                  "midline": "+RRA +  T AL  L+      PASAADNPYQRGPDPT ESV ASRGTFAT + +V  GNGFG   IY+PT TSQGTFGA+A+ PGYTATWAAEGAWMGHWLASFGFVVIG+DTINRND + ARGTQLLAALDYLTQ+S VR RVD +R AVMGHSMGGGG +SAALRRP+LKAA+GLAP+SPSQ  T+ RVPTML+AGQNDGT+TPASI T YN IPASTE AYLE  GAGHGFPTSNN +M R VIPW+KIF+D D RY QFLCPL D TGI  YR++CPL"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_357895077.1|",
+                  "accession": "WP_357895077",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Nonomuraea sp. NPDC050202]",
+                  "taxid": 3155035,
+                  "sciname": "Nonomuraea sp. NPDC050202"
+                }
+              ],
+              "len": 416,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 432.565,
+                  "score": 1111,
+                  "evalue": 6.99868e-147,
+                  "identity": 216,
+                  "positive": 235,
+                  "query_from": 83,
+                  "query_to": 357,
+                  "hit_from": 7,
+                  "hit_to": 281,
+                  "align_len": 275,
+                  "gaps": 0,
+                  "qseq": "TAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPL",
+                  "hseq": "TAGLCIASALALPGPAHAADSPYQRGPDPTSASVAASRGTFATANVSVPAGNGFGGGVIYYPTDTSQGTFGAVAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDTARGTQLLAALDYLTQRSSVRDRVDAGRLAVMGHSMGGGGAMYAALQRPSLKAAVGLAPFSPSQNLTNLRVPTMLLAGQNDTTTTPAGITTLYNGIPASTEKAYLELTGAGHGFPTSSNSVMMRKVIPWLKIFVDQDTRYSQFLCPLMDWTGITAYRSTCPL",
+                  "midline": "TA L I ++    GPA AAD+PYQRGPDPT  SVAASRGTFATA  SV  GNGFG   IYYPT TSQGTFGA+A+ PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVD  RLAVMGHSMGGGG + AAL+RP+LKAA+GLAP+SPSQ  T++RVPTMLLAGQND T+TPA I T YN IPASTEKAYLELTGAGHGFPTS+NSVM RKVIPW+KIF+DQD RY QFLCPL DWTGI  YR++CPL"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_446799550.1|",
+                  "accession": "WP_446799550",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [[Actinomadura] parvosata]",
+                  "taxid": 1955412,
+                  "sciname": "[Actinomadura] parvosata"
+                }
+              ],
+              "len": 410,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 424.861,
+                  "score": 1091,
+                  "evalue": 5.11528e-144,
+                  "identity": 212,
+                  "positive": 233,
+                  "query_from": 84,
+                  "query_to": 357,
+                  "hit_from": 2,
+                  "hit_to": 275,
+                  "align_len": 274,
+                  "gaps": 0,
+                  "qseq": "AALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPL",
+                  "hseq": "AGLCIASALALPGPAHAADSPFQRGPDPTSASVAASRGTFATANVSVPAGNGFGGGVIYYPADTSQGTFGAVAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDTARGTQLLAALDYLTQRSSVRDRVDAGRLAVMGHSMGGGGAMHAALQRPSLKAAVGLAPFSPSQNLTNLRVPTMLLAGQNDTTTTPAGITTLYNGIPAATEKAYLELTGAGHGFPTSSNSVMMRKVIPWLKIFLDQDTRYSQFLCPLMDWTGIAAYRSTCPL",
+                  "midline": "A L I ++    GPA AAD+P+QRGPDPT  SVAASRGTFATA  SV  GNGFG   IYYP  TSQGTFGA+A+ PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVD  RLAVMGHSMGGGG + AAL+RP+LKAA+GLAP+SPSQ  T++RVPTMLLAGQND T+TPA I T YN IPA+TEKAYLELTGAGHGFPTS+NSVM RKVIPW+KIF+DQD RY QFLCPL DWTGI  YR++CPL"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_158852571.1|",
+                  "accession": "WP_158852571",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Saccharothrix deserti]",
+                  "taxid": 2593674,
+                  "sciname": "Saccharothrix deserti"
+                }
+              ],
+              "len": 398,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 423.705,
+                  "score": 1088,
+                  "evalue": 1.1528e-143,
+                  "identity": 207,
+                  "positive": 227,
+                  "query_from": 86,
+                  "query_to": 358,
+                  "hit_from": 2,
+                  "hit_to": 274,
+                  "align_len": 273,
+                  "gaps": 0,
+                  "qseq": "LGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LGTLLIAAAVSPASGADNPYQRGPDPTPASVSANRGTFATAQISVPAGNGFGGGVIYHPTDTSQGTFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNSRNDWDTARGTQLLAALDYLTQRSPVRDRVDANRTAVMGHSMGGGGAMHAALQRPSLKAAIGLAPFSPSQNLTTTRVPTMLLAGQSDTTTTPASILNLYNGIPAATEKAYLELTGAGHGFPTSNNPTMMRNVIPWLKIFVDSDTRYTQFLCSLSNWDGIRAYQSTCPLV",
+                  "midline": "LG L    A  PAS ADNPYQRGPDPT  SV+A+RGTFATA+ SV  GNGFG   IY+PT TSQGTFGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT +RND + ARGTQLLAALDYLTQRS VR RVD NR AVMGHSMGGGG + AAL+RP+LKAAIGLAP+SPSQ  T  RVPTMLLAGQ+D T+TPASIL  YN IPA+TEKAYLELTGAGHGFPTSNN  M R VIPW+KIF+D D RY QFLC L +W GIR Y+++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_355469045.1|",
+                  "accession": "WP_355469045",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Kribbella sp. NPDC005582]",
+                  "taxid": 3156893,
+                  "sciname": "Kribbella sp. NPDC005582"
+                }
+              ],
+              "len": 737,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 434.876,
+                  "score": 1117,
+                  "evalue": 1.72928e-143,
+                  "identity": 207,
+                  "positive": 232,
+                  "query_from": 98,
+                  "query_to": 358,
+                  "hit_from": 26,
+                  "hit_to": 286,
+                  "align_len": 261,
+                  "gaps": 0,
+                  "qseq": "ASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "ALAADNPYQRGPDPTQASIAASRGTFATAEVSVGSGNGFGAAKIYYPTDTSQGTFGAIAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTLSRNDFDTARGTQLLAALDYLTQRSSVRSRVDASRLAVMGHSMGGGGAISAALRRPSLSATVGLAPYSPSQGTSGMKVPAMLLAGQRDGTVSPSSVKSLYNAVPATTEKAYLELTGAGHGFPTSANSVMMRKVVPWLKIFVDRDTRYTQFLCPLVDRTGITSYESSCPLV",
+                  "midline": "A AADNPYQRGPDPT+ S+AASRGTFATAE SVG GNGFGAAKIYYPT TSQGTFGAIA+ PGYTATWAAEGAWMG WLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVR+RVD +RLAVMGHSMGGGG ISAALRRP+L A +GLAPYSPSQ T+ M+VP MLLAGQ DGT +P+S+ + YN +PA+TEKAYLELTGAGHGFPTS NSVM RKV+PW+KIF+D+D RY QFLCPL D TGI +Y +SCPL+"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_355469056.1|",
+                  "accession": "WP_355469056",
+                  "title": "alpha/beta hydrolase family protein [Kribbella sp. NPDC005582]",
+                  "taxid": 3156893,
+                  "sciname": "Kribbella sp. NPDC005582"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 417.542,
+                  "score": 1072,
+                  "evalue": 9.72086e-143,
+                  "identity": 211,
+                  "positive": 243,
+                  "query_from": 70,
+                  "query_to": 358,
+                  "hit_from": 11,
+                  "hit_to": 300,
+                  "align_len": 290,
+                  "gaps": 1,
+                  "qseq": "SQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCP-LQDWTGIRTYRNSCPLL",
+                  "hseq": "SRGSLIRRTAVTLAAVVAAVTSVISAVPATGADNPYERGPAPTQASIAASRGTFATAEVTVPRGGGLGGGKIYYPTDTSKGTFGAIAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTINRNDGDTARGTQLLTALDYLTQRSSVRTRVDARRLAVMGHSMGGGGAISAALRRPSLSAAIGLAPFSPSQRPTTMKVPTMLMAGQRDGTVPPSSVSSMYNSIPATTEKAYLELTGAGHGFPTSANSVMMRKVIPWIKIFVDRDSRYTQFLCPSLKDWTGITSYRGTCPFI",
+                  "midline": "S+  L+RR A+   A +  + S ++A PA+ ADNPY+RGP PT+ S+AASRGTFATAE +V  G G G  KIYYPT TS+GTFGAIA+ PGYTATWAAEGAWMG WLASFGFVVIGIDTINRND + ARGTQLL ALDYLTQRSSVRTRVD  RLAVMGHSMGGGG ISAALRRP+L AAIGLAP+SPSQ  T M+VPTML+AGQ DGT  P+S+ + YN+IPA+TEKAYLELTGAGHGFPTS NSVM RKVIPW+KIF+D+D+RY QFLCP L+DWTGI +YR +CP +"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_355679492.1|",
+                  "accession": "WP_355679492",
+                  "title": "alpha/beta hydrolase family protein [Kribbella sp. NPDC006257]",
+                  "taxid": 3156738,
+                  "sciname": "Kribbella sp. NPDC006257"
+                }
+              ],
+              "len": 306,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 417.157,
+                  "score": 1071,
+                  "evalue": 1.56284e-142,
+                  "identity": 207,
+                  "positive": 235,
+                  "query_from": 74,
+                  "query_to": 357,
+                  "hit_from": 21,
+                  "hit_to": 305,
+                  "align_len": 285,
+                  "gaps": 1,
+                  "qseq": "LLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCP-LQDWTGIRTYRNSCPL",
+                  "hseq": "LVRRTATALAAVAAVVTSAISVAPASGADNPYERGPAPTQSSIAASRGTFATAELTVPRGNGLGGGKIYYPTDTSKGTFGAIAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTINRNDGDTARGTQLLTALDYLAQRSSVRTRVDARRLAVMGHSMGGGGAIYAALHRPSLWAAVGLAPFSPSQRPTAMKVPTLLMAGQRDGTVPPSTVSSMYNSIPATTEKAYLELTGAGHGFPTSANSVMMRKVIPWIKIFVDHDARYTQFLCPSLKDWTGITAYRGTCPF",
+                  "midline": "L+RR A A  A   ++ S ++  PAS ADNPY+RGP PT+ S+AASRGTFATAE +V  GNG G  KIYYPT TS+GTFGAIA+ PGYTATWAAEGAWMG WLASFGFVVIGIDTINRND + ARGTQLL ALDYL QRSSVRTRVD  RLAVMGHSMGGGG I AAL RP+L AA+GLAP+SPSQ  T M+VPT+L+AGQ DGT  P+++ + YN+IPA+TEKAYLELTGAGHGFPTS NSVM RKVIPW+KIF+D DARY QFLCP L+DWTGI  YR +CP "
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_334619621.1|",
+                  "accession": "WP_334619621",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Micromonospora sp. CPCC 206061]",
+                  "taxid": 3122410,
+                  "sciname": "Micromonospora sp. CPCC 206061"
+                }
+              ],
+              "len": 414,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 419.083,
+                  "score": 1076,
+                  "evalue": 1.07866e-141,
+                  "identity": 200,
+                  "positive": 224,
+                  "query_from": 97,
+                  "query_to": 357,
+                  "hit_from": 28,
+                  "hit_to": 288,
+                  "align_len": 261,
+                  "gaps": 0,
+                  "qseq": "PASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPL",
+                  "hseq": "PALAADNPYQRGPDPTAASVSANRGTFATAQVNVPAGNGFGGGVVYYPTDTTQGTFGAVAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTNGREDWDTARGTQLLAALDYLTQRSSVRDRVDASRTAVMGHSMGGGGAMSAALRRPSLKAAVGLAPFSPSQNLNNLRVPTMLLAGQNDGTTTPASILNHYNAIPSGTEKAYLELSGAGHGFPTSNNPTMMRNVIPWLKIFIDSDTRYTQFLCPLSNSSGIRAYQSSCPL",
+                  "midline": "PA AADNPYQRGPDPT  SV+A+RGTFATA+ +V  GNGFG   +YYPT T+QGTFGA+A+ PGYTATWAAEGAWMG WLASFGFVVIGIDT  R D + ARGTQLLAALDYLTQRSSVR RVD +R AVMGHSMGGGG +SAALRRP+LKAA+GLAP+SPSQ   ++RVPTMLLAGQNDGT+TPASIL HYN IP+ TEKAYLEL+GAGHGFPTSNN  M R VIPW+KIFID D RY QFLCPL + +GIR Y++SCPL"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_360272920.1|",
+                  "accession": "WP_360272920",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Amycolatopsis sp. NPDC026612]",
+                  "taxid": 3155466,
+                  "sciname": "Amycolatopsis sp. NPDC026612"
+                }
+              ],
+              "len": 427,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.772,
+                  "score": 1070,
+                  "evalue": 1.37312e-140,
+                  "identity": 203,
+                  "positive": 224,
+                  "query_from": 97,
+                  "query_to": 357,
+                  "hit_from": 26,
+                  "hit_to": 287,
+                  "align_len": 262,
+                  "gaps": 1,
+                  "qseq": "PASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCP-LQDWTGIRTYRNSCPL",
+                  "hseq": "PASAADNPYQRGPDPTTASVAATRGTFATAEQSVGGGNGFAAGKIYYPTDTSQGRFGAIAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTLSRTDYDTARGTQLLAALDYLTQRSPVRDRVDPNRLAVMGHSMGGGGAMYAALHRPSLWAAVGLAPFSPSQNLTTDRVPTLLLAGQNDGTVSPSSVQSLYNGIPAGVEKGYLELTGAGHGFPTSSNSVMMRRVIPWLKIFVDHDTRYSKFLCPSLADSTGISGYRSTCPL",
+                  "midline": "PASAADNPYQRGPDPT  SVAA+RGTFATAE SVGGGNGF A KIYYPT TSQG FGAIA+ PGYTATWAAEGAWMG WLASFGFVVIGIDT++R D + ARGTQLLAALDYLTQRS VR RVDPNRLAVMGHSMGGGG + AAL RP+L AA+GLAP+SPSQ  T  RVPT+LLAGQNDGT +P+S+ + YN IPA  EK YLELTGAGHGFPTS+NSVM R+VIPW+KIF+D D RY +FLCP L D TGI  YR++CPL"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_285992619.1|",
+                  "accession": "WP_285992619",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Amycolatopsis sp. DG1A-15b]",
+                  "taxid": 3052846,
+                  "sciname": "Amycolatopsis sp. DG1A-15b"
+                }
+              ],
+              "len": 429,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.772,
+                  "score": 1070,
+                  "evalue": 1.53408e-140,
+                  "identity": 201,
+                  "positive": 225,
+                  "query_from": 97,
+                  "query_to": 357,
+                  "hit_from": 28,
+                  "hit_to": 289,
+                  "align_len": 262,
+                  "gaps": 1,
+                  "qseq": "PASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCP-LQDWTGIRTYRNSCPL",
+                  "hseq": "PAFAADNPYQRGPDPTTASVAATRGTFATAEQTVGGGNGFAAGKIYYPADTSQGSFGAIAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTLSRNDYDTARGTQLLAALDYLTQRSSVRDRVDTQRLAVMGHSMGGGGAMSAALRRPSLWAAVGLAPFSPSQNLTTDRVPTLLLAGQNDGTVSPSSVQSLYNGVPAGVEKGYLELAGAGHGFPTSSNSVMMRRVIPWLKIFVDHDTRYSKFLCPSLADPTGISGYRSTCPL",
+                  "midline": "PA AADNPYQRGPDPT  SVAA+RGTFATAE +VGGGNGF A KIYYP  TSQG+FGAIA+ PGYTATWAAEGAWMGHWLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVR RVD  RLAVMGHSMGGGG +SAALRRP+L AA+GLAP+SPSQ  T  RVPT+LLAGQNDGT +P+S+ + YN +PA  EK YLEL GAGHGFPTS+NSVM R+VIPW+KIF+D D RY +FLCP L D TGI  YR++CPL"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_396539588.1|",
+                  "accession": "WP_396539588",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Actinosynnema sp. NPDC053489]",
+                  "taxid": 3363916,
+                  "sciname": "Actinosynnema sp. NPDC053489"
+                }
+              ],
+              "len": 430,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.001,
+                  "score": 1068,
+                  "evalue": 3.8372e-140,
+                  "identity": 201,
+                  "positive": 226,
+                  "query_from": 78,
+                  "query_to": 358,
+                  "hit_from": 16,
+                  "hit_to": 296,
+                  "align_len": 281,
+                  "gaps": 0,
+                  "qseq": "AAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "AAALVAVVLGALSVAVAVQPASGADNPYQRGPDPTPASVSANRGTFATAQVTVPAGNGFGGGVVYYPTDTGQGTFGAVAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTTSRNDWDTARGTQLLAALDYLTQRSSVRDRVDATRTAVMGHSMGGGGVAYASLQRPSLKAAVGLAPFSPSQNLTTTRVPTMLLSGQNDTTVTPSSVVTLYNGIPGDVEKAYLELTGAGHGFPTSNNGTMMRNVIPWLKTFVDSDTRYTQFLCPLSDSTGIRTYQSTCPLV",
+                  "midline": "AA      LG L+  VA  PAS ADNPYQRGPDPT  SV+A+RGTFATA+ +V  GNGFG   +YYPT T QGTFGA+A+ PGYTATWAAEGAWMG WLASFGFVVIGIDT +RND + ARGTQLLAALDYLTQRSSVR RVD  R AVMGHSMGGGG   A+L+RP+LKAA+GLAP+SPSQ  T  RVPTMLL+GQND T TP+S++T YN IP   EKAYLELTGAGHGFPTSNN  M R VIPW+K F+D D RY QFLCPL D TGIRTY+++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_461124181.1|",
+                  "accession": "WP_461124181",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Saccharothrix stipae]",
+                  "taxid": 1049182,
+                  "sciname": "Saccharothrix stipae"
+                }
+              ],
+              "len": 407,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 414.075,
+                  "score": 1063,
+                  "evalue": 8.31141e-140,
+                  "identity": 202,
+                  "positive": 223,
+                  "query_from": 86,
+                  "query_to": 358,
+                  "hit_from": 2,
+                  "hit_to": 274,
+                  "align_len": 273,
+                  "gaps": 0,
+                  "qseq": "LGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "FGALTVAAAVSPASGAENPYQRGPDPTPASVAANRGTFATAQVGVPAGNGFGGGVIYHPTDTSQGTFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNTRNDWDTARGTQLLAALDYLTQRSSVRDRVDASRTAVMGHSMGGGGAMYAALQRPSLKTAVGLAPFSPSQNLTSTRVPTMLLAGQNDTTTTPASIQNLYNGIPAAVEKAYLELSGAGHGFPTSNNPTMMRTVIPWIKVFLDSDTRYTQFLCPLADRNGIRTYQSTCPLV",
+                  "midline": " G L    A  PAS A+NPYQRGPDPT  SVAA+RGTFATA+  V  GNGFG   IY+PT TSQGTFGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT  RND + ARGTQLLAALDYLTQRSSVR RVD +R AVMGHSMGGGG + AAL+RP+LK A+GLAP+SPSQ  T  RVPTMLLAGQND T+TPASI   YN IPA+ EKAYLEL+GAGHGFPTSNN  M R VIPW+K+F+D D RY QFLCPL D  GIRTY+++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_438920375.1|",
+                  "accession": "WP_438920375",
+                  "title": "MULTISPECIES: poly(ethylene terephthalate) hydrolase family protein [Saccharothrix]",
+                  "taxid": 2071,
+                  "sciname": "Saccharothrix"
+                }
+              ],
+              "len": 431,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 414.846,
+                  "score": 1065,
+                  "evalue": 9.08791e-140,
+                  "identity": 202,
+                  "positive": 226,
+                  "query_from": 74,
+                  "query_to": 358,
+                  "hit_from": 1,
+                  "hit_to": 287,
+                  "align_len": 287,
+                  "gaps": 2,
+                  "qseq": "LLRRAAIACTAALGILASTVAAG--PASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "MSRYGVVLAVVTLSVAALTVAGGTGPASGADNPYQRGPDPTSASVSANRGTFATAQVGVPAGNGFGGGTIYHPTDTGQGRFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRDDWDTARGTQLLAALDYLTQRSSVRDRVDATRTAVMGHSMGGGGAMYAALQRPSLKTAVGLAPFSPSQNLTTTRVPTMLLAGQNDGTTTPASIQNLYNGIPGGIEKAYLELGGAGHAFPTSDNPTMMRNVIPWIKVFVDSDTRYTQFLCPLANWSGIRTYQGTCPLV",
+                  "midline": "+ R   +     L + A TVA G  PAS ADNPYQRGPDPT  SV+A+RGTFATA+  V  GNGFG   IY+PT T QG FGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT NR+D + ARGTQLLAALDYLTQRSSVR RVD  R AVMGHSMGGGG + AAL+RP+LK A+GLAP+SPSQ  T  RVPTMLLAGQNDGT+TPASI   YN IP   EKAYLEL GAGH FPTS+N  M R VIPW+K+F+D D RY QFLCPL +W+GIRTY+ +CPL+"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_364725858.1|",
+                  "accession": "WP_364725858",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Amycolatopsis sp. NPDC051128]",
+                  "taxid": 3155412,
+                  "sciname": "Amycolatopsis sp. NPDC051128"
+                }
+              ],
+              "len": 429,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 414.461,
+                  "score": 1064,
+                  "evalue": 1.17867e-139,
+                  "identity": 199,
+                  "positive": 223,
+                  "query_from": 97,
+                  "query_to": 357,
+                  "hit_from": 28,
+                  "hit_to": 289,
+                  "align_len": 262,
+                  "gaps": 1,
+                  "qseq": "PASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCP-LQDWTGIRTYRNSCPL",
+                  "hseq": "PAFAADNPYQRGPDPTTASVAATRGTFATAELTVGGGNGFAAGKIYYPTDTTQGTFGAIAIVPGYTATWGAEGAWMGHWLASFGFVVIGIDTLSRNDFDTARGTQLLAALDYLTQRSSVRDRVDVTRLAVMGHSMGGGGAMSAALRRPSLWAAVGLAPFSPSQNLTTDKVPTLLLAGQNDGTVSPSSVQGLYNGIPAGVEKGYLELAGAGHGFPTSSNSVMMRRVIPWLKIFVDHDTRYSKFLCPSLADSAGVSGYRSTCPL",
+                  "midline": "PA AADNPYQRGPDPT  SVAA+RGTFATAE +VGGGNGF A KIYYPT T+QGTFGAIA+ PGYTATW AEGAWMGHWLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVR RVD  RLAVMGHSMGGGG +SAALRRP+L AA+GLAP+SPSQ  T  +VPT+LLAGQNDGT +P+S+   YN IPA  EK YLEL GAGHGFPTS+NSVM R+VIPW+KIF+D D RY +FLCP L D  G+  YR++CPL"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_243710238.1|",
+                  "accession": "WP_243710238",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Micromonospora sp. KC213]",
+                  "taxid": 2530378,
+                  "sciname": "Micromonospora sp. KC213"
+                }
+              ],
+              "len": 410,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 413.69,
+                  "score": 1062,
+                  "evalue": 1.53625e-139,
+                  "identity": 204,
+                  "positive": 227,
+                  "query_from": 84,
+                  "query_to": 365,
+                  "hit_from": 4,
+                  "hit_to": 285,
+                  "align_len": 282,
+                  "gaps": 0,
+                  "qseq": "AALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLLQRRHQSD",
+                  "hseq": "AALCALSVAVAVRPALAADNPYQRGPDPTPASVGASRGTFATAQVSVPAGNGFGGGVIYYPTDTSQGRFGAVAVVPGYTATWAAEGAWMGPWLASFGFVVIGIDTNSRNDWDTARGTQLLAALDYLTQRSSVRDRVDASRAAVMGHSMGGGGAIYAALQRPSLKTTVGLAPFSASQTLNNMRVPTMLLAGQNDGTTTPASIRNYYGQVPSGVEKAYLELTGAGHGFPTSNNPTMMRNVIPWLKIFVDSDTRYTQFLCPLSNTNGIRSYESTCPLVPSPVPTD",
+                  "midline": "AAL  L+  VA  PA AADNPYQRGPDPT  SV ASRGTFATA+ SV  GNGFG   IYYPT TSQG FGA+AV PGYTATWAAEGAWMG WLASFGFVVIGIDT +RND + ARGTQLLAALDYLTQRSSVR RVD +R AVMGHSMGGGG I AAL+RP+LK  +GLAP+S SQT  +MRVPTMLLAGQNDGT+TPASI  +Y  +P+  EKAYLELTGAGHGFPTSNN  M R VIPW+KIF+D D RY QFLCPL +  GIR+Y ++CPL+     +D"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_360466773.1|",
+                  "accession": "WP_360466773",
+                  "title": "MULTISPECIES: poly(ethylene terephthalate) hydrolase family protein [unclassified Actinosynnema]",
+                  "taxid": 2637065,
+                  "sciname": "unclassified Actinosynnema"
+                }
+              ],
+              "len": 408,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 412.535,
+                  "score": 1059,
+                  "evalue": 3.25353e-139,
+                  "identity": 200,
+                  "positive": 223,
+                  "query_from": 86,
+                  "query_to": 358,
+                  "hit_from": 2,
+                  "hit_to": 274,
+                  "align_len": 273,
+                  "gaps": 0,
+                  "qseq": "LGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "FGTLTVAAAVSPASGAENPYQRGPDPTPASVSANRGTFATAQVGVPAGNGFGGGVIYHPTDTSQGTFGAVAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDFDTARGTQLLAALDYLTQRSPVRDRVDASRTAVMGHSMGGGGAMHAALQRPSLKTAVGLAPFSPSQNLTNTRVPTMLLAGQNDTTTTPASIQTLYNGIPAAVEKAYLELANAGHGFPTSNNPTMMRTVIPWIKVFLDSDTRYTQFLCPLADRNGIRTYQSTCPLV",
+                  "midline": " G L    A  PAS A+NPYQRGPDPT  SV+A+RGTFATA+  V  GNGFG   IY+PT TSQGTFGA+AV PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRS VR RVD +R AVMGHSMGGGG + AAL+RP+LK A+GLAP+SPSQ  T+ RVPTMLLAGQND T+TPASI T YN IPA+ EKAYLEL  AGHGFPTSNN  M R VIPW+K+F+D D RY QFLCPL D  GIRTY+++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_211363689.1|",
+                  "accession": "WP_211363689",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Saccharothrix saharensis]",
+                  "taxid": 571190,
+                  "sciname": "Saccharothrix saharensis"
+                }
+              ],
+              "len": 432,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 413.69,
+                  "score": 1062,
+                  "evalue": 3.32866e-139,
+                  "identity": 203,
+                  "positive": 224,
+                  "query_from": 86,
+                  "query_to": 358,
+                  "hit_from": 34,
+                  "hit_to": 307,
+                  "align_len": 274,
+                  "gaps": 1,
+                  "qseq": "LGILASTVAAGPA-SAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LGALTVTSGTSPALGAADNPYQRGPDPTPASVSANRGTFATTQVAVAAGNGFGGGVIYYPTDTSQGQFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDTARGTQLLAALDYLTQRSSVRDRVDATRTAVMGHSMGGGGAASASLQRPSLKASIGLAPASFSQNLTTTRVPTMLLSGQNDTTITPASVVNLYNGIPASVEKAYLELSGAGHGFPTSNNSTMMRNVIPWFKVFVDSDTRYTQFLCPLANWSGIRTYQSTCPLV",
+                  "midline": "LG L  T    PA  AADNPYQRGPDPT  SV+A+RGTFAT + +V  GNGFG   IYYPT TSQG FGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVD  R AVMGHSMGGGG  SA+L+RP+LKA+IGLAP S SQ  T  RVPTMLL+GQND T TPAS++  YN IPAS EKAYLEL+GAGHGFPTSNNS M R VIPW K+F+D D RY QFLCPL +W+GIRTY+++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_387490897.1|",
+                  "accession": "WP_387490897",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Saccharothrix saharensis]",
+                  "taxid": 571190,
+                  "sciname": "Saccharothrix saharensis"
+                }
+              ],
+              "len": 412,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 411.764,
+                  "score": 1057,
+                  "evalue": 1.01599e-138,
+                  "identity": 202,
+                  "positive": 223,
+                  "query_from": 86,
+                  "query_to": 358,
+                  "hit_from": 5,
+                  "hit_to": 278,
+                  "align_len": 274,
+                  "gaps": 1,
+                  "qseq": "LGILASTVAAGPA-SAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LGALTVTNGTSPALGAADNPYQRGPDPTPASVSANRGTFATSQVNVAAGNGFGGGVIYYPTDTSQGQFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDTARGTQLLAALDYLTQRSSVRDRVDATRTAVMGHSMGGGGAASASLQRPTLKASIGLAPASFSQNLTTTRVPTMLLSGQNDTTITPASVVNLYNGIPASVEKAYLELSGAGHGFPVSNNPTMMRNVIPWFKVFVDSDTRYTQFLCPLANWSGIRTYQSTCPLV",
+                  "midline": "LG L  T    PA  AADNPYQRGPDPT  SV+A+RGTFAT++ +V  GNGFG   IYYPT TSQG FGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVD  R AVMGHSMGGGG  SA+L+RPTLKA+IGLAP S SQ  T  RVPTMLL+GQND T TPAS++  YN IPAS EKAYLEL+GAGHGFP SNN  M R VIPW K+F+D D RY QFLCPL +W+GIRTY+++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_410608327.1|",
+                  "accession": "WP_410608327",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Amycolatopsis sp. lyj-109]",
+                  "taxid": 2789287,
+                  "sciname": "Amycolatopsis sp. lyj-109"
+                }
+              ],
+              "len": 425,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 412.149,
+                  "score": 1058,
+                  "evalue": 1.06281e-138,
+                  "identity": 204,
+                  "positive": 229,
+                  "query_from": 93,
+                  "query_to": 371,
+                  "hit_from": 20,
+                  "hit_to": 301,
+                  "align_len": 282,
+                  "gaps": 3,
+                  "qseq": "VAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCP-LQDWTGIRTYRNSCPL--LQRRHQSDLDQAVT",
+                  "hseq": "VPAAGASAADNPYQRGPDPTTASVAATRGTFATAELTVGGGNGFAAGKIYYPTDTSQGTFGAIAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTLSRNDYDTARGTQLLAALDYLTQRSPVSNRVDPKRLSVMGHSMGGGGAMSAALRRPSLWATVGLAPFSPSQNLTTDKVPTLLLAGQNDGTVSPSSVQSLYNGIPAGVEKGYLELAGAGHAFPTSSNSVMMRRVIPWLKIFVDHDTRYSKFLCPSLADSTGISGYRSTCPLDVPGGSGPGPGDQAVS",
+                  "midline": "V A  ASAADNPYQRGPDPT  SVAA+RGTFATAE +VGGGNGF A KIYYPT TSQGTFGAIA+ PGYTATWAAEGAWMG WLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRS V  RVDP RL+VMGHSMGGGG +SAALRRP+L A +GLAP+SPSQ  T  +VPT+LLAGQNDGT +P+S+ + YN IPA  EK YLEL GAGH FPTS+NSVM R+VIPW+KIF+D D RY +FLCP L D TGI  YR++CPL           DQAV+"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_360466706.1|",
+                  "accession": "WP_360466706",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein, partial [unclassified Actinosynnema]",
+                  "taxid": 2637065,
+                  "sciname": "unclassified Actinosynnema"
+                }
+              ],
+              "len": 312,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 407.912,
+                  "score": 1047,
+                  "evalue": 1.07327e-138,
+                  "identity": 201,
+                  "positive": 226,
+                  "query_from": 74,
+                  "query_to": 358,
+                  "hit_from": 1,
+                  "hit_to": 287,
+                  "align_len": 287,
+                  "gaps": 2,
+                  "qseq": "LLRRAAIACTAALGILASTVAAGP--ASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "MWRYGIVLAAATTMLVALTVAGGSRQATGADNPYQRGPDPTPASVSANRGTFATAQVGVPAGNGFGGGVIYYPTDTSQGRFAAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDNARGTQLLAALDYLTQRSSVRDRVDASRTAVMGHSMGGGGAANASLQRPSLKAAIGLAPASFSQNLTTTRVPTMLLAGQYDGTVTPASVLNLYNGIPSTVEKAYLELAGAGHGFPTSNNPTMMRNIIPWFKVFTDSDTRYTQFLCPLSDWNGVRSYQSTCPLV",
+                  "midline": "+ R   +   A   ++A TVA G   A+ ADNPYQRGPDPT  SV+A+RGTFATA+  V  GNGFG   IYYPT TSQG F AIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVD +R AVMGHSMGGGG  +A+L+RP+LKAAIGLAP S SQ  T  RVPTMLLAGQ DGT TPAS+L  YN IP++ EKAYLEL GAGHGFPTSNN  M R +IPW K+F D D RY QFLCPL DW G+R+Y+++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_410643532.1|",
+                  "accession": "WP_410643532",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Amycolatopsis sp. lyj-346]",
+                  "taxid": 2789289,
+                  "sciname": "Amycolatopsis sp. lyj-346"
+                }
+              ],
+              "len": 428,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 411.764,
+                  "score": 1057,
+                  "evalue": 1.63003e-138,
+                  "identity": 199,
+                  "positive": 223,
+                  "query_from": 97,
+                  "query_to": 357,
+                  "hit_from": 28,
+                  "hit_to": 289,
+                  "align_len": 262,
+                  "gaps": 1,
+                  "qseq": "PASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCP-LQDWTGIRTYRNSCPL",
+                  "hseq": "PAFAADNPYQRGPEPTTASVAATRGTFATAEQTVGGGNGFAAGKIYYPTDTGQGTFGAIAIVPGYTATWAAEGAWMGHWLASFGFVVIGIDTLSRNDFDTARGTQLLAALDYLTQRSSVRDRVDTKRLAVMGHSMGGGGAMSAALRRPSLWAAVGLAPFSPSQNLTNDKVPTLLLAGQYDGTVTPSSVQNLYNGIPAGVEKGYLELAGAGHAFPTSSNSVMMRRVIPWLKIFVDHDTRYGKFLCPALADSTGVSGYRSTCPL",
+                  "midline": "PA AADNPYQRGP+PT  SVAA+RGTFATAE +VGGGNGF A KIYYPT T QGTFGAIA+ PGYTATWAAEGAWMGHWLASFGFVVIGIDT++RND + ARGTQLLAALDYLTQRSSVR RVD  RLAVMGHSMGGGG +SAALRRP+L AA+GLAP+SPSQ  T+ +VPT+LLAGQ DGT TP+S+   YN IPA  EK YLEL GAGH FPTS+NSVM R+VIPW+KIF+D D RY +FLCP L D TG+  YR++CPL"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_132265752.1|",
+                  "accession": "WP_132265752",
+                  "title": "dienelactone hydrolase family protein, partial [Micromonospora sp. KC721]",
+                  "taxid": 2530380,
+                  "sciname": "Micromonospora sp. KC721"
+                }
+              ],
+              "len": 309,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 407.142,
+                  "score": 1045,
+                  "evalue": 1.80044e-138,
+                  "identity": 198,
+                  "positive": 218,
+                  "query_from": 93,
+                  "query_to": 356,
+                  "hit_from": 46,
+                  "hit_to": 309,
+                  "align_len": 264,
+                  "gaps": 0,
+                  "qseq": "VAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCP",
+                  "hseq": "VAVRPALAADNPYQRGPDPTPASVGASRGTFATAQVSVPAGNGFGGGVIYYPTDTSQGRFGAVAVVPGYTATWAAEGAWMGPWLASFGFVVIGIDTNSRNDWDAARGTQLLAALDYLTQRSSVRDRVDASRAAVMGHSMGGGGAIYAALQRPSLKTTVGLAPFSASQTLNNMRVPTMLLAGQNDGTTTPASIRNYYGQVPSGVEKAYLELTGAGHGFPTSNNPTMMRNVIPWLKIFVDSDTRYTQFLCPLSNTNGIRSYESTCP",
+                  "midline": "VA  PA AADNPYQRGPDPT  SV ASRGTFATA+ SV  GNGFG   IYYPT TSQG FGA+AV PGYTATWAAEGAWMG WLASFGFVVIGIDT +RND + ARGTQLLAALDYLTQRSSVR RVD +R AVMGHSMGGGG I AAL+RP+LK  +GLAP+S SQT  +MRVPTMLLAGQNDGT+TPASI  +Y  +P+  EKAYLELTGAGHGFPTSNN  M R VIPW+KIF+D D RY QFLCPL +  GIR+Y ++CP"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_132183354.1|",
+                  "accession": "WP_132183354",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Micromonospora sp. KC606]",
+                  "taxid": 2530379,
+                  "sciname": "Micromonospora sp. KC606"
+                }
+              ],
+              "len": 454,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 412.535,
+                  "score": 1059,
+                  "evalue": 2.1038e-138,
+                  "identity": 195,
+                  "positive": 219,
+                  "query_from": 102,
+                  "query_to": 358,
+                  "hit_from": 55,
+                  "hit_to": 311,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "DNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "DNPYQRGPNPTAASVAASRGTFATTQVNVPAGNGFGGGVIYYPTDTSQGRFGAVAIVPGYTATWAAEGAWMGPWLASFGFVVIGIDTNSRNDWDTARGQQLLAALDYLTQRSSVRDRVDASRAAVMGHSMGGGGAMYAALQRPSLKAAVGLAPFSPSQSLNNMRVPTMLLAGQNDGTTTPASILNHYNAIPAASEKAYLELAGADHGFPTSNNPTMMRNVIPWLKIFTDSDTRYTQFLCPLSNWSGIRAYQSSCPLV",
+                  "midline": "DNPYQRGP+PT  SVAASRGTFAT + +V  GNGFG   IYYPT TSQG FGA+A+ PGYTATWAAEGAWMG WLASFGFVVIGIDT +RND + ARG QLLAALDYLTQRSSVR RVD +R AVMGHSMGGGG + AAL+RP+LKAA+GLAP+SPSQ+  +MRVPTMLLAGQNDGT+TPASIL HYN IPA++EKAYLEL GA HGFPTSNN  M R VIPW+KIF D D RY QFLCPL +W+GIR Y++SCPL+"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_449716008.1|",
+                  "accession": "WP_449716008",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Actinosynnema sp. NPDC004786]",
+                  "taxid": 3157160,
+                  "sciname": "Actinosynnema sp. NPDC004786"
+                }
+              ],
+              "len": 436,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.223,
+                  "score": 1053,
+                  "evalue": 7.22018e-138,
+                  "identity": 208,
+                  "positive": 230,
+                  "query_from": 75,
+                  "query_to": 358,
+                  "hit_from": 16,
+                  "hit_to": 302,
+                  "align_len": 287,
+                  "gaps": 3,
+                  "qseq": "LRRAAIACTAA-LGILASTVAAGP--ASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LWRYGIALAAATIMVVALTVAGGSRTASGADNPYQRGPDPTPASVSANRGTFATAQVTVPAGNGFGGGVIYYPTDTSQGTFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDTARGTQLLAALDYLTQRSSVRDRVDATRTAVMGHSMGGGGAAYASLQRPTLKTSVGLAPASFSQNLTTTRVPTMLLSGQNDTTITPSSVLNLYNGIPANVEKAYLELSGAGHGFPTSNNSTMMRNVIPWFKIFVDSDTRYTQFLCPLSDTNGIRSYLSTCPLV",
+                  "midline": "L R  IA  AA + ++A TVA G   AS ADNPYQRGPDPT  SV+A+RGTFATA+ +V  GNGFG   IYYPT TSQGTFGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVD  R AVMGHSMGGGG   A+L+RPTLK ++GLAP S SQ  T  RVPTMLL+GQND T TP+S+L  YN IPA+ EKAYLEL+GAGHGFPTSNNS M R VIPW KIF+D D RY QFLCPL D  GIR+Y ++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_378097738.1|",
+                  "accession": "WP_378097738",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Actinosynnema sp. NPDC059335]",
+                  "taxid": 3346804,
+                  "sciname": "Actinosynnema sp. NPDC059335"
+                }
+              ],
+              "len": 440,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.223,
+                  "score": 1053,
+                  "evalue": 9.71402e-138,
+                  "identity": 208,
+                  "positive": 230,
+                  "query_from": 75,
+                  "query_to": 358,
+                  "hit_from": 16,
+                  "hit_to": 302,
+                  "align_len": 287,
+                  "gaps": 3,
+                  "qseq": "LRRAAIACTAA-LGILASTVAAGP--ASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "LWRYGIALAAATIMVVALTVAGGSRTASGADNPYQRGPDPTPASVSANRGTFATAQVTVPAGNGFGGGVIYYPTDTSQGTFGAIAVVPGYTATWAAEGAWMGHWLASFGFVVIGIDTNNRNDWDTARGTQLLAALDYLTQRSSVRDRVDATRTAVMGHSMGGGGAAYASLQRPTLKTSVGLAPASFSQNLTTTRVPTMLLSGQNDTTITPSSVLNLYNGIPANVEKAYLELSGAGHGFPTSNNSTMMRNVIPWFKIFVDSDTRYTQFLCPLSDTNGIRSYLSTCPLV",
+                  "midline": "L R  IA  AA + ++A TVA G   AS ADNPYQRGPDPT  SV+A+RGTFATA+ +V  GNGFG   IYYPT TSQGTFGAIAV PGYTATWAAEGAWMGHWLASFGFVVIGIDT NRND + ARGTQLLAALDYLTQRSSVR RVD  R AVMGHSMGGGG   A+L+RPTLK ++GLAP S SQ  T  RVPTMLL+GQND T TP+S+L  YN IPA+ EKAYLEL+GAGHGFPTSNNS M R VIPW KIF+D D RY QFLCPL D  GIR+Y ++CPL+"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_281620824.1|",
+                  "accession": "WP_281620824",
+                  "title": "glycosyl hydrolase 53 family protein [Streptomyces sp. WMMC500]",
+                  "taxid": 3015154,
+                  "sciname": "Streptomyces sp. WMMC500"
+                }
+              ],
+              "len": 661,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 417.542,
+                  "score": 1072,
+                  "evalue": 1.42688e-137,
+                  "identity": 206,
+                  "positive": 243,
+                  "query_from": 51,
+                  "query_to": 358,
+                  "hit_from": 7,
+                  "hit_to": 309,
+                  "align_len": 308,
+                  "gaps": 5,
+                  "qseq": "DPALNSLSPPLPRKRYCTLSQIQLLRRAAIACTAALGILASTVAAGPASAADNPYQRGPDPTRESVAASRGTFATAETSVGGGNGFGAAKIYYPTVTSQGTFGAIAVSPGYTATWAAEGAWMGHWLASFGFVVIGIDTINRNDREYARGTQLLAALDYLTQRSSVRTRVDPNRLAVMGHSMGGGGTISAALRRPTLKAAIGLAPYSPSQTTTDMRVPTMLLAGQNDGTSTPASILTHYNNIPASTEKAYLELTGAGHGFPTSNNSVMTRKVIPWMKIFIDQDARYPQFLCPLQDWTGIRTYRNSCPLL",
+                  "hseq": "DTATHRRTNPAPQ-----ITTAQRWKQLLAAIAVILGTVVALLAPGPAQAAENPYERGPAPTRESVAASRGTFATAQTNVPAGNGFGGGVVYYPTDTGQGTFGAIAIVPGYTATWAAEGAWMGQWLASFGFVVIGIDTNGRNDWDDARGTQLLAALDYLTQRSTVRDRVDPSRLAVMGHSMGGGGAMYAAQQRPSLKATVGLAPAVFSANMGNVRVPAMLMAGQNDGTVTPAAVQSNYNGVAAGTEKSYLELSGAGHGFPTSNNSVMMRKVIPWLKIFLDNDARYSQFLCPLLDRTGIRTYESTCPLL",
+                  "midline": "D A +  + P P+     ++  Q  ++   A    LG + + +A GPA AA+NPY+RGP PTRESVAASRGTFATA+T+V  GNGFG   +YYPT T QGTFGAIA+ PGYTATWAAEGAWMG WLASFGFVVIGIDT  RND + ARGTQLLAALDYLTQRS+VR RVDP+RLAVMGHSMGGGG + AA +RP+LKA +GLAP   S    ++RVP ML+AGQNDGT TPA++ ++YN + A TEK+YLEL+GAGHGFPTSNNSVM RKVIPW+KIF+D DARY QFLCPL D TGIRTY ++CPLL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 458877498,
+            "db_len": 1448622149,
+            "hsp_len": 165,
+            "eff_space": 21383773764150,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          },
+          "message": "Warning: Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/\u000A"
+        }
+      }
+    }
+  }
+]
+}
+

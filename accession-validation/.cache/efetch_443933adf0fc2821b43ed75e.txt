@@ -1,0 +1,3 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+36673663	INSDC	AB731474.1	1	681	+	BAN42606.1	cutinase-like enzyme	Cryptococcus sp. BPD1A	BPD1A	
+36673663	INSDC	AB731475.1	307	1184	+	BAN42607.1	cutinase-like enzyme	Cryptococcus sp. BPD1A	BPD1A	

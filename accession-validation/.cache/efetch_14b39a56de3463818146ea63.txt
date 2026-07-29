@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+194066946	INSDC	PXXW01000020.1	142818	144203	+	RAN99496.1	Triacylglycerol lipase	Micromonospora saelicesensis	GAR05	GCA_003264315.1

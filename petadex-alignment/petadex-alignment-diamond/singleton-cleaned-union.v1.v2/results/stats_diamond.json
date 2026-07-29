@@ -1,0 +1,23 @@
+{
+  "tool": "diamond blastp --ultra-sensitive (Docker linux/amd64)",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05",
+  "n_nodes": 412,
+  "raw_alignments": 57770,
+  "aligned_pairs": 29096,
+  "edges_passing": 22321,
+  "n_components": 47,
+  "n_singletons": 25,
+  "largest_component": 228,
+  "top10_component_sizes": [
+    228,
+    45,
+    19,
+    16,
+    14,
+    10,
+    5,
+    5,
+    5,
+    5
+  ]
+}

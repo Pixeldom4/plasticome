@@ -1,0 +1,3567 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1609423",
+          "query_title": "unnamed protein product",
+          "query_len": 384,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "sp|P06873.2|",
+                  "accession": "P06873",
+                  "title": "RecName: Full=Proteinase K; AltName: Full=Endopeptidase K; AltName: Full=Tritirachium alkaline proteinase; Flags: Precursor [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "emb|CAA32819.1|",
+                  "accession": "CAA32819",
+                  "title": "unnamed protein product [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "emb|CAA32820.1|",
+                  "accession": "CAA32820",
+                  "title": "proteinkinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                }
+              ],
+              "len": 384,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 786.178,
+                  "score": 2029,
+                  "evalue": 0,
+                  "identity": 384,
+                  "positive": 384,
+                  "query_from": 1,
+                  "query_to": 384,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 384,
+                  "gaps": 0,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "hseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "midline": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8RSE|A",
+                  "accession": "8RSE_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8RSF|A",
+                  "accession": "8RSF_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8RSG|A",
+                  "accession": "8RSG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                }
+              ],
+              "len": 384,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 784.252,
+                  "score": 2024,
+                  "evalue": 0,
+                  "identity": 383,
+                  "positive": 383,
+                  "query_from": 1,
+                  "query_to": 384,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 384,
+                  "gaps": 0,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "hseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTDILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "midline": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGT ILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|QHB21810.1|",
+                  "accession": "QHB21810",
+                  "title": "subtilisin-like serine protease, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 369,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 745.732,
+                  "score": 1924,
+                  "evalue": 0,
+                  "identity": 363,
+                  "positive": 366,
+                  "query_from": 16,
+                  "query_to": 384,
+                  "hit_from": 1,
+                  "hit_to": 369,
+                  "align_len": 369,
+                  "gaps": 0,
+                  "qseq": "APAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "hseq": "APAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYASSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDHNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGATDRYDRRSSFSNYGSVLDIFAPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGRTTAANACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "midline": "APAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYY SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASD NNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGA+DRYDRRSSFSNYGSVLDIF PGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLG+TTAA+ACRYIADTANKGDLSNIPFGTVNLLAYNNYQA"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "sp|P23653.1|",
+                  "accession": "P23653",
+                  "title": "RecName: Full=Proteinase R; Flags: Precursor [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "emb|CAA39584.1|",
+                  "accession": "CAA39584",
+                  "title": "proteinase R [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                }
+              ],
+              "len": 387,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 668.307,
+                  "score": 1723,
+                  "evalue": 0,
+                  "identity": 319,
+                  "positive": 344,
+                  "query_from": 11,
+                  "query_to": 383,
+                  "hit_from": 14,
+                  "hit_to": 386,
+                  "align_len": 373,
+                  "gaps": 0,
+                  "qseq": "PLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQ",
+                  "hseq": "PRPPAVDAVEQRSEPAPLIEAQGEMIADKYIVKLKEGSALASLDAAMEKLSGKADHVYKNIFKGFAASLDEKMVEVLRAHPDVEYIEQDAIVNINAEQRNAPWGLARISSTSPGTSTYRYDDSAGQGTCVYVIDTGVEASHPEFEGRAQMVKTYYASSRDGNGHGTHCAGTIGSRTYGVAKKTQIFGVKVLNDQGSGQYSTIISGMDFVANDYRNRNCPNGVVASMSIGGGYSSSVNSAAANLQQSGVMVAVAAGNNNADARNYSPASESSICTVGATDRYDRRSSFSNYGSVLDIFAPGTDILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGRATASNACRYIAQTANQGDLSNISFGTVNLLAYNNYQ",
+                  "midline": "P      AVEQRSE APLIEA+GEM+A+KYIVK KEGSAL++LDAAMEK+SGK DHVYKN+F GFAA+LDE MV VLRAHPDVEYIEQDA+V INA Q NAPWGLARISSTSPGTSTY YD+SAGQG+CVYVIDTG+EASHPEFEGRAQMVKTYY SSRDGNGHGTHCAGT+GSRTYGVAKKTQ+FGVKVL+D GSGQYSTII+GMDFVA+D  NRNCP GVVAS+S+GGGYSSSVNSAAA LQ SGVMVAVAAGNNNADARNYSPASE S+CTVGA+DRYDRRSSFSNYGSVLDIF PGT ILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLG+ TA++ACRYIA TAN+GDLSNI FGTVNLLAYNNYQ"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|ABK96984.1|",
+                  "accession": "ABK96984",
+                  "title": "alkaline protease precursor [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "emb|CAL80782.1|",
+                  "accession": "CAL80782",
+                  "title": "alkaline serine protease precursor [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                }
+              ],
+              "len": 387,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 656.366,
+                  "score": 1692,
+                  "evalue": 0,
+                  "identity": 311,
+                  "positive": 337,
+                  "query_from": 18,
+                  "query_to": 383,
+                  "hit_from": 21,
+                  "hit_to": 386,
+                  "align_len": 366,
+                  "gaps": 0,
+                  "qseq": "AVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQ",
+                  "hseq": "AVEQRSEPAPLIEARGEMIADKYIVKLKEGSAFASLDATMEKLSGKADHVYKNIFKGFAASLDEKMVEVLRAHPDVEYIEQDAIVNINAEQRNAPWGLARISSTSPGTSSYRYDESAGQGTCVCVIDTGVEASHPEFEGRAQMVKTYYSSSRDGNGHGTHCAGTIGSRTYGVAKKTQIFGVKVLNDQGSSQYSTIISGMDFVANDYRNRNCPNGVVASMSIGGGYSSSVNSAAANLQQSGVMVAVAAGNNNADARNYSPASESSICTVGATDRYDRRSSFSNYGSVLDIFAPGTDIISTWIGGTTRIISGTSMATPHVAGLAAYFMTLGRATASNACRYIAQTANQGDLSGIPFGTVNLLAYNNYQ",
+                  "midline": "AVEQRSE APLIEARGEM+A+KYIVK KEGSA ++LDA MEK+SGK DHVYKN+F GFAA+LDE MV VLRAHPDVEYIEQDA+V INA Q NAPWGLARISSTSPGTS+Y YDESAGQG+CV VIDTG+EASHPEFEGRAQMVKTYY SSRDGNGHGTHCAGT+GSRTYGVAKKTQ+FGVKVL+D GS QYSTII+GMDFVA+D  NRNCP GVVAS+S+GGGYSSSVNSAAA LQ SGVMVAVAAGNNNADARNYSPASE S+CTVGA+DRYDRRSSFSNYGSVLDIF PGT I+STWIGG+TR ISGTSMATPHVAGLAAY MTLG+ TA++ACRYIA TAN+GDLS IPFGTVNLLAYNNYQ"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|KAK3187286.1|",
+                  "accession": "KAK3187286",
+                  "title": "hypothetical protein K4F52_003917 [Lecanicillium sp. MT-2017a]",
+                  "taxid": 1964301,
+                  "sciname": "Lecanicillium sp. MT-2017a"
+                }
+              ],
+              "len": 395,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 615.535,
+                  "score": 1586,
+                  "evalue": 0,
+                  "identity": 296,
+                  "positive": 336,
+                  "query_from": 1,
+                  "query_to": 383,
+                  "hit_from": 1,
+                  "hit_to": 394,
+                  "align_len": 394,
+                  "gaps": 11,
+                  "qseq": "MRLSVLLSLLPLALGAPA-----------VEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQ",
+                  "hseq": "MRLSVVLAVLPLALGAPVADPVADAAVEVIEERSEPAPLLQARGALVADKYIVKLKEGSALAALDATMSKISGEADHIYKNVFKGFAATLDENMLNILRAHPDVEYIEQDAVVTINAEQNNAPWGLARISSTRPGTSTYRYDDSAGAGTCAYVIDTGVEDTHPEFEGRAKLVKSYYASSRDGNGHGTHCSGTIGSKTYGVAKKTNIYGVKVLDDRGSGQFSTIISGMDFVANDYRNRNCPRGVVASMSLGGGYSFSVNSAAAQLQRSGVFVAVAAGNDNRDAANTSPASETSVCTVGATDRNDNRSSFSNYGRVVDIFAPGTDILSTWIGRSTRSISGTSMATPHVAGLAAYFMGLGQASSGNACSYIVQNSNKNVLRGIPFGTVNALAYNNYQ",
+                  "midline": "MRLSV+L++LPLALGAP            +E+RSE APL++ARG +VA+KYIVK KEGSAL+ALDA M KISG+ DH+YKNVF GFAATLDENM+ +LRAHPDVEYIEQDAVVTINA Q NAPWGLARISST PGTSTY YD+SAG G+C YVIDTG+E +HPEFEGRA++VK+YY SSRDGNGHGTHC+GT+GS+TYGVAKKT ++GVKVLDD GSGQ+STII+GMDFVA+D  NRNCP+GVVAS+SLGGGYS SVNSAAA+LQ SGV VAVAAGN+N DA N SPASE SVCTVGA+DR D RSSFSNYG V+DIF PGT ILSTWIG STRSISGTSMATPHVAGLAAY M LG+ ++ +AC YI   +NK  L  IPFGTVN LAYNNYQ"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|1BJR|E",
+                  "accession": "1BJR_E",
+                  "title": "Chain E, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1CNM|A",
+                  "accession": "1CNM_A",
+                  "title": "Chain A, PROTEIN (PROTEINASE K) [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1EGQ|A",
+                  "accession": "1EGQ_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1OYO|A",
+                  "accession": "1OYO_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1PJ8|A",
+                  "accession": "1PJ8_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1PTK|A",
+                  "accession": "1PTK_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2DP4|E",
+                  "accession": "2DP4_E",
+                  "title": "Chain E, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2PKC|A",
+                  "accession": "2PKC_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2PRK|A",
+                  "accession": "2PRK_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3D9Q|X",
+                  "accession": "3D9Q_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DDZ|X",
+                  "accession": "3DDZ_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DE0|X",
+                  "accession": "3DE0_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DE1|X",
+                  "accession": "3DE1_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DE2|X",
+                  "accession": "3DE2_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DE3|X",
+                  "accession": "3DE3_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DE4|X",
+                  "accession": "3DE4_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DE5|X",
+                  "accession": "3DE5_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DE6|X",
+                  "accession": "3DE6_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DE7|X",
+                  "accession": "3DE7_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DVQ|X",
+                  "accession": "3DVQ_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DVR|X",
+                  "accession": "3DVR_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DVS|X",
+                  "accession": "3DVS_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DW1|X",
+                  "accession": "3DW1_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DW3|X",
+                  "accession": "3DW3_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DWE|X",
+                  "accession": "3DWE_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3I2Y|X",
+                  "accession": "3I2Y_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3I30|X",
+                  "accession": "3I30_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3I34|X",
+                  "accession": "3I34_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3I37|X",
+                  "accession": "3I37_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3PRK|E",
+                  "accession": "3PRK_E",
+                  "title": "Chain E, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3PTL|A",
+                  "accession": "3PTL_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|4DJ5|X",
+                  "accession": "4DJ5_X",
+                  "title": "Chain X, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5AMX|A",
+                  "accession": "5AMX_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5K7S|A",
+                  "accession": "5K7S_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6CL7|A",
+                  "accession": "6CL7_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6CL8|A",
+                  "accession": "6CL8_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6CL9|A",
+                  "accession": "6CL9_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6CLA|A",
+                  "accession": "6CLA_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6CLB|A",
+                  "accession": "6CLB_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6KKF|A",
+                  "accession": "6KKF_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKJ|A",
+                  "accession": "6PKJ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKK|A",
+                  "accession": "6PKK_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKL|A",
+                  "accession": "6PKL_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKM|A",
+                  "accession": "6PKM_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKN|A",
+                  "accession": "6PKN_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKO|A",
+                  "accession": "6PKO_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKP|A",
+                  "accession": "6PKP_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKQ|A",
+                  "accession": "6PKQ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKR|A",
+                  "accession": "6PKR_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKS|A",
+                  "accession": "6PKS_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PKT|A",
+                  "accession": "6PKT_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PQ0|A",
+                  "accession": "6PQ0_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PQ4|A",
+                  "accession": "6PQ4_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PU4|A",
+                  "accession": "6PU4_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6PU5|A",
+                  "accession": "6PU5_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7JSY|A",
+                  "accession": "7JSY_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SKX|C",
+                  "accession": "7SKX_C",
+                  "title": "Chain C, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SVY|A",
+                  "accession": "7SVY_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SVZ|A",
+                  "accession": "7SVZ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW0|A",
+                  "accession": "7SW0_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW1|A",
+                  "accession": "7SW1_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW2|A",
+                  "accession": "7SW2_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW3|A",
+                  "accession": "7SW3_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW4|A",
+                  "accession": "7SW4_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW5|A",
+                  "accession": "7SW5_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW6|A",
+                  "accession": "7SW6_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW7|A",
+                  "accession": "7SW7_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW8|A",
+                  "accession": "7SW8_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SW9|A",
+                  "accession": "7SW9_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SWA|A",
+                  "accession": "7SWA_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SWB|A",
+                  "accession": "7SWB_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7SWC|A",
+                  "accession": "7SWC_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8E52|AAA",
+                  "accession": "8E52_AAA",
+                  "title": "Chain AAA, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8SDK|A",
+                  "accession": "8SDK_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                }
+              ],
+              "len": 279,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 570.081,
+                  "score": 1468,
+                  "evalue": 0,
+                  "identity": 279,
+                  "positive": 279,
+                  "query_from": 106,
+                  "query_to": 384,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "hseq": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "midline": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|1HT3|A",
+                  "accession": "1HT3_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1PEK|E",
+                  "accession": "1PEK_E",
+                  "title": "Chain E, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1PFG|A",
+                  "accession": "1PFG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6K8M|E",
+                  "accession": "6K8M_E",
+                  "title": "Chain E, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                }
+              ],
+              "len": 279,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 568.155,
+                  "score": 1463,
+                  "evalue": 0,
+                  "identity": 278,
+                  "positive": 278,
+                  "query_from": 106,
+                  "query_to": 384,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "hseq": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVVKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "midline": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGV KKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|1IC6|A",
+                  "accession": "1IC6_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1P7V|A",
+                  "accession": "1P7V_A",
+                  "title": "Chain A, proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|1P7W|A",
+                  "accession": "1P7W_A",
+                  "title": "Chain A, proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2DQK|A",
+                  "accession": "2DQK_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2DUJ|A",
+                  "accession": "2DUJ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2G4V|A",
+                  "accession": "2G4V_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2HD4|A",
+                  "accession": "2HD4_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2HPZ|A",
+                  "accession": "2HPZ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2ID8|A",
+                  "accession": "2ID8_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2PQ2|A",
+                  "accession": "2PQ2_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2PWA|A",
+                  "accession": "2PWA_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2PWB|A",
+                  "accession": "2PWB_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2PYZ|A",
+                  "accession": "2PYZ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|2V8B|A",
+                  "accession": "2V8B_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3AJ8|A",
+                  "accession": "3AJ8_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3AJ9|A",
+                  "accession": "3AJ9_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3DYB|A",
+                  "accession": "3DYB_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3GT3|A",
+                  "accession": "3GT3_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3GT4|A",
+                  "accession": "3GT4_A",
+                  "title": "Chain A, proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3L1K|A",
+                  "accession": "3L1K_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3OSZ|A",
+                  "accession": "3OSZ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3Q40|A",
+                  "accession": "3Q40_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3Q5G|A",
+                  "accession": "3Q5G_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|3QMP|A",
+                  "accession": "3QMP_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|4B5L|A",
+                  "accession": "4B5L_A",
+                  "title": "Chain A, PROTEINASE K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|4FON|A",
+                  "accession": "4FON_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|4WOB|A",
+                  "accession": "4WOB_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|4WOC|A",
+                  "accession": "4WOC_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|4ZAR|A",
+                  "accession": "4ZAR_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5AVJ|A",
+                  "accession": "5AVJ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5AVK|A",
+                  "accession": "5AVK_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5B1D|A",
+                  "accession": "5B1D_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5B1E|A",
+                  "accession": "5B1E_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5CW1|A",
+                  "accession": "5CW1_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5I9S|A",
+                  "accession": "5I9S_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5KXU|A",
+                  "accession": "5KXU_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5KXV|A",
+                  "accession": "5KXV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5MJL|A",
+                  "accession": "5MJL_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROC|A",
+                  "accession": "5ROC_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROD|A",
+                  "accession": "5ROD_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROE|A",
+                  "accession": "5ROE_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROF|A",
+                  "accession": "5ROF_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROG|A",
+                  "accession": "5ROG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROH|A",
+                  "accession": "5ROH_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROI|A",
+                  "accession": "5ROI_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROJ|A",
+                  "accession": "5ROJ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROK|A",
+                  "accession": "5ROK_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROL|A",
+                  "accession": "5ROL_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROM|A",
+                  "accession": "5ROM_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RON|A",
+                  "accession": "5RON_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROO|A",
+                  "accession": "5ROO_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROP|A",
+                  "accession": "5ROP_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROQ|A",
+                  "accession": "5ROQ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROR|A",
+                  "accession": "5ROR_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROS|A",
+                  "accession": "5ROS_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROT|A",
+                  "accession": "5ROT_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROU|A",
+                  "accession": "5ROU_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROV|A",
+                  "accession": "5ROV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROW|A",
+                  "accession": "5ROW_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROX|A",
+                  "accession": "5ROX_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROY|A",
+                  "accession": "5ROY_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5ROZ|A",
+                  "accession": "5ROZ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP0|A",
+                  "accession": "5RP0_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP1|A",
+                  "accession": "5RP1_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP2|A",
+                  "accession": "5RP2_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP3|A",
+                  "accession": "5RP3_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP4|A",
+                  "accession": "5RP4_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP5|A",
+                  "accession": "5RP5_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP6|A",
+                  "accession": "5RP6_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP7|A",
+                  "accession": "5RP7_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP8|A",
+                  "accession": "5RP8_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RP9|A",
+                  "accession": "5RP9_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPA|A",
+                  "accession": "5RPA_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPB|A",
+                  "accession": "5RPB_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPC|A",
+                  "accession": "5RPC_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPD|A",
+                  "accession": "5RPD_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPE|A",
+                  "accession": "5RPE_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPF|A",
+                  "accession": "5RPF_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPG|A",
+                  "accession": "5RPG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPH|A",
+                  "accession": "5RPH_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPI|A",
+                  "accession": "5RPI_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPJ|A",
+                  "accession": "5RPJ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPK|A",
+                  "accession": "5RPK_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPL|A",
+                  "accession": "5RPL_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPM|A",
+                  "accession": "5RPM_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPN|A",
+                  "accession": "5RPN_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPO|A",
+                  "accession": "5RPO_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPP|A",
+                  "accession": "5RPP_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPQ|A",
+                  "accession": "5RPQ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPR|A",
+                  "accession": "5RPR_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPS|A",
+                  "accession": "5RPS_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPT|A",
+                  "accession": "5RPT_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPU|A",
+                  "accession": "5RPU_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPV|A",
+                  "accession": "5RPV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPW|A",
+                  "accession": "5RPW_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPX|A",
+                  "accession": "5RPX_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPY|A",
+                  "accession": "5RPY_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5RPZ|A",
+                  "accession": "5RPZ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5UVL|A",
+                  "accession": "5UVL_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5WHW|A",
+                  "accession": "5WHW_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5WJG|A",
+                  "accession": "5WJG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5WJH|A",
+                  "accession": "5WJH_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|5WRC|A",
+                  "accession": "5WRC_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6FJS|A",
+                  "accession": "6FJS_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6J43|A",
+                  "accession": "6J43_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6K2P|A",
+                  "accession": "6K2P_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6K2R|A",
+                  "accession": "6K2R_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6K2S|A",
+                  "accession": "6K2S_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6K2T|A",
+                  "accession": "6K2T_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6K2V|A",
+                  "accession": "6K2V_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6K2W|A",
+                  "accession": "6K2W_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6K2X|A",
+                  "accession": "6K2X_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6LAW|A",
+                  "accession": "6LAW_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6MH6|A",
+                  "accession": "6MH6_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6N4U|A",
+                  "accession": "6N4U_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6QF1|A",
+                  "accession": "6QF1_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6QXV|A",
+                  "accession": "6QXV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6RUG|A",
+                  "accession": "6RUG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6RUH|A",
+                  "accession": "6RUH_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6RUK|A",
+                  "accession": "6RUK_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6RUN|A",
+                  "accession": "6RUN_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6RUW|A",
+                  "accession": "6RUW_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6RVE|A",
+                  "accession": "6RVE_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6RVG|A",
+                  "accession": "6RVG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6RZP|A",
+                  "accession": "6RZP_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6TXG|A",
+                  "accession": "6TXG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6V8R|A",
+                  "accession": "6V8R_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6ZET|AAA",
+                  "accession": "6ZET_AAA",
+                  "title": "Chain AAA, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6ZEU|AAA",
+                  "accession": "6ZEU_AAA",
+                  "title": "Chain AAA, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|6ZEV|AAA",
+                  "accession": "6ZEV_AAA",
+                  "title": "Chain AAA, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7A68|A",
+                  "accession": "7A68_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7A9F|A",
+                  "accession": "7A9F_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7A9K|A",
+                  "accession": "7A9K_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7A9M|A",
+                  "accession": "7A9M_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7C0P|A",
+                  "accession": "7C0P_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LN7|A",
+                  "accession": "7LN7_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LPT|A",
+                  "accession": "7LPT_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LPU|A",
+                  "accession": "7LPU_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LPV|A",
+                  "accession": "7LPV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LQ8|A",
+                  "accession": "7LQ8_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LQ9|A",
+                  "accession": "7LQ9_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LQA|A",
+                  "accession": "7LQA_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LQB|A",
+                  "accession": "7LQB_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LQC|A",
+                  "accession": "7LQC_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LTD|A",
+                  "accession": "7LTD_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LTI|A",
+                  "accession": "7LTI_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LTV|A",
+                  "accession": "7LTV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LU0|A",
+                  "accession": "7LU0_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LU1|A",
+                  "accession": "7LU1_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LU2|A",
+                  "accession": "7LU2_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7LU3|A",
+                  "accession": "7LU3_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7NJJ|A",
+                  "accession": "7NJJ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7NUY|A",
+                  "accession": "7NUY_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7NUZ|A",
+                  "accession": "7NUZ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|7S4Z|A",
+                  "accession": "7S4Z_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8E53|AAA",
+                  "accession": "8E53_AAA",
+                  "title": "Chain AAA, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8F05|A",
+                  "accession": "8F05_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8F06|A",
+                  "accession": "8F06_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8F07|A",
+                  "accession": "8F07_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8FYO|A",
+                  "accession": "8FYO_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8FYP|A",
+                  "accession": "8FYP_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8FYQ|A",
+                  "accession": "8FYQ_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8FYR|A",
+                  "accession": "8FYR_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8FYS|A",
+                  "accession": "8FYS_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8SOG|A",
+                  "accession": "8SOG_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8SOU|A",
+                  "accession": "8SOU_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8SOV|A",
+                  "accession": "8SOV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8SPL|A",
+                  "accession": "8SPL_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|8SQV|A",
+                  "accession": "8SQV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9DHO|A",
+                  "accession": "9DHO_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9FTX|A",
+                  "accession": "9FTX_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9FTY|A",
+                  "accession": "9FTY_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9FU1|A",
+                  "accession": "9FU1_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9KW1|A",
+                  "accession": "9KW1_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9ODV|A",
+                  "accession": "9ODV_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9ODW|A",
+                  "accession": "9ODW_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9OYY|A",
+                  "accession": "9OYY_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9OYY|B",
+                  "accession": "9OYY_B",
+                  "title": "Chain B, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9OZU|A",
+                  "accession": "9OZU_A",
+                  "title": "Chain A, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                },
+                {
+                  "id": "pdb|9OZU|B",
+                  "accession": "9OZU_B",
+                  "title": "Chain B, Proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                }
+              ],
+              "len": 279,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 567.77,
+                  "score": 1462,
+                  "evalue": 0,
+                  "identity": 278,
+                  "positive": 278,
+                  "query_from": 106,
+                  "query_to": 384,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "hseq": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTDILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "midline": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGT ILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "prf||1205229A",
+                  "accession": "1205229A",
+                  "title": "proteinase K [Parengyodontium album]",
+                  "taxid": 37998,
+                  "sciname": "Parengyodontium album"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 546.199,
+                  "score": 1406,
+                  "evalue": 0,
+                  "identity": 273,
+                  "positive": 275,
+                  "query_from": 106,
+                  "query_to": 384,
+                  "hit_from": 1,
+                  "hit_to": 277,
+                  "align_len": 280,
+                  "gaps": 4,
+                  "qseq": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGS-RTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNNYQA",
+                  "hseq": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSGRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTDL--SWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVN-LAYNNYQA",
+                  "midline": "AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGS RTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGT +  +WIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVN LAYNNYQA"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gb|KAO0482231.1|",
+                  "accession": "KAO0482231",
+                  "title": "Proteinase K [Simplicillium lamellicola]",
+                  "taxid": 93593,
+                  "sciname": "Simplicillium lamellicola"
+                }
+              ],
+              "len": 384,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 533.872,
+                  "score": 1374,
+                  "evalue": 0,
+                  "identity": 256,
+                  "positive": 305,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 380,
+                  "align_len": 380,
+                  "gaps": 0,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVVLATLPLALGAPAVEKRDEPAALIKAKENAIAGKYIVKLKEGSSFAALDDTISKLSGGADARYENVFKGFAASLDETLVELLRNHPDVDFIEEDATMSITETQNNAPWGLGRISNRQKGSNTYTYASSAGAGTCVYIVDTGIEDSHPEFEGRATQLKSYVGGNRDGNGHGTHCAGTIGSKTYGVAKKATLYGVKVLGDNGSGSTSGIISGLDFVASDSRNRNCPKGVVASMSLGGAYQSSLNNAASRLQQNGVFVSVAAGNDNRDAANTSPASAPDVCTVGATDINDNRSSFSNYGRVVDIFAPGTDVLSTWINRSTRSISGTSMATPHIAGLAAYLMSIGSATASNACNYIAQTATKDAIRGIPGGTVNLLAYN",
+                  "midline": "MRLSV+L+ LPLALGAPAVE+R E A LI+A+   +A KYIVK KEGS+ +ALD  + K+SG  D  Y+NVF GFAA+LDE +V +LR HPDV++IE+DA ++I   Q NAPWGL RIS+   G++TY Y  SAG G+CVY++DTGIE SHPEFEGRA  +K+Y   +RDGNGHGTHCAGT+GS+TYGVAKK  L+GVKVL DNGSG  S II+G+DFVASD  NRNCPKGVVAS+SLGG Y SS+N+AA+RLQ +GV V+VAAGN+N DA N SPAS P VCTVGA+D  D RSSFSNYG V+DIF PGT +LSTWI  STRSISGTSMATPH+AGLAAYLM++G  TA++AC YIA TA K  +  IP GTVNLLAYN"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|WHI95091.1|",
+                  "accession": "WHI95091",
+                  "title": "serine protease APT3, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 372,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 500.36,
+                  "score": 1287,
+                  "evalue": 9.94965e-174,
+                  "identity": 240,
+                  "positive": 295,
+                  "query_from": 16,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 367,
+                  "align_len": 368,
+                  "gaps": 4,
+                  "qseq": "APAVEQRSEAAPLIEARG-EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "APSLARREEPAPLLEARGAQAIPGKFIVKLREGSPLAALQQAMSLLGGKADHVFQNVFSGFAASMNPAVIELMRNHPDVEYIEQDGKVNINAYTTQTGAPWGLGRISHRAKGSTSYTYDTSAGEGTCVYVIDTGVEDTHPEFEGRAKLIKTYY-GNRDGHGHGTHCSGTIGSKTYGVAKKTKIYGVKVLDDNGSGTFSNIIAGVDFVANDYKTRGCPKGAVASMSLGGGKTQAVNDAVARLQRAGVFVAVAAGNDNTDAANTSPASEPSVCTVGASDKDDVRSTFSNYGSVVDIFAPGTAILSTWIGGRTNTISGTSMATPHIAGLAAYLMGKDGAVAAGLCAKIAQTATRNVLRNIPAGTINALAFN",
+                  "midline": "AP++ +R E APL+EARG + +  K+IVK +EGS L+AL  AM  + GK DHV++NVFSGFAA+++  ++ ++R HPDVEYIEQD  V INA   QT APWGL RIS  + G+++Y YD SAG+G+CVYVIDTG+E +HPEFEGRA+++KTYY  +RDG+GHGTHC+GT+GS+TYGVAKKT+++GVKVLDDNGSG +S IIAG+DFVA+D   R CPKG VAS+SLGGG + +VN A ARLQ +GV VAVAAGN+N DA N SPASEPSVCTVGASD+ D RS+FSNYGSV+DIF PGT+ILSTWIGG T +ISGTSMATPH+AGLAAYLM      AA  C  IA TA +  L NIP GT+N LA+N"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "emb|CEJ93023.1|",
+                  "accession": "CEJ93023",
+                  "title": "hypothetical protein VHEMI08644 [[Torrubiella] hemipterigena]",
+                  "taxid": 1531966,
+                  "sciname": "[Torrubiella] hemipterigena"
+                }
+              ],
+              "len": 387,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 498.819,
+                  "score": 1283,
+                  "evalue": 7.27521e-173,
+                  "identity": 239,
+                  "positive": 294,
+                  "query_from": 17,
+                  "query_to": 380,
+                  "hit_from": 17,
+                  "hit_to": 382,
+                  "align_len": 367,
+                  "gaps": 4,
+                  "qseq": "PAVEQRSEAAPLIEARG-EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "PSLARREEPAPLLEARGAQAIPGKFIVKLREGSPLAALQQAMSLLGGKADHVFQNVFSGFAASMNPAVIELMRNHPDVEYIEQDGKVNINAYTTQTGAPWGLGRISHRAKGSTSYTYDTSAGEGTCVYVIDTGVEDTHPEFEGRAKLIKTYY-GNRDGHGHGTHCSGTIGSKTYGVAKKTKIYGVKVLDDNGSGTFSNIIAGVDFVANDYKTRGCPKGAVASMSLGGGKTQAVNDAVARLQRAGVFVAVAAGNDNTDAANTSPASEPSVCTVGASDKDDVRSTFSNYGSVVDIFAPGTAILSTWIGGRTNTISGTSMATPHIAGLAAYLMGKDGAVAAGLCAKIAQTATRNVLRNIPAGTINALAFN",
+                  "midline": "P++ +R E APL+EARG + +  K+IVK +EGS L+AL  AM  + GK DHV++NVFSGFAA+++  ++ ++R HPDVEYIEQD  V INA   QT APWGL RIS  + G+++Y YD SAG+G+CVYVIDTG+E +HPEFEGRA+++KTYY  +RDG+GHGTHC+GT+GS+TYGVAKKT+++GVKVLDDNGSG +S IIAG+DFVA+D   R CPKG VAS+SLGGG + +VN A ARLQ +GV VAVAAGN+N DA N SPASEPSVCTVGASD+ D RS+FSNYGSV+DIF PGT+ILSTWIGG T +ISGTSMATPH+AGLAAYLM      AA  C  IA TA +  L NIP GT+N LA+N"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|KAM3429826.1|",
+                  "accession": "KAM3429826",
+                  "title": "hypothetical protein MY4824_008051 [Beauveria thailandica]",
+                  "taxid": 2857485,
+                  "sciname": "Beauveria thailandica"
+                }
+              ],
+              "len": 379,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 493.426,
+                  "score": 1269,
+                  "evalue": 5.77654e-171,
+                  "identity": 252,
+                  "positive": 302,
+                  "query_from": 1,
+                  "query_to": 381,
+                  "hit_from": 1,
+                  "hit_to": 377,
+                  "align_len": 383,
+                  "gaps": 8,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYNN",
+                  "hseq": "MRLSIIAAVLPLAIAAPVVE----PAPLIEARGQTIAGNYIVKLKDTATMSIMDAA-SKVS-KPTFIYKEVFPGFAASLKPEEVERLRHDPNVESIEQDAMVSINAIVQQPGAPWGLGRISHREKGSTTYAYDSSAGQGTCVYVIDTGIEASHPEFQGRAQQIKSFVTGQIDGHGHGTHCAGTIGSKTYGVAKKVSIFGVKVLEDSGSGSLSGVIAGMDFVASDRKNRNCPKGVVASMSLGGGYSASVNQAAARLQASGVFVAVAAGNDNRDAANTSPASEPSVCTVGATDSSDRRSSFSNYGKVLDIFAPGTGILSTWIGGRTNTISGTSMATPHIAGLGAYFLALGKGTSGNLCKKIQESSTKNVLTGVPSGTVNYLAFND",
+                  "midline": "MRLS++ ++LPLA+ AP VE     APLIEARG+ +A  YIVK K+ + +S +DAA  K+S KP  +YK VF GFAA+L    V  LR  P+VE IEQDA+V+INA   Q  APWGL RIS    G++TY YD SAGQG+CVYVIDTGIEASHPEF+GRAQ +K++     DG+GHGTHCAGT+GS+TYGVAKK  +FGVKVL+D+GSG  S +IAGMDFVASD+ NRNCPKGVVAS+SLGGGYS+SVN AAARLQ+SGV VAVAAGN+N DA N SPASEPSVCTVGA+D  DRRSSFSNYG VLDIF PGT ILSTWIGG T +ISGTSMATPH+AGL AY + LGK T+ + C+ I +++ K  L+ +P GTVN LA+N+"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|XP_047845702.1|",
+                  "accession": "XP_047845702",
+                  "title": "Cuticle-degrading protease [Purpureocillium takamizusanense]",
+                  "taxid": 2060973,
+                  "sciname": "Purpureocillium takamizusanense"
+                },
+                {
+                  "id": "gb|UNI22221.1|",
+                  "accession": "UNI22221",
+                  "title": "Cuticle-degrading protease [Purpureocillium takamizusanense]",
+                  "taxid": 2060973,
+                  "sciname": "Purpureocillium takamizusanense"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 491.886,
+                  "score": 1265,
+                  "evalue": 3.41435e-170,
+                  "identity": 243,
+                  "positive": 295,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 385,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARG--EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSR-DGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSLLLSILPMALAAPAT-KRSEPAPLLVPRGSHELIADKYIVKFKQGSALSALDDALSSFGGKADHKYDNVFKGFALHLDEAKLKTIRDHPDVEYVEQDAMVTLSGFESQQDATWGLSRISHRQAGASTYDYDSSAGEGTCAYVIDTGVEADHPEFEGRATLLKSFIDGQNADGNGHGTHVSGTIGSKTYGVAKKTKIFGVKVLDDQGSGPYSGIIAGMDYVAKDSKSRDCPKGSVANMSLEGGFAQSVNDAAAALVRSNVFLGVAAGNSNKDAGQSSPASETTVCTVGATDKNDNRSSFSNYGRVLDIFGPGTDVLSTWIGGRTNTISGTSMATPHIVGLAAYLAALEGKTGGSICSRIQELATKDAINGVPGGTVNLLAFN",
+                  "midline": "MRLS+LLS+LP+AL APA  +RSE APL+  RG  E++A+KYIVKFK+GSALSALD A+    GK DH Y NVF GFA  LDE  ++ +R HPDVEY+EQDA+VT++   +Q +A WGL+RIS    G STY YD SAG+G+C YVIDTG+EA HPEFEGRA ++K++      DGNGHGTH +GT+GS+TYGVAKKT++FGVKVLDD GSG YS IIAGMD+VA D  +R+CPKG VA++SL GG++ SVN AAA L  S V + VAAGN+N DA   SPASE +VCTVGA+D+ D RSSFSNYG VLDIFGPGT +LSTWIGG T +ISGTSMATPH+ GLAAYL  L   T  S C  I + A K  ++ +P GTVNLLA+N"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gb|KAL3956882.1|",
+                  "accession": "KAL3956882",
+                  "title": "hypothetical protein ACCO45_009728 [Purpureocillium lilacinum]",
+                  "taxid": 33203,
+                  "sciname": "Purpureocillium lilacinum"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 489.574,
+                  "score": 1259,
+                  "evalue": 3.04137e-169,
+                  "identity": 245,
+                  "positive": 302,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 385,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARG--EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSR-DGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSLLLSILPMVLAAPAT-KRSEPAPLLVPRGNHQLIADKYIVKFKQGSALSVLEDALSSFGGKPDHMYDSVFKGFALHLNERMLKTLRDHPDVDYVEQDAMVTLSGFESQPDATWGLSRISHRRAGASTYDFDSSAGEGTCSYVIDTGVEANHPEFEGRAELLKSFIDGQNADGNGHGTHVSGTIGSKTYGVAKKTQIYGVKVLDDQGSGPYSGIIAGMDFVAKDAKTRGCPKGAVANMSLEGGYAASVNNAAASLVQSGVFVGVAAGNSAKDAGESSPASEPSVCTVGATDRNDNKSSFSNYGDVLDIFGPGTDVLSTWIGGQIKTISGTSMATPHIVGLAAYLAALEEKTGGSACDRIQELATEGAISGIPAGTVNLLAFN",
+                  "midline": "MRLS+LLS+LP+ L APA  +RSE APL+  RG  +++A+KYIVKFK+GSALS L+ A+    GKPDH+Y +VF GFA  L+E M++ LR HPDV+Y+EQDA+VT++   +Q +A WGL+RIS    G STY +D SAG+G+C YVIDTG+EA+HPEFEGRA+++K++      DGNGHGTH +GT+GS+TYGVAKKTQ++GVKVLDD GSG YS IIAGMDFVA D   R CPKG VA++SL GGY++SVN+AAA L  SGV V VAAGN+  DA   SPASEPSVCTVGA+DR D +SSFSNYG VLDIFGPGT +LSTWIGG  ++ISGTSMATPH+ GLAAYL  L + T  SAC  I + A +G +S IP GTVNLLA+N"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gb|KAK4092074.1|",
+                  "accession": "KAK4092074",
+                  "title": "hypothetical protein Purlil1_3327 [Purpureocillium lilacinum]",
+                  "taxid": 33203,
+                  "sciname": "Purpureocillium lilacinum"
+                },
+                {
+                  "id": "gb|PWI76958.1|",
+                  "accession": "PWI76958",
+                  "title": "serine protease [Purpureocillium lilacinum]",
+                  "taxid": 33203,
+                  "sciname": "Purpureocillium lilacinum"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 488.034,
+                  "score": 1255,
+                  "evalue": 1.20613e-168,
+                  "identity": 245,
+                  "positive": 301,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 385,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARG--EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSR-DGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSLLLSILPMVLAAPAT-KRSEPAPLLVPRGNHQLIADKYIVKFKQGSALSVLEDALSSFGGKPDHMYDSVFKGFALHLNERMLKTLRDHPDVDYVEQDAMVTLSGFESQPDATWGLSRISHRRAGASTYDFDSSAGEGTCSYVIDTGVEANHPEFEGRAELLKSFIDGQNADGNGHGTHVSGTIGSKTYGVAKKTQIYGVKVLDDQGSGPYSGIIAGMDFVAKDAKTRGCPKGAVANMSLEGGYAASVNNAAASLVQSGVFVGVAAGNSAKDAGESSPASEPSVCTVGATDRNDNKSSFSNYGDVLDIFGPGTDVLSTWIGGQIKTISGTSMATPHIVGLAAYLAALEGKTGGSACDRIQELATEGAISGIPAGTVNLLAFN",
+                  "midline": "MRLS+LLS+LP+ L APA  +RSE APL+  RG  +++A+KYIVKFK+GSALS L+ A+    GKPDH+Y +VF GFA  L+E M++ LR HPDV+Y+EQDA+VT++   +Q +A WGL+RIS    G STY +D SAG+G+C YVIDTG+EA+HPEFEGRA+++K++      DGNGHGTH +GT+GS+TYGVAKKTQ++GVKVLDD GSG YS IIAGMDFVA D   R CPKG VA++SL GGY++SVN+AAA L  SGV V VAAGN+  DA   SPASEPSVCTVGA+DR D +SSFSNYG VLDIFGPGT +LSTWIGG  ++ISGTSMATPH+ GLAAYL  L   T  SAC  I + A +G +S IP GTVNLLA+N"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|XP_018173903.2|",
+                  "accession": "XP_018173903",
+                  "title": "subtilisin-like serine protease [Purpureocillium lilacinum]",
+                  "taxid": 33203,
+                  "sciname": "Purpureocillium lilacinum"
+                },
+                {
+                  "id": "dbj|GJN72374.1|",
+                  "accession": "GJN72374",
+                  "title": "subtilisin-like serine protease [Purpureocillium lilacinum]",
+                  "taxid": 33203,
+                  "sciname": "Purpureocillium lilacinum"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 487.649,
+                  "score": 1254,
+                  "evalue": 1.80754e-168,
+                  "identity": 244,
+                  "positive": 300,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 385,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARG--EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSR-DGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSLLLSILPMVLAAPAT-KRSEPAPLLVPRGNHQLIADKYIVKFKQGSALSVLEDALSSFGGKPDHMYDSVFKGFALHLNERMLKTLRDHPDVDYVEQDAMVTLSGFESQPDATWGLSRISHRQAGASTYDFDSSAGEGTCSYVIDTGVEADHPEFEGRAELLKSFIDGQNADGNGHGTHVSGTIGSKTYGVAKKTKIYGVKVLDDQGSGPYSGIIAGMDFVAKDAKTRGCPKGTVANMSLEGGYAASVNNAAASLVQSGVFVGVAAGNSAKDAGESSPASEPSVCTVGATDRNDNKSSFSNYGDVLDIFGPGTDVLSTWIGGQIKTISGTSMATPHIVGLAAYLAALEGKTGGSACDRIQELATEGSISGIPAGTVNLLAFN",
+                  "midline": "MRLS+LLS+LP+ L APA  +RSE APL+  RG  +++A+KYIVKFK+GSALS L+ A+    GKPDH+Y +VF GFA  L+E M++ LR HPDV+Y+EQDA+VT++   +Q +A WGL+RIS    G STY +D SAG+G+C YVIDTG+EA HPEFEGRA+++K++      DGNGHGTH +GT+GS+TYGVAKKT+++GVKVLDD GSG YS IIAGMDFVA D   R CPKG VA++SL GGY++SVN+AAA L  SGV V VAAGN+  DA   SPASEPSVCTVGA+DR D +SSFSNYG VLDIFGPGT +LSTWIGG  ++ISGTSMATPH+ GLAAYL  L   T  SAC  I + A +G +S IP GTVNLLA+N"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gb|OAQ76870.1|",
+                  "accession": "OAQ76870",
+                  "title": "alkaline serine protease P32 [Purpureocillium lilacinum]",
+                  "taxid": 33203,
+                  "sciname": "Purpureocillium lilacinum"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 486.108,
+                  "score": 1250,
+                  "evalue": 6.49606e-168,
+                  "identity": 244,
+                  "positive": 300,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 385,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARG--EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSR-DGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSLLLSILPMVLAAPAT-KRSEPAPLLVPRGNHQLIADKYIVKFKQGSALSVLEDALSSFGGKPDHMYDSVFKGFALHLNERMLKTLRDHPDVDYVEQDAMVTLSGFESQPDATWGLSRISHRRAGASTYDFDSSAGEGTCSYVIDTGVEADHPEFEGRAELLKSFIDGQNADGNGHGTHVSGTIGSKTYGVAKKTKIYGVKVLDDQGSGPYSGIIAGMDFVAKDAKTRGCPKGAVANMSLEGGYAASVNNAAASLVQSGVFVGVAAGNSAKDAGESSPASEPSVCTVGATDRNDNKSSFSNYGDVLDIFGPGTDVLSTWIGGQIKTISGTSMATPHIVGLAAYLAALEGKTGGSACDRIQELATEGAISGIPAGTVNLLAFN",
+                  "midline": "MRLS+LLS+LP+ L APA  +RSE APL+  RG  +++A+KYIVKFK+GSALS L+ A+    GKPDH+Y +VF GFA  L+E M++ LR HPDV+Y+EQDA+VT++   +Q +A WGL+RIS    G STY +D SAG+G+C YVIDTG+EA HPEFEGRA+++K++      DGNGHGTH +GT+GS+TYGVAKKT+++GVKVLDD GSG YS IIAGMDFVA D   R CPKG VA++SL GGY++SVN+AAA L  SGV V VAAGN+  DA   SPASEPSVCTVGA+DR D +SSFSNYG VLDIFGPGT +LSTWIGG  ++ISGTSMATPH+ GLAAYL  L   T  SAC  I + A +G +S IP GTVNLLA+N"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "dbj|GJN81759.1|",
+                  "accession": "GJN81759",
+                  "title": "subtilisin-like serine protease [Purpureocillium lilacinum]",
+                  "taxid": 33203,
+                  "sciname": "Purpureocillium lilacinum"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 485.337,
+                  "score": 1248,
+                  "evalue": 1.23822e-167,
+                  "identity": 243,
+                  "positive": 300,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 385,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARG--EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSR-DGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSLLLSILPMVLAAPAT-KRSEPAPLLVPRGNHQLIADKYIVKFKQGSALSVLEDALSSFGGKPDHMYDSVFKGFALHLNERMLKTLRDHPDVDYVEQDAMVTLSGFESQPDATWGLSRISHRQAGASTYDFDSSAGEGTCSYVIDTGVEADHPEFEGRAELLKSFIDGQNADGNGHGTHVSGTIGSKTYGVAKKTKIYGVKVLDDQGSGPYSGIIAGMDFVAKDAKTRGCPKGAVANMSLEGGYAASVNNAAASLVQNGVFVGVAAGNSAKDAGESSPASEPSVCTVGATDRNDNKSSFSNYGDVLDIFGPGTDVLSTWIGGQIKTISGTSMATPHIVGLAAYLAALEGKTGGSACDRIQELATEGAISGIPAGTVNLLAFN",
+                  "midline": "MRLS+LLS+LP+ L APA  +RSE APL+  RG  +++A+KYIVKFK+GSALS L+ A+    GKPDH+Y +VF GFA  L+E M++ LR HPDV+Y+EQDA+VT++   +Q +A WGL+RIS    G STY +D SAG+G+C YVIDTG+EA HPEFEGRA+++K++      DGNGHGTH +GT+GS+TYGVAKKT+++GVKVLDD GSG YS IIAGMDFVA D   R CPKG VA++SL GGY++SVN+AAA L  +GV V VAAGN+  DA   SPASEPSVCTVGA+DR D +SSFSNYG VLDIFGPGT +LSTWIGG  ++ISGTSMATPH+ GLAAYL  L   T  SAC  I + A +G +S IP GTVNLLA+N"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|KAJ6442447.1|",
+                  "accession": "KAJ6442447",
+                  "title": "alkaline serine protease P32 [Purpureocillium lavendulum]",
+                  "taxid": 1247861,
+                  "sciname": "Purpureocillium lavendulum"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 483.026,
+                  "score": 1242,
+                  "evalue": 1.31338e-166,
+                  "identity": 244,
+                  "positive": 299,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 385,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARG--EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSR-DGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSLLLTVLPMVLAAPTT-KRSEPAPLLVPRGNHQLLADKYIVKFKQGSALSVLEDALSSFGGKADHVYDNVFKGFALHLDEAMLKTLRDHPDVDYVEQDAMVTLSGFESQPDATWGLSRISHRERGASTYDFDSSAGEGTCSYVIDTGVEADHPEFEGRAELLKSFINGQNADGNGHGTHVSGTIGSKTYGVAKKTKIYGVKVLDDQGSGPYSGIIAGMDYVAKDAKTRGCEKGAVANMSLEGGYAASVNQAAAALVSSGVFVGVAAGNSNKDAGQSSPASEPSVCTVGATDKNDNRSSFSNYGNVLDIFGPGTNVLSTWIGGQTNTISGTSMATPHIVGLAAYLAGLEGTTGGSTCDRIGELATKNAISGVPGGTVNLLAFN",
+                  "midline": "MRLS+LL++LP+ L AP   +RSE APL+  RG  +++A+KYIVKFK+GSALS L+ A+    GK DHVY NVF GFA  LDE M++ LR HPDV+Y+EQDA+VT++   +Q +A WGL+RIS    G STY +D SAG+G+C YVIDTG+EA HPEFEGRA+++K++      DGNGHGTH +GT+GS+TYGVAKKT+++GVKVLDD GSG YS IIAGMD+VA D   R C KG VA++SL GGY++SVN AAA L SSGV V VAAGN+N DA   SPASEPSVCTVGA+D+ D RSSFSNYG+VLDIFGPGT++LSTWIGG T +ISGTSMATPH+ GLAAYL  L  TT  S C  I + A K  +S +P GTVNLLA+N"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gb|RFU76584.1|",
+                  "accession": "RFU76584",
+                  "title": "subtilisin-like protease pr1a [Trichoderma arundinaceum]",
+                  "taxid": 490622,
+                  "sciname": "Trichoderma arundinaceum"
+                }
+              ],
+              "len": 395,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 483.026,
+                  "score": 1242,
+                  "evalue": 1.34775e-166,
+                  "identity": 239,
+                  "positive": 296,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 390,
+                  "align_len": 390,
+                  "gaps": 10,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGE--MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPD----VEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPATEKRAEPAPLFTPSSEHGLVADQYIVKFKEGSSLQAVDEALTSLASNAHHVYEHVFRGFAGKFDKETLEALRSHPDAHFQVEYIEQDAIVKVNAFVEQTGAPWGLGRISHKARGSTTYVYDDSAGEGTCAYVIDTGVDATHPEFEGRATFLKTYVTGQNTDGNGHGTHVSGTIGSRSYGVAKKTQIFGVKVLDNGGSGTFANVIAGIDFVASDAQTRNCPNGSVANMSLGGGLSTAVNEAAAALISSGVFLAVAAGNSNVDARNTSPASEPTVCTVGASTSADARASFSNYGSVVDIFAPGQDVLSTWPGGQTNTISGTSMATPHIVGLGAYLLGLEGPSDPQALCSRIAALAGRSLLSGIPSGTINAIAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+R+E APL     E  +VA++YIVKFKEGS+L A+D A+  ++    HVY++VF GFA   D+  +  LR+HPD    VEYIEQDA+V +NA   QT APWGL RIS  + G++TY YD+SAG+G+C YVIDTG++A+HPEFEGRA  +KTY    + DGNGHGTH +GT+GSR+YGVAKKTQ+FGVKVLD+ GSG ++ +IAG+DFVASD   RNCP G VA++SLGGG S++VN AAA L SSGV +AVAAGN+N DARN SPASEP+VCTVGAS   D R+SFSNYGSV+DIF PG  +LSTW GG T +ISGTSMATPH+ GL AYL+ L G +   + C  IA  A +  LS IP GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gb|KAL6800757.1|",
+                  "accession": "KAL6800757",
+                  "title": "subtilisin-like protein [Trichoderma sp. SZMC 28013]",
+                  "taxid": 2682604,
+                  "sciname": "Trichoderma sp. SZMC 28013"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 481.1,
+                  "score": 1237,
+                  "evalue": 7.58936e-166,
+                  "identity": 234,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLI--EARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPATEKRSEPAPLLIPTTKHGLVADQYIVKFKEGSSLQAVDEALTKIASNAHHVYQHVFKGFAATLDQETLEVLRSHPDVEYIEQDAIVKVNAYVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPDFEGRATFLKTFVTGQNTDGNGHGTHVSGTIGSRTYGVAKKTSIYGVKVLDNSGSGTFANVIAGIDFVADDAQTRNCPNGSVANMSLGGGYTASVNQAAAALIQAGVFLAVAAGNDGADARNTSPASEPTVCTVGASTSADARASFSNYGSVVDIFAPGQDVLSTWPNRQTNTISGTSMATPHIVGLGAYLLALEGPRDPQALCARIQALSGRSLLSGVPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+RSE APL+    +  +VA++YIVKFKEGS+L A+D A+ KI+    HVY++VF GFAATLD+  + VLR+HPDVEYIEQDA+V +NA  +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HP+FEGRA  +KT+    + DGNGHGTH +GT+GSRTYGVAKKT ++GVKVLD++GSG ++ +IAG+DFVA D   RNCP G VA++SLGGGY++SVN AAA L  +GV +AVAAGN+ ADARN SPASEP+VCTVGAS   D R+SFSNYGSV+DIF PG  +LSTW    T +ISGTSMATPH+ GL AYL+ L G     + C  I   + +  LS +P GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|XP_013951412.1|",
+                  "accession": "XP_013951412",
+                  "title": "uncharacterized protein TRIVIDRAFT_88460 [Trichoderma virens Gv29-8]",
+                  "taxid": 413071,
+                  "sciname": "Trichoderma virens Gv29-8"
+                },
+                {
+                  "id": "gb|EHK17214.1|",
+                  "accession": "EHK17214",
+                  "title": "hypothetical protein TRIVIDRAFT_88460 [Trichoderma virens Gv29-8]",
+                  "taxid": 413071,
+                  "sciname": "Trichoderma virens Gv29-8"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 478.404,
+                  "score": 1230,
+                  "evalue": 8.97707e-165,
+                  "identity": 237,
+                  "positive": 296,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIE--ARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPAIEKRAEPAPLFKPTSKHGLVADQYIVKFKEGSSLQAVDETLTRIASDAHHVYQHVFNGFAGKLDQETLEALRNHPDVEYIEQDAIVKVNAFVQQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCAYIIDTGVDATHPEFEGRATFLKTYVSGQNTDGNGHGTHVAGTIGSRSYGVAKKTQLFGVKVLDNSGSGTFANVIAGMDFVASDSKTRNCPNGSVANMSLGGGVSSAVNEAAAALIAADVFLAVAAGNDGTDARNTSPASEPTVCTVGATTSADARASFSNYGSVVDIFAPGQDILSTWPSGRTNTISGTSMATPHIVGLGAYLLSLEGHIAPQALCSRIQSLAGKSLLSGIPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA+E+R+E APL +  ++  +VA++YIVKFKEGS+L A+D  + +I+    HVY++VF+GFA  LD+  +  LR HPDVEYIEQDA+V +NA   QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HPEFEGRA  +KTY    + DGNGHGTH AGT+GSR+YGVAKKTQLFGVKVLD++GSG ++ +IAGMDFVASD   RNCP G VA++SLGGG SS+VN AAA L ++ V +AVAAGN+  DARN SPASEP+VCTVGA+   D R+SFSNYGSV+DIF PG  ILSTW  G T +ISGTSMATPH+ GL AYL++L G     + C  I   A K  LS IP GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|XP_014549317.1|",
+                  "accession": "XP_014549317",
+                  "title": "Cuticle-degrading protease [Metarhizium brunneum]",
+                  "taxid": 500148,
+                  "sciname": "Metarhizium brunneum"
+                },
+                {
+                  "id": "gb|KID80179.1|",
+                  "accession": "KID80179",
+                  "title": "subtilisin-like protease PR1A, partial [Metarhizium brunneum ARSEF 3297]",
+                  "taxid": 1276141,
+                  "sciname": "Metarhizium brunneum ARSEF 3297"
+                },
+                {
+                  "id": "gb|QLI64437.1|",
+                  "accession": "QLI64437",
+                  "title": "Cuticle-degrading protease [Metarhizium brunneum]",
+                  "taxid": 500148,
+                  "sciname": "Metarhizium brunneum"
+                },
+                {
+                  "id": "emb|CAC95042.1|",
+                  "accession": "CAC95042",
+                  "title": "subtilisin-like protease PR1A [Metarhizium anisopliae]",
+                  "taxid": 5530,
+                  "sciname": "Metarhizium anisopliae"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 477.248,
+                  "score": 1227,
+                  "evalue": 2.01085e-164,
+                  "identity": 236,
+                  "positive": 295,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISGITEQSGAPWGLGRISHRQKGSTTYRYDDSAGEGTCVYIIDTGIEASHPEFEGRATFLKSFISGQTSDGHGHGTHCAGTIGSKSYGVAKKAKLYGVKVLDNQGSGSYSGIISGMDYVAQDSKTRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPSACTVGATDSNDNRSSFSNYGKVVDIFAPGTGVLSTWIGGSTNTISGTSMATPHIAGLAAYLSALQGKTTPAALCKKIQDTATKNALKGVPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I+    Q+ APWGL RIS    G++TY YD+SAG+G+CVY+IDTGIEASHPEFEGRA  +K++    + DG+GHGTHCAGT+GS++YGVAKK +L+GVKVLD+ GSG YS II+GMD+VA D   R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEPS CTVGA+D  D RSSFSNYG V+DIF PGT +LSTWIGGST +ISGTSMATPH+AGLAAYL  L GKTT A+ C+ I DTA K  L  +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|XP_083073185.1|",
+                  "accession": "XP_083073185",
+                  "title": "peptidase S8/S53 domain-containing protein [Trichoderma camerunense]",
+                  "taxid": 1738374,
+                  "sciname": "Trichoderma camerunense"
+                },
+                {
+                  "id": "gb|KAL6825142.1|",
+                  "accession": "KAL6825142",
+                  "title": "subtilisin-like protein [Trichoderma camerunense]",
+                  "taxid": 1738374,
+                  "sciname": "Trichoderma camerunense"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 477.248,
+                  "score": 1227,
+                  "evalue": 2.22412e-164,
+                  "identity": 236,
+                  "positive": 298,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIE--ARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPATEKRATPAPLLTPTSKHGLVADQYIVKFKDGSSLQAVDETLTKIASDAHHVYQHVFKGFAATLDQETLEVLRSHPDVEYIEQDAVVKINAYVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPDFEGRATFLKTFVSGQNTDGNGHGTHVAGTIGSRSYGVAKKTSLYGVKVLDNSGSGTFANVIAGMDFVADDSQTRNCPNGSVANMSLGGGYTASVNAAAAALIDAGVFLAVAAGNDGADARNTSPASEPSVCTVGASTSADARASFSNYGTVVDIFAPGQDVLSTWPSGRTNTISGTSMATPHIVGLGAYLLALEGPRAPEALCSRIQALSGRSLLSGIPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+R+  APL+   ++  +VA++YIVKFK+GS+L A+D  + KI+    HVY++VF GFAATLD+  + VLR+HPDVEYIEQDAVV INA  +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HP+FEGRA  +KT+    + DGNGHGTH AGT+GSR+YGVAKKT L+GVKVLD++GSG ++ +IAGMDFVA D   RNCP G VA++SLGGGY++SVN+AAA L  +GV +AVAAGN+ ADARN SPASEPSVCTVGAS   D R+SFSNYG+V+DIF PG  +LSTW  G T +ISGTSMATPH+ GL AYL+ L G     + C  I   + +  LS IP GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|KAF5134181.1|",
+                  "accession": "KAF5134181",
+                  "title": "Cuticle-degrading protease [Metarhizium anisopliae]",
+                  "taxid": 5530,
+                  "sciname": "Metarhizium anisopliae"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 476.863,
+                  "score": 1226,
+                  "evalue": 3.4733e-164,
+                  "identity": 236,
+                  "positive": 294,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISGITEQSGAPWGLGRISHRQKGSTTYRYDDSAGEGTCVYIIDTGIEASHPEFEGRATFLKSFISGQNSDGHGHGTHCAGTIGSRAYGVAKKAKLFGVKVLDNQGSGSYSGIISGMDYVAQDSKTRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPSACTVGATDSSDNRSSFSNYGKVVDIFAPGTGVLSTWIGGSTNTISGTSMATPHIAGLAAYLSAIQGKTSPAALCKLIQDTATKNVLKGVPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I+    Q+ APWGL RIS    G++TY YD+SAG+G+CVY+IDTGIEASHPEFEGRA  +K++    + DG+GHGTHCAGT+GSR YGVAKK +LFGVKVLD+ GSG YS II+GMD+VA D   R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEPS CTVGA+D  D RSSFSNYG V+DIF PGT +LSTWIGGST +ISGTSMATPH+AGLAAYL  + GKT+ A+ C+ I DTA K  L  +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|KAL7957156.1|",
+                  "accession": "KAL7957156",
+                  "title": "subtilisin-like protein [Trichoderma compactum]",
+                  "taxid": 1490983,
+                  "sciname": "Trichoderma compactum"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 476.863,
+                  "score": 1226,
+                  "evalue": 3.48171e-164,
+                  "identity": 231,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLI--EARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPATEKRSEPAPLLIPTTKHGLVADQYIVKFREGSSLQAVDEALTKIASNAHHVYQHVFKGFAATLDQETLEVLRSHPDVEYIEQDAIVKVNAYVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPDFEGRATFLKTFVTGQNTDGNGHGTHVSGTIGSRSYGVAKKTSIYGVKVLDNSGSGTFANVIAGIDFVADDAQTRDCPNGSVANMSLGGGYTASVNQAAAALIQAGVFLAVAAGNDGADARNTSPASEPTVCTVGASTSADARASFSNYGSVVDVFAPGQDILSTWPNRQTNTISGTSMATPHIVGLGAYLLALEGPRDPQALCARIQALSGRSLLSGVPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+RSE APL+    +  +VA++YIVKF+EGS+L A+D A+ KI+    HVY++VF GFAATLD+  + VLR+HPDVEYIEQDA+V +NA  +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HP+FEGRA  +KT+    + DGNGHGTH +GT+GSR+YGVAKKT ++GVKVLD++GSG ++ +IAG+DFVA D   R+CP G VA++SLGGGY++SVN AAA L  +GV +AVAAGN+ ADARN SPASEP+VCTVGAS   D R+SFSNYGSV+D+F PG  ILSTW    T +ISGTSMATPH+ GL AYL+ L G     + C  I   + +  LS +P GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gb|KAH0601022.1|",
+                  "accession": "KAH0601022",
+                  "title": "hypothetical protein MHUMG1_02023 [Metarhizium humberi]",
+                  "taxid": 2596975,
+                  "sciname": "Metarhizium humberi"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 476.478,
+                  "score": 1225,
+                  "evalue": 4.27503e-164,
+                  "identity": 237,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISGLTEQSGAPWGLGRISHRSRGSTTYRYDDSAGEGTCVYIIDTGIEASHPEFEGRATFLKSFISGQATDGHGHGTHCAGTIGSRSYGVAKKAKLYGVKVLDNQGSGSYSGIISGMDYVAQDSKTRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPSACTVGASAENDSRSSFSNYGKVVDIFAPGSNVLSTWIGGRTNTISGTSMATPHIAGLAAYLSTLQGKTTPAALCKKIQDTATKNALTGVPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I+    Q+ APWGL RIS  S G++TY YD+SAG+G+CVY+IDTGIEASHPEFEGRA  +K++    + DG+GHGTHCAGT+GSR+YGVAKK +L+GVKVLD+ GSG YS II+GMD+VA D   R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEPS CTVGAS   D RSSFSNYG V+DIF PG+++LSTWIGG T +ISGTSMATPH+AGLAAYL TL GKTT A+ C+ I DTA K  L+ +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gb|KAL6694503.1|",
+                  "accession": "KAL6694503",
+                  "title": "subtilisin-like protein [Trichoderma pleuroticola]",
+                  "taxid": 504485,
+                  "sciname": "Trichoderma pleuroticola"
+                },
+                {
+                  "id": "gb|PNP47052.1|",
+                  "accession": "PNP47052",
+                  "title": "hypothetical protein THARTR1_10557 [Trichoderma harzianum]",
+                  "taxid": 5544,
+                  "sciname": "Trichoderma harzianum"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 476.478,
+                  "score": 1225,
+                  "evalue": 5.3911e-164,
+                  "identity": 233,
+                  "positive": 300,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIE--ARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPATEKRAVPAPLLTPTSKHGLVADQYIVKFKDGSSLQAVDETLTKIASDAHHVYQHVFKGFAATLDQETLDVLRSHPDVEYIEQDAIVKVNAFVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPDFEGRATFLRTFVSGQNTDGNGHGTHVSGTIGSRSYGVAKKTQIFGVKVLDNSGSGTFANVIAGMDFVASDSQTRNCPNGSVANMSLGGGYTASVNAAAAALIDAGVFLAVAAGNDGADARNTSPASEPTVCTVGASTSADARASFSNYGSVVDIFAPGQDVLSTWPSGRTNTISGTSMATPHIVGLGAYLLALEGPRDPQALCARIQALSGRSLLSGVPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+R+  APL+   ++  +VA++YIVKFK+GS+L A+D  + KI+    HVY++VF GFAATLD+  + VLR+HPDVEYIEQDA+V +NA  +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HP+FEGRA  ++T+    + DGNGHGTH +GT+GSR+YGVAKKTQ+FGVKVLD++GSG ++ +IAGMDFVASD   RNCP G VA++SLGGGY++SVN+AAA L  +GV +AVAAGN+ ADARN SPASEP+VCTVGAS   D R+SFSNYGSV+DIF PG  +LSTW  G T +ISGTSMATPH+ GL AYL+ L G     + C  I   + +  LS +P GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gb|KAL7947478.1|",
+                  "accession": "KAL7947478",
+                  "title": "peptidase S8/S53 domain-containing protein [Trichoderma barbatum]",
+                  "taxid": 911154,
+                  "sciname": "Trichoderma barbatum"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 476.093,
+                  "score": 1224,
+                  "evalue": 6.42142e-164,
+                  "identity": 236,
+                  "positive": 299,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIE--ARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPIVLAAPATEKRAEPAPLITPASKHGLVADQYIVKFKDGSSLQAVDETLTKLTADAHHVYQHVFRGFAGKLDQETLEALRSHPDIEYIEQDAIVKVNAFVQQTGAPWGLGRISHNARGSTTYVYDDSAGEGTCSYIIDTGVDATHPEFEGRATFLKTYVTGQNTDGNGHGTHVSGTIGSRSYGVAKKTQIFGVKVLDNSGSGTFANVIAGMDFVASDSKTRNCPNGSVANMSLGGGVSAAVNQAAAALISSGVFLAVAAGNDGADARNTSPASEPTVCTVGATTSADARASFSNYGSVVDIFAPGQDILSTWPSGRTNTISGTSMATPHIVGLGAYLLALEGPSSPQALCARIQALAGRSLLSGIPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+R+E APLI   ++  +VA++YIVKFK+GS+L A+D  + K++    HVY++VF GFA  LD+  +  LR+HPD+EYIEQDA+V +NA   QT APWGL RIS  + G++TY YD+SAG+G+C Y+IDTG++A+HPEFEGRA  +KTY    + DGNGHGTH +GT+GSR+YGVAKKTQ+FGVKVLD++GSG ++ +IAGMDFVASD   RNCP G VA++SLGGG S++VN AAA L SSGV +AVAAGN+ ADARN SPASEP+VCTVGA+   D R+SFSNYGSV+DIF PG  ILSTW  G T +ISGTSMATPH+ GL AYL+ L G ++  + C  I   A +  LS IP GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|XP_056027313.1|",
+                  "accession": "XP_056027313",
+                  "title": "subtilase family domain-containing protein [Trichoderma breve]",
+                  "taxid": 2034170,
+                  "sciname": "Trichoderma breve"
+                },
+                {
+                  "id": "gb|KAJ4858257.1|",
+                  "accession": "KAJ4858257",
+                  "title": "subtilase family domain-containing protein [Trichoderma breve]",
+                  "taxid": 2034170,
+                  "sciname": "Trichoderma breve"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 475.707,
+                  "score": 1223,
+                  "evalue": 9.21051e-164,
+                  "identity": 234,
+                  "positive": 298,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIE--ARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPATEKRATPAPLLTPTSKHGLVADQYIVKFKDGSSLQAVDETLTKIASDAHHVYQHVFKGFAATLDQETLEVLRSHPDVEYIEQDAVVKINAYVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPDFEGRATFLRTFVSGQNTDGNGHGTHVSGTIGSRSYGVAKKTSIFGVKVLDNSGSGTFANVIAGMDFVASDSQTRNCPNGSVANMSLGGGYTASVNAAAAALIDAGVFLAVAAGNDGTDARNTSPASEPSVCTVGASTSADARASFSNYGSVVDIFAPGQDVLSTWPSGRTNTISGTSMATPHIVGLGAYLLALEGPRDPQALCSRIQALAGRSLLTGVPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+R+  APL+   ++  +VA++YIVKFK+GS+L A+D  + KI+    HVY++VF GFAATLD+  + VLR+HPDVEYIEQDAVV INA  +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HP+FEGRA  ++T+    + DGNGHGTH +GT+GSR+YGVAKKT +FGVKVLD++GSG ++ +IAGMDFVASD   RNCP G VA++SLGGGY++SVN+AAA L  +GV +AVAAGN+  DARN SPASEPSVCTVGAS   D R+SFSNYGSV+DIF PG  +LSTW  G T +ISGTSMATPH+ GL AYL+ L G     + C  I   A +  L+ +P GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|ADK74313.2|",
+                  "accession": "ADK74313",
+                  "title": "alkaline serine protease P32 [Metapochonia rubescens]",
+                  "taxid": 295097,
+                  "sciname": "Metapochonia rubescens"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 474.937,
+                  "score": 1221,
+                  "evalue": 1.71326e-163,
+                  "identity": 235,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGQRAEPAPLFTPKAESIISGKYIVKFKDGVVRTATDDAVSILSSKADRIYEHAFNGFAGPLTKEELKTLRNHPDVDFIEKDAMMHLNGIVEQNGAPWGLGRISHRAKGSTTYRYDDSAGAGTCVYIIDTGIEASHPEFEGRATFLKSFISGQNTDGNGHGTHCSGTIGSRSYGVAKKTKLFGVKVLDNSGSGSYSGVISGMDYVAQDAKTRSCPKGHFASMSLGGGYSAAVNQAAASLVSSGVFLAVAAGNDNRDAQNTSPASEPSACTVGATASNDARSSFSNYGRVVDIFAPGTGVLSTWIGGSTNTISGTSMATPHIAGLAAYLSALQGPTSPAALCKKIQDTSTKNVITGMPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + QR+E APL   + E +++ KYIVKFK+G   +A D A+  +S K D +Y++ F+GFA  L +  ++ LR HPDV++IE+DA++ +N    Q  APWGL RIS  + G++TY YD+SAG G+CVY+IDTGIEASHPEFEGRA  +K++    + DGNGHGTHC+GT+GSR+YGVAKKT+LFGVKVLD++GSG YS +I+GMD+VA D   R+CPKG  AS+SLGGGYS++VN AAA L SSGV +AVAAGN+N DA+N SPASEPS CTVGA+   D RSSFSNYG V+DIF PGT +LSTWIGGST +ISGTSMATPH+AGLAAYL  L G T+ A+ C+ I DT+ K  ++ +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gb|ACV71845.1|",
+                  "accession": "ACV71845",
+                  "title": "subtilisin-like protease Pr1A [Metarhizium acridum]",
+                  "taxid": 92637,
+                  "sciname": "Metarhizium acridum"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 474.937,
+                  "score": 1221,
+                  "evalue": 2.08578e-163,
+                  "identity": 235,
+                  "positive": 294,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISGITEQSGAPWGLGRISHRQKGSTTYRYDDSAGEGTCVYIIDTGIEASHPEFEGRAAFLKSFISGQNSDGHGHGTHCAGTIGSRAYGVAKKAKLFGVKVLDNQGSGSYSGIISGMDYVAQDSKTRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPSACTVGATDSNDNRSSFSNFGRVVDIFAPGTGVLSTWIGGSTNTISGTSMATPHIAGLAAYLSAIQGKTSPAALCKLIQDTATKNVLKGVPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I+    Q+ APWGL RIS    G++TY YD+SAG+G+CVY+IDTGIEASHPEFEGRA  +K++    + DG+GHGTHCAGT+GSR YGVAKK +LFGVKVLD+ GSG YS II+GMD+VA D   R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEPS CTVGA+D  D RSSFSN+G V+DIF PGT +LSTWIGGST +ISGTSMATPH+AGLAAYL  + GKT+ A+ C+ I DTA K  L  +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gb|KAG6009181.1|",
+                  "accession": "KAG6009181",
+                  "title": "Cuticle-degrading protease [Claviceps lovelessii]",
+                  "taxid": 1806559,
+                  "sciname": "Claviceps lovelessii"
+                }
+              ],
+              "len": 397,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 474.937,
+                  "score": 1221,
+                  "evalue": 2.0974e-163,
+                  "identity": 240,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 393,
+                  "align_len": 393,
+                  "gaps": 13,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGE--MVANKYIVKFKEGSALSALDAAMEKI-------SGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MQLSILLALIPVILAAPGIETRDEPAPLLTPSGDADVVADKYIVKFKDSVTTSAVDEKMDALYAKVLKGKGKVDYVYKNAFNGFAGRLTTTELKKLRDSPDVEYIEKDALMHINAFVDQSASPWGLARISHRAPGNTNYRYDNSAGAGTCAYIIDTGIEASHQEFEGRATFLKSFISGQNSDGNGHGTHCAGTVGSKTYGVAKKAKLYGVKVLDNSGSGSYSAIIAGMDYVAQDAKSRRCPRGVIASMSLGGGYSASINQAAAALVRSGVFIAVAAGNSNRDAQDTSPASEPSVCTVGATDINDNRSSFSNYGRVLDIFAPGTNIVSTWIGGTIRSISGTSMATPHVAGLAAYLSALEGGFSPASLCKRIQSLSTKNVIKGLPSGTLNYLAYN",
+                  "midline": "M+LS+LL+L+P+ L AP +E R E APL+   G+  +VA+KYIVKFK+    SA+D  M+ +        GK D+VYKN F+GFA  L    ++ LR  PDVEYIE+DA++ INA   Q+ +PWGLARIS  +PG + Y YD SAG G+C Y+IDTGIEASH EFEGRA  +K++    + DGNGHGTHCAGTVGS+TYGVAKK +L+GVKVLD++GSG YS IIAGMD+VA D  +R CP+GV+AS+SLGGGYS+S+N AAA L  SGV +AVAAGN+N DA++ SPASEPSVCTVGA+D  D RSSFSNYG VLDIF PGT+I+STWIGG+ RSISGTSMATPHVAGLAAYL  L G  + AS C+ I   + K  +  +P GT+N LAYN"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|ACV71832.1|",
+                  "accession": "ACV71832",
+                  "title": "subtilisin-like protease Pr1A [Metarhizium anisopliae]",
+                  "taxid": 5530,
+                  "sciname": "Metarhizium anisopliae"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 474.552,
+                  "score": 1220,
+                  "evalue": 2.25164e-163,
+                  "identity": 236,
+                  "positive": 296,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISGLTEQSGAPWGLGRISHRSRGSTTYRYDDSAGEGTCVYIIDTGIEASHPEFEGRATFLKSFISGQTTDGHGHGTHCAGTIGSRSYGVAKKAKLYGVKVLDNQGSGSYSGIISGMDYVAQDSKTRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPSACTVGASAENDSRSSFSNYGKVVDIFAPGSNVLSTWIGGRTNTISGTSMATPHIAGLAAYLSALQGKTTPAALCKKIQDTATKNALTGVPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I+    Q+ APWGL RIS  S G++TY YD+SAG+G+CVY+IDTGIEASHPEFEGRA  +K++    + DG+GHGTHCAGT+GSR+YGVAKK +L+GVKVLD+ GSG YS II+GMD+VA D   R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEPS CTVGAS   D RSSFSNYG V+DIF PG+++LSTWIGG T +ISGTSMATPH+AGLAAYL  L GKTT A+ C+ I DTA K  L+ +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gb|KAM3558151.1|",
+                  "accession": "KAM3558151",
+                  "title": "hypothetical protein ARSEF4850_004740 [Beauveria asiatica]",
+                  "taxid": 1069075,
+                  "sciname": "Beauveria asiatica"
+                }
+              ],
+              "len": 379,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 473.396,
+                  "score": 1217,
+                  "evalue": 5.73525e-163,
+                  "identity": 242,
+                  "positive": 301,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 376,
+                  "align_len": 382,
+                  "gaps": 8,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAA--QTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRPSIIAAVLPLAIAAPVVEP----APLIEASGQAIAGNYIVKLKDPAIMSIMDAA-SKVS-KPTIIYTHVFPGYAASLRKDELERLRHDPNVESIEQDAIVSINSIVNQTGAPWGLGRISHRAKGNTTYAYDSSAGEGACAYVIDTGVEDTHPEFEGRAKQVKSFVSGSTDGHGHGTHCAGTIGSKTFGVAKKTRIFGVKVLEDSGSGSLSGVIAGMDFVAQDRKSRNCPKGVIASMSLGGGYSAAVNDAAKRLQASDVFVAVAAGNDNRDAANTSPASEPSVCTVGATDSSDRRSSFSNYGRVLDIFAPGTGILSTWIGGRTNTISGTSMATPHIAGLAAYLLVLGKGTAGNLCKVIQDLSTKNVLTGVPSGTVNYLAFN",
+                  "midline": "MR S++ ++LPLA+ AP VE     APLIEA G+ +A  YIVK K+ + +S +DAA  K+S KP  +Y +VF G+AA+L ++ +  LR  P+VE IEQDA+V+IN+   QT APWGL RIS  + G +TY YD SAG+G+C YVIDTG+E +HPEFEGRA+ VK++   S DG+GHGTHCAGT+GS+T+GVAKKT++FGVKVL+D+GSG  S +IAGMDFVA D+ +RNCPKGV+AS+SLGGGYS++VN AA RLQ+S V VAVAAGN+N DA N SPASEPSVCTVGA+D  DRRSSFSNYG VLDIF PGT ILSTWIGG T +ISGTSMATPH+AGLAAYL+ LGK TA + C+ I D + K  L+ +P GTVN LA+N"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gb|KAG6006639.1|",
+                  "accession": "KAG6006639",
+                  "title": "Cuticle-degrading protease [Claviceps pusilla]",
+                  "taxid": 123648,
+                  "sciname": "Claviceps pusilla"
+                }
+              ],
+              "len": 397,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 473.781,
+                  "score": 1218,
+                  "evalue": 7.37088e-163,
+                  "identity": 239,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 393,
+                  "align_len": 393,
+                  "gaps": 13,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGE--MVANKYIVKFKEGSALSALDAAMEKI-------SGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MQLSILFALIPVILAAPGIETRDEPAPLLTPSGDADVVADKYIVKFKDSVTTSAVDEKMDALYAKVLKGKGKVDYVYKNAFNGFAGRLTTTELKKLRDSPDVEYIEKDALMHINAFVDQSASPWGLARISHRARGNINYRYDNSAGAGTCAYIIDTGIEASHPEFEGRATFLKSFISGQNSDGNGHGTHCAGTVGSKTYGVAKKTKLYGIKVLNNSGSGSYSVIIAGMDYVAQDAKSRRCPRGVIASMSLGGGYSASINQAAAALVRSGVFIAVAAGNSNRDAQDTSPASEPSVCTVGATDINDNRSSFSNYGRVLDIFAPGTNIVSTWIGGTTRSISGTSMATPHVAGLAAYLSALEGGFSPASLCKRIQSLSTKNVIKGLPSGTLNYLAYN",
+                  "midline": "M+LS+L +L+P+ L AP +E R E APL+   G+  +VA+KYIVKFK+    SA+D  M+ +        GK D+VYKN F+GFA  L    ++ LR  PDVEYIE+DA++ INA   Q+ +PWGLARIS  + G   Y YD SAG G+C Y+IDTGIEASHPEFEGRA  +K++    + DGNGHGTHCAGTVGS+TYGVAKKT+L+G+KVL+++GSG YS IIAGMD+VA D  +R CP+GV+AS+SLGGGYS+S+N AAA L  SGV +AVAAGN+N DA++ SPASEPSVCTVGA+D  D RSSFSNYG VLDIF PGT+I+STWIGG+TRSISGTSMATPHVAGLAAYL  L G  + AS C+ I   + K  +  +P GT+N LAYN"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gb|KKP06357.1|",
+                  "accession": "KKP06357",
+                  "title": "proteinase T [Trichoderma harzianum]",
+                  "taxid": 5544,
+                  "sciname": "Trichoderma harzianum"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 473.396,
+                  "score": 1217,
+                  "evalue": 7.59339e-163,
+                  "identity": 233,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIE--ARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTIN--AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPATEKRATPAPLLTPTSKHGLVADQYIVKFKDGSSLQAVDETLTKIASDAHHVYQHVFKGFAATLDQETLEALRSHPDVEYIEQDAVVKINTYVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPEFEGRATFLKTFVSGQNTDGNGHGTHVSGTIGSRSYGVAKKTSIYGVKVLDNSGSGTFANVIAGMDFVASDSQTRNCPNGSVANMSLGGGYTASVNAAAAALIDAGVFLAVAAGNDGADARNTSPASEPTVCTVGASTSADARASFSNYGTVVDIFAPGQDVLSTWPSGRTNTISGTSMATPHIVGLGAYLLALEGPRDPQALCSRIQALSGRSLLSGIPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+R+  APL+   ++  +VA++YIVKFK+GS+L A+D  + KI+    HVY++VF GFAATLD+  +  LR+HPDVEYIEQDAVV IN   +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HPEFEGRA  +KT+    + DGNGHGTH +GT+GSR+YGVAKKT ++GVKVLD++GSG ++ +IAGMDFVASD   RNCP G VA++SLGGGY++SVN+AAA L  +GV +AVAAGN+ ADARN SPASEP+VCTVGAS   D R+SFSNYG+V+DIF PG  +LSTW  G T +ISGTSMATPH+ GL AYL+ L G     + C  I   + +  LS IP GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|XP_007821864.1|",
+                  "accession": "XP_007821864",
+                  "title": "alkaline serine protease P32 [Metarhizium robertsii ARSEF 23]",
+                  "taxid": 655844,
+                  "sciname": "Metarhizium robertsii ARSEF 23"
+                },
+                {
+                  "id": "gb|EFY98536.1|",
+                  "accession": "EFY98536",
+                  "title": "alkaline serine protease P32 [Metarhizium robertsii ARSEF 23]",
+                  "taxid": 655844,
+                  "sciname": "Metarhizium robertsii ARSEF 23"
+                },
+                {
+                  "id": "gb|EXV04324.1|",
+                  "accession": "EXV04324",
+                  "title": "peptidase S8 family protein, Pr1A [Metarhizium robertsii]",
+                  "taxid": 568076,
+                  "sciname": "Metarhizium robertsii"
+                },
+                {
+                  "id": "gb|KAN1854102.1|",
+                  "accession": "KAN1854102",
+                  "title": "allergen Pen N 13 family protein [Metarhizium robertsii ARSEF 2575]",
+                  "taxid": 1432499,
+                  "sciname": "Metarhizium robertsii ARSEF 2575"
+                },
+                {
+                  "id": "emb|CAC95049.1|",
+                  "accession": "CAC95049",
+                  "title": "subtilisin-like serine protease PR1A [Metarhizium anisopliae]",
+                  "taxid": 5530,
+                  "sciname": "Metarhizium anisopliae"
+                }
+              ],
+              "len": 388,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 473.011,
+                  "score": 1216,
+                  "evalue": 8.41011e-163,
+                  "identity": 236,
+                  "positive": 295,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISGITEQSGAPWGLGRISHRSKGSTTYRYDDSAGQGTCVYIIDTGIEASHPEFEGRATFLKSFISGQNTDGHGHGTHCAGTIGSKTYGVAKKAKLYGVKVLDNQGSGSYSGIISGMDYVAQDSKTRGCPNGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPSACTVGASAENDSRSSFSNYGRVVDIFAPGSNVLSTWIGGRTNTISGTSMATPHIAGLAAYLSALQGKTTPAALCKKIQDTATKNVLTGVPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I+    Q+ APWGL RIS  S G++TY YD+SAGQG+CVY+IDTGIEASHPEFEGRA  +K++    + DG+GHGTHCAGT+GS+TYGVAKK +L+GVKVLD+ GSG YS II+GMD+VA D   R CP G +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEPS CTVGAS   D RSSFSNYG V+DIF PG+++LSTWIGG T +ISGTSMATPH+AGLAAYL  L GKTT A+ C+ I DTA K  L+ +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "emb|CAR0601464.1|",
+                  "accession": "CAR0601464",
+                  "title": "unnamed protein product [Trichoderma afroharzianum]",
+                  "taxid": 1567482,
+                  "sciname": "Trichoderma afroharzianum"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 473.011,
+                  "score": 1216,
+                  "evalue": 1.06558e-162,
+                  "identity": 233,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIE--ARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTIN--AAQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSLLPMVLAAPATEKRATPAPLLTPTSKHGLVADQYIVKFKDGSSLQAVDETLTKIASDAHHVYQHVFKGFAATLDQETLEALRSHPDVEYIEQDAVVKINTYVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPEFEGRATFLKTFVSGQNTDGNGHGTHVSGTIGSRSYGVAKKTSIYGVKVLDNSGSGTFANVIAGMDFVASDSQTRNCPNGSVANMSLGGGYTASVNAAAAALIDAGVFLAVAAGNDGADARNTSPASEPTVCTVGASTSADARASFSNYGTVVDIFAPGQDVLSTWPSGRTNTISGTSMATPHIVGLGAYLLALEGPRGPQALCSRIQALSGRSLLSGIPSGTINAVAFN",
+                  "midline": "MRLSVLLSLLP+ L APA E+R+  APL+   ++  +VA++YIVKFK+GS+L A+D  + KI+    HVY++VF GFAATLD+  +  LR+HPDVEYIEQDAVV IN   +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HPEFEGRA  +KT+    + DGNGHGTH +GT+GSR+YGVAKKT ++GVKVLD++GSG ++ +IAGMDFVASD   RNCP G VA++SLGGGY++SVN+AAA L  +GV +AVAAGN+ ADARN SPASEP+VCTVGAS   D R+SFSNYG+V+DIF PG  +LSTW  G T +ISGTSMATPH+ GL AYL+ L G     + C  I   + +  LS IP GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gb|AAL75579.1|",
+                  "accession": "AAL75579",
+                  "title": "serine protease prots [Tolypocladium inflatum]",
+                  "taxid": 29910,
+                  "sciname": "Tolypocladium inflatum"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 472.626,
+                  "score": 1215,
+                  "evalue": 1.19603e-162,
+                  "identity": 238,
+                  "positive": 294,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 384,
+                  "align_len": 385,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARG--EMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSILLSILPMVLAAPAA-KRDEPAPLLVPRGNHELIADKYIVKFKEGSALSVLEDTMSSLTGNADHVYDVVFKGFAGHLDKVMLDVLRGHPDVEYIEQDAMVTINGFVSQPGATWGLGRVSHRQPGATSYDHDSSAGAGTCAYVIDTGVEASHPEFEGRAAQVKSFINGQNSDGNGHGTHVSGTIGSKSYGIAKKTKIYGVKVLDNQGSGSFSSIIAGMDFVAKDAKTRGCPKGAVANMSLGGGYAASVNQAAAALVNSGVFLGVAAGNSNTDAGSTSPASETSACTVGATDRNDNRSSFSNYGSVVDIFGPGSDILSTWIGGRTNTISGTSMATPHIVGLAAYIGGLEGRTGGAVCNRLQELATRNAIRGVPSGTKNLLAFN",
+                  "midline": "MRLS+LLS+LP+ L APA  +R E APL+  RG  E++A+KYIVKFKEGSALS L+  M  ++G  DHVY  VF GFA  LD+ M+ VLR HPDVEYIEQDA+VTIN   +Q  A WGL R+S   PG ++Y +D SAG G+C YVIDTG+EASHPEFEGRA  VK++    + DGNGHGTH +GT+GS++YG+AKKT+++GVKVLD+ GSG +S+IIAGMDFVA D   R CPKG VA++SLGGGY++SVN AAA L +SGV + VAAGN+N DA + SPASE S CTVGA+DR D RSSFSNYGSV+DIFGPG+ ILSTWIGG T +ISGTSMATPH+ GLAAY+  L   T  + C  + + A +  +  +P GT NLLA+N"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gb|AEV66165.1|",
+                  "accession": "AEV66165",
+                  "title": "alkaline serine protease P32 [Metapochonia rubescens]",
+                  "taxid": 295097,
+                  "sciname": "Metapochonia rubescens"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 473.011,
+                  "score": 1216,
+                  "evalue": 1.21205e-162,
+                  "identity": 234,
+                  "positive": 296,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGQRAEPAPLFTPKAESIISGKYIVKFKDGVVRTATDDAVSILSSKADRIYEHAFNGFAGPLTKEELKTLRNHPDVDFIEKDAMMHLNGIVEQNGAPWGLGRISHRAKGSATYRYDDSAGAGTCVYIIDTGIEASHPEFEGRATFLKSFISGQNTDGNGHGTHCSGTIGSRSYGVAKKAKLFGVKVLDNSGSGSYSGVISGMDYVAQDAKTRSCPKGHFASMSLGGGYSAAVNQAAASLVSSGVFLAVAAGNDNRDAQNTSPASEPSACTVGATASNDARSSFSNYGRVVDIFAPGTGVLSTWIGGSTNTISGTSMATPHIAGLAAYLSALQGPTSPAALCKKIQDTSTKNVITGMPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + QR+E APL   + E +++ KYIVKFK+G   +A D A+  +S K D +Y++ F+GFA  L +  ++ LR HPDV++IE+DA++ +N    Q  APWGL RIS  + G++TY YD+SAG G+CVY+IDTGIEASHPEFEGRA  +K++    + DGNGHGTHC+GT+GSR+YGVAKK +LFGVKVLD++GSG YS +I+GMD+VA D   R+CPKG  AS+SLGGGYS++VN AAA L SSGV +AVAAGN+N DA+N SPASEPS CTVGA+   D RSSFSNYG V+DIF PGT +LSTWIGGST +ISGTSMATPH+AGLAAYL  L G T+ A+ C+ I DT+ K  ++ +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gb|ACV71846.1|",
+                  "accession": "ACV71846",
+                  "title": "subtilisin-like protease Pr1A [Metarhizium majus]",
+                  "taxid": 1650735,
+                  "sciname": "Metarhizium majus"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 472.626,
+                  "score": 1215,
+                  "evalue": 1.70086e-162,
+                  "identity": 234,
+                  "positive": 298,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAA--QTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISSLTDQSGAPWGLGRISHRNKGSTTYRYDDSAGEGTCVYIIDTGIEASHPEFQGRATFLKSFINGQTSDGHGHGTHCAGTIGSKTYGVAKKAKLYGVKVLDNQGSGSYSGIISGMDYVAKDSKTRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPTACTVGATDSGDNRSSFSNYGRVVDIFAPGSNVLSTWINGGTNSISGTSMATPHIAGLAAYLSALQGKTSPAALCKKIQDTATKNVLSGVPSGTVNLLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I++   Q+ APWGL RIS  + G++TY YD+SAG+G+CVY+IDTGIEASHPEF+GRA  +K++    + DG+GHGTHCAGT+GS+TYGVAKK +L+GVKVLD+ GSG YS II+GMD+VA D   R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEP+ CTVGA+D  D RSSFSNYG V+DIF PG+++LSTWI G T SISGTSMATPH+AGLAAYL  L GKT+ A+ C+ I DTA K  LS +P GTVNLLAYN"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gb|OPB41391.1|",
+                  "accession": "OPB41391",
+                  "title": "Subtilisin like protease (SUB9) [Trichoderma guizhouense]",
+                  "taxid": 1491466,
+                  "sciname": "Trichoderma guizhouense"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 472.241,
+                  "score": 1214,
+                  "evalue": 1.96517e-162,
+                  "identity": 230,
+                  "positive": 298,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLI--EARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSILPMVLAAPATEKRATPAPLLVPTSKHGLVADQYIVKFKDGSSLQAVDETLTKIASDAHHVYQHVFKGFAATLDQETLEVLRSHPDVEYIEQDAIVKVNAFVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPEFEGRATFLRTFVSGQNTDGNGHGTHVSGTIGSRSYGVAKKTSIYGVKVLDNSGSGTFANVIAGMDFVADDAQTRNCPNGSVANMSLGGGFTASVNAAAAALIQAGVFLAVAAGNDGADARNTSPASEPTVCTVGASTSADARASFSNYGSVVDIFAPGQDVLSTWPSGRTNTISGTSMATPHIVGLGAYLLALEGPRDPQALCSRIQALAGRSLLSGVPSGTINAVAFN",
+                  "midline": "MRLSVLLS+LP+ L APA E+R+  APL+   ++  +VA++YIVKFK+GS+L A+D  + KI+    HVY++VF GFAATLD+  + VLR+HPDVEYIEQDA+V +NA  +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HPEFEGRA  ++T+    + DGNGHGTH +GT+GSR+YGVAKKT ++GVKVLD++GSG ++ +IAGMDFVA D   RNCP G VA++SLGGG+++SVN+AAA L  +GV +AVAAGN+ ADARN SPASEP+VCTVGAS   D R+SFSNYGSV+DIF PG  +LSTW  G T +ISGTSMATPH+ GL AYL+ L G     + C  I   A +  LS +P GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gb|ACV71847.1|",
+                  "accession": "ACV71847",
+                  "title": "subtilisin-like protease Pr1A [Metarhizium majus]",
+                  "taxid": 1650735,
+                  "sciname": "Metarhizium majus"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 472.241,
+                  "score": 1214,
+                  "evalue": 2.11643e-162,
+                  "identity": 234,
+                  "positive": 298,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAA--QTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISSLTDQSGAPWGLGRISHRNKGSTTYRYDDSAGEGTCVYIIDTGIEASHPEFQGRATFLKSFINGQNSDGHGHGTHCAGTIGSKTYGVAKKAKLYGVKVLDNQGSGSYSGIISGMDYVAKDSKTRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPTACTVGATDSGDNRSSFSNYGRVVDIFAPGSNVLSTWINGGTNSISGTSMATPHIAGLAAYLSALQGKTSPAALCKKIQDTATKNVLSGVPSGTVNLLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I++   Q+ APWGL RIS  + G++TY YD+SAG+G+CVY+IDTGIEASHPEF+GRA  +K++    + DG+GHGTHCAGT+GS+TYGVAKK +L+GVKVLD+ GSG YS II+GMD+VA D   R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEP+ CTVGA+D  D RSSFSNYG V+DIF PG+++LSTWI G T SISGTSMATPH+AGLAAYL  L GKT+ A+ C+ I DTA K  LS +P GTVNLLAYN"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gb|ACV71833.1|",
+                  "accession": "ACV71833",
+                  "title": "subtilisin-like protease Pr1A [Metarhizium anisopliae]",
+                  "taxid": 5530,
+                  "sciname": "Metarhizium anisopliae"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 472.241,
+                  "score": 1214,
+                  "evalue": 2.23531e-162,
+                  "identity": 233,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSR-DGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISGLTEQSGAPWGLGRISHRNRGSTTYRYDDSAGEGTCVYIIDTGIEASHPEFEGRATFLRSFISGQETDGHGHGTHCAGTIGSKSYGVAKKAKLYGVKVLDNQGSGSYSGIISGMDYVAQDSKSRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPSACTVGASEENDSRSSFSNYGKVVDIFAPGSNVLSTWIGGRTNTISGTSMATPHIAGLAAYLSALQGKTTPAALCKKIQDTATKSVLTGVPSGTVNYLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I+    Q+ APWGL RIS  + G++TY YD+SAG+G+CVY+IDTGIEASHPEFEGRA  ++++      DG+GHGTHCAGT+GS++YGVAKK +L+GVKVLD+ GSG YS II+GMD+VA D  +R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEPS CTVGAS+  D RSSFSNYG V+DIF PG+++LSTWIGG T +ISGTSMATPH+AGLAAYL  L GKTT A+ C+ I DTA K  L+ +P GTVN LAYN"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gb|KAM3564526.1|",
+                  "accession": "KAM3564526",
+                  "title": "hypothetical protein MY1884_000726 [Beauveria asiatica]",
+                  "taxid": 1069075,
+                  "sciname": "Beauveria asiatica"
+                }
+              ],
+              "len": 379,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 471.47,
+                  "score": 1212,
+                  "evalue": 3.15625e-162,
+                  "identity": 241,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 376,
+                  "align_len": 382,
+                  "gaps": 8,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLIEARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAA--QTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYYSSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTLGKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRPSIIAAVLPLAIAAPVVEP----APLIEASGQAIAGNYIVKLKDPATMSIMDAA-SKVS-KRTFTYTNLFPGFAASLRKDELERLRHDPNVESIEQDAIVSINSIVNQTGAPWGLGRISHRAKGNTTYVHDSSAGEGACAYVIDTGVEDTHPEFEGRAEQVQSFVSGRTDGHGHGTHCAGTIGSKTFGVAKKVTIFGVKVLNNNGSGTLSGVIAGMDFVAEDRNKRNCPNGVIASMSLGGGYSASVNQAAARLQASGVFVAVAAGNDNRDAANTSPASEPSVCTVGATDSSDRRSSFSNYGRVLDIFAPGTGILSTWIGGRTNTISGTSMATPHIAGLAAYLLVLGKGTAGNLCKVIQDLSTKNVLTGVPSGTVNYLAFN",
+                  "midline": "MR S++ ++LPLA+ AP VE     APLIEA G+ +A  YIVK K+ + +S +DAA  K+S K    Y N+F GFAA+L ++ +  LR  P+VE IEQDA+V+IN+   QT APWGL RIS  + G +TY +D SAG+G+C YVIDTG+E +HPEFEGRA+ V+++     DG+GHGTHCAGT+GS+T+GVAKK  +FGVKVL++NGSG  S +IAGMDFVA D+N RNCP GV+AS+SLGGGYS+SVN AAARLQ+SGV VAVAAGN+N DA N SPASEPSVCTVGA+D  DRRSSFSNYG VLDIF PGT ILSTWIGG T +ISGTSMATPH+AGLAAYL+ LGK TA + C+ I D + K  L+ +P GTVN LA+N"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gb|KAM6484636.1|",
+                  "accession": "KAM6484636",
+                  "title": "subtilisin-like protein [Trichoderma sp. SZMC 28011]",
+                  "taxid": 2724209,
+                  "sciname": "Trichoderma sp. SZMC 28011"
+                }
+              ],
+              "len": 391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 471.47,
+                  "score": 1212,
+                  "evalue": 4.13208e-162,
+                  "identity": 229,
+                  "positive": 298,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPAVEQRSEAAPLI--EARGEMVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINA--AQTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MRLSVLLSILPMVLAAPATEKRATPAPLLVPTSKHGLVADQYIVKFKDGSSLQAVDETLTKIASDAHHVYQHVFKGFAATLDQETLEVLRSHPDVEYIEQDAIVKVNAFVSQTGAPWGLGRISHKARGSTTYVYDDSAGAGTCSYIIDTGVDATHPEFEGRATFLRTFVSGQNTDGNGHGTHVSGTIGSRSYGVAKKTSIYGVKVLDNSGSGTFANVIAGMDFVADDAQTRNCPNGSVANMSLGGGFTASVNAAAAALIQAGVFLAVAAGNDGADARNTSPASEPTVCTVGASTSADARASFSNYGAVVDIFAPGQDVLSTWPSGRTNTISGTSMATPHIVGLGAYLLALEGPRDPQALCSRIQALAGRSLLSGVPSGTINAVAFN",
+                  "midline": "MRLSVLLS+LP+ L APA E+R+  APL+   ++  +VA++YIVKFK+GS+L A+D  + KI+    HVY++VF GFAATLD+  + VLR+HPDVEYIEQDA+V +NA  +QT APWGL RIS  + G++TY YD+SAG G+C Y+IDTG++A+HPEFEGRA  ++T+    + DGNGHGTH +GT+GSR+YGVAKKT ++GVKVLD++GSG ++ +IAGMDFVA D   RNCP G VA++SLGGG+++SVN+AAA L  +GV +AVAAGN+ ADARN SPASEP+VCTVGAS   D R+SFSNYG+V+DIF PG  +LSTW  G T +ISGTSMATPH+ GL AYL+ L G     + C  I   A +  LS +P GT+N +A+N"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gb|KID99965.1|",
+                  "accession": "KID99965",
+                  "title": "subtilisin-like protease Pr1A, partial [Metarhizium majus ARSEF 297]",
+                  "taxid": 1276143,
+                  "sciname": "Metarhizium majus ARSEF 297"
+                }
+              ],
+              "len": 390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 471.47,
+                  "score": 1212,
+                  "evalue": 4.45017e-162,
+                  "identity": 234,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 380,
+                  "hit_from": 1,
+                  "hit_to": 386,
+                  "align_len": 386,
+                  "gaps": 6,
+                  "qseq": "MRLSVLLSLLPLALGAPA-VEQRSEAAPLIEARGE-MVANKYIVKFKEGSALSALDAAMEKISGKPDHVYKNVFSGFAATLDENMVRVLRAHPDVEYIEQDAVVTINAA--QTNAPWGLARISSTSPGTSTYYYDESAGQGSCVYVIDTGIEASHPEFEGRAQMVKTYYY-SSRDGNGHGTHCAGTVGSRTYGVAKKTQLFGVKVLDDNGSGQYSTIIAGMDFVASDKNNRNCPKGVVASLSLGGGYSSSVNSAAARLQSSGVMVAVAAGNNNADARNYSPASEPSVCTVGASDRYDRRSSFSNYGSVLDIFGPGTSILSTWIGGSTRSISGTSMATPHVAGLAAYLMTL-GKTTAASACRYIADTANKGDLSNIPFGTVNLLAYN",
+                  "hseq": "MHLSALLTLLPAVLAAPATIGRRAEPAPLFTPQAESIIADKYIVKFKDDIARIATDDTVSALTSKADFVYEHAFHGFAGSLTKEELKMLREHPGVDFIEKDAVMRISSLTDQSGAPWGLGRISHRNKGSTTYRYDNSAGEGTCVYIIDTGIEASHPEFQGRATFLKSFINGQNSDGHGHGTHCAGTIGSKTYGVAKKAKLYGVKVLDNQGSGSYSGIISGMDYVAKDSKTRGCPKGAIASMSLGGGYSASVNQGAAALVNSGVFLAVAAGNDNRDAQNTSPASEPTACTVGATDSGDNRSSFSNYGRVVDIFAPGSNVLSTWINGGTNSISGTSMATPHIAGLAAYLSALQGKTSPAALCKKIQDTATKNVLSGVPSGTVNLLAYN",
+                  "midline": "M LS LL+LLP  L APA + +R+E APL   + E ++A+KYIVKFK+  A  A D  +  ++ K D VY++ F GFA +L +  +++LR HP V++IE+DAV+ I++   Q+ APWGL RIS  + G++TY YD SAG+G+CVY+IDTGIEASHPEF+GRA  +K++    + DG+GHGTHCAGT+GS+TYGVAKK +L+GVKVLD+ GSG YS II+GMD+VA D   R CPKG +AS+SLGGGYS+SVN  AA L +SGV +AVAAGN+N DA+N SPASEP+ CTVGA+D  D RSSFSNYG V+DIF PG+++LSTWI G T SISGTSMATPH+AGLAAYL  L GKT+ A+ C+ I DTA K  LS +P GTVNLLAYN"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 1123578564,
+            "db_len": 424066497980,
+            "hsp_len": 171,
+            "eff_space": 49402062033168,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          },
+          "message": "Warning: Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/\u000A"
+        }
+      }
+    }
+  }
+]
+}
+

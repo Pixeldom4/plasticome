@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+234023967	INSDC	SEEZ01000022.1	19440	20327	-	RZL02950.1	alpha/beta hydrolase	Rubrivivax sp.		GCA_004211355.1

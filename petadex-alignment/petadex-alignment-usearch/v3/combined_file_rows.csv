@@ -1,0 +1,447 @@
+enzyme_name,organism,sequence_md5,node_id,sequence_length,matches_v1_node
+HP,Ectopseudomonas mendocina,004af9e9b29cb7a99eee6d96edfaabcd,m0001,280,0
+PHL-1,compost metagenome,00855c73c087597a6c69fa2b114d731e,m0002,260,1
+ScPETase,Streptomyces calvus,009e600d3a7df316a22764026a76e2bc,m0003,300,0
+TEP037,,010991495537828f0796c93512058d2e,m0004,259,0
+DmC,Dactylonectria macrodidyma,02048bc3dc3b8c853e51fcc55038f6ac,m0005,237,1
+1821,Streptomyces violaceusniger,04eb6f62384740641a457083240d65be,m0007,378,0
+1591,Micromonospora haikouensis,0600d8fd8a62760bde8393fb0fde0e0d,m0008,463,0
+LipMRD9,Bacillus safensis,067e281972e92f24fb345ef6c8870caa,m0009,215,1
+UMG-SP-2,Environmental sample,06d89e9f595b7abc6f662a4ea5fc3f77,m0010,439,1
+Nyl37,Dehalococcoidia bacterium,06ea0302cc54279d54aebaa45774cfe7,m0011,311,0
+LatA,Piscinibacter gummiphilus,073907a632be32c5b92c8381c4de0c90,m0012,679,1
+TEP091,Cellulomonas iranensis,073f8bc76f09e2183891c86f93e05b7d,m0013,284,0
+TEP105,Saccharopolyspora hirsuta,07624194bbcd6bf29fe626de86e9ca46,m0014,295,0
+PhaZ7,Paucimonas lemoignei,085add734f10d1917f9638347ab618d2,m0015,380,1
+ESM101,Micromonospora sp. RL09-050-HVF-A,0a552022c4776bbf93ebe23164db0cd0,m0016,474,0
+LP175,Laceyella sacchari,0ac767e72406f2fc0cf50fd9008e6f16,m0017,385,1
+PET93,Maribacter dokdonensis,0b490a6d93d67b0ebb2d6cd3d80f9d9a,m0018,434,0
+ESM160,Asanoa hainanensis,0bed3021f541af53d7f9285ae8d85094,m0019,296,0
+AmdA,Agrobacterium tumefaciens,0c554c0dd255de614d248db3118d89da,m0020,517,1
+PHL-5,Compost metagenome,0c75d9f81ae52914a609ec24d4c68ea2,m0021,257,1
+Nyl50,Alphaproteobacteria bacterium,0ccba4d53ac83e5437ecd1027cfe4ab8,m0022,305,0
+PlaM7,PLA disk compost metagenome,0ce515d8f0c2a6b72722a127e726b8d7,m0023,283,1
+CYP450,Homo sapiens,0d1c7296209804664d2da95c23eea089,m0024,503,0
+PueA,Pseudomonas protegens,0d26a77d2ffda03e4582e295927066c6,m0025,617,1
+1538,Plantactinospora sp. B6F1,0d51bfebc665db66f2d9c28959b141d3,m0026,472,0
+Arylacylamidase,Nocardia globerula,0dd151000d71720a7a8996bf7fb3acbf,m0027,28,0
+CpCut1,Cladosporium sp.,0e841a3c1f59a0cfd7b1ac47b6e7b1bd,m0028,221,1
+1654,Crossiella equi,0f43f7fe3f0c0042197df2508ee850e3,m0029,418,0
+PhaZAfa,Alcaligenes faecalis,0ff17ebdb173018728d2219bcd5f4e38,m0030,488,0
+Urethanase,Lysinibacillus fusiformis,1090fc7df5cb6e4866fd00779c1d8e28,m0031,472,1
+GatA,Lysinibacillus fusiformis,1090fc7df5cb6e4866fd00779c1d8e28,m0031,472,1
+702,Thermobifida fusca,10d87dbad4c4c7bfd7d5c331cef5b9ce,m0032,262,1
+PET6,Vibrio gazogenes,10e219e71a25db666947cbd3afc63123,m0033,298,1
+Nyl71,Acidobacteriota bacterium,10f99a34d701d302d6cd789182b6508e,m0034,359,0
+Chath_Est1,Hungatella hathewayi,1101bda63c95a021aad8d9924dfba646,m0035,528,0
+PBATHBp,Bacillus pumilus,11448cbf80389c1a758d8dfcba90907c,m0036,215,1
+CtPl,Caldimonas taiwanensis,1197ee1b96f74dd16a31dad1ba334c46,m0037,292,1
+IS11,Dehalococcoidia bacterium,12efbdad63de5275909365067113db41,m0038,455,1
+CaPETase,Cryptosporangium aurantiacum,1361228bf3f1c19ea8214555076414a7,m0039,299,1
+409,Ketobacter sp.,14a5c3e1584a0ee2518f18810a7fed98,m0040,269,1
+lcp2,,14c85d0adef7eb6df5a6ed35c4a73ba8,m0041,402,0
+PhaY2,Cupriavidus necator,15317ec096461afae2a6111e17b27633,m0042,293,1
+403,Ketobacter sp.,1545cf731ea10ee62b256807199e37d8,m0043,312,1
+PLE628,Marinobacter sp.,15938ddd57d7448aa110a9139193c91b,m0044,307,1
+1617,Micromonospora lupini,161e4dc2c4ef1e36fe625c65439a815b,m0045,465,0
+406,Comamonadaceae bacterium,174ba911d73b1edc801c52651ec17efd,m0047,305,1
+TEP054,Dactylosporangium aurantiacum,17cf0142a842915adf56bd16d1f70336,m0048,437,0
+ESM093,Dactylosporangium siamense,1801d10ed570ce70933bdbe9f25a34b6,m0049,279,0
+TfH,Thermobifida fusca,1825599eda3fb3a78763126d00597799,m0050,261,0
+PLAase III,Amycolatopsis orientalis,18de7a550936804f8be57fdf26a8e0e3,m0051,176,0
+APET-25,Actinophytocola sp.,18f1178aa194bcd44f9de9bf8b6ef166,m0052,285,0
+Lcp1VH2,Gordonia polyisoprenivorans,198d14bb37149debc526a3f90e777956,m0053,407,1
+LCC,,1b0d2c147b96bad033703fb124a50764,m0054,293,1
+BsMPPE,Bacillus subtilis,1dac4ce79e11274c7297487b461232e1,m0055,259,0
+711,Thermobifida cellulosilytica,1e1f498fae0e6d56fb87a52a1fef96ff,m0056,284,1
+Nyl16,Candidimonas nitroreducens,1fd045e8b65176376e182facc216b772,m0057,335,0
+ESM059,Micromonospora craterilacus,2053c1f056678cc0df8796d8990fb355,m0058,462,0
+1392,Streptomyces sp. MA5143a,20f7abda67d907b1e03456185b9a7df8,m0059,287,0
+Nyl47,Kribbella sindirgiensis,213f66a13d29726369cc62acb0ec8c5b,m0060,287,0
+TEP092,Plantactinospora endophytica,21529d199ac34be22c7967f66af4194b,m0061,472,0
+ESM144,Catellatospora bangladeshensis,21b9ee3c2d064bd97bf205292edd4e77,m0062,288,0
+Ces39_5,Caldibacillus thermoamylovorans,228edba5269227f472a446139a646369,m0063,249,1
+1507,Catellatospora sichuanensis,2510ccd8faea4efb0652cab75394adfa,m0065,275,0
+PBATHRF,Rhodococcoides fascians,255e2b78ca9f54fe397d3917c1c6cae9,m0067,216,1
+RCut,Rhodococcus sp. (in: high G+C Gram-positive bacteria),255e2b78ca9f54fe397d3917c1c6cae9,m0067,216,1
+Ces19_14,Caldibacillus thermoamylovorans,263a6865371a5e0924e53280192fa035,m0068,240,1
+PhaZ1,Cupriavidus necator,263b6d9cf1f73ddee6c8d0410fdaf229,m0069,419,1
+Nyl73,Stecheria intestinalis,27b40925ec9dab01a97010da9157f232,m0070,319,0
+Est8_89,Caldibacillus thermoamylovorans,2952634441666dbdb22a48ce9cde12c5,m0071,266,1
+DP090,Streptomyces sp. ST2-7A,2a3c4f5280e7c5835b8e1428f7044fe3,m0072,314,0
+DIEGO,uncultured bacterium,2a9215b62ae074282dc7ffcda6232192,m0073,293,0
+APET-28,Cellvibrionaceae bacterium,2af6d737171357f18fd9f3cddedf6015,m0075,275,0
+MG8,Oral metagenome,2b913d598a604cd64df1b67d929b5d6f,m0076,307,0
+Est1,Thermobifida alba,2b9fd2b29499ad2d285db6505328e11d,m0077,296,1
+APET-19,Thermomonospora umbrina,2c71453465b0acb39d172983ac4a7387,m0078,279,0
+PbauzCut,Halopseudomonas bauzanensis,2cd5f487f5114193eaf1c99806f6ef63,m0079,302,1
+ESM043,Streptomyces sp. NRRL F-5123,2cdb0469feb77ba7e2d63ca3b108b137,m0080,426,0
+TEP067,Actinomadura sp. K4S16,2d321d769e7c7464a135d954c2a9a866,m0081,309,0
+1228,Actinokineospora iranica,2da35d44369fc57fbab077687acd8caf,m0082,281,0
+Sis,uncultured bacterium,2ddc62c97241531aed04530538ae54d8,m0083,282,1
+PCLE,Paraphoma sp. B47-9,2faa60f73ded9c502787ece47fca13f7,m0084,227,1
+1424,Actinokineospora spheciospongiae,31564b91ecf89c422e16abc249221256,m0085,316,0
+DP039,Piscinibacter gummiphilus,3159d0f519fd0565b7134f18713e8324,m0086,289,0
+lcp1,,316e87e4b339708fb285d715f460c8d2,m0087,406,0
+TEP041,Crossiella sp. SN42,3195c72d9a6cc23e6a918505eb460744,m0088,266,0
+RgCut-2,Piscinibacter gummiphilus,31e8cee08e99636ef7d35f9f5457bb57,m0089,279,1
+PhaZ5,Cupriavidus necator,32320ea9636947aaaa29de601c9a9fa4,m0090,407,1
+PaE,Moesziomyces antarcticus,339540f3809d8ac98ee633f1da7247e9,m0093,224,1
+MGS0084,Environmental metagenome,342ff8b50fc233be7b68dc6cd032d5a7,m0094,411,1
+Nyl93,Gordonia asplenii,34845c057c0fc493b1f6938327b2a52a,m0095,376,0
+TEP014,Bioreactor metagenome,3553b7c612834728bae59c60af19fbda,m0096,300,0
+APET-17,Rhizobacter sp.,362632b30b43e3854087c699d608f0b1,m0097,290,0
+DP006,Actinokineospora alba,36a989ab704be3f0d22479cc94524084,m0098,294,0
+ESM065,Micromonospora qiuiae,38977381259c624bdcec8191c6717c7a,m0100,323,0
+Nyl87,Peptoniphilus sp. BV3C26,39f5ef8b2abbe007e623b9ceb5a0c815,m0101,313,0
+DP017,Actinokineospora xionganensis,3a8b3b50918fa1553710b5c8d094771c,m0102,283,0
+Nyl68,Bacteroidota bacterium,3b00f12fd36416ff8790c3e56ebd219c,m0103,312,0
+1457,Amycolatopsis vastitatis,3b8571a2d62a99f31d344cab5662e8e5,m0104,302,0
+Proteinase K,Parengyodontium album,3ccbadd7e660120a138f6df238b1b9ae,m0105,384,1
+1240,Luteipulveratus halotolerans,3cdb04dfc6e8e2e6816fbe523d088f25,m0106,303,0
+Lcp2VH2,Gordonia polyisoprenivorans,3d98c4ffc15561968b8fbb11d2ed071a,m0107,388,1
+PLAase I,Amycolatopsis orientalis,3daf95d51a344e67e10dd0832d970bba,m0108,245,0
+1545,Micromonospora sediminimaris,3dcbffcfab5a9bf0b1856144dd30e5ef,m0109,467,0
+TEP102,Streptomyces sp. V2,3ecb425bded1a0f79d8f0e0d110588f5,m0110,432,0
+ESM186,Halopseudomonas yangmingensis,3ed7551a77d0f6098185c1af7d8c8385,m0111,303,0
+1637,Micromonospora violae,3f5b7ed180255f20639a75548bb8ac56,m0112,462,0
+TEP101,Actinomadura atramentaria,4101ed79233a5b5898733d86311407b2,m0113,301,0
+DP040,Actinokineospora spheciospongiae,4128006510697cae616c99ca6fbb128c,m0114,299,0
+PhaZ4,Cupriavidus necator,426c9c3680fe7091b7e6f1c7a0f7e7d3,m0116,245,1
+PsCut,Pseudomonas saudimassiliensis,42aa40364f5684f1f255819ab69b7b92,m0117,302,1
+RgPETase,Piscinibacter gummiphilus,4307017d78508de526bb8422be94a4c4,m0118,292,1
+TEP103,Kutzneria sp. CA-103260,4372f68d441785c9d134905aed4aae6b,m0119,293,0
+401,Micromonospora chalcea,43855fcf31b8ee18bc3c65f3b00f10cb,m0120,296,0
+ESM082,Dactylosporangium vinaceum,440c2c28c74998f465ccf99910827774,m0121,269,0
+Nyl18,Halobacteriovoraceae bacterium,4413a75f4591f7557a156f377930d8c1,m0122,328,0
+Nyl39,Synergistaceae bacterium,443647f8fdd6aeb0fa7cd9fb8076c86d,m0123,314,0
+serineprotease,Actinomadura keratinilytica,462d8720dba9f954496a198bf18ce71c,m0124,386,0
+Thc_Cut2,Thermobifida cellulosilytica,46578a460f23e13d1ebe0b0ebf887282,m0125,262,1
+PhaZCac,Delftia acidovorans,46e18f09ca1ffe3e4eda0f6cae364c1e,m0126,734,1
+PAM,Actinomadura keratinilytica,476b1b64d6172e51befe003e4e5d70cb,m0127,386,0
+ESM169,Rhizobacter sp.,482a4e9fd90b37223b8f0f81a2d54eea,m0128,299,0
+Nyl85,Faecalibacterium sp. CAG:1138,4862c74fdcd52e6437a16fe8f493fc97,m0129,302,0
+DP059,Compost metagenome,486620f02642fa1a8f78c36a2740b0ec,m0130,445,0
+Nyl57,Candidatus Zhuqueibacterota bacterium,48ba5f056713b1c70f39bd5277e17500,m0131,315,0
+ESM070,Micromonospora sp. AKA109,499c56dadef662e14b044019d288f152,m0132,427,0
+UMG-SP-1,Environmental sample,4ae54f06384b9660b40e76e9a902f585,m0133,438,1
+PhaZd1,Cupriavidus necator,4b02a9379189f4f3f4a6d2b07ad427c9,m0134,362,1
+PpEst,Ectopseudomonas oleovorans,4b50fcb2d78d50a7f5693abba7e356b1,m0135,201,1
+DP003,Jonesia denitrificans,4b8623751837c39c9fe582aa5d675187,m0136,319,0
+DP038,Rhizobacter sp.,4c8584c9364804042a9544a4f193e5dc,m0138,288,0
+EstB,Pseudomonas sp. B10,4c93b29cd359ce02e9f06d853bb00619,m0139,218,1
+1868,Microbispora triticiradicis,4ce5f290ca4d5d58749e55ef4f739ea0,m0140,436,0
+BhrPETase,bacterium HR29,4dfca93c424da8986ee3fb484d868de2,m0142,293,1
+CfCLE,Saitozyma flava,4e42b62ac9f3158a2a5a2b35e117d950,m0143,239,1
+385,Thermoactinospora rubra,4eb20c9016001fd934311ea5fc36f89f,m0144,272,0
+611,Saccharopolyspora flava,4f68c367317a6c09df48faffc017ad9e,m0145,293,1
+ESM060,Paractinoplanes rishiriensis,4fc6ca50b7b51c5b7f98512adca3c679,m0146,410,0
+E4,Altericroceibacterium indicum,512b62a8993ab9e45d25bcdfa650b798,m0147,191,0
+Lcp1,Microtetraspora sp. AC03309,51637a74ae9efe92560e94b5e2bc6178,m0148,410,0
+KbPETase,Kibdelosporangium banguiense,52ac6083b4c7d6faf903f936007224d2,m0149,270,0
+Subtilisin Savinase,Lederbergia lenta,5353a76b2d62b148881304e276a3a0e0,m0150,269,1
+TA29,Thermoleophilum album,546363f6f7e62663a681aa0546a7c08c,m0151,296,0
+ESM006,Saccharothrix sp. S26,551946ddbe6046c13ca1a257eab4aeff,m0152,405,0
+TEP181,Actinoplanes ianthinogenes,55c56bf6f40cb5a2497253d78cfe7803,m0154,421,0
+DP084,Hamadaea sp.,56793a483b6506d4f822ce4dab41cbcb,m0155,285,0
+IS10,Chloroflexi bacterium enrichment culture,572db808330016b2e517a2e6db0d8477,m0156,314,1
+DP043,Actinoplanes sp. DH11,574237800be392daa0a6c80748375073,m0157,312,0
+DP056,Compost metagenome,5803ed5f151b9467fa2e8894554b330e,m0158,303,0
+Nc-NylC,Nocardiopsis composta,586a335986f45e096f6ca073737678a5,m0159,344,1
+1463,Dactylosporangium aurantiacum,5a6ca9ba6be2179ba6074343233d0a9b,m0160,265,0
+PD3,Brucella anthropi,5a880c3b46d61fb2b4fa713a243c511a,m0161,352,1
+412,Ketobacter alkanivorans,5b3f01f3bbd1d34e9bcd72527c959781,m0162,311,0
+1491,Saccharothrix sp. NRRL B-16348,5b6bcacc9716a844b6969cbeb5e49ef1,m0163,455,0
+Amidase,Rhodococcus erythropolis,5c06f1259bc12791a4627d9b18c94185,m0164,483,1
+TGL,Bacillus safensis,5c6047089b459f01b0f48bd717dcdfc0,m0165,213,0
+PA4-degrading enzyme,Pseudoalteromonas sp.,5cee52f57ef4e114863f6926cabdca90,m0166,716,0
+Tha_Cut1,Thermobifida alba,5e3a225d0c4dad34e74078ea45904b70,m0167,262,1
+PHL-7,Compost metagenome,5e9df7f0c5b6442f1239982caf867978,m0168,267,0
+EsterasePulA,Pseudomonas fluorescens,5fa3e19ca90991487c80ed55e34da806,m0169,451,1
+PhaZ5,Paucimonas lemoignei,6012a802711a9bb008ee0895a518a5a0,m0170,433,1
+BurPL,Burkholderiales bacterium,604018ae8af9058028c669f8ed8de020,m0171,426,1
+Amidase,Rhodococcus erythropolis,6139d7ee947801e1ffa5c9345c785900,m0172,525,1
+TA21,Thermoleophilum album,61d801881a590b1495fd2352c700c042,m0174,352,0
+TEP111,Micromonospora carbonacea,62f7546aebcb1a559748d086de6571e6,m0175,424,0
+IS12,Chloroflexi bacterium enrichment culture,63f3bcdf9d4e41b30836917c8f069d43,m0176,318,1
+503,Nocardioidaceae bacterium,6435b353e1e02d2f720bc95ef5cb13af,m0177,294,1
+Nyl65,Clostridiales bacterium,6479c4b689da748f2cb786f88522f290,m0179,318,0
+NylC2,Microbacterium oxydans,647a8a79005fc7f3a762d4b29e0328ad,m0180,339,0
+Amidase,Microbacterium hydrocarbonoxydans,6501b0257cf940e7d8aa9266fd92aaa1,m0181,283,1
+1468,Kribbella albertanoniae,66ecc46b29b845a7a916ce1874720817,m0183,444,0
+405,Actinobacteria bacterium OK074,677a11fa0e32fbd01338ba6d30fc718b,m0184,302,1
+Lcp2,Streptomyces sp. AC04842,67b4409cf7dfe74bbb08798733600bfc,m0185,407,1
+1641,Micromonospora coriariae,688e3468b20f955579952d514c187611,m0186,460,0
+DP092,Microbispora catharanthi,68c96339ea5e9153dffdfbe8f9906985,m0187,450,0
+APET-20,Solirubrobacteraceae bacterium,68f440a1f49336f2bc51060f5c2e99f1,m0188,293,0
+1635,Micromonospora sp. HM134,690953c8ee380d8f7a711710318247ac,m0189,487,0
+ESM090,Dactylosporangium sucinum,6b1009cf128e698e040b3329caa14ce2,m0190,285,0
+1489,Micromonospora sp. KC723,6bfc5e52adfd5c1d647dbdd440a07380,m0191,447,0
+Nyl58,Rhodospirillales bacterium,6c8a21cf9b056c70de13236ba6a2c881,m0192,342,0
+Mors1,Moraxella sp. TA144,6c92a78329d5a05cad38caf62075d747,m0193,319,1
+DP082,Paractinoplanes durhamensis,6c94e122d721e790088493d35c7c03a9,m0194,295,0
+PaCut,Aquipseudomonas alcaligenes,6cfa5991a1358a2618da129bb29a2d1c,m0195,298,1
+169,Microbispora sp. GKU 823,6def7fc8a6f81bb797445e688dbb615f,m0196,308,0
+1482,Saccharothrix saharensis,6e59b2b22d0932610243c38a9455adb5,m0197,413,0
+ESM177,Catellatospora methionotrophica,6e80f2f31cbe7bc9184caed2bea23776,m0198,290,0
+NylC1,Leucobacter chromiiresistens,6eeb7b649b01121426a96ddee3c2c007,m0199,357,0
+1678,Lentzea aerocolonigenes,6f59754c646b6771593cdb66b1cc732b,m0200,424,0
+ESM084,Actinoallomurus spadix,701849adbc66ce54e28ad407951aee3b,m0202,424,0
+TEP114,Actinoallomurus spadix,701849adbc66ce54e28ad407951aee3b,m0202,424,0
+407,Allorhizocola rhizosphaerae,70461e4ccc8f072afc5757915d4ab26f,m0203,436,0
+ESM096,Pseudomonas subflava,706fff86ca9f67473863ad795f5707fc,m0204,296,0
+PpelaLip,Halopseudomonas pelagia,710f4592bfa0115da9f3500092b3518f,m0205,307,1
+PET46,Candidatus Bathyarchaeota archaeon,71d88f44c8ddca8715a62d0d30305df5,m0206,262,1
+TEP164,Crossiella sp. SN42,7269cc72c4e11c63f64df5c2d937af35,m0207,403,0
+TfH42_Cut1,Thermobifida fusca,7290711b3d888830a61b777dcd01df5d,m0208,262,1
+Nyl32,Treponema sp.,73f07a67f93f50ac08de42fd3f33928a,m0209,328,0
+RPA1511,Rhodopseudomonas palustris,7452d6761b99d133be32ee4b17239cd1,m0210,295,1
+DP021,Dactylosporangium sp.,74f45b9b297fc969ba3fd070bdedc403,m0211,451,0
+DP068,Marine metagenome,75970cca0aca8c2628e21abeff92d2b0,m0212,420,0
+PpPETase,Pseudomonas paralcaligenes,75b2b72259a73dea11dea49d5062379d,m0213,298,0
+Nyl84,Mycobacterium avium subsp. paratuberculosis,760d48b991f3789858295120e590915c,m0214,347,0
+Thh_Est,Thermobifida halotolerans,761f31759bb5d73ea55282d40c050c2e,m0215,262,1
+1521,Micromonospora sp. KC213,77a7b5a521e48effd1710f14533ed6a5,m0216,443,0
+NylA,Paenarthrobacter ureafaciens,77bca54fb186cc66d3f509d6fb835b65,m0218,493,1
+1522,Catellatospora paridis,783d312623e9a23ce795d29a255d97a8,m0219,276,0
+Nyl11,Ferrimonas marina,78f18c1dd8a82d742a0cccc5a0e6a951,m0220,343,0
+ESM045,Rhizobacter sp.,790629d20f9a499b3cf518e1e7000b71,m0221,280,0
+DP007,Actinokineospora spheciospongiae,79c49015e4218f7c3a46046c08b8030d,m0222,297,0
+191,Streptomyces sp. SCA2-2,7a0b4f5fc6faf46b8f8e8de955097dbe,m0223,316,0
+DP078,Pseudomonas fluvialis,7ad7db832510d64d62b4e29db40fa372,m0225,298,0
+ESM038,Microbispora sp. H10830,7cf1ce68095952a5cc8abd5bbcfd1ff7,m0226,450,0
+Nepenthesin-1,Nepenthes distillatoria,7d1184184e0086123cd94070ab861eb2,m0227,437,0
+ESM064,Phytohabitans aurantiacus,7d398f96d8a77630de8a9da0c6635b29,m0228,401,0
+TA26,Thermoleophilum album,7d43cc8143961b92bacba0d218fe7818,m0229,321,0
+DP016,Actinomadura physcomitrii,7e5680dfd06abf1e4f5a432453eb246d,m0230,310,0
+ESM026,Microbispora sp. ATCC PTA-5024,7f597bfa435ab3ad4d01391067fcea07,m0231,435,0
+Lip4_120,Caldibacillus thermoamylovorans,7f7526ac0c7c4c8440ba6812322c88d5,m0232,417,1
+MGS0156,Environmental metagenome,81a9df90765d3ca5a2dbd97ac8fe0e4f,m0234,421,1
+NylCK,Kocuria sp. KY2,821c28b3e158579536d0795e3661b21a,m0236,355,1
+porcine pancreatic lipase,Sus scrofa,829800eec935d841bf6bcc8772be89b2,m0237,112,0
+BaCut1,Blastobotrys sp. G-9,82b7aa41d984234dbb69f23c5dfebbb9,m0238,222,1
+1718,Kutzneria sp. 744,82d420ad8219d9469aeea11873ba7544,m0239,337,0
+DP061,Paractinoplanes polyasparticus,83679359d645f51f2cc5de9332d999c2,m0240,457,0
+Nyl12,Gammaproteobacteria bacterium 39-13,837c8cc88d3bee11c34fe65c687d9dcb,m0241,328,0
+ESM121,Micromonospora sp. D93,83d0a1b5946039d3d9f242317fa6fb04,m0242,337,0
+aryl acylamidase,Nocardia farcinica,848290309a9cbec4776951ce54a69af3,m0243,479,0
+Nyl14,Olsenella sp. An290,8498b2d8f6b8bed93dff49ed65b14a6a,m0244,335,0
+1638,Actinoplanes subtropicus,84adddad34e99d2a499ea48da9b8e877,m0245,277,0
+RoxA,Steroidobacter cummioxidans,84ba28218df106867af936d87aba63b4,m0246,678,1
+TEP083,Micromonosporaceae bacterium,8665fb3ab4a93730539cbcef27fe971c,m0248,325,0
+1519,Verrucosispora sp. SN26_14.1,86e8274d483618172b997d8cd41d9088,m0249,426,0
+1625,Plantactinospora sp. CNZ320,871ef0545eb8542ab53b599df2bff175,m0250,468,0
+ESM052,Paractinoplanes deccanensis,87d890e381a7d683e581e77330a26d0d,m0251,417,0
+PET94,Arenibacter palladensis,88d5d5ad4f13b7f9976990ed82e5489d,m0252,433,0
+Nyl04,Gonapodya prolifera,89a542779c863e59d7568848d38bc88c,m0253,366,0
+Nyl25,Sulfobacillus benefaciens,8a8c23e1f5be053cf56566f33d5c2c4f,m0255,325,0
+PhaZ2,Cupriavidus necator,8b6e9ddd1da10e1d0d3c47e2aeaaba85,m0256,404,1
+ESM062,Micromonospora taraxaci,8c0f8f5d213b7906c63a5fb5aa82b750,m0257,465,0
+Est18_23,Caldibacillus thermoamylovorans,8f7ceab2fc48801f9eff4ec96dd6b2b3,m0258,491,1
+NylC5,Gordonia sp. (in: high G+C Gram-positive bacteria),8f9519fc6a65305fa5d478fdece2fc6f,m0259,364,0
+ESM024,Microbispora triticiradicis,8fede4413e76abb354158b5bb05b5c6e,m0260,432,0
+ESM136,Actinoplanes ianthinogenes,908216a2c74668c66d426a981d0e781f,m0261,431,0
+TEP168,Micromonospora lutea,919d07e2ff9f6934831419a4fee7cec4,m0262,449,0
+APET-5,Lentzea guizhouensis,91fdd1b5e2e32c2e3842e6b87058f3ad,m0263,298,0
+PHL-2,compost metagenome,925eaa1d8c145880ff409530b973e7fe,m0264,260,1
+ESM140,Amycolatopsis sp. WQ 127309,93b32d1591ea6472ac216d086e5cbcd0,m0265,308,0
+DP008,Herbihabitans rhizosphaerae,93d3e56e0fbe62971eaa3408dd5c2753,m0266,297,0
+DP057,Acidimicrobiales bacterium,93e9e12285afdbc5032f261307327236,m0267,322,0
+554,Amycolatopsis kentuckyensis,9584eb11232d43e7df101608e2829102,m0268,309,0
+917,Actinomadura bacterium,95981aed79b153af6c6d1c44c404d164,m0269,297,0
+Tcur0390,Thermomonospora curvata,95b8c354124ce6fc0e73869c1285b609,m0270,292,1
+Lcp1,Streptomyces sp. AC04842,95d1e9d1e5c89ada66637cb1f2c7e05e,m0271,410,1
+1555,Streptomyces achromogenes,95d3a22f0e3002d3ebc3f9cc29dfe4d8,m0272,348,0
+TEP163,Streptomyces sp. TRM70350,96377f7c445eeaa275813b1b600057b4,m0274,418,0
+PlaM4,PLA disk compost metagenome,970357e6455a991c27de46edeee96a39,m0275,431,1
+PhaZpst,Stutzerimonas stutzeri,9779282f44f5947a072f15c26945d21a,m0276,576,1
+Nyl54,Acrocarpospora macrocephala,98b7cab0bd87dc8928ce3d2268c12837,m0277,313,0
+PC6,Thermobifida cellulosilytica,9a2d32901525985492563aa339b79812,m0278,300,0
+1395,Herbihabitans rhizosphaerae,9a39f26de8397ad8e82c7ddd5ffb0a75,m0279,295,0
+1573,Lentzea atacamensis,9b203af8e18663d4e3880d49e74753ac,m0280,422,0
+PET12,Caldimonas brevitalea,9b361d2c16557499693210de2a8a01b4,m0281,298,1
+Nyl30,Clostridium perfringens,9b90c9e3ec99c954a957af14f8a6dbfa,m0282,325,0
+282,Amycolatopsis arida,9bc4714d8e79f6fcfcad8aca634001ab,m0283,299,0
+ESM033,Phytohabitans rumicis,9be600f74fc6650fed502d1de7647551,m0284,402,0
+PC8,Pseudomonadales bacterium,9c6726c69068e8abf43de5f7f465e825,m0285,303,0
+RoxB,Steroidobacter cummioxidans,9c7dbb673a1f18286b846d8354918b3d,m0286,681,1
+Nyl29,Halanaerobium sp.,9ddbfd65b32950166fd96c22ff7b9b51,m0288,302,0
+1309,Nocardioides albertanoniae,9ffafefd549320c21cd92af62f19d6eb,m0289,286,0
+BTA-1,Thermobifida fusca,a0445e5a5b156ccfedc088c49acfd84a,m0290,301,1
+Tfu_0883,Thermobifida fusca,a0445e5a5b156ccfedc088c49acfd84a,m0290,301,1
+Cut2,Thermobifida fusca,a0445e5a5b156ccfedc088c49acfd84a,m0290,301,1
+FoCut5a,Fusarium oxysporum,a0550530145e06d4170e283fb389aa62,m0291,230,1
+1628,Micromonospora pattaloongensis,a07188a7bbb3e92357c73d9654c37734,m0292,463,0
+HG-4,Heyndrickxia coagulans,a0904c35f59716a292ebfca5adfcbc0e,m0293,254,1
+Nyl63,Oceanithermus sp.,a1903a69f23f1f6796d526895436a50c,m0294,288,0
+Sub1,Streptomyces scabiei,a2dfe48912d34dabd9ec983f2380b945,m0296,186,1
+ESM012,Solwaraspora sp. WMMA2059,a2f79a79ff4db5f56ded2690d708f4c9,m0297,415,0
+PFL1,Pelosinus fermentans,a436d17bdfc2c17a51007a01c569dc7a,m0298,402,1
+LCP_STRK3,Streptomyces sp. K30,a4c818ade03b8dd4ac34b64a7842f3ec,m0299,397,0
+Cbotu_EstB,Clostridium botulinum,a4cafac901140b6b19f1c384d078b5d5,m0300,400,1
+Cut190,Saccharomonospora viridis,a5e57aa9699b655bb23f42f50c4debb3,m0301,304,1
+P-nylA,Pseudomonas sp. NK87,a79509a510d90a50f6702955b1ad3b49,m0302,493,1
+AdCut,Acidovorax delafieldii,a9bad1df9172c94be6b225bd32b6bd1d,m0303,304,1
+PbsA,Acidovorax delafieldii,a9bad1df9172c94be6b225bd32b6bd1d,m0303,304,1
+HG-5,Longicatena bacterium,aa1b463709fa62d66034d00d46f2bb52,m0304,313,0
+ESM157,Micromonospora acroterricola,aa5e991d0a1e69991b26163c98de8ec8,m0306,292,0
+PHL-4,Compost metagenome,aaa9786d473a7eb02349e757ab50352c,m0307,257,1
+M-NylC,Microbacterium sp.,aaede276fbd61767d03028e2d193d5a7,m0308,340,1
+ABO2449,Alcanivorax borkumensis,ab6b2d53513cc127c20db4ff15e7a322,m0309,305,1
+PC5,Actinokineospora bangkokensis,adfd257d774083524a52123058ec51d1,m0310,307,0
+CRL,Diutina rugosa,ae6cbacf6d3d769dff0a3b8f7cedca64,m0311,538,0
+DP080,Thermoleophilaceae bacterium,aea6a56696f03519f9e6511f50cff512,m0312,292,0
+PET27,Aequorivita sp. CIP111184,afb025038508228d84d2fe8c130d5d14,m0313,364,1
+TvgC,Thermovenabulum gondwanense,b22bccd61057993ecd2ea241ac190b32,m0314,326,0
+TEP097,Streptomyces swartbergensis,b2964719fb8ec22dc054cd79f0d5be48,m0315,455,0
+APET-24,Actinomadura flavalba,b2ce4b3f3cb218404c049bd6ca3c3fef,m0316,287,0
+DP081,Marine metagenome,b3098fdcf4be1ef53a8636f87b4e409c,m0317,425,0
+MRCUT1,Moniliophthora roreri,b316862d7118e4358cbe8bf6be6de118,m0318,203,1
+ESM035,Saccharothrix deserti,b3403aecb7ec20ee0e5b0e79cac01b17,m0319,398,0
+1537,Streptomyces sp. CB00455,b413b66095d2f7ce85f02f9748d49cb5,m0320,425,0
+NylCA,Agromyces sp. KY5R,b48a5e7e77b3b427ca89ac65da361050,m0321,355,1
+ESM058,Phytohabitans houttuyneae,b4e16b9dec1e241cf86cedf832d14404,m0322,447,0
+TEP189,Acidimicrobiales bacterium,b58a47b76cafd61a000f8498a34fd166,m0323,242,0
+Nyl83,Galdieria sulphuraria,b60f5228c9d11de0576f0da3088e22d6,m0324,361,0
+1663,Kibdelosporangium aridum,b6f1885d482dc52936e39d224a8c33d1,m0325,289,0
+Amidase,Paraburkholderia phytofirmans,b6f8363af9f6b89b71da887bdc4c3060,m0326,316,1
+Nyl74,Coriobacteriaceae bacterium,b7a63a9cee46bcf4fbdf5b30b67b812f,m0327,364,0
+APET-29,Gammaproteobacteria bacterium,b80b1227f73f4dd4ff1fd9546d415275,m0328,305,0
+BsEstB,Bacillus subtilis,b8d2efe3a6d76dcf58f691a374d528ed,m0329,489,1
+CE_Ubrb,,b9431762171b80707139661059a4d5f3,m0330,295,1
+PE-H,Halopseudomonas aestusnigri,b96e3838fee9bee7a9d7d7d57eda9386,m0331,304,1
+PmC,Ectopseudomonas mendocina,bb60668c33aefeacbb320f1a972407e4,m0332,280,0
+dsPETase06,Pseudomonadota bacterium,bc7a038f9383a1c9351ad53e8f89a243,m0333,292,1
+1169,Lentzea guizhouensis,bd809f78218b2481c1bf1b3a46c74053,m0334,276,0
+1506,Lentzea albidocapillata,bd90b02ae5726ceb4ec9f4431ba2ac16,m0335,436,0
+TEP109,Kibdelosporangium banguiense,bdd9d6d45144ac9284029bc832a33641,m0336,307,0
+ESM081,Micromonospora sp. CPCC 205371,bdf8d7a37e7c86332298115201631ed5,m0337,402,0
+MGS0105,Marine metagenome,be7dd8f21d1b03631b329ecc8c66318e,m0338,390,1
+Tcur_1278,Thermomonospora curvata,be8748feeb335dbb23ea57c0ca66828f,m0339,289,1
+HG-3,Clostridiales bacterium AM23-16LB,c0173ba184ddb729e7ef9122ecff0145,m0341,270,1
+LipasePueB,Pseudomonas chlororaphis,c02edb9924a7f5bcd356a4cb811dd674,m0342,567,1
+Amidase,Sporosarcina ureae,c05531f7c89f4efafc1f2537c89ad129,m0343,472,1
+PLAase II,Amycolatopsis orientalis,c07da837b710b266f98b045916b5543a,m0344,241,1
+lcp3,,c08f82b42046b09e9b8187331726a4f0,m0345,399,0
+DP089,Promicromonospora panici,c0d2eecc958484c772145471290f41e4,m0346,287,0
+607-Nsp,Actinobacteria bacterium OV320,c14a617c964156f1d3d4b9dedd1535b4,m0348,306,0
+APET-23,Alphaproteobacteria bacterium,c1a1ed20efb294068bc8e1483c391d0c,m0349,326,0
+OoH,Rhodococcus sp. Oct1,c21fdb598a3887e2e8a5af55068ffec4,m0350,479,1
+MGS0010,Marine metagenome,c2610dc7556aacd9a00bede53a3a5ef9,m0351,414,1
+Subtilisin BL,Lederbergia lenta,c2dc98ad498bf96179a52733ac69516e,m0352,269,1
+1525,Verrucosispora sp. CNZ293,c38a15e286e531b02f655ce186f4c301,m0353,444,0
+PET1,Deinococcus maricopensis,c3b10fec34299e75939e57d3458275fe,m0354,315,1
+Subtilisin SubC,Bacillus licheniformis,c481f69d5a5519d8ed15b1c1254b764d,m0355,379,0
+PpCutA,Ectopseudomonas oleovorans,c4c87c36c70a8f1b15d4f8d38155f609,m0357,302,1
+CalB,Moesziomyces antarcticus,c5c958d03feed023c70aead575ffd575,m0359,342,1
+1603,Micromonospora arborensis,c5df14884c3311c4b6216b9fc6bf19bd,m0360,465,0
+Est119,Thermobifida alba,c627badfbdd42acfa7664595a681b789,m0361,300,1
+Nyl66,Candidatus Fermentithermobacillaceae bacterium,c7b8c2c370eec0414f50a51a98586820,m0362,342,0
+TEP178,Hamadaea flava,c87e1883782cb8f461fcd4586e8cd500,m0363,287,0
+ESM021,Microbispora oryzae,c941981ddefbf835b8fb921890d009e0,m0364,452,0
+PhaZ Sa,Cupriavidus necator,c96dbeb66cbc47f7911296f991cdfb8d,m0365,365,1
+ESM097,Dactylosporangium matsuzakiense,c9ffb681928784046345a8ec3ee7f48b,m0366,417,0
+Nyl45,Sporolactobacillus sp. THM7-4,ca075b0d53cbfb1de3c6d2a744a2276c,m0367,325,0
+BTA-2,Thermobifida fusca,cae1f0e206dd5d377dbfb013f72cd60c,m0368,301,1
+1546,Micromonospora sp. (multispecies),cb8aae798de32e627b62936dbc407aaf,m0369,448,0
+PueB,Pseudomonas protegens,cb8ee61f26429b3ce6a175e6f02222ef,m0370,561,1
+ESM159,Rhizocola hellebori,cbddcdc003933ffe8ee63f00b7c12abf,m0371,301,0
+PLaA,Paenibacillus amylolyticus,cbe6e6c036ad8643698609d6a197ff5d,m0372,201,1
+TtA,Thermocatellispora tengchongensis,ccec191e60e12d1782682af2211d9640,m0373,471,1
+Cutinase,Cryptococcus sp. S-2,cd3efa9108622a39c229634066ce0292,m0374,239,1
+1478,Streptomyces ipomoeae,cefc6b105a243397b6a039e186c6c27b,m0375,331,0
+TfCut_2,Thermobifida fusca,cf88b3e711edffd341ba052fb3365c25,m0376,261,1
+HG-2,Holdemanella biformis,d03a36b0671215d716f1df2ade24268f,m0377,259,1
+1465,Saccharothrix sp. CB00851,d09446e7bab13e062244cd0babc73a84,m0378,415,0
+486,Micromonospora globbae,d0cd1d061b574c3e97321300be9b3c6e,m0379,300,0
+PET40,Amycolatopsis bacterium,d1aa8fa7800d986fee5acab07614bd0d,m0380,263,1
+1534,Micromonospora sp. NRRL B-16802,d2d63d5f8721e814ea2a657ecc8fe703,m0381,469,0
+Tfu_0882,Thermobifida fusca,d357a79e14b6376e4d3557864252bfe8,m0382,319,1
+Cut1,Thermobifida fusca,d357a79e14b6376e4d3557864252bfe8,m0382,319,1
+PHB depolymerase,Talaromyces funiculosus,d39f4e4eb5bc5b5de87a6807337446ec,m0383,339,1
+ESM050,Acidimicrobiales bacterium,d3daf5d62100e8ce832f8dde87008494,m0384,276,0
+1477,Streptomyces sp. RP5T,d4376d2f4006abaa992a58c321df357d,m0385,315,0
+TEP194,Sphaerisporangium fuscum,d45af0ae492f2a5ff717aac22e783527,m0386,277,0
+FsC,Fusarium solani,d46d1c755303a13d2a19d9393a49d2f7,m0387,230,1
+TEP024,Streptomyces sp. A012304,d5a5677d777e4a427d908bb7cedd98df,m0388,455,0
+1611,Micromonospora ureilytica,d5d535a4628f661aac624e4bf67a6739,m0389,465,0
+ESM128,Verrucosispora sp. WMMA2121,d5df0a16c2eaa48e8fab4f9997684475,m0390,299,0
+MGS0109,Marine metagenome,d67ede223c06bbb9c7903735558b4123,m0391,314,1
+ESM130,Micromonospora sp. MH99,d79cf5b4d590dd725f813e9a110c9f14,m0393,469,0
+1340,Actinomadura rubteroloni,d887c31f2cd02dc21c2c52c61d02bd31,m0394,298,0
+PlaM9,PLA disk compost metagenome,d8bf4c4b8965f1f5509d077b1db637c5,m0395,338,1
+1642,Micromonospora orduensis,d8c880a8e19c3f44b32d639747b57222,m0396,465,0
+Arylacylamidase,Nocardia farcinica,d91b645ebea282e1c771123a7abe685f,m0397,479,1
+LipasePueA,Pseudomonas chlororaphis,da74b7409b4c0618cc66c7787e557585,m0398,617,1
+FSC,Fusarium solani,dab2da810add966a777bb8c243da293b,m0399,230,1
+1594,Micromonospora carbonacea,dbb69c16a79774a1a51b4b80a8f1bd63,m0400,463,0
+1493,Micromonospora sp. KC606,dcdd75a330b1680da8c69fade4d72aab,m0401,454,0
+MnP,,dd7528addd91f972769d7e42c16b53cd,m0402,378,0
+Hfor_PE-H,Halopseudomonas formosensis,de58930843f53b731bc34d03f729488d,m0404,304,1
+GEN0105,Environmental metagenome,de7fd3cae353ad8fabd922f83140376c,m0405,322,1
+Nyl10,Jatrophihabitans endophyticus,dea4da8f4f93db0b2277eac7ec3e5196,m0406,285,0
+ISPETase,Piscinibacter sakaiensis,df38ea060b5dad0dfc9a593e4dce333c,m0407,290,1
+HiC,Mycothermus thermophilus,e0b91bc8063c1c7e94e918fcfd8cf2bc,m0408,194,1
+PET5,Oleispira antarctica,e0db2a4f62c16fd0850cb05f28dbe103,m0409,310,1
+701,Thermobifida fusca,e125fba23d29946317aa25973b8c03cb,m0410,301,1
+APET-27,Halopseudomonas oceani,e1a1ea6ee428462b281b661258d4bb19,m0411,288,0
+Nyl72,Acidimicrobiia bacterium,e33e8b6636c423c0a7bb6aea68306978,m0412,292,0
+CPUTNase,Candida parapsilosis,e422c7b9aabe1a23f75d15bd35cf71a6,m0413,551,1
+APET-32,Oleibacter sp. HI0075,e44d2abc0169b043201fff28f40feeb9,m0414,292,0
+PudA,Delftia acidovorans,e49911a7e5738e9056e9fb9c5a9aa7ae,m0415,548,1
+Nyl34,SAR116 cluster bacterium,e4d76d3d7e6833a775f7b2770ac87c6b,m0416,304,0
+UMG-SP-3,Environmental sample,e517914dc89db0a2eedf86b6f66bf60c,m0417,439,1
+ESM173,Micromonospora sp. CP22,e525d1329e534ccfe83308865ef3fa06,m0418,449,0
+SM14est,Streptomyces sp. SM14,e5571e8fd143e90bd5db0ca52ce67226,m0419,284,1
+APET-15,Actinomadura atramentaria,e56db99e4a0ff79df4c68a9972670396,m0420,285,0
+NylB',Paenarthrobacter ureafaciens,e58fe1dc5273be59865137941bcdaa35,m0421,392,0
+Est11_32,Caldibacillus thermoamylovorans,e5a559b306f8a40b94d6844216b41307,m0422,256,1
+Thc_Cut1,Thermobifida cellulosilytica,e65e54bed8b506d0ddf1f5164bf29425,m0423,262,1
+PHL-3,Compost metagenome,e6c1800b97f5f0184a1dd73540deb95a,m0424,259,1
+DP054,Actinomadura rayongensis,e6c65f28982cd50933de3173d5a6959d,m0425,295,0
+PET30,Kaistella jeonii,e6cfd2897ec399a6f1d3ec1c6a98cdb7,m0426,366,1
+1496,Streptomyces acidiscabies,e7456e8fab716e570d81b4e7665698f5,m0427,304,0
+1876,Streptomyces dysideae,e7d1a404d6aeb48e1849f68fefcf018f,m0428,423,0
+Lcp2,Microtetraspora sp. AC03309,e9d33ca1cec72c417998b92e1bde3263,m0429,409,0
+CmCut,Filobasidium magnum,ea7a24d47eff2487f1491b3ad67cce64,m0430,226,1
+PhaZcac,,eaea73ed1586531b0f860ec8e714f64e,m0431,494,0
+TEP061,Microbispora rosea subsp. aerata,eba0373101b5f637e985de667b0b86e7,m0432,296,0
+1621,Micromonospora chokoriensis,ebab773a50031e4f18dfa532f93c9379,m0433,465,0
+NylC,Paenarthrobacter ureafaciens,ebd22bc012fd6e181f43bc728b85dc79,m0434,355,1
+KaPETase,Kibdelosporangium aridum,ec1108b84e036f58c2b72e2c1fcd594e,m0435,286,0
+NylB,Paenarthrobacter ureafaciens,ec89fcce3f831d4efa72c84c4ac889ee,m0436,392,1
+247,Steroidobacter cummioxidans,ece8f45d57141ab0f29280d76fc2a9b7,m0437,288,0
+PET2,Metagenome-derived with  no obvious affiliation,ee0092b4288da1c69a59e16f2b702cdf,m0438,308,1
+ESM167,Amycolatopsis tolypomycina,ee65196da3cdd70d808c0f9ce2241ace,m0439,309,0
+Nyl40,Deltaproteobacteria bacterium,ee6b0a11b080383c4383a93312d4003e,m0440,322,0
+Nyl44,Deltaproteobacteria bacterium,ee81132e0d2e864d7ce91cabcdfc1cf4,m0441,326,0
+Kubu-P,Kutzneria buriramensis,eeae01ba76427bc51c141cb43ccba7fd,m0442,288,0
+606,Marinactinospora thermotolerans,ef08656ab980fbd8c17fe79b6060a681,m0443,311,1
+Nyl60,Dehalococcoidia bacterium,ef202661c7e74e69a79dbd3c290e1b5b,m0445,325,0
+PC3,Thermomonospora echinospora,f00445f8b289d0164aff442192f24187,m0446,292,0
+TEP010,Verrucosispora sioxanthis,f0c7dd480618fe5d7346e71180cd108d,m0447,432,0
+Cbotu_EstA,Clostridium botulinum,f21de0ea2dcb603946ac9638d3076b59,m0449,452,1
+ESM080,Micromonospora rifamycinica,f2230dff660f44612d863d5256b21d66,m0450,473,0
+1620,Micromonospora saelicesensis,f246639aef84a3e6be3c89eac9b2dfbf,m0451,461,0
+ESM156,Paractinoplanes tereljensis,f2a58e1db1245fbca5aba50020c17682,m0452,293,0
+ESM061,Plantactinospora alkalitolerans,f2e235a71b5ce3ac861bb6b70e9c8fef,m0453,346,0
+PhaZ3,Cupriavidus necator,f3019f8a82e15ef9ac9ed61f6a611c97,m0454,412,1
+APET-26,Dactylosporangium siamense,f382d762cf0b0bafd3934f5417accc62,m0455,268,0
+ESM010,Microbispora sp. (multispecies),f50fd2a3843ce155233b360ab9cded21,m0456,475,0
+PHL-6,Compost metagenome,f5ac2c525370f659e6c1b4fc71e16ce1,m0457,257,1
+Dkca1,Dietzia kunjamensis,f768e32a79d0b17b006886911c31b36d,m0458,462,1
+TEP165,Micromonospora sp. HM5-17,f78eb617d08e5260c3365650f70fcad8,m0459,442,0
+CutL1,Aspergillus oryzae,f7e864f6573eccaba6017448237af700,m0460,213,1
+414,Amycolatopsis bacterium,f85c8564f510148807a599ea6a5cf433,m0461,289,0
+PhaY1(PhaZ2),Cupriavidus necator,f972c4fe64b984d09a783a3fcdfb3199,m0462,718,1
+Nyl82,Desulfomonile tiedjei,faf6984f2f1464301a6db7313145d9f3,m0463,334,0
+ESM139,Amycolatopsis sp. CA-128772,fb2204e84d7a9a86df947cd20e179223,m0464,339,0
+1475,Lentzea kentuckyensis,fb6cb498ca713c8ff665a94eeaeab29f,m0466,375,0
+1571,Micromonospora inaquosa,fbbad91070ae99aa6eed1595044335d5,m0467,329,0
+ESM069,Micromonospora saelicesensis,fbdf1fd8bb136bc1f27b76dfedecd095,m0468,443,0
+Trypsin,Sus scrofa,fceeefb59ad5e778ca5e914e61d0c945,m0470,231,0
+Mipa-P,Micromonospora pattaloongensis,fd6fe4eecb575bbb51d49f121a523532,m0471,294,0
+PLE629,Marinobacter sp.,fe08eef9c8f87d7d57af2914ff906b14,m0472,316,1
+Tcca,Thermobacillus composti,fe1766a388c03c1e83be5dd8c749ba4b,m0473,508,1
+PC4,Amycolatopsis eburnea,fe354046ad936ac3305fe124cc0c4bcc,m0475,309,0
+Nyl13,Faecalibaculum rodentium,fea43b060eb31c4f0bf3beb4b1f9e521,m0476,324,0

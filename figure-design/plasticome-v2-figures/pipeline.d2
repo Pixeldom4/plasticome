@@ -1,0 +1,32 @@
+direction: down
+
+s1: Step 1 · Compile pazy {
+  style.fill: "#f1f5f9"
+  A: "pazy-pulled 260701\nn=495"
+  B: "Manual curation\n+4 / −26"
+  C: "cleaned_pazy-260701\nn=473" {style.fill: "#dbeafe"}
+  D: "Retrieve by accession\n446 NCBI + 27 manual"
+  E: "QC annotation\nactivity · direct/indirect"
+  A -> B -> C -> D -> E
+}
+
+s21: Step 2.1 · Clean V1 {
+  style.fill: "#f1f5f9"
+  F: "Plasticome v1"
+  G: "Fix accession · Erickson seqs"
+  H: "plasticome v1.1\n213 rows" {style.fill: "#dbeafe"}
+  F -> G -> H
+}
+
+U: "Step 2.2 · Union merge\naccession == retrieved"
+UNION: "union n=611\n398 · 75 · 138" {style.fill: "#dbeafe"}
+CL: "Step 2.3 · USEARCH cluster\n90% AA · 3-phase"
+CENT: "412 clusters\n273 singletons" {style.fill: "#dbeafe"}
+ALIGN: "Step 2.4 · Align → components\nDIAMOND + USEARCH all-vs-all"
+VAL: "Step 2.5 · Validate singletons\nPL14/458/467/539"
+R: "Step 2.6 · Rebuild → recluster (412)\n→ re-align (46 comp)"
+OUT: "Output · 412-centroid FASTA\nfor nr-search" {style.fill: "#dcfce7"}
+
+s1.E -> U
+s21.H -> U
+U -> UNION -> CL -> CENT -> ALIGN -> VAL -> R -> OUT

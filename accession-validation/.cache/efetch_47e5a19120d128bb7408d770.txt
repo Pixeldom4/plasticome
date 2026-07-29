@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+222059443	INSDC	RSAJ01000109.1	17331	18278	+	RRR83370.1	alpha/beta hydrolase	Streptomyces sp. RP5T	RP5T	GCA_003933965.1

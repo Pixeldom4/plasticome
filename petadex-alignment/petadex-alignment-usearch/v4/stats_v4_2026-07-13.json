@@ -1,0 +1,66 @@
+{
+  "tag": "v4",
+  "date": "2026-07-13",
+  "prefix": "combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 167376,
+  "usearch": "v11.0.667 -allpairs_local -acceptall, both orientations",
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 167376-residue db",
+  "n_nodes": 476,
+  "raw_alignments": 89723,
+  "aligned_pairs": 44399,
+  "edges_passing": 33840,
+  "n_components": 47,
+  "n_singletons": 24,
+  "largest_component": 282,
+  "top10_component_sizes": [
+    282,
+    48,
+    19,
+    16,
+    16,
+    11,
+    8,
+    6,
+    5,
+    5
+  ],
+  "n_nodes_with_v1_overlay": 205,
+  "n_v1_labels_split_across_components": 1,
+  "v1_labels_split": {
+    "35": [
+      "C001",
+      "C033"
+    ]
+  },
+  "input": {
+    "csv": "v4/plasticome.v2.cleaned_plasticome_final.csv",
+    "csv_md5": "72b365a17cbce8f5863594174c8e50a3",
+    "n_rows": 476,
+    "n_nodes_md5_unique": 476,
+    "len_min": 28,
+    "len_median": 316,
+    "len_max": 734,
+    "n_lt_200aa": 6,
+    "n_lt_100aa": 1,
+    "n_multi_accession_cells": 125,
+    "rep_accession_rule": "lexicographically smallest accession in cell (G2)"
+  },
+  "step0_sanity": {
+    "description": "213 v1 nodes re-run through the same engine (scale=1.0, native 213-db)",
+    "n_nodes": 213,
+    "edges_passing": 3178,
+    "components": 42,
+    "target_components": 42,
+    "passes": true,
+    "note": "reproduces v2 s2R's 42 components / ~3,170 edges; engine unchanged"
+  },
+  "decisions": {
+    "1_flat_de_novo": "all 476 one set, no v1 anchor, no 42-gate, no join/merge/novel",
+    "2_evalue_renorm": "thresholded at 476-node db (N=167,376); v3 x0.4436 down-scale dropped",
+    "3_no_fragment_filter": "all 476 retained incl. 28-aa + 8 substring-contained",
+    "4_steps_1_3_only": "per-component HMM (Step 4) deferred (HMMER not installed)"
+  }
+}

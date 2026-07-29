@@ -1,0 +1,1642 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "refseq_protein"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_214391",
+          "query_title": "unnamed protein product",
+          "query_len": 283,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "ref|WP_056276350.1|",
+                  "accession": "WP_056276350",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [Microbacterium]",
+                  "taxid": 33882,
+                  "sciname": "Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 562.762,
+                  "score": 1449,
+                  "evalue": 0,
+                  "identity": 273,
+                  "positive": 276,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVP+WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_463505690.1|",
+                  "accession": "WP_463505690",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. AC145]",
+                  "taxid": 3681974,
+                  "sciname": "Microbacterium sp. AC145"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 561.992,
+                  "score": 1447,
+                  "evalue": 0,
+                  "identity": 273,
+                  "positive": 274,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYKNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRSDVDAVRDSGKPTLILHGTKDNILPIDATARRFHKAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFY NFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DVDAVRD+GKPTLILHGTKDNILPIDATARRFHKAVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_285363764.1|",
+                  "accession": "WP_285363764",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. LMC-P-041]",
+                  "taxid": 3040293,
+                  "sciname": "Microbacterium sp. LMC-P-041"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 561.607,
+                  "score": 1446,
+                  "evalue": 0,
+                  "identity": 272,
+                  "positive": 276,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRFAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDR+AWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVP+WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_372966940.1|",
+                  "accession": "WP_372966940",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp.]",
+                  "taxid": 51671,
+                  "sciname": "Microbacterium sp."
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 560.836,
+                  "score": 1444,
+                  "evalue": 0,
+                  "identity": 272,
+                  "positive": 274,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITAGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYIT GNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_072590579.1|",
+                  "accession": "WP_072590579",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. 1.5R]",
+                  "taxid": 1916917,
+                  "sciname": "Microbacterium sp. 1.5R"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 560.836,
+                  "score": 1444,
+                  "evalue": 0,
+                  "identity": 272,
+                  "positive": 275,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGEPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVATYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSG+PVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV TYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVP+WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_295100673.1|",
+                  "accession": "WP_295100673",
+                  "title": "alpha/beta fold hydrolase [uncultured Microbacterium sp.]",
+                  "taxid": 191216,
+                  "sciname": "uncultured Microbacterium sp."
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 560.066,
+                  "score": 1442,
+                  "evalue": 0,
+                  "identity": 272,
+                  "positive": 275,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_060928663.1|",
+                  "accession": "WP_060928663",
+                  "title": "alpha/beta fold hydrolase [Microbacterium hydrocarbonoxydans]",
+                  "taxid": 273678,
+                  "sciname": "Microbacterium hydrocarbonoxydans"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 556.984,
+                  "score": 1434,
+                  "evalue": 0,
+                  "identity": 270,
+                  "positive": 274,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTDFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPSWIEDFRSDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFTDFY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVP+WIEDFR DVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_140035887.1|",
+                  "accession": "WP_140035887",
+                  "title": "alpha/beta fold hydrolase [Microbacterium foliorum]",
+                  "taxid": 104336,
+                  "sciname": "Microbacterium foliorum"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 556.599,
+                  "score": 1433,
+                  "evalue": 0,
+                  "identity": 270,
+                  "positive": 273,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVAKYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGHDRVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_053098535.1|",
+                  "accession": "WP_053098535",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. CGR1]",
+                  "taxid": 1696072,
+                  "sciname": "Microbacterium sp. CGR1"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 555.829,
+                  "score": 1431,
+                  "evalue": 0,
+                  "identity": 270,
+                  "positive": 274,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAASRDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAA  DRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVP+WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_436453420.1|",
+                  "accession": "WP_436453420",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. K2]",
+                  "taxid": 3391827,
+                  "sciname": "Microbacterium sp. K2"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 555.829,
+                  "score": 1431,
+                  "evalue": 0,
+                  "identity": 269,
+                  "positive": 273,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVAKYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGHDRVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_484997229.1|",
+                  "accession": "WP_484997229",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp.]",
+                  "taxid": 51671,
+                  "sciname": "Microbacterium sp."
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 555.058,
+                  "score": 1429,
+                  "evalue": 0,
+                  "identity": 269,
+                  "positive": 272,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVAKYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVSSWIEDFRGDVDAVRDAAKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGHDRVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVV +WIEDFRGDVDAVRDA KPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_400792575.1|",
+                  "accession": "WP_400792575",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. NPDC087589]",
+                  "taxid": 3364191,
+                  "sciname": "Microbacterium sp. NPDC087589"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 553.903,
+                  "score": 1426,
+                  "evalue": 0,
+                  "identity": 268,
+                  "positive": 272,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVAKYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKADRFAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGHDRVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAK DR+AWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_091229246.1|",
+                  "accession": "WP_091229246",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. 3J1]",
+                  "taxid": 861269,
+                  "sciname": "Microbacterium sp. 3J1"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 553.518,
+                  "score": 1425,
+                  "evalue": 0,
+                  "identity": 268,
+                  "positive": 273,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGAGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYSNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPSWIEDFRSDVDAVRDSAKPTLILHGTKDNILPIDATARRFHKAVPEATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQG+GQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFY+NFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVP+WIEDFR DVDAVRD+ KPTLILHGTKDNILPIDATARRFHKAVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_290161139.1|",
+                  "accession": "WP_290161139",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. APC 3901]",
+                  "taxid": 3035192,
+                  "sciname": "Microbacterium sp. APC 3901"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 551.206,
+                  "score": 1419,
+                  "evalue": 0,
+                  "identity": 267,
+                  "positive": 271,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLDTVLETLDLRDVVLVGFSMGTGELARYVAKYGHDRVTKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVSSWIEDFRADVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADL+TVLETLDLRDVVLVGFSMGTGELARYV  YGHDRV KLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVV +WIEDFR DVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_136032723.1|",
+                  "accession": "WP_136032723",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [Microbacterium]",
+                  "taxid": 33882,
+                  "sciname": "Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 548.895,
+                  "score": 1413,
+                  "evalue": 0,
+                  "identity": 265,
+                  "positive": 273,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEATYIEVEGAPHGLLWTHADEVNAALKDFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP ATY+EVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_136045597.1|",
+                  "accession": "WP_136045597",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. K41]",
+                  "taxid": 2305437,
+                  "sciname": "Microbacterium sp. K41"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 548.125,
+                  "score": 1411,
+                  "evalue": 0,
+                  "identity": 265,
+                  "positive": 272,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTEFYKNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEATYIEVEGAPHGLLWTHADEVNGALKDFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFT+FY NFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP ATY+EVEGAPHGLLWTHADEVN ALK FL"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_247638205.1|",
+                  "accession": "WP_247638205",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [Microbacterium]",
+                  "taxid": 33882,
+                  "sciname": "Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 546.969,
+                  "score": 1408,
+                  "evalue": 0,
+                  "identity": 264,
+                  "positive": 272,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEATYIEVEGAPHGLLWTHADEVNAALNDFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP ATY+EVEGAPHGLLWTHADEVNAAL  FL"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_452313490.1|",
+                  "accession": "WP_452313490",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. NPDC055599]",
+                  "taxid": 3345607,
+                  "sciname": "Microbacterium sp. NPDC055599"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 546.969,
+                  "score": 1408,
+                  "evalue": 0,
+                  "identity": 264,
+                  "positive": 272,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVSRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEATYIEVEGAPHGLLWTHADEVNAALKDFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP ATY+EVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_247982664.1|",
+                  "accession": "WP_247982664",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [Microbacterium]",
+                  "taxid": 33882,
+                  "sciname": "Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 546.969,
+                  "score": 1408,
+                  "evalue": 0,
+                  "identity": 264,
+                  "positive": 272,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MCYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEATYIEVEGAPHGLLWTHADEVNAALKDFL",
+                  "midline": "M YITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP ATY+EVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_400814489.1|",
+                  "accession": "WP_400814489",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. NPDC089696]",
+                  "taxid": 3364199,
+                  "sciname": "Microbacterium sp. NPDC089696"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 546.584,
+                  "score": 1407,
+                  "evalue": 0,
+                  "identity": 264,
+                  "positive": 272,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVANHGHERVAKLAFLASLEPFLVQRDDNPDGVPQDVFDGIEAAAKGDRYAWFTDFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVEGAPHGLLWTHADEVNAALKSFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  +GH+RVAKLAFLASLEPFLVQRDDNP+GVPQ+VFDGIEAAAKGDRYAWFTDFY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAALK+FL"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_449407397.1|",
+                  "accession": "WP_449407397",
+                  "title": "alpha/beta fold hydrolase [Microbacterium maritypicum]",
+                  "taxid": 33918,
+                  "sciname": "Microbacterium maritypicum"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 546.199,
+                  "score": 1406,
+                  "evalue": 0,
+                  "identity": 264,
+                  "positive": 272,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVANHGHERVAKLAFLASLEPFLVQRDDNPDGVPQDVFDGIEAAAKGDRYAWFTDFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRGAGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVEGAPHGLLWTHADEVNAALKSFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  +GH+RVAKLAFLASLEPFLVQRDDNP+GVPQ+VFDGIEAAAKGDRYAWFTDFY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAALK+FL"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_433585588.1|",
+                  "accession": "WP_433585588",
+                  "title": "alpha/beta fold hydrolase [Microbacterium hydrocarbonoxydans]",
+                  "taxid": 273678,
+                  "sciname": "Microbacterium hydrocarbonoxydans"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 543.888,
+                  "score": 1400,
+                  "evalue": 0,
+                  "identity": 264,
+                  "positive": 270,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGAGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVARYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYSWFTAFYNDFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPAWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVEGAPHGLLWTHADEVNAALKGFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQG+GQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRY+WFT FYN+FYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVP WIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_045256854.1|",
+                  "accession": "WP_045256854",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [Microbacterium]",
+                  "taxid": 33882,
+                  "sciname": "Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 541.962,
+                  "score": 1395,
+                  "evalue": 0,
+                  "identity": 263,
+                  "positive": 269,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTSIELYYEDQGAGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVARYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYSWFTAFYNDFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPAWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVEGAPHGLLWTHADEVNAALKGFLS",
+                  "midline": "MGYITVGNENST IELYYEDQG+GQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRY+WFT FYN+FYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVP WIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_311259858.1|",
+                  "accession": "WP_311259858",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. WCS2018Hpa-9]",
+                  "taxid": 3073635,
+                  "sciname": "Microbacterium sp. WCS2018Hpa-9"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 541.191,
+                  "score": 1393,
+                  "evalue": 0,
+                  "identity": 261,
+                  "positive": 270,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYSNFYNLDENLGSRISQEAVTGSWNVAIGSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALTDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFY+NFYNLDENLGSRISQ+ V  +WN+++ SAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAAL  FL "
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_211540547.1|",
+                  "accession": "WP_211540547",
+                  "title": "alpha/beta fold hydrolase [Microbacterium paraoxydans]",
+                  "taxid": 199592,
+                  "sciname": "Microbacterium paraoxydans"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 540.806,
+                  "score": 1392,
+                  "evalue": 0,
+                  "identity": 262,
+                  "positive": 269,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRDDVKAVAESGKPTLILHGTKDNILPIDATARRFRQAVPAAEYVEVEGAPHGLLWTHADEVNAALKDFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DV AV ++GKPTLILHGTKDNILPIDATARRF +AVP A YVEVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_259975840.1|",
+                  "accession": "WP_259975840",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. p3-SID336]",
+                  "taxid": 2916212,
+                  "sciname": "Microbacterium sp. p3-SID336"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 540.036,
+                  "score": 1390,
+                  "evalue": 0,
+                  "identity": 261,
+                  "positive": 270,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPVELYYEDQGAGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERIAKLAFLASLEPFLVQRDGNPEGVPQDVFDGIEAAAKGDRYAWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFRQAVPEAEYVEVEGAPHGLLWTHADEVNAALKDFL",
+                  "midline": "MGYITVGNENSTP+ELYYEDQG+GQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+R+AKLAFLASLEPFLVQRD NPEGVPQ+VFDGIEAAAKGDRYAWFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRF +AVP A YVEVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_404918657.1|",
+                  "accession": "WP_404918657",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. ZW T5_45]",
+                  "taxid": 3378080,
+                  "sciname": "Microbacterium sp. ZW T5_45"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 540.036,
+                  "score": 1390,
+                  "evalue": 0,
+                  "identity": 261,
+                  "positive": 270,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENTTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPDGVPQEVFDGIEAAAKGDRYSWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRSDVDAVRESGKPTLILHGTKDNILPIDATARRFRQAVPDAEYVEVEGAPHGLLWTHADEVNAALKGFL",
+                  "midline": "MGYITVG EN+TPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNP+GVPQEVFDGIEAAAKGDRY+WFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DVDAVR++GKPTLILHGTKDNILPIDATARRF +AVP A YVEVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_431806491.1|",
+                  "accession": "WP_431806491",
+                  "title": "alpha/beta fold hydrolase [Microbacterium paraoxydans]",
+                  "taxid": 199592,
+                  "sciname": "Microbacterium paraoxydans"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 539.65,
+                  "score": 1389,
+                  "evalue": 0,
+                  "identity": 261,
+                  "positive": 269,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRYAWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRDDVKAVAESGKPTLILHGTKDNILPIDATARRFRQAVPAAEYVEVEGAPHGLLWTHADEVNAALKDFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDRYAWFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DV AV ++GKPTLILHGTKDNILPIDATARRF +AVP A YVEVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_067356321.1|",
+                  "accession": "WP_067356321",
+                  "title": "alpha/beta fold hydrolase [Microbacterium hydrocarbonoxydans]",
+                  "taxid": 273678,
+                  "sciname": "Microbacterium hydrocarbonoxydans"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 539.265,
+                  "score": 1388,
+                  "evalue": 0,
+                  "identity": 261,
+                  "positive": 268,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYISVGTENTTPIELYYEDQGAGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVARYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIAAAAKGDRYAWFTEFYKNFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDVTARRFHQAVPDADYVEVEGAPHGLLWTHADEVNAALKEFL",
+                  "midline": "MGYI+VG EN+TPIELYYEDQG+GQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGI AAAKGDRYAWFT+FY NFYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDV+AVR AGKPTLILHGTKDNILPID TARRFH+AVP A YVEVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_042538169.1|",
+                  "accession": "WP_042538169",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [Microbacterium]",
+                  "taxid": 33882,
+                  "sciname": "Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 538.88,
+                  "score": 1387,
+                  "evalue": 0,
+                  "identity": 259,
+                  "positive": 269,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVATYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISQEAVTGSWNVAIGSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV TYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRISQ+ V  +WN+++ SAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_314426904.1|",
+                  "accession": "WP_314426904",
+                  "title": "alpha/beta fold hydrolase [uncultured Microbacterium sp.]",
+                  "taxid": 191216,
+                  "sciname": "uncultured Microbacterium sp."
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 538.495,
+                  "score": 1386,
+                  "evalue": 0,
+                  "identity": 259,
+                  "positive": 268,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVAKYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISQEAVTGSWNVAIGSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFL",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGHDRVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRISQ+ V  +WN+++ SAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_120494958.1|",
+                  "accession": "WP_120494958",
+                  "title": "alpha/beta fold hydrolase [Microbacterium phyllosphaerae]",
+                  "taxid": 124798,
+                  "sciname": "Microbacterium phyllosphaerae"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 536.569,
+                  "score": 1381,
+                  "evalue": 0,
+                  "identity": 257,
+                  "positive": 268,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSAPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVNAGYDYDTFAADLNSVLETLDLRDVVLVGFSMGTGELARYVGTYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISEQAVTGSWNVAITSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENS PIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKV  GYDYDTFAADLN+VLETLDLRDVVLVGFSMGTGELARYVGTYGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRIS+Q V  +WN+++TSAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_363478398.1|",
+                  "accession": "WP_363478398",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. NPDC089321]",
+                  "taxid": 3155183,
+                  "sciname": "Microbacterium sp. NPDC089321"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 536.184,
+                  "score": 1380,
+                  "evalue": 0,
+                  "identity": 259,
+                  "positive": 265,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGSITVGTENSTPIELYYEDQGQGQPVVLIHGYPLNGHSWERQTRELLDQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVARYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIAAAAKGDRYAWFTDFYKDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPAWIEDFRGDVDAVREAAKPTLILHGTKDNILPIDATARRFHQAVPAAEYVEIEGAPHGLLWTHADEVNAALTSFL",
+                  "midline": "MG ITVG ENSTPIELYYEDQG GQPVVLIHGYPLNGHSWERQTRELL QGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGI AAAKGDRYAWFTDFY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVP WIEDFRGDVDAVR+A KPTLILHGTKDNILPIDATARRFH+AVP A YVE+EGAPHGLLWTHADEVNAAL +FL"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_056510603.1|",
+                  "accession": "WP_056510603",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. Leaf320]",
+                  "taxid": 1736334,
+                  "sciname": "Microbacterium sp. Leaf320"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 535.798,
+                  "score": 1379,
+                  "evalue": 0,
+                  "identity": 257,
+                  "positive": 268,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSAPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISEQAVTGSWNVAIGSAPVAAYAVVSSWIEDFRGDVDAVRDAAKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENS PIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRIS+Q V  +WN+++ SAPVAAYAVV +WIEDFRGDVDAVRDA KPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_311244041.1|",
+                  "accession": "WP_311244041",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. WCS2018Hpa-23]",
+                  "taxid": 3073634,
+                  "sciname": "Microbacterium sp. WCS2018Hpa-23"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 535.028,
+                  "score": 1377,
+                  "evalue": 0,
+                  "identity": 257,
+                  "positive": 267,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSAPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVNAGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISEQAVTGSWNVAIGSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENS PIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKV  GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRIS+Q V  +WN+++ SAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_371512924.1|",
+                  "accession": "WP_371512924",
+                  "title": "alpha/beta fold hydrolase [Microbacterium paraoxydans]",
+                  "taxid": 199592,
+                  "sciname": "Microbacterium paraoxydans"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 534.643,
+                  "score": 1376,
+                  "evalue": 0,
+                  "identity": 260,
+                  "positive": 266,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENTTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTQFYKDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRDDVKAVAAAGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVEGAPHGLLWTHADEVNAALTQFL",
+                  "midline": "MGYITVG EN+TPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFT FY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DV AV  AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAAL  FL"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_102208638.1|",
+                  "accession": "WP_102208638",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [unclassified Microbacterium]",
+                  "taxid": 2609290,
+                  "sciname": "unclassified Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 534.258,
+                  "score": 1375,
+                  "evalue": 0,
+                  "identity": 260,
+                  "positive": 266,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENTTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTQFYTDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRDDVKAVAAAGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVEGAPHGLLWTHADEVNAALTQFL",
+                  "midline": "MGYITVG EN+TPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFT FY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DV AV  AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAAL  FL"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_447911798.1|",
+                  "accession": "WP_447911798",
+                  "title": "alpha/beta fold hydrolase [Microbacterium phyllosphaerae]",
+                  "taxid": 124798,
+                  "sciname": "Microbacterium phyllosphaerae"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 533.872,
+                  "score": 1374,
+                  "evalue": 0,
+                  "identity": 256,
+                  "positive": 266,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSAPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVNAGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVAKYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISEQAVTGSWNVAITSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENS PIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKV  GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRIS+Q V  +WN+++TSAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_062633128.1|",
+                  "accession": "WP_062633128",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. CH1]",
+                  "taxid": 1770208,
+                  "sciname": "Microbacterium sp. CH1"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 533.487,
+                  "score": 1373,
+                  "evalue": 0,
+                  "identity": 259,
+                  "positive": 265,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENTTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVALVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTQFYTDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRDDVKAVAAAGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVEGAPHGLLWTHADEVNAALTQFL",
+                  "midline": "MGYITVG EN+TPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDV LVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFT FY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DV AV  AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAAL  FL"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_056310293.1|",
+                  "accession": "WP_056310293",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. Leaf159]",
+                  "taxid": 1736279,
+                  "sciname": "Microbacterium sp. Leaf159"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 533.487,
+                  "score": 1373,
+                  "evalue": 0,
+                  "identity": 255,
+                  "positive": 266,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSAPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVNAGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVAKYGHERIAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISEQAVTGSWNVAITSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENS PIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKV  GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGH+R+AKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRIS+Q V  +WN+++TSAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_231091218.1|",
+                  "accession": "WP_231091218",
+                  "title": "alpha/beta fold hydrolase [Microbacterium nymphoidis]",
+                  "taxid": 2898586,
+                  "sciname": "Microbacterium nymphoidis"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 533.102,
+                  "score": 1372,
+                  "evalue": 0,
+                  "identity": 255,
+                  "positive": 268,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGFITVGTENTTPIELYYEDQGEGQPVVLIHGYPLNGHSWERQTRELLSQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIAAAAKSDRYSWYTQFYQDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPSWIEDFRGDVEAVRASGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVDGAPHGLLWTHADEVNAALTSFLS",
+                  "midline": "MG+ITVG EN+TPIELYYEDQG GQPVVLIHGYPLNGHSWERQTRELL+QGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGI AAAK DRY+W+T FY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVP+WIEDFRGDV+AVR +GKPTLILHGTKDNILPIDATARRFH+AVP A YVEV+GAPHGLLWTHADEVNAAL +FL "
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_102193884.1|",
+                  "accession": "WP_102193884",
+                  "title": "alpha/beta fold hydrolase [Microbacterium aurantiacum]",
+                  "taxid": 162393,
+                  "sciname": "Microbacterium aurantiacum"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 532.717,
+                  "score": 1371,
+                  "evalue": 0,
+                  "identity": 259,
+                  "positive": 264,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENSTSIELYYEDQGAGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVNAGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVARYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIAAAAKGDRYAWFTQFYNDFYNLDENLGSRISQEVVTANWNLSVTSAPVAAYAVVPAWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEADYVEVEGAPHGLLWTHADEVNAALKEFL",
+                  "midline": "MGYITVG ENST IELYYEDQG+GQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKV  GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGI AAAKGDRYAWFT FYN+FYNLDENLGSRISQ+VV ANWNLSVTSAPVAAYAVVP WIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_363550661.1|",
+                  "accession": "WP_363550661",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [unclassified Microbacterium]",
+                  "taxid": 2609290,
+                  "sciname": "unclassified Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 532.332,
+                  "score": 1370,
+                  "evalue": 0,
+                  "identity": 259,
+                  "positive": 265,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENSTSIELYYEDQGAGQPVVLIHGYPLNGHSWERQTRELLDQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVARYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIAAAAKGDRYAWFTQFYNDFYNLDENLGSRISQEVVTANWNLSVTSAPVAAYAVVPAWIEDFRGDVEAVRAAGKPTLILHGTKDNILPIDATARRFHQAVPEADYVEVEGAPHGLLWTHADEVNAALKEFL",
+                  "midline": "MGYITVG ENST IELYYEDQG+GQPVVLIHGYPLNGHSWERQTRELL QGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGI AAAKGDRYAWFT FYN+FYNLDENLGSRISQ+VV ANWNLSVTSAPVAAYAVVP WIEDFRGDV+AVR AGKPTLILHGTKDNILPIDATARRFH+AVP A YVEVEGAPHGLLWTHADEVNAALK FL"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_210096758.1|",
+                  "accession": "WP_210096758",
+                  "title": "alpha/beta fold hydrolase [Microbacterium phyllosphaerae]",
+                  "taxid": 124798,
+                  "sciname": "Microbacterium phyllosphaerae"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 531.946,
+                  "score": 1369,
+                  "evalue": 0,
+                  "identity": 256,
+                  "positive": 267,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGGSSKVNAGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHERVAKLAFLASLEPFLVQRDDNPEGVPQDVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISQEAVTGSWNVAIGSAPVAAYAVVSSWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFG SSKV  GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGH+RVAKLAFLASLEPFLVQRDDNPEGVPQ+VFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRISQ+ V  +WN+++ SAPVAAYAVV +WIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_315638169.1|",
+                  "accession": "WP_315638169",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [Microbacterium]",
+                  "taxid": 33882,
+                  "sciname": "Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 531.561,
+                  "score": 1368,
+                  "evalue": 0,
+                  "identity": 259,
+                  "positive": 265,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENTTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTQFYKDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRDDVKAVAAAGKPTLILHGTKDNILPIDATARRFRQAVPEAEYVEVEGAPHGLLWTHADEVNAALTQFL",
+                  "midline": "MGYITVG EN+TPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFT FY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DV AV  AGKPTLILHGTKDNILPIDATARRF +AVP A YVEVEGAPHGLLWTHADEVNAAL  FL"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_249520947.1|",
+                  "accession": "WP_249520947",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. ER1]",
+                  "taxid": 1932846,
+                  "sciname": "Microbacterium sp. ER1"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 531.561,
+                  "score": 1368,
+                  "evalue": 0,
+                  "identity": 258,
+                  "positive": 265,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYVTVGTENTTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTQFYTDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRDDVKAVAAAGKPTLILHGTKDNILPIDATARRFRQAVPEAEYVEVEGAPHGLLWTHADEVNAALTQFL",
+                  "midline": "MGY+TVG EN+TPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFT FY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DV AV  AGKPTLILHGTKDNILPIDATARRF +AVP A YVEVEGAPHGLLWTHADEVNAAL  FL"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_215172861.1|",
+                  "accession": "WP_215172861",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. ISL-103]",
+                  "taxid": 2819156,
+                  "sciname": "Microbacterium sp. ISL-103"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 531.561,
+                  "score": 1368,
+                  "evalue": 0,
+                  "identity": 255,
+                  "positive": 265,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGYITVGNENSAPIELYYEDQGSGQPVVLIHGYPLDGHSWERQTRELLAQGYRVITYDRRGFGQSSKVNAGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVAKYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRFAWFTDFYKNFYNLDENLGSRISEQAVTGSWNVAITSAPVAAYAVVSSWIEDFRTDVDAVRDAGKPTLILHGTKDNILPIDATARRFHQAVPAATYVEVEGAPHGLLWTHADEVNAALKDFLS",
+                  "midline": "MGYITVGNENS PIELYYEDQGSGQPVVLIHGYPL+GHSWERQTRELLAQGYRVITYDRRGFGQSSKV  GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYV  YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDR+AWFTDFY NFYNLDENLGSRIS+Q V  +WN+++TSAPVAAYAVV +WIEDFR DVDAVRDAGKPTLILHGTKDNILPIDATARRFH+AVP ATYVEVEGAPHGLLWTHADEVNAALK FL "
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_025104019.1|",
+                  "accession": "WP_025104019",
+                  "title": "MULTISPECIES: alpha/beta fold hydrolase [Microbacterium]",
+                  "taxid": 33882,
+                  "sciname": "Microbacterium"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 531.561,
+                  "score": 1368,
+                  "evalue": 0,
+                  "identity": 259,
+                  "positive": 265,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENTTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTQFYTDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRDDVKAVAAAGKPTLILHGTKDNILPIDATARRFRQAVPEAEYVEVEGAPHGLLWTHADEVNAALTQFL",
+                  "midline": "MGYITVG EN+TPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFT FY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFR DV AV  AGKPTLILHGTKDNILPIDATARRF +AVP A YVEVEGAPHGLLWTHADEVNAAL  FL"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_144881482.1|",
+                  "accession": "WP_144881482",
+                  "title": "alpha/beta fold hydrolase [Microbacterium paraoxydans]",
+                  "taxid": 199592,
+                  "sciname": "Microbacterium paraoxydans"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 531.176,
+                  "score": 1367,
+                  "evalue": 0,
+                  "identity": 258,
+                  "positive": 265,
+                  "query_from": 1,
+                  "query_to": 278,
+                  "hit_from": 1,
+                  "hit_to": 278,
+                  "align_len": 278,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFL",
+                  "hseq": "MGYITVGTENTTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGSGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGRYGHERVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTQFYTDFYNLDENLGTRISQQVVDANWNLSVTSAPIAAYAVVPTWIEDFRDDVKAVAAAGKPTLILHGTKDNILPIDATARRFRQAVPEAEYVEVEGAPHGLLWTHADEVNAALTQFL",
+                  "midline": "MGYITVG EN+TPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVG+GYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVG YGH+RVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFT FY +FYNLDENLG+RISQQVVDANWNLSVTSAP+AAYAVVPTWIEDFR DV AV  AGKPTLILHGTKDNILPIDATARRF +AVP A YVEVEGAPHGLLWTHADEVNAAL  FL"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_402845098.1|",
+                  "accession": "WP_402845098",
+                  "title": "alpha/beta fold hydrolase [Microbacterium sp. GXS0129]",
+                  "taxid": 3377836,
+                  "sciname": "Microbacterium sp. GXS0129"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 531.176,
+                  "score": 1367,
+                  "evalue": 0,
+                  "identity": 254,
+                  "positive": 267,
+                  "query_from": 1,
+                  "query_to": 279,
+                  "hit_from": 1,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 0,
+                  "qseq": "MGYITVGNENSTPIELYYEDQGSGQPVVLIHGYPLNGHSWERQTRELLAQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIEAAAKGDRYAWFTDFYNNFYNLDENLGSRISQQVVDANWNLSVTSAPVAAYAVVPTWIEDFRGDVDAVRDAGKPTLILHGTKDNILPIDATARRFHKAVPVATYVEVEGAPHGLLWTHADEVNAALKTFLK",
+                  "hseq": "MGFITVGTENTTPIELYYEDQGEGQPVVLIHGYPLNGHSWERQTRELLSQGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGIAAAAKSDRCSWYTQFYQDFYNLDENLGTRISQQVVDANWNLSVTSAPVAAYAVVPSWIEDFRGDVEAVRASGKPTLILHGTKDNILPIDATARRFHQAVPEAEYVEVDGAPHGLLWTHADEVNAALTSFLS",
+                  "midline": "MG+ITVG EN+TPIELYYEDQG GQPVVLIHGYPLNGHSWERQTRELL+QGYRVITYDRRGFGQSSKVGTGYDYDTFAADLNTVLETLDLRDVVLVGFSMGTGELARYVGTYGHDRVAKLAFLASLEPFLVQRDDNPEGVPQEVFDGI AAAK DR +W+T FY +FYNLDENLG+RISQQVVDANWNLSVTSAPVAAYAVVP+WIEDFRGDV+AVR +GKPTLILHGTKDNILPIDATARRFH+AVP A YVEV+GAPHGLLWTHADEVNAAL +FL "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 458877498,
+            "db_len": 1448622149,
+            "hsp_len": 161,
+            "eff_space": 12646886501054,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          },
+          "message": "Warning: Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/\u000A"
+        }
+      }
+    }
+  }
+]
+}
+

@@ -1,0 +1,33 @@
+{
+  "prefix": "overlay",
+  "evalue_mode": "paper_fixed",
+  "db_letters": 168595,
+  "evalue_scale": 0.440428,
+  "n_nodes": 499,
+  "n_v1": 205,
+  "n_delta": 294,
+  "raw_alignments": 102236,
+  "aligned_pairs": 50449,
+  "edges_passing": 37475,
+  "v1_induced_edges": 2651,
+  "v1_induced_components": 42,
+  "baseline_merges": [
+    [
+      "1",
+      "35"
+    ]
+  ],
+  "n_components": 48,
+  "kinds": {
+    "inherited": 39,
+    "merged": 1,
+    "novel": 8
+  },
+  "delta_outcomes": {
+    "novel": 8,
+    "merge": 220,
+    "join": 66
+  },
+  "singletons": 25,
+  "largest_component": 305
+}

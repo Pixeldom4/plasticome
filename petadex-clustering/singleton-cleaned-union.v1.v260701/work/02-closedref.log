@@ -1,0 +1,14 @@
+usearch v11.0.667_i86linux64, 8.0Gb RAM, 10 cores
+/b/usearch11 -usearch_global /d/inputs/singleton-cleaned-union.v1.v2.no-seeds.fasta -db /d/work/seed-centroids.fasta -id 0.90 -maxaccepts 0 -maxrejects 0 -top_hit_only -uc /d/work/02-closedref.uc -matched /d/work/matched.fasta -notmatched /d/work/notmatched.fasta -log /d/work/02-closedref.log 
+Started Thu Jul 23 21:54:45 2026
+00:00 337Mb   100.0% Reading /d/work/seed-centroids.fasta
+00:00 304Mb   100.0% Masking (fastamino)
+00:00 358Mb   100.0% Word stats
+00:00 358Mb   100.0% Alloc rows
+00:00 358Mb   100.0% Build index
+Db load time 0 secs (0s)
+Search time 0 secs (0s)
+
+Finished Thu Jul 23 21:54:45 2026
+Elapsed time 00:00
+Max memory 1.1Gb

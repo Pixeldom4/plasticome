@@ -1,0 +1,1 @@
+{"header":{"type":"elink","version":"0.3"},"linksets":[{"dbfrom":"protein","ids":["1843802763"]},{"dbfrom":"protein","ids":["1850397096"],"linksetdbs":[{"dbto":"pubmed","linkname":"protein_pubmed","links":["24728714"]}]}]}

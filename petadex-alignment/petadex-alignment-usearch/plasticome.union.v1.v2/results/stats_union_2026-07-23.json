@@ -1,0 +1,33 @@
+{
+  "tag": "union",
+  "date": "2026-07-23",
+  "prefix": "results/combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 144182,
+  "usearch": "v11.0.667 -allpairs_local -acceptall, both orientations",
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 144182-residue db",
+  "n_nodes": 411,
+  "raw_alignments": 62278,
+  "aligned_pairs": 30629,
+  "edges_passing": 22208,
+  "n_components": 46,
+  "n_singletons": 25,
+  "largest_component": 232,
+  "top10_component_sizes": [
+    232,
+    45,
+    19,
+    16,
+    14,
+    10,
+    5,
+    5,
+    5,
+    5
+  ],
+  "n_nodes_with_v1_overlay": 156,
+  "n_v1_labels_split_across_components": 0,
+  "v1_labels_split": {}
+}

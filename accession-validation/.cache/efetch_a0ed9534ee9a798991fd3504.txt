@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+233423163	INSDC	PKMX01000021.1	252439	253389	+	RZE95811.1	alpha/beta hydrolase	Streptomyces sp. SCA2-2	SCA2-2	GCA_004196225.1

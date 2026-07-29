@@ -1,0 +1,62 @@
+{
+  "confidence": {
+    "confirmed": 33,
+    "confirmed_supp": 82,
+    "external_database": 30,
+    "name_supported": 24,
+    "obsolete_record": 54,
+    "organism_mismatch": 9,
+    "title_unmapped": 6,
+    "unconfirmed": 186,
+    "unverifiable_title": 15,
+    "verified": 4,
+    "wrong_molecule": 3
+  },
+  "curator_verdicts_applied": {
+    "correct": 2,
+    "verify_cds": 2
+  },
+  "review_queue_size": 303,
+  "tier0": {
+    "false": 87,
+    "true": 359
+  },
+  "tier1": {
+    "concordant": 33,
+    "generic_title": 9,
+    "name_uninformative": 271,
+    "related_family": 12,
+    "skipped_tier0": 87,
+    "title_unmapped": 10,
+    "uninformative_title": 24
+  },
+  "tier2": {
+    "doi_match": 33,
+    "no_doi_overlap": 180,
+    "not_linkable": 23,
+    "skipped_tier0": 87,
+    "unlinked": 123
+  },
+  "tierA": {
+    "remap_none": 6,
+    "remap_plausible": 35,
+    "remap_strong": 3,
+    "self_corroborated": 1
+  },
+  "tierO": {
+    "exact": 322,
+    "mismatch": 9,
+    "same_genus": 20,
+    "same_species": 17,
+    "uncomparable": 78
+  },
+  "tierS": {
+    "acc_in_maintext": 7,
+    "acc_in_supp": 10,
+    "no_sequence": 4,
+    "seq_in_supp": 88,
+    "supp_no_match": 2,
+    "supp_unavailable": 335
+  },
+  "total_rows": 446
+}

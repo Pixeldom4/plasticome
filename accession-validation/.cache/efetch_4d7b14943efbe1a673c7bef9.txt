@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+785479	INSDC	X16712.1	1	1617	+	CAA34684.1	lipase 1	Limtongozyma cylindracea	MS-5	

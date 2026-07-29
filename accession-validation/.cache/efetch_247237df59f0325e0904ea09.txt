@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+173444341	INSDC	PJMP01000001.1	1965643	1967049	+	PKV28429.1	dienelactone hydrolase	Plantactinospora sp. CNZ320	CNZ320	GCA_002846275.1

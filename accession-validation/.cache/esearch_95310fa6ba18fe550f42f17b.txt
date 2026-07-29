@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"0","retmax":"0","retstart":"0","idlist":[],"translationset":[],"querytranslation":"10.1007/s12257-013-0189-4[DOI]","errorlist":{"phrasesnotfound":["s12257-013-0189-4"],"fieldsnotfound":[]},"warninglist":{"phrasesignored":[],"quotedphrasesnotfound":[],"outputmessages":["No items found."]}}}

@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+144169795	INSDC	CP073767.1	8678939	8679736	+	UWZ59976.1	alpha/beta hydrolase	Dactylosporangium aurantiacum	NRRL B-8018	GCA_025264705.1

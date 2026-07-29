@@ -1,0 +1,27 @@
+{
+  "n_nodes_shared": 412,
+  "usearch": {
+    "n_components": 46,
+    "edges": 22410,
+    "singletons": 25,
+    "largest": 233
+  },
+  "diamond": {
+    "n_components": 46,
+    "edges": 22541,
+    "singletons": 24,
+    "largest": 229
+  },
+  "edge_overlap": {
+    "shared": 22241,
+    "usearch_only": 169,
+    "diamond_only": 300,
+    "union": 22710,
+    "jaccard": 0.97935
+  },
+  "partition_agreement": {
+    "rand_index": 0.983677,
+    "adjusted_rand_index": 0.963171,
+    "nodes_in_differently_matched_component": 6
+  }
+}

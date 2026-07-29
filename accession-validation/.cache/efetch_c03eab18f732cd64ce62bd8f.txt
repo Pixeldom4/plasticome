@@ -1,0 +1,12 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+528921	INSDC	X14689.1	643	1860	+	CAA32820.1	proteinkinase K	Parengyodontium album	Limber, CBS747.69	
+528921	Swiss-Prot	N/A				P06873.2	Proteinase K	Parengyodontium album		
+528921	INSDC	X14688.1	86	1240	+	CAA32819.1	unnamed protein product	Parengyodontium album	Limber, CBS747.69	
+528921	PAT	N/A				AAN90231.1	Sequence 1 from patent US 6451574	Unknown		
+528921	PAT	N/A				ACE17028.1	Sequence 21 from patent US 7368274	Unknown		
+528921	PAT	N/A				AFO13064.1	Sequence 305 from patent US 8211428	Unknown		
+528921	PAT	N/A				AHH55644.1	Sequence 3 from patent US 8617542	Unknown		
+528921	PAT	N/A				AJN92014.1	Sequence 305 from patent US 8663633	Unknown		
+528921	PAT	N/A				APM95295.1	Sequence 305 from patent US 9290757	Unknown		
+528921	PAT	N/A				QHZ38801.1	Sequence 8 from patent US 10508269	Unknown		
+528921	PAT	N/A				YAT04225.1	Sequence 20 from patent US 11903984 B1	Parengyodontium album		

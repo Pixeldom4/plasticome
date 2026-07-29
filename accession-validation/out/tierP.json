@@ -1,0 +1,20 @@
+[
+  {
+    "accession": "AAK11724.1",
+    "enzyme_name": "Amidase",
+    "matched_protein_id": "AAK11724.1",
+    "nuccore_accession": "AY026386",
+    "provenance_detail": "AAK11724.1 is a CDS of AY026386",
+    "row": 439,
+    "tierP_flag": "cds_id_match"
+  },
+  {
+    "accession": "ACY56506.1",
+    "enzyme_name": "Amidase",
+    "matched_protein_id": "ACY56506.1",
+    "nuccore_accession": "GU116480",
+    "provenance_detail": "ACY56506.1 is a CDS of GU116480",
+    "row": 442,
+    "tierP_flag": "cds_id_match"
+  }
+]

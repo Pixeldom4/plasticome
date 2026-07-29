@@ -1,0 +1,28 @@
+@startuml
+skinparam defaultFontName Helvetica
+skinparam activityBackgroundColor #f8fafc
+skinparam activityBorderColor #475569
+skinparam partitionBorderColor #94a3b8
+start
+partition "Step 1 · Compile pazy" {
+  :pazy-pulled 260701 (n=495);
+  :Manual curation (+4 / -26);
+  #dbeafe:cleaned_pazy-260701 (n=473);
+  :Retrieve by accession\n446 NCBI + 27 manual;
+  :QC annotation\n(activity · direct/indirect);
+}
+partition "Step 2.1 · Clean V1" {
+  :Plasticome v1;
+  :Fix accession · Erickson seqs;
+  #dbeafe:plasticome v1.1 (213 rows);
+}
+:Step 2.2 · Union merge\naccession == retrieved;
+#dbeafe:union n=611 (398 · 75 · 138);
+:Step 2.3 · USEARCH cluster\n90% AA · 3-phase;
+#dbeafe:412 clusters (273 singletons);
+:Step 2.4 · Align to components\nDIAMOND + USEARCH all-vs-all;
+:Step 2.5 · Validate singletons\nPL14/458/467/539;
+:Step 2.6 · Rebuild -> recluster (412)\n-> re-align (46 components);
+#dcfce7:Output · 412-centroid FASTA\nfor nr-search;
+stop
+@enduml

@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<!DOCTYPE TaxaSet PUBLIC "-//NLM//DTD Taxon, 14th January 2002//EN" "https://www.ncbi.nlm.nih.gov/entrez/query/DTD/taxon.dtd">
+<TaxaSet><Taxon>
+    <TaxId>2211356</TaxId>
+    <ScientificName>Aequorivita sp. CIP111184</ScientificName>
+    <ParentTaxId>2615031</ParentTaxId>
+    <Rank>species</Rank>
+    <Division>Bacteria</Division>
+    <GeneticCode>
+        <GCId>11</GCId>
+        <GCName>Bacterial, Archaeal and Plant Plastid</GCName>
+    </GeneticCode>
+    <MitoGeneticCode>
+        <MGCId>0</MGCId>
+        <MGCName>Unspecified</MGCName>
+    </MitoGeneticCode>
+    <Lineage>cellular organisms; Bacteria; Pseudomonadati; FCB group; Bacteroidota/Chlorobiota group; Bacteroidota; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Aequorivita; unclassified Aequorivita</Lineage>
+    <LineageEx>
+        <Taxon>
+            <TaxId>131567</TaxId>
+            <ScientificName>cellular organisms</ScientificName>
+            <Rank>cellular root</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>2</TaxId>
+            <ScientificName>Bacteria</ScientificName>
+            <Rank>domain</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>3379134</TaxId>
+            <ScientificName>Pseudomonadati</ScientificName>
+            <Rank>kingdom</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>1783270</TaxId>
+            <ScientificName>FCB group</ScientificName>
+            <Rank>clade</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>68336</TaxId>
+            <ScientificName>Bacteroidota/Chlorobiota group</ScientificName>
+            <Rank>clade</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>976</TaxId>
+            <ScientificName>Bacteroidota</ScientificName>
+            <Rank>phylum</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>117743</TaxId>
+            <ScientificName>Flavobacteriia</ScientificName>
+            <Rank>class</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>200644</TaxId>
+            <ScientificName>Flavobacteriales</ScientificName>
+            <Rank>order</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>49546</TaxId>
+            <ScientificName>Flavobacteriaceae</ScientificName>
+            <Rank>family</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>153265</TaxId>
+            <ScientificName>Aequorivita</ScientificName>
+            <Rank>genus</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>2615031</TaxId>
+            <ScientificName>unclassified Aequorivita</ScientificName>
+            <Rank>no rank</Rank>
+        </Taxon>
+    </LineageEx>
+    <CreateDate>2018/05/30 08:20:10</CreateDate>
+    <UpdateDate>2018/06/30 19:18:10</UpdateDate>
+    <PubDate>2018/06/30 19:00:03</PubDate>
+</Taxon>
+<Taxon>
+    <TaxId>266749</TaxId>
+    <ScientificName>Kaistella jeonii</ScientificName>
+    <OtherNames>
+        <Synonym>Chryseobacterium jeonii (Yi et al. 2005) Kämpfer et al. 2009</Synonym>
+        <Synonym>Kaistella jeonii (Yi et al. 2005) Nicholson et al. 2020</Synonym>
+        <Synonym>Sejongia jeonii</Synonym>
+        <Includes>Chryseobacterium sp. AT1047</Includes>
+        <Name>
+            <ClassCDE>authority</ClassCDE>
+            <DispName>Sejongia jeonii Yi et al. 2005</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>DSM 17048</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>DSM:17048</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>IMSNU 14049</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>IMSNU:14049</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>JCM 12382</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>JCM:12382</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>KCTC 12226</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>KCTC:12226</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>NCTC 13459</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>NCTC:13459</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>personal::AT1047</DispName>
+        </Name>
+        <Name>
+            <ClassCDE>type material</ClassCDE>
+            <DispName>strain AT1047</DispName>
+        </Name>
+    </OtherNames>
+    <ParentTaxId>2782231</ParentTaxId>
+    <Rank>species</Rank>
+    <Division>Bacteria</Division>
+    <GeneticCode>
+        <GCId>11</GCId>
+        <GCName>Bacterial, Archaeal and Plant Plastid</GCName>
+    </GeneticCode>
+    <MitoGeneticCode>
+        <MGCId>0</MGCId>
+        <MGCName>Unspecified</MGCName>
+    </MitoGeneticCode>
+    <Lineage>cellular organisms; Bacteria; Pseudomonadati; FCB group; Bacteroidota/Chlorobiota group; Bacteroidota; Flavobacteriia; Flavobacteriales; Weeksellaceae; Chryseobacterium group; Kaistella</Lineage>
+    <LineageEx>
+        <Taxon>
+            <TaxId>131567</TaxId>
+            <ScientificName>cellular organisms</ScientificName>
+            <Rank>cellular root</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>2</TaxId>
+            <ScientificName>Bacteria</ScientificName>
+            <Rank>domain</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>3379134</TaxId>
+            <ScientificName>Pseudomonadati</ScientificName>
+            <Rank>kingdom</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>1783270</TaxId>
+            <ScientificName>FCB group</ScientificName>
+            <Rank>clade</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>68336</TaxId>
+            <ScientificName>Bacteroidota/Chlorobiota group</ScientificName>
+            <Rank>clade</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>976</TaxId>
+            <ScientificName>Bacteroidota</ScientificName>
+            <Rank>phylum</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>117743</TaxId>
+            <ScientificName>Flavobacteriia</ScientificName>
+            <Rank>class</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>200644</TaxId>
+            <ScientificName>Flavobacteriales</ScientificName>
+            <Rank>order</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>2762318</TaxId>
+            <ScientificName>Weeksellaceae</ScientificName>
+            <Rank>family</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>2782232</TaxId>
+            <ScientificName>Chryseobacterium group</ScientificName>
+            <Rank>no rank</Rank>
+        </Taxon>
+        <Taxon>
+            <TaxId>2782231</TaxId>
+            <ScientificName>Kaistella</ScientificName>
+            <Rank>genus</Rank>
+        </Taxon>
+    </LineageEx>
+    <CreateDate>2004/03/11 12:40:43</CreateDate>
+    <UpdateDate>2020/10/27 19:29:26</UpdateDate>
+    <PubDate>2004/03/23 18:01:34</PubDate>
+</Taxon>
+
+</TaxaSet>

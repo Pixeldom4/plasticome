@@ -1,0 +1,13 @@
+CLAIM 2 / evidence 04 — minimal reproducible example: one alignment, two e-values
+
+Reproduce (both binaries; query = the 2 seqs, db = the 213-seq FASTA):
+  usearch -usearch_local inputs/mre_n84_n35.fasta -db inputs/v1_nodes_213.fasta \
+     -id 0.05 -evalue 1000 -maxaccepts 0 -maxrejects 0 -fulldp -wordlength 2 \
+     -userout hits.tsv -userfields query+target+id+alnlen+evalue+bits
+
+Hit line for n84 vs n35 (query target id alnlen evalue bits):
+  v11.0.667 : n84  n35  30.4  125  1.13e-09  54
+  v12.0-beta: n84  n35  30.4  125  1.53e-05  54
+
+Identical alignment: id=30.4%, alnlen=125, bits=54 in BOTH.
+Divergent e-value  : v11 E=1.13e-09  vs  v12 E=1.53e-05  -> ratio 13540 (10^4.13).

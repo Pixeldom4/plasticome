@@ -1,0 +1,15 @@
+{
+  "input_csv": "v4/plasticome.v2.cleaned_plasticome_final.csv",
+  "input_md5": "72b365a17cbce8f5863594174c8e50a3",
+  "n_rows": 476,
+  "n_nodes": 476,
+  "n_unique_md5": 476,
+  "db_letters": 167376,
+  "len_min": 28,
+  "len_median": 316,
+  "len_max": 734,
+  "n_lt_200aa": 6,
+  "n_lt_100aa": 1,
+  "n_multi_accession": 125,
+  "n_with_v1_overlay": 205
+}

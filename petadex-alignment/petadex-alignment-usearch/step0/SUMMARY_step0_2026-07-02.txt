@@ -1,0 +1,22 @@
+STEP 0 — Reproduce the PAZy seed graph (Logan paper, Extended Data Fig 2a)
+==========================================================================
+RESULT: PASS. 42 connected components (paper: 42). 3,170 edges (paper: 3,195; -0.8%).
+
+Aligner : usearch v11.0.667 (i86linux64)  [sha256 a2b981fb...590ea8]
+Command : usearch11 -allpairs_local v1_nodes_213.fasta \
+            -userout pairs.tsv -userfields query+target+id+evalue+bits -acceptall
+Criterion (post-filter): >=30% amino-acid identity AND e-value < 1e-5
+Graph   : undirected, single-linkage connected components over 213 nodes (redundant kept)
+
+Key method note: run the alignment PERMISSIVELY (allpairs = exhaustive all-vs-all, every
+pair aligned) and apply the 30%/1e-5 threshold in POST-PROCESSING. Applying the threshold
+as a *search* parameter (usearch_local -id 0.30 / ublast) prunes candidates during seeding
+and UNDER-connects the graph (56 and 49 components respectively). allpairs_local has no
+seeding heuristic, so no qualifying edge is missed.
+
+Divergence from v1 labels: exactly 2 single-edge, threshold-boundary effects (net 42):
+  - MERGE  v1 comp 1 + 35 via one edge n134<->n34  (30.6% id, e=2.96e-6) — just inside cutoff
+  - SPLIT  v1 comp 3: node Q7WXF6 (n160) falls just outside
+Both consistent with the 2026-06-30 PAZy snapshot vs the paper's 2024-12-19 retrieval.
+
+Nodes: 213 rows kept (redundant included); 205 unique md5; 8 redundant across 7 md5 groups.

@@ -1,0 +1,718 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0964830598000572</prism:url><dc:identifier>doi:10.1016/S0964-8305(98)00057-2</dc:identifier><eid>1-s2.0-S0964830598000572</eid><prism:doi>10.1016/S0964-8305(98)00057-2</prism:doi><pii>S0964-8305(98)00057-2</pii><dc:title>Growth of Pseudomonas chlororaphis on apolyester–polyurethane and the purification andcharacterization of a polyurethanase–esterase enzyme </dc:title><prism:publicationName>International Biodeterioration &amp; Biodegradation</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>09648305</prism:issn><prism:volume>43</prism:volume><prism:issueIdentifier>1-2</prism:issueIdentifier><prism:startingPage>7</prism:startingPage><prism:endingPage>12</prism:endingPage><prism:pageRange>7-12</prism:pageRange><prism:number>1-2</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1999-05-31</prism:coverDate><prism:coverDisplayDate>Spring 1999</prism:coverDisplayDate><prism:copyright>Copyright © 1999 Elsevier Science B.V. All rights reserved.</prism:copyright><prism:publisher>Elsevier Science B.V.</prism:publisher><dc:creator>Howard, Gary T</dc:creator><dc:creator>Ruiz, Carmen</dc:creator><dc:creator>Hilliard, Newton P</dc:creator><dc:description>
+                  A Pseudomonas chlororaphis was found to degrade and utilize apolyester polyurethane as a sole carbon and energy source. Polyurethane utilization by P.chlororaphis followed simple Michaelis–Menten kinetics. The K
+                     s and μ
+                     max values were 0.802 mg·ml−1 and 1.316 doublings·h−1, respectively. The enzymes from P. chlororaphis responsible for polyurethanedegradation were found to be extracellular. Analysis of the polyurethane degrading proteins, usingnon-denaturing polyacrylamide gel electrophoresis, revealed three active protein bands with R
+                     f values of 0.25, 0.417 and 0.917. A polyurethane degrading enzyme was purifiedand displayed esterase activity. This enzyme was inhibited by phenylmethylsulfonyl fluoride andhad a molecular weight of 27,000 daltons.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><link href="https://api.elsevier.com/content/article/pii/S0964830598000572" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0964830598000572" rel="scidir"/></coredata><objects><object ref="gr1a" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="125" height="87" size="1122">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr1a.sml?httpAccept=%2A%2F%2A</object><object ref="gr1a" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="301" height="210" size="3590">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr1a.gif?httpAccept=%2A%2F%2A</object><object ref="gr1b" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="125" height="88" size="1133">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr1b.sml?httpAccept=%2A%2F%2A</object><object ref="gr1b" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="300" height="210" size="3640">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr1b.gif?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="46" height="93" size="1091">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="92" height="185" size="3318">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr2.gif?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="125" height="118" size="2258">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="500" height="471" size="33189">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="73" height="93" size="1689">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="110" height="140" size="3195">https://api.elsevier.com/content/object/eid/1-s2.0-S0964830598000572-gr4.gif?httpAccept=%2A%2F%2A</object></objects><scopus-id>0032971874</scopus-id><scopus-eid>2-s2.0-0032971874</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/0032971874" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271813</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291767</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Biodeterioration &amp; Biodegradation</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALBIODETERIORATIONBIODEGRADATION</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="19990412">1999-04-12</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="19990412">1999-04-12</xocs:available-online-date>
+      <xocs:ew-transaction-id>2010-03-25T01:02:24</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0964830598000572</xocs:eid>
+      <xocs:pii-formatted>S0964-8305(98)00057-2</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0964830598000572</xocs:pii-unformatted>
+      <xocs:doi>10.1016/S0964-8305(98)00057-2</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0964830500X00194</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T22:43:52.715051Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>19990301</xocs:date-search-begin>
+      <xocs:date-search-end>19990531</xocs:date-search-end>
+      <xocs:year-nav>1999</xocs:year-nav>
+      <xocs:indexeddate epoch="923875200">1999-04-12T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo crossmark dco dateupdated tomb dateloaded datesearch indexeddate issuelist volumelist yearnav articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright dateloadedtxt docsubtype doctype doi eid ewtransactionid hubeid issfirst issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype subheadings volfirst volissue webpdf webpdfpagecount figure table body acknowledge affil articletitle auth authfirstini authfull authlast primabst ref alllist content subj ssids</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0964-8305</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>09648305</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0"/>
+      <xocs:vol-first>43</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>43</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>1</xocs:iss-first>
+      <xocs:iss-last>2</xocs:iss-last>
+      <xocs:issue-list>
+         <xocs:issue>1</xocs:issue>
+         <xocs:issue>2</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 43, Issues 1–2</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>2</xocs:sort-order>
+      <xocs:first-fp>7</xocs:first-fp>
+      <xocs:last-lp>12</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>7</xocs:first-page>
+         <xocs:last-page>12</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>199921</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>Spring 1999</xocs:cover-date-text>
+      <xocs:cover-date-start>1999-03-01</xocs:cover-date-start>
+      <xocs:cover-date-end>1999-05-31</xocs:cover-date-end>
+      <xocs:cover-date-year>1999</xocs:cover-date-year>
+      <xocs:document-type>converted-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 1999 Elsevier Science B.V. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>GROWTHPSEUDOMONASCHLORORAPHISAPOLYESTERPOLYURETHANEPURIFICATIONANDCHARACTERIZATIONAPOLYURETHANASEESTERASEENZYME</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>HOWARD</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>G</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Materials and methods</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Organism and culture conditions</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Determination of number of bacterial cells</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Crude enzyme preparation</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Enzyme purification</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.5</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Electrophoresis</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.6</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Enzyme assays</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.7</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Zymogram</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.8</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Protein concentration determination</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Impranilase activity by</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Growth of P. chlororaphis <ce:italic>on Impranil</ce:italic>
+               </xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Analysis of Impranilase activity</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="BIB1"/>
+         <xocs:ref-info refid="BIB2"/>
+         <xocs:ref-info refid="BIB3"/>
+         <xocs:ref-info refid="BIB4"/>
+         <xocs:ref-info refid="BIB5"/>
+         <xocs:ref-info refid="BIB6"/>
+         <xocs:ref-info refid="BIB7"/>
+         <xocs:ref-info refid="BIB8"/>
+         <xocs:ref-info refid="BIB9"/>
+         <xocs:ref-info refid="BIB10"/>
+         <xocs:ref-info refid="BIB11"/>
+         <xocs:ref-info refid="BIB12"/>
+         <xocs:ref-info refid="BIB13"/>
+         <xocs:ref-info refid="BIB14"/>
+         <xocs:ref-info refid="BIB15"/>
+         <xocs:ref-info refid="BIB16"/>
+         <xocs:ref-info refid="BIB17"/>
+         <xocs:ref-info refid="BIB18"/>
+         <xocs:ref-info refid="BIB19"/>
+         <xocs:ref-info refid="BIB20"/>
+         <xocs:ref-info refid="BIB21"/>
+         <xocs:ref-info refid="BIB22"/>
+         <xocs:ref-info refid="BIB23"/>
+         <xocs:ref-info refid="BIB24"/>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>HOWARDX1999X7</xocs:refkey3>
+         <xocs:refkey4lp>HOWARDX1999X7X12</xocs:refkey4lp>
+         <xocs:refkey4ai>HOWARDX1999X7XG</xocs:refkey4ai>
+         <xocs:refkey5>HOWARDX1999X7X12XG</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0964-8305(98)00057-2</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0964830598000572</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0964830598000572</xocs:eid>
+         <xocs:doi>10.1016/S0964-8305(98)00057-2</xocs:doi>
+         <xocs:cid>271813</xocs:cid>
+         <xocs:timestamp>2024-01-02T22:43:52.715051Z</xocs:timestamp>
+         <xocs:cover-date-start>1999-03-01</xocs:cover-date-start>
+         <xocs:cover-date-end>1999-05-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/MAIN/application/pdf/66065fcbdbc4bea6c0bd5a05349dd101/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/MAIN/application/pdf/66065fcbdbc4bea6c0bd5a05349dd101/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>327529</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0964830598000572-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/PREVIEW/image/png/7b7584015905a7b493bc4cf027249a88/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/PREVIEW/image/png/7b7584015905a7b493bc4cf027249a88/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>63002</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr1a.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr1a/THUMBNAIL/image/gif/3105914518553cc4d8db00b645278c7e/gr1a.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr1a/THUMBNAIL/image/gif/3105914518553cc4d8db00b645278c7e/gr1a.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1a</xocs:file-basename>
+               <xocs:filename>gr1a.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1122</xocs:filesize>
+               <xocs:pixel-height>87</xocs:pixel-height>
+               <xocs:pixel-width>125</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr1a.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr1a/DOWNSAMPLED/image/gif/2dab8d86ccd300dca93b976b4d16c8cc/gr1a.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr1a/DOWNSAMPLED/image/gif/2dab8d86ccd300dca93b976b4d16c8cc/gr1a.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr1a</xocs:file-basename>
+               <xocs:filename>gr1a.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>3590</xocs:filesize>
+               <xocs:pixel-height>210</xocs:pixel-height>
+               <xocs:pixel-width>301</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr1b.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr1b/THUMBNAIL/image/gif/49f43161ede1dd2808bc92def8fa0a9a/gr1b.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr1b/THUMBNAIL/image/gif/49f43161ede1dd2808bc92def8fa0a9a/gr1b.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1b</xocs:file-basename>
+               <xocs:filename>gr1b.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1133</xocs:filesize>
+               <xocs:pixel-height>88</xocs:pixel-height>
+               <xocs:pixel-width>125</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr1b.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr1b/DOWNSAMPLED/image/gif/25119584b1fe7f64f3dbd032495f42e3/gr1b.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr1b/DOWNSAMPLED/image/gif/25119584b1fe7f64f3dbd032495f42e3/gr1b.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr1b</xocs:file-basename>
+               <xocs:filename>gr1b.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>3640</xocs:filesize>
+               <xocs:pixel-height>210</xocs:pixel-height>
+               <xocs:pixel-width>300</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr2/THUMBNAIL/image/gif/2d0d66ef4f0c8486adce6267cb221cbf/gr2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr2/THUMBNAIL/image/gif/2d0d66ef4f0c8486adce6267cb221cbf/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1091</xocs:filesize>
+               <xocs:pixel-height>93</xocs:pixel-height>
+               <xocs:pixel-width>46</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr2.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr2/DOWNSAMPLED/image/gif/4d7e3f841721d8ae0c1359792c3bc301/gr2.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr2/DOWNSAMPLED/image/gif/4d7e3f841721d8ae0c1359792c3bc301/gr2.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>3318</xocs:filesize>
+               <xocs:pixel-height>185</xocs:pixel-height>
+               <xocs:pixel-width>92</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr3/THUMBNAIL/image/gif/73718796fbc77ade3123dedff3a107a0/gr3.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr3/THUMBNAIL/image/gif/73718796fbc77ade3123dedff3a107a0/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>2258</xocs:filesize>
+               <xocs:pixel-height>118</xocs:pixel-height>
+               <xocs:pixel-width>125</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr3/DOWNSAMPLED/image/jpeg/c595a27797acb5c9ebe62aac7aae0a2c/gr3.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr3/DOWNSAMPLED/image/jpeg/c595a27797acb5c9ebe62aac7aae0a2c/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>33189</xocs:filesize>
+               <xocs:pixel-height>471</xocs:pixel-height>
+               <xocs:pixel-width>500</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr4/THUMBNAIL/image/gif/8f65af03135e2d971566e63b7375bd03/gr4.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr4/THUMBNAIL/image/gif/8f65af03135e2d971566e63b7375bd03/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1689</xocs:filesize>
+               <xocs:pixel-height>93</xocs:pixel-height>
+               <xocs:pixel-width>73</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0964830598000572-gr4.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0964830598000572/gr4/DOWNSAMPLED/image/gif/57cc55a305b443f207e3c579e435daa4/gr4.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0964830598000572/gr4/DOWNSAMPLED/image/gif/57cc55a305b443f207e3c579e435daa4/gr4.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>3195</xocs:filesize>
+               <xocs:pixel-height>140</xocs:pixel-height>
+               <xocs:pixel-width>110</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <converted-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="4.5.2" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>INBI</jid>
+            <aid>1433</aid>
+            <ce:pii>S0964-8305(98)00057-2</ce:pii>
+            <ce:doi>10.1016/S0964-8305(98)00057-2</ce:doi>
+            <ce:copyright year="1999" type="full-transfer">Elsevier Science B.V.</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="FIG1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Dependence of growth rate of <ce:italic>Pseudomonas chlororaphis</ce:italic> on theconcentration of polyurethane. (A) Monod plot of growth rate, <ce:italic>μ</ce:italic>, versus thesubtrate concentration of polyurethane. Each datum point represents the mean for 3determinations, comprising values from the substrate concentractions of Impranil of 0.5,0.75, 1.5, 2.25 and 3 mg·ml<ce:sup loc="post">−1</ce:sup>. (B) Linear plot of the reciprocal of <ce:italic>μ</ce:italic>versus the reciprocal of the concentration of Impranil. The ordinate intercept and the slopewere determined by the linear regression analysis of Lineweaver–Burke.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1a"/>
+               <ce:link locator="gr1b"/>
+            </ce:figure>
+            <ce:figure id="FIG2">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Polyurethane zymogram of <ce:italic>Pseudomonas chlororaphis</ce:italic> extracelluar proteinsfollowing fractionation using a non-denaturing polyacrylamide gel (12% wt/vol). Activitywas detected as zones of clearing in the Coomassie blue stained background ofpolyurethane. After 18 hours at 30°C, Lane 1 shows zone of hydrolysis using 20 mg ofprotein.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2"/>
+            </ce:figure>
+            <ce:figure id="FIG3">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Comparison of polyurethanase activity. (A) Purified polyurethanase (15 mg protein)conferring esterase activity and alpha clearing, (B) partially purified polyurethanase (10 mg protein) conferring protease activity and beta clearing. Protein aliquots were added to5.5 mm diameter wells in agarose plates containing 0.9% (wt/vol) Impranil.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3"/>
+            </ce:figure>
+            <ce:figure id="FIG4">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">SDS–PAGE of the purified polyurethanase. Lanes: 1, 5 mg of protein; 2, 2.5 mg ofprotein.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr4"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="TBL1" colsep="0" rowsep="0" frame="none">
+               <ce:label>Table 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Substrate specificity of purified polyurethanase<ce:sup loc="post">a</ce:sup>.</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="3">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <thead>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Substrate</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Concentration</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Activity (U/mg)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Azocall</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.1%</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">ND<sup loc="post">b</sup>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Hide powder azure</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.1%</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">ND</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">r-Nitrophenol–acetate</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">8 mM</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">1.87</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:legend>
+                  <ce:simple-para view="all">Assays were performed at 30°C in phosphate buffer (pH 7.0) with 5 mg ofpurified protein.</ce:simple-para>
+                  <ce:simple-para view="all">ND=Not Detected.</ce:simple-para>
+               </ce:legend>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:title>Growth of Pseudomonas chlororaphis on apolyester–polyurethane and the purification andcharacterization of a polyurethanase–esterase enzyme</ce:title>
+            <ce:author-group>
+               <ce:author>
+                  <ce:given-name>Gary T</ce:given-name>
+                  <ce:surname>Howard</ce:surname>
+                  <ce:cross-ref refid="AFF1">1</ce:cross-ref>
+                  <ce:cross-ref refid="CORR1">*</ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Carmen</ce:given-name>
+                  <ce:surname>Ruiz</ce:surname>
+                  <ce:cross-ref refid="AFF1">1</ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Newton P</ce:given-name>
+                  <ce:surname>Hilliard</ce:surname>
+                  <ce:cross-ref refid="AFF2">2</ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="AFF1">
+                  <ce:label>1</ce:label>
+                  <ce:textfn>Department of Biological Sciences, Southeastern LouisianaUniversity, SLU 736, Hammond, Louisiana, 70402, USA</ce:textfn>
+               </ce:affiliation>
+               <ce:affiliation id="AFF2">
+                  <ce:label>2</ce:label>
+                  <ce:textfn>Department of Chemistry and Physics, Southeastern LouisianaUniversity, Hammond, Louisiana, 70402, USA</ce:textfn>
+               </ce:affiliation>
+               <ce:correspondence id="CORR1">
+                  <ce:label>*</ce:label>
+                  <ce:text>Corresponding author. Tel.: +001-504-549-3501; fax: +001-504-549-3851.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-revised day="9" month="6" year="1998"/>
+            <ce:date-accepted day="10" month="6" year="1998"/>
+            <ce:abstract class="author"><ce:abstract-sec>
+                  <ce:simple-para view="all">A <ce:italic>Pseudomonas chlororaphis</ce:italic> was found to degrade and utilize apolyester polyurethane as a sole carbon and energy source. Polyurethane utilization by <ce:italic>P.chlororaphis</ce:italic> followed simple Michaelis–Menten kinetics. The <ce:italic>K</ce:italic>
+                     <ce:inf loc="post">s</ce:inf> and <ce:italic>μ</ce:italic>
+                     <ce:inf loc="post">max</ce:inf> values were 0.802 mg·ml<ce:sup loc="post">−1</ce:sup> and 1.316 doublings·h<ce:sup loc="post">−1</ce:sup>, respectively. The enzymes from <ce:italic>P. chlororaphis</ce:italic> responsible for polyurethanedegradation were found to be extracellular. Analysis of the polyurethane degrading proteins, usingnon-denaturing polyacrylamide gel electrophoresis, revealed three active protein bands with <ce:italic>R</ce:italic>
+                     <ce:inf loc="post">f</ce:inf> values of 0.25, 0.417 and 0.917. A polyurethane degrading enzyme was purifiedand displayed esterase activity. This enzyme was inhibited by phenylmethylsulfonyl fluoride andhad a molecular weight of 27,000 daltons.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+         </head>
+         <body>
+            <ce:sections>
+               <ce:section id="SEC1" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title>Introduction</ce:section-title>
+                  <ce:para view="all">The term polyurethanes refers to a class of polymers that has found widespread commercialapplications. Polyurethanes are an important and versatile class of man-made polymers used in a widevariety of products including paints and coatings, padding and thermal insulating materials. Thispolymer represents the first industrially important and commercially useful culmination of an old lineof organic research (namely, isocyanates). A polyurethane is a polymer in which the repeating unitis a urethane linkage. The urethane linkage results most readily through the reaction of the isocyanatefunction with an alcohol group. Urethanes are esters or amide esters of carbonic acid. However, thechemical term urethane is devoid of meaning and is better described as ethyl carbamate (H<ce:inf loc="post">2</ce:inf>NCO<ce:inf loc="post">2</ce:inf>C<ce:inf loc="post">2</ce:inf>H<ce:inf loc="post">5</ce:inf>).</ce:para>
+                  <ce:para view="all">Despite its xenobiotic origins, polyurethane has been found to be susceptible to biodegradationby naturally occurring microorganisms (<ce:cross-ref refid="BIB19">Pathiranar and Seal, 1984</ce:cross-ref>; <ce:cross-ref refid="BIB1">Bentham et al., 1987</ce:cross-ref>; <ce:cross-ref refid="BIB16">Kay et al., 1991</ce:cross-ref>). Enzymatic attack on polyurethanes could be contributed byhydrolases such as ureases, proteases and esterases (<ce:cross-ref refid="BIB8">Evans and Levisohn, 1968</ce:cross-ref>; <ce:cross-ref refid="BIB11">Hole, 1972</ce:cross-ref>; <ce:cross-ref refid="BIB9">Flip, 1978</ce:cross-ref>; <ce:cross-ref refid="BIB10">Griffin, 1980</ce:cross-ref>). Indeed, proteolytic enzymes (papain and urease)and cholesterol esterase have been shown to degrade polyurethanes <ce:italic>in vitro</ce:italic> (<ce:cross-ref refid="BIB21">Phua et al., 1987</ce:cross-ref>; <ce:cross-ref refid="BIB22">Santerre et al., 1994</ce:cross-ref>).</ce:para>
+                  <ce:para view="all">Several reports have appeared in the literature on the susceptibility of polyurethanes to fungalattack. Mechanisms for this susceptibility have been suggested by <ce:cross-ref refid="BIB6">Darby and Kaplan (1968)</ce:cross-ref>and <ce:cross-ref refid="BIB15">Kaplan et al. (1968)</ce:cross-ref>, who have shown that polyester-type polyurethanes are moresusceptible to fungal attack than other forms. Four species of fungi, <ce:italic>Curvularia sengalensis</ce:italic>,<ce:italic>Fusarium solani</ce:italic>, <ce:italic>Aureobasidium pullulans</ce:italic> and <ce:italic>Cladosporium</ce:italic> sp. wereisolated by <ce:cross-ref refid="BIB4">Crabbe et al., 1994</ce:cross-ref>with the capability of degrading an ester-based polyurethane (Impranil<ce:sup loc="post">TM</ce:sup> DLN). <ce:italic>C. sengalensis</ce:italic> was found to secrete an extracellular enzymewith esterase properties. This enzyme had a molecular weight of 28 kDa and was inhibited byphenylmethylsulfonyl fluoride (PMSF).</ce:para>
+                  <ce:para view="all">This report describes the growth of a polyurethane-degrading bacterium, <ce:italic>Pseudomonaschlororaphis</ce:italic>, at the expense of the same heterogeneous polyurethane, Impranil<ce:sup loc="post">TM</ce:sup>DLN and the purification and characterization of an Impranil degrading enzyme from <ce:italic>P.chlororaphis</ce:italic>.</ce:para>
+               </ce:section>
+               <ce:section id="SEC2" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title>Materials and methods</ce:section-title>
+                  <ce:section id="SEC2.1" view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title>Organism and culture conditions</ce:section-title>
+                     <ce:para view="all">
+                        <ce:italic>P. chlororaphis</ce:italic> was isolated, identified and obtained from the Naval ResearchLaboratory, Washington, D.C. by its ability to degrade a water dispersible polyurethane. <ce:italic>P.chlororaphis</ce:italic> was grown at 30°C with constant shaking on the yeast extract salts (YES)medium previously describe by <ce:cross-ref refid="BIB4">Crabbe et al., 1994</ce:cross-ref>. Three stock solutions were prepared forYES media: Solution A (50×), 50 g K<ce:inf loc="post">2</ce:inf>HPO<ce:inf loc="post">4</ce:inf> and 25 g KH<ce:inf loc="post">2</ce:inf>PO<ce:inf loc="post">4</ce:inf> per liter; Solution B (100×) 50 g MgSO<ce:inf loc="post">4</ce:inf>·7H<ce:inf loc="post">2</ce:inf>O per liter andSolution C (1000×) 1.0 g MnCl<ce:inf loc="post">2</ce:inf>·4H<ce:inf loc="post">2</ce:inf>O, 14 mg CuCl<ce:inf loc="post">2</ce:inf>·2H<ce:inf loc="post">2</ce:inf>O, 11 mg ZnCl<ce:inf loc="post">2</ce:inf>, 20 mg CoCl<ce:inf loc="post">2</ce:inf>·6H<ce:inf loc="post">2</ce:inf>O, 13 mg Na<ce:inf loc="post">2</ce:inf>Mo<ce:inf loc="post">4</ce:inf>·2H<ce:inf loc="post">2</ce:inf>O and 75 mg FeCl<ce:inf loc="post">3</ce:inf>·6H<ce:inf loc="post">2</ce:inf>O per 500 ml.Solutions B and C were filter sterilized and stored at room temperature. Solution A was diluted 1:50with distilled water and supplemented with 0.4 g NH<ce:inf loc="post">4</ce:inf>Cl, 4.0 g gelatin (DIFCO) and 20 mg yeast extract per liter. After the resulting solution was autoclaved and cooled, solution B (10 ml/l), solution C (1.0 ml/l) and Impranil DLN (3 g/l) were added to complete the YES medium;the final pH was 7.2.</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC2.2" view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title>Determination of number of bacterial cells</ce:section-title>
+                     <ce:para view="all">
+                        <ce:italic>P. chlororaphis</ce:italic> cell number was determined using a Coulter Multisizer IIeinstrument (Coulter Scientific Instruments, Inc., Hialeah, FL) fitted with a 30 mm aperture. TheCoulter Multisizer IIe determines the number and size of particles suspended in a conductive liquidon either side of a small aperture, through which a suspension of the particles is forced to flow. Aseach particle passes through the aperture, it changes the impedance between the electrodes andproduces an electrical pulse of short duration having a magnitude essentially proportional to theparticle volume. The series of pulses is electronically scaled, counted and accumulated in a numberof sized-related channels which, when their contents are displayed on the integral visual display,produces a size distribution curve.</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC2.3" view="all">
+                     <ce:label>2.3</ce:label>
+                     <ce:section-title>Crude enzyme preparation</ce:section-title>
+                     <ce:para view="all">A 1 l culture of <ce:italic>P. chlororaphis</ce:italic> was incubated for 5 days in Impranil supplementedYES media. At the end of 5 days of incubation, little visible Impranil remained and the culture solidswere removed by centrifugation at 10,000×<ce:italic>g</ce:italic> for 20 min at 4°C. All remaining manipulationswere conducted at 4°C. The culture supernatant was brought to 60% saturation by the addition ofsolid ammonium sulfate. After 30 min of stirring, the precipitated proteins were collected bycentrifugation at 10,000×<ce:italic>g</ce:italic> for 15 min, resuspended in 50 mM phosphate buffer, pH 6.8,and dialyzed against 4 l of the same buffer overnight.</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC2.4" view="all">
+                     <ce:label>2.4</ce:label>
+                     <ce:section-title>Enzyme purification</ce:section-title>
+                     <ce:para view="all">The crude enzyme preparation was applied to a DEAE Sepharose CL-6B column (3×14 cm)equilibrated with 50 mM phosphate buffer at pH 6.8 and developed in the same buffer at a flow rateof 1.0 ml·min<ce:sup loc="post">−1</ce:sup>. Two peaks of protein activity were detected in the void volume.Fractions associated with polyurethanase activity were collected and concentrated by ultrafiltrationwith a centriprep-10 concentrator (Amicon). The second peak depicting enzyme activity was furtherfractionated by gel filtration on Sephadex G75-120 (1.5×33 cm) equilibrated with 50 mMphosphate buffer, pH 6.8 The polyurethanase was estimated to be purified to 95% homogeneity byND–PAGE.</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC2.5" view="all">
+                     <ce:label>2.5</ce:label>
+                     <ce:section-title>Electrophoresis</ce:section-title>
+                     <ce:para view="all">After each stage of the purification process, the purity of the enzyme was assessed bypolyacrylamide gel electrophoresis (PAGE). Non-denaturing (ND) gels were run with a 12%polyacrylamide resolving gel as described by <ce:cross-ref refid="BIB2">Calza et al. (1985)</ce:cross-ref>. Sodium dodecyl sulfate (SDS)–PAGE was performed as described by <ce:cross-ref refid="BIB17">Laemmli (1970)</ce:cross-ref>with a 12% polyacrylamideresolving gel. Proteins were visualized by Coomassie blue staining.</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC2.6" view="all">
+                     <ce:label>2.6</ce:label>
+                     <ce:section-title>Enzyme assays</ce:section-title>
+                     <ce:para view="all">During the purification, aliquots of the protein fractions were spotted on YES agar platessupplemented with Impranil at pH 6.8 and examined for zones of clearing at 30°C. Assays todetermine the proteolytic activity of the enzyme used hide powder azure in 50 mM phosphate bufferat pH 6.8 (<ce:cross-ref refid="BIB3">Chavira et al., 1984</ce:cross-ref>). Activity against hide powder azure was determined bymonitoring the increase in absorbance at 595 nm. One unit of activity was defined as the amount ofenzyme that changes the absorbance at 595 nm by 0.01·min<ce:sup loc="post">−1</ce:sup>. In addition, the enzymewas assayed for esterase activity by its ability to release r-nitrophenol from 8 mMr-nitrophenolacetate in 50 mM phosphate buffer, pH 6.8 at 30°C (<ce:cross-ref refid="BIB7">Deshpande et al., 1984</ce:cross-ref>).One unit of esterase activity was defined as the amount of enzyme that produced 1 mmole ofr-nitrophenol per minute. All enzyme assays were observed to be linear with respect to time andprotein concentration under the tested conditions.</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC2.7" view="all">
+                     <ce:label>2.7</ce:label>
+                     <ce:section-title>Zymogram</ce:section-title>
+                     <ce:para view="all">Impranil zymograms were carried out by using an ND–PAGE gel overlaid on a 0.7% (w/v)agarose gel containing 0.1% (v/v) Impranil in 50 mM phosphate buffer, pH 6.8. The zymogram wasincubated for 12 to 18 hr at 30°C. The polyacrylamide gel was removed and the agarose gelexamined for clear activity bands.</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC2.8" view="all">
+                     <ce:label>2.8</ce:label>
+                     <ce:section-title>Protein concentration determination</ce:section-title>
+                     <ce:para view="all">Protein concentration was determined by measuring A<ce:inf loc="post">230</ce:inf>/A<ce:inf loc="post">260</ce:inf> accordingto <ce:cross-ref refid="BIB14">Kalb and Bernlohr (1977)</ce:cross-ref>.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="SEC3" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title>Results</ce:section-title>
+                  <ce:section id="SEC3.1" view="all">
+                     <ce:label>3.1</ce:label>
+                     <ce:section-title>Impranilase activity by</ce:section-title>
+                     <ce:para view="all">P. chlororaphis<ce:italic>The ability of P. chlororaphis</ce:italic> to degrade the water dispersiblepolyurethane, Impranil, was tested by measuring the zone of clearing around colonies grown in YESmedium. After an appropriate incubation period at 30°C, the agarose media was examined for zonesof clearing around colonies. Hydrolysis of the substrate could be visualized after approximately 16 h of incubation. This complete clearing was termed beta clearing. A second discrete zone of clearing,termed alpha, was observed distal to the beta clearing. This zone was only weakly translucent andrepresented a region of partial clearing of the polyurethane.</ce:para>
+                     <ce:para view="all">Optimal conditions for Impranil hydrolysis by <ce:italic>P. chlororaphis</ce:italic> were elucidated atdifferent temperatures and pH. <ce:italic>P. chlororaphis</ce:italic> was capable of hydrolyzing the Impranilsubstrate at ambient temperature and 30°C with little difference in the size of the zone of clearing ateither temperature (data not shown). No apparent growth occurred above 35°C. In addition, <ce:italic>P.chlororaphis</ce:italic> hydrolyzed the Impranil substrate at pH 5, 6, 7 and 8 with preeminent activity atpH 7 and 8, zones of clearing 38 mm and 42 mm, respectively. No activity was noted at pH 9 (data not shown). In addition, cell-free culture supernatant was also applied to Impranil agaroseplates. Zones of clearing were observed from cultural supernatant. Zones of clearing produced bycell-free extracts were markedly inhibited in the presence of 1 mM PMSF, but were unaffected byheating the extracts at 100°C for 10 min (data not shown).</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC3.2" view="all">
+                     <ce:label>3.2</ce:label>
+                     <ce:section-title>Growth of P. chlororaphis <ce:italic>on Impranil</ce:italic>
+                     </ce:section-title>
+                     <ce:para view="all">Since Impranil is a colloidal suspension and strict limitations are placed on the knowledge ofits chemistry, conventional methods are impeded in determining the changes occurring during itsdegradation and growth of the bacterial cells utilizing it as a substrate. Thus, the Coulter instrument,Multisizer IIe, was employed to measure the change in bacterial number as the microorganism utilizedthe Impranil substrate. Increase in bacterial cell numbers were accomplished in the first 9 h ofincubation with a concentration reaching 2.4×10<ce:sup loc="post">9</ce:sup> cells·ml<ce:sup loc="post">−1</ce:sup>. Values for<ce:italic>K</ce:italic>
+                        <ce:inf loc="post">s</ce:inf> and <ce:italic>μ</ce:italic>
+                        <ce:inf loc="post">max</ce:inf> for polyurethane utilization by <ce:italic>P.chlororaphis</ce:italic> were elucidated by varying the Impranil concentration in the YES medium from0.5 mg·ml<ce:sup loc="post">−1</ce:sup> to 3.0 mg·ml<ce:sup loc="post">−1</ce:sup>. Polyurethane utilization by <ce:italic>P.chlororaphis</ce:italic> followed simple Michaelis–Menten kinetics [<ce:cross-ref refid="FIG1">Fig. 1</ce:cross-ref>
+                        <ce:float-anchor refid="FIG1"/> (A)]. From these results, the values of <ce:italic>K</ce:italic>
+                        <ce:inf loc="post">s</ce:inf> and <ce:italic>μ</ce:italic>
+                        <ce:inf loc="post">max</ce:inf> forpolyurethane were estimated from the least-squares regression analysis of Lineweaver–Burke plots [<ce:cross-ref refid="FIG1">Fig. 1</ce:cross-ref> (B)]. The values for <ce:italic>K</ce:italic>
+                        <ce:inf loc="post">s</ce:inf> and <ce:italic>μ</ce:italic>
+                        <ce:inf loc="post">max</ce:inf> were 0.802 mg·ml<ce:sup loc="post">−1</ce:sup> and 1.316 doublings·h<ce:sup loc="post">−1</ce:sup>, respectively. The generation time for thegrowth of <ce:italic>P. chlororaphis</ce:italic> utilizing Impranil was calculated to be 45 min by taking theinverse of <ce:italic>μ</ce:italic>
+                        <ce:inf loc="post">max</ce:inf>.</ce:para>
+                  </ce:section>
+                  <ce:section id="SEC3.3" view="all">
+                     <ce:label>3.3</ce:label>
+                     <ce:section-title>Analysis of Impranilase activity</ce:section-title>
+                     <ce:para view="all">The hydrolytic enzymes from <ce:italic>P. chlororaphis</ce:italic> responsible for Impranil degradationwere analyzed for polyurethanase activity by Impranil zymograms using ND–PAGE gels. TheImpranil zymogram revealed three migrating bands, with <ce:italic>R</ce:italic>
+                        <ce:inf loc="post">f</ce:inf> values of 0.25, 0.417and 0.917 (<ce:cross-ref refid="FIG2">Fig. 2</ce:cross-ref>
+                        <ce:float-anchor refid="FIG2"/>). All three bands conferred beta zones of clearing. No band of alpha clearing was noted.</ce:para>
+                     <ce:para view="all">Ammonium sulfate was added to the cell-free culture supernatant to give 60% saturation. Theprecipitated proteins were dialyzed and the crude enzyme preparation fractionated by anion exchange.Two peaks of protein activity were detected. The first peak of activity conferred a beta zone ofclearing on a polyurethane agarose plate (<ce:cross-ref refid="FIG3">Fig. 3</ce:cross-ref>
+                        <ce:float-anchor refid="FIG3"/>) and also displayed protease activity against hide powder azure. No esterase activity was observed.The second peak of activity conferred an alpha zone of clearing on a polyurethane agar plate <ce:cross-ref refid="FIG3">Fig. 3</ce:cross-ref> and also displayed esterase activity against r-nitrophenol acetate. No protease activity wasobserved. This second peak of activity was further purified by gel filtration using a SepharoseG75-120 column. The molecular mass of the purified protein as determined by SDS–PAGE wasestimated to be 27 kDa (<ce:cross-ref refid="FIG4">Fig. 4</ce:cross-ref>
+                        <ce:float-anchor refid="FIG4"/>).</ce:para>
+                     <ce:para view="all">
+                        <ce:cross-ref refid="TBL1">Table 1</ce:cross-ref>
+                        <ce:float-anchor refid="TBL1"/> reveals that the second purified polyurethanase conferred only esterase activity and no proteaseactivity was exhibited. This is in contrast to the first peak of polyurethanase activity that wasobserved. However, both activities were inhibited with 1 mM PMSF. The purified esterase activitywas reduced by 55% by PMSF. The purified esterase was optimally active at pH 7.5 and was notinhibited by heating to 100°C for 10 min. The pH optimum determined on the polyurethane agaroseplates with crude enzyme was between 7 and 8.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="SEC4" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title>Discussion</ce:section-title>
+                  <ce:para view="all">Polyurethanes have found widespread acceptance for a variety of applications. Because ofshortages in raw materials for the synthesis of plastics, recycling of waste plastics has become veryimportant. Due to the incompatibility of most polymers and the enormous difficulties encountered insegregating polymeric articles of different chemical composition found in plastic waste, completerecycling is difficult and limited to special cases. Therefore, hydrolytic processes are being developedfor the utilization of plastics scrap and waste as either an energy source or as raw material for theproduction of valuable chemicals (<ce:cross-ref refid="BIB23">Schnabel, 1981</ce:cross-ref>).</ce:para>
+                  <ce:para view="all">Different patterns of degradation observed by fungi with different samples of polyurethaneswere attributed to the many properties of polyurethanes such as topology and chemical composition (<ce:cross-ref refid="BIB18">Pathiranar and Seal, 1983</ce:cross-ref>). In addition, synthetic polymers generally have short repeatingunits. The regularity in synthetic polymers allows the polymer chains to pack easily, resulting in theformation of crystalline regions. This limits the accessibility of the polymer chains to enzymes. <ce:cross-ref refid="BIB13">Huang and Roby (1986)</ce:cross-ref>observed polyurethane degradation proceeding in a selective manner, withthe amorphous regions being degraded prior to the crystalline regions. It was also observed thatpolyurethanes with long repeating units and hydrophilic groups would be less likely to pack into highcrystalline regions as normal polyurethanes and these polymers were more accessible tobiodegradation.</ce:para>
+                  <ce:para view="all">Studies investigating degradation of polyurethane are often examined over a period of weeksto months (<ce:cross-ref refid="BIB20">Pathiranar and Seal, 1985</ce:cross-ref>; <ce:cross-ref refid="BIB24">Wales and Sagar, 1988</ce:cross-ref>; <ce:cross-ref refid="BIB5">Dale and Squirrel, 1990</ce:cross-ref>). By using agar plates containing a colloidal, polyester–polyurethane, Impranil DLN,the degradation can be studied over a period of hours. In the present study, stationary growth of <ce:italic>P. chlororaphis</ce:italic> utilizing Impranil as the sole carbon and energy source was observed within ninehours in batch culture. The generation time for this bacterium was calculated to be 45 min. When thebacterium was grown on Impranil agar plates, zones of clearing were observed within eighteen hours.Two types of clearing zones were observed by <ce:italic>P. chlororaphis</ce:italic> grown on Impranil plates:beta, or complete clearing and alpha, or incomplete clearing. These zones of clearing were alsoobserved for the fungal isolate, <ce:italic>C. senegalensis</ce:italic> (<ce:cross-ref refid="BIB4">Crabbe et al., 1994</ce:cross-ref>).</ce:para>
+                  <ce:para view="all">Cell-free supernatants of <ce:italic>P. chlororaphis</ce:italic> contained three distinct polyurethanaseactivities, as revealed by ND–PAGE zymograms. These three enzyme activities conferred beta zonesof clearing. However, the polyurethanase protein that was purified conferred an alpha zone of clearingand esterase activity, while protease activity was associated with beta clearing. The purified esterasehad a molecular mass of 27,000 Da and was inhibited by the serine protease inhibitor, PMSF. Theseresults are similar to those of the esterase purified from <ce:italic>C. senegalensis</ce:italic> (<ce:cross-ref refid="BIB4">Crabbe et al., 1994</ce:cross-ref>).</ce:para>
+                  <ce:para view="all">
+                     <ce:cross-ref refid="BIB11">Hole, 1972</ce:cross-ref>hypothesized that enzymatic attack on polyurethanes could includeproteases attacking the amide and urethane bonds, esterases hydrolyzing the many ester bonds andureases attacking the urea units. Indeed, proteolytic enzymes (papain and urease) and cholesterolesterase have been shown to degrade polyurethanes <ce:italic>in vitro</ce:italic> (<ce:cross-ref refid="BIB21">Phua et al., 1987</ce:cross-ref>; <ce:cross-ref refid="BIB22">Santerre et al., 1994</ce:cross-ref>). Interestingly, g-chymotrypsin could also hydrolyze Impranil on anagarose plate but neither a-chymotrypsin nor trypsin was capable of hydrolyzing the Impranilsubstrate (data not shown). In a previous study from this lab, a polyurethanase conferring proteolyticactivity was purified from <ce:italic>Pseudomonas fluorescens</ce:italic> (<ce:cross-ref refid="BIB12">Howard and Blake, 1997</ce:cross-ref>,manuscript submitted for publication). The native molecular mass of this protein, as estimated byZimm plot analysis, was 116,000, while under denaturing conditions, SDS–PAGE, the molecularweight was 29,000. This suggests that this protein resides as a tetramer. Similarly, the proteolyticprotein conferred beta clearing and was inhibited by PMSF.</ce:para>
+                  <ce:para view="all">The enzymology as well as the biochemistry of the remaining polyurethanase proteinsproduced by <ce:italic>P. chlororaphis</ce:italic> are currently under investigation. These proteins will beassayed for both esterase and protease specificity as well as endopolyurethanase andexopolyurethanase activities in correlation with the beta and alpha clearing. In addition, genomiclibraries are being constructed to isolate the genes responsible for each polypeptide involved inpolyurethane degradation.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment>
+               <ce:section-title>Acknowledgements</ce:section-title>
+               <ce:para view="all">This work was supported by Office of Naval Research grant number N00014-96-1-1229.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail>
+            <ce:bibliography view="all">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec>
+                  <ce:bib-reference id="BIB1">
+                     <ce:label>Bentham et al., 1987</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Bentham, R.H., Morton, L.H.G., Allen, M.G., 1987. Rapid assessment of the microbial deteriorationof polyurethanes. International Biodeterioration 23, 377–386.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB2">
+                     <ce:label>Calza et al. (1985)</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Calza, R.C., Irwin, D.C., Wilson, D.B., 1985. Purification and characterization of twoP-1,4-endoglucanases from <ce:italic>Thermomonospora fusca</ce:italic>. Biochemistry 24, 7797–7804.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB3">
+                     <ce:label>Chavira et al., 1984</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Chavira, R., Burnett, T.J., Hageman, J.H., 1984. Assaying proteinases with azocoll. AnalyticalBiochemistry 136, 446–450.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB4">
+                     <ce:label>Crabbe et al., 1994</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Crabbe, J.R., Campbell, J.R., Thompson, L., Walz, S.L., Schultz, W.W., 1994. Biodegradation ofa collodial ester-based polyurethane by soil fungi. International Biodeterioration and Biodegradation33, 103–113.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB5">
+                     <ce:label>Dale and Squirrel, 1990</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Dale, R., Squirrel, D.J., 1990. A rapid method for assessing the resistance of polyurethanes tobiodeterioration. International Biodeterioration 26, 355–368.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB6">
+                     <ce:label>Darby and Kaplan (1968)</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Darby, D.T., Kaplan, A.M., 1968. Fungal susceptibility of polyurethanes. Applied Microbiology 16,900–905.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB7">
+                     <ce:label>Deshpande et al., 1984</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Deshpande, M.V., Eriksson, K.E., Pettersson, L.G., 1984. An assay for selective determination ofexo-1,4-P-glucanases in a mixture of cellulolytic enzymes. Analytical Biochemistry 138, 481–487.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB8">
+                     <ce:label>Evans and Levisohn, 1968</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Evans, D.M., Levisohn, I., 1968. Biodeterioration of polyester-based polyurethane. InternationalBiodeterioration Bulletin 4, 89–92.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB9">
+                     <ce:label>Flip, 1978</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Flip, Z., 1978. Decomposition of polyurethane in a garabage landfill leakage water and by soilmicroorganisms. European Journal of Applied Microbiology Biotechnology 5, 225–231.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB10">
+                     <ce:label>Griffin, 1980</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Griffin, G.J.L., 1980. Synthetic polymers and the living environment. Pure and Applied Chemistry52, 389–407.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB11">
+                     <ce:label>Hole, 1972</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Hole, L.G., 1972. Artificial leathers. Reports on the Progress of Applied Chemistry 57, 181–206.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB12">
+                     <ce:label>Howard and Blake, 1997</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Howard, G.T., Blake, R.C., 1997. Isolation and characterization of an enzyme from <ce:italic>Pseudomonas fluorescens</ce:italic> that degrades polyurethane. Manuscript submitted for publication.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB13">
+                     <ce:label>Huang and Roby (1986)</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Huang, S.J., Roby, M.S., 1986. Biodegradable polymers poly (amide-urethanes). Journal ofBioactives Compatible Polymers 1, 61–71.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB14">
+                     <ce:label>Kalb and Bernlohr (1977)</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Kalb, V.F., Bernlohr, R.W., 1977. A new spectrophotometric assay for protein in cell extracts.Analytical Biochemistry 82, 362–371.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB15">
+                     <ce:label>Kaplan et al. (1968)</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Kaplan, A.M., Darby, R.T., Greenberger, M., Rodgers, M.R., 1968. Microbial deterioration ofpolyurethane systems. Developments in Industrial Microbiology 9, 201–217.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB16">
+                     <ce:label>Kay et al., 1991</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Kay, M.J., Morton, L.H.G., Prince, E.L., 1991. Bacterial degradation of polyester polyurethane.International Biodeterioration 27, 205–222.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB17">
+                     <ce:label>Laemmli (1970)</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Laemmli, U.K., 1970. Cleavage of structural proteins during the assembly of the head ofbacteriophage T<ce:inf loc="post">4</ce:inf>. Nature (London) 227, 680–685.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB18">
+                     <ce:label>Pathiranar and Seal, 1983</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Pathiranar, R.A., Seal, K.J., 1983. <ce:italic>Gliocladium roseum</ce:italic> (Bainier), A potential biodeteriogenof polyester polyurethane elastomers. International Biodeterioration 5, 679–689.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB19">
+                     <ce:label>Pathiranar and Seal, 1984</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Pathiranar, R.A., Seal, K.J., 1984. Studies on polyurethane deteriorating fungi. 1. Isolation andchacterization of the test fungi employed. International Biodeterioration 20, 163–168.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB20">
+                     <ce:label>Pathiranar and Seal, 1985</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Pathiranar, R.A., Seal, K.J., 1985. Studies on polyurethane deteriorating fungi. 4. A note on thespectro-chemical changes during fungal deterioration. International Biodeterioration 21, 123–125.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB21">
+                     <ce:label>Phua et al., 1987</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Phua, S.K., Castillo, E., Anderson, J.M., Hiltner, A., 1987. Biodegradation of a polyurethane <ce:italic>invitro</ce:italic>. Journal of Biomedical Materials Research 21, 231–246.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB22">
+                     <ce:label>Santerre et al., 1994</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Santerre, J.P., Labow, R.S., Duguat, D.G., Erfle, D., Adams, G.A., 1994. Biodegradation evaluationof polyether and polyesterurethanes with oxidative and hydrolytic enzymes. Journal of BiomedicalMaterials Research 28, 1187–1199.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB23">
+                     <ce:label>Schnabel, 1981</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Schnabel, W., 1981. Polymer degradation: Principles and Potential Applications. MacmillanPublishing Co., Inc., New York, pp. 178–215.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB24">
+                     <ce:label>Wales and Sagar, 1988</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Wales, D.S., Sagar, B.R., 1988. Mechanistic aspects of polyurethane biodeterioration. In: Houghton,D.R., Smith, R.N., Eggins, H.O.W. (Eds.), Biodeterioration 7. Elsevier Applied Science, London,pp. 351–358.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </converted-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

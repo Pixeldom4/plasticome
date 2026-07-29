@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+594288672	INSDC	JAIBNX010000004.1	84370	85578	+	MCW6003666.1	cellulose binding domain-containing protein	Micromonospora sp. CPCC 205371	CPCC 205371	GCA_026130045.1

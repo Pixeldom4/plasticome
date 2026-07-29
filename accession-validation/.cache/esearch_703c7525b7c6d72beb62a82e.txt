@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"2","retmax":"2","retstart":"0","idlist":["2060811246","2060811245"],"translationset":[],"translationstack":[{"term":"7NEI[Accession]","field":"Accession","count":"2","explode":"N"},"GROUP"],"querytranslation":"7NEI[Accession]"}}

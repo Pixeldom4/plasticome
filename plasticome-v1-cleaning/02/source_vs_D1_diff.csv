@@ -1,0 +1,22 @@
+accession,enzyme_id,table_label,is_like,source_len,reported_mature_len,classification,pct_identity,coverage_pct,notes
+MCS7036334.1,101,Enzyme 101 like,True,613,302,HOMOLOG,76.6,96.4,"68 mismatch, 0 gap"
+WNZ22885.1,102,Enzyme 102 like,True,565,297,HOMOLOG,74.4,98.7,"75 mismatch, 0 gap"
+7QJM,202,Enzyme 202,False,380,380,IDENTICAL,100.0,100.0,signal/N-term trim 0; C-term trim 0
+WP_187147021.1,204,Enzyme 204 like,True,258,242,HIGH-SIMILARITY,97.9,99.6,"5 mismatch, 0 gap"
+MBS7639053.1,211,Enzyme 211 like,True,263,264,NEAR-IDENTICAL,99.6,99.6,"1 mismatch, 0 gap"
+MBO9320024.1,214,Enzyme 214 like,True,456,240,HIGH-SIMILARITY,97.9,99.6,"5 mismatch, 0 gap"
+MCS7037955.1,301,Enzyme 301 like,True,495,211,HOMOLOG,87.9,93.8,"24 mismatch, 0 gap"
+RMD69273.1,305,Enzyme 305 like,True,335,232,HOMOLOG,72.8,99.1,"61 mismatch, 2 gap"
+MDT7859148.1,307,Enzyme 307 like,True,257,178,HIGH-SIMILARITY,95.4,97.2,"8 mismatch, 0 gap"
+RLT92980.1,403,Enzyme 403,False,269,284,DIVERGENT,28.7,88.0,"170 mismatch, 29 gap"
+WP_082414832.1,405,Enzyme 405,False,302,275,IDENTICAL,100.0,100.0,+start-Met; N-term trim 28; C-term trim 0
+WP_062195544.1,406,Enzyme 406,False,292,305,HOMOLOG,44.5,93.4,"155 mismatch, 7 gap"
+WP_117215036.1,407,Enzyme 407,False,434,393,IDENTICAL,100.0,100.0,+start-Met; N-term trim 42; C-term trim 0
+WP_101893509.1,409,Enzyme 409,False,283,269,HOMOLOG,85.4,99.6,"39 mismatch, 0 gap"
+ODU60407.1,412,Enzyme 412,False,305,283,DIVERGENT,33.9,81.3,"149 mismatch, 9 gap"
+EGD44994.1,503,Enzyme 503 like,True,294,259,IDENTICAL,100.0,100.0,+start-Met; N-term trim 36; C-term trim 0
+WP_107095481.1,607,Enzyme 607,False,310,263,IDENTICAL,100.0,100.0,+start-Met; N-term trim 48; C-term trim 0
+WP_093412886.1,611,Enzyme 611,False,293,261,IDENTICAL,100.0,100.0,+start-Met; N-term trim 33; C-term trim 0
+WP_104613137.1,701,Enzyme 701,False,301,262,IDENTICAL,100.0,100.0,+start-Met; N-term trim 40; C-term trim 0
+ADM47605.1,702,Enzyme 702,False,262,263,IDENTICAL,100.0,100.0,+start-Met; N-term trim 0; C-term trim 0
+WP_083947829.1,711,Enzyme 711,False,284,261,IDENTICAL,100.0,100.0,+start-Met; N-term trim 24; C-term trim 0

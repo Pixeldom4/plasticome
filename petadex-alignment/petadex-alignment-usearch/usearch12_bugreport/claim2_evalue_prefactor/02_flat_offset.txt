@@ -1,0 +1,13 @@
+CLAIM 2 / evidence 02 — the e-value offset is a FLAT, score-independent constant
+
+Δlog10(E) = log10(E_v12) - log10(E_v11), over 7899 shared pairs (E>0 both)
+  overall : median +4.129   mean +3.807   IQR[+4.129,+4.130]
+
+binned by raw score (bits):
+    bits < 100: median +4.129   n=1512
+       100-200: median +4.129   n=1144
+       200-300: median +4.129   n=3332
+   bits >= 300: median +4.129   n=1911
+
+=> the offset is the SAME at low and high score. A score-dependent offset would implicate
+   lambda / the substitution matrix; flatness rules that out and points to a multiplicative constant.

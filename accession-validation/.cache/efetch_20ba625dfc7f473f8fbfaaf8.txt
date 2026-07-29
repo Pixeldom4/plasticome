@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+128328385	INSDC	FOLJ01000026.1	42573	43974	+	SFD79598.1	Alpha/beta hydrolase family protein	Micromonospora sediminimaris	CGMCC 4.3550	GCA_900112325.1

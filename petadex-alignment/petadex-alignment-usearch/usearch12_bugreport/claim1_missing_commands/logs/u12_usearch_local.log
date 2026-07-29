@@ -1,0 +1,13 @@
+usearch v12.0 [b1d935b], 791Gb RAM, 480 cores
+(C) Copyright 2013-24 Robert C. Edgar.
+https://drive5.com/usearch
+
+usearch_local mre_n84_n35.fasta
+00:00 2.0Mb .. ...  (working)
+
+../../bin/usearch12 -usearch_local ../inputs/mre_n84_n35.fasta -output /dev/null -userout /dev/null
+Elapsed time 00:00
+Max memory 2.0Mb
+
+*** ERROR *** outputsink.cpp(153)
+--userout requires --userfields

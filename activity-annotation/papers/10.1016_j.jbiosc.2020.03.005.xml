@@ -1,0 +1,1817 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1389172320301699</prism:url><dc:identifier>doi:10.1016/j.jbiosc.2020.03.005</dc:identifier><eid>1-s2.0-S1389172320301699</eid><prism:doi>10.1016/j.jbiosc.2020.03.005</prism:doi><pii>S1389-1723(20)30169-9</pii><dc:title>New urethanase from the yeast Candida parapsilosis
+             </dc:title><prism:publicationName>Journal of Bioscience and Bioengineering</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>13891723</prism:issn><prism:volume>130</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>115</prism:startingPage><prism:endingPage>120</prism:endingPage><prism:pageRange>115-120</prism:pageRange><prism:number>2</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2020-08-31</prism:coverDate><prism:coverDisplayDate>August 2020</prism:coverDisplayDate><prism:copyright>© 2020 The Society for Biotechnology, Japan. All rights reserved.</prism:copyright><prism:publisher>The Society for Biotechnology, Japan.</prism:publisher><dc:creator>Masaki, Kazuo</dc:creator><dc:creator>Mizukure, Taichi</dc:creator><dc:creator>Kakizono, Dararat</dc:creator><dc:creator>Fujihara, Kanako</dc:creator><dc:creator>Fujii, Tsutomu</dc:creator><dc:creator>Mukai, Nobuhiko</dc:creator><dc:description>
+                  Urethanase (EC 3.5.1.75) is an effective enzyme for removing ethyl carbamate (EC) present in alcoholic beverages. However, urethanase is not well studied and has not yet been developed for practical use. In this study, we report a new urethanase (CPUTNase) from the yeast Candida parapsilosis. Because C. parapsilosis can assimilate EC as its sole nitrogen source, the enzyme was extracted from yeast cells and purified using ion-exchange chromatography. The CPUTNase was estimated as a homotetramer comprising four units of a 61.7 kDa protein. In a 20% ethanol solution, CPUTNase had 73% activity compared with a solution without ethanol. Residual activity after 18 h indicated that CPUTNase was stable in 0%–40% ethanol solutions. The optimum temperature of CPUTNase was 43°C. This enzyme showed urethanase activity at pH 5.5–10.0 and exhibited its highest activity at pH 10. The gene of CPUTNase was identified, and a recombinant enzyme was expressed in the yeast Saccharomyces cerevisiae. Characteristics of recombinant CPUTNase were identical to the native enzyme. The putative amino acid sequence indicated that CPUTNase was an amidase family protein. Further, substrate specificity supported this sequence analysis because CPUTNase showed higher activities toward amide compounds. These results suggest that amidase could be a candidate for urethanase. We discovered a new enzyme and investigated its enzymatic characteristics, sequence, and recombinant CPUTNase expression. These results contribute to a further understanding of urethanase.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Urethanase</dcterms:subject><dcterms:subject>Ethyl carbamate</dcterms:subject><dcterms:subject>Amidase</dcterms:subject><dcterms:subject>Yeast</dcterms:subject><dcterms:subject>
+                     Candida parapsilosis
+                  </dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1389172320301699" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1389172320301699" rel="scidir"/></coredata><objects><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="578" height="241" size="21734">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="578" height="238" size="21668">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="578" height="241" size="22311">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="533" height="262" size="19009">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="626" height="350" size="27256">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr5.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="91" size="4187">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="90" size="4057">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="91" size="4073">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="108" size="4449">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr5" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="123" size="5170">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr5.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2559" height="1068" size="180420">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2559" height="1053" size="161447">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2559" height="1067" size="180175">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2362" height="1163" size="145290">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2770" height="1550" size="221592">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-gr5_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="mmc1" category="standard" type="APPLICATION" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="278386">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-mmc1.pdf?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="330749">https://api.elsevier.com/content/object/eid/1-s2.0-S1389172320301699-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85082756766</scopus-id><scopus-eid>2-s2.0-85082756766</scopus-eid><pubmed-id>32253090</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/85082756766" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>272249</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291808</xocs:ssid>
+         <xocs:ssid type="subj">291832</xocs:ssid>
+         <xocs:ssid type="subj">291850</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Bioscience and Bioengineering</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALBIOSCIENCEBIOENGINEERING</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20200404">2020-04-04</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20200404">2020-04-04</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20200629">2020-06-29</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20200629">2020-06-29</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2020-06-29T18:56:10</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1389172320301699</xocs:eid>
+      <xocs:pii-formatted>S1389-1723(20)30169-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1389172320301699</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.jbiosc.2020.03.005</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1389172320X00065</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20200827">2020-08-27T05:41:57.055911Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20200801</xocs:date-search-begin>
+      <xocs:date-search-end>20200831</xocs:date-search-end>
+      <xocs:year-nav>2020</xocs:year-nav>
+      <xocs:indexeddate epoch="1585977615">2020-04-04T05:20:15.592389Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast footnotes orcid primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1389-1723</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>13891723</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>130</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>130</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>2</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>2</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 130, Issue 2</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>1</xocs:sort-order>
+      <xocs:first-fp>115</xocs:first-fp>
+      <xocs:last-lp>120</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>115</xocs:first-page>
+         <xocs:last-page>120</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202008</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>August 2020</xocs:cover-date-text>
+      <xocs:cover-date-start>2020-08-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2020-08-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2020</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Enzymology, Protein Engineering, and Enzyme Technology</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2020 The Society for Biotechnology, Japan. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>NEWURETHANASEYEASTCANDIDAPARAPSILOSIS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>MASAKI</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>K</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>MATERIALS AND METHODS</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Strain and media</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Culture and extraction of crude enzyme</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Measurement of ethanol and ammonia concentrations</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Urethanase activity</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Purification of urethanase from <ce:italic>C. parapsilosis</ce:italic>
+               </xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Effects of temperature, pH, and ethanol concentrations on urethanase activity and stability</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Effect of metal ion, NaCl, EDTA, detergent, and inhibitor on urethanase activity</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Substrate specificity</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Cloning of the urethanase gene and recombinant expression in <ce:italic>S. cerevisiae</ce:italic>
+               </xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>The accession number</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>RESULTS</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Purification and molecular analysis of urethanase</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Effect of pH on activity and stability of urethanase</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Effect of temperature on activity and stability of urethanase</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Effect of ethanol on activity and stability of urethanase</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Effect of cations, chelator, and detergent</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Substrate specificity</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>DISCUSSION</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>ACKNOWLEDGMENTS</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:appendices">
+            <xocs:item-toc-label>Appendix A</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Supplementary data</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sref1">
+            <xocs:ref-normalized-surname>KITAMOTO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>301</xocs:ref-first-fp>
+            <xocs:ref-last-lp>306</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref2">
+            <xocs:ref-normalized-surname>KITAMOTO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>359</xocs:ref-first-fp>
+            <xocs:ref-last-lp>363</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref3">
+            <xocs:ref-normalized-surname>KOBASHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>73</xocs:ref-first-fp>
+            <xocs:ref-last-lp>74</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref4">
+            <xocs:ref-normalized-surname>MIYAGAWA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>227</xocs:ref-first-fp>
+            <xocs:ref-last-lp>236</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref5">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>97</xocs:ref-first-fp>
+            <xocs:ref-last-lp>107</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref6">
+            <xocs:ref-normalized-surname>MOHAPATRA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>153</xocs:ref-first-fp>
+            <xocs:ref-last-lp>170</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>MICROBIALBIOTECHNOLOGY</xocs:ref-normalized-srctitle>
+            <xocs:ref-normalized-article-title>RINSIGHTPREVALENCEENZYMATICABATEMENTURETHANEINFERMENTEDBEVERAGES</xocs:ref-normalized-article-title>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref7">
+            <xocs:ref-normalized-surname>KOBASHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1326</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1328</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref8">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3303</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3306</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref9">
+            <xocs:ref-normalized-surname>ZHAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>773</xocs:ref-first-fp>
+            <xocs:ref-last-lp>778</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref10">
+            <xocs:ref-normalized-surname>MOHAPATRA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>393</xocs:ref-first-fp>
+            <xocs:ref-last-lp>396</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref11">
+            <xocs:ref-normalized-surname>AKUTSUSHIGENO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>422</xocs:ref-first-fp>
+            <xocs:ref-last-lp>429</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref12">
+            <xocs:ref-normalized-surname>ZHOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>718</xocs:ref-first-fp>
+            <xocs:ref-last-lp>728</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref13">
+            <xocs:ref-normalized-surname>ZHOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>351</xocs:ref-first-fp>
+            <xocs:ref-last-lp>360</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref14">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>301</xocs:ref-first-fp>
+            <xocs:ref-last-lp>308</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref15">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-article-number>e01258-17</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref16">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>84</xocs:ref-first-fp>
+            <xocs:ref-last-lp>97</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sr0005">
+            <xocs:ref-normalized-surname>SUMINO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>QUALITYIMPROVEMENTALCOHOLICLIQUORSBYENZYMATICDECOMPOSINGETHYLCARBAMATE</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref17">
+            <xocs:ref-normalized-surname>SHIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2509</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2516</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref18">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>66</xocs:ref-first-fp>
+            <xocs:ref-last-lp>71</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref19">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>13011</xocs:ref-first-fp>
+            <xocs:ref-last-lp>13019</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref20">
+            <xocs:ref-normalized-surname>YANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>16</xocs:ref-first-fp>
+            <xocs:ref-last-lp>22</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>MASAKIX2020X115</xocs:refkey3>
+         <xocs:refkey4lp>MASAKIX2020X115X120</xocs:refkey4lp>
+         <xocs:refkey4ai>MASAKIX2020X115XK</xocs:refkey4ai>
+         <xocs:refkey5>MASAKIX2020X115X120XK</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:open-research>
+         <xocs:or-embargo-opening-date>2021-06-29T00:00:00.000Z</xocs:or-embargo-opening-date>
+      </xocs:open-research>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2021-06-29T00:00:00.000Z</xocs:sa-start-date>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:copyright-info>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2020 The Society for Biotechnology, Japan. All rights reserved.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1389-1723(20)30169-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1389172320301699</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1389172320301699</xocs:eid>
+         <xocs:doi>10.1016/j.jbiosc.2020.03.005</xocs:doi>
+         <xocs:cid>272249</xocs:cid>
+         <xocs:timestamp>2020-08-27T05:41:57.055911Z</xocs:timestamp>
+         <xocs:cover-date-start>2020-08-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2020-08-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/MAIN/application/pdf/ef7ca7084dc5b469bc11f1b0727bc94a/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>496048</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1389172320301699-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/PREVIEW/image/png/e7b30b5f3de4d0a5f33d6f51b501bf6e/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>62619</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr2/DOWNSAMPLED/image/jpeg/73aed257a253c3df83066ae72610254e/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>21734</xocs:filesize>
+               <xocs:pixel-height>241</xocs:pixel-height>
+               <xocs:pixel-width>578</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr1/DOWNSAMPLED/image/jpeg/b2b8ce3b53cd91cbefe0f8b8eb2e813a/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>21668</xocs:filesize>
+               <xocs:pixel-height>238</xocs:pixel-height>
+               <xocs:pixel-width>578</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr3/DOWNSAMPLED/image/jpeg/9dee0ff85233bab486bef99d0a6d21cd/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>22311</xocs:filesize>
+               <xocs:pixel-height>241</xocs:pixel-height>
+               <xocs:pixel-width>578</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr4/DOWNSAMPLED/image/jpeg/ee2c94d17d053b829720b45d474aaeda/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>19009</xocs:filesize>
+               <xocs:pixel-height>262</xocs:pixel-height>
+               <xocs:pixel-width>533</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr5.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr5/DOWNSAMPLED/image/jpeg/65fb415f9e23ac303e715b9c3f57a380/gr5.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>27256</xocs:filesize>
+               <xocs:pixel-height>350</xocs:pixel-height>
+               <xocs:pixel-width>626</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr2/THUMBNAIL/image/gif/8ed69a748d531e34d0244590e4c395ad/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4187</xocs:filesize>
+               <xocs:pixel-height>91</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr1/THUMBNAIL/image/gif/2ef46245240eba906d37b7af62517aae/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4057</xocs:filesize>
+               <xocs:pixel-height>90</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr3/THUMBNAIL/image/gif/9064eb66e4b66014ffcaa75eb7acb718/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4073</xocs:filesize>
+               <xocs:pixel-height>91</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr4/THUMBNAIL/image/gif/3dfb620c9c18a9a36bbc8db71dcd9725/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4449</xocs:filesize>
+               <xocs:pixel-height>108</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr5.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr5/THUMBNAIL/image/gif/aab4678657b095a7e14430d0c6f6344c/gr5.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5170</xocs:filesize>
+               <xocs:pixel-height>123</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr2/HIGHRES/image/jpeg/d1a34d1a4d9557ad6f80406f49d9a067/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>180420</xocs:filesize>
+               <xocs:pixel-height>1068</xocs:pixel-height>
+               <xocs:pixel-width>2559</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr1/HIGHRES/image/jpeg/19bf654d0519fdacc48478ae69b9e1ec/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>161447</xocs:filesize>
+               <xocs:pixel-height>1053</xocs:pixel-height>
+               <xocs:pixel-width>2559</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr3/HIGHRES/image/jpeg/4d85d415c6b98c03030d73e403488abc/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>180175</xocs:filesize>
+               <xocs:pixel-height>1067</xocs:pixel-height>
+               <xocs:pixel-width>2559</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr4/HIGHRES/image/jpeg/ff8e73175d421defe08d9c85a32ea433/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>145290</xocs:filesize>
+               <xocs:pixel-height>1163</xocs:pixel-height>
+               <xocs:pixel-width>2362</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-gr5_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/gr5/HIGHRES/image/jpeg/547d0059dcd1ad3918d2811d369d62c5/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>221592</xocs:filesize>
+               <xocs:pixel-height>1550</xocs:pixel-height>
+               <xocs:pixel-width>2770</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-mmc1.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172320301699/mmc1/MAIN/application/pdf/433f13b8143a60e225f01bf78e754061/mmc1.pdf</xocs:ucs-locator>
+               <xocs:file-basename>mmc1</xocs:file-basename>
+               <xocs:filename>mmc1.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>278386</xocs:filesize>
+               <xocs:attachment-type>APPLICATION</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1389172320301699-am.pdf</xocs:attachment-eid>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:filesize>330749</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10Z98KRBNHL/MAIN/application/pdf/6c552b05db0c62163a71fd9c4c7b3e38/am.pdf</xocs:ucs-locator>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>JBIOSC</jid>
+            <aid>2730</aid>
+            <ce:pii>S1389-1723(20)30169-9</ce:pii>
+            <ce:doi>10.1016/j.jbiosc.2020.03.005</ce:doi>
+            <ce:copyright type="society" year="2020">The Society for Biotechnology, Japan</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>FIG. 1</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="fspara0010" view="all">Effect of pH on the activity and stability of urethanase of <ce:italic>Candida parapsilosis</ce:italic>. (A) Urethanase activities at different pH levels were measured in 100 mM sodium citrate buffer (pH 3.0–6.0: squares), sodium phosphate buffer (pH 6.0–8.0: triangles) and bicine buffer (pH 9.0–10.0: circles) for 2 h at 30°C. pH values of reaction solutions were directly confirmed by a pH meter. The activity at pH 7.0 of sodium phosphate buffer is set as 100%. (B) Enzyme stability was estimated as residual activity after incubation at different pH values on ice for 18 h. Enzyme activities were measured at 30°C in 100 mM sodium phosphate buffer (pH 8.0). The residual activity at pH 7.0 of sodium phosphate buffer is set as 100%.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0015">FIG. 1</ce:alt-text>
+               <ce:link locator="gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S1389172320301699/gr1"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>FIG. 2</ce:label>
+               <ce:caption id="cap0015">
+                  <ce:simple-para id="fspara0015" view="all">Effect of temperature on the activity and stability of urethanase of <ce:italic>Candida parapsilosis</ce:italic>. (A) Urethanase activities at different temperatures (5°C–60°C) were measured in 100 mM sodium phosphate buffer (pH 8.0) for 2 h. (B) Urethanase stabilities at different temperatures (5°C–60°C) were estimated by measuring the activity at 30°C in 100 mM sodium phosphate buffer (pH 8.0) after incubation at different temperatures for 18 h.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0020">FIG. 2</ce:alt-text>
+               <ce:link locator="gr2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S1389172320301699/gr2"/>
+            </ce:figure>
+            <ce:figure id="fig3">
+               <ce:label>FIG. 3</ce:label>
+               <ce:caption id="cap0020">
+                  <ce:simple-para id="fspara0020" view="all">Effect of ethanol on the activity and stability of urethanase of <ce:italic>Candida parapsilosis</ce:italic>. (A) Urethanase activities in different ethanol concentrations (0%–30%) were measured in 100 mM sodium phosphate buffer (pH 8.0) for 2 h at 30°C. (B) Urethanase stabilities at different ethanol concentrations were estimated by measuring the activity at 30°C in 100 mM sodium phosphate buffer (pH 8.0) after incubation at 4°C in each ethanol concentrations for 18 h.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0025">FIG. 3</ce:alt-text>
+               <ce:link locator="gr3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S1389172320301699/gr3"/>
+            </ce:figure>
+            <ce:figure id="fig4">
+               <ce:label>FIG. 4</ce:label>
+               <ce:caption id="cap0025">
+                  <ce:simple-para id="fspara0025" view="all">Effect of metal ions, NaCl, EDTA, and PMSF on urethanase activity. Concentration of metal ions and EDTA were 10 mM. Concentrations of NaCl, PMSF, and Triton X-100 were 100 mM, 1 mM, and 0.02%, respectively.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0030">FIG. 4</ce:alt-text>
+               <ce:link locator="gr4" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S1389172320301699/gr4"/>
+            </ce:figure>
+            <ce:figure id="fig5">
+               <ce:label>FIG. 5</ce:label>
+               <ce:caption id="cap0030">
+                  <ce:simple-para id="fspara0030" view="all">Substrate specificity of urethanase of <ce:italic>Candida parapsilosis</ce:italic>. (A) Enzymatic activity toward ethyl carbamate, methyl carbamate, and <ce:italic>n</ce:italic>-butyl carbamate. (B) Amidase activity toward acetamide, propionamide, butyramide, and acrylamide. The activity toward ethyl carbamate is set as 100%.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0035">FIG. 5</ce:alt-text>
+               <ce:link locator="gr5" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S1389172320301699/gr5"/>
+            </ce:figure>
+         </ce:floats>
+         <head>
+            <ce:title id="title0010">New urethanase from the yeast <ce:italic>Candida parapsilosis</ce:italic>
+            </ce:title>
+            <ce:author-group id="augrp0010">
+               <ce:author id="au1" orcid="0000-0003-3809-1414" author-id="S1389172320301699-e712af9a9f184af89db8ea4715c7a90a">
+                  <ce:given-name>Kazuo</ce:given-name>
+                  <ce:surname>Masaki</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0010">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="aff2" id="crosref0015">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="cor1" id="crosref0020">
+                     <ce:sup loc="post">∗</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au2" author-id="S1389172320301699-ddafdb256bbbdba87ebde593cf64e449">
+                  <ce:given-name>Taichi</ce:given-name>
+                  <ce:surname>Mizukure</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0025">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au3" author-id="S1389172320301699-8388f596d13b5a10021f55a9c86c90f7">
+                  <ce:given-name>Dararat</ce:given-name>
+                  <ce:surname>Kakizono</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0030">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au4" author-id="S1389172320301699-8a7baee99857046f2efcc278d5bcc569">
+                  <ce:given-name>Kanako</ce:given-name>
+                  <ce:surname>Fujihara</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0035">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au5" author-id="S1389172320301699-07d86d291901198f8c6d9ca732f6f494">
+                  <ce:given-name>Tsutomu</ce:given-name>
+                  <ce:surname>Fujii</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0040">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="aff2" id="crosref0045">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="fn1" id="crosref0050">
+                     <ce:sup loc="post">§</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au6" orcid="0000-0001-8690-3099" author-id="S1389172320301699-ccfafed85c09a778d54d6d45798f74d2">
+                  <ce:given-name>Nobuhiko</ce:given-name>
+                  <ce:surname>Mukai</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0055">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff1" affiliation-id="S1389172320301699-31cf9a4f26e3ea4c5beae168de1ca708">
+                  <ce:label>1</ce:label>
+                  <ce:textfn>National Research Institute of Brewing, 3-7-1 Kagamiyama, Higashihiroshima 739-0046, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>National Research Institute of Brewing</sa:organization>
+                     <sa:address-line>3-7-1 Kagamiyama</sa:address-line>
+                     <sa:city>Higashihiroshima</sa:city>
+                     <sa:postal-code>739-0046</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="srct0010">National Research Institute of Brewing, 3-7-1 Kagamiyama, Higashihiroshima 739-0046, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff2" affiliation-id="S1389172320301699-760cda72bd741a0c1f5eb21afc1ce719">
+                  <ce:label>2</ce:label>
+                  <ce:textfn>Graduate School of Biosphere Science, Hiroshima University, 1-4-4 Kagamiyama, Higashihiroshima 739-8528, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Graduate School of Biosphere Science</sa:organization>
+                     <sa:organization>Hiroshima University</sa:organization>
+                     <sa:address-line>1-4-4 Kagamiyama</sa:address-line>
+                     <sa:city>Higashihiroshima</sa:city>
+                     <sa:postal-code>739-8528</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="srct0015">Graduate School of Biosphere Science, Hiroshima University, 1-4-4 Kagamiyama, Higashihiroshima 739-8528, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>∗</ce:label>
+                  <ce:text>Corresponding author at: National Research Institute of Brewing, 3-7-1 Kagamiyama, Higashihiroshima 739-0046, Japan. Tel.: +81 82 420 0800; fax: +81 82 420 0806.</ce:text>
+                  <sa:affiliation>
+                     <sa:organization>National Research Institute of Brewing</sa:organization>
+                     <sa:address-line>3-7-1 Kagamiyama</sa:address-line>
+                     <sa:city>Higashihiroshima</sa:city>
+                     <sa:postal-code>739-0046</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+               </ce:correspondence>
+               <ce:footnote id="fn1">
+                  <ce:label>§</ce:label>
+                  <ce:note-para id="ntpara0010" view="all">Present address: Faculty of Food and Agricultural Sciences, Fukushima University, 1 Kanayagawa, Fukushima 960-1296, Japan.</ce:note-para>
+               </ce:footnote>
+            </ce:author-group>
+            <ce:date-received day="2" month="12" year="2019"/>
+            <ce:date-accepted day="9" month="3" year="2020"/>
+            <ce:abstract xml:lang="en" id="abs0010" view="all" class="author"><ce:abstract-sec id="abssec0010" view="all">
+                  <ce:simple-para id="abspara0010" view="all">Urethanase (EC 3.5.1.75) is an effective enzyme for removing ethyl carbamate (EC) present in alcoholic beverages. However, urethanase is not well studied and has not yet been developed for practical use. In this study, we report a new urethanase (CPUTNase) from the yeast <ce:italic>Candida parapsilosis</ce:italic>. Because <ce:italic>C. parapsilosis</ce:italic> can assimilate EC as its sole nitrogen source, the enzyme was extracted from yeast cells and purified using ion-exchange chromatography. The CPUTNase was estimated as a homotetramer comprising four units of a 61.7 kDa protein. In a 20% ethanol solution, CPUTNase had 73% activity compared with a solution without ethanol. Residual activity after 18 h indicated that CPUTNase was stable in 0%–40% ethanol solutions. The optimum temperature of CPUTNase was 43°C. This enzyme showed urethanase activity at pH 5.5–10.0 and exhibited its highest activity at pH 10. The gene of CPUTNase was identified, and a recombinant enzyme was expressed in the yeast <ce:italic>Saccharomyces cerevisiae</ce:italic>. Characteristics of recombinant CPUTNase were identical to the native enzyme. The putative amino acid sequence indicated that CPUTNase was an amidase family protein. Further, substrate specificity supported this sequence analysis because CPUTNase showed higher activities toward amide compounds. These results suggest that amidase could be a candidate for urethanase. We discovered a new enzyme and investigated its enzymatic characteristics, sequence, and recombinant CPUTNase expression. These results contribute to a further understanding of urethanase.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords xml:lang="en" id="kwrds0010" view="all" class="keyword">
+               <ce:section-title id="sectitle0010">Key words</ce:section-title>
+               <ce:keyword id="kwrd0010">
+                  <ce:text>Urethanase</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0015">
+                  <ce:text>Ethyl carbamate</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0020">
+                  <ce:text>Amidase</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0025">
+                  <ce:text>Yeast</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0030">
+                  <ce:text>
+                     <ce:italic>Candida parapsilosis</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="p0010" view="all">Urethanase (EC 3.5.1.75) catalyzes the hydrolysis of ethyl carbamate (EC) to ethanol, carbon dioxide, and ammonia. EC is now classified as a group 2A carcinogen, but it is widely present in many foods and liquor. The EC present in sake, for example, is formed from ethanol and urea, which is the precursor of EC. Strategies to reduce the accumulation of urea in sake include the development of non-urea-producing sake yeast (<ce:cross-ref refid="bib1" id="crosref0060">1</ce:cross-ref>,<ce:cross-ref refid="bib2" id="crosref0065">2</ce:cross-ref>) and the use of acid urease (<ce:cross-ref refid="bib3" id="crosref0070">3</ce:cross-ref>,<ce:cross-ref refid="bib4" id="crosref0075">4</ce:cross-ref>). However, because other alcoholic beverages contain EC formed by other mechanisms (<ce:cross-ref refid="bib5" id="crosref0080">5</ce:cross-ref>,<ce:cross-ref refid="bib6" id="crosref0085">6</ce:cross-ref>), it has become necessary to develop alternative methods than reducing urea to remove EC directly from alcoholic beverages. However, no practical method has yet been developed to degrade EC once it has been formed in alcoholic beverages. An enzymatic strategy for reducing EC is one practical method for this; however, urethanase is not commercially available. In fact, the study of urethanase itself has been very limited. To understand urethanase and its potential application in the food and alcohol industry, we first include a brief history of our current understanding of this enzyme.</ce:para>
+               <ce:para id="p0015" view="all">The first reported urethanase was isolated from <ce:italic>Citrobacter</ce:italic> sp. by Kobashi et al. (<ce:cross-ref refid="bib7" id="crosref0090">7</ce:cross-ref>). Gel filtration purification indicated that its activity was detected in 500–600 kDa sized fractions. Urethanases from <ce:italic>Bacillus licheniformis</ce:italic> and <ce:italic>B. thiaminolyticus</ce:italic> (<ce:cross-ref refid="bib8" id="crosref0095">8</ce:cross-ref>,<ce:cross-ref refid="bib9" id="crosref0100">9</ce:cross-ref>) were then discovered and studied, and the molecular mass of urethanase from <ce:italic>B. licheniformis</ce:italic> IFO12107 was 160 kDa (a homotetramer consisting of four 42 kDa proteins). Another urethanase found in <ce:italic>Micrococcus</ce:italic> sp. isolated from a marine sponge was identified to be a cell-associated protein. Furthermore, the crude enzyme showed 83% urethanase activity in 20% ethanol and 100% activity in 0% ethanol (<ce:cross-ref refid="bib10" id="crosref0105">10</ce:cross-ref>). All of these bacterial urethanases were intracellular enzymes for which protein sequences were not described. Akutsu-Shigeno et al. (<ce:cross-ref refid="bib11" id="crosref0110">11</ce:cross-ref>) later reported that a 55 kDa protein from the bacterium <ce:italic>Rhodococcus equi</ce:italic> TB-60 exhibited urethanase activity. This enzyme showed wide substrate specificity toward anilides, amides, carbamates, and esters, but activity toward EC was weak. Its sequence was registered as DD291329. The only known fungal urethanase to date was isolated from <ce:italic>Penicillium variabile</ce:italic> JN-A525 (<ce:cross-ref refid="bib12" id="crosref0115">12</ce:cross-ref>,<ce:cross-ref refid="bib13" id="crosref0120">13</ce:cross-ref>). Its molecular mass was determined to be 96 kDa by gel filtration; as sodium dodecyl sulfate–polyacrylamide gel electrophoresis (SDS–PAGE) analysis indicated a 13.7 kDa protein, it was predicted to be a heptamer, but its amino acid sequence was not determined. Recently, ureases from some bacteria were reported to have urethanase activity (<ce:cross-refs refid="bib14 bib15 bib16" id="crosrefs0010">14–16</ce:cross-refs>). These bacterial ureases are complexes consisting of three different proteins. This kind of urease is a bifunctional enzyme having dual activity toward urea and EC, although most reported urethanases do not have activity toward urea.</ce:para>
+               <ce:para id="p0020" view="all">Although it is possible that various types of urethanase exist, studies of urethanase are limited to those described above. Thus, obtaining a better understanding of these enzymes requires the discovery and study of other urethanases. Previously, it was shown that some yeasts were effective to degrade EC in a patent (<ce:cross-ref refid="bib0025" id="crosref0250">17</ce:cross-ref>). However, the urethanase was not identified. We therefore preliminarily searched yeasts to degrade EC. The yeast <ce:italic>Candida parapsilosis</ce:italic> assimilated EC as its sole nitrogen source, and extracts from this yeast exhibited urethanase activity. In this study, we report the purification and characterization of this new urethanase from the yeast <ce:italic>C. parapsilosis</ce:italic>.</ce:para>
+               <ce:section id="sec1" role="materials-methods" view="all">
+                  <ce:section-title id="sectitle0015">MATERIALS AND METHODS</ce:section-title>
+                  <ce:section id="sec1.1" view="all">
+                     <ce:section-title id="sectitle0020">Strain and media</ce:section-title>
+                     <ce:para id="p0025" view="all">
+                        <ce:italic>C. parapsilosis</ce:italic> NBRC 708 was obtained from the Culture Collection Division of the Biological Resource Center of the National Institute of Technology and Evaluation (NBRC). EC was purchased from Wako Pure Chemical Industries (Osaka, Japan). Urethane-containing medium consisted of 2% glycerol, 0.17% Difco Yeast nitrogen base without amino acids and ammonium sulfate (Becton, Dickinson and Company, Franklin Lakes, MD, USA), and 1% EC. YPD medium for <ce:italic>Saccharomyces cerevisiae</ce:italic> consisted of 2% glucose, 2% peptone, and 1% yeast extract.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.2" view="all">
+                     <ce:section-title id="sectitle0025">Culture and extraction of crude enzyme</ce:section-title>
+                     <ce:para id="p0030" view="all">Preculture of <ce:italic>C. parapsilosis</ce:italic> NBRC 708 was prepared in 10 mL of urethane-containing medium within L-shaped tubes at 30°C for 7 days. It was inoculated into 500 mL of the same medium at 0.1 of initial OD<ce:inf loc="post">660</ce:inf> in a 2 L baffled Erlenmeyer flask and cultured at 30°C with vigorous aeration in a shaker at 120 rpm for 8 days. Yeast cells were harvested by centrifugation, washed with cold water, and stored at −30°C. Cells were disrupted with glass beads using a Multi-beads Shocker (Yasui Kikai, Osaka, Japan) with 2500 rpm for 1800 s (a repeat of 30 s on and off) at 4°C. After 5 mL of 20 mM sodium phosphate buffer (pH 6.0) was added, the supernatant was transferred to a new tube for dialysis. Cell extract was dialyzed for 1 day against a 20 mM sodium phosphate buffer (pH 6.0) at 4°C. After centrifugation at 20,000 ×<ce:italic>g</ce:italic>. for 30 min, the supernatant was filtered through a membrane (pore size 0.45 μm) and used in subsequent purifications.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.3" view="all">
+                     <ce:section-title id="sectitle0030">Measurement of ethanol and ammonia concentrations</ce:section-title>
+                     <ce:para id="p0035" view="all">The concentration of ethanol was determined using Enzytec fluid ethanol (R-Biopharm AG, Darmstadt, Germany). The concentration of ammonia was determined by an Ammonia-Test-Wako kit (Wako Pure Chemical Industries).</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.4" view="all">
+                     <ce:section-title id="sectitle0035">Urethanase activity</ce:section-title>
+                     <ce:para id="p0040" view="all">We confirmed that same molar amounts of ammonia and ethanol were produced in degradation of EC by this urethanase. Therefore, the urethanase activity was assayed by measuring the amount of NH<ce:inf loc="post">3</ce:inf> produced from EC. The reaction solution contained 100 mM sodium phosphate buffer (pH 8.0) and 2% EC.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.5" view="all">
+                     <ce:section-title id="sectitle0040">Purification of urethanase from <ce:italic>C. parapsilosis</ce:italic>
+                     </ce:section-title>
+                     <ce:para id="p0045" view="all">At first a HiTrap Q HP column and ÄKTAexplorer 10S system (GE Healthcare Bio-Science AB, Uppsala, Sweden) were used to purify urethanase. The active fraction was purified by repetition of the same procedure until one band on SDS–PAGE was verified. The N-terminal sequence of the purified protein was analyzed by the Procise 491 HT system (Applied Biosystems, Waltham, MA, USA). Blue native PAGE was performed to estimate the molecular mass of the purified protein with NativePAGE 4%–16% Bis–Tris Protein Gel and NativeMark Unstained Protein Standard (Thermo Fisher Scientific, Waltham, MA, USA) as a marker.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.6" view="all">
+                     <ce:section-title id="sectitle0045">Effects of temperature, pH, and ethanol concentrations on urethanase activity and stability</ce:section-title>
+                     <ce:para id="p0050" view="all">Urethanase activities at different temperatures (5°C–60°C) were measured in 100 mM sodium phosphate buffer (pH 8.0) for 2 h. Urethanase stability at different temperatures (5°C–60°C) were estimated by measuring the activity at 30°C in 100 mM sodium phosphate buffer (pH 8.0) after incubation at different temperatures for 18 h.</ce:para>
+                     <ce:para id="p0055" view="all">Urethanase activities at different pH values were measured in 100 mM sodium citrate buffer (pH 3.0–6.0), sodium phosphate buffer (pH 6.0–8.0), or bicine–NaOH buffer (pH 8–10) at 30°C for 2 h. Stability was estimated by measuring the activity at 30°C in 100 mM sodium phosphate buffer (pH 8.0) after incubation at 4°C in different pH buffers for 18 h. pH values before and after the reaction were directly confirmed by a glass electrode pH meter (LAQUAtwin, pH-11B, Horiba, Kyoto, Japan).</ce:para>
+                     <ce:para id="p0060" view="all">Urethanase activities in different ethanol concentrations (0%–30%) were measured in 100 mM sodium phosphate buffer (pH 8.0) for 2 h at 30°C. Stability was estimated by measuring the activity at 30°C in 100 mM sodium phosphate buffer (pH 8.0) after incubation at 4°C in each ethanol concentration for 18 h. All enzymatic activities were estimated with the mean and standard deviation of three independent assays.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.7" view="all">
+                     <ce:section-title id="sectitle0050">Effect of metal ion, NaCl, EDTA, detergent, and inhibitor on urethanase activity</ce:section-title>
+                     <ce:para id="p0065" view="all">For determining the effect of metal ions and EDTA on urethanase activity, enzyme assays were performed in the presence of various metal ions and EDTA at a final concentration of 10 mM in 100 mM McIlvaine buffer (pH 6.0). When we used sodium phosphate buffer, the precipitation occurred in a few ion solutions. Therefore, we used McIlvaine buffer in this study. To prepare metal ion solutions, CaCl<ce:inf loc="post">2</ce:inf>, MgSO<ce:inf loc="post">4</ce:inf>·7H<ce:inf loc="post">2</ce:inf>O, CuSO<ce:inf loc="post">4</ce:inf>·5H<ce:inf loc="post">2</ce:inf>O, FeSO<ce:inf loc="post">4</ce:inf>·7H<ce:inf loc="post">2</ce:inf>O, ZnCl<ce:inf loc="post">2</ce:inf>, and CoCl<ce:inf loc="post">2</ce:inf>·6H<ce:inf loc="post">2</ce:inf>O were used. Concentrations of NaCl, phenylmethylsulfonyl fluoride (PMSF), and Triton X-100 were 100 mM, 1 mM, and 0.02%, respectively. The urethanase activity was measured in 100 mM McIlvaine buffer (pH 6.0) for 2 h at 30°C. In the cases of Fe<ce:sup loc="post">2+</ce:sup> and Co<ce:sup loc="post">2+</ce:sup>, the urethanase activity was assayed by measuring the amount of ethanol produced from urethane, because the Ammonia-Test-Wako kit could not be used in the presence of these ions.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.8" view="all">
+                     <ce:section-title id="sectitle0055">Substrate specificity</ce:section-title>
+                     <ce:para id="p0070" view="all">Enzymatic activity toward EC, methyl carbamate, <ce:italic>n</ce:italic>-butyl carbamate, acetamide, propionamide, butyramide, and urea was assessed. The reaction solution contained 11.2 mM substrate and 100 mM sodium phosphate buffer (pH 8.0). Enzymatic activity was assayed by measuring the amount of NH<ce:inf loc="post">3</ce:inf> produced from each substrate after 2 h at 30°C. One unit of hydrolysis activity was defined as the amount that released 1 μmol of NH<ce:inf loc="post">3</ce:inf> from substrate per minute. The reaction schemes of urethanase and amidase are shown in <ce:cross-ref refid="appsec1" id="crosref0125">Fig. S1</ce:cross-ref>.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.9" view="all">
+                     <ce:section-title id="sectitle0060">Cloning of the urethanase gene and recombinant expression in <ce:italic>S. cerevisiae</ce:italic>
+                     </ce:section-title>
+                     <ce:para id="p0075" view="all">Urethanase gene was amplified by PCR using following two primers; 5′-TAGTTTCGACGGATCATGCTCACTGACAACTGGAA-3′ (primer-F) and 5′-CTAGGTCGACGGATCTCAATTTCTCAAAATGTTAG-3′ (primer-R). Genomic DNA from <ce:italic>C. parapsilosis</ce:italic> NBRC708 was used as template DNA. The amplified fragment was cloned into pG-1 vector using In-fusion cloning kit (Takara Bio, Shiga, Japan) and sequenced. <ce:italic>S. cerevisiae</ce:italic> YPH499 was transformed by the constructed plasmid. The transformant having the plasmid containing the urethanase gene was inoculated into 10 mL of YPD medium within L-shaped tubes at 30°C for 2 days. Then, it was inoculated into 500 mL of the same medium at 0.1 of initial OD<ce:inf loc="post">660</ce:inf> in a 2 L baffled Erlenmeyer flask and cultured at 30°C with vigorous aeration in a shaker at 120 rpm for 2 days. Extraction of intracellular recombinant urethanase and purification method followed was same as that for native urethanase.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec1.10" view="all">
+                     <ce:section-title id="sectitle0065">The accession number</ce:section-title>
+                     <ce:para id="p0080" view="all">The accession number of the cDNA sequence of CPUTNase is LC511748 in DDBJ.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec2" role="results" view="all">
+                  <ce:section-title id="sectitle0070">RESULTS</ce:section-title>
+                  <ce:section id="sec2.1" view="all">
+                     <ce:section-title id="sectitle0075">Purification and molecular analysis of urethanase</ce:section-title>
+                     <ce:para id="p0085" view="all">The urethanase enzyme was produced and purified as described in the <ce:cross-ref refid="sec1" id="crosref0130">Materials and methods</ce:cross-ref> section. The urethanase was purified approximately 60-fold with an overall yield of 9% (<ce:cross-ref refid="appsec1" id="crosref0135">Table S1</ce:cross-ref>). The specific activity of the purified enzyme was 4.2 U/mg. The purified enzyme showed a single band on SDS–PAGE gels (<ce:cross-ref refid="appsec1" id="crosref0140">Fig. S2A</ce:cross-ref>). Its molecular mass was estimated to be 60 kDa. In blue native PAGE, the purified enzyme produced a single band at 240 kDa (<ce:cross-ref refid="appsec1" id="crosref0145">Fig. S2B</ce:cross-ref>). Taken together, this suggested that this enzyme existed as a homotetramer.</ce:para>
+                     <ce:para id="p0090" view="all">The N-terminal sequence of this enzyme was MLTDNNKELA. This was analyzed against the online-accessible <ce:italic>Candida</ce:italic> protein sequence by BLAST, and sequence homology occurred with the hypothetical protein CPAR2_301880. This protein consists of 551 amino acids coding 1656 bases of ORF. The urethanase-encoding gene was amplified by PCR using genomic DNA from <ce:italic>C. parapsilosis</ce:italic> and cloned into a plasmid pG-1. Three different bases were found between the nucleotide sequence of ORF of CPAR2_301880 from <ce:italic>C. parapsilosis</ce:italic> CDC317 and that of this enzyme from <ce:italic>C. parapsilosis</ce:italic> NBRC708 (<ce:cross-ref refid="appsec1" id="crosref0150">Fig. S3A</ce:cross-ref>). No amino acid differences were found in the protein sequences (<ce:cross-ref refid="appsec1" id="crosref0155">Fig. S3B</ce:cross-ref>).</ce:para>
+                     <ce:para id="p0095" view="all">The constructed plasmid including cDNA of CPUTNase was transferred into a yeast, <ce:italic>S. cerevisiae</ce:italic>, for the expression of the recombinant CPUTNase. It was expressed as an intracellular enzyme, and the molecular mass of purified CPUTNase was estimated to be 60 kDa and 240 kDa by SDS–PAGE and blue native PAGE, respectively (<ce:cross-ref refid="appsec1" id="crosref0160">Fig. S4</ce:cross-ref>).</ce:para>
+                  </ce:section>
+                  <ce:section id="sec2.2" view="all">
+                     <ce:section-title id="sectitle0080">Effect of pH on activity and stability of urethanase</ce:section-title>
+                     <ce:para id="p0100" view="all">As shown <ce:cross-ref refid="fig1" id="crosref0165">Fig. 1</ce:cross-ref>
+                        <ce:float-anchor refid="fig1"/>A, higher enzymatic activity was exhibited at higher pH values. Among the range of pH values used in this study, this enzyme had the highest activity at pH 10. Under acidic conditions (pH 3–5), this enzyme showed no activity. Stabilities at different pH values were estimated as residual activities after incubation at each pH for 18 h (<ce:cross-ref refid="fig1" id="crosref0170">Fig. 1</ce:cross-ref>B), and the residual activity was measured at pH 8. The pH of the reaction solutions was confirmed by pH meter, because enzyme solutions at different pH were added into substrate solution including 100 mM sodium phosphate buffer (pH 8.0). At pH values &lt;5, this enzyme is unstable. The residual activity at pH 5.5 was almost half, and at pH values &gt;6.7, the enzyme was stable.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec2.3" view="all">
+                     <ce:section-title id="sectitle0085">Effect of temperature on activity and stability of urethanase</ce:section-title>
+                     <ce:para id="p0105" view="all">We measured urethanase activity at 5°C–60°C. The optimum temperature of this enzyme was 43°C (<ce:cross-ref refid="fig2" id="crosref0175">Fig. 2</ce:cross-ref>
+                        <ce:float-anchor refid="fig2"/>A). At 50°C, the enzyme activity was drastically decreased, and at temperatures exceeding 40°C, the enzyme was unstable. In this study, the stability of this enzyme was estimated as residual activity at different temperatures for 18 h. At 40°C for 18 h, enzymatic activity was lost (<ce:cross-ref refid="fig2" id="crosref0180">Fig. 2</ce:cross-ref>B). Because this enzyme showed the highest activity in the first 2 h after being added to the reaction solution at 43°C, denaturation might begin slowly at 40°C and become complete within 18 h.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec2.4" view="all">
+                     <ce:section-title id="sectitle0090">Effect of ethanol on activity and stability of urethanase</ce:section-title>
+                     <ce:para id="p0110" view="all">Activity in ethanol solutions is a property of this enzyme. Urethane is formed in ethanol solutions by the chemical reaction of ethanol and urea. Between 0% and 20% ethanol, more than 50% of the urethanase activity remained (<ce:cross-ref refid="fig3" id="crosref0185">Fig. 3</ce:cross-ref>
+                        <ce:float-anchor refid="fig3"/>A). At concentrations &lt;40% ethanol, the enzyme was stable (<ce:cross-ref refid="fig3" id="crosref0190">Fig. 3</ce:cross-ref>B). In 50% ethanol, this enzyme drastically lost its activity in 18 h.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec2.5" view="all">
+                     <ce:section-title id="sectitle0095">Effect of cations, chelator, and detergent</ce:section-title>
+                     <ce:para id="p0115" view="all">We tested the effect of several metal ions, EDTA, Triton X-100, and PMSF on the enzymatic activity of urethanase (<ce:cross-ref refid="fig4" id="crosref0195">Fig. 4</ce:cross-ref>
+                        <ce:float-anchor refid="fig4"/>). Zn<ce:sup loc="post">2+</ce:sup>, Fe<ce:sup loc="post">2+</ce:sup>, and PMSF strongly inhibited its enzymatic activity. Cu<ce:sup loc="post">2+</ce:sup> and Co<ce:sup loc="post">2+</ce:sup> also inhibited the activity, although more than 20% of the activity remained. Mg<ce:sup loc="post">2+</ce:sup>, NaCl, EDTA, and Triton X-100 did not significantly affect the activity.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec2.6" view="all">
+                     <ce:section-title id="sectitle0100">Substrate specificity</ce:section-title>
+                     <ce:para id="p0120" view="all">Urethanase activity toward three kinds of carbamate esters were measured (<ce:cross-ref refid="fig5" id="crosref0200">Fig. 5</ce:cross-ref>
+                        <ce:float-anchor refid="fig5"/>A). This enzyme showed the highest activity toward EC, 70% toward methyl carbamate, and 30% toward <ce:italic>n</ce:italic>-butyl carbamate.</ce:para>
+                     <ce:para id="p0125" view="all">Amidase activities toward four kinds of amide compounds were compared with each other (<ce:cross-ref refid="fig5" id="crosref0205">Fig. 5</ce:cross-ref>B). This enzyme showed almost the same activity toward acetamide, propionamide, butylamine, and acrylamide. Activities toward amide compounds were about 60 times higher than the enzymatic activity toward EC. This enzyme did not show activity toward <ce:small-caps>l</ce:small-caps>-ornithine, <ce:small-caps>l</ce:small-caps>-glutamic acid, <ce:small-caps>l</ce:small-caps>-glutamine, <ce:small-caps>l</ce:small-caps>-aspartic acid, <ce:small-caps>l</ce:small-caps>-asparagine, <ce:small-caps>l</ce:small-caps>-arginine, <ce:small-caps>l</ce:small-caps>-citrulline, or urea.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec3" role="discussion" view="all">
+                  <ce:section-title id="sectitle0105">DISCUSSION</ce:section-title>
+                  <ce:para id="p0130" view="all">Until now, fewer than ten microbial urethanases had been purified and characterized. Only one fungal urethanase (from <ce:italic>P. variabile</ce:italic> JN-A525) had been studied, and its molecular mass was estimated to be 13.7 kDa; however, its sequence was not reported. In this study, we isolated a new urethanase from <ce:italic>C. parapsilosis</ce:italic> (CPUTNase) and identified its coding sequence (LC511748 in DDBJ). The molecular mass estimated by the predicted amino acid sequence was 61.7 kDa, which was almost same as the 60 kDa estimated by SDS–PAGE. The molecular size of CPUTNase was more than four times larger than the urethanase of <ce:italic>P. variabile</ce:italic>. In this study, recombinant CPUTNase was successfully expressed in <ce:italic>S</ce:italic>
+                     <ce:italic>. cerevisiae</ce:italic>. Because this recombinant CPUTNase showed the same traits as the native CPUTNase (<ce:cross-ref refid="appsec1" id="crosref0210">Fig. S5</ce:cross-ref>), this identified nucleotide sequence was treated as the urethanase coding sequence.</ce:para>
+                  <ce:para id="p0135" view="all">CPUTNase was estimated to be a homotetramer consisting of four molecules of the 61.7 kDa protein. Until now, the molecular mass of only four urethanases were known. The urethanases of <ce:italic>B. licheniformis</ce:italic> and <ce:italic>P. variabile</ce:italic> were estimated to be a 160 kDa tetramer (42 kDa × 4) and a 96 kDa heptamer (13.7 kDa × 7), respectively. The urethanase of <ce:italic>R. equi</ce:italic> was estimated to be a monomer protein of 55 kDa. The urethanase from <ce:italic>Citrobacter</ce:italic> sp. was estimated to be a 500–600 kDa protein by gel filtration chromatography, with no further information about the protein composition or quaternary structure. These comparisons suggest that CPUTNase may be a different type of urethanase from previously reported urethanases.</ce:para>
+                  <ce:para id="p0140" view="all">Alignment analysis of the amino acid sequences of CPUTNase with the urethanase of <ce:italic>R. equi</ce:italic>, which is the only urethanase with a reported sequence to date, indicated low homology. However, both urethanases have a GGSS motif that is highly conserved in the amidase protein family (<ce:cross-ref refid="appsec1" id="crosref0215">Fig. S3B</ce:cross-ref>). Based on the structural analysis of the amidase, Ser-cisSer-Lys catalytic triad was proposed (<ce:cross-ref refid="bib17" id="crosref0220">18</ce:cross-ref>). These residues are conserved in CPUTNase (<ce:cross-ref refid="appsec1" id="crosref0225">Fig. S3B</ce:cross-ref>). These serine residues might be attacked by PMSF and CPUTNase had strongly been inhibited. Because EC has an amide bond and an ester bond, either or both bonds may be the target of the enzyme. The protein sequence of CPUTNase suggests that the amide bond in EC is the target of this enzyme. Substrate specificity also supports that CPUTNase is an amidase family protein because its activity toward amide compounds was higher than that toward carbamate esters. Whereas the urethanase of <ce:italic>R. equi</ce:italic> was shown previously to exhibit amidase and esterase activity (<ce:cross-ref refid="bib11" id="crosref0230">11</ce:cross-ref>), CPUTNase herein did not catalyze the hydrolysis of an ester compound (<ce:italic>p</ce:italic>-nitrophenyl butylate). Because we were specifically searching for a urethanase, it was unexpected that our purified enzyme showed any activity toward acrylamide, which is also classified in the same group 2A carcinogen as EC. However, the degradation of acrylamide would also be an attractive application of this enzyme.</ce:para>
+                  <ce:para id="p0145" view="all">In 20% ethanol solution, CPUTNase had 73% activity that was comparable to the activities (54%–82%) of urethanases from <ce:italic>B. licheniformis</ce:italic>, <ce:italic>Micrococcus</ce:italic> sp. and <ce:italic>P. variabile</ce:italic>. The thermal stability of CPUTNase seems to be slightly lower than those of other urethanases previously reported. This characteristic would not be a problem for an application in the alcohol industry because alcoholic beverages are usually processed below room temperature. On the other hand, CPUTNase had low activity under acidic pH conditions and exhibited its highest activity at pH 10, the highest pH value that was tested. This is a unique characteristic of CPUTNase. It was reported that the degradation of EC was catalyzed by some urethanases under acidic conditions, and those had an acidic optimum pH (4.0–6.0). Although pH values of most non-distilled liquors are acidic, the pH values of some distilled liquors are in the range of the pH in which CPUTNase is active. Improvement of the active pH range by protein engineering may become the goal of a future study with this enzyme since recombinant protein expression of CPUTNase was successfully performed in this study.</ce:para>
+                  <ce:para id="p0150" view="all">Recently it was shown that acid ureases could act as urethanases. Urethanase activities of three acid ureases have been reported (<ce:cross-refs refid="bib14 bib15 bib16" id="crosrefs0015">14–16</ce:cross-refs>). These bacterial ureases are complexes composed of three different protein units (UreA, UreB, and UreC). Recombinant expression (<ce:cross-ref refid="bib18" id="crosref0235">19</ce:cross-ref>), protein engineering (<ce:cross-ref refid="bib19" id="crosref0240">20</ce:cross-ref>), and immobilization (<ce:cross-ref refid="bib20" id="crosref0245">21</ce:cross-ref>) of bacterial ureases have been studied. Acid urease studies have opened up candidates of urethanase because these acid ureases are structurally different from previously reported urethanases or CPUTNase. Despite discoveries of urethanases and the accumulation of information on the enzymatic degradation of urethane, more studies are needed to fully understand urethanase.</ce:para>
+                  <ce:para id="p0155" view="all">Although further screening of microorganisms producing urethanase may lead to the identification of more effective enzymes, setting these screening conditions may be difficult because all reported urethanases to date have been intracellular enzymes. Our results suggest that yeast may be a candidate of a urethanase-producing microorganism. In addition, amidase may become a candidate for urethanase activity as acid urease is. Further studies of protein sequence analysis and enzymatic characterization of other urethanases will contribute to our understanding of urethanase and its applications.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ack0010" view="all">
+               <ce:section-title id="sectitle0110">ACKNOWLEDGMENTS</ce:section-title>
+               <ce:para id="p0160" view="all">We thank Mrs. Kaori Tsukamoto for the preliminary studies on the screening of yeast for EC assimilation and operation of amino acid sequencing. The authors declare no conflict of interest.</ce:para>
+            </ce:acknowledgment>
+            <ce:appendices view="all">
+               <ce:section id="appsec1" view="extended">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title id="sectitle0115">Supplementary data</ce:section-title>
+                  <ce:para id="p0165" view="all">The following is the Supplementary data to this article:<ce:display>
+                        <ce:e-component id="mmc1">
+                           <ce:label>Multimedia component 1</ce:label>
+                           <ce:alt-text role="short" id="alttext0010">Multimedia component 1</ce:alt-text>
+                           <ce:link locator="mmc1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/46.1" xlink:href="pii:S1389172320301699/mmc1"/>
+                        </ce:e-component>
+                     </ce:display>
+                  </ce:para>
+               </ce:section>
+               <ce:section id="appsec2" view="compact-standard">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title id="sectitle0120">Supplementary data</ce:section-title>
+                  <ce:para id="p0170" view="all">Supplementary data to this article can be found online at <ce:inter-ref xlink:href="https://doi.org/10.1016/j.jbiosc.2020.03.005" id="intref0010" xlink:type="simple">https://doi.org/10.1016/j.jbiosc.2020.03.005</ce:inter-ref>.</ce:para>
+               </ce:section>
+            </ce:appendices>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="cebib0010" view="all">
+               <ce:section-title id="sectitle0125">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec0010" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sref1">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kitamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Oda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Gomi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Takahashi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Genetic engineering of a sake yeast producing no urea by successive disruption of arginase gene</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>57</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>301</sb:first-page>
+                              <sb:last-page>306</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0020">Kitamoto, K., Oda, K., Gomi, K., and Takahashi, K.: Genetic engineering of a sake yeast producing no urea by successive disruption of arginase gene, Appl. Environ. Microbiol., 57, 301-306 (1991).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sref2">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kitamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Oda-Miyazaki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Gomi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Kumagai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Mutant isolation of non-urea producing sake yeast by positive selection</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Ferment. Bioeng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>75</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>359</sb:first-page>
+                              <sb:last-page>363</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0025">Kitamoto, K., Oda-Miyazaki, K., Gomi, K., and Kumagai, C.: Mutant isolation of non-urea producing sake yeast by positive selection, J. Ferment. Bioeng., 75, 359-363 (1993).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sref3">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kobashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Takebe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sakai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Removal of urea from alcoholic beverages with an acid urease</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Appl. Toxicol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>73</sb:first-page>
+                              <sb:last-page>74</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0030">Kobashi, K., Takebe, S., and Sakai, T.: Removal of urea from alcoholic beverages with an acid urease, J. Appl. Toxicol., 8, 73-74 (1988).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sref4">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Miyagawa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Sumida</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Nakao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Harada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Kusumi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yoshizawa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Amachi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakayama</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Purification, characterization, and application of an acid urease from <ce:italic>Arthrobacter mobilis</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>68</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>227</sb:first-page>
+                              <sb:last-page>236</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0035">Miyagawa, K., Sumida, M., Nakao, M., Harada, M., Yamamoto, H., Kusumi, T., Yoshizawa, K., Amachi, T. and Nakayama, T.: Purification, characterization, and application of an acid urease from Arthrobacter mobilis, J. Biotechnol., 68, 227-236 (1999).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sref5">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Fu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Progress in preventing the accumulation of ethyl carbamate in alcoholic beverages</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Trends Food Sci. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>32</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>97</sb:first-page>
+                              <sb:last-page>107</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0040">Zhao, X., Du, G., Zou, H., Fu, J., Zhou, J., and Chen, J.: Progress in preventing the accumulation of ethyl carbamate in alcoholic beverages, Trends Food Sci. Technol., 32, 97-107 (2013).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sref6">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Mohapatra</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>R.: An insight into the prevalence and enzymatic abatement of urethane in fermented beverages</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:editors>
+                                 <sb:editor>
+                                    <ce:given-name>J.</ce:given-name>
+                                    <ce:surname>Patra</ce:surname>
+                                 </sb:editor>
+                                 <sb:editor>
+                                    <ce:given-name>G.</ce:given-name>
+                                    <ce:surname>Das</ce:surname>
+                                 </sb:editor>
+                                 <sb:editor>
+                                    <ce:given-name>H.S.</ce:given-name>
+                                    <ce:surname>Shin</ce:surname>
+                                 </sb:editor>
+                              </sb:editors>
+                              <sb:title>
+                                 <sb:maintitle>Microbial biotechnology</sb:maintitle>
+                              </sb:title>
+                              <sb:date>2018</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Springer</sb:name>
+                                 <sb:location>Singapore</sb:location>
+                              </sb:publisher>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>153</sb:first-page>
+                              <sb:last-page>170</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0045a">Mohapatra, B. R.: An insight into the prevalence and enzymatic abatement of urethane in fermented beverages, pp. 153-170, in J.Patra, G.Das, and H.S. Shin (Eds.), Microbial biotechnology, Springer, Singapore (2018).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sref7">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kobashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Takebe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sakai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Urethane-hydrolyzing enzyme from <ce:italic>Citrobacter</ce:italic> sp.</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chem. Pharm. Bull. (Tokyo)</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>38</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1326</sb:first-page>
+                              <sb:last-page>1328</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0050">Kobashi, K., Takebe, S., and Sakai, T.: Urethane-hydrolyzing enzyme from Citrobacter sp., Chem. Pharm. Bull. (Tokyo), 38, 1326-1328 (1990).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sref8">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.J.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Imamura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kobashi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Urethanase of <ce:italic>Bacillus licheniformis</ce:italic> sp. isolated from mouse gastrointestine</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chem. Pharm. Bull. (Tokyo)</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>39</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3303</sb:first-page>
+                              <sb:last-page>3306</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0055">Zhao, C. J., Imamura, L., and Kobashi, K.: Urethanase of Bacillus licheniformis sp. isolated from mouse gastrointestine, Chem. Pharm. Bull. (Tokyo), 39, 3303-3306 (1991).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sref9">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kobashi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Purification and characterization of iron-containing urethanase from <ce:italic>Bacillus licheniformis</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biol. Pharm. Bull.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>773</sb:first-page>
+                              <sb:last-page>778</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0060">Zhao, C., and Kobashi, K.: Purification and characterization of iron-containing urethanase from Bacillus licheniformis, Biol. Pharm. Bull., 17, 773-778 (1994).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.R.</ce:given-name>
+                                 <ce:surname>Mohapatra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Bapuji</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of urethanase from <ce:italic>Micrococcus</ce:italic> species associated with the marine sponge (<ce:italic>Spirasfrella</ce:italic> species)</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Lett. Appl. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>25</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>393</sb:first-page>
+                              <sb:last-page>396</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0065">Mohapatra, B. R., and Bapuji, M.: Characterization of urethanase from Micrococcus species associated with the marine sponge (Spirasfrella species), Lett. Appl. Microbiol., 25, 393-396 (1997).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sref11">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Akutsu-Shigeno</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Adachi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yamada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Toyoshima</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nomura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Uchiyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakajima-Kambe</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Isolation of a bacterium that degrades urethane compounds and characterization of its urethane hydrolase</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Microbiol. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>70</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>422</sb:first-page>
+                              <sb:last-page>429</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0070">Akutsu-Shigeno, Y., Adachi, Y., Yamada, C., Toyoshima, K., Nomura, N., Uchiyama, H., and Nakajima-Kambe, T.: Isolation of a bacterium that degrades urethane compounds and characterization of its urethane hydrolase, Appl. Microbiol. Biotechnol., 70, 422 (2006).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sref12">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.D.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.L.</ce:given-name>
+                                 <ce:surname>Gu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.P.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Isolation and characterization of urethanase from <ce:italic>Penicillium variabile</ce:italic> and its application to reduce ethyl carbamate contamination in Chinese rice wine</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Biochem. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>170</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>718</sb:first-page>
+                              <sb:last-page>728</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0075">Zhou, N. D., Gu, X. L., and Tian, Y. P.: Isolation and characterization of urethanase from Penicillium variabile and its application to reduce ethyl carbamate contamination in Chinese rice wine, Appl. Biochem. Biotechnol., 170, 718-728 (2013).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sref13">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.D.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.L.</ce:given-name>
+                                 <ce:surname>Gu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.H.</ce:given-name>
+                                 <ce:surname>Zha</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.P.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Purification and characterization of a urethanase from <ce:italic>Penicillium variabile</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Biochem. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>172</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>351</sb:first-page>
+                              <sb:last-page>360</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0080">Zhou, N. D., Gu, X. L., Zha, X. H., and Tian, Y. P.: Purification and characterization of a urethanase from Penicillium variabile. Appl. Biochem. Biotechnol., 172, 351-360 (2014).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sref14">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>High-level expression and characterization of recombinant acid urease for enzymatic degradation of urea in rice wine</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Microbiol. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>99</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>301</sb:first-page>
+                              <sb:last-page>308</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0085">Yang, Y., Kang, Z., Zhou, J., Chen, J., and Du, G.: High-level expression and characterization of recombinant acid urease for enzymatic degradation of urea in rice wine, Appl. Microbiol. Biotechnol., 99, 301-308 (2015).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sref15">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Yuan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A <ce:italic>Bacillus paralicheniformis</ce:italic> iron-containing urease reduces urea concentrations in rice wine</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>83</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:article-number>e01258-17</sb:article-number>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0090">Liu, Q., Chen, Y., Yuan, M., Du, G., Chen, J., and Kang, Z.: A Bacillus paralicheniformis iron-containing urease reduces urea concentrations in rice wine, Appl. Environ. Microbiol., 83, e01258-17 (2017).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sref16">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Expression of an acid urease with urethanase activity in <ce:italic>E. coli</ce:italic> and analysis of urease gene</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mol. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>59</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>84</sb:first-page>
+                              <sb:last-page>97</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0095">Liu, X., Zhang, Q., Zhou, N., and Tian, Y.: Expression of an acid urease with urethanase activity in E. coli and analysis of urease gene, Mol. Biotechnol., 59, 84-97 (2017).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sr0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sumino</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Kakimoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Akiyama</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Quality improvement of alcoholic liquors by enzymatic decomposing of ethyl carbamate</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:comment>U.S. patent 5000966</sb:comment>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>1991</sb:date>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0120a">Sumino, Y., Kakimoto, S., and Akiyama, S.: Quality improvement of alcoholic liquors by enzymatic decomposing of ethyl carbamate. U.S. patent 5000966 (1991).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sref17">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Shin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.H.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.C.</ce:given-name>
+                                 <ce:surname>Ha</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.M.</ce:given-name>
+                                 <ce:surname>Koo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.Y.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.S.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.S.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.H.</ce:given-name>
+                                 <ce:surname>Oh</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Structure of malonamidase E2 reveals a novel Ser-cisSer-Lys catalytic triad in a new serine hydrolase fold that is prevalent in nature</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>EMBO J.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>21</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2509</sb:first-page>
+                              <sb:last-page>2516</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0100">Shin, S., Lee, T. H., Ha, N. C., Koo, H. M., Kim, S. Y., Lee, H. S., Kim, Y. S. and Oh, B. H.: Structure of malonamidase E2 reveals a novel Ser-cisSer-Lys catalytic triad in a new serine hydrolase fold that is prevalent in nature, EMBO J., 21, 2509-2516 (2002)</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sref18">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Jin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Fang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Food-grade expression of an iron-containing acid urease in <ce:italic>Bacillus subtilis</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>293</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>66</sb:first-page>
+                              <sb:last-page>71</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0105">Liu, Q., Jin, X., Fang, F., Li, J., Du, G., and Kang, Z.: Food-grade expression of an iron-containing acid urease in Bacillus subtilis, J. Biotechnol., 293, 66-71 (2019).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sref19">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Yao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Liang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Fang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Du</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Kang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Molecular engineering of <ce:italic>Bacillus paralicheniformis</ce:italic> acid urease to degrade urea and ethyl carbamate in model Chinese rice wine</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Agric. Food Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>66</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>13011</sb:first-page>
+                              <sb:last-page>13019</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0110">Liu, Q., Yao, X., Liang, Q., Li, J., Fang, F., Du, G., and Kang, Z.: Molecular engineering of Bacillus paralicheniformis acid urease to degrade urea and ethyl carbamate in model Chinese rice wine, J. Agric. Food Chem., 66, 13011-13019 (2018).</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>21</ce:label>
+                     <sb:reference id="sref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Zhou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tian</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characteristics of refold acid urease immobilized covalently by graphene oxide-chitosan composite beads</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biosci. Bioeng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>127</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>16</sb:first-page>
+                              <sb:last-page>22</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srct0115">Yang, L., Liu, X., Zhou, N., and Tian, Y.: Characteristics of refold acid urease immobilized covalently by graphene oxide-chitosan composite beads, J. Biosci. Bioeng., 127, 16-22 (2019).</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

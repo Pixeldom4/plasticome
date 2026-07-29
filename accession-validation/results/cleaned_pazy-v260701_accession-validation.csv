@@ -1,0 +1,447 @@
+enzyme_name,accession,direct_or_indirect_activity,pazy_id,doi,aa_sequence,organism,ncbi_taxonomy_id
+ISPETase,WP_054022242.1,Direct,1,10.1126/science.aad6359; 10.1038/s41467-017-02255-z; 10.1021/acscatal.9b00568; 10.1021/acscatal.0c05126; 10.1038/s41929-022-00821-3; 10.1038/s41586-022-04599-z; 10.3390/polym15071779; 10.1039/D4SU00722K,,Piscinibacter sakaiensis,1547922
+PET5,CCK74972.1,Direct,2,10.1128/aem.02773-17; 10.1128/AEM.01842-21,,Oleispira antarctica,188908
+PET6,ASA57064.1,Direct,3,10.1128/aem.02773-17,,Vibrio gazogenes,687
+PET12,WP_047194864.1,Direct,4,10.1128/aem.02773-17; 10.1038/s41929-021-00616-y; 10.1002/cssc.202202277,,Caldimonas brevitalea,413882
+PpCutA,ADK73612.1,Direct,7,10.1139/w11-083; 10.1021/acs.est.7b00062,,Ectopseudomonas oleovorans,301
+PpelaLip,WP_022964382.1,Direct,8,10.1021/acs.est.7b00062,,Halopseudomonas pelagia,553151
+PE-H,WP_088276085.1,Direct,9,10.3389/fmicb.2020.00114,,Halopseudomonas aestusnigri,857252
+PmC,ABP86951,Direct,10,10.1021/ma9005318,,Ectopseudomonas mendocina,300
+Mors1,P19833.1,Direct,11,10.1128/AEM.01842-21; 10.1016/j.jhazmat.2022.128900; 10.1039/D4SU00722K,,Moraxella sp. TA144,77152
+PpEst,WP_003460012.1,Direct,12,10.1007/s00253-016-7992-8; 10.1016/j.jbiotec.2017.01.012,,Ectopseudomonas oleovorans,301
+MG8,MGYP000532440779,Direct,13,10.1002/anie.202203061,,Pseudomonas sp.,306
+EstB,WP_085690612,Direct,14,10.3390/ijms23105612,,Pseudomonas sp. B10,118613
+RgPETase,WP_085749752.1,Direct,15,10.1016/j.jhazmat.2021.126075; 10.1002/cssc.202202277,,Piscinibacter gummiphilus,946333
+LCC,AEV21261.1,Direct,16,10.1128/aem.06725-11; 10.3390/polym9020065; 10.1021/acs.biochem.7b01189; 10.1038/s41586-020-2149-4; 10.1021/acssuschemeng.4c00915; 10.1002/cssc.202500944,,,
+BhrPETase,GBD22443.1,Direct,17,10.1016/j.enzmictec.2020.109715; 10.1002/cssc.202500944,,bacterium HR29,2035424
+Cut190,WP_015787089.1,Direct,18,10.1007/s00253-014-5860-y; 10.1007/s00253-014-6272-8; 10.1007/s00253-018-9374-x,,Saccharomonospora viridis,1852
+BTA-1,CAH17553.1,Direct,19,10.1128/aem.64.5.1731-1735.1998; 10.1021/bm049582t; 10.1002/marc.200500410; 10.1007/s00449-006-0069-9,,Thermobifida fusca,2021
+BTA-2,CAH17554.1,Direct,20,10.1128/aem.64.5.1731-1735.1998; 10.1021/bm049582t; 10.1002/marc.200500410; 10.1007/s00449-006-0069-9,,Thermobifida fusca,2021
+TfH42_Cut1,ADV92528.1,Direct,21,10.1021/ma200949p,,Thermobifida fusca,2021
+Tfu_0883,WP_011291330.1,Direct,22,10.1128/jb.01899-06; 10.1074/jbc.m800848200; 10.1128/aem.00239-13,,Thermobifida fusca,2021
+Tfu_0882,AAZ54920.1,Direct,23,10.1074/jbc.m800848200,,Thermobifida fusca,2021
+TfCut_2,CBY05530,Direct,25,10.1007/s00253-014-5672-0; 10.1002/bit.25941; 10.3390/polym9020065; 10.1038/s41598-019-52379-z; 10.1039/D4SU00722K,,Thermobifida fusca,2021
+Cut1,AET05798.1,Direct,26,10.1007/s12010-013-0219-x,,Thermobifida fusca,2021
+Cut2,AET05799.1,Direct,27,10.1007/s12010-013-0219-x,,Thermobifida fusca,2021
+Thc_Cut1,ADV92526.1,Direct,28,10.1021/ma200949p; 10.1016/j.jbiotec.2016.02.006; 10.1016/j.nbt.2015.11.004; 10.1002/bit.26372; 10.3390/catal7110318; 10.1002/cssc.202500944,,Thermobifida cellulosilytica,144786
+Thc_Cut2,ADV92527.1,Direct,29,10.1021/ma200949p; 10.1002/bit.26372,,Thermobifida cellulosilytica,144786
+Tcur_1278,WP_012851645.1,Direct,30,10.1186/s13568-014-0044-9,,Thermomonospora curvata,2020
+Tcur0390,WP_012850775.1,Direct,31,10.1186/s13568-014-0044-9,,Thermomonospora curvata,2020
+Thh_Est,AFA45122.1,Direct,32,10.3390/polym4010617,,Thermobifida halotolerans,483545
+Est1,BAI99230.2,Direct,33,10.1007/s00253-010-2555-x; 10.1016/j.jbiosc.2015.03.006; 10.1038/s41467-022-35237-x,,Thermobifida alba,53522
+Tha_Cut1,ADV92525.1,Direct,34,10.3109/10242422.2012.644435,,Thermobifida alba,53522
+Est119,BAK48590.1,Direct,35,10.1007/s00253-010-2555-x; 10.1007/s00253-011-3781-6; 10.1111/febs.14781,,Thermobifida alba,53522
+BsEstB,ADH43200.1,Direct,36,10.1002/btpr.610,,Bacillus subtilis,1423
+PHL-7,7NEI,Direct,37,10.1021/acscatal.2c02275; 10.1002/cssc.202101062; 10.1002/cssc.202500944; 10.1039/D4SU00722K,,Compost metagenome,
+PET27,WP_111881932.1,Direct,38,10.3389/fmicb.2021.803896,,Aequorivita sp. CIP111184,2211356
+PET30,WP_039353427.1,Direct,39,10.3389/fmicb.2021.803896,,Kaistella jeonii,266749
+PET2,ACC95208.1,Direct,40,10.1128/aem.02773-17; 10.1021/acscatal.1c01204,,Metagenome-derived with  no obvious affiliation,
+PET46,RLI42440.1,Direct,41,10.1038/s42004-023-00998-z,,Candidatus Bathyarchaeota archaeon,2026714
+CalB,CAA83122.1,Direct,42,10.1016/j.procbio.2016.07.023; 10.1002/cssc.202100243,,Moesziomyces antarcticus,84753
+FsC,AAA33335.1,Direct,43,10.1002/pola.20684; 10.1016/j.procbio.2016.07.02310.1002/pola.20684,,Fusarium solani,169388
+HiC,A0A075B5G4,Direct,44,10.1021/ma9005318; 10.1016/j.nbt.2015.11.004; 10.1016/j.procbio.2016.07.023; 10.3390/catal7110318,,Mycothermus thermophilus,85995
+PudA,BAA76305.1,Direct,46,10.1016/0378-1097(95)00131-n; 10.1016/S0922-338X(97)83000-0; 10.1128/aem.64.1.62-67.1998; 10.1016/S0922-338X(99)89001-1; 10.1016/s1389-1723(00)87663-x,,Delftia acidovorans,80866
+LipasePueA,AAD22743.1,Direct,47,10.1016/S0964-8305(98)00057-2; 10.1016/S0964-8305(98)00067-5; 10.1111/j.1574-6968.2000.tb09056.x; 10.1016/S0964-8305(01)00042-7; 10.1111/j.1365-2672.2007.03447.x,,Pseudomonas chlororaphis,587753
+LipasePueB,AAF01331.1,Direct,48,10.1016/S0964-8305(98)00057-2; 10.1016/S0964-8305(98)00067-5; 10.1111/j.1574-6968.2000.tb09056.x; 10.1016/S0964-8305(01)00042-7; 10.1111/j.1365-2672.2007.03447.x,,Pseudomonas chlororaphis,587753
+EsterasePulA,AAF66684.1,Direct,49,10.1016/S0964-8305(98)00051-1; 10.1016/S0964-8305(98)00068-7,,Pseudomonas fluorescens,294
+PueA,WP_011061486.1,Direct,50,10.1128/AEM.01448-16,,Pseudomonas protegens,380021
+PueB,WP_011061489.1,Direct,51,10.1128/AEM.01448-16,,Pseudomonas protegens,380021
+P-nylA,AAA25908.1,Direct,54,10.1128/jb.171.6.3181-3186.1989,,Pseudomonas sp. NK87,314
+NylA,WP_012476897.1,Direct,59,10.1271/bbb1961.39.1219; 10.1111/j.1432-1033.1977.tb11904.x; 10.1074/jbc.M109.041285,,Paenarthrobacter ureafaciens,37931
+NylB,CAA24927.1,Direct,60,10.1128/jb.174.24.7948-7953.1992; 10.1038/s41467-024-45523-5,,Paenarthrobacter ureafaciens,37931
+NylC,WP_012476895.1,Direct,61,10.1128/jb.174.24.7948-7953.1992; 10.1128/aem.59.11.3978-3980.1993; 10.1038/s41467-024-45523-5,,Paenarthrobacter ureafaciens,37931
+NylCA,BAE95769.2,Direct,62,10.1128/aem.00777-07; 10.1038/s41467-024-45523-5,,Agromyces sp. KY5R,388924
+NylCK,BAE95770.1,Direct,63,10.1128/aem.00777-07; 10.1038/s41467-024-45523-5,,Kocuria sp. KY2,388923
+Arylacylamidase,P80008.1,Direct,64,10.1111/j.1432-1033.1991.tb16086.x,,Nocardia globerula,1818
+Arylacylamidase,WP_011209364.1,Direct,65,10.1002/bit.22139; 10.1038/s41467-024-45523-5,,Nocardia farcinica,37329
+serineprotease,WP_378272130.1,Direct,66,10.2323/jgam.55.459,,Actinomadura keratinilytica,547461
+PLAase I,WP_037320891.1,Direct,68,10.1111/j.1574-6968.2008.01109.x,,Amycolatopsis orientalis,31958
+PLAase II,ABY53108.1,Direct,69,10.1111/j.1574-6968.2008.01109.x,,Amycolatopsis orientalis,31958
+PLAase III,ABY67151.1,Direct,70,10.1111/j.1574-6968.2008.01109.x,,Amycolatopsis orientalis,31958
+PLaA,BAC67195.1,Direct,71,10.1128/aem.69.5.2498-2504.2003; 10.1023/a:1021713711160,,Paenibacillus amylolyticus,1451
+ABO2449,WP_011589723.1,Direct,74,10.1021%2Facs.biomac.6b00223,,Alcanivorax borkumensis,59754
+RPA1511,WP_011157072.1,Direct,75,10.1021%2Facs.biomac.6b00223,,Rhodopseudomonas palustris,1076
+Subtilisin Savinase,P29600,Direct,76,10.1023/A:1010120128048,,Lederbergia lenta,1467
+Subtilisin BL,P29599,Direct,77,10.1023/A:1010120128048,,Lederbergia lenta,1467
+Subtilisin SubC,CAB56500,Direct,79,10.1023/A:1010120128048,,Bacillus licheniformis,1402
+LP175,ATG80622.1,Direct,81,10.2323/jgam.60.13,,Laceyella sacchari,37482
+MGS0109,AGT96415.1,Direct,82,10.1007/s00253-014-6038-3,,Marine metagenome,
+MGS0010,AHG30919.1,Direct,83,10.1007/s00253-014-6038-3,,Marine metagenome,
+MGS0105,AGT96414.1,Direct,84,10.1007/s00253-014-6038-3,,Marine metagenome,
+MGS0084,AKJ87250,Direct,85,10.1021/acs.est.8b04252,,Environmental metagenome,
+MGS0156,AKJ87264,Direct,86,10.1021/acs.est.8b04252,,Environmental metagenome,
+GEN0105,AKJ87216,Direct,87,10.1021/acs.est.8b04252,,Environmental metagenome,
+PlaM4,BAF57210.1,Direct,88,10.1007/s00253-008-1477-3,,PLA disk compost metagenome,
+PlaM7,BAF57212.1,Direct,90,10.1007/s00253-008-1477-3,,PLA disk compost metagenome,
+PlaM9,BAF57214.1,Direct,92,10.1007/s00253-008-1477-3,,PLA disk compost metagenome,
+Proteinase K,CAA32820.1,Direct,93,10.1021/bm049395v,,Parengyodontium album,37998
+CutL1,XP_001817153.1,Direct,94,10.1023/A:1010120128048; 10.1007/s00253-004-1853-6,,Aspergillus oryzae,5062
+Cutinase,BAC67242.1,Direct,95,10.1128/aem.71.11.7548-7550.2005,,Cryptococcus sp. S-2,87049
+CfCLE,BAT32793.1,Direct,96,10.1093/bbb/zbab113,,Saitozyma flava,5416
+CmCut,BAN42606.1,Direct,97,10.1093/bbb/zbab113,,Filobasidium magnum,104409
+PCLE,BAN51852.1,Direct,98,10.1007/s00253-013-5454-0,,Paraphoma sp. B47-9,1804209
+PaE,XP_014659518.1,Direct,99,10.1007/s00253-012-4188-8; 10.1093/bbb/zbab113,,Moesziomyces antarcticus,84753
+PhaZ1,WP_011614907.1,Direct,100,10.1128/jb.182.20.5916-5918.2000; 10.1128/jb.183.1.94-100.2001,,Cupriavidus necator,106590
+PhaZ2,WP_010813770.1,Direct,101,10.1128%2FJB.185.13.3788-3794.2003,,Cupriavidus necator,106590
+PhaZ3,WP_011616504.1,Direct,102,10.1128%2FJB.185.13.3788-3794.2003; 10.1186/2191-0855-2-26,,Cupriavidus necator,106590
+PhaZ4,AAP85930.1,Direct,103,10.1186/2191-0855-2-26,,Cupriavidus necator,106590
+PhaZ5,WP_011616952.1,Direct,104,10.1186/2191-0855-2-26,,Cupriavidus necator,106590
+PhaZd1,WP_010811062.1,Direct,105,10.1128%2FJB.187.20.6982-6990.2005; 10.1128/aem.01056-14,,Cupriavidus necator,106590
+PhaY1(PhaZ2),WP_011615575.1,Direct,107,10.1186/2191-0855-2-26,,Cupriavidus necator,106590
+PhaY2,WP_011615004.1,Direct,108,10.1186/2191-0855-2-26,,Cupriavidus necator,106590
+PhaZAfa,AAA21974.1,Direct,109,10.1016/S0141-8130(99)00046-X,,Alcaligenes faecalis,511
+PhaZ7,WP_132259156.1,Direct,110,10.1111/mmi.12391,,Paucimonas lemoignei,29443
+PhaZ5,AAA65705.1,Direct,111,10.1111/j.1574-6968.2002.tb11137.x,,Paucimonas lemoignei,29443
+PhaZpst,BAA32541.1,Direct,112,10.1016/S0141-8130(99)00046-X; 10.1128/aem.65.1.189-197.1999,,Stutzerimonas stutzeri,316
+PhaZCac,WP_034398300.1,Direct,113,10.1128/aem.63.12.4844-4852.1997; 10.1016/S0141-8130(99)00046-X,,Delftia acidovorans,80866
+PHB depolymerase,BAG32152.1,Direct,115,10.1016/0003-9861(91)90572-Z; 10.1023/A:1015245710406,,Talaromyces funiculosus,28572
+PBATHRF,BCL64964.1,Direct,116,10.1016/j.polymdegradstab.2021.109481,,Rhodococcoides fascians,1828
+Chath_Est1,ALS54749.1,Direct,117,10.1021/acs.est.5b04346,,Hungatella hathewayi,154046
+TfH,5ZOA_A,Direct,118,10.1021/bm049582t; 10.1002/marc.200500410,,Thermobifida fusca,2021
+PFL1,EIW29778.1,Direct,119,10.1007/s00253-015-7031-1,,Pelosinus fermentans,365349
+Cbotu_EstA,AKZ20828.1,Direct,120,10.1002/bit.25874,,Clostridium botulinum,1491
+Cbotu_EstB,AKZ20829.1,Direct,121,10.1002/bit.25874,,Clostridium botulinum,1491
+PBATHBp,BAV72205.1,Direct,122,10.1016/j.polymdegradstab.2017.01.006,,Bacillus pumilus,1408
+LCP_STRK3,AAR25849.1,Direct,123,10.1021/bm0496110; 10.1128/aem.01001-08; 10.1002/mbo3.3,,Streptomyces sp. K30,256642
+RoxA,AAP41848.1,Direct,124,10.1128/aem.56.1.269-274.1990,,Steroidobacter cummioxidans,1803913
+RoxB,AQV11968.1,Direct,125,10.1128/aem.56.1.269-274.1990,,Steroidobacter cummioxidans,1803913
+LatA,WP_085748997.1,Direct,126,10.1080/09168451.2016.1263147,,Piscinibacter gummiphilus,946333
+403,RLU00646.1,Direct,141,10.1038/s41467-022-35237-x,,Ketobacter sp.,2083498
+405,KPI12031.1,Direct,142,10.1038/s41467-022-35237-x,,Actinobacteria bacterium OK074,1592327
+406,ODU60407.1,Direct,143,10.1038/s41467-022-35237-x,,Comamonadaceae bacterium,1871071
+407,WP_162908185.1,Direct,144,10.1038/s41467-022-35237-x,,Allorhizocola rhizosphaerae,1872709
+409,RLT92980.1,Direct,145,10.1038/s41467-022-35237-x,,Ketobacter sp.,2083498
+412,WP_158643351.1,Direct,146,10.1038/s41467-022-35237-x,,Ketobacter alkanivorans,1917421
+503,EGD44994.1,Direct,147,10.1038/s41467-022-35237-x,,Nocardioidaceae bacterium,1871072
+CtPl,WP_062195544.1,Direct,148,10.1038/s41929-021-00616-y; 10.1038/s41467-022-35237-x,,Caldimonas taiwanensis,307483
+606,SJZ42839.1,Direct,149,10.1038/s41467-022-35237-x; 10.3389/fbioe.2022.865787,,Marinactinospora thermotolerans,531310
+607-Nsp,KPI31299.1,Direct,150,10.1038/s41467-022-35237-x,,Actinobacteria bacterium OV320,1592329
+611,WP_093412886.1,Direct,151,10.1038/s41467-022-35237-x,,Saccharopolyspora flava,95161
+701,WP_104613137.1,Direct,152,10.1038/s41467-022-35237-x,,Thermobifida fusca,2021
+702,ADM47605.1,Direct,153,10.1038/s41467-022-35237-x,,Thermobifida fusca,2021
+711,WP_083947829,Direct,154,10.1038/s41467-022-35237-x,,Thermobifida cellulosilytica,144786
+UMG-SP-1,OP972509,Direct,155,10.1002/anie.202216220; 10.1038/s41467-024-45523-5,,Environmental sample,
+UMG-SP-2,OP972510,Direct,156,10.1002/anie.202216220; 10.1038/s41467-024-45523-5,,Environmental sample,
+UMG-SP-3,OP972511,Direct,157,10.1002/anie.202216220; 10.1038/s41467-024-45523-5,,Environmental sample,
+Urethanase,ANG60415,Direct,158,10.1016/j.fbio.2020.100666,,Lysinibacillus fusiformis,28031
+AmdA,AAK28498.1,Direct,162,10.1016/j.jbiosc.2021.05.003,,Agrobacterium tumefaciens,358
+CPUTNase,BBP47208.1,Direct,166,10.1016/j.jbiosc.2020.03.005,,Candida parapsilosis,5480
+RCut,UNZ22463.1,Direct,170,10.1016/j.pep.2022.106077,,Rhodococcus sp. (in: high G+C Gram-positive bacteria),1831
+PHL-2,SAY37582.1,Direct,171,10.1002/cssc.202101062,,compost metagenome,
+PHL-1,SAY37579.1,Direct,172,10.1002/cssc.202101062,,compost metagenome,
+PHL-3,SAY37583.1,Direct,173,10.1002/cssc.202101062,,Compost metagenome,
+PHL-4,SAY37584.1,Direct,174,10.1002/cssc.202101062,,Compost metagenome,
+PHL-5,SAY37587,Direct,175,10.1002/cssc.202101062,,Compost metagenome,
+PHL-6,SAY37589,Direct,176,10.1002/cssc.202101062,,Compost metagenome,
+Sub1,QEX94755.1,Direct,177,10.1264/jsme2.ME19086,,Streptomyces scabiei,1930
+RgCut-2,WP_085749238,Direct,178,10.1002/cssc.202202277,,Piscinibacter gummiphilus,946333
+PsCut,WP_044499735.1,Direct,179,10.1002/cssc.202202277,,Pseudomonas saudimassiliensis,1461581
+PbauzCut,WP_036989706.1,Direct,180,10.1002/cssc.202202277,,Halopseudomonas bauzanensis,653930
+AdCut,BAB86909,Direct,181,10.1002/cssc.202202277,,Acidovorax delafieldii,47920
+FoCut5a,EXK81749,Direct,182,10.1016/j.bbagen.2015.08.009,,Fusarium oxysporum,5507
+MRCUT1,ESK97883.1,Direct,183,10.1128/Spectrum.00976-21,,Moniliophthora roreri,221103
+PET1,ADV66860.1,Direct,184,10.1128/aem.02773-17; 10.1016/j.jhazmat.2023.131574,,Deinococcus maricopensis,309887
+SM14est,DAC80635.1,Direct,185,10.3389/fmicb.2019.02187; 10.3389/fmicb.2023.1170880,,Streptomyces sp. SM14,1736045
+IS10,UNZ81746.1,Direct,186,10.1128/aem.01704-22,,Chloroflexi bacterium enrichment culture,1607791
+IS11,UNZ81747.1,Direct,187,10.1128/aem.01704-22,,Dehalococcoidia bacterium,2026734
+IS12,UNZ81748.1,Direct,188,10.1128/aem.01704-22,,Chloroflexi bacterium enrichment culture,1607791
+Lcp1VH2,WP_006368739.1,Direct,191,10.1128/AEM.07969-11,,Gordonia polyisoprenivorans,84595
+Lcp2VH2,AFA76036.1,Direct,192,10.1128/AEM.07969-11,,Gordonia polyisoprenivorans,84595
+BurPL,OGB27210,Direct,195,10.1038/s41929-021-00616-y; 10.1016/j.jhazmat.2022.128267; 10.3390/molecules28083528,,Burkholderiales bacterium,1891238
+PET40,WAU86704,Direct,196,10.1111/febs.16924,,Amycolatopsis bacterium,
+PbsA,BAB86909,Direct,197,10.1016/S1389-1723(02)80022-6,,Acidovorax delafieldii,47920
+FSC,Q99174,Direct,199,10.1016/j.polymdegradstab.2015.01.025; 10.1016/j.polymdegradstab.2016.10.012,,Fusarium solani,169388
+Hfor_PE-H,WP_090538641,Direct,200,10.1111/1751-7915.14362,,Halopseudomonas formosensis,1002526
+PaCut,SUD16364,Direct,201,10.1002/cssc.202202277,,Aquipseudomonas alcaligenes,43263
+MnP,AAA33742.1,Direct,205,10.1007/BF00777369,,,
+Tcca,WP_015255658,Direct,207,10.3390/catal13020340,,Thermobacillus composti,377615
+aryl acylamidase,WZH92451.1,Direct,208,10.1007/s12257-013-0189-4,,Nocardia farcinica,37329
+Lip4_120,WP_108898452,Direct,209,10.1016/j.ijbiomac.2024.129538,,Caldibacillus thermoamylovorans,35841
+Est8_89,WP_034768559.1,Direct,210,10.1016/j.ijbiomac.2024.129538,,Caldibacillus thermoamylovorans,35841
+Est11_32,WP_041846030,Direct,211,10.1016/j.ijbiomac.2024.129538,,Caldibacillus thermoamylovorans,35841
+Est18_23,WP_041847557,Direct,212,10.1016/j.ijbiomac.2024.129538,,Caldibacillus thermoamylovorans,35841
+Ces19_14,WP_034767800,Direct,213,10.1016/j.ijbiomac.2024.129538,,Caldibacillus thermoamylovorans,35841
+Ces39_5,WP_108898647,Direct,214,10.1016/j.ijbiomac.2024.129538,,Caldibacillus thermoamylovorans,35841
+CaPETase,SHM40309,Direct,215,10.1038/s41467-023-40233-w,,Cryptosporangium aurantiacum,134849
+CE_Ubrb,SIP63154.1,Direct,216,10.1371/journal.pone.0189201,,,
+TtA,WP_185053500,Direct,217,10.1038/s41467-024-45523-5,,Thermocatellispora tengchongensis,1073253
+M-NylC,KQR39103,Direct,218,10.1038/s41467-024-45523-5,,Microbacterium sp.,51671
+Nc-NylC,WP_312893488.1,Direct,219,10.1038/s41467-024-45523-5,,Nocardiopsis composta,157465
+OoH,BAI44731,Direct,221,10.1271/bbb.80210; 10.1038/s41467-024-45523-5,,Rhodococcus sp. Oct1,638587
+HG-2,WP_118011433.1,Direct,223,10.3390/microorganisms12010138,,Holdemanella biformis,1735
+HG-3,RGD93181.1,Direct,224,10.3390/microorganisms12010138,,Clostridiales bacterium AM23-16LB,2306574
+HG-4,WP_013858543.1,Direct,225,10.3390/microorganisms12010138,,Heyndrickxia coagulans,1398
+HG-5,WP_008690040.1,Direct,226,10.3390/microorganisms12010138,,Longicatena bacterium,
+CpCut1,WKA69984.1,Direct,229,10.1128/aem.01477-23,,Cladosporium sp.,1707700
+DmC,KAH7127633,Direct,231,10.1021/acssuschemeng.4c00060,,Dactylonectria macrodidyma,307937
+BaCut1,XAQ58225,Direct,233,10.1016/j.jhazmat.2024.134493,,Blastobotrys sp. G-9,3112566
+GatA,ANG60415,Direct,234,10.1016/j.fbio.2020.100666,,Lysinibacillus fusiformis,28031
+LipMRD9,APJ12152,Direct,235,10.1002/cctc.202400765,,Bacillus safensis,561879
+dsPETase06,MEC8523093,Direct,238,10.1038/s41586-024-07891-2,,Pseudomonadota bacterium,1977087
+Dkca1,WID88783,Direct,240,10.1016/j.bbrc.2024.150833,,Dietzia kunjamensis,322509
+PpPETase,WP_220815207,Direct,241,10.1016/j.jhazmat.2024.134532,,Pseudomonas paralcaligenes,2772558
+ScPETase,WP_142197250.1,Direct,242,10.1016/j.jhazmat.2024.134532,,Streptomyces calvus,67282
+PD3,QPA27412.1,Direct,244,10.1021/acsomega.4c04843,,Brucella anthropi,529
+TvgC,WP_068749367,Direct,245,10.1002/anie.202414842,,Thermovenabulum gondwanense,520767
+NylC1,XHH12374,Direct,246,10.1039/D4GC01662A,,Leucobacter chromiiresistens,1079994
+NylC2,XHH12375,Direct,247,10.1039/D4GC01662A,,Microbacterium oxydans,82380
+NylC5,XHH12378,Direct,248,10.1039/D4GC01662A,,Gordonia sp. (in: high G+C Gram-positive bacteria),84139
+PA4-degrading enzyme,BEG79545,Direct,249,10.1016/j.polymdegradstab.2023.110446,,Pseudoalteromonas sp.,53249
+Trypsin,P00761.1,Direct,251,10.1021/acs.est.4c02132,,Sus scrofa,9823
+CYP450,P08684.4,Direct,252,10.1021/acs.est.4c02132,,Homo sapiens,9606
+TGL,WAT79796.1,Direct,253,10.1016/j.ijbiomac.2024.131916,,Bacillus safensis,561879
+PAM,BAU20375,Direct,254,10.1038/s41586-024-07709-1,,Actinomadura keratinilytica,547461
+APET-5,WP_218920366.1,Direct,256,10.1038/s41467-025-61599-z,,Lentzea guizhouensis,1586287
+KbPETase,WP_209642273.1,Direct,257,10.1038/s41467-025-61599-z,,Kibdelosporangium banguiense,1365924
+APET-15,WP_019629726.1,Direct,258,10.1038/s41467-025-61599-z,,Actinomadura atramentaria,1990
+APET-17,MBX3625601.1,Direct,259,10.1038/s41467-025-61599-z,,Rhizobacter sp.,1909292
+APET-19,WP_116023875.1,Direct,260,10.1038/s41467-025-61599-z,,Thermomonospora umbrina,111806
+APET-20,MBO9532528.1,Direct,261,10.1038/s41467-025-61599-z,,Solirubrobacteraceae bacterium,2586742
+APET-23,MSQ87502.1,Direct,262,10.1038/s41467-025-61599-z,,Alphaproteobacteria bacterium,1913988
+APET-24,WP_018657411.1,Direct,263,10.1038/s41467-025-61599-z,,Actinomadura flavalba,1120938
+APET-25,MPZ00478.1,Direct,264,10.1038/s41467-025-61599-z,,Actinophytocola sp.,1872138
+APET-26,WP_203847453.1,Direct,265,10.1038/s41467-025-61599-z,,Dactylosporangium siamense,685454
+APET-27,WP_104739856.1,Direct,266,10.1038/s41467-025-61599-z,,Halopseudomonas oceani,1708783
+APET-28,MBX2857432.1,Direct,267,10.1038/s41467-025-61599-z,,Cellvibrionaceae bacterium,2026723
+APET-29,MBE65357.1,Direct,268,10.1038/s41467-025-61599-z,,Gammaproteobacteria bacterium,1913989
+APET-32,KZY99137.1,Direct,269,10.1038/s41467-025-61599-z,,Oleibacter sp. HI0075,1822250
+Mipa-P,SDZ16714.1,Direct,270,10.1126/science.adp5637,,Micromonospora pattaloongensis,405436
+1628,WP_091553551.1,Direct,271,10.1126/science.adp5637,,Micromonospora pattaloongensis,405436
+1611,WP_124822775.1,Direct,272,10.1126/science.adp5637,,Micromonospora ureilytica,709868
+1625,WP_101366623.1,Direct,273,10.1126/science.adp5637,,Plantactinospora sp. CNZ320,2035246
+1603,WP_110567505.1,Direct,274,10.1126/science.adp5637,,Micromonospora arborensis,2116518
+1663,WP_084434874.1,Direct,275,10.1126/science.adp5637,,Kibdelosporangium aridum,2030
+Kubu-P,WP_116180173.1,Direct,276,10.1126/science.adp5637,,Kutzneria buriramensis,1045776
+1538,WP_130464304.1,Direct,277,10.1126/science.adp5637,,Plantactinospora sp. B6F1,3158971
+1465,WP_073887759.1,Direct,278,10.1126/science.adp5637,,Saccharothrix sp. CB00851,1835005
+1621,WP_088988822.1,Direct,279,10.1126/science.adp5637,,Micromonospora chokoriensis,356851
+1617,CCH19814.1,Direct,280,10.1126/science.adp5637,,Micromonospora lupini,285679
+1534,WP_082377728.1,Direct,281,10.1126/science.adp5637,,Micromonospora sp. NRRL B-16802,1415541
+1489,WP_132386942.1,Direct,282,10.1126/science.adp5637,,Micromonospora sp. KC723,2530381
+1521,WP_132337032.1,Direct,283,10.1126/science.adp5637,,Micromonospora sp. KC213,2530378
+1525,WP_099848711.1,Direct,284,10.1126/science.adp5637,,Verrucosispora sp. CNZ293,2035249
+1468,WP_132413760.1,Direct,285,10.1126/science.adp5637,,Kribbella albertanoniae,1266829
+1507,WP_144126986.1,Direct,286,10.1126/science.adp5637,,Catellatospora sichuanensis,1969805
+1491,WP_082403176.1,Direct,287,10.1126/science.adp5637,,Saccharothrix sp. NRRL B-16348,1415542
+1821,WP_137976057.1,Direct,288,10.1126/science.adp5637,,Streptomyces violaceusniger,68280
+1477,WP_125191182.1,Direct,289,10.1126/science.adp5637,,Streptomyces sp. RP5T,2490848
+1482,WP_141984372.1,Direct,290,10.1126/science.adp5637,,Saccharothrix saharensis,571190
+1522,WP_155388305.1,Direct,291,10.1126/science.adp5637,,Catellatospora paridis,1617086
+1546,WP_013736455.1,Direct,292,10.1126/science.adp5637,,Micromonospora sp. (multispecies),
+385,WP_143590710.1,Direct,293,10.1126/science.adp5637,,Thermoactinospora rubra,1088767
+1642,WP_139584963.1,Direct,294,10.1126/science.adp5637,,Micromonospora orduensis,1420891
+917,WP_083950838.1,Direct,295,10.1126/science.adp5637,,Actinomadura bacterium,1988
+1537,OKK16161.1,Direct,296,10.1126/science.adp5637,,Streptomyces sp. CB00455,1703927
+1519,WP_131056699.1,Direct,297,10.1126/science.adp5637,,Verrucosispora sp. SN26_14.1,2527879
+1678,WP_045318561.1,Direct,298,10.1126/science.adp5637,,Lentzea aerocolonigenes,68170
+1496,WP_075737041.1,Direct,299,10.1126/science.adp5637,,Streptomyces acidiscabies,42234
+1169,WP_065917710.1,Direct,300,10.1126/science.adp5637,,Lentzea guizhouensis,1586287
+1637,WP_130401777.1,Direct,301,10.1126/science.adp5637,,Micromonospora violae,1278207
+1463,WP_081971423.1,Direct,302,10.1126/science.adp5637,,Dactylosporangium aurantiacum,35754
+1545,WP_093411427.1,Direct,303,10.1126/science.adp5637,,Micromonospora sediminimaris,547162
+554,WP_086849962.1,Direct,304,10.1126/science.adp5637,,Amycolatopsis kentuckyensis,218823
+1573,WP_109639600.1,Direct,305,10.1126/science.adp5637,,Lentzea atacamensis,531938
+1654,WP_086784246.1,Direct,306,10.1126/science.adp5637,,Crossiella equi,130796
+1555,WP_078844206.1,Direct,307,10.1126/science.adp5637,,Streptomyces achromogenes,67255
+1591,WP_091283529.1,Direct,308,10.1126/science.adp5637,,Micromonospora haikouensis,686309
+1620,WP_112669767.1,Direct,309,10.1126/science.adp5637,,Micromonospora saelicesensis,285676
+1240,KNX38636.1,Direct,310,10.1126/science.adp5637,,Luteipulveratus halotolerans,1631356
+1594,WP_083302694.1,Direct,311,10.1126/science.adp5637,,Micromonospora carbonacea,47853
+1457,WP_093954453.1,Direct,312,10.1126/science.adp5637,,Amycolatopsis vastitatis,1905142
+247,WP_116813002.1,Direct,313,10.1126/science.adp5637,,Steroidobacter cummioxidans,1803913
+1641,WP_089021493.1,Direct,314,10.1126/science.adp5637,,Micromonospora coriariae,285665
+1309,TQL66274.1,Direct,315,10.1126/science.adp5637,,Nocardioides albertanoniae,1175486
+414,WP_123685830.1,Direct,316,10.1126/science.adp5637,,Amycolatopsis bacterium,
+1506,WP_084400763.1,Direct,317,10.1126/science.adp5637,,Lentzea albidocapillata,40571
+1493,WP_132183354.1,Direct,318,10.1126/science.adp5637,,Micromonospora sp. KC606,2530379
+1395,RZL02950.1,Direct,319,10.1126/science.adp5637,,Herbihabitans rhizosphaerae,1872711
+1478,WP_141569747.1,Direct,320,10.1126/science.adp5637,,Streptomyces ipomoeae,103232
+1571,WP_124770494.1,Direct,321,10.1126/science.adp5637,,Micromonospora inaquosa,2203716
+169,OPG10926.1,Direct,322,10.1126/science.adp5637,,Microbispora sp. GKU 823,1652100
+1638,WP_051808300.1,Direct,323,10.1126/science.adp5637,,Actinoplanes subtropicus,543632
+1868,WP_111700265.1,Direct,324,10.1126/science.adp5637,,Microbispora triticiradicis,2200763
+1718,WP_084578793.1,Direct,325,10.1126/science.adp5637,,Kutzneria sp. 744,345341
+401,WP_104115406.1,Direct,326,10.1126/science.adp5637,,Micromonospora chalcea,1874
+1392,SPF04022.1,Direct,327,10.1126/science.adp5637,,Streptomyces sp. MA5143a,2083010
+486,WP_120326365.1,Direct,328,10.1126/science.adp5637,,Micromonospora globbae,1894969
+1424,WP_110080872.1,Direct,329,10.1126/science.adp5637,,Actinokineospora spheciospongiae,909613
+1475,WP_086668955.1,Direct,330,10.1126/science.adp5637,,Lentzea kentuckyensis,360086
+282,WP_092528534.1,Direct,331,10.1126/science.adp5637,,Amycolatopsis arida,587909
+1635,WP_145923095.1,Direct,332,10.1126/science.adp5637,,Micromonospora sp. HM134,2583243
+1228,WP_091450391.1,Direct,333,10.1126/science.adp5637,,Actinokineospora iranica,1271860
+1876,WP_067035690.1,Direct,334,10.1126/science.adp5637,,Streptomyces dysideae,909626
+1340,WP_103564314.1,Direct,335,10.1126/science.adp5637,,Actinomadura rubteroloni,1926885
+191,WP_129849678.1,Direct,336,10.1126/science.adp5637,,Streptomyces sp. SCA2-2,1563677
+PC3,WP_103939557.1,Direct,337,10.1038/s41467-023-40233-w,,Thermomonospora echinospora,1992
+PC4,WP_125313231.1,Direct,338,10.1038/s41467-023-40233-w,,Amycolatopsis eburnea,2267691
+PC5,WP_075975245.1,Direct,339,10.1038/s41467-023-40233-w,,Actinokineospora bangkokensis,1193682
+PC6,WP_068752972.1,Direct,340,10.1038/s41467-023-40233-w,,Thermobifida cellulosilytica,144786
+PC8,MBA55398.1,Direct,341,10.1038/s41467-023-40233-w,,Pseudomonadales bacterium,1891229
+Nepenthesin-1,BAD07474.1,Direct,342,10.1038/s41598-025-14331-2,,Nepenthes distillatoria,122309
+Nyl04,KXS08985,Direct,343,10.1016/j.checat.2025.101418,,Gonapodya prolifera,1123529
+Nyl10,WP_073391230.1,Direct,344,10.1016/j.checat.2025.101418,,Jatrophihabitans endophyticus,1206085
+Nyl11,WP_082766707.1,Direct,345,10.1016/j.checat.2025.101418,,Ferrimonas marina,299255
+Nyl12,A0A1Q3SHB0,Direct,346,10.1016/j.checat.2025.101418,,Gammaproteobacteria bacterium 39-13,1895767
+Nyl13,WP_075885500.1,Direct,347,10.1016/j.checat.2025.101418,,Faecalibaculum rodentium,1702221
+Nyl14,A0A1Y4BJH4,Direct,348,10.1016/j.checat.2025.101418,,Olsenella sp. An290,1965625
+Nyl16,OWT56952,Direct,349,10.1016/j.checat.2025.101418,,Candidimonas nitroreducens,683354
+Nyl18,A0A2E3XQJ6,Direct,350,10.1016/j.checat.2025.101418,,Halobacteriovoraceae bacterium,2026745
+Nyl25,PSR30050,Direct,351,10.1016/j.checat.2025.101418,,Sulfobacillus benefaciens,453960
+Nyl29,A0A315R6Z8,Direct,352,10.1016/j.checat.2025.101418,,Halanaerobium sp.,1895664
+Nyl30,PWX09261.1,Direct,353,10.1016/j.checat.2025.101418,,Clostridium perfringens,1502
+Nyl32,A0A351YZM4,Direct,354,10.1016/j.checat.2025.101418,,Treponema sp.,166
+Nyl34,A0A368EC02,Direct,355,10.1016/j.checat.2025.101418,,SAR116 cluster bacterium,2024888
+Nyl37,A0A3D1YDR8,Direct,356,10.1016/j.checat.2025.101418,,Dehalococcoidia bacterium,2026734
+Nyl39,A0A3D4HM79,Direct,357,10.1016/j.checat.2025.101418,,Synergistaceae bacterium,2053624
+Nyl40,A0A3M1X2K7,Direct,358,10.1016/j.checat.2025.101418,,Deltaproteobacteria bacterium,2026735
+Nyl44,A0A432H965,Direct,359,10.1016/j.checat.2025.101418,,Deltaproteobacteria bacterium,2026735
+Nyl45,RYL92504.1,Direct,360,10.1016/j.checat.2025.101418,,Sporolactobacillus sp. THM7-4,2511170
+Nyl47,WP_131292212.1,Direct,361,10.1016/j.checat.2025.101418,,Kribbella sindirgiensis,1124744
+Nyl50,TAL40028,Direct,362,10.1016/j.checat.2025.101418,,Alphaproteobacteria bacterium,1913988
+Nyl54,WP_170322449.1,Direct,363,10.1016/j.checat.2025.101418,,Acrocarpospora macrocephala,150177
+Nyl57,A0A661XAJ6,Direct,364,10.1016/j.checat.2025.101418,,Candidatus Zhuqueibacterota bacterium,2172550
+Nyl58,A0A6A7M915,Direct,365,10.1016/j.checat.2025.101418,,Rhodospirillales bacterium,2026786
+Nyl60,A0A6I1QW75,Direct,366,10.1016/j.checat.2025.101418,,Dehalococcoidia bacterium,2026734
+Nyl63,A0A7C3G8G6,Direct,367,10.1016/j.checat.2025.101418,,Oceanithermus sp.,2268145
+Nyl65,A0A7C6SQZ1,Direct,368,10.1016/j.checat.2025.101418,,Clostridiales bacterium,1898207
+Nyl66,A0A7C7DKE8,Direct,369,10.1016/j.checat.2025.101418,,Candidatus Fermentithermobacillaceae bacterium,3085339
+Nyl68,A0A7V5VEC1,Direct,370,10.1016/j.checat.2025.101418,,Bacteroidota bacterium,1898104
+Nyl71,A0A7V9NEU5,Direct,371,10.1016/j.checat.2025.101418,,Acidobacteriota bacterium,1978231
+Nyl72,A0A7W0NYQ1,Direct,372,10.1016/j.checat.2025.101418,,Acidimicrobiia bacterium,2080302
+Nyl73,MSS57807,Direct,373,10.1016/j.checat.2025.101418,,Stecheria intestinalis,2606630
+Nyl74,A0A7X7N2B0,Direct,374,10.1016/j.checat.2025.101418,,Coriobacteriaceae bacterium,2011094
+Nyl82,WP_014810472.1,Direct,375,10.1016/j.checat.2025.101418,,Desulfomonile tiedjei,2358
+Nyl83,XP_005707592.1,Direct,376,10.1016/j.checat.2025.101418,,Galdieria sulphuraria,130081
+Nyl84,WP_010949597.1,Direct,377,10.1016/j.checat.2025.101418,,Mycobacterium avium subsp. paratuberculosis,1770
+Nyl85,R5FI29,Direct,378,10.1016/j.checat.2025.101418,,Faecalibacterium sp. CAG:1138,1262896
+Nyl87,U7UHN3,Direct,379,10.1016/j.checat.2025.101418,,Peptoniphilus sp. BV3C26,1111134
+Nyl93,WP_170196788.1,Direct,380,10.1016/j.checat.2025.101418,,Gordonia asplenii,2725283
+DP003,ACV09511,Direct,381,10.1021/acscatal.5c03460,,Jonesia denitrificans,43674
+DP006,TDP67440,Direct,382,10.1021/acscatal.5c03460,,Actinokineospora alba,504798
+DP007,WP_035284691,Direct,383,10.1021/acscatal.5c03460,,Actinokineospora spheciospongiae,909613
+DP008,WP_130342639,Direct,384,10.1021/acscatal.5c03460,,Herbihabitans rhizosphaerae,1872711
+DP016,WP_151597653.1,Direct,385,10.1021/acscatal.5c03460,,Actinomadura physcomitrii,2650748
+DP017,WP_187224800.1,Direct,386,10.1021/acscatal.5c03460,,Actinokineospora xionganensis,2684470
+DP021,MBT8227529.1,Direct,387,10.1021/acscatal.5c03460,,Dactylosporangium sp.,60453
+DP038,MBX3624429.1,Direct,388,10.1021/acscatal.5c03460,,Rhizobacter sp.,1909292
+DP039,WP_085750434.1,Direct,389,10.1021/acscatal.5c03460,,Piscinibacter gummiphilus,946333
+DP040,WP_233427406.1,Direct,390,10.1021/acscatal.5c03460,,Actinokineospora spheciospongiae,909613
+DP043,WP_229068674.1,Direct,391,10.1021/acscatal.5c03460,,Actinoplanes sp. DH11,2857011
+DP054,WP_161104454.1,Direct,392,10.1021/acscatal.5c03460,,Actinomadura rayongensis,1429076
+DP056,MGYP001489421514,Direct,393,10.1021/acscatal.5c03460,,,
+DP057,MBN2622270.1,Direct,394,10.1021/acscatal.5c03460,,Acidimicrobiales bacterium,2201156
+DP059,MGYP001121581011,Direct,395,10.1021/acscatal.5c03460,,,
+DP061,WP_221382552.1,Direct,396,10.1021/acscatal.5c03460,,Paractinoplanes polyasparticus,2856853
+DP068,MGYP000271253724,Direct,397,10.1021/acscatal.5c03460,,,
+DP078,WP_184682765.1,Direct,398,10.1021/acscatal.5c03460,,Pseudomonas fluvialis,1793966
+DP080,MBJ7347705.1,Direct,399,10.1021/acscatal.5c03460,,Thermoleophilaceae bacterium,2732252
+DP081,MGYP000221121644,Direct,400,10.1021/acscatal.5c03460,,,
+DP082,WP_203733135.1,Direct,401,10.1021/acscatal.5c03460,,Paractinoplanes durhamensis,113563
+DP084,NUT34383.1,Direct,402,10.1021/acscatal.5c03460,,Hamadaea sp.,2024425
+DP089,WP_129786244.1,Direct,403,10.1021/acscatal.5c03460,,Promicromonospora panici,2219658
+DP090,WP_233872418.1,Direct,404,10.1021/acscatal.5c03460,,Streptomyces sp. ST2-7A,2907214
+DP092,WP_139580723.1,Direct,405,10.1021/acscatal.5c03460,,Microbispora catharanthi,1712871
+ESM006,WP_267938240.1,Direct,406,10.1021/acscatal.5c03460,,Saccharothrix sp. S26,2907215
+ESM010,WP_167521412.1,Direct,407,10.1021/acscatal.5c03460,,Microbispora sp. (multispecies),
+ESM012,WBC00352.1,Direct,408,10.1021/acscatal.5c03460,,Solwaraspora sp. WMMA2059,3015160
+ESM021,WP_210157342.1,Direct,409,10.1021/acscatal.5c03460,,Microbispora oryzae,2806554
+ESM024,MBO4274871.1,Direct,410,10.1021/acscatal.5c03460,,Microbispora triticiradicis,2200763
+ESM026,WP_232326807.1,Direct,411,10.1021/acscatal.5c03460,,Microbispora sp. ATCC PTA-5024,316330
+ESM033,GFJ87714.1,Direct,412,10.1021/acscatal.5c03460,,Phytohabitans rumicis,1076125
+ESM035,WP_158852571.1,Direct,413,10.1021/acscatal.5c03460,,Saccharothrix deserti,2593674
+ESM038,WP_182904095.1,Direct,414,10.1021/acscatal.5c03460,,Microbispora sp. H10830,2729109
+ESM043,WP_031525917.1,Direct,415,10.1021/acscatal.5c03460,,Streptomyces sp. NRRL F-5123,1463856
+ESM045,MBX3621832.1,Direct,416,10.1021/acscatal.5c03460,,Rhizobacter sp.,1909292
+ESM050,GIU85367.1,Direct,417,10.1021/acscatal.5c03460,,Acidimicrobiales bacterium,2201156
+ESM052,WP_203777396.1,Direct,418,10.1021/acscatal.5c03460,,Paractinoplanes deccanensis,113561
+ESM058,WP_173061649.1,Direct,419,10.1021/acscatal.5c03460,,Phytohabitans houttuyneae,1076126
+ESM059,WP_111214096.1,Direct,420,10.1021/acscatal.5c03460,,Micromonospora craterilacus,1655439
+ESM060,WP_203790592.1,Direct,421,10.1021/acscatal.5c03460,,Paractinoplanes rishiriensis,1050105
+ESM061,MBF9135495.1,Direct,422,10.1021/acscatal.5c03460,,Plantactinospora alkalitolerans,2789879
+ESM062,TWG17167.1,Direct,423,10.1021/acscatal.5c03460,,Micromonospora taraxaci,1316803
+ESM064,WP_281901711.1,Direct,424,10.1021/acscatal.5c03460,,Phytohabitans aurantiacus,3016789
+ESM065,WP_204038550.1,Direct,425,10.1021/acscatal.5c03460,,Micromonospora qiuiae,502268
+ESM069,WP_181548579.1,Direct,426,10.1021/acscatal.5c03460,,Micromonospora saelicesensis,285676
+ESM070,GHJ08786.1,Direct,427,10.1021/acscatal.5c03460,,Micromonospora sp. AKA109,2733865
+ESM080,WP_084261341.1,Direct,428,10.1021/acscatal.5c03460,,Micromonospora rifamycinica,291594
+ESM081,WP_265247586.1,Direct,429,10.1021/acscatal.5c03460,,Micromonospora sp. CPCC 205371,2865942
+ESM082,UAC02078.1,Direct,430,10.1021/acscatal.5c03460,,Dactylosporangium vinaceum,53362
+ESM084,WP_252811421.1,Direct,431,10.1021/acscatal.5c03460,,Actinoallomurus spadix,79912
+ESM090,WP_229836555.1,Direct,432,10.1021/acscatal.5c03460,,Dactylosporangium sucinum,1424081
+ESM093,WP_239135698.1,Direct,433,10.1021/acscatal.5c03460,,Dactylosporangium siamense,685454
+ESM096,WP_252275389.1,Direct,434,10.1021/acscatal.5c03460,,Pseudomonas subflava,2952933
+ESM097,WP_271190254.1,Direct,435,10.1021/acscatal.5c03460,,Dactylosporangium matsuzakiense,53360
+ESM101,MBW4703769.1,Direct,436,10.1021/acscatal.5c03460,,Micromonospora sp. RL09-050-HVF-A,1703433
+ESM121,WP_247684544.1,Direct,437,10.1021/acscatal.5c03460,,Micromonospora sp. D93,2824886
+ESM128,WP_269740835.1,Direct,438,10.1021/acscatal.5c03460,,Verrucosispora sp. WMMA2121,3015164
+ESM130,MCF0091346.1,Direct,439,10.1021/acscatal.5c03460,,Micromonospora sp. MH99,1945510
+ESM136,GGR16917.1,Direct,440,10.1021/acscatal.5c03460,,Actinoplanes ianthinogenes,122358
+ESM139,WP_199199185.1,Direct,441,10.1021/acscatal.5c03460,,Amycolatopsis sp. CA-128772,2073159
+ESM140,WP_247056560.1,Direct,442,10.1021/acscatal.5c03460,,Amycolatopsis sp. WQ 127309,2932773
+ESM144,WP_239125827.1,Direct,443,10.1021/acscatal.5c03460,,Catellatospora bangladeshensis,310355
+ESM156,WP_203812622.1,Direct,444,10.1021/acscatal.5c03460,,Paractinoplanes tereljensis,571912
+ESM157,PWR09075.1,Direct,445,10.1021/acscatal.5c03460,,Micromonospora acroterricola,2202421
+ESM159,WP_203906211.1,Direct,446,10.1021/acscatal.5c03460,,Rhizocola hellebori,1392758
+ESM160,WP_144022925.1,Direct,447,10.1021/acscatal.5c03460,,Asanoa hainanensis,560556
+ESM167,WP_091317053.1,Direct,448,10.1021/acscatal.5c03460,,Amycolatopsis tolypomycina,208445
+ESM169,MBT9528079.1,Direct,449,10.1021/acscatal.5c03460,,Rhizobacter sp.,1909292
+ESM173,MTK05241.1,Direct,450,10.1021/acscatal.5c03460,,Micromonospora sp. CP22,2580517
+ESM177,WP_239086781.1,Direct,451,10.1021/acscatal.5c03460,,Catellatospora methionotrophica,121620
+ESM186,WP_093473685.1,Direct,452,10.1021/acscatal.5c03460,,Halopseudomonas yangmingensis,1720063
+TEP010,WP_164449727.1,Direct,453,10.1021/acscatal.5c03460,,Verrucosispora sioxanthis,2499994
+TEP014,MGYP001477358452,Direct,454,10.1021/acscatal.5c03460,,Thermobifida cellulosilytica,144786
+TEP024,WP_264933993.1,Direct,455,10.1021/acscatal.5c03460,,Streptomyces sp. A012304,375446
+TEP037,MGYP000321434903,Direct,456,10.1021/acscatal.5c03460,,,
+TEP041,WP_256510026.1,Direct,457,10.1021/acscatal.5c03460,,Crossiella sp. SN42,2944808
+TEP054,WP_260709492.1,Direct,458,10.1021/acscatal.5c03460,,Dactylosporangium aurantiacum,35754
+TEP061,GGO06455.1,Direct,459,10.1021/acscatal.5c03460,,Microbispora rosea subsp. aerata,147065
+TEP067,WP_149259982.1,Direct,460,10.1021/acscatal.5c03460,,Actinomadura sp. K4S16,1316147
+TEP083,MBN1171866.1,Direct,461,10.1021/acscatal.5c03460,,Micromonosporaceae bacterium,1873464
+TEP091,MBO9569276.1,Direct,462,10.1021/acscatal.5c03460,,Cellulomonas iranensis,76862
+TEP092,GIG90696.1,Direct,463,10.1021/acscatal.5c03460,,Plantactinospora endophytica,673535
+TEP097,WP_086599340.1,Direct,464,10.1021/acscatal.5c03460,,Streptomyces swartbergensis,487165
+TEP101,WP_019633337.1,Direct,465,10.1021/acscatal.5c03460,,Actinomadura atramentaria,1990
+TEP102,WP_109361459.1,Direct,466,10.1021/acscatal.5c03460,,Streptomyces sp. V2,1424099
+TEP103,WP_211769896.1,Direct,467,10.1021/acscatal.5c03460,,Kutzneria sp. CA-103260,2802641
+TEP105,WP_150070118.1,Direct,468,10.1021/acscatal.5c03460,,Saccharopolyspora hirsuta,1837
+TEP109,WP_307855560.1,Direct,469,10.1021/acscatal.5c03460,,Kibdelosporangium banguiense,1365924
+TEP111,WP_260422593.1,Direct,470,10.1021/acscatal.5c03460,,Micromonospora carbonacea,47853
+TEP114,WP_252811421.1,Direct,471,10.1021/acscatal.5c03460,,Actinoallomurus spadix,79912
+TEP163,WP_218517662.1,Direct,472,10.1021/acscatal.5c03460,,Streptomyces sp. TRM70350,2856165
+TEP164,WP_256510519.1,Direct,473,10.1021/acscatal.5c03460,,Crossiella sp. SN42,2944808
+TEP165,WP_233604767.1,Direct,474,10.1021/acscatal.5c03460,,Micromonospora sp. HM5-17,2487710
+TEP168,WP_239095870.1,Direct,475,10.1021/acscatal.5c03460,,Micromonospora lutea,419825
+TEP178,WP_253762837.1,Direct,476,10.1021/acscatal.5c03460,,Hamadaea flava,1742688
+TEP181,WP_212846608.1,Direct,477,10.1021/acscatal.5c03460,,Actinoplanes ianthinogenes,122358
+TEP189,GIU85371.1,Direct,478,10.1021/acscatal.5c03460,,Acidimicrobiales bacterium,2201156
+TEP194,WP_250563816.1,Direct,479,10.1021/acscatal.5c03460,,Sphaerisporangium fuscum,2835868
+KaPETase,WP_143447025.1,Direct,480,10.1016/j.jclepro.2025.145624,,Kibdelosporangium aridum,2030
+Sis,XDS72785.1,Direct,481,10.3390/ijms25158120,,uncultured bacterium,
+NylB',CAA26616.1,Direct,482,10.1128/jb.174.24.7948-7953.1992; 10.1038/s41467-024-45523-5,,Paenarthrobacter ureafaciens,37931
+DIEGO,YCL34723,Direct,483,10.1016/j.eti.2025.104587,,uncultured bacterium,77133
+TA21,WDT94064,Direct,484,10.1111/febs.70478,,Thermoleophilum album,29539
+TA26,WDT94443,Direct,485,10.1111/febs.70478,,Thermoleophilum album,29539
+TA29,WDT94189,Direct,486,10.1111/febs.70478,,Thermoleophilum album,29539
+HP,ATH80290,Direct,490,10.1016/j.ibiod.2024.105910,,Ectopseudomonas mendocina,300
+E4,7C2A_A,Direct,494,10.3390/biology15070540,,Altericroceibacterium indicum,374177
+PET93,WKW63607.1,Direct,495,10.1128/aem.01698-25,,Maribacter dokdonensis,320912
+PET94,WKW63608.1,Direct,496,10.1128/aem.01698-25,,Arenibacter palladensis,237373
+BsMPPE,NP_390179.1,Direct,497,10.1016/j.jhazmat.2025.138330,,Bacillus subtilis,1423
+porcine pancreatic lipase,NP_999368.1,Direct,498,10.1016/j.enzmictec.2010.09.011,,Sus scrofa,9823
+CRL,CAA34684,Direct,499,10.1016/j.enzmictec.2010.09.011,,Diutina rugosa,5481
+PhaZcac,BAA19791.1,Direct,,10.1128/aem.63.12.4844-4852.1997; 10.1016/S0141-8130(99)00046-X,,,
+PhaZ Sa,WP_011617846.1,Direct,,10.1107/s2059798324009707,,Cupriavidus necator,
+PLE628,UUT36764,Indirect,5,10.1038/s41467-020-19583-2; 10.3389/fbioe.2022.930140,,Marinobacter sp.,50741
+PLE629,UUT36763,Indirect,6,10.1038/s41467-020-19583-2; 10.3389/fbioe.2022.930140,,Marinobacter sp.,50741
+Lcp1,WP_189902969.1,Indirect,127,10.3389/fmicb.2022.854427,,Streptomyces sp. AC04842,2775327
+Lcp2,WP_254586337.1,Indirect,128,10.3389/fmicb.2022.854427,,Streptomyces sp. AC04842,2775327
+Lcp1,UFE15760.1,Indirect,129,10.3390/polym13203524,,Microtetraspora sp. AC03309,2779376
+Lcp2,UFE15761.1,Indirect,130,10.3389/fmicb.2022.854427,,Microtetraspora sp. AC03309,2779376
+Amidase,AGT90042.1,Indirect,159,10.1016/j.jbiosc.2021.05.003,,Rhodococcus erythropolis,1833
+Amidase,AAK11724.1,Indirect,160,10.1016/j.jbiosc.2021.05.003,,Rhodococcus erythropolis,1833
+Amidase,ARF18137.1,Indirect,161,10.1016/j.jbiosc.2021.05.003,,Sporosarcina ureae,1571
+Amidase,WP_012433325.1,Indirect,164,10.1016/j.jbiosc.2021.05.003,,Paraburkholderia phytofirmans,261302
+Amidase,ACY56506.1,Indirect,165,10.1016/j.jbiosc.2021.05.003,,Microbacterium hydrocarbonoxydans,273678
+lcp1,UFE15762.1,Indirect,,10.3389/fmicb.2022.854427,,,
+lcp2,UFE15763.1,Indirect,,10.3389/fmicb.2022.854427,,,
+lcp3,UFE15764.1,Indirect,,10.3389/fmicb.2022.854427,,,

@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+132310089	INSDC	LWLC01000007.1	100246	101493	-	OKI36454.1	lipase	Saccharothrix sp. CB00851	CB00851	GCA_001905065.1

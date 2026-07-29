@@ -1,0 +1,1 @@
+{"header":{"type":"elink","version":"0.3"},"linksets":[{"dbfrom":"protein","ids":["1197854456"]},{"dbfrom":"protein","ids":["1223412414"]},{"dbfrom":"protein","ids":["1224507697"]}]}

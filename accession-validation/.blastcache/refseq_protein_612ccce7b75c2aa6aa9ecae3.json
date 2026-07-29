@@ -1,0 +1,1641 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "refseq_protein"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1270151",
+          "query_title": "unnamed protein product",
+          "query_len": 260,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "ref|WP_483902912.1|",
+                  "accession": "WP_483902912",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Actinomadura hallensis]",
+                  "taxid": 337895,
+                  "sciname": "Actinomadura hallensis"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 467.618,
+                  "score": 1202,
+                  "evalue": 7.74113e-165,
+                  "identity": 236,
+                  "positive": 245,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 23,
+                  "hit_to": 280,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPDPTVQSIEAVRGPFSVSETNVSRLVVTGFGGGTIYYPRDTSQGTFGAVAIAPGFTASEGSMAWYGPRIASQGFVVFTIDTLTRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASESRPSLKASIPLTPWNLKKNWRNNRVPTLIVGAENDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRDTCPH",
+                  "midline": "NPYERGP PT  SIEA RGPF+++   VSR  V+GFGGGTIYYPRDTS+GTFGAVAIAPGFTA EGSMAWYGPRIASQGFVVFTIDT+TRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEAS SRPSLKA+IPLTPWNLKKNWR+ RVPTLIVGAE+DSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYR TCPH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_131951462.1|",
+                  "accession": "WP_131951462",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Actinomadura sp. GC306]",
+                  "taxid": 2530367,
+                  "sciname": "Actinomadura sp. GC306"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 444.506,
+                  "score": 1142,
+                  "evalue": 1.27538e-155,
+                  "identity": 223,
+                  "positive": 239,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 23,
+                  "hit_to": 280,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPDPTVSSIEALRGPFSVSETSVSSLVASGFGGGTIYYPRDTSEGTFGAVAVAPGFTAGESSMSWYGPRLASQGFVVFTIDTLTRLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLAVMGHSMGGGGSLEAAVSRPSLQAAIPLTPWNLTKNWRSNTVPTLIVGAESDSVASVRTHAEPFYESIPASTEKAYLELNNASHFAPNTSNTTIAKYSISWLKRFVDDDTRYEQFLCPAPRPDRDIEEYRDTCPH",
+                  "midline": "NPYERGP PT SSIEA RGPF+++  +VS    SGFGGGTIYYPRDTSEGTFGAVA+APGFTA E SM+WYGPR+ASQGFVVFTIDT+TRLDQPDSRGRQLLAALDYLT+RSSVRSRIDSSRLAVMGHSMGGGGSLEA+VSRPSL+AAIPLTPWNL KNWR   VPTLIVGAESDS+ASVRTHAEPFYESIP++T KAYLELNNA+HFAPN SNTTIAKYSISWLKRFVD+DTRYEQFLCP PRPDRDIEEYR TCPH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_436641536.1|",
+                  "accession": "WP_436641536",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Actinomadura kijaniata]",
+                  "taxid": 46161,
+                  "sciname": "Actinomadura kijaniata"
+                }
+              ],
+              "len": 286,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 442.965,
+                  "score": 1138,
+                  "evalue": 5.83078e-155,
+                  "identity": 207,
+                  "positive": 233,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 29,
+                  "hit_to": 285,
+                  "align_len": 258,
+                  "gaps": 1,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEAPRGPFAIAQTTVSALSVTGFGGGTIYYPTSTAEGTFGAVAIAPGYTADQSSMSWYGPRLASQGFVVFTIDTLTRFDQPDSRGRQLEAALDYLTQRSSVRSRIDATRLGVMGHSMGGGGTLEASVSRPQLQAAIPLTPWNLDKTWSDVRVPTLIIGAQNDTVAPVASHSEPFYSTIPASSEKAYLELAGASHFAPNISNTTIAKYSISWLKRFIDNDTRYEQFLCPPPR-EREISEYRDTCPH",
+                  "midline": "NPYERGPAPT SSIEA RGPFAIA  TVS  SV+GFGGGTIYYP  T+EGTFGAVAIAPG+TAD+ SM+WYGPR+ASQGFVVFTIDT+TR DQPDSRGRQL AALDYLTQRSSVRSRID++RL VMGHSMGGGG+LEASVSRP L+AAIPLTPWNL K W DVRVPTLI+GA++D++A V +H+EPFY +IP+++ KAYLEL  A+HFAPNISNTTIAKYSISWLKRF+DNDTRYEQFLCPPPR +R+I EYR TCPH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_131976881.1|",
+                  "accession": "WP_131976881",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Actinomadura sp. 6K520]",
+                  "taxid": 2530364,
+                  "sciname": "Actinomadura sp. 6K520"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 436.417,
+                  "score": 1121,
+                  "evalue": 2.20606e-152,
+                  "identity": 220,
+                  "positive": 239,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 23,
+                  "hit_to": 280,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPDPTESSIEALRGPFSVSEDSVSSLAVSGFGGGTIYYPRDTSEGTFGAVAVAPGFTASQSSMSWYGPRLASQGFVVFTIDTNTRFDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLAVMGHSMGGGGSLEASLSRPSLQAAIPLTPWDLNKNFRNSRVPTLIVGAESDSVASVRTHAEPFYESIPAATEKAYLELNNASHFAPNTSNTTIAKYSISWLKRFVDNDTRYEQFLCPAPRPDWEIEEYRDTCPH",
+                  "midline": "NPYERGP PT SSIEA RGPF+++  +VS  +VSGFGGGTIYYPRDTSEGTFGAVA+APGFTA + SM+WYGPR+ASQGFVVFTIDT TR DQPDSRGRQLLAALDYLT+RSSVRSRIDSSRLAVMGHSMGGGGSLEAS+SRPSL+AAIPLTPW+L KN+R+ RVPTLIVGAESDS+ASVRTHAEPFYESIP+ T KAYLELNNA+HFAPN SNTTIAKYSISWLKRFVDNDTRYEQFLCP PRPD +IEEYR TCPH"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_333745154.1|",
+                  "accession": "WP_333745154",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Streptomyces]",
+                  "taxid": 1883,
+                  "sciname": "Streptomyces"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 429.483,
+                  "score": 1103,
+                  "evalue": 1.37982e-149,
+                  "identity": 203,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 24,
+                  "hit_to": 281,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTEASIEALRGPYSVADTSVSRLGVSGFGGGTIYYPTSTSEGTFGAVVVAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVLTHAEPFYSSLPSSTDRAYLELNNATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT +SIEA RGP+++A  +VSR  VSGFGGGTIYYP  TSEGTFGAV +APGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V THAEPFY S+PS+T++AYLELNNATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_402082370.1|",
+                  "accession": "WP_402082370",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC087844]",
+                  "taxid": 3365805,
+                  "sciname": "Streptomyces sp. NPDC087844"
+                }
+              ],
+              "len": 286,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 429.483,
+                  "score": 1103,
+                  "evalue": 1.50277e-149,
+                  "identity": 202,
+                  "positive": 229,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 27,
+                  "hit_to": 284,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTTSSIEATRGSYSVSQTSVSSLSVSGFGGGTVYYPTSTSDGTFGAVAIAPGFTATQSSMSWLGPRLASQGFVVFTIDTLTTSDQPDSRGRQLLASLDYLTERSSVRTRIDSSRLAVVGHSMGGGGSLEAAKSRPSLQAAIPLTPWNTDKSWPEVSTPTLIFGADGDSIASVASHAEPFYQSLPSSTDKAYLELNSATHFTPNTSNTTIAKYSISWLKRFVDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPTTSSIEA+RG ++++  +VS  SVSGFGGGT+YYP  TS+GTFGAVAIAPGFTA + SM+W GPR+ASQGFVVFTIDT+T  DQPDSRGRQLLA+LDYLT+RSSVR+RIDSSRLAV+GHSMGGGGSLEA+ SRPSL+AAIPLTPWN  K+W +V  PTLI GA+ DSIASV +HAEPFY+S+PS+T+KAYLELN+ATHF PN SNTTIAKYSISWLKRFVDNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_450223675.1|",
+                  "accession": "WP_450223675",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces ardesiacus]",
+                  "taxid": 285564,
+                  "sciname": "Streptomyces ardesiacus"
+                }
+              ],
+              "len": 306,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 429.483,
+                  "score": 1103,
+                  "evalue": 2.48958e-149,
+                  "identity": 203,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 47,
+                  "hit_to": 304,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTEASIEALRGPYSVADTSVSRLGVSGFGGGTIYYPTSTSEGTFGAVVVAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVLTHAEPFYSSLPSSTDRAYLELNNATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPQPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT +SIEA RGP+++A  +VSR  VSGFGGGTIYYP  TSEGTFGAV +APGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V THAEPFY S+PS+T++AYLELNNATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_490862889.1|",
+                  "accession": "WP_490862889",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces tauricus]",
+                  "taxid": 68274,
+                  "sciname": "Streptomyces tauricus"
+                }
+              ],
+              "len": 286,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 428.713,
+                  "score": 1101,
+                  "evalue": 2.86849e-149,
+                  "identity": 202,
+                  "positive": 228,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 27,
+                  "hit_to": 284,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPDPTTSSIEAARGSYSVSQTSVSSLSVTGFGGGTVYYPTSTSDGTFGAVAIAPGYTATESSMAWMGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRTRIDSSRLAVAGHSMGGGGTLEAAKSRPSLQAAIPLTPWNTDKSWPEVRTPTLIFGADGDTIASVSSHAEPFYGSLPSSTDKAYLELNSATHFTPNSSNTTIAKYSISWLKRFVDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGP PTTSSIEA+RG ++++  +VS  SV+GFGGGT+YYP  TS+GTFGAVAIAPG+TA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVR+RIDSSRLAV GHSMGGGG+LEA+ SRPSL+AAIPLTPWN  K+W +VR PTLI GA+ D+IASV +HAEPFY S+PS+T+KAYLELN+ATHF PN SNTTIAKYSISWLKRFVDNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_030402948.1|",
+                  "accession": "WP_030402948",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces ardesiacus]",
+                  "taxid": 285564,
+                  "sciname": "Streptomyces ardesiacus"
+                }
+              ],
+              "len": 306,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 429.098,
+                  "score": 1102,
+                  "evalue": 3.45817e-149,
+                  "identity": 203,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 47,
+                  "hit_to": 304,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTEASIEALRGPYSVADTSVSRLGVSGFGGGTIYYPTSTSEGTFGAVVVAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVLTHAEPFYSSLPSSTDRAYLELNNATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT +SIEA RGP+++A  +VSR  VSGFGGGTIYYP  TSEGTFGAV +APGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V THAEPFY S+PS+T++AYLELNNATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_455770424.1|",
+                  "accession": "WP_455770424",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces ardesiacus]",
+                  "taxid": 285564,
+                  "sciname": "Streptomyces ardesiacus"
+                }
+              ],
+              "len": 306,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 429.098,
+                  "score": 1102,
+                  "evalue": 4.49802e-149,
+                  "identity": 203,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 47,
+                  "hit_to": 304,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTEASIEALRGPYSVADTSVSRLGVSGFGGGTIYYPTSTSEGTFGAVVVAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLRAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVLTHAEPFYSSLPSSTDRAYLELNNATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT +SIEA RGP+++A  +VSR  VSGFGGGTIYYP  TSEGTFGAV +APGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V THAEPFY S+PS+T++AYLELNNATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_267716523.1|",
+                  "accession": "WP_267716523",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. CoH17]",
+                  "taxid": 2992806,
+                  "sciname": "Streptomyces sp. CoH17"
+                }
+              ],
+              "len": 306,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 429.098,
+                  "score": 1102,
+                  "evalue": 4.54756e-149,
+                  "identity": 203,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 47,
+                  "hit_to": 304,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTEASIEALRGPYSVADTSVSRLGVSGFGGGTIYYPTSTSEGTFGAVVVAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVLTHAEPFYSSLPSSTDRAYLELNNATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT +SIEA RGP+++A  +VSR  VSGFGGGTIYYP  TSEGTFGAV +APGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V THAEPFY S+PS+T++AYLELNNATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_031084873.1|",
+                  "accession": "WP_031084873",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Streptomyces]",
+                  "taxid": 1883,
+                  "sciname": "Streptomyces"
+                }
+              ],
+              "len": 306,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 428.713,
+                  "score": 1101,
+                  "evalue": 4.75125e-149,
+                  "identity": 203,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 47,
+                  "hit_to": 304,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTEASIEALRGPYSVADTSVSRLGVSGFGGGTIYYPTSTSEGTFGAVVVAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVLTHAEPFYSSLPSSTDRAYLELNNATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT +SIEA RGP+++A  +VSR  VSGFGGGTIYYP  TSEGTFGAV +APGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V THAEPFY S+PS+T++AYLELNNATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_468263882.1|",
+                  "accession": "WP_468263882",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC031049]",
+                  "taxid": 3684647,
+                  "sciname": "Streptomyces sp. NPDC031049"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 428.713,
+                  "score": 1101,
+                  "evalue": 6.52555e-149,
+                  "identity": 200,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 51,
+                  "hit_to": 307,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTESSIEALRGPYAVADTSVSSLLVSGFGGGTIYYPTTTSDGTFGAVVVAPGFTADQSSMAWLGPRLASQGFVVFTIDTITRYDQPDSRGRQILAALDYLTERSSVRGRIDSSRLGAMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVRTPTMIIGADGDSVAPVSSHSEPFYSSLPSSTDRAYLELNNASHFAPNVSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCP",
+                  "midline": "NPYERGPAPT SSIEA RGP+A+A  +VS   VSGFGGGTIYYP  TS+GTFGAV +APGFTAD+ SMAW GPR+ASQGFVVFTIDTITR DQPDSRGRQ+LAALDYLT+RSSVR RIDSSRL  MGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +VR PT+I+GA+ DS+A V +H+EPFY S+PS+T++AYLELNNA+HFAPN+SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CP"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_265648579.1|",
+                  "accession": "WP_265648579",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces tauricus]",
+                  "taxid": 68274,
+                  "sciname": "Streptomyces tauricus"
+                }
+              ],
+              "len": 286,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.557,
+                  "score": 1098,
+                  "evalue": 6.74257e-149,
+                  "identity": 202,
+                  "positive": 228,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 27,
+                  "hit_to": 284,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPDPTTSSIEAARGSYSVSQTSVSSLSVTGFGGGTVYYPTSTSDGTFGAVAIAPGYTATESSMAWMGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRTRIDSSRLAVAGHSMGGGGTLEAAKSRPSLQAAIPLTPWNTDKSWPEVRTPTLIFGADGDTIASVSSHAEPFYGSLPSSTDKAYLELNSATHFTPNSSNTTIAKYSISWLKRFVDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGP PTTSSIEA+RG ++++  +VS  SV+GFGGGT+YYP  TS+GTFGAVAIAPG+TA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVR+RIDSSRLAV GHSMGGGG+LEA+ SRPSL+AAIPLTPWN  K+W +VR PTLI GA+ D+IASV +HAEPFY S+PS+T+KAYLELN+ATHF PN SNTTIAKYSISWLKRFVDNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_467831496.1|",
+                  "accession": "WP_467831496",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC029152]",
+                  "taxid": 3684561,
+                  "sciname": "Streptomyces sp. NPDC029152"
+                }
+              ],
+              "len": 303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 428.328,
+                  "score": 1100,
+                  "evalue": 7.63187e-149,
+                  "identity": 203,
+                  "positive": 227,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 44,
+                  "hit_to": 301,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTTSSIEALRGPYAVSDTSVSSLAVTGFGGGTIYYPTSTSDGTFGAVVIAPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTIAPVASHSEPFYSSLPSTTDRAYLELNGATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPTTSSIEA RGP+A++  +VS  +V+GFGGGTIYYP  TS+GTFGAV IAPGFTA E S+AW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVRSRIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D+IA V +H+EPFY S+PSTT++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_362500413.1|",
+                  "accession": "WP_362500413",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                }
+              ],
+              "len": 303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.943,
+                  "score": 1099,
+                  "evalue": 1.07179e-148,
+                  "identity": 201,
+                  "positive": 228,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 44,
+                  "hit_to": 301,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTTSSIEALRGPYAVSDTSVSSLAVTGFGGGTIHYPTSTSDGTFGAVVIAPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWPEVTTPTLIVGADGDTVAPVASHSEPFYSSLPSTTDRAYLELNGATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPTTSSIEA RGP+A++  +VS  +V+GFGGGTI+YP  TS+GTFGAV IAPGFTA E S+AW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVRSRIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K+W +V  PTLIVGA+ D++A V +H+EPFY S+PSTT++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_361578197.1|",
+                  "accession": "WP_361578197",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC032940]",
+                  "taxid": 3155366,
+                  "sciname": "Streptomyces sp. NPDC032940"
+                }
+              ],
+              "len": 303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.943,
+                  "score": 1099,
+                  "evalue": 1.15721e-148,
+                  "identity": 203,
+                  "positive": 227,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 44,
+                  "hit_to": 301,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTTSSIEALRGPYSVSDTSVSSLAVTGFGGGTIYYPTSTSDGTFGAVVIAPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTIAPVATHSEPFYSSLPSTTDRAYLELNGATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPGLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPTTSSIEA RGP++++  +VS  +V+GFGGGTIYYP  TS+GTFGAV IAPGFTA E S+AW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVRSRIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D+IA V TH+EPFY S+PSTT++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_450295313.1|",
+                  "accession": "WP_450295313",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces koyangensis]",
+                  "taxid": 188770,
+                  "sciname": "Streptomyces koyangensis"
+                }
+              ],
+              "len": 314,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.943,
+                  "score": 1099,
+                  "evalue": 1.25833e-148,
+                  "identity": 198,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 55,
+                  "hit_to": 311,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTQASIEAPRGPYAVSQTSVSSLVASGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDHLTERSTVRSRVDSTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAEPFYSSLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDNDTRYEQFLCPLPAPDRDIEEYRGKCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS    SGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALD+LT+RS+VRSR+DS+RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THAEPFY S+PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+DNDTRYEQFLCP P PDRDIEEYR  CP"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_400863572.1|",
+                  "accession": "WP_400863572",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces flaveolus]",
+                  "taxid": 67297,
+                  "sciname": "Streptomyces flaveolus"
+                }
+              ],
+              "len": 303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.557,
+                  "score": 1098,
+                  "evalue": 1.34901e-148,
+                  "identity": 201,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 44,
+                  "hit_to": 301,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTTSSIEALRGPYAVSDTSVSSLTVTGFGGGTIYYPTSTSDGTFGAVVIAPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVASHSEPFYSSLPSTTDRAYLELNGATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPTTSSIEA RGP+A++  +VS  +V+GFGGGTIYYP  TS+GTFGAV IAPGFTA E S+AW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V +H+EPFY S+PSTT++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_248781525.1|",
+                  "accession": "WP_248781525",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Streptomyces]",
+                  "taxid": 1883,
+                  "sciname": "Streptomyces"
+                }
+              ],
+              "len": 286,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.787,
+                  "score": 1096,
+                  "evalue": 1.48402e-148,
+                  "identity": 201,
+                  "positive": 228,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 27,
+                  "hit_to": 284,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPDPTTSSIEAARGSYSVSQTSVSSLSVTGFGGGTVYYPTSTGDGTFGAVAIAPGYTATESSMAWMGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRTRIDSSRLAVAGHSMGGGGTLEAAKSRPSLQAAIPLTPWNIDKSWPEVRTPTLIFGADGDTIASVSSHAEPFYGSLPSSTDKAYLELNSATHFTPNSSNTTIAKYSISWLKRFVDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGP PTTSSIEA+RG ++++  +VS  SV+GFGGGT+YYP  T +GTFGAVAIAPG+TA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVR+RIDSSRLAV GHSMGGGG+LEA+ SRPSL+AAIPLTPWN+ K+W +VR PTLI GA+ D+IASV +HAEPFY S+PS+T+KAYLELN+ATHF PN SNTTIAKYSISWLKRFVDNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_047464821.1|",
+                  "accession": "WP_047464821",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Streptomyces]",
+                  "taxid": 1883,
+                  "sciname": "Streptomyces"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.172,
+                  "score": 1097,
+                  "evalue": 2.4164e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 49,
+                  "hit_to": 305,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLLVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSTLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPEPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY ++PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_257202783.1|",
+                  "accession": "WP_257202783",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. BSP1]",
+                  "taxid": 2944804,
+                  "sciname": "Streptomyces sp. BSP1"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.172,
+                  "score": 1097,
+                  "evalue": 2.66675e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 49,
+                  "hit_to": 305,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLLVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSTLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPEPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY ++PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_030698493.1|",
+                  "accession": "WP_030698493",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Streptomyces]",
+                  "taxid": 1883,
+                  "sciname": "Streptomyces"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.172,
+                  "score": 1097,
+                  "evalue": 2.66675e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 49,
+                  "hit_to": 305,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLLVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSTLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPEPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY ++PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_175459052.1|",
+                  "accession": "WP_175459052",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase, partial [Streptomyces sp. CAI-78]",
+                  "taxid": 1169746,
+                  "sciname": "Streptomyces sp. CAI-78"
+                }
+              ],
+              "len": 261,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 424.861,
+                  "score": 1091,
+                  "evalue": 3.2068e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 2,
+                  "hit_to": 258,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLLVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSTLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPEPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY ++PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_217466293.1|",
+                  "accession": "WP_217466293",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. BV333]",
+                  "taxid": 2849673,
+                  "sciname": "Streptomyces sp. BV333"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.787,
+                  "score": 1096,
+                  "evalue": 3.43078e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 49,
+                  "hit_to": 305,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLLVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSTLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPEPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY ++PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_151169323.1|",
+                  "accession": "WP_151169323",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. DT197]",
+                  "taxid": 3393417,
+                  "sciname": "Streptomyces sp. DT197"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.787,
+                  "score": 1096,
+                  "evalue": 3.58443e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 49,
+                  "hit_to": 305,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLLVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSTLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPEPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY ++PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_242548318.1|",
+                  "accession": "WP_242548318",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Streptomyces]",
+                  "taxid": 1883,
+                  "sciname": "Streptomyces"
+                }
+              ],
+              "len": 287,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.017,
+                  "score": 1094,
+                  "evalue": 3.65479e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 28,
+                  "hit_to": 284,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTQASIEAPRGPYAVSQTSVSSLVASGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDHLTERSTVRSRVDSTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAEPFYSSLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPAPDRDIEEYRGKCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS    SGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALD+LT+RS+VRSR+DS+RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THAEPFY S+PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR  CP"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_089330545.1|",
+                  "accession": "WP_089330545",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Actinomadura meyerae]",
+                  "taxid": 240840,
+                  "sciname": "Actinomadura meyerae"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.402,
+                  "score": 1095,
+                  "evalue": 4.04581e-148,
+                  "identity": 199,
+                  "positive": 230,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 42,
+                  "hit_to": 299,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTVSSIEALRGPFATSQTSVSSLSVTGFGGGTIYYPTSTAEGTFGAVAVAPGFTADQSSMAWLGPRLASQGFVIFTIDTNTRLDQPDSRSRQLLAALDYLTQRSSVRTRIDATRLGVMGHSMGGGGTLEAAEDRPSLQAAIPLTPWDLQKNFSNVRVPTMIIGAEADTIAPVATHSEPFYNSIPAASEKAYLELNGASHFAPNISNTTIAKYSISWLKRYIDNDTRYDQFLCPPPGRDLNISEYRDTCPN",
+                  "midline": "NPYERGPAPT SSIEA RGPFA +  +VS  SV+GFGGGTIYYP  T+EGTFGAVA+APGFTAD+ SMAW GPR+ASQGFV+FTIDT TRLDQPDSR RQLLAALDYLTQRSSVR+RID++RL VMGHSMGGGG+LEA+  RPSL+AAIPLTPW+L+KN+ +VRVPT+I+GAE+D+IA V TH+EPFY SIP+ + KAYLELN A+HFAPNISNTTIAKYSISWLKR++DNDTRY+QFLCPPP  D +I EYR TCP+"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_392132654.1|",
+                  "accession": "WP_392132654",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces flaveolus]",
+                  "taxid": 67297,
+                  "sciname": "Streptomyces flaveolus"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.402,
+                  "score": 1095,
+                  "evalue": 4.13543e-148,
+                  "identity": 201,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 41,
+                  "hit_to": 298,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTTSSIEALRGPYAVSDTSVSSLTVTGFGGGTIYYPTSTSDGTFGAVVIAPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVASHSEPFYSSLPSTTDRAYLELNGATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPTTSSIEA RGP+A++  +VS  +V+GFGGGTIYYP  TS+GTFGAV IAPGFTA E S+AW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V +H+EPFY S+PSTT++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_352150164.1|",
+                  "accession": "WP_352150164",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces violaceorubidus]",
+                  "taxid": 284042,
+                  "sciname": "Streptomyces violaceorubidus"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.402,
+                  "score": 1095,
+                  "evalue": 4.48569e-148,
+                  "identity": 202,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 51,
+                  "hit_to": 308,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEALRGPYSVADTSVSSLAVTGFGGGTIYYPTSTSDGTFGAVAIAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSIQAAIPLTPWNLDKSWPEVSTPTLIVGADGDTIAPVATHAEPFYSSLPSATDRAYLELNAATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT SSIEA RGP+++A  +VS  +V+GFGGGTIYYP  TS+GTFGAVAIAPGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPS++AAIPLTPWNL K+W +V  PTLIVGA+ D+IA V THAEPFY S+PS T++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_239769265.1|",
+                  "accession": "WP_239769265",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Streptomyces]",
+                  "taxid": 1883,
+                  "sciname": "Streptomyces"
+                }
+              ],
+              "len": 303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.017,
+                  "score": 1094,
+                  "evalue": 5.54258e-148,
+                  "identity": 201,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 44,
+                  "hit_to": 301,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTTSSIEALRGPYAVSDTSVSSLTVTGFGGGTIYYPTSTSDGTFGAVVIAPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVASHSEPFYSSLPSTTDRAYLELNGATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPTTSSIEA RGP+A++  +VS  +V+GFGGGTIYYP  TS+GTFGAV IAPGFTA E S+AW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V +H+EPFY S+PSTT++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_197924694.1|",
+                  "accession": "WP_197924694",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.402,
+                  "score": 1095,
+                  "evalue": 5.64575e-148,
+                  "identity": 204,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 51,
+                  "hit_to": 308,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPSESSIEALRGPYSVADTRVSSLSVTGFGGGTIYYPTSTSDGTFGAVAIAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWPEVSTPTLIVGADGDTIAPVATHAEPFYSSLPSATDRAYLELNSATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAP+ SSIEA RGP+++A   VS  SV+GFGGGTIYYP  TS+GTFGAVAIAPGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVRSRIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K+W +V  PTLIVGA+ D+IA V THAEPFY S+PS T++AYLELN+ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_381696467.1|",
+                  "accession": "WP_381696467",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces flaveolus]",
+                  "taxid": 67297,
+                  "sciname": "Streptomyces flaveolus"
+                }
+              ],
+              "len": 303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.017,
+                  "score": 1094,
+                  "evalue": 5.66535e-148,
+                  "identity": 201,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 44,
+                  "hit_to": 301,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTTSSIEALRGPYAVSDTSVSSLTVTGFGGGTIYYPTSTSDGTFGAVVIAPGFTAYESSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKTWPEVSTPTLIVGADGDTVAPVASHSEPFYSSLPSTTDRAYLELNGATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPTTSSIEA RGP+A++  +VS  +V+GFGGGTIYYP  TS+GTFGAV IAPGFTA E S+AW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K W +V  PTLIVGA+ D++A V +H+EPFY S+PSTT++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_018468374.1|",
+                  "accession": "WP_018468374",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                }
+              ],
+              "len": 304,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.017,
+                  "score": 1094,
+                  "evalue": 6.20071e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 45,
+                  "hit_to": 301,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLVVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGSRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSSLPSSTDRAYLELNNATHFAPNLSNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPVPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID SRL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY S+PS+T++AYLELNNATHFAPN+SNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_383187575.1|",
+                  "accession": "WP_383187575",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.017,
+                  "score": 1094,
+                  "evalue": 6.58137e-148,
+                  "identity": 204,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 51,
+                  "hit_to": 308,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEALRGPYSVADTRVSSLSVTGFGGGTIYYPTSTSDGTFGAVAIAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWPEVSTPTLIVGADGDTIAPVATHAEPFYSSLPSATDRAYLELNSATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT SSIEA RGP+++A   VS  SV+GFGGGTIYYP  TS+GTFGAVAIAPGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K+W +V  PTLIVGA+ D+IA V THAEPFY S+PS T++AYLELN+ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_453827687.1|",
+                  "accession": "WP_453827687",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces violaceorubidus]",
+                  "taxid": 284042,
+                  "sciname": "Streptomyces violaceorubidus"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.017,
+                  "score": 1094,
+                  "evalue": 6.87612e-148,
+                  "identity": 202,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 51,
+                  "hit_to": 308,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEALRGPYSVADTSVSSLAVTGFGGGTIYYPTSTSDGTFGAVAIAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSIQAAIPLTPWNLDKSWPEVSTPTLIVGADGDTIAPVATHAEPFYSSLPSATDRAYLELNAATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT SSIEA RGP+++A  +VS  +V+GFGGGTIYYP  TS+GTFGAVAIAPGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPS++AAIPLTPWNL K+W +V  PTLIVGA+ D+IA V THAEPFY S+PS T++AYLELN ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_479725823.1|",
+                  "accession": "WP_479725823",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces koyangensis]",
+                  "taxid": 188770,
+                  "sciname": "Streptomyces koyangensis"
+                }
+              ],
+              "len": 314,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.402,
+                  "score": 1095,
+                  "evalue": 7.1012e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 55,
+                  "hit_to": 311,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTQASIEAPRGPYAVSQTSVSSLVASGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDHLTERSTVRSRVDSTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAEPFYSSLPSTTDRAYLELNNATHFAPNISNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPAPDRDIEEYRGKCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS    SGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALD+LT+RS+VRSR+DS+RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THAEPFY S+PSTT++AYLELNNATHFAPNISNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR  CP"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_129819692.1|",
+                  "accession": "WP_129819692",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces albidoflavus]",
+                  "taxid": 1886,
+                  "sciname": "Streptomyces albidoflavus"
+                }
+              ],
+              "len": 304,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.631,
+                  "score": 1093,
+                  "evalue": 7.71942e-148,
+                  "identity": 197,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 45,
+                  "hit_to": 301,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLVVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGSRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSSLPSSTDRAYLELNNATHFAPNLSNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPVPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID SRL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY S+PS+T++AYLELNNATHFAPN+SNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_432176589.1|",
+                  "accession": "WP_432176589",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. Tue6028]",
+                  "taxid": 2036037,
+                  "sciname": "Streptomyces sp. Tue6028"
+                }
+              ],
+              "len": 292,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.246,
+                  "score": 1092,
+                  "evalue": 7.89301e-148,
+                  "identity": 200,
+                  "positive": 227,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 33,
+                  "hit_to": 290,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEAARGPYAVSQTTVSSLSVSGFGGGTVYYPTSTSDGTFGAVAISPGYTAYQSSIAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQLLAALDYLTQSSSVRTRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTGWNLDKTWPEIKTPTLIVGADGDTIAPVATHSEPFYESLPSSLDKAYLELNGATHFTPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIDEYRGTCPH",
+                  "midline": "NPYERGPAPT SSIEA+RGP+A++  TVS  SVSGFGGGT+YYP  TS+GTFGAVAI+PG+TA + S+AW GPR+ASQGFVVFTIDT+T LDQPDSRGRQLLAALDYLTQ SSVR+RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLT WNL K W +++ PTLIVGA+ D+IA V TH+EPFYES+PS+ +KAYLELN ATHF PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   I+EYR TCPH"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_164416421.1|",
+                  "accession": "WP_164416421",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces salinarius]",
+                  "taxid": 2762598,
+                  "sciname": "Streptomyces salinarius"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.631,
+                  "score": 1093,
+                  "evalue": 9.14153e-148,
+                  "identity": 204,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 51,
+                  "hit_to": 308,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEALRGPYSVADTRVSSLSVTGFGGGTIYYPTSTSDGTFGAVAIAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWPEVSTPTLIVGADGDTIAPVATHAEPFYSSLPSATDRAYLELNSATHFSPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT SSIEA RGP+++A   VS  SV+GFGGGTIYYP  TS+GTFGAVAIAPGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K+W +V  PTLIVGA+ D+IA V THAEPFY S+PS T++AYLELN+ATHF+PN SNTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_279551537.1|",
+                  "accession": "WP_279551537",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. DH24]",
+                  "taxid": 3040123,
+                  "sciname": "Streptomyces sp. DH24"
+                }
+              ],
+              "len": 307,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.631,
+                  "score": 1093,
+                  "evalue": 1.02317e-147,
+                  "identity": 198,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 48,
+                  "hit_to": 305,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTVSSIEALRGPYAVSDTTVSSLAVSGFGGGTIYYPTSTADGTFGAVVVSPGFTADQSSMAWLGPRLASQGFVVFTIDTLSRYDQPDSRGRQLLAALDYLTERSSVRGRIDSTRLGVMGHSMGGGGTLEAVKSRPSLQAAIPLTPWNTDKTWPEVRTPTLIIGADGDSVAPVSSHAEPFYNTLPSTLDRAYLELNNATHFAPNSNNTTIAKYSISWLKRFIDNDTRYEQFLCPIPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT SSIEA RGP+A++  TVS  +VSGFGGGTIYYP  T++GTFGAV ++PGFTAD+ SMAW GPR+ASQGFVVFTIDT++R DQPDSRGRQLLAALDYLT+RSSVR RIDS+RL VMGHSMGGGG+LEA  SRPSL+AAIPLTPWN  K W +VR PTLI+GA+ DS+A V +HAEPFY ++PST ++AYLELNNATHFAPN +NTTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_392912649.1|",
+                  "accession": "WP_392912649",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [unclassified Spirillospora]",
+                  "taxid": 2642701,
+                  "sciname": "unclassified Spirillospora"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 424.476,
+                  "score": 1090,
+                  "evalue": 1.02869e-147,
+                  "identity": 203,
+                  "positive": 234,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 23,
+                  "hit_to": 280,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPDPTESSVESPRGPFSVSDDSVSSWSVTGFGGGTIYYPTTTSEGTFGAVAIAPGFTADQSSMSWYGPRLASQGFVVFTIDTNTRFDQPDSRGRQLLAALDYLTERSSVRNRIDSSRLAVMGHSMGGGGTLEASLDRPSLQAAIPLTPWDLNKNFRNDQVPTLIIGAENDSVASVTTHSEPFYESIPASSEKAYLELNNASHFAPNTSNTTIAKFSISWLKRYVDNDTRYDQFLCPPPSRSSDISEYRDTCPN",
+                  "midline": "NPYERGP PT SS+E+ RGPF+++  +VS  SV+GFGGGTIYYP  TSEGTFGAVAIAPGFTAD+ SM+WYGPR+ASQGFVVFTIDT TR DQPDSRGRQLLAALDYLT+RSSVR+RIDSSRLAVMGHSMGGGG+LEAS+ RPSL+AAIPLTPW+L KN+R+ +VPTLI+GAE+DS+ASV TH+EPFYESIP+++ KAYLELNNA+HFAPN SNTTIAK+SISWLKR+VDNDTRY+QFLCPPP    DI EYR TCP+"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_147989955.1|",
+                  "accession": "WP_147989955",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. T39]",
+                  "taxid": 1828156,
+                  "sciname": "Streptomyces sp. T39"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 424.476,
+                  "score": 1090,
+                  "evalue": 1.11114e-147,
+                  "identity": 198,
+                  "positive": 228,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 26,
+                  "hit_to": 283,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPSTSSIEALRGPYSVSQTSVSSLSVTGFGGGTIYYPTTTSDGTFGAVVVSPGFTAYESSIAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTDRSLVRSRVDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWPEVRTPTLVIGADGDSVAPVSSHSEPFYQSLPSSLDKAYLELNNATHFAPNTSDTTIAKYSISWLKRFIDNDTRYEQFLCPIPRPSLTIEEYRGTCPH",
+                  "midline": "NPYERGPAP+TSSIEA RGP++++  +VS  SV+GFGGGTIYYP  TS+GTFGAV ++PGFTA E S+AW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT RS VRSR+DSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K+W +VR PTL++GA+ DS+A V +H+EPFY+S+PS+ +KAYLELNNATHFAPN S+TTIAKYSISWLKRF+DNDTRYEQFLCP PRP   IEEYR TCPH"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_087775029.1|",
+                  "accession": "WP_087775029",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. CS227]",
+                  "taxid": 1982763,
+                  "sciname": "Streptomyces sp. CS227"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.631,
+                  "score": 1093,
+                  "evalue": 1.1198e-147,
+                  "identity": 196,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 49,
+                  "hit_to": 305,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEALRGPYAVSRTSVSSLLVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSTLPSTTDRAYLELNNATHFAPNLSNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPEPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY ++PSTT++AYLELNNATHFAPN+SNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_411094069.1|",
+                  "accession": "WP_411094069",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. 021-3]",
+                  "taxid": 2789259,
+                  "sciname": "Streptomyces sp. 021-3"
+                }
+              ],
+              "len": 304,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.246,
+                  "score": 1092,
+                  "evalue": 1.29173e-147,
+                  "identity": 196,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 45,
+                  "hit_to": 301,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLVVSGFGGGTIYYPTSTGDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVASVATHAKPFYSSLPSSTDRAYLELNNATHFAPNLSNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPVPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  T +GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++ASV THA+PFY S+PS+T++AYLELNNATHFAPN+SNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_129817664.1|",
+                  "accession": "WP_129817664",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces albidoflavus]",
+                  "taxid": 1886,
+                  "sciname": "Streptomyces albidoflavus"
+                }
+              ],
+              "len": 304,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 424.861,
+                  "score": 1091,
+                  "evalue": 1.48941e-147,
+                  "identity": 196,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 45,
+                  "hit_to": 301,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLVVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSSLPSSTDRAYLELNNATHFAPNLSNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPVPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY S+PS+T++AYLELNNATHFAPN+SNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_018894316.1|",
+                  "accession": "WP_018894316",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Streptomyces]",
+                  "taxid": 1883,
+                  "sciname": "Streptomyces"
+                }
+              ],
+              "len": 304,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 424.861,
+                  "score": 1091,
+                  "evalue": 1.69863e-147,
+                  "identity": 196,
+                  "positive": 226,
+                  "query_from": 3,
+                  "query_to": 259,
+                  "hit_from": 45,
+                  "hit_to": 301,
+                  "align_len": 257,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCP",
+                  "hseq": "NPYERGPAPTRASIEAPRGPYAVSQTSVSSLVVSGFGGGTIYYPTSTSDGTFGAVVVTPGFTATESSMAWLGPRLASQGFVVFTIDTLTTLDQPDSRGRQMLAALDYLTERSSARTRIDGTRLGVIGHSMGGGGTLEAAKSRPSLKAAIPLTPWNLDKTWPEVTTPTLVVGADGDTVAPVATHAKPFYSSLPSSTDRAYLELNNATHFAPNLSNTTIAKYSVSWLKRFIDDDTRYEQFLCPLPVPDRDIEEYRGTCP",
+                  "midline": "NPYERGPAPT +SIEA RGP+A++  +VS   VSGFGGGTIYYP  TS+GTFGAV + PGFTA E SMAW GPR+ASQGFVVFTIDT+T LDQPDSRGRQ+LAALDYLT+RSS R+RID +RL V+GHSMGGGG+LEA+ SRPSLKAAIPLTPWNL K W +V  PTL+VGA+ D++A V THA+PFY S+PS+T++AYLELNNATHFAPN+SNTTIAKYS+SWLKRF+D+DTRYEQFLCP P PDRDIEEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_226029151.1|",
+                  "accession": "WP_226029151",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces hyderabadensis]",
+                  "taxid": 598549,
+                  "sciname": "Streptomyces hyderabadensis"
+                }
+              ],
+              "len": 309,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.246,
+                  "score": 1092,
+                  "evalue": 1.70227e-147,
+                  "identity": 202,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 50,
+                  "hit_to": 307,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEALRGPYAVADTSVSSLAVTGFGGGTIYYPTSTSDGTFGAVAIAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWPEVSTPTLIVGADGDTIAPVASHAEPFYSSLPSATDRAYLELNAATHFSPNTSNTTIAKYSVSWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT SSIEA RGP+A+A  +VS  +V+GFGGGTIYYP  TS+GTFGAVAIAPGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K+W +V  PTLIVGA+ D+IA V +HAEPFY S+PS T++AYLELN ATHF+PN SNTTIAKYS+SWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_388808981.1|",
+                  "accession": "WP_388808981",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC003781]",
+                  "taxid": 3364686,
+                  "sciname": "Streptomyces sp. NPDC003781"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.246,
+                  "score": 1092,
+                  "evalue": 1.70668e-147,
+                  "identity": 202,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 51,
+                  "hit_to": 308,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEALRGPYAVADTSVSSLAVTGFGGGTIYYPTSTSDGTFGAVAIAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWPEVSTPTLIVGADGDTIAPVASHAEPFYSSLPSATDRAYLELNAATHFSPNTSNTTIAKYSVSWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT SSIEA RGP+A+A  +VS  +V+GFGGGTIYYP  TS+GTFGAVAIAPGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K+W +V  PTLIVGA+ D+IA V +HAEPFY S+PS T++AYLELN ATHF+PN SNTTIAKYS+SWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_383252794.1|",
+                  "accession": "WP_383252794",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC057340]",
+                  "taxid": 3346103,
+                  "sciname": "Streptomyces sp. NPDC057340"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 424.861,
+                  "score": 1091,
+                  "evalue": 1.80275e-147,
+                  "identity": 202,
+                  "positive": 225,
+                  "query_from": 3,
+                  "query_to": 260,
+                  "hit_from": 51,
+                  "hit_to": 308,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "NPYERGPAPTTSSIEASRGPFAIASVTVSRSSVSGFGGGTIYYPRDTSEGTFGAVAIAPGFTADEGSMAWYGPRIASQGFVVFTIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVMGHSMGGGGSLEASVSRPSLKAAIPLTPWNLKKNWRDVRVPTLIVGAESDSIASVRTHAEPFYESIPSTTNKAYLELNNATHFAPNISNTTIAKYSISWLKRFVDNDTRYEQFLCPPPRPDRDIEEYRSTCPH",
+                  "hseq": "NPYERGPAPTESSIEALRGPYAVADTSVSSLAVTGFGGGTIYYPTSTSDGTFGAVAIAPGFTAYQSSMAWLGPRLASQGFVVFTIDTNTTLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLGVMGHSMGGGGTLEAAKSRPSLQAAIPLTPWNLDKSWPEVSTPTLIVGADGDTIAPVASHAEPFYSSLPSATDRAYLELNAATHFSPNTSNTTIAKYSVSWLKRFIDNDTRYEQFLCPLPRPSLTIEEYRGNCPH",
+                  "midline": "NPYERGPAPT SSIEA RGP+A+A  +VS  +V+GFGGGTIYYP  TS+GTFGAVAIAPGFTA + SMAW GPR+ASQGFVVFTIDT T LDQPDSRGRQLLAALDYLT+RSSVR RIDSSRL VMGHSMGGGG+LEA+ SRPSL+AAIPLTPWNL K+W +V  PTLIVGA+ D+IA V +HAEPFY S+PS T++AYLELN ATHF+PN SNTTIAKYS+SWLKRF+DNDTRYEQFLCP PRP   IEEYR  CPH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 458877498,
+            "db_len": 1448622149,
+            "hsp_len": 160,
+            "eff_space": 10412188160500,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}
+

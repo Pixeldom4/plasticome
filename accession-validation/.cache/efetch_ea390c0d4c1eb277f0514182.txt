@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+220710979	INSDC	QGSZ01000007.1	30	1016	+	RQX11462.1	lipase	Micromonospora inaquosa	LB39	GCA_003857055.1

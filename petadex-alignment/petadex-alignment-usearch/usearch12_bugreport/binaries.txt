@@ -1,0 +1,22 @@
+# usearch binaries used in this report
+
+## Provenance
+usearch v11.0.667 (i86linux64):
+  source: https://github.com/rcedgar/usearch_old_binaries/raw/main/bin/usearch11.0.667_i86linux64
+usearch v12.0-beta1 (linux x86):
+  source: https://github.com/rcedgar/usearch12/releases/download/v12.0-beta1/usearch_linux_x86_12.0-beta
+  release page: https://github.com/rcedgar/usearch12/releases/tag/v12.0-beta1
+
+## SHA256
+a2b981fbef45e2ec981dc8ade3118f58356bc3dcc286d658a7fe298b36590ea8  bin/usearch11
+4193abead8c7e1609dd28148bb36ad9667c67647c6f784f2bdd72af9de27f3dc  bin/usearch12
+
+## Version banners (bare invocation)
+--- usearch11 ---
+usearch v11.0.667_i86linux64, 791Gb RAM, 480 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+--- usearch12 ---
+usearch v12.0 [b1d935b], 791Gb RAM, 480 cores
+(C) Copyright 2013-24 Robert C. Edgar.
+https://drive5.com/usearch

@@ -1,0 +1,15 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+1084352	INSDC	X03341.1	335	1474	+	CAB56500.1	subC	Bacillus licheniformis	NCIB 6816	
+1084352	PAT	N/A				AAE10868.1	Sequence 1 from patent US 5817490	Unknown		
+1084352	PAT	N/A				AAE61294.1	Sequence 1 from patent US 6136575	Unknown		
+1084352	PAT	N/A				AAE78186.1	Sequence 1 from patent US 6271006	Unknown		
+1084352	PAT	N/A				ABI07228.1	Sequence 10 from patent US 7081359	Unknown		
+1084352	PAT	N/A				AEW41341.1	Sequence 1 from patent US 8076107	Unknown		
+1084352	PAT	N/A				AFO13054.1	Sequence 289 from patent US 8211428	Unknown		
+1084352	PAT	N/A				AJN92004.1	Sequence 289 from patent US 8663633	Unknown		
+1084352	PAT	N/A				APM95285.1	Sequence 289 from patent US 9290757	Unknown		
+1084352	PAT	N/A				AYI42530.1	Sequence 10 from patent US 10047352	Unknown		
+1084352	PAT	N/A				QHY57175.1	Sequence 28556 from patent US 10463711	Unknown		
+1084352	PAT	N/A				QRL76585.1	Sequence 10 from patent US 10851362	Unknown		
+1084352	PAT	N/A				UGR81900.1	Sequence 35 from patent US 11124785	Unknown		
+1084352	PAT	N/A				WIS12562.1	Sequence 28556 from patent US 11357824	Unknown		

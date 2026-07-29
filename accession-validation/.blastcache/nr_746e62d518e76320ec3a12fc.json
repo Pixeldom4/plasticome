@@ -1,0 +1,1844 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1552685",
+          "query_title": "unnamed protein product",
+          "query_len": 295,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "gb|RZL02950.1|",
+                  "accession": "RZL02950",
+                  "title": "MAG: alpha/beta hydrolase [Rubrivivax sp.]",
+                  "taxid": 50259,
+                  "sciname": "Rubrivivax sp."
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 602.053,
+                  "score": 1551,
+                  "evalue": 0,
+                  "identity": 295,
+                  "positive": 295,
+                  "query_from": 1,
+                  "query_to": 295,
+                  "hit_from": 1,
+                  "hit_to": 295,
+                  "align_len": 295,
+                  "gaps": 0,
+                  "qseq": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "midline": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_431587487.1|",
+                  "accession": "WP_431587487",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MGH6646675.1|",
+                  "accession": "MGH6646675",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 543.888,
+                  "score": 1400,
+                  "evalue": 0,
+                  "identity": 261,
+                  "positive": 273,
+                  "query_from": 15,
+                  "query_to": 295,
+                  "hit_from": 15,
+                  "hit_to": 295,
+                  "align_len": 281,
+                  "gaps": 0,
+                  "qseq": "FKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "FKRRLLGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPFAVGSSAVGTPSGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYRWLAERVASHGFVVVTVNFNSTFDQPDSRGTQMAKALQQVVALSKTSTAPYSGVIDTTRQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTSKDWSMVQVPTLIISDEKDFIATNSAHSNPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVRSKTAEMSVFDTRGQY",
+                  "midline": "FK RL+GAAVLSLAFGMAQAQVHGPDPTVASLEAAAGP+AV ++ VGTP+GYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYY+WLAERVASHGFVVVTVNFNS FDQPD+RGTQMAKALQQVVALSKTSTAPYSGVIDT RQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHT+K WS +QVPTL+ISDEKDFIATNSAHS+PFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV+SKTAEMSVFDTRG Y"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_300550350.1|",
+                  "accession": "WP_300550350",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MDI1261385.1|",
+                  "accession": "MDI1261385",
+                  "title": "dienelactone hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 526.554,
+                  "score": 1355,
+                  "evalue": 0,
+                  "identity": 255,
+                  "positive": 269,
+                  "query_from": 1,
+                  "query_to": 295,
+                  "hit_from": 1,
+                  "hit_to": 293,
+                  "align_len": 295,
+                  "gaps": 2,
+                  "qseq": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "MLTPASIKSRALF--KTRLLGAAVLSLVVGLAQAQVHGPDPTVQSLEAAAGPYKVSSAVVSAPSGYGAGTVFYPTVRTEGQFGLVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSTFDQPDSRGTQMAKALQQVVALSKTATSPYSGVTDTNRQAAMGHSMGGGGTLVVARDNPSLKAAVALAPWHTTKTWSTVQVPTLIISDEKDFIATNSAHSNPFYASFNAALPSAKIELAGADHLCGIQISAEKCKTSLAKYSVAWLKRFVDGDTRYTPFVKSKAADMSAFDTRGQY",
+                  "midline": "M TP S    A F  K RL+GAAVLSL  G+AQAQVHGPDPTV SLEAAAGPY VS+A V  P+GYGAGTVFYPTVRTEGQFG+VVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNS FDQPD+RGTQMAKALQQVVALSKT+T+PYSGV DT RQAAMGHSMGGGGTL  ARDNPSLKAAVALAPWHTTKTWST+QVPTL+ISDEKDFIATNSAHS+PFYASFNA+LPSAKIELAGADHLCGIQISAEKCKT+LAKYSVAWLKRFVDGD RYTPFVKSK A+MS FDTRG Y"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_290659641.1|",
+                  "accession": "WP_290659641",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MBC7699709.1|",
+                  "accession": "MBC7699709",
+                  "title": "alpha/beta hydrolase [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 521.546,
+                  "score": 1342,
+                  "evalue": 0,
+                  "identity": 251,
+                  "positive": 268,
+                  "query_from": 1,
+                  "query_to": 295,
+                  "hit_from": 1,
+                  "hit_to": 293,
+                  "align_len": 295,
+                  "gaps": 2,
+                  "qseq": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "MLNPTSTARRVAF--KVRLLGATMLLLMAGMVQAQVHGPNPTVASLEAAAGPYAVSNAAVAAPSGYGAGTVFYPNVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSTFDQPDARGTQMSKALQQVVSLSQTMTTPYHGVVDTSRQAVMGHSMGGGGTLASARDNPSLKAAVALAPWHTTKDWSTIQVPTLIISDEKDFIATNSEHSNPFYASFNAALPSAKIELLGADHLCGIQISAEKCRTALAKYSVAWLKRFVDGDTRYTPFLKSKTADMSAFDTRGQY",
+                  "midline": "M  PTSTA   AF  K+RL+GA +L L  GM QAQVHGP+PTVASLEAAAGPYAVSNA V  P+GYGAGTVFYP VRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNS FDQPDARGTQM+KALQQVV+LS+T T PY GV+DT+RQA MGHSMGGGGTLA+ARDNPSLKAAVALAPWHTTK WSTIQVPTL+ISDEKDFIATNS HS+PFYASFNA+LPSAKIEL GADHLCGIQISAEKC+TALAKYSVAWLKRFVDGD RYTPF+KSKTA+MS FDTRG Y"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|MBA4110924.1|",
+                  "accession": "MBA4110924",
+                  "title": "alpha/beta hydrolase [Leptothrix sp. (in: b-proteobacteria)]",
+                  "taxid": 34030,
+                  "sciname": "Leptothrix sp. (in: b-proteobacteria)"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 516.153,
+                  "score": 1328,
+                  "evalue": 0,
+                  "identity": 247,
+                  "positive": 262,
+                  "query_from": 15,
+                  "query_to": 295,
+                  "hit_from": 16,
+                  "hit_to": 296,
+                  "align_len": 281,
+                  "gaps": 0,
+                  "qseq": "FKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "FNARWLGAAVLSLVAGLSQAQVHGPNPTVASLEAAAGPYAVANSAVSAPSGYGAGTVFYPTVRTEGQFGLVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGALATARGNPALKATVALAPWHGTKDWSMLQVPTLIISDEKDFIATNTEHSNPFYASFNAALPSAKIELAGADHLCGIQISAEKCKTALAKYSIAWLKRFVDGDGRYTPFVKSKTAEMSAFDTRGQY",
+                  "midline": "F  R +GAAVLSL  G++QAQVHGP+PTVASLEAAAGPYAV+N+ V  P+GYGAGTVFYPTVRTEGQFG+VVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGG LA AR NP+LKA VALAPWH TK WS +QVPTL+ISDEKDFIATN+ HS+PFYASFNA+LPSAKIELAGADHLCGIQISAEKCKTALAKYS+AWLKRFVDGD RYTPFVKSKTAEMS FDTRG Y"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_230182558.1|",
+                  "accession": "WP_230182558",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Aquabacterium sp. CECT 9606]",
+                  "taxid": 2845822,
+                  "sciname": "Aquabacterium sp. CECT 9606"
+                },
+                {
+                  "id": "emb|CAH0355785.1|",
+                  "accession": "CAH0355785",
+                  "title": "Poly(ethylene terephthalate) hydrolase [Aquabacterium sp. CECT 9606]",
+                  "taxid": 2845822,
+                  "sciname": "Aquabacterium sp. CECT 9606"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 494.582,
+                  "score": 1272,
+                  "evalue": 2.7996e-174,
+                  "identity": 246,
+                  "positive": 263,
+                  "query_from": 15,
+                  "query_to": 295,
+                  "hit_from": 15,
+                  "hit_to": 295,
+                  "align_len": 281,
+                  "gaps": 0,
+                  "qseq": "FKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "FNARWLGAAVLSLVAGLSQAQVHGPNPTVASLEAAAGPYAVANSAVSAPSGYGAGTVFYPTVRTEGQFGLVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARATQMAKALQQVVALSKTSTSPYSGVIDTARQAAMGHSMGGGGALAAARGNPALKATVALAPWHGTKDWSMLQVPTLIVSDEKDFIATNSEHSNPFYASFNAALPSAKIELAGADHLCGIQISAEKCKTALAKYSIAWLKRFVDGDARYTPFVKNKTAEMSAFDTRGQY",
+                  "midline": "F  R +GAAVLSL  G++QAQVHGP+PTVASLEAAAGPYAV+N+ V  P+GYGAGTVFYPTVRTEGQFG+VVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDAR TQMAKALQQVVALSKTST+PYSGVIDTARQAAMGHSMGGGG LAAAR NP+LKA VALAPWH TK WS +QVPTL++SDEKDFIATNS HS+PFYASFNA+LPSAKIELAGADHLCGIQISAEKCKTALAKYS+AWLKRFVDGDARYTPFVK+KTAEMS FDTRG Y"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_125244104.1|",
+                  "accession": "WP_125244104",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium soli]",
+                  "taxid": 2493092,
+                  "sciname": "Aquabacterium soli"
+                },
+                {
+                  "id": "gb|RRS03573.1|",
+                  "accession": "RRS03573",
+                  "title": "alpha/beta hydrolase [Aquabacterium soli]",
+                  "taxid": 2493092,
+                  "sciname": "Aquabacterium soli"
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 486.108,
+                  "score": 1250,
+                  "evalue": 7.68471e-171,
+                  "identity": 234,
+                  "positive": 259,
+                  "query_from": 1,
+                  "query_to": 295,
+                  "hit_from": 1,
+                  "hit_to": 293,
+                  "align_len": 295,
+                  "gaps": 2,
+                  "qseq": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "MSIHASSPAHRAFT--VRLLSAAALSLMAGITQAQVHGPDPTVKSLEAEAGPYTVASAKVGSPSGYGAGTVYYPTVRTEGQFGVVVLAPGFLAIQNYYKWLAERVASHGFVVVTVNFNSVFDQPESRGTQMGKALQQVVSLSKTMTTPYYGVLDANRQAAMGHSMGGGGTLAAARNTPSLKAAVALAPWHTTKDWSALQVPTLVLADEKDSIATNDQHSIPFYQSFNAALPSAYIELAGADHLCGIQISATKCKTALAKYSIAWLKRFVDGDARYTPFVKTRAAEMSAFETRGAY",
+                  "midline": "MS   S+  H AF+  +RL+ AA LSL  G+ QAQVHGPDPTV SLEA AGPY V++A VG+P+GYGAGTV+YPTVRTEGQFGVVVLAPGFLA+Q YYKWLAERVASHGFVVVTVNFNSVFDQP++RGTQM KALQQVV+LSKT T PY GV+D  RQAAMGHSMGGGGTLAAAR+ PSLKAAVALAPWHTTK WS +QVPTLV++DEKD IATN  HS PFY SFNA+LPSA IELAGADHLCGIQISA KCKTALAKYS+AWLKRFVDGDARYTPFVK++ AEMS F+TRG+Y"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "tpg|HIV72530.1|",
+                  "accession": "HIV72530",
+                  "title": "dienelactone hydrolase family protein [Candidatus Aquabacterium excrementipullorum]",
+                  "taxid": 2838466,
+                  "sciname": "Candidatus Aquabacterium excrementipullorum"
+                }
+              ],
+              "len": 292,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 484.567,
+                  "score": 1246,
+                  "evalue": 2.44726e-170,
+                  "identity": 229,
+                  "positive": 252,
+                  "query_from": 14,
+                  "query_to": 295,
+                  "hit_from": 11,
+                  "hit_to": 292,
+                  "align_len": 282,
+                  "gaps": 0,
+                  "qseq": "SFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "AFKARSLSVAALACIAGLAQAQVHGPDPTVKSLEAAAGPYAVTNAKVGSPSGYGAATVYYPTVRTEGQFGVVVLAPGFLAIQNYYKWLAERVASHGFVVVTVNFNSVFDQPESRGTQMGKALQQVVSLSKTMTTPYYGVLDVNRQAAMGHSMGGGGTLAASRDNPSLKAAVALAPWHTTKNWSTVQVPTLVIADEKDNIAPNDTHSIPFYQSFNAALPSAYIELAGADHLCGIQISAEKCKTSLAKYSIAWLKRFVDGDTRYTPFVKNQAADMSAFETRGQY",
+                  "midline": "+FK R +  A L+   G+AQAQVHGPDPTV SLEAAAGPYAV+NA VG+P+GYGA TV+YPTVRTEGQFGVVVLAPGFLA+Q YYKWLAERVASHGFVVVTVNFNSVFDQP++RGTQM KALQQVV+LSKT T PY GV+D  RQAAMGHSMGGGGTLAA+RDNPSLKAAVALAPWHTTK WST+QVPTLVI+DEKD IA N  HS PFY SFNA+LPSA IELAGADHLCGIQISAEKCKT+LAKYS+AWLKRFVDGD RYTPFVK++ A+MS F+TRG Y"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gb|RZI82703.1|",
+                  "accession": "RZI82703",
+                  "title": "MAG: alpha/beta hydrolase [Rubrivivax sp.]",
+                  "taxid": 50259,
+                  "sciname": "Rubrivivax sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 457.603,
+                  "score": 1176,
+                  "evalue": 1.18617e-159,
+                  "identity": 233,
+                  "positive": 257,
+                  "query_from": 1,
+                  "query_to": 295,
+                  "hit_from": 1,
+                  "hit_to": 293,
+                  "align_len": 295,
+                  "gaps": 2,
+                  "qseq": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "MSIPAFTATRPASKF--RLVGAAVLSLISGVAQAQLHGPDPTVQTLEAAKGPYATTSATVGSPSGYGAATVYYPTVRTEGQFGVVVLAPGFLAIQNYYRWLAERVASHGFVVVTVNFNSVFDQPDSRGTQMGKAMQQVVNLSKTMTTPYYGVIDVNRQAMMGHSMGGGGTLAAAKANPALKAAVALAPWHTTKTWSTIQVPTLIISDEKDTIATNTEHSNVFYASFAATLPSAKIELAGADHVCGIQASAETCKTPLAKYSIAWLKRFVDTDTRYTPFVKARAADMSAFETRGQY",
+                  "midline": "MS P  TA   A  F  RLVGAAVLSL  G+AQAQ+HGPDPTV +LEAA GPYA ++ATVG+P+GYGA TV+YPTVRTEGQFGVVVLAPGFLA+Q YY+WLAERVASHGFVVVTVNFNSVFDQPD+RGTQM KA+QQVV LSKT T PY GVID  RQA MGHSMGGGGTLAAA+ NP+LKAAVALAPWHTTKTWSTIQVPTL+ISDEKD IATN+ HS+ FYASF A+LPSAKIELAGADH+CGIQ SAE CKT LAKYS+AWLKRFVD D RYTPFVK++ A+MS F+TRG Y"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|MHS0182270.1|",
+                  "accession": "MHS0182270",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 456.062,
+                  "score": 1172,
+                  "evalue": 1.27225e-159,
+                  "identity": 227,
+                  "positive": 238,
+                  "query_from": 45,
+                  "query_to": 295,
+                  "hit_from": 1,
+                  "hit_to": 251,
+                  "align_len": 251,
+                  "gaps": 0,
+                  "qseq": "SLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "SLEAAAGPYAVANSAVSAPSGYGAGTVFYPTVRTEGQFGLVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARATQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGALAAARGNPALKATVALAPWHGTKDWSMLQVPTLIVSDEKDFIATNSEHSNPFYASFNAALPSAKIELAGADHLCGIQISAEKCKTALAKYSIAWLKRFVDGDARYTPFVKSKTAEMSAFDTRGQY",
+                  "midline": "SLEAAAGPYAV+N+ V  P+GYGAGTVFYPTVRTEGQFG+VVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDAR TQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGG LAAAR NP+LKA VALAPWH TK WS +QVPTL++SDEKDFIATNS HS+PFYASFNA+LPSAKIELAGADHLCGIQISAEKCKTALAKYS+AWLKRFVDGDARYTPFVKSKTAEMS FDTRG Y"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gb|MHS5911895.1|",
+                  "accession": "MHS5911895",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 195,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 309.686,
+                  "score": 792,
+                  "evalue": 9.50614e-103,
+                  "identity": 166,
+                  "positive": 175,
+                  "query_from": 1,
+                  "query_to": 196,
+                  "hit_from": 1,
+                  "hit_to": 195,
+                  "align_len": 196,
+                  "gaps": 1,
+                  "qseq": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWS",
+                  "hseq": "MSIHASAAPRA-VSFKARWLGAAVLSLVAGLCQAQVHGPNPTVASLEAAAGPYAVANSAVSAPSGYGAGTVFYPTVRTEGQFGLVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARATQMAKALQQVVALSKTSTSPYSGVIDTARQAAMGHSMGGGGALAAARGNPALKATVALAPWHGTKDWS",
+                  "midline": "MS   S AP A  SFK R +GAAVLSL  G+ QAQVHGP+PTVASLEAAAGPYAV+N+ V  P+GYGAGTVFYPTVRTEGQFG+VVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDAR TQMAKALQQVVALSKTST+PYSGVIDTARQAAMGHSMGGGG LAAAR NP+LKA VALAPWH TK WS"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|MES2088974.1|",
+                  "accession": "MES2088974",
+                  "title": "alpha/beta hydrolase [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 293.508,
+                  "score": 750,
+                  "evalue": 8.98715e-95,
+                  "identity": 146,
+                  "positive": 180,
+                  "query_from": 26,
+                  "query_to": 280,
+                  "hit_from": 26,
+                  "hit_to": 281,
+                  "align_len": 256,
+                  "gaps": 1,
+                  "qseq": "SLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHT-TKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVK",
+                  "hseq": "SVAFAQANPFQRGPNPTDASLEAAAGSYAISNVRISSPQGFNGGLVYYPSGATQESYGLVVIMPGFLAVQGYYTWLATKTASNGFVVAVINANSIVDQPTSRATQMAAALKQVAAMSTQSGSPLFGKVDLSRQAVMGHSMGGGGTLEAASANPSLKAAVALAPWDADVKDFSAIQVPTQVVACEKDTIAPNDTHSDVFYASLSDAIPKGYFNVAQASHLCGIALESIKYRTMVGKASVAWLKRFVDRDTRYDAFLK",
+                  "midline": "S+AF  A     GP+PT ASLEAAAG YA+SN  + +P G+  G V+YP+  T+  +G+VV+ PGFLAVQGYY WLA + AS+GFVV  +N NS+ DQP +R TQMA AL+QV A+S  S +P  G +D +RQA MGHSMGGGGTL AA  NPSLKAAVALAPW    K +S IQVPT V++ EKD IA N  HSD FYAS + ++P     +A A HLCGI + + K +T + K SVAWLKRFVD D RY  F+K"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gb|MBA4110923.1|",
+                  "accession": "MBA4110923",
+                  "title": "alpha/beta hydrolase [Leptothrix sp. (in: b-proteobacteria)]",
+                  "taxid": 34030,
+                  "sciname": "Leptothrix sp. (in: b-proteobacteria)"
+                }
+              ],
+              "len": 287,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 292.738,
+                  "score": 748,
+                  "evalue": 1.24227e-94,
+                  "identity": 150,
+                  "positive": 201,
+                  "query_from": 22,
+                  "query_to": 295,
+                  "hit_from": 13,
+                  "hit_to": 287,
+                  "align_len": 275,
+                  "gaps": 1,
+                  "qseq": "AAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALA-PWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "AGLLVAALAHAEPTPHGPDPSTALLEAKQGPYALASAKVVSPSGYGAATVFYPTVKSDAPYGLIVLAPGFLLTQGYYAWLAERVASHGFVVVSLNTNSLFDSPDERAPQLASALAQVLALSQTATSPYSGLVNPGRLALMGHSAGGGGALTAALNHPGLKTVVGLTLAVGAQKEFSQLQVPTLVLAAEKDAIAPNATYSVPVFQSLNAALPSAYIEIAGADHLTPTILAGSRQRAVLGRYTIAWLKRFVDEDQRYTPFLEGGSAELSRYWSRGAW",
+                  "midline": "A +L  A   A+   HGPDP+ A LEA  GPYA+++A V +P+GYGA TVFYPTV+++  +G++VLAPGFL  QGYY WLAERVASHGFVVV++N NS+FD PD R  Q+A AL QV+ALS+T+T+PYSG+++  R A MGHS GGGG L AA ++P LK  V L       K +S +QVPTLV++ EKD IA N+ +S P + S NA+LPSA IE+AGADHL    ++  + +  L +Y++AWLKRFVD D RYTPF++  +AE+S + +RG++"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|MES2089998.1|",
+                  "accession": "MES2089998",
+                  "title": "alpha/beta hydrolase [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 290,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.345,
+                  "score": 734,
+                  "evalue": 1.79401e-92,
+                  "identity": 150,
+                  "positive": 194,
+                  "query_from": 32,
+                  "query_to": 293,
+                  "hit_from": 26,
+                  "hit_to": 288,
+                  "align_len": 263,
+                  "gaps": 1,
+                  "qseq": "AQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKS-KTAEMSVFDTRG",
+                  "hseq": "ANPDQRGPEPTVKSLEAVAGPYAIASAKVTSPTGYGAATVYYPTMKTDGRFGLVVLAPGFLAAQGYYAWLAERAASHGFVVVNINVNSIFDSPAKRVPQLMSALNQVLALSQTATTPYFDMVDPTRLALMGHSAGGGAALAASVGYPTLKAVVAMTPASDTKDFSAIRVPTLVLACEKDAIAPNATYSIPFYKSFDPSLSSAYIEVASADHLSPTFLGSKMNKASVGKYSIAWLKRFVDSDTRYTPFIKNMNSTDLSKYESRG",
+                  "midline": "A     GP+PTV SLEA AGPYA+++A V +P GYGA TV+YPT++T+G+FG+VVLAPGFLA QGYY WLAER ASHGFVVV +N NS+FD P  R  Q+  AL QV+ALS+T+T PY  ++D  R A MGHS GGG  LAA+   P+LKA VA+ P   TK +S I+VPTLV++ EKD IA N+ +S PFY SF+ SL SA IE+A ADHL    + ++  K ++ KYS+AWLKRFVD D RYTPF+K+  + ++S +++RG"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_329681000.1|",
+                  "accession": "WP_329681000",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "tpg|HEX5373756.1|",
+                  "accession": "HEX5373756",
+                  "title": "dienelactone hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "tpg|HIR3577939.1|",
+                  "accession": "HIR3577939",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 279,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.574,
+                  "score": 732,
+                  "evalue": 2.76423e-92,
+                  "identity": 140,
+                  "positive": 186,
+                  "query_from": 32,
+                  "query_to": 288,
+                  "hit_from": 20,
+                  "hit_to": 271,
+                  "align_len": 258,
+                  "gaps": 7,
+                  "qseq": "AQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTAL-AKYSVAWLKRFVDGDARYTPFVKSKTAEMSV",
+                  "hseq": "AHAQI-GPNPTEASLEATAGPFATANTKVATPSGYGSGTVYYPT--TAGQYGLVVVAPGFTETQSAISWWGPRLASHGFVVVTMGTKTTLDQPESRGKQLAAALKQVVSLG--ASGPFAGKIDSSKQAVMGHSMGGGGTLAAARDNPTLKAAIPLAPWHTIKTWSGVKVPTMIIACENDFIAPVDTHAETFYNAIPATTPKAMLELAGEDHFC-VNSNTEAINKAVDGKMATAWLKVFMDNDARYKPFIQDSTPATNI",
+                  "midline": "A AQ+ GP+PT ASLEA AGP+A +N  V TP+GYG+GTV+YPT  T GQ+G+VV+APGF   Q    W   R+ASHGFVVVT+   +  DQP++RG Q+A AL+QVV+L   ++ P++G ID+++QA MGHSMGGGGTLAAARDNP+LKAA+ LAPWHT KTWS ++VPT++I+ E DFIA    H++ FY +  A+ P A +ELAG DH C +  + E    A+  K + AWLK F+D DARY PF++  T   ++"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_300550349.1|",
+                  "accession": "WP_300550349",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MDI1261384.1|",
+                  "accession": "MDI1261384",
+                  "title": "hypothetical protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 287,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.034,
+                  "score": 728,
+                  "evalue": 1.43773e-91,
+                  "identity": 143,
+                  "positive": 187,
+                  "query_from": 37,
+                  "query_to": 295,
+                  "hit_from": 28,
+                  "hit_to": 287,
+                  "align_len": 260,
+                  "gaps": 1,
+                  "qseq": "HGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALA-PWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGSY",
+                  "hseq": "HGPDPTASLLEAKQGPFAVANTKVASPSGYGAATVTYPTAKSDGPYGLVVLAPGFLLAQGYYSWLAERVASHGFVVVNLSTNSIFDSPDVRAPQLASALKQVLALSQTATSPYSGLVNPDRLALMGHSAGGGAALTAALSNPGLKAVVGLTLAVGTQKEFSQLQVPALVLAAEKDVIAPNATYSMPVFQSLSAALPSAYIEIAGADHLTPTILEGSRMRAVLGRYTIAWLKRFVDEDRRYTPFTQGSRPELSKYLSHGAW",
+                  "midline": "HGPDPT + LEA  GP+AV+N  V +P+GYGA TV YPT +++G +G+VVLAPGFL  QGYY WLAERVASHGFVVV ++ NS+FD PD R  Q+A AL+QV+ALS+T+T+PYSG+++  R A MGHS GGG  L AA  NP LKA V L     T K +S +QVP LV++ EKD IA N+ +S P + S +A+LPSA IE+AGADHL    +   + +  L +Y++AWLKRFVD D RYTPF +    E+S + + G++"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_329692983.1|",
+                  "accession": "WP_329692983",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "tpg|HEX5355647.1|",
+                  "accession": "HEX5355647",
+                  "title": "alpha/beta hydrolase [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "tpg|HIR3477121.1|",
+                  "accession": "HIR3477121",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.026,
+                  "score": 715,
+                  "evalue": 1.29586e-89,
+                  "identity": 135,
+                  "positive": 188,
+                  "query_from": 8,
+                  "query_to": 279,
+                  "hit_from": 7,
+                  "hit_to": 276,
+                  "align_len": 272,
+                  "gaps": 2,
+                  "qseq": "APHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "APHARQLTRITLCVSA-LTLSLSALATDERGPAPTLAALQAN-GPFAIATATIAKPDGYGSGTVYFPRDTSQGRFGLVVMAPGFLAVPGYYQWLAERVASHGFVVVNIGTKTIFDVPDARGREMAAALKQVVALAALPDTPFGSATDTSRRALMGHSAGGGGTLTATRDDPTLKAAIPMTPASTSSDFSGITVPTLILACEKDAIAPNKTFSAKYYATLNPGTERAYLEIASADHLCPLDMAKDSVNNTVGQSVISWLKRFVDGDRRYAPFL",
+                  "midline": "APHA    ++ L  +A L+L+         GP PT+A+L+A  GP+A++ AT+  P+GYG+GTV++P   ++G+FG+VV+APGFLAV GYY+WLAERVASHGFVVV +   ++FD PDARG +MA AL+QVVAL+     P+    DT+R+A MGHS GGGGTL A RD+P+LKAA+ + P  T+  +S I VPTL+++ EKD IA N   S  +YA+ N     A +E+A ADHLC + ++ +     + +  ++WLKRFVDGD RY PF+"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_290679201.1|",
+                  "accession": "WP_290679201",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MBI5927522.1|",
+                  "accession": "MBI5927522",
+                  "title": "alpha/beta hydrolase [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.1,
+                  "score": 710,
+                  "evalue": 7.99202e-89,
+                  "identity": 133,
+                  "positive": 185,
+                  "query_from": 18,
+                  "query_to": 279,
+                  "hit_from": 12,
+                  "hit_to": 276,
+                  "align_len": 266,
+                  "gaps": 5,
+                  "qseq": "RLVGAAV----LSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "RLTRAALCVSALTWSLSALAADERGPAPTLAALQAN-GPFAIATATIAKPDGYGSGTVYFPRDTSQGQFGLVIMTPGFLAVPGYYQWLAERVASHGFVVVNIGTKTIFDVPDARGREMAAALKQVVALAALPDTPFGSATDTSRRALMGHSAGGGGTLTATRDDPTLKAAIPMTPASTSSDFSGITVPTLILACEKDAIAPNKTFSAKYYATMNPNTERAYLEVAGADHLCPLDMAKDSVNNTVGQSVISWLKRFVDGDRRYAPFL",
+                  "midline": "RL  AA+    L+ +     A   GP PT+A+L+A  GP+A++ AT+  P+GYG+GTV++P   ++GQFG+V++ PGFLAV GYY+WLAERVASHGFVVV +   ++FD PDARG +MA AL+QVVAL+     P+    DT+R+A MGHS GGGGTL A RD+P+LKAA+ + P  T+  +S I VPTL+++ EKD IA N   S  +YA+ N +   A +E+AGADHLC + ++ +     + +  ++WLKRFVDGD RY PF+"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_329680356.1|",
+                  "accession": "WP_329680356",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "tpg|HEX5373101.1|",
+                  "accession": "HEX5373101",
+                  "title": "dienelactone hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "tpg|HIR3576377.1|",
+                  "accession": "HIR3576377",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.485,
+                  "score": 711,
+                  "evalue": 8.16023e-89,
+                  "identity": 141,
+                  "positive": 188,
+                  "query_from": 5,
+                  "query_to": 294,
+                  "hit_from": 3,
+                  "hit_to": 297,
+                  "align_len": 295,
+                  "gaps": 5,
+                  "qseq": "TSTAPHAAFSFKLRLVGAAV---LSLAFGMAQAQ--VHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAEMSVFDTRGS",
+                  "hseq": "SSTLTHRPQSPHISRIAAGVFTTLCLISGTALANPYARGPAPTLADLEAAAGPFAVSTQKISSASGYGGGTVYYPTSSAEGSYGIVAIAPGFTNTQAFLSQWGPKLASHGFVVVNMNTTTIFDQPESRGKQLMAALKQITTLSQTKTTPYYGKVDPSRQAVMGYSMGGGGTLAAARDNPGLKAAFALAPWHTLKDFSKVTVPTMILACQSDIVAPIDSHSQKFYASLSATPAKAYLEIKGGDHFCPSNNGTAEMKVTERKFGVAWLKRFLDEDTRYTPFLQPLVNDAIVSDYKTS",
+                  "midline": "+ST  H   S  +  + A V   L L  G A A     GP PT+A LEAAAGP+AVS   + + +GYG GTV+YPT   EG +G+V +APGF   Q +      ++ASHGFVVV +N  ++FDQP++RG Q+  AL+Q+  LS+T T PY G +D +RQA MG+SMGGGGTLAAARDNP LKAA ALAPWHT K +S + VPT++++ + D +A   +HS  FYAS +A+   A +E+ G DH C       + K    K+ VAWLKRF+D D RYTPF++    +  V D + S"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gb|MHR7358360.1|",
+                  "accession": "MHR7358360",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MHT6605138.1|",
+                  "accession": "MHT6605138",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 277.715,
+                  "score": 709,
+                  "evalue": 1.14491e-88,
+                  "identity": 134,
+                  "positive": 184,
+                  "query_from": 18,
+                  "query_to": 279,
+                  "hit_from": 12,
+                  "hit_to": 276,
+                  "align_len": 266,
+                  "gaps": 5,
+                  "qseq": "RLVGAAV----LSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "RLTRAALCVSALTWSLSALAADERGPAPTLAALQAN-GPFAIAKATIAKPDGYGSGTVYFPRDTSQGQFGLVIMTPGFLAVPGYYQWLAERVASHGFVVVNIGTKTIFDVPDARGREMAAALKQVVALAALPETPFGSATDTSRRALMGHSAGGGGTLTATRDDPTLKAAIPMTPASTSSDFSGITVPTLILACEKDAIAPNKTFSAKYYASMNPNTERAYLEVAGADHLCPLDAAKDSVNNTVGQSVISWLKRFVDGDRRYEPFL",
+                  "midline": "RL  AA+    L+ +     A   GP PT+A+L+A  GP+A++ AT+  P+GYG+GTV++P   ++GQFG+V++ PGFLAV GYY+WLAERVASHGFVVV +   ++FD PDARG +MA AL+QVVAL+     P+    DT+R+A MGHS GGGGTL A RD+P+LKAA+ + P  T+  +S I VPTL+++ EKD IA N   S  +YAS N +   A +E+AGADHLC +  + +     + +  ++WLKRFVDGD RY PF+"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|MHR7233930.1|",
+                  "accession": "MHR7233930",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.559,
+                  "score": 706,
+                  "evalue": 2.76658e-88,
+                  "identity": 133,
+                  "positive": 184,
+                  "query_from": 18,
+                  "query_to": 279,
+                  "hit_from": 12,
+                  "hit_to": 276,
+                  "align_len": 266,
+                  "gaps": 5,
+                  "qseq": "RLVGAAV----LSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "RLTRAALCVSALTWSLSALAADERGPAPTLAALQAN-GPFAIAKATIAKPDGYGSGTVYFPRDTSQGQFGLVIMTPGFLAVPGYYQWLAERVASHGFVVVNIGTKTIFDVPDARGREMAAALKQVVALAALPDTPFGSATDTSRRALMGHSAGGGGTLTATRDDPTLKAAIPMTPASTSSDFSGITVPTLILACEKDAIAPNKTFSAKYYATMNPNTERAYLEVAGADHLCPLDAAKDSVNNTVGQSVISWLKRFVDGDRRYAPFL",
+                  "midline": "RL  AA+    L+ +     A   GP PT+A+L+A  GP+A++ AT+  P+GYG+GTV++P   ++GQFG+V++ PGFLAV GYY+WLAERVASHGFVVV +   ++FD PDARG +MA AL+QVVAL+     P+    DT+R+A MGHS GGGGTL A RD+P+LKAA+ + P  T+  +S I VPTL+++ EKD IA N   S  +YA+ N +   A +E+AGADHLC +  + +     + +  ++WLKRFVDGD RY PF+"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_483938517.1|",
+                  "accession": "WP_483938517",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MHS3330738.1|",
+                  "accession": "MHS3330738",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 270.396,
+                  "score": 690,
+                  "evalue": 5.69299e-86,
+                  "identity": 141,
+                  "positive": 183,
+                  "query_from": 12,
+                  "query_to": 279,
+                  "hit_from": 4,
+                  "hit_to": 268,
+                  "align_len": 270,
+                  "gaps": 7,
+                  "qseq": "AFSFKLRLVGAAVLSLAFGMAQAQVH-GPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTAL-AKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "AFKAPLAKIALATSTLVLAAAAHAVEIGPAPTEASLTATAGPFATASAKVATPNTYGSGTVWYPTA--AGQYGLVVVSPGFTEAESAINWWGARLASHGFVVVTMGTKTVFDQPESRGKQMMAALKQVAGLN--ATGPFAGKIDTTKQAVAGHSMGGGGTLAAARDNPTLKAAIPLAPWHTTKNFSAVKVPTLIVACEKDIIAPVASHAQKFYDSMSAATPHAIMELVGEDHFC-VNNSTEAVNKAVNGKMATAWLKVFMDNDARYKPFL",
+                  "midline": "AF   L  +  A  +L    A   V  GP PT ASL A AGP+A ++A V TPN YG+GTV+YPT    GQ+G+VV++PGF   +    W   R+ASHGFVVVT+   +VFDQP++RG QM  AL+QV  L+  +T P++G IDT +QA  GHSMGGGGTLAAARDNP+LKAA+ LAPWHTTK +S ++VPTL+++ EKD IA  ++H+  FY S +A+ P A +EL G DH C +  S E    A+  K + AWLK F+D DARY PF+"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "tpg|HRH16873.1|",
+                  "accession": "HRH16873",
+                  "title": "dienelactone hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "tpg|HRH29244.1|",
+                  "accession": "HRH29244",
+                  "title": "dienelactone hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 269.626,
+                  "score": 688,
+                  "evalue": 1.19385e-85,
+                  "identity": 133,
+                  "positive": 172,
+                  "query_from": 38,
+                  "query_to": 279,
+                  "hit_from": 31,
+                  "hit_to": 268,
+                  "align_len": 242,
+                  "gaps": 4,
+                  "qseq": "GPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "GPAPTEASLTATAGPFATASAKVATPNTYGSGTVWYPTA--AGQYGLVVVSPGFIESEKAINWWGPRLASHGFVVVTMGTKSVFDQPESRGKQMMAALKQVAGLN--ATGPFAGKIDTTKQAVAGHSMGGGGTLAAARDNPSLKAAIPLAPWHTIKDFSSVKVPTLVVACEKDIVAPVNSHAQKFYDSMSAATPHAILELVGEDHFCVNSNTEAVNKAVNGKMATAWLKVFMDNDARYKPFL",
+                  "midline": "GP PT ASL A AGP+A ++A V TPN YG+GTV+YPT    GQ+G+VV++PGF+  +    W   R+ASHGFVVVT+   SVFDQP++RG QM  AL+QV  L+  +T P++G IDT +QA  GHSMGGGGTLAAARDNPSLKAA+ LAPWHT K +S+++VPTLV++ EKD +A  ++H+  FY S +A+ P A +EL G DH C    +    K    K + AWLK F+D DARY PF+"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gb|MEY4429467.1|",
+                  "accession": "MEY4429467",
+                  "title": "hypothetical protein [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.774,
+                  "score": 678,
+                  "evalue": 3.72697e-84,
+                  "identity": 136,
+                  "positive": 177,
+                  "query_from": 37,
+                  "query_to": 293,
+                  "hit_from": 30,
+                  "hit_to": 283,
+                  "align_len": 259,
+                  "gaps": 7,
+                  "qseq": "HGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKT--AEMSVFDTRG",
+                  "hseq": "NGPAPTEATV-TGNGPFATASAKIATPSGYGSGTVWYPTTGT--GYGVIVVGPGFTETESAINWWGARLASHGFVAVTVGTKTTLDQPESRGKQFMAALKQVISLEPT--APYKGKIDASRQAVAGHSMGGGGTLAAARDNPTLKAAIPLAPWHTLKDFSSVKVPTLIIACEKDFIAPVSSHAQKFYDSMNAATPHAMAELAGADHFCVNNSTSAANKATDSKVAVSWLKVFVDGDQRYLPFIKETKPAANLSRYLTSG",
+                  "midline": "+GP PT A++    GP+A ++A + TP+GYG+GTV+YPT  T   +GV+V+ PGF   +    W   R+ASHGFV VTV   +  DQP++RG Q   AL+QV++L  T  APY G ID +RQA  GHSMGGGGTLAAARDNP+LKAA+ LAPWHT K +S+++VPTL+I+ EKDFIA  S+H+  FY S NA+ P A  ELAGADH C    ++   K   +K +V+WLK FVDGD RY PF+K     A +S + T G"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_444832983.1|",
+                  "accession": "WP_444832983",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MGQ0596218.1|",
+                  "accession": "MGQ0596218",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 263.848,
+                  "score": 673,
+                  "evalue": 3.81068e-83,
+                  "identity": 138,
+                  "positive": 187,
+                  "query_from": 10,
+                  "query_to": 280,
+                  "hit_from": 3,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 10,
+                  "qseq": "HAAFSFKLRLVGAAV---LSLAF-GMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPN----GYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVK",
+                  "hseq": "HHLLKARLKLSAAALFLTLSAALPAFAAGYERGPEPTKAALEAA-GPYTVASFKISRADAKAYNYGGATVFYPQSGTQ-TFGVVSLTPGFTGFQLVYEPLAKRVASHGFIVINLDTNTIFDLPDLRAKEMAGALKQVIELAQAGKAPYAAMLDSSRRAVMGHSMGGGGTLAAAVADGTLKAAVPITPWHTTKSFAGDTVPTLIVACEKDAIAPNKQHSDPFYASLNTALPRGEIEVKGADHLCPLSLAKAAYQTTVAKSAIAWLKRFLDEDTRYDAMVK",
+                  "midline": "H     +L+L  AA+   LS A    A     GP+PT A+LEAA GPY V++  +   +     YG  TVFYP   T+  FGVV L PGF   Q  Y+ LA+RVASHGF+V+ ++ N++FD PD R  +MA AL+QV+ L++   APY+ ++D++R+A MGHSMGGGGTLAAA  + +LKAAV + PWHTTK+++   VPTL+++ EKD IA N  HSDPFYAS N +LP  +IE+ GADHLC + ++    +T +AK ++AWLKRF+D D RY   VK"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_290688469.1|",
+                  "accession": "WP_290688469",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MBI3381109.1|",
+                  "accession": "MBI3381109",
+                  "title": "alpha/beta hydrolase [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 263.462,
+                  "score": 672,
+                  "evalue": 4.24871e-83,
+                  "identity": 137,
+                  "positive": 189,
+                  "query_from": 10,
+                  "query_to": 280,
+                  "hit_from": 3,
+                  "hit_to": 279,
+                  "align_len": 279,
+                  "gaps": 10,
+                  "qseq": "HAAFSFKLRL-VGAAVLSLAFGM---AQAQVHGPDPTVASLEAAAGPYAVSNATVGTPN----GYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVK",
+                  "hseq": "HHLLKARLKLSVAALFLTLSAALPAFAAGYERGPEPTKAALEAA-GPFTVASFKISRADAKAYNYGGATVFYPQSGTQ-TFGVVSLTPGFTGFQLVYEPLAKRVASHGFIVVNLDTNTIFDLPDLRAKEMAGALKQVIELAQAGKAPYAAMLDSSRRAVMGHSMGGGGTLAAAVADGTLKAAVPITPWHTTKSFAADTVPTLIVACEKDAIAPNKQHSDPFYASLNTALPRGEIEVKGADHLCPLSLAKAEYQTTVAKSAIAWLKRFLDEDTRYDAMVK",
+                  "midline": "H     +L+L V A  L+L+  +   A     GP+PT A+LEAA GP+ V++  +   +     YG  TVFYP   T+  FGVV L PGF   Q  Y+ LA+RVASHGF+VV ++ N++FD PD R  +MA AL+QV+ L++   APY+ ++D++R+A MGHSMGGGGTLAAA  + +LKAAV + PWHTTK+++   VPTL+++ EKD IA N  HSDPFYAS N +LP  +IE+ GADHLC + ++  + +T +AK ++AWLKRF+D D RY   VK"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|MFT3856000.1|",
+                  "accession": "MFT3856000",
+                  "title": "dienelactone hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 291,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.922,
+                  "score": 668,
+                  "evalue": 1.64122e-82,
+                  "identity": 138,
+                  "positive": 187,
+                  "query_from": 23,
+                  "query_to": 293,
+                  "hit_from": 11,
+                  "hit_to": 290,
+                  "align_len": 282,
+                  "gaps": 13,
+                  "qseq": "AVLSLAF-----GMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPN----GYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKT--AEMSVFDTRG",
+                  "hseq": "AALSVSFLAATQALAAGFERGPAPTKAALEADRGSFEVASYKIERADAKAFGYGGATVYYPKSGTQ-TFGLVTVFPGFLGTQGVYATLAQRIASHGFVVANLDPNNIFDLPDLRARQMMAAQQQVIELAQGG-APYATVMDKSRRAVVGHSMGGGGTLSAASKDPSLKAAVPLTPWHTTKSFSANQVPTLIVACEKDAIAPNKQHSDPFYASLSPTLARGEVELKGADHLCPITLAKAVDQVNVAKSTIAWLKRFVDADMRYDGFIKNELNGPEYSRFEVKG",
+                  "midline": "A LS++F      +A     GP PT A+LEA  G + V++  +   +    GYG  TV+YP   T+  FG+V + PGFL  QG Y  LA+R+ASHGFVV  ++ N++FD PD R  QM  A QQV+ L++   APY+ V+D +R+A +GHSMGGGGTL+AA  +PSLKAAV L PWHTTK++S  QVPTL+++ EKD IA N  HSDPFYAS + +L   ++EL GADHLC I ++    +  +AK ++AWLKRFVD D RY  F+K++    E S F+ +G"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "pdb|8ETY|A",
+                  "accession": "8ETY_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.381,
+                  "score": 664,
+                  "evalue": 4.73545e-82,
+                  "identity": 125,
+                  "positive": 166,
+                  "query_from": 32,
+                  "query_to": 279,
+                  "hit_from": 24,
+                  "hit_to": 263,
+                  "align_len": 250,
+                  "gaps": 12,
+                  "qseq": "AQAQVHGPDPTVASLEAAAGPYAVSNATVG--TPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "ANPYERGPDPTESSLEASSGPFSVSETSVSRLSASGFGGGTIYYPTTTSEGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTFDQPDSRARQLMAALNYLVNRSSVRSR-----IDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHF-----APNSSNTTIGKYSIAWLKRFVDNDTRYSQFL",
+                  "midline": "A     GPDPT +SLEA++GP++VS  +V   + +G+G GT++YPT  +EG +G V ++PG+ A Q    WL  R+ASHGFVV+T++ N+ FDQPD+R  Q+  AL  +V  S   +      ID++R A MGHSMGGGGTL AA DNPSLKAA+ L PWHT K WS+++VPTL+I  E D IA  S+H+ PFY S  +S P A +EL GA H      +     T + KYS+AWLKRFVD D RY+ F+"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "pdb|8EU0|A",
+                  "accession": "8EU0_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                },
+                {
+                  "id": "pdb|8EU0|B",
+                  "accession": "8EU0_B",
+                  "title": "Chain B, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.381,
+                  "score": 664,
+                  "evalue": 5.05686e-82,
+                  "identity": 124,
+                  "positive": 164,
+                  "query_from": 37,
+                  "query_to": 279,
+                  "hit_from": 28,
+                  "hit_to": 262,
+                  "align_len": 245,
+                  "gaps": 12,
+                  "qseq": "HGPDPTVASLEAAAGPYAVSNATVG--TPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "RGPDPTESSLEASSGPFSVSQTSVSRLSASGFGGGTIYYPTTTSEGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTFDQPDSRARQLMAALNYLVNRSSVRSR-----IDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHFA-----PNSSNTTIGKYSIAWLKRFVDNDTRYSQFL",
+                  "midline": " GPDPT +SLEA++GP++VS  +V   + +G+G GT++YPT  +EG +G V ++PG+ A Q    WL  R+ASHGFVV+T++ N+ FDQPD+R  Q+  AL  +V  S   +      ID++R A MGHSMGGGGTL AA DNPSLKAA+ L PWHT K WS+++VPTL+I  E D IA  S+H+ PFY S  +S P A +EL GA H            T + KYS+AWLKRFVD D RY+ F+"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "pdb|8ETZ|A",
+                  "accession": "8ETZ_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 259.61,
+                  "score": 662,
+                  "evalue": 1.0485e-81,
+                  "identity": 125,
+                  "positive": 166,
+                  "query_from": 32,
+                  "query_to": 279,
+                  "hit_from": 23,
+                  "hit_to": 262,
+                  "align_len": 250,
+                  "gaps": 12,
+                  "qseq": "AQAQVHGPDPTVASLEAAAGPYAVSNATVG--TPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "ANPYERGPDPTDSSLEASSGPFSVSETSVSRLSASGFGGGTIYYPTTTSEGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTFDQPDSRARQLMAALNYLVNRSSVRSR-----IDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHF-----APNSSNTTIGKYSIAWLKRFVDNDTRYSQFL",
+                  "midline": "A     GPDPT +SLEA++GP++VS  +V   + +G+G GT++YPT  +EG +G V ++PG+ A Q    WL  R+ASHGFVV+T++ N+ FDQPD+R  Q+  AL  +V  S   +      ID++R A MGHSMGGGGTL AA DNPSLKAA+ L PWHT K WS+++VPTL+I  E D IA  S+H+ PFY S  +S P A +EL GA H      +     T + KYS+AWLKRFVD D RY+ F+"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gb|MFT3858606.1|",
+                  "accession": "MFT3858606",
+                  "title": "hypothetical protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 259.61,
+                  "score": 662,
+                  "evalue": 1.68187e-81,
+                  "identity": 136,
+                  "positive": 178,
+                  "query_from": 22,
+                  "query_to": 293,
+                  "hit_from": 20,
+                  "hit_to": 292,
+                  "align_len": 276,
+                  "gaps": 7,
+                  "qseq": "AAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATV--GTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKS--KTAEMSVFDTRG",
+                  "hseq": "ATLMSSAAYAGSAYERGPDPTVESL-SVKGPYEVAAHVITRAQANGYGGATVHYPKSGTQ-TFGIVSITPGFLATQSYYKPLSQFIASHGFVVINLDPLSIYDQPDIRAREMAAALKQVVNMAKGGKAPFSSVTDVTRRAVSGHSMGGGGTLSAAQADPTLKAAVPLAPWHLTKNFSRVDVPTLIVACEKDTIATNAQHSDKFYASLANDLPRGEVEVKGVDHMCSTNL-APNYIDEVGKAAVAWLKRFVDEDTRYDALIKGGMNVGDYSRFDIKG",
+                  "midline": "A ++S A     A   GPDPTV SL +  GPY V+   +     NGYG  TV YP   T+  FG+V + PGFLA Q YYK L++ +ASHGFVV+ ++  S++DQPD R  +MA AL+QVV ++K   AP+S V D  R+A  GHSMGGGGTL+AA+ +P+LKAAV LAPWH TK +S + VPTL+++ EKD IATN+ HSD FYAS    LP  ++E+ G DH+C   + A      + K +VAWLKRFVD D RY   +K      + S FD +G"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gb|RTL32108.1|",
+                  "accession": "RTL32108",
+                  "title": "MAG: alpha/beta hydrolase [Burkholderiales bacterium]",
+                  "taxid": 1891238,
+                  "sciname": "Burkholderiales bacterium"
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 259.225,
+                  "score": 661,
+                  "evalue": 2.25604e-81,
+                  "identity": 134,
+                  "positive": 180,
+                  "query_from": 31,
+                  "query_to": 293,
+                  "hit_from": 26,
+                  "hit_to": 292,
+                  "align_len": 270,
+                  "gaps": 10,
+                  "qseq": "MAQAQVHGPDPTVASLEAAAGPYAVSNATVG----TPNGYGAGTVFYPTVRTEGQ-FGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKS--KTAEMSVFDTRG",
+                  "hseq": "LAAGYERGPAPTAASLEAA-GPFTVDSFQIGRAVAKAYGYGGATVYFP--KASGQTFGIVSLTPGFLGFQAVYAPLAERVASHGFVVINLDTNTVFDQPDLRAREMAGAIKQVIDLVKTSKTPFAASVDTTRRAVMGHSMGGGGTLAAAVADGTFKAAVPIAPWHTTRSFTADTVPTLIVACEKDLIAPNNLGSDVYYASLSPTLPRGEIEVKGADHLCPLSLAKAAYRDTVAKSAIAWLKRFLDEDMRYDALVKGGINDGDYSRFDVKG",
+                  "midline": "+A     GP PT ASLEAA GP+ V +  +G       GYG  TV++P  +  GQ FG+V L PGFL  Q  Y  LAERVASHGFVV+ ++ N+VFDQPD R  +MA A++QV+ L KTS  P++  +DT R+A MGHSMGGGGTLAAA  + + KAAV +APWHTT++++   VPTL+++ EKD IA N+  SD +YAS + +LP  +IE+ GADHLC + ++    +  +AK ++AWLKRF+D D RY   VK      + S FD +G"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "pdb|8EU1|A",
+                  "accession": "8EU1_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.07,
+                  "score": 658,
+                  "evalue": 3.70524e-81,
+                  "identity": 124,
+                  "positive": 165,
+                  "query_from": 32,
+                  "query_to": 279,
+                  "hit_from": 23,
+                  "hit_to": 262,
+                  "align_len": 250,
+                  "gaps": 12,
+                  "qseq": "AQAQVHGPDPTVASLEAAAGPYAVSNATVG--TPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "ANPYERGPDPTESSLEASSGPFSVSETSVSRLSASGFGGGTIYYPTTTSEGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTLDQPDSRARQLMAALNYLVNRSSVRSR-----IDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHF-----APNSSNTTIGKYSIAWLKRFVDNDTRYSQFL",
+                  "midline": "A     GPDPT +SLEA++GP++VS  +V   + +G+G GT++YPT  +EG +G V ++PG+ A Q    WL  R+ASHGFVV+T++ N+  DQPD+R  Q+  AL  +V  S   +      ID++R A MGHSMGGGGTL AA DNPSLKAA+ L PWHT K WS+++VPTL+I  E D IA  S+H+ PFY S  +S P A +EL GA H      +     T + KYS+AWLKRFVD D RY+ F+"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "pdb|8ETX|A",
+                  "accession": "8ETX_A",
+                  "title": "Chain A, Polyethylene terephthalate hydrolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.07,
+                  "score": 658,
+                  "evalue": 4.70747e-81,
+                  "identity": 125,
+                  "positive": 165,
+                  "query_from": 32,
+                  "query_to": 279,
+                  "hit_from": 23,
+                  "hit_to": 262,
+                  "align_len": 250,
+                  "gaps": 12,
+                  "qseq": "AQAQVHGPDPTVASLEAAAGPYAVSNATVG--TPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "ANPYERGPDPTEASLEASSGPFSVSETSVSRLSASGFGGGTIYYPTTTSSGTYGAVAISPGYTATQSSIAWLGPRLASHGFVVITIDTNTTFDQPDSRARQLMAALNYLVNRSSVRSR-----IDSSRLAVMGHSMGGGGTLRAAEDNPSLKAAIPLTPWHTNKNWSSVRVPTLIIGAENDTIAPVSSHAKPFYNSLPSSTPKAYLELNGASHF-----APNSSNTTIGKYSVSWLKRFVDNDTRYSQFL",
+                  "midline": "A     GPDPT ASLEA++GP++VS  +V   + +G+G GT++YPT  + G +G V ++PG+ A Q    WL  R+ASHGFVV+T++ N+ FDQPD+R  Q+  AL  +V  S   +      ID++R A MGHSMGGGGTL AA DNPSLKAA+ L PWHT K WS+++VPTL+I  E D IA  S+H+ PFY S  +S P A +EL GA H      +     T + KYSV+WLKRFVD D RY+ F+"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_161651306.1|",
+                  "accession": "WP_161651306",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Aquabacterium fontiphilum]",
+                  "taxid": 450365,
+                  "sciname": "Aquabacterium fontiphilum"
+                },
+                {
+                  "id": "gb|NBD21816.1|",
+                  "accession": "NBD21816",
+                  "title": "alpha/beta hydrolase [Aquabacterium fontiphilum]",
+                  "taxid": 450365,
+                  "sciname": "Aquabacterium fontiphilum"
+                }
+              ],
+              "len": 302,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 255.758,
+                  "score": 652,
+                  "evalue": 5.53741e-80,
+                  "identity": 143,
+                  "positive": 182,
+                  "query_from": 14,
+                  "query_to": 293,
+                  "hit_from": 16,
+                  "hit_to": 301,
+                  "align_len": 287,
+                  "gaps": 8,
+                  "qseq": "SFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPN----GYGAGTVFYPTVRTEGQ-FGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKS--KTAEMSVFDTRG",
+                  "hseq": "AFTTVALAAACLS-APAIAADYAKGPAPTVALLTAPAGPYQTATYKIATADAKAFNYGGATVHYPVAKAPGETFGVVVMVPGFLAFQAVYDWLVSRVASHGFVVVNMDTVGRGDYPDERAEQAAGALRHVVSLAQGGTAPYAPVADTSRRAVMGNSMGGGASLSAAVADPTLKAVVALQPWHTTKSFTGVASPTLVVACEKDSIAPNKSHSDVFYNSLSAALPRAEIEMRGAGHLCATFLATAAQKTTMAKSSVAWLKRFLDNDMRYDAMVKGGIDQGEFSRFVVQG",
+                  "midline": "+F    + AA LS A  +A     GP PTVA L A AGPY  +   + T +     YG  TV YP  +  G+ FGVVV+ PGFLA Q  Y WL  RVASHGFVVV ++     D PD R  Q A AL+ VV+L++  TAPY+ V DT+R+A MG+SMGGG +L+AA  +P+LKA VAL PWHTTK+++ +  PTLV++ EKD IA N +HSD FY S +A+LP A+IE+ GA HLC   ++    KT +AK SVAWLKRF+D D RY   VK      E S F  +G"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|MBI2731766.1|",
+                  "accession": "MBI2731766",
+                  "title": "alpha/beta hydrolase [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.447,
+                  "score": 646,
+                  "evalue": 3.62242e-79,
+                  "identity": 129,
+                  "positive": 179,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 12,
+                  "hit_to": 281,
+                  "align_len": 271,
+                  "gaps": 4,
+                  "qseq": "LRLVGAAVLSLAFGM-AQAQ--VHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTA",
+                  "hseq": "LTRLALCVSSLAGGLSAQAGDFERGPAPTPGALEAN-GPFAIATASIAKPEGYGSATVYFPRDTSQGKFGLVVLTPGFLGVPSYYQWLAERVASHGFVVVNIGTNTIFDVPDARAREMAAALKQVASLAALPETPFGSATDTSRRALMGHSAGGGGTLTATLKDPSLKAAIPMNAATTGSDFSGITVPTMILACEKDAIAPNKTFSAKYYASLSANINHAYLEVAGADHLCPLSLAKNSVQNTVGKTVISWLKRYVDDDRRYEPFITGASA",
+                  "midline": "L  +   V SLA G+ AQA     GP PT  +LEA  GP+A++ A++  P GYG+ TV++P   ++G+FG+VVL PGFL V  YY+WLAERVASHGFVVV +  N++FD PDAR  +MA AL+QV +L+     P+    DT+R+A MGHS GGGGTL A   +PSLKAA+ +    T   +S I VPT++++ EKD IA N   S  +YAS +A++  A +E+AGADHLC + ++    +  + K  ++WLKR+VD D RY PF+   +A"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gb|MHO1804269.1|",
+                  "accession": "MHO1804269",
+                  "title": "dienelactone hydrolase family protein [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                },
+                {
+                  "id": "gb|MHO1832912.1|",
+                  "accession": "MHO1832912",
+                  "title": "dienelactone hydrolase family protein [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.447,
+                  "score": 646,
+                  "evalue": 5.33296e-79,
+                  "identity": 134,
+                  "positive": 170,
+                  "query_from": 38,
+                  "query_to": 293,
+                  "hit_from": 37,
+                  "hit_to": 297,
+                  "align_len": 262,
+                  "gaps": 7,
+                  "qseq": "GPDPTVASLEAAAGPYAVSN----ATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKS--KTAEMSVFDTRG",
+                  "hseq": "GPEPTVALLTAPAGPYTTGSFKISATDAKAFGYGGATVHYPTATGE-TFGVVVMVPGFLAFQAVYDWLVKKVASHGFVVINMDTLAKGDLPDERSVQAASALKHVVGMAKGGAVPYAAVTDVTRQAIMGNSMGGGASLRAAVNDPTLKAVVSLQPWHTTKSFSGVASPTLIIACEKDSIAPNKTHSDVFYASLSVTLPRAEIEVRGAGHVCATFLATKAQQTTMAKASVAWLKRFLDQDMRYDALVKGGINTGEFSRFVLQG",
+                  "midline": "GP+PTVA L A AGPY   +    AT     GYG  TV YPT   E  FGVVV+ PGFLA Q  Y WL ++VASHGFVV+ ++  +  D PD R  Q A AL+ VV ++K    PY+ V D  RQA MG+SMGGG +L AA ++P+LKA V+L PWHTTK++S +  PTL+I+ EKD IA N  HSD FYAS + +LP A+IE+ GA H+C   ++ +  +T +AK SVAWLKRF+D D RY   VK    T E S F  +G"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gb|MBC7955519.1|",
+                  "accession": "MBC7955519",
+                  "title": "dienelactone hydrolase family protein [Rhizobacter sp.]",
+                  "taxid": 1909292,
+                  "sciname": "Rhizobacter sp."
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.062,
+                  "score": 645,
+                  "evalue": 7.78582e-79,
+                  "identity": 142,
+                  "positive": 179,
+                  "query_from": 3,
+                  "query_to": 279,
+                  "hit_from": 4,
+                  "hit_to": 276,
+                  "align_len": 279,
+                  "gaps": 8,
+                  "qseq": "TPTSTAPHAAFSFKLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVG--TPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "TSHSTARSVAGFAKASLFVAALTMSALAAAQTYEKGPNPTVAALERA-GTFATRTTTVSDLAAVGFGKGTIYYPTA--AGSYGVIAISPGFTAYQSSISWMGTRLASHGFVVITIDTNSTSDQPDSRGRQLTAALNKVVSLSRTSGNVLNGKVDATRLAVAGHSMGGGGTLAAARDNPSYKAAVPLAPWHGTKSFSTVRVPTLIIGGESDTIAGVSSHSIPFYNSIPSSTSKAYMELNNADHFFP-QASAQ--YPLVGKYMISWFKRFVDSDARYSPFI",
+                  "midline": "T  STA   A   K  L  AA+   A   AQ    GP+PTVA+LE A G +A    TV      G+G GT++YPT    G +GV+ ++PGF A Q    W+  R+ASHGFVV+T++ NS  DQPD+RG Q+  AL +VV+LS+TS    +G +D  R A  GHSMGGGGTLAAARDNPS KAAV LAPWH TK++ST++VPTL+I  E D IA  S+HS PFY S  +S   A +EL  ADH    Q SA+     + KY ++W KRFVD DARY+PF+"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_290691985.1|",
+                  "accession": "WP_290691985",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MBI3382531.1|",
+                  "accession": "MBI3382531",
+                  "title": "alpha/beta hydrolase [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 252.292,
+                  "score": 643,
+                  "evalue": 9.84895e-79,
+                  "identity": 121,
+                  "positive": 176,
+                  "query_from": 20,
+                  "query_to": 279,
+                  "hit_from": 19,
+                  "hit_to": 276,
+                  "align_len": 260,
+                  "gaps": 2,
+                  "qseq": "VGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "VSALILSMSAQAADFE-RGPAPTDSALQAN-GPFAIATTTIAKPDGYGSATVYFPRDTSQGKFGLVVLTPGFLGVPSYYQWLAERVATHGFVVVNIGTSTIFDVPDARAREMAAALKQVAALAALPDTPFGSATDSSRRALMGHSAGGGGTLTAALKDPMLKAAIPMTPATTGSDFSAITVPTMILACEKDAIAPNKTFSAKYYASLSPDINHAYLEVAGADHLCPLSLAKDSVQNTVGKTVISWLKRYVDEDKRYEPFI",
+                  "midline": "V A +LS++   A  +  GP PT ++L+A  GP+A++  T+  P+GYG+ TV++P   ++G+FG+VVL PGFL V  YY+WLAERVA+HGFVVV +  +++FD PDAR  +MA AL+QV AL+     P+    D++R+A MGHS GGGGTL AA  +P LKAA+ + P  T   +S I VPT++++ EKD IA N   S  +YAS +  +  A +E+AGADHLC + ++ +  +  + K  ++WLKR+VD D RY PF+"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gb|MES2088610.1|",
+                  "accession": "MES2088610",
+                  "title": "alpha/beta hydrolase [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.906,
+                  "score": 642,
+                  "evalue": 2.18625e-78,
+                  "identity": 132,
+                  "positive": 171,
+                  "query_from": 33,
+                  "query_to": 279,
+                  "hit_from": 31,
+                  "hit_to": 277,
+                  "align_len": 247,
+                  "gaps": 0,
+                  "qseq": "QAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "QSMQHGPAPTTASLEATSGPFAVANTKIATPVGYGSGTVYYPTTAAEGPFGVVSVTPGFTETQTAINWLGPLLASHGFVVVTINAKTIFDNPSSRGKQMMAALNQVVGLSAVKTSPFAGKVDGSRMGVMGHSMGGGGSLDAARDNPSLKASIPMAPWETTKIYTTTTVPTMIVSCESDIIASVNNHANKFYDSFTPSLNKALLEMKGVGHSCTTSSANATVKTVVGKYSIAWLKRFIDSDTRYSPFL",
+                  "midline": "Q+  HGP PT ASLEA +GP+AV+N  + TP GYG+GTV+YPT   EG FGVV + PGF   Q    WL   +ASHGFVVVT+N  ++FD P +RG QM  AL QVV LS   T+P++G +D +R   MGHSMGGGG+L AARDNPSLKA++ +APW TTK ++T  VPT+++S E D IA+ + H++ FY SF  SL  A +E+ G  H C    +    KT + KYS+AWLKRF+D D RY+PF+"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_201803940.1|",
+                  "accession": "WP_201803940",
+                  "title": "alpha/beta hydrolase family protein [Piscinibacter sp. HJYY11]",
+                  "taxid": 2801333,
+                  "sciname": "Piscinibacter sp. HJYY11"
+                },
+                {
+                  "id": "gb|MBL0726848.1|",
+                  "accession": "MBL0726848",
+                  "title": "dienelactone hydrolase family protein [Piscinibacter sp. HJYY11]",
+                  "taxid": 2801333,
+                  "sciname": "Piscinibacter sp. HJYY11"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.906,
+                  "score": 642,
+                  "evalue": 2.28338e-78,
+                  "identity": 129,
+                  "positive": 179,
+                  "query_from": 18,
+                  "query_to": 279,
+                  "hit_from": 14,
+                  "hit_to": 276,
+                  "align_len": 268,
+                  "gaps": 11,
+                  "qseq": "RLVGAAVLS---LAFGMAQAQVH-GPDPTVASLEAAAGPYAVSNATVG--TPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "RFAKASVLAATVLLAGVANAQYQKGPDPTTSALESSRGPFAIRSTTISRTSASGFGGGTVYYPT--TSGSYGAIAVSPGFTAYQSSISWIGERLASHGFVVITIDTITTSDQPDSRGRQLKAALDRVVSMSRSSTNVLYNKVDASRLGVAGHSMGGGGTLAAARDNPSYKAAVPLAPWHTTKSWRTVTVPTLIIGGETDTIASVSSHSIPFYTSLPSTTRKAYAELNGEGHFFP-QLSSN--YPLVGRYMISWFKRFIDNDTRYSPFL",
+                  "midline": "R   A+VL+   L  G+A AQ   GPDPT ++LE++ GP+A+ + T+   + +G+G GTV+YPT  T G +G + ++PGF A Q    W+ ER+ASHGFVV+T++  +  DQPD+RG Q+  AL +VV++S++ST      +D +R    GHSMGGGGTLAAARDNPS KAAV LAPWHTTK+W T+ VPTL+I  E D IA+ S+HS PFY S  ++   A  EL G  H    Q+S+      + +Y ++W KRF+D D RY+PF+"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_035038057.1|",
+                  "accession": "WP_035038057",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium sp. NJ1]",
+                  "taxid": 1538295,
+                  "sciname": "Aquabacterium sp. NJ1"
+                },
+                {
+                  "id": "gb|KGM40671.1|",
+                  "accession": "KGM40671",
+                  "title": "hypothetical protein JY96_13185 [Aquabacterium sp. NJ1]",
+                  "taxid": 1538295,
+                  "sciname": "Aquabacterium sp. NJ1"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 250.366,
+                  "score": 638,
+                  "evalue": 6.71066e-78,
+                  "identity": 128,
+                  "positive": 181,
+                  "query_from": 1,
+                  "query_to": 284,
+                  "hit_from": 1,
+                  "hit_to": 286,
+                  "align_len": 287,
+                  "gaps": 4,
+                  "qseq": "MSTPTSTAPHAAFSFKLRLVGAAVLSLAFGMA-QAQ--VHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTA",
+                  "hseq": "MPTPPARPKSASPTHALTRITLCVSALTFSLGTQASDFERGPAPTPGALEAK-GPFAIATATIAKPEGYGSATVYFPRDTSQGKFGLVMLTPGFLGVPGYYQWLAERVASHGFVVVNIGTNTILDVPDARAREMAAALKQVASLATLPETPFGSATDTSRRALMGHSAGGGGTLTAALKDTTLKAAIPMNPATTGSDFSGITVPTMILACEKDAIAPNKTFSAKYYATLNPHINHAYLEVAAADHLCPTSLAKASVQNTVGKTVISWLKRYVDEDQRYEPFITGASA",
+                  "midline": "M TP +    A+ +  L  +   V +L F +  QA     GP PT  +LEA  GP+A++ AT+  P GYG+ TV++P   ++G+FG+V+L PGFL V GYY+WLAERVASHGFVVV +  N++ D PDAR  +MA AL+QV +L+     P+    DT+R+A MGHS GGGGTL AA  + +LKAA+ + P  T   +S I VPT++++ EKD IA N   S  +YA+ N  +  A +E+A ADHLC   ++    +  + K  ++WLKR+VD D RY PF+   +A"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_296689941.1|",
+                  "accession": "WP_296689941",
+                  "title": "alpha/beta hydrolase family protein [Rhizobacter sp.]",
+                  "taxid": 1909292,
+                  "sciname": "Rhizobacter sp."
+                },
+                {
+                  "id": "gb|MBT9528080.1|",
+                  "accession": "MBT9528080",
+                  "title": "dienelactone hydrolase family protein [Rhizobacter sp.]",
+                  "taxid": 1909292,
+                  "sciname": "Rhizobacter sp."
+                },
+                {
+                  "id": "dbj|GAB4567782.1|",
+                  "accession": "GAB4567782",
+                  "title": "MAG: lipase [Rhizobacter sp.]",
+                  "taxid": 1909292,
+                  "sciname": "Rhizobacter sp."
+                }
+              ],
+              "len": 297,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.98,
+                  "score": 637,
+                  "evalue": 1.18209e-77,
+                  "identity": 126,
+                  "positive": 165,
+                  "query_from": 38,
+                  "query_to": 279,
+                  "hit_from": 36,
+                  "hit_to": 273,
+                  "align_len": 244,
+                  "gaps": 8,
+                  "qseq": "GPDPTVASLEAAAGPYAVSNATVGT--PNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "GPDPTVAGLEKN-GTFTVRTTTVSSLAAVGFGKGTIYYPSA--AGSYGVIAVSPGFTAYQSSISWIGTRLASHGFVVITIDTNTTSDQPDSRGSQLKAALDKVVSLSRSSSNVLYGKVDATRLAVAGHSMGGGGTLAAARDNPSYKAAVPLAPWHTTKSWSTVRVPTLIIGGESDTVAGVSSHSIPFYNSLPSSTSKAYMELNNADHFFP---QASSQYPLVGKYMISWMKRFVDGDTRYSPFL",
+                  "midline": "GPDPTVA LE   G + V   TV +    G+G GT++YP+    G +GV+ ++PGF A Q    W+  R+ASHGFVV+T++ N+  DQPD+RG+Q+  AL +VV+LS++S+    G +D  R A  GHSMGGGGTLAAARDNPS KAAV LAPWHTTK+WST++VPTL+I  E D +A  S+HS PFY S  +S   A +EL  ADH       A      + KY ++W+KRFVDGD RY+PF+"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_130969140.1|",
+                  "accession": "WP_130969140",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium lacunae]",
+                  "taxid": 2528630,
+                  "sciname": "Aquabacterium lacunae"
+                },
+                {
+                  "id": "gb|TBO27870.1|",
+                  "accession": "TBO27870",
+                  "title": "alpha/beta hydrolase [Aquabacterium lacunae]",
+                  "taxid": 2528630,
+                  "sciname": "Aquabacterium lacunae"
+                }
+              ],
+              "len": 291,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.21,
+                  "score": 635,
+                  "evalue": 1.77812e-77,
+                  "identity": 134,
+                  "positive": 179,
+                  "query_from": 20,
+                  "query_to": 285,
+                  "hit_from": 17,
+                  "hit_to": 280,
+                  "align_len": 270,
+                  "gaps": 10,
+                  "qseq": "VGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSN----ATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKTAE",
+                  "hseq": "LGAAFPALAAGYER----GPAPTAAALNVA-GPYEVASFKISATDAKAQGYGGATVHYPKSQGE-TFGVVALMPGFQAFQLVYDGLVKKIASHGFVVANLDSLARGDFPDARATQLAAGLKHVVSLAQQGQAPYASVADTSRRAVIGNSMGGGATLSAAQADPSLKAAVALQPWHTTKSFAQVQVPMLIVACEKDTIAPNKTHSDPFYASLPVTLPRAEIEVRGASHLCATFLASKAQLNTMNKATVSWLKRFLDDDMRYDPLVKGGISE",
+                  "midline": "+GAA  +LA G  +    GP PT A+L  A GPY V++    AT     GYG  TV YP  + E  FGVV L PGF A Q  Y  L +++ASHGFVV  ++  +  D PDAR TQ+A  L+ VV+L++   APY+ V DT+R+A +G+SMGGG TL+AA+ +PSLKAAVAL PWHTTK+++ +QVP L+++ EKD IA N  HSDPFYAS   +LP A+IE+ GA HLC   ++++     + K +V+WLKRF+D D RY P VK   +E"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_489545911.1|",
+                  "accession": "WP_489545911",
+                  "title": "alpha/beta hydrolase family protein [Rhizobacter sp.]",
+                  "taxid": 1909292,
+                  "sciname": "Rhizobacter sp."
+                }
+              ],
+              "len": 294,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.21,
+                  "score": 635,
+                  "evalue": 2.01974e-77,
+                  "identity": 128,
+                  "positive": 174,
+                  "query_from": 31,
+                  "query_to": 279,
+                  "hit_from": 25,
+                  "hit_to": 270,
+                  "align_len": 252,
+                  "gaps": 9,
+                  "qseq": "MAQAQVH-GPDPTVASLEAAAGPYAVSNATVGTPN--GYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "LASAQYEKGPNPTVSALETT-GPFATRTTTVSRASAIGFGGGTIYYPT--TAGSYGAIAVSPGFTAYQSSISWIGTRLASHGFVVITIDTNTTSDQPDSRGRQLKAALDKVVSLSRSSSNVLYNKVDTNRLAVAGHSMGGGGTLAAARDYPTLKAAVPLAPWHTTKSFSTVRVPTLIIGGQSDTVAAVAQHSIPFYTSLPAATPKAYMELAGADHFFP-QATAQ--YPLVGKYMISWMKRFVDSDTRYSPFL",
+                  "midline": "+A AQ   GP+PTV++LE   GP+A    TV   +  G+G GT++YPT  T G +G + ++PGF A Q    W+  R+ASHGFVV+T++ N+  DQPD+RG Q+  AL +VV+LS++S+      +DT R A  GHSMGGGGTLAAARD P+LKAAV LAPWHTTK++ST++VPTL+I  + D +A  + HS PFY S  A+ P A +ELAGADH    Q +A+     + KY ++W+KRFVD D RY+PF+"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gb|MBC7994398.1|",
+                  "accession": "MBC7994398",
+                  "title": "dienelactone hydrolase family protein [Rhizobacter sp.]",
+                  "taxid": 1909292,
+                  "sciname": "Rhizobacter sp."
+                }
+              ],
+              "len": 297,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 248.825,
+                  "score": 634,
+                  "evalue": 3.00957e-77,
+                  "identity": 132,
+                  "positive": 170,
+                  "query_from": 16,
+                  "query_to": 279,
+                  "hit_from": 15,
+                  "hit_to": 273,
+                  "align_len": 266,
+                  "gaps": 9,
+                  "qseq": "KLRLVGAAVLSLAFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGT--PNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "KASLFVAAMSISALAAAQYQ-KGPDPTVAGLERA-GSFTVRTTTVSSLAAVGFGKGTIYYPSA--AGSYGVIAISPGFTAYQSSISWMGTRLASHGFVVITIDTNTTSDQPDSRGNQLTAALNKVVSLSRNSGNVLAGKVDATRLAVAGHSMGGGGTLAAARDNPSYKAAVPLAPWHTTKNWSTVRVPTLIIGGESDTVAGDASHSIPFYTSIPNTTSKAFMELNNADHFFP---QASSQYPLVGKYMISWFKRFVDSDTRYSPFL",
+                  "midline": "K  L  AA+   A   AQ Q  GPDPTVA LE A G + V   TV +    G+G GT++YP+    G +GV+ ++PGF A Q    W+  R+ASHGFVV+T++ N+  DQPD+RG Q+  AL +VV+LS+ S    +G +D  R A  GHSMGGGGTLAAARDNPS KAAV LAPWHTTK WST++VPTL+I  E D +A +++HS PFY S   +   A +EL  ADH       A      + KY ++W KRFVD D RY+PF+"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_290663158.1|",
+                  "accession": "WP_290663158",
+                  "title": "poly(ethylene terephthalate) hydrolase family protein [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                },
+                {
+                  "id": "gb|MBC7701646.1|",
+                  "accession": "MBC7701646",
+                  "title": "alpha/beta hydrolase [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 299,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 248.44,
+                  "score": 633,
+                  "evalue": 3.98281e-77,
+                  "identity": 128,
+                  "positive": 167,
+                  "query_from": 33,
+                  "query_to": 279,
+                  "hit_from": 31,
+                  "hit_to": 276,
+                  "align_len": 247,
+                  "gaps": 1,
+                  "qseq": "QAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "QSYVHGPDPTTAALETT-GPYAVSNTKIAAPSGYGGGTVYYPTTNTEGAFAVVSVTPGFTEKQSAINWLGPLLASHGFVVVTIDTKTALDAPSSRAKQMIAALKQVSGLSANSTSPFAGRVDGTRQAVMGHSMGGGGSLDAARDNPTLKASIPMAPWETVKNYSTMTVPTLIVSCESDTIAPVASHANKFYDSFTPTLNKALLEMKGVGHSCTNSTTSAALKAVIGKYSISWLKRFADNDNRYSDFL",
+                  "midline": "Q+ VHGPDPT A+LE   GPYAVSN  +  P+GYG GTV+YPT  TEG F VV + PGF   Q    WL   +ASHGFVVVT++  +  D P +R  QM  AL+QV  LS  ST+P++G +D  RQA MGHSMGGGG+L AARDNP+LKA++ +APW T K +ST+ VPTL++S E D IA  ++H++ FY SF  +L  A +E+ G  H C    ++   K  + KYS++WLKRF D D RY+ F+"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_130967941.1|",
+                  "accession": "WP_130967941",
+                  "title": "alpha/beta hydrolase family protein [Aquabacterium lacunae]",
+                  "taxid": 2528630,
+                  "sciname": "Aquabacterium lacunae"
+                },
+                {
+                  "id": "gb|TBO31487.1|",
+                  "accession": "TBO31487",
+                  "title": "alpha/beta hydrolase [Aquabacterium lacunae]",
+                  "taxid": 2528630,
+                  "sciname": "Aquabacterium lacunae"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 247.669,
+                  "score": 631,
+                  "evalue": 4.86443e-77,
+                  "identity": 135,
+                  "positive": 174,
+                  "query_from": 37,
+                  "query_to": 293,
+                  "hit_from": 30,
+                  "hit_to": 283,
+                  "align_len": 259,
+                  "gaps": 7,
+                  "qseq": "HGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFVKSKT--AEMSVFDTRG",
+                  "hseq": "NGPAPTETSV-TGNGSFATASAKIATPNGYGSGTVWYPTAGS--GYGLIVVGPGFTETENAINWWGARLASHGFVVVTVGTKTTLDQPESRGKQFMAALKQVVSLE--ATAPYKGKIDASRQAVAGHSMGGGGTLAAARDNPSLKAAIPLAPWHTLKDFSSVKVPTLVIACEKDIIAPVSSHAKRFYDSMNAATPHAFAELAGADHFCVNNSTSAANKATDTKLAVSWLKVFMDNDQRYLPFLKETKPAANLSRYLTAG",
+                  "midline": "+GP PT  S+    G +A ++A + TPNGYG+GTV+YPT  +   +G++V+ PGF   +    W   R+ASHGFVVVTV   +  DQP++RG Q   AL+QVV+L   +TAPY G ID +RQA  GHSMGGGGTLAAARDNPSLKAA+ LAPWHT K +S+++VPTLVI+ EKD IA  S+H+  FY S NA+ P A  ELAGADH C    ++   K    K +V+WLK F+D D RY PF+K     A +S + T G"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gb|MFT3858348.1|",
+                  "accession": "MFT3858348",
+                  "title": "alpha/beta hydrolase [Aquabacterium sp.]",
+                  "taxid": 1872578,
+                  "sciname": "Aquabacterium sp."
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 247.284,
+                  "score": 630,
+                  "evalue": 9.92195e-77,
+                  "identity": 127,
+                  "positive": 169,
+                  "query_from": 16,
+                  "query_to": 279,
+                  "hit_from": 9,
+                  "hit_to": 272,
+                  "align_len": 265,
+                  "gaps": 2,
+                  "qseq": "KLRLVGAAVLSL-AFGMAQAQVHGPDPTVASLEAAAGPYAVSNATVGTPNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "RRHLLAATALTLSASAWAAGFERGPAPTEAGL-LGNGPYTVASAKVASPAGFGSATVYYPTQTQEGKFGLVGLAPGFLSTPGLYTWLASRLASHGFVVVNMGTKTVFDTPEPRGVQLMAALKQVSTLVAAGTVPYAAITDTARQAIMGHSAGGGGTLTAARDNPGLKAAIPMTPASNVSSFDTVAVPTLILACEKDAIAPNATFSAKYYPTLPSTLDRAYLEIAGADHLCPTSLAKAAVQNTVARTVIPWLKRHVDEDRRYQGFI",
+                  "midline": "+  L+ A  L+L A   A     GP PT A L    GPY V++A V +P G+G+ TV+YPT   EG+FG+V LAPGFL+  G Y WLA R+ASHGFVVV +   +VFD P+ RG Q+  AL+QV  L    T PY+ + DTARQA MGHS GGGGTL AARDNP LKAA+ + P     ++ T+ VPTL+++ EKD IA N+  S  +Y +  ++L  A +E+AGADHLC   ++    +  +A+  + WLKR VD D RY  F+"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_309716827.1|",
+                  "accession": "WP_309716827",
+                  "title": "alpha/beta hydrolase family protein [Rhizobacter sp.]",
+                  "taxid": 1909292,
+                  "sciname": "Rhizobacter sp."
+                }
+              ],
+              "len": 297,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 247.284,
+                  "score": 630,
+                  "evalue": 1.26289e-76,
+                  "identity": 125,
+                  "positive": 162,
+                  "query_from": 38,
+                  "query_to": 279,
+                  "hit_from": 36,
+                  "hit_to": 273,
+                  "align_len": 244,
+                  "gaps": 8,
+                  "qseq": "GPDPTVASLEAAAGPYAVSNATVGT--PNGYGAGTVFYPTVRTEGQFGVVVLAPGFLAVQGYYKWLAERVASHGFVVVTVNFNSVFDQPDARGTQMAKALQQVVALSKTSTAPYSGVIDTARQAAMGHSMGGGGTLAAARDNPSLKAAVALAPWHTTKTWSTIQVPTLVISDEKDFIATNSAHSDPFYASFNASLPSAKIELAGADHLCGIQISAEKCKTALAKYSVAWLKRFVDGDARYTPFV",
+                  "hseq": "GPDPTVAGLERA-GSFTVRTTTVSSLAAVGFGKGTIYYPTA--AGSYGVIAISPGFTAYQSSISWMGTRLASHGFVVITIDTNTTSDQPDSRGNQLTAALNKVVSLSRSSGNVLAGKVDATRLAVAGHSMGGGGTLAAARDNPSYKAAVPLAPWHTTKNWSTVRVPTLIIGGESDTVAGDASHSIPFYTSIPNTTLKAFMELNNADHFFP---QASSQYPLVGKYMISWFKRFVDSDTRYSPFL",
+                  "midline": "GPDPTVA LE A G + V   TV +    G+G GT++YPT    G +GV+ ++PGF A Q    W+  R+ASHGFVV+T++ N+  DQPD+RG Q+  AL +VV+LS++S    +G +D  R A  GHSMGGGGTLAAARDNPS KAAV LAPWHTTK WST++VPTL+I  E D +A +++HS PFY S   +   A +EL  ADH       A      + KY ++W KRFVD D RY+PF+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 1123578564,
+            "db_len": 424066497980,
+            "hsp_len": 168,
+            "eff_space": 29883773001956,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}
+

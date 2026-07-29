@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+m0170                -            213 PETadex_26           -            206  9.3e-125  402.1   5.5   1   1    1e-124    1e-124  401.9   5.5     3   205     5   212     1   213 0.98 -
+m0015                -            215 PETadex_26           -            206  1.6e-124  401.4   5.3   1   1  1.7e-124  1.7e-124  401.2   5.3     3   205     7   214     1   215 0.98 -
+m0038                -            215 PETadex_26           -            206  5.2e-124  399.6   6.3   1   1  5.7e-124  5.7e-124  399.5   6.3     3   205     7   214     1   215 0.98 -
+m0083                -            204 PETadex_26           -            206  2.4e-118  381.1   7.2   1   1  2.7e-118  2.7e-118  381.0   7.2     1   204     1   204     1   204 1.00 -
+m0390                -            201 PETadex_26           -            206  1.2e-103  333.1   0.8   1   1  1.4e-103  1.4e-103  332.9   0.8     5   199     2   199     1   201 0.99 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      component_models_v2_2026-07-09/26.hmm
+# Target file:     component_models_v2_2026-07-09/_work/26.fa
+# Option settings: hmmsearch --domtblout component_models_v2_2026-07-09/_work/26.domtbl --max component_models_v2_2026-07-09/26.hmm component_models_v2_2026-07-09/_work/26.fa 
+# Current dir:     /watson/rnalab/dzhu/petadex-alignment/v2
+# Date:            Thu Jul  9 20:03:51 2026
+# [ok]

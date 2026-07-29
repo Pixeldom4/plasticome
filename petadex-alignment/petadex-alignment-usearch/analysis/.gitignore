@@ -1,0 +1,7 @@
+# Generated pipeline artifacts — reproducible from data/ via run.sh / the notebook.
+outputs/*
+!outputs/.gitkeep
+
+# Notebook checkpoints / caches
+.ipynb_checkpoints/
+__pycache__/

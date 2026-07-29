@@ -1,0 +1,2719 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S014181309900046X</prism:url><dc:identifier>doi:10.1016/S0141-8130(99)00046-X</dc:identifier><eid>1-s2.0-S014181309900046X</eid><prism:doi>10.1016/S0141-8130(99)00046-X</prism:doi><pii>S0141-8130(99)00046-X</pii><dc:title>Substrate and binding specificities of bacterial polyhydroxybutyrate depolymerases </dc:title><prism:publicationName>International Journal of Biological Macromolecules</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>01418130</prism:issn><prism:volume>24</prism:volume><prism:issueIdentifier>4</prism:issueIdentifier><prism:startingPage>329</prism:startingPage><prism:endingPage>336</prism:endingPage><prism:pageRange>329-336</prism:pageRange><prism:number>4</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1999-05-31</prism:coverDate><prism:coverDisplayDate>May 1999</prism:coverDisplayDate><prism:copyright>Copyright © 1999 Elsevier Science B.V. All rights reserved.</prism:copyright><prism:publisher>Elsevier Science B.V.</prism:publisher><dc:creator>Kasuya, Ken-ichi</dc:creator><dc:creator>Ohura, Takeshi</dc:creator><dc:creator>Masuda, Kozue</dc:creator><dc:creator>Doi, Yoshiharu</dc:creator><dc:description>
+                  The substrate specificities of three extracellular polyhydroxybutyrate (PHB) depolymerases from Alcaligenes faecalis (PhaZAfa), Pseudomonas stutzeri (PhaZPst), and Comamonas acidovorans (PhaZCac), which are grouped into types A and B based on the position of a lipase box sequence in the catalytic domain, were examined for films of 12 different aliphatic polyesters. Each of these PHB depolymerases used was capable of hydrolyzing poly(3-hydroxybutyrate) (P(3HB)), poly(3-hydroxypropionate) (P(3HP)), poly(4-hydroxybutyrate) (P(4HB)), poly(ethylene succinate) (PESU), and poly(ethylene adipate) (PEA) but could not hydrolyze another seven polyesters. In addition, the binding characteristics of substrate binding domains from PhaZAfa, PhaZCac, and PHB depolymerase from Comamonas testosteroni (PhaZCte) were studied by using fusions with glutathione S-transferase (GST). All of fusion proteins adsorbed strongly on the surfaces of polyester granules of P(3HB), P(3HP), and poly(2-hydroxypropionate) (P(2HP)) which was not hydrolyzed by the PHB depolymerases used in this study, while they did not bind on Avicel and chitin granules. The adsorption kinetics of the fusion proteins to the surface of P(3HB) and P(2HP) granules were found to obey the Langmuir isotherm. The cross-area per molecule of fusion protein bound to P(3HB) granules was estimated to be 12±4 nm2/molecule. It has been suggested that the active sites in catalytic domains of PHB depolymerases have a similar conformational structure, and that several amino acids in substrate-binding domains of PHB depolymerases interact specifically with the surface of polyesters.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>PHB depolymerase</dcterms:subject><dcterms:subject>Catalytic domain</dcterms:subject><dcterms:subject>Substrate-binding domain</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S014181309900046X" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S014181309900046X" rel="scidir"/></coredata><objects><object ref="si4" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="101" height="17" size="521">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-si4.gif?httpAccept=%2A%2F%2A</object><object ref="si3" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="120" height="43" size="957">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-si3.gif?httpAccept=%2A%2F%2A</object><object ref="si2" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="153" height="18" size="681">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-si2.gif?httpAccept=%2A%2F%2A</object><object ref="si1" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="172" height="40" size="1147">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-si1.gif?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="104" height="93" size="1291">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="531" height="477" size="21321">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-gr1.gif?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="86" height="93" size="1555">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="535" height="577" size="24999">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-gr2.gif?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="92" height="93" size="1409">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="361" height="366" size="9549">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-gr3.gif?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="125" height="50" size="2654">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="742" height="294" size="59581">https://api.elsevier.com/content/object/eid/1-s2.0-S014181309900046X-gr4.gif?httpAccept=%2A%2F%2A</object></objects><scopus-id>0033066633</scopus-id><scopus-eid>2-s2.0-0033066633</scopus-eid><pubmed-id>10408639</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0033066633" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271248</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291847</xocs:ssid>
+         <xocs:ssid type="subj">291850</xocs:ssid>
+         <xocs:ssid type="subj">291857</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Biological Macromolecules</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALBIOLOGICALMACROMOLECULES</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="19990528">1999-05-28</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="19990528">1999-05-28</xocs:available-online-date>
+      <xocs:ew-transaction-id>2010-03-27T07:33:17</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S014181309900046X</xocs:eid>
+      <xocs:pii-formatted>S0141-8130(99)00046-X</xocs:pii-formatted>
+      <xocs:pii-unformatted>S014181309900046X</xocs:pii-unformatted>
+      <xocs:doi>10.1016/S0141-8130(99)00046-X</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0141813000X00293</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20210628">2021-06-28T04:10:48.224367Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>19990501</xocs:date-search-begin>
+      <xocs:date-search-end>19990531</xocs:date-search-end>
+      <xocs:year-nav>1999</xocs:year-nav>
+      <xocs:indexeddate epoch="927849600">1999-05-28T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo crossmark dco dateupdated tomb dateloaded datesearch indexeddate issuelist volumelist yearnav articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright dateloadedtxt docsubtype doctype doi eid ewtransactionid hubeid issfirst issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype subheadings volfirst volissue webpdf webpdfpagecount figure table body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast primabst ref alllist content subj ssids</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0141-8130</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>01418130</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0"/>
+      <xocs:vol-first>24</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>24</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>4</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>4</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 24, Issue 4</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>3</xocs:sort-order>
+      <xocs:first-fp>329</xocs:first-fp>
+      <xocs:last-lp>336</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>329</xocs:first-page>
+         <xocs:last-page>336</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>199905</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>May 1999</xocs:cover-date-text>
+      <xocs:cover-date-start>1999-05-01</xocs:cover-date-start>
+      <xocs:cover-date-end>1999-05-31</xocs:cover-date-end>
+      <xocs:cover-date-year>1999</xocs:cover-date-year>
+      <xocs:document-type>converted-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 1999 Elsevier Science B.V. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>SUBSTRATEBINDINGSPECIFICITIESBACTERIALPOLYHYDROXYBUTYRATEDEPOLYMERASES</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>KASUYA</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>K</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Materials and methods</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Chemicals</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Bacterial strains and plasmids</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Media and culture conditions</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Enzymatic hydrolysis of polyester films</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.5</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Construction and expression of a GST–SBD fusion proteins</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.6</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Adsorption assays</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.7</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Surface area of P(3HB) granules</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.8</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Analytical procedures</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.9</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Nucleotide sequence accession number</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Enzymatic hydrolysis of polyester films</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Adsorption of GST-SBD fusion proteins to polymer granules</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="BIB1">
+            <xocs:ref-normalized-surname>DOI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>MICROBIALPOLYESTERS</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB2">
+            <xocs:ref-normalized-surname>ANDERSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>450</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB3">
+            <xocs:ref-normalized-surname>HOLMES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>32</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB4">
+            <xocs:ref-normalized-surname>MERGAERT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>317</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB5">
+            <xocs:ref-normalized-surname>MERGAERT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3233</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB6">
+            <xocs:ref-normalized-surname>JENDROSSEK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>451</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB7">
+            <xocs:ref-normalized-surname>CHOWDHURY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1963</xocs:ref-pub-year>
+            <xocs:ref-first-fp>167</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB8">
+            <xocs:ref-normalized-surname>LUSTY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1966</xocs:ref-pub-year>
+            <xocs:ref-first-fp>960</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB9">
+            <xocs:ref-normalized-surname>JENDROSSEK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>53</xocs:ref-first-fp>
+            <xocs:ref-last-lp>63</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB10">
+            <xocs:ref-normalized-surname>KASUYA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>379</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB11">
+            <xocs:ref-normalized-surname>KITA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1727</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB12">
+            <xocs:ref-normalized-surname>NAKAYAMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>63</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB13">
+            <xocs:ref-normalized-surname>SHIRAKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>99</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB14">
+            <xocs:ref-normalized-surname>BEHRENDS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>191</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB15">
+            <xocs:ref-normalized-surname>FUKUI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>164</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB16">
+            <xocs:ref-normalized-surname>KASUYA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4844</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB17">
+            <xocs:ref-normalized-surname>SHINOMIYA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>89</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB18">
+            <xocs:ref-normalized-surname>JENDROSSEK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>160</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB19">
+            <xocs:ref-normalized-surname>JENDROSSEK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>596</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB20">
+            <xocs:ref-normalized-surname>SHINOHE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>103</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB21">
+            <xocs:ref-normalized-surname>JAEGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3113</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB22">
+            <xocs:ref-normalized-surname>JAEGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>29</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB23">
+            <xocs:ref-normalized-surname>SCHRAG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>761</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB24">
+            <xocs:ref-normalized-surname>BRIESE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>75</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB25">
+            <xocs:ref-normalized-surname>HANSEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>91</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB26">
+            <xocs:ref-normalized-surname>KASUYA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>35</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB27">
+            <xocs:ref-normalized-surname>SHINOMIYA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>129</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB28">
+            <xocs:ref-normalized-surname>FUKUI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1093</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB29">
+            <xocs:ref-normalized-surname>DOI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3705</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB30">
+            <xocs:ref-normalized-surname>KIMURA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>445</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB31">
+            <xocs:ref-normalized-surname>BABA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>527</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB32">
+            <xocs:ref-normalized-surname>ABE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6018</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB33">
+            <xocs:ref-normalized-surname>TANIO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1982</xocs:ref-pub-year>
+            <xocs:ref-first-fp>71</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB34">
+            <xocs:ref-normalized-surname>UEFUJI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>275</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB35">
+            <xocs:ref-normalized-surname>MUKAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>319</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB36">
+            <xocs:ref-normalized-surname>MUKAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>85</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB37">
+            <xocs:ref-normalized-surname>SHIRAKURA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1986</xocs:ref-pub-year>
+            <xocs:ref-first-fp>46</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB38">
+            <xocs:ref-normalized-surname>BRADFORD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1976</xocs:ref-pub-year>
+            <xocs:ref-first-fp>248</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB39"/>
+         <xocs:ref-info refid="BIB40">
+            <xocs:ref-normalized-surname>KASUYA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>167</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB41">
+            <xocs:ref-normalized-surname>MUKAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>361</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>KASUYAX1999X329</xocs:refkey3>
+         <xocs:refkey4lp>KASUYAX1999X329X336</xocs:refkey4lp>
+         <xocs:refkey4ai>KASUYAX1999X329XK</xocs:refkey4ai>
+         <xocs:refkey5>KASUYAX1999X329X336XK</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2021-06-23T03:34:30.720Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Japan Science and Technology Corporation</xocs:funding-agency-matched-string>
+            <xocs:funding-agency-acronym>JST</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Japan Science and Technology Corporation</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001695</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/1861060/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Core Research for Evolutional Science and Technology</xocs:funding-agency-matched-string>
+            <xocs:funding-agency-acronym>CREST</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Core Research for Evolutional Science and Technology</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100003382</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/1861060/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>This work was supported by CREST (Core Research for Evolutional Science and Technology) of Japan Science and Technology Corporation (JST).</xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0141-8130(99)00046-X</xocs:pii-formatted>
+         <xocs:pii-unformatted>S014181309900046X</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S014181309900046X</xocs:eid>
+         <xocs:doi>10.1016/S0141-8130(99)00046-X</xocs:doi>
+         <xocs:cid>271248</xocs:cid>
+         <xocs:timestamp>2010-09-30T04:13:08.929947-04:00</xocs:timestamp>
+         <xocs:cover-date-start>1999-05-01</xocs:cover-date-start>
+         <xocs:cover-date-end>1999-05-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/MAIN/application/pdf/ab3284302f792acff2f6fcab5f7e3128/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/MAIN/application/pdf/ab3284302f792acff2f6fcab5f7e3128/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>273376</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>8</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S014181309900046X-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/PREVIEW/image/png/6236c526228eb0f2980d49e85c2ee575/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/PREVIEW/image/png/6236c526228eb0f2980d49e85c2ee575/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>67134</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-si4.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/STRIPIN/image/gif/dc771050185f47b32917f11636a69f34/si4.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/STRIPIN/image/gif/dc771050185f47b32917f11636a69f34/si4.gif</xocs:ucs-locator>
+               <xocs:file-basename>si4</xocs:file-basename>
+               <xocs:filename>si4.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>521</xocs:filesize>
+               <xocs:pixel-height>17</xocs:pixel-height>
+               <xocs:pixel-width>101</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-si3.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/STRIPIN/image/gif/1ebb0d2652bc14f3055f17dda84efcf4/si3.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/STRIPIN/image/gif/1ebb0d2652bc14f3055f17dda84efcf4/si3.gif</xocs:ucs-locator>
+               <xocs:file-basename>si3</xocs:file-basename>
+               <xocs:filename>si3.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>957</xocs:filesize>
+               <xocs:pixel-height>43</xocs:pixel-height>
+               <xocs:pixel-width>120</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-si2.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/STRIPIN/image/gif/3e0233ee9531d79a5c1d5e814a5e441c/si2.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/STRIPIN/image/gif/3e0233ee9531d79a5c1d5e814a5e441c/si2.gif</xocs:ucs-locator>
+               <xocs:file-basename>si2</xocs:file-basename>
+               <xocs:filename>si2.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>681</xocs:filesize>
+               <xocs:pixel-height>18</xocs:pixel-height>
+               <xocs:pixel-width>153</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-si1.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/STRIPIN/image/gif/e3d963271e338604a10e67eb4ba85407/si1.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/STRIPIN/image/gif/e3d963271e338604a10e67eb4ba85407/si1.gif</xocs:ucs-locator>
+               <xocs:file-basename>si1</xocs:file-basename>
+               <xocs:filename>si1.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>1147</xocs:filesize>
+               <xocs:pixel-height>40</xocs:pixel-height>
+               <xocs:pixel-width>172</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/gr1/THUMBNAIL/image/gif/64a1f10cdcce4ae8e6a79fbc2b21fc3b/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/gr1/THUMBNAIL/image/gif/64a1f10cdcce4ae8e6a79fbc2b21fc3b/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1291</xocs:filesize>
+               <xocs:pixel-height>93</xocs:pixel-height>
+               <xocs:pixel-width>104</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-gr1.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/gr1/DOWNSAMPLED/image/gif/300fc71597ade2c8530be552abaf6d37/gr1.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/gr1/DOWNSAMPLED/image/gif/300fc71597ade2c8530be552abaf6d37/gr1.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>21321</xocs:filesize>
+               <xocs:pixel-height>477</xocs:pixel-height>
+               <xocs:pixel-width>531</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/gr2/THUMBNAIL/image/gif/51797cd0863bf85d1a619434d6256042/gr2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/gr2/THUMBNAIL/image/gif/51797cd0863bf85d1a619434d6256042/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1555</xocs:filesize>
+               <xocs:pixel-height>93</xocs:pixel-height>
+               <xocs:pixel-width>86</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-gr2.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/gr2/DOWNSAMPLED/image/gif/b79f87cc4a41254a57b989a42e480f56/gr2.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/gr2/DOWNSAMPLED/image/gif/b79f87cc4a41254a57b989a42e480f56/gr2.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>24999</xocs:filesize>
+               <xocs:pixel-height>577</xocs:pixel-height>
+               <xocs:pixel-width>535</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/gr3/THUMBNAIL/image/gif/25785e5d87150d89052382e8cf96afc5/gr3.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/gr3/THUMBNAIL/image/gif/25785e5d87150d89052382e8cf96afc5/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1409</xocs:filesize>
+               <xocs:pixel-height>93</xocs:pixel-height>
+               <xocs:pixel-width>92</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-gr3.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/gr3/DOWNSAMPLED/image/gif/28b779397de41e114f9313485ead3c7a/gr3.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/gr3/DOWNSAMPLED/image/gif/28b779397de41e114f9313485ead3c7a/gr3.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>9549</xocs:filesize>
+               <xocs:pixel-height>366</xocs:pixel-height>
+               <xocs:pixel-width>361</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/gr4/THUMBNAIL/image/gif/e246072e439409fedb095500bb64b3ad/gr4.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/gr4/THUMBNAIL/image/gif/e246072e439409fedb095500bb64b3ad/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>2654</xocs:filesize>
+               <xocs:pixel-height>50</xocs:pixel-height>
+               <xocs:pixel-width>125</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S014181309900046X-gr4.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S014181309900046X/gr4/DOWNSAMPLED/image/gif/96db934ec089fc84c16ac7bb788fb5b0/gr4.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S014181309900046X/gr4/DOWNSAMPLED/image/gif/96db934ec089fc84c16ac7bb788fb5b0/gr4.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>59581</xocs:filesize>
+               <xocs:pixel-height>294</xocs:pixel-height>
+               <xocs:pixel-width>742</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <converted-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="4.5.2" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>BIOMAC</jid>
+            <aid>1376</aid>
+            <ce:pii>S0141-8130(99)00046-X</ce:pii>
+            <ce:doi>10.1016/S0141-8130(99)00046-X</ce:doi>
+            <ce:copyright type="full-transfer" year="1999">Elsevier Science B.V.</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="FIG1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Schematic representation of the domain structures of PhaZ<ce:inf loc="post">Afa</ce:inf>, GST-SBD<ce:inf loc="post">Afa</ce:inf>, PhaZ<ce:inf loc="post">Pst</ce:inf>, PhaZ<ce:inf loc="post">Cac</ce:inf>, GST-SBD<ce:inf loc="post">Cac</ce:inf>, PhaZ<ce:inf loc="post">Cte</ce:inf>, and GST-SBD<ce:inf loc="post">Cte</ce:inf>. The numbers refer to the positions of amino acids in the sequence of the mature enzyme.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:figure id="FIG2">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Rates of enzymatic erosion of 12 polyester films at 37°C in the aqueous solution (pH 7.4) containing PHB depolymerases from <ce:italic>A.faecalis</ce:italic> (PhaZ<ce:inf loc="post">Afa</ce:inf>), <ce:italic>P. stutzeri</ce:italic> (PhaZ<ce:inf loc="post">Pst</ce:inf>), or<ce:italic>C. acidovorans</ce:italic> (PhaZ<ce:inf loc="post">Cac</ce:inf>).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2"/>
+            </ce:figure>
+            <ce:figure id="FIG3">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Adsorption isotherms of a fusion protein GST-SBD<ce:inf loc="post">Cac</ce:inf> in the presence of P(3HB) granules (•) and P(2HP) granules (○) at 37°C.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3"/>
+            </ce:figure>
+            <ce:figure id="FIG4">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Alignment of amino acid sequences for 13 substrate binding domains (SBDs) of <ce:italic>A. faecalis</ce:italic> T1 PhaZ<ce:inf loc="post">Afa</ce:inf> (accession no. J04223), <ce:italic>C. acidovorans</ce:italic> PhaZ<ce:inf loc="post">Cac</ce:inf> (AB003186), <ce:italic>C. testosteroni</ce:italic> PhaZ<ce:inf loc="post">Cte</ce:inf> (AB000508), <ce:italic>Comamonas</ce:italic> sp. PhaZ<ce:inf loc="post">Csp</ce:inf> (U16275), <ce:italic>Streptomyces exfoliatus</ce:italic> PhaZ<ce:inf loc="post">Sex</ce:inf> (U58990), <ce:italic>Pseudomonas pickettii</ce:italic> PhaZ<ce:inf loc="post">Rpi</ce:inf> (D25315), <ce:italic>Pseudmonas lemoignei</ce:italic> PhaZ2<ce:inf loc="post">Ple</ce:inf> (U68039), <ce:italic>P. lemoignei</ce:italic> PhaZ3<ce:inf loc="post">Ple</ce:inf> (U68170), <ce:italic>P. lemoignei</ce:italic> PhaZ5<ce:inf loc="post">Ple</ce:inf> (U12977), <ce:italic>A. faecalis</ce:italic> AE122 PhaZ<ce:inf loc="post">AfaAE</ce:inf> (U55775), <ce:italic>P. lemoignei</ce:italic> PhaZ1<ce:inf loc="post">Ple</ce:inf> (Z22595), and <ce:italic>P. lemoignei</ce:italic> PhaZ4<ce:inf loc="post">Ple</ce:inf> (U12976). Amino acids present in at least ten or six sequences are denote by capital or lower-case letter, respectively. The open squares (□), closed squares (■), open circles (○) and closed circles (•) denote amino acids with polar side chain, positively charged amino acids, amino acids with hydrophobic side chain, and amino acids with aromatic side chain, respectively.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr4"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="TBL1" colsep="0" rowsep="0" frame="topbot">
+               <ce:label>Table 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Molecular weights, thermal properties and X-ray crystallinities of polyester samples</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="6">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <colspec colname="col4" colsep="0"/>
+                  <colspec colname="col5" colsep="0"/>
+                  <colspec colname="col6" colsep="0"/>
+                  <thead>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Sample</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" namest="col2" nameend="col3" rowsep="1">Molecular weights<cross-ref refid="TBLFN1">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" namest="col4" nameend="col5" rowsep="1">Thermal properties<cross-ref refid="TBLFN2">
+                              <sup loc="post">b</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6">Crystallinity<cross-ref refid="TBLFN3">
+                              <sup loc="post">c</sup>
+                           </cross-ref> (%)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">
+                           <italic>M</italic>
+                           <inf loc="post">n</inf>×10<sup loc="post">−3</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">
+                           <italic>M</italic>
+                           <inf loc="post">w</inf>/<italic>M</italic>
+                           <inf loc="post">n</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">
+                           <italic>T</italic>
+                           <inf loc="post">g</inf> (°C)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">
+                           <italic>T</italic>
+                           <inf loc="post">m</inf> (°C)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(2HP)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">258</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">1.8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">59</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">176</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">46±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(3HP)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">143</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">1.4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">−19</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">77</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">37±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(3HB)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">350</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2.1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">178</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">60±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(3HV)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">250</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2.3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">−18</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">105</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">53±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(3HO)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">40</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">4.4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">−39</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">56</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">35±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(4HB)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">339</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2.3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">−48</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">53</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">34±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(5HV)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">55</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">1.6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">−66</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">57</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">39±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(6HH)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">100</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">1.7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">62</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">63±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">PEA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">40</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">3.6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">49</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">74±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">PESU</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">30</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2.9</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">106</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">61±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">PBA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">30</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2.7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">60</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">70±5</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">PBSU</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">33</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2.4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">117</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">63±5</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:table-footnote id="TBLFN1">
+                  <ce:label>a</ce:label>
+                  <ce:note-para>Number-average (<ce:italic>M</ce:italic>
+                     <ce:inf loc="post">n</ce:inf>) and weight-average molecular weights (<ce:italic>M</ce:italic>
+                     <ce:inf loc="post">w</ce:inf>) were determined by GPC.</ce:note-para>
+               </ce:table-footnote>
+               <ce:table-footnote id="TBLFN2">
+                  <ce:label>b</ce:label>
+                  <ce:note-para>Glass-transition and melting temperatures <ce:italic>T</ce:italic>
+                     <ce:inf loc="post">g</ce:inf> and <ce:italic>T</ce:italic>
+                     <ce:inf loc="post">m</ce:inf> were determined by DSC.</ce:note-para>
+               </ce:table-footnote>
+               <ce:table-footnote id="TBLFN3">
+                  <ce:label>c</ce:label>
+                  <ce:note-para>Degrees of crystallinity were determined by X-ray diffraction.</ce:note-para>
+               </ce:table-footnote>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="TBL2" colsep="0" rowsep="0" frame="topbot">
+               <ce:label>Table 2</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">Binding specificity of fusion proteins to five polymer granules at 37°C</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="5">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <colspec colname="col4" colsep="0"/>
+                  <colspec colname="col5" colsep="0"/>
+                  <thead>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Substrate</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" namest="col2" nameend="col5" rowsep="1">Amount of adsorbed protein (μg)<cross-ref refid="TBLFN4">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                     </row>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Cac</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Cte</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Afa</inf>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(3HB)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">5.3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">7.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">3.4</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(2HP)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">6.2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">1.9</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">3.0</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(3HP)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">4.1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">3.2</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Avicel</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Chitin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.0</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:table-footnote id="TBLFN4">
+                  <ce:label>a</ce:label>
+                  <ce:note-para>Four proteins (10 μg) were mixed with 1 ml suspension of polymer granules for 10 min at 37°C.</ce:note-para>
+               </ce:table-footnote>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="TBL3" colsep="0" rowsep="0" frame="topbot">
+               <ce:label>Table 3</ce:label>
+               <ce:caption>
+                  <ce:simple-para view="all">The values of adsorption equilibrium constant <ce:italic>K</ce:italic> for three fusion proteins, and maximum amounts <ce:italic>E</ce:italic>
+                     <ce:inf loc="post">max</ce:inf> of proteins adsorbed on the surface of polyester granules</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="7">
+                  <colspec colname="col1" colsep="0"/>
+                  <colspec colname="col2" colsep="0"/>
+                  <colspec colname="col3" colsep="0"/>
+                  <colspec colname="col4" colsep="0"/>
+                  <colspec colname="col5" colsep="0"/>
+                  <colspec colname="col6" colsep="0"/>
+                  <colspec colname="col7" colsep="0"/>
+                  <thead>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Substrate</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" namest="col2" nameend="col4" rowsep="1">
+                           <italic>K</italic> (ml/μg)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" namest="col5" nameend="col7" rowsep="1">
+                           <italic>E</italic>
+                           <inf loc="post">max</inf> (μg/mg polyester granules)</entry>
+                     </row>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Cac</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Cte</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Afa</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Cac</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Cte</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">GST-SBD<inf loc="post">Afa</inf>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(3HB)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">1.0±0.1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">1.1±0.1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.8±0.1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">19±2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">31±3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">17±2</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">P(2HP)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">0.5±0.05</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.<cross-ref refid="TBLFN5">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.<cross-ref refid="TBLFN5">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">16±2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.<cross-ref refid="TBLFN5">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">n.d.<cross-ref refid="TBLFN5">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:table-footnote id="TBLFN5">
+                  <ce:label>a</ce:label>
+                  <ce:note-para>n.d., not determined.</ce:note-para>
+               </ce:table-footnote>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:title>Substrate and binding specificities of bacterial polyhydroxybutyrate depolymerases</ce:title>
+            <ce:author-group>
+               <ce:author>
+                  <ce:given-name>Ken-ichi</ce:given-name>
+                  <ce:surname>Kasuya</ce:surname>
+                  <ce:cross-ref refid="AFF1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Takeshi</ce:given-name>
+                  <ce:surname>Ohura</ce:surname>
+                  <ce:cross-ref refid="AFF2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Kozue</ce:given-name>
+                  <ce:surname>Masuda</ce:surname>
+                  <ce:cross-ref refid="AFF1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Yoshiharu</ce:given-name>
+                  <ce:surname>Doi</ce:surname>
+                  <ce:cross-ref refid="AFF1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="AFF2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="CORR1">*</ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="AFF1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Polymer Chemistry Laboratory, The Institute of Physical and Chemical Research (RIKEN), 2-1 Hirosawa, Wako-shi, Saitama 351-0198, Japan</ce:textfn>
+               </ce:affiliation>
+               <ce:affiliation id="AFF2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Graduate School of Science and Engineering, Saitama University, Shimo-Ohkubo, Urawa-shi, Saitama 338-0825, Japan</ce:textfn>
+               </ce:affiliation>
+               <ce:correspondence id="CORR1">
+                  <ce:label>*</ce:label>
+                  <ce:text>Corresponding author. Tel.: +81-48-4679402; fax: +81-48-4624667</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="15" month="7" year="1998"/>
+            <ce:date-revised day="7" month="11" year="1998"/>
+            <ce:date-accepted day="25" month="1" year="1999"/>
+            <ce:abstract class="author"><ce:abstract-sec>
+                  <ce:simple-para view="all">The substrate specificities of three extracellular polyhydroxybutyrate (PHB) depolymerases from <ce:italic>Alcaligenes faecalis</ce:italic> (PhaZ<ce:inf loc="post">Afa</ce:inf>), <ce:italic>Pseudomonas stutzeri</ce:italic> (PhaZ<ce:inf loc="post">Pst</ce:inf>), and <ce:italic>Comamonas acidovorans</ce:italic> (PhaZ<ce:inf loc="post">Cac</ce:inf>), which are grouped into types A and B based on the position of a lipase box sequence in the catalytic domain, were examined for films of 12 different aliphatic polyesters. Each of these PHB depolymerases used was capable of hydrolyzing poly(3-hydroxybutyrate) (P(3HB)), poly(3-hydroxypropionate) (P(3HP)), poly(4-hydroxybutyrate) (P(4HB)), poly(ethylene succinate) (PESU), and poly(ethylene adipate) (PEA) but could not hydrolyze another seven polyesters. In addition, the binding characteristics of substrate binding domains from PhaZ<ce:inf loc="post">Afa</ce:inf>, PhaZ<ce:inf loc="post">Cac</ce:inf>, and PHB depolymerase from <ce:italic>Comamonas testosteroni</ce:italic> (PhaZ<ce:inf loc="post">Cte</ce:inf>) were studied by using fusions with glutathione <ce:italic>S</ce:italic>-transferase (GST). All of fusion proteins adsorbed strongly on the surfaces of polyester granules of P(3HB), P(3HP), and poly(2-hydroxypropionate) (P(2HP)) which was not hydrolyzed by the PHB depolymerases used in this study, while they did not bind on Avicel and chitin granules. The adsorption kinetics of the fusion proteins to the surface of P(3HB) and P(2HP) granules were found to obey the Langmuir isotherm. The cross-area per molecule of fusion protein bound to P(3HB) granules was estimated to be 12±4 nm<ce:sup loc="post">2</ce:sup>/molecule. It has been suggested that the active sites in catalytic domains of PHB depolymerases have a similar conformational structure, and that several amino acids in substrate-binding domains of PHB depolymerases interact specifically with the surface of polyesters.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords class="keyword">
+               <ce:section-title>Keywords</ce:section-title>
+               <ce:keyword>
+                  <ce:text>PHB depolymerase</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>Catalytic domain</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>Substrate-binding domain</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body>
+            <ce:sections>
+               <ce:section view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title>Introduction</ce:section-title>
+                  <ce:para view="all">A wide variety of bacteria synthesize an optically active polymer of (<ce:italic>R</ce:italic>)-3-hydroxybutyric acid and accumulate it as a reserve energy source <ce:cross-refs refid="BIB1 BIB2">[1,2]</ce:cross-refs>. Poly(3-hydroxybutyrate) (P(3HB)) isolated from bacteria is a partially crystalline polymer with a melting temperature around 180°C <ce:cross-ref refid="BIB3">[3]</ce:cross-ref>. A remarkable characteristic of P(3HB) is its biodegradability in various environments. Aerobic and anaerobic P(3HB)-degrading microorganisms have been isolated from many ecosystems<ce:cross-refs refid="BIB4 BIB5">[4,5]</ce:cross-refs>, and the properties of their extracellular polyhydroxybutyrate (PHB) depolymerases have been studied <ce:cross-refs refid="BIB6 BIB7 BIB8 BIB9 BIB10 BIB11 BIB12">[6–12]</ce:cross-refs>. Analysis of the genes revealed that the enzymes have bifunctional organization composed of two domains and a linker region <ce:cross-refs refid="BIB6 BIB13">[6,13]</ce:cross-refs>. One of the domains plays the role in binding to solid P(3HB) and is called a substrate-binding domain (SBD) <ce:cross-refs refid="BIB14 BIB15 BIB16 BIB17">[14–17]</ce:cross-refs>. The other domain is a catalytic domain and contains catalytic machinery composed of a catalytic triad (Ser-His-Asp) <ce:cross-refs refid="BIB18 BIB19">[18,19]</ce:cross-refs>. The serine is a part of a lipase box pentapeptide Gly-X-Ser-X-Gly <ce:cross-ref refid="BIB20">[20]</ce:cross-ref>, which has been found in all known serine hydrolases, such as lipases, esterases, and serine proteases <ce:cross-refs refid="BIB21 BIB22 BIB23">[21–23]</ce:cross-refs>. In addition, the two domains are connected by a fibronectin type III or threonin-rich linker <ce:cross-refs refid="BIB19 BIB24 BIB25">[19,24,25]</ce:cross-refs>.</ce:para>
+                  <ce:para view="all">In a previous study <ce:cross-ref refid="BIB26">[26]</ce:cross-ref>, the kinetics of adsorption and hydrolysis using a PHB depolymerase from <ce:italic>Alcaligenes faecalis</ce:italic> T1 were investigated on the surface of five polyhydroxyalkanoate (PHA) films. It was found that the enzyme was adsorbed on the surface of all five PHA films, but the enzyme hydrolyzed only three PHA films (P(3HB), P(3HP), and P(4HB)) and did not hydrolyze other two PHA films of P(2HP) and poly(6-hydroxyhexanoate). In addition, our previous works <ce:cross-refs refid="BIB16 BIB17 BIB27">[16,17,27]</ce:cross-refs> using fusion proteins of a SBD of PHB depolymerase with glutathione <ce:italic>S</ce:italic>-transferase have demonstrated that the SBD moiety is essential for the adsorption of PHB depolymerase to the surface of P(3HB) granules and acts independently of the catalytic domain.</ce:para>
+                  <ce:para view="all">The primary structures of PHB depolymerases reported are classified into two groups based on the location of a lipase box sequence in the catalytic domains (<ce:cross-ref refid="FIG1">Fig. 1</ce:cross-ref>
+                     <ce:float-anchor refid="FIG1"/>). In type A PHB depolymerases a lipase box is located in the center of catalytic domain, while a lipase box is adjacent to N termini in type B PHB depolymerases. However, there are few reports on the relationship between the primary structure of PHB depolymerase and kinetic behavior of enzymatic hydrolysis.</ce:para>
+                  <ce:para view="all">The objective of the present study is to understand the mechanism of enzymatic hydrolysis for polyesters by PHB depolymerases. This paper reports the substrate and binding specificities of four PHB depolymerases from <ce:italic>A. faecalis</ce:italic>, <ce:italic>Pseudomonas stutzeri</ce:italic>, <ce:italic>Comamonas acidovorans</ce:italic>, and <ce:italic>Comamonas testosteroni</ce:italic>, defined as types A and B.</ce:para>
+               </ce:section>
+               <ce:section view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title>Materials and methods</ce:section-title>
+                  <ce:section view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title>Chemicals</ce:section-title>
+                     <ce:para view="all">The molecular weights, thermal properties and crystallinities of 12 polyester samples used in this study are listed in <ce:cross-ref refid="TBL1">Table 1</ce:cross-ref>
+                        <ce:float-anchor refid="TBL1"/>. P(3HB) was purchased from Polyscience Inc. Poly(3-hydroxypentanoate) ((P(3HV)) was produced by a recombinant <ce:italic>Ralstonia eutropha</ce:italic> from pentanoic acid <ce:cross-ref refid="BIB28">[28]</ce:cross-ref>. Poly(3-hydroxyoctanoate) ((P(3HO)) was produced by <ce:italic>Pseudomonas oleovorans</ce:italic> ATCC 29347 from octanoic acid <ce:cross-ref refid="BIB29">[29]</ce:cross-ref>. Poly(4-hydroxybutyrate) ((P(4HB)) was produced by <ce:italic>C. acidovorans</ce:italic> IFO 13582 from 1,4-butanediol <ce:cross-ref refid="BIB30">[30]</ce:cross-ref>. Poly(3-hydroxypropionate) ((P(3HP)), poly(5-hydroxypentanoate) (P(5HV)), and poly(6-hydroxyhexanoate) (P(6HH) were prepared at 60°C by ring-opening polymerizations of β-propiolactone, δ-valelolactone, and ε-caprolactone in the presence of poly(methylaluminoxane) catalyst, respectively <ce:cross-ref refid="BIB31">[31]</ce:cross-ref>. Poly(2-hydroxypropionate) (P(2HP)) was purchased from Shimadzu Inc. Poly(ethylene adipate) (PEA), poly(ethylene succinate) (PESU), poly(butylene adipate) (PBA), and poly(butylene succinate) (PBSU) were kind gifts of Showa High Polymer Inc. Polyester films were prepared by solvent-casting techniques from chloroform solution of polyester using glass Petri dishes as casting surface <ce:cross-ref refid="BIB32">[32]</ce:cross-ref>. Avicel and chitin were purchased from Asahi and Sigma, respectively.</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title>Bacterial strains and plasmids</ce:section-title>
+                     <ce:para view="all">
+                        <ce:italic>Escherichia coli</ce:italic> DH5α[<ce:italic>supE44,</ce:italic> Δ<ce:italic>lacU169(</ce:italic>φ<ce:italic>80 lacZ</ce:italic>Δ<ce:italic>M15), hsdR17, recA1, endA1, gyrA96, thi1, relA1</ce:italic>] (Toyobo, Osaka, Japan) was used as host for the production of recombinant proteins. <ce:italic>A. faecalis</ce:italic> T1 (=JCM 10169) <ce:cross-ref refid="BIB33">[33]</ce:cross-ref>, <ce:italic>P. stutzeri</ce:italic> YM1006 (=JCM 10168) <ce:cross-ref refid="BIB34">[34]</ce:cross-ref>, and <ce:italic>C. acidovorans</ce:italic> YM1609 (=JCM 10172) <ce:cross-refs refid="BIB16 BIB35">[16,35]</ce:cross-refs> were used as sources for PHB depolymerases. Recombinant <ce:italic>R. eutropha</ce:italic> 
+                        <ce:cross-ref refid="BIB28">[28]</ce:cross-ref>, <ce:italic>C. acidovorans</ce:italic> IFO 13582, and <ce:italic>P. oleovorans</ce:italic> ATCC 29347 were used for the production of P(3HV), P(4HB), and (P(3HO), respectively. Plasmids pGEX-SBD<ce:inf loc="post">Afa</ce:inf> 
+                        <ce:cross-ref refid="BIB27">[27]</ce:cross-ref>, pGEX-SBD<ce:inf loc="post">Cte</ce:inf> 
+                        <ce:cross-ref refid="BIB17">[17]</ce:cross-ref>, and pGEX-SBD<ce:inf loc="post">Cac</ce:inf> 
+                        <ce:cross-ref refid="BIB16">[16]</ce:cross-ref> encoding substrate-binding domains (SBDs) of depolymerases from <ce:italic>A. faecalis</ce:italic> JCM 10169, <ce:italic>C. testosteroni</ce:italic> YM1004 (=JCM 10170) <ce:cross-ref refid="BIB36">[36]</ce:cross-ref>, and <ce:italic>C. acidovorans</ce:italic> JCM 10172 were used as expression vectors for glutathione <ce:italic>S</ce:italic>-transferase (GST)-SBD fusion proteins. The four P(3HB)-degrading bacterium strains used in this study were deposited in the Japan Collection of Microorganisms (JCM), Saitama, Japan.</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>2.3</ce:label>
+                     <ce:section-title>Media and culture conditions</ce:section-title>
+                     <ce:para view="all">
+                        <ce:italic>A. faecalis</ce:italic> JCM 10169, <ce:italic>P. stutzeri</ce:italic> JCM 10168, and <ce:italic>C. acidovorans</ce:italic> JCM 10172 were grown at 30°C in a mineral salt medium containing 0.46% KH<ce:inf loc="post">2</ce:inf>PO<ce:inf loc="post">4</ce:inf>, 1.16% Na<ce:inf loc="post">2</ce:inf>HPO<ce:inf loc="post">4</ce:inf>·12H<ce:inf loc="post">2</ce:inf>O, 0.15% P(3HB) granules, 0.05% MgSO<ce:inf loc="post">4</ce:inf>·7H<ce:inf loc="post">2</ce:inf>O, 0.01% FeCl<ce:inf loc="post">3</ce:inf>·6H<ce:inf loc="post">2</ce:inf>O, 0.005% CaCl<ce:inf loc="post">2</ce:inf>·2H<ce:inf loc="post">2</ce:inf>O, and 0.1% NH<ce:inf loc="post">4</ce:inf>Cl. The mineral agar plates were prepared by addition of 1.5% agar to the above liquid culture. <ce:italic>E. coli</ce:italic> cells harboring plasmids were grown in Luria–Bertani broth or M9 medium containing 0.01% ampicillin at 37°C.</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>2.4</ce:label>
+                     <ce:section-title>Enzymatic hydrolysis of polyester films</ce:section-title>
+                     <ce:para view="all">The PHB depolymerases from <ce:italic>A. faecalis</ce:italic> (PhaZ<ce:inf loc="post">Afa</ce:inf>), <ce:italic>P. stutzeri</ce:italic> (PhaZ<ce:inf loc="post">Pst</ce:inf>), and <ce:italic>C. acidovorans</ce:italic> (PhaZ<ce:inf loc="post">Cac</ce:inf>) were purified to electrophoretic homogeneity by the methods described previously <ce:cross-refs refid="BIB16 BIB34 BIB37">[16,34,37]</ce:cross-refs>. The enzymatic hydrolysis of polyester films by the purified PHB depolymerases were carried out at 37°C in 0.1 M potassium phosphate buffer (pH 7.4). The polyester films (initial weights: 14 mg, initial film dimension: 10×10×0.1 mm) were placed in small bottles containing 1.0 ml of the buffer. The reaction was started by the addition of an aqueous solution of PHB depolymerase (PhaZ<ce:inf loc="post">Afa</ce:inf>: 1 μg, PhaZ<ce:inf loc="post">Pst</ce:inf>: 4 μg, PhaZ<ce:inf loc="post">Cac</ce:inf>: 2 μg). For the weight loss measurement, the reaction solution was incubated for 5 h at 37±0.1°C with shaking, and the sample films were removed after the reaction, washed with distilled water, and dried to constant weight in vacuo before analysis.</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>2.5</ce:label>
+                     <ce:section-title>Construction and expression of a GST–SBD fusion proteins</ce:section-title>
+                     <ce:para view="all">The construction of recombinant plasmids were carried out using pGEX 4T-1 vector as reported previously <ce:cross-refs refid="BIB16 BIB17 BIB27">[16,17,27]</ce:cross-refs>. The resulting plasmid pGEX-SBD expressed a GST–SBD fusion protein that includes a SBD of PHB depolymerase in <ce:italic>E. coli</ce:italic> DH 5α (<ce:cross-ref refid="FIG1">Fig. 1</ce:cross-ref>). Purifications of the GST–SBD fusion proteins from the supernatant were performed using Bulk GST purification module (Pharmacia, Uppsala, Sweden) according to the manufacture’s instructions.</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>2.6</ce:label>
+                     <ce:section-title>Adsorption assays</ce:section-title>
+                     <ce:para view="all">P(3HB), P(2HP), P(3HP), chitin, and Avicel granules were used as the adsorbents. P(3HB) granules were purified by washing with distilled water, acetone, and hexane. P(3HP) and P(2HP) granules were prepared and purified as follows. The polymers were dissolved in chloroform and precipitated as granules by addition of methanol. The granules were dried in vacuo at room temperature. Chitin and Avicel granules were purified by washing with distilled water. P(3HB), P(2HP), chitin, or Avicel granules (400 μg) or 10 mg of P(3HP) granules were suspended in 1.0 ml of 0.05 mM Tris–HCl buffer at pH 7.5 and preincubated at 37°C for 5 min. After preincubation, a solution of a given amount of fusion protein solution was added. The reaction mixture was incubated at 37°C for 1–60 min and then centrifuged in a Eppendorf F 45-30-11 rotor at 10 000×<ce:italic>g</ce:italic> for 1 min. The amount of protein in the supernatant was determined by the Bradford method <ce:cross-ref refid="BIB38">[38]</ce:cross-ref>, using bovine serum albumin as the standard. The amount of enzyme bound to polymer granules was calculated from the values of soluble and added enzyme.</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>2.7</ce:label>
+                     <ce:section-title>Surface area of P(3HB) granules</ce:section-title>
+                     <ce:para view="all">The diameters of P(3HB) granules were determined by a scanning electron microscope (JEOL JSM5300) after gold coating of granules using an ion sputtering device (JEOL JFC-1100E). Scanning electron micrographs demonstrated that P(3HB) granules used in this study were smooth spheres with a uniform size distribution and that an average diameter granules was approximately 1.0 μm. Based on the measurement, it was calculated that the surface area per 1 g of P(3HB) granules was 4.9±0.5 m<ce:sup loc="post">2</ce:sup>.</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>2.8</ce:label>
+                     <ce:section-title>Analytical procedures</ce:section-title>
+                     <ce:para view="all">All molecular weight data of polyesters were obtained by gel permeation chromatography (GPC) at 40°C, using a Shimadzu 6A GPC system and a 6A refractive index detector with Shodex K-80M and K-802 columns <ce:cross-ref refid="BIB32">[32]</ce:cross-ref>. Chloroform was used as eluent at a flow rate of 0.8 ml/min, and sample concentrations of 1.0 mg/ml were applied. Polystyrene standards with a low polydispersity were used to make a calibration curve. Differential scanning calorimetry (DSC) data of polyesters were recorded in the temperature range −150–+200°C on a Shimadzu DSC-50 equipped with a cooling accessory under a nitrogen flow of 30 ml/min. Samples of 10 mg were encapsulated in aluminum pans and heated from 0 to 200°C at a rate of 10°C/min. The melting temperature (<ce:italic>T</ce:italic>
+                        <ce:inf loc="post">m</ce:inf>) was determined from the DSC endotherms. For measurement of the glass-transition temperature (<ce:italic>T</ce:italic>
+                        <ce:inf loc="post">g</ce:inf>), the samples were maintained at 200°C for 1 min and then rapidly quenched at −150°C. They were heated from −150 to +200°C at a heating rate of 20°C/min. The <ce:italic>T</ce:italic>
+                        <ce:inf loc="post">g</ce:inf> was taken as the midpoint of the heating capacity change. The X-ray diffraction patterns of films were recorded at 27°C on a Rigaku RAD-IIIB system using nickel-filtered Cu Kα radiation (<ce:italic>λ</ce:italic>=0.154 nm; 40 kV; 30 mA) in the 2<ce:italic>θ</ce:italic> range 6–40° at a scan speed of 2.0°/min. Degrees of crystallinity of polyester films were calculated from diffracted intensity data (<ce:cross-ref refid="EQ1">Eq. (1)</ce:cross-ref>).</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>2.9</ce:label>
+                     <ce:section-title>Nucleotide sequence accession number</ce:section-title>
+                     <ce:para view="all">The nucleotide sequences of <ce:italic>C. acidovorans</ce:italic>, <ce:italic>C. testosteroni</ce:italic>, <ce:italic>P. stutzeri</ce:italic>, and <ce:italic>A. faecalis</ce:italic> PHB depolymerase genes are available from GenBank under the accession number AB003186, AB000508, AB012225, and J04223, respectively.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title>Results</ce:section-title>
+                  <ce:section view="all">
+                     <ce:label>3.1</ce:label>
+                     <ce:section-title>Enzymatic hydrolysis of polyester films</ce:section-title>
+                     <ce:para view="all">The substrate specificities of three bacterial PHB depolymerases (PhaZ<ce:inf loc="post">Afa</ce:inf>, PhaZ<ce:inf loc="post">Pst</ce:inf>, and PhaZ<ce:inf loc="post">Cac</ce:inf>) belonging to both types A and B were investigated for 12 polyester films (<ce:cross-ref refid="TBL1">Table 1</ce:cross-ref>). The enzymatic hydrolysis of polyester film was carried out at 37°C for 5 h in an aqueous solution. <ce:cross-ref refid="FIG2">Fig. 2</ce:cross-ref>
+                        <ce:float-anchor refid="FIG2"/> shows the rates of enzymatic hydrolysis (erosion) for polyester films by three PHB depolymerases. Regardless of the difference in primary structures of catalytic domains, the PHB depolymerases hydrolyzed P(3HB), P(3HP), P(4HB), PEA, and PESU films. In contrast, none of the PHB depolymerases were able to hydrolyze any of the other polyesters. The rates of enzymatic hydrolysis for five polyester films were dependent on the kind of PHB depolymerases. The rate of enzymatic hydrolysis by PhaZ<ce:inf loc="post">Afa</ce:inf> (Type A) decreased in the following order: P(4HB)&gt;P(3HP)&gt;P(3HB)&gt;PEA&gt;PESU, while the rate by PhaZ<ce:inf loc="post">Pst</ce:inf> (Type A) decreased as: P(3HP)&gt;P(3HB)&gt;PESU&gt;P(4HB)&gt;PEA. The rate of enzymatic hydrolysis with PhaZ<ce:inf loc="post">Cac</ce:inf> (Type B) decreased as: P(3HP)&gt;P(4HB)&gt;PEA&gt;P(3HB)&gt;PESU.</ce:para>
+                  </ce:section>
+                  <ce:section view="all">
+                     <ce:label>3.2</ce:label>
+                     <ce:section-title>Adsorption of GST-SBD fusion proteins to polymer granules</ce:section-title>
+                     <ce:para view="all">Adsorption tests of GST-SBD<ce:inf loc="post">Cac</ce:inf>, GST-SBD<ce:inf loc="post">Cte</ce:inf>, and GST-SBD<ce:inf loc="post">Afa</ce:inf> were first studied at 37°C using P(3HB) granules. The amount of fusion proteins bound to P(3HB) granules increased with time and reached a constant value within 5 min (data not shown). In all experiments, the amount of fusion proteins adsorbed on the surface of polymer granules (<ce:italic>E</ce:italic>
+                        <ce:inf loc="post">ad</ce:inf>) and the concentration of fusion proteins in an aqueous solution at an adsorption equilibrium ([<ce:italic>E</ce:italic>]<ce:inf loc="post">e</ce:inf>) were determined after the mixture of fusion proteins and polymer granules was incubated for 10 min at 37°C.</ce:para>
+                     <ce:para view="all">The fusion proteins adsorbed to P(3HB) and P(3HP) granules (<ce:cross-ref refid="TBL2">Table 2</ce:cross-ref>
+                        <ce:float-anchor refid="TBL2"/>) and the adsorbed proteins were not released by washing with 10 mM Tris–HCl buffer or MilliQ water (data not shown), indicating that fusion proteins are strongly bound on the surface of P(3HB) and P(3HP) granules. In addition, it is noted that all fusion proteins are also bound to P(2HP) granules, a substrate which was not hydrolyzed by the PHB depolymerases. On the other hand, none of the fusion proteins was able to adsorb to Avicel or chitin granules. It was confirmed that the GST as a component of fusion protein was not bound to polyester and polysaccharide granules used in this study. These results suggest that the substrate-binding domain (SBD) of PHB depolymerase is responsible for binding on the surface of polyester granules.</ce:para>
+                     <ce:para view="all">Here, we performed the kinetic study on the adsorption of the fusion proteins on the surface of polyester granules of P(3HB) and P(2HP). <ce:cross-ref refid="FIG3">Fig. 3</ce:cross-ref>
+                        <ce:float-anchor refid="FIG3"/> shows the relation between the amount of adsorbed protein (<ce:italic>E</ce:italic>
+                        <ce:inf loc="post">ad</ce:inf>) and the equilibrium concentration of protein ([<ce:italic>E</ce:italic>]<ce:inf loc="post">e</ce:inf>) in the presence of GST-SBD<ce:inf loc="post">Cac</ce:inf> at 37°C. Thus, the adsorption of GST-SBD<ce:inf loc="post">Cac</ce:inf> on the surface of polyester granules could be expressed by the Langmuir adsorption <ce:cross-ref refid="EQ1">Eq. (1)</ce:cross-ref>.<display>
+                           <formula id="EQ1">
+                              <ce:label>(1)</ce:label>
+                              <formula>
+                                 <math altimg="si1.gif">E<inf loc="post">
+                                       <rm>ad</rm>
+                                    </inf>=E<inf loc="post">
+                                       <rm>max</rm>
+                                    </inf>
+                                    <fen>
+                                       <cp type="lpar" style="s"/>
+                                       <fr shape="built" align="c" style="s">
+                                          <nu>K[E]<inf loc="post">
+                                                <rm>e</rm>
+                                             </inf>
+                                          </nu>
+                                          <de>1+K[E]<inf loc="post">
+                                                <rm>e</rm>
+                                             </inf>
+                                          </de>
+                                       </fr>
+                                       <cp type="rpar" style="s"/>
+                                    </fen>
+                                 </math>
+                              </formula>
+                              <formula>
+                                 <math altimg="si2.gif">
+                                    <rm>with [</rm>E]=E<inf loc="post">
+                                       <rm>ad</rm>
+                                    </inf>+[E]<inf loc="post">
+                                       <rm>e</rm>
+                                    </inf>
+                                 </math>
+                              </formula>
+                           </formula>
+                        </display>where <ce:italic>E</ce:italic>
+                        <ce:inf loc="post">max</ce:inf> and <ce:italic>K</ce:italic> are a maximum amount of protein adsorbed on polyester granules and the adsorption equilibrium constant of protein, respectively, and [<ce:italic>E</ce:italic>] is the concentration of the protein added. In addition, the adsorption kinetics of GST-SBD<ce:inf loc="post">Cte</ce:inf> and GST-SBD<ce:inf loc="post">Afa</ce:inf> were also studied at 37°C for P(3HB) granules. The values of <ce:italic>K</ce:italic> and <ce:italic>E</ce:italic>
+                        <ce:inf loc="post">max</ce:inf> are given in <ce:cross-ref refid="TBL3">Table 3</ce:cross-ref>
+                        <ce:float-anchor refid="TBL3"/>.</ce:para>
+                     <ce:para view="all">On the basis of the values of <ce:italic>E</ce:italic>
+                        <ce:inf loc="post">max</ce:inf>, we can calculate a cross-area per one molecule of fusion proteins bound to the surface of P(3HB) granules. The apparent cross-area per one molecule of fusion proteins on the surface of P(3HB) granule was calculated as 12±5 nm<ce:sup loc="post">2</ce:sup>, by using the molecular masses of fusion proteins and the surface area (4.9±0.5 m<ce:sup loc="post">2</ce:sup>/g) of P(3HB) granules.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title>Discussion</ce:section-title>
+                  <ce:para view="all">In this study, to understand the relationship between structures and functions of both catalytic and substrate-binding domains we investigated the substrate and binding specificities of PHB depolymerases. Though the rates of hydrolysis were different among three PHB depolymerases, they were capable of hydrolyzing the same kinds of polyester films. The enzymatically degradable five polyesters have some common chemical structures: the number of carbon and oxygen atoms between two carbonyl groups of the backbone is 3 or 4, while the side chain is methyl carbon or hydrogen. Thus, PHB depolymerases showed relatively narrow substrate specificities for the hydrolysis of polyesters. These results suggest that the active sites of three PHB depolymerases have a similar conformational structure, independently of a difference in the sequence structure of catalytic domains.</ce:para>
+                  <ce:para view="all">Three fusion proteins (GST-SBD<ce:inf loc="post">Afa</ce:inf>, GST-SBD<ce:inf loc="post">Cac</ce:inf>, and GST-SBD<ce:inf loc="post">Cte</ce:inf>) did not adsorb on the polysaccharide granules of Avicel and chitin, while those were strongly bound to the surface of different polyester granules, of P(3HP), P(3HB), and P(2HP), suggesting that there are some specific interactions based on a molecular recognition between SBD and the surface of polyesters. Here, all fusion proteins are noted to be bound to P(2HP) which was not hydrolyzed by the PHB depolymerases, indicating that the binding of SBD to a substrate is necessary but not a sufficient condition for the degradation. This suggests that the binding specificity of SBD is broad compared with the substrate specificity of catalytic domain. The values of adsorption equilibrium constant <ce:italic>K</ce:italic> to P(3HB) granules were almost identical among three fusion proteins, indicating that the affinities between SBD and the surface of polyesters are similar to one another.</ce:para>
+                  <ce:para view="all">In contrast to the sequences of catalytic domains, there is significant homology between the SBDs of PHB depolymerases (<ce:cross-ref refid="FIG4">Fig. 4</ce:cross-ref>
+                     <ce:float-anchor refid="FIG4"/>). In particular four amino acid residues (histidine (H), alanine (A), arginine (R), and cysteine (C)) are completely conserved in all SBDs reported so far. In addition, six amino acid residues of tyrosine (Y) and phenylalanine (F) with an aromatic side chain and 12 residues of serine (S), threonine (T), glutamine (Q), and asparagine (N) with a polar side chain are conserved in SBDs at a comparatively high level. This suggests that some of these common amino acid residues are involved in molecular recognition between the SBDs and the surface of polyesters. In particular, positively charged histidine and arginine residues of four completely conserved residues among SBDs seem to interact with carbonyl groups of polyesters specifically and electrostatically.</ce:para>
+                  <ce:para view="all">The adsorption of fusion protein (GST-SBD) could be expressed by the Langmuir adsorption <ce:cross-ref refid="EQ1">Eq. (1)</ce:cross-ref>. The values of <ce:italic>E</ce:italic>
+                     <ce:inf loc="post">max</ce:inf> for three fusion proteins were in the range 25±9 (μg/mg P(3HB) granules), which suggests that the apparent cross-area per one molecule of fusion protein bound to the surface of P(3HB) granules is 12±5 nm<ce:sup loc="post">2</ce:sup>. The hydrodynamic radius of a fusion protein (GST-SBD) of 31 kDa molecular mass is estimated at approximately 2–3 nm on the assumption that the protein is globular <ce:cross-ref refid="BIB39">[39]</ce:cross-ref>. The result suggests that fusion proteins adsorb densely as monolayers on the surface of P(3HB) granule under conditions of high concentrations of fusion protein.</ce:para>
+                  <ce:para view="all">In previous papers <ce:cross-refs refid="BIB40 BIB41">[40,41]</ce:cross-refs>, we studied the kinetics and mechanism of surface hydrolysis of P(3HB) film using the PHB depolymerase from <ce:italic>A. faecalis</ce:italic>, and reported that the rate (<ce:italic>R</ce:italic>) of enzymatic hydrolysis of P(3HB) film was expressed by <ce:cross-ref refid="EQ2">Eq. (2)</ce:cross-ref>.<display>
+                        <formula id="EQ2">
+                           <ce:label>(2)</ce:label>
+                           <math altimg="si3.gif">R=<fr shape="built" align="c" style="s">
+                                 <nu>k<inf loc="post">s</inf>K<inf loc="post">a</inf>[E]</nu>
+                                 <de>
+                                    <fen>
+                                       <cp type="lpar" style="s"/>1+K<inf loc="post">a</inf>[E]<cp type="rpar" style="s"/>
+                                    </fen>
+                                    <sup loc="post">2</sup>
+                                 </de>
+                              </fr>
+                           </math>
+                        </formula>
+                     </display>where <ce:italic>k</ce:italic>
+                     <ce:inf loc="post">s</ce:inf> is the rate constant of surface hydrolysis of P(3HB) chains by enzyme; <ce:italic>K</ce:italic>
+                     <ce:inf loc="post">a</ce:inf> is an apparent adsorption equilibrium constant of enzyme; and [<ce:italic>E</ce:italic>] is the concentration of the enzyme added. The values of <ce:italic>k</ce:italic>
+                     <ce:inf loc="post">s</ce:inf> and <ce:italic>K</ce:italic>
+                     <ce:inf loc="post">a</ce:inf> at 37°C were determined as 8.3±1.0 (μmol/h) and 0.6±0.2 (ml/μg), respectively, with the PHB depolymerase from <ce:italic>A. faecalis</ce:italic> 
+                     <ce:cross-ref refid="BIB41">[41]</ce:cross-ref>. As presented in <ce:cross-ref refid="EQ2">Eq. (2)</ce:cross-ref>, the rate of enzymatic hydrolysis of P(3HB) surface increases to a maximum value with the concentration of PHB depolymerase, followed by a gradual decrease. The kinetic behavior has been accounted for in terms of a surface–enzymatic reaction that the hydrolysis of P(3HB) chains takes place by the surface reaction between adsorbed enzymes and free adsorption points on the surface <ce:cross-ref refid="BIB41">[41]</ce:cross-ref>. Then, the rate (<ce:italic>R</ce:italic>) is expressed by <ce:cross-ref refid="EQ3">Eq. (3)</ce:cross-ref>.<display>
+                        <formula id="EQ3">
+                           <ce:label>(3)</ce:label>
+                           <math altimg="si4.gif">R=k<inf loc="post">s</inf>θ(1−θ)</math>
+                        </formula>
+                     </display>The ratio of surface–occupation (<ce:italic>θ</ce:italic>) of enzyme molecules is given by the Langmuir adsorption (<ce:cross-ref refid="EQ1">Eq. (1)</ce:cross-ref>). Here it is noted that the <ce:italic>K</ce:italic> value (0.8±0.1 ml/μg) of GST-SBD<ce:inf loc="post">Afa</ce:inf> is almost consistent with the <ce:italic>K</ce:italic>
+                     <ce:inf loc="post">a</ce:inf> value (0.6±0.2 ml/μg) of <ce:italic>A. faecalis</ce:italic> PHB depolymerase at 37°C.</ce:para>
+                  <ce:para view="all">At high concentrations larger than 2 μg/ml of PHB depolymerase, the rate of enzymatic hydrolysis on P(3HB) surface decreases with the concentration of enzyme <ce:cross-refs refid="BIB40 BIB41">[40,41]</ce:cross-refs>, which is accounted for in terms of a self-blocking inhibition owing to a condense adsorption of a dual functional PHB depolymerase consisting of catalytic and substrate-binding domains. The two domains may be connected by a flexible linker protein and function independently. It may be concluded that at low concentrations below 1 μg/ml of PHB depolymerase the majority of catalytic domains of adsorbed enzymes are able to hydrolyze P(3HB) chains on the surface, while that at high concentrations of the enzyme the majority of catalytic domains are not accessible to P(3HB) chains due to a condense coverage of the substrate-binding domains on the surface of P(3HB).</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment>
+               <ce:section-title>Acknowledgements</ce:section-title>
+               <ce:para view="all">This work was supported by CREST (Core Research for Evolutional Science and Technology) of Japan Science and Technology Corporation (JST).</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail>
+            <ce:bibliography view="all">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec>
+                  <ce:bib-reference id="BIB1">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Microbial Polyesters</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1990</sb:date>
+                              <sb:publisher>
+                                 <sb:name>VCH Publishers</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB2">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.J</ce:given-name>
+                                 <ce:surname>Anderson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.A</ce:given-name>
+                                 <ce:surname>Dawes</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microbiol. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>54</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>450</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB3">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.A</ce:given-name>
+                                 <ce:surname>Holmes</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>32</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB4">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Mergaert</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Anderson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Wouters</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Swings</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Kersters</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>103</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>317</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB5">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Mergaert</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Weeb</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Anderson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Wouters</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Swings</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>59</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3233</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB6">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Schirmer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.G</ce:given-name>
+                                 <ce:surname>Schlegel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Microbiol. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>451</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB7">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.A</ce:given-name>
+                                 <ce:surname>Chowdhury</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Arch. Mikrobiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1963</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>167</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB8">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.J</ce:given-name>
+                                 <ce:surname>Lusty</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Doudoroff</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Proc. Natl. Acad. Sci. USA</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>56</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1966</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>960</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB9">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Knoke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.B</ce:given-name>
+                                 <ce:surname>Habibian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Steinbüchel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.G</ce:given-name>
+                                 <ce:surname>Schlegel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Environ. Polym. Degrad.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>53</sb:first-page>
+                              <sb:last-page>63</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB10">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Kasuya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Yao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Polym. Degad. Stab.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>45</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>379</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB11">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Kita</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Ishimaru</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Teraoka</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Yanase</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N</ce:given-name>
+                                 <ce:surname>Kato</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1727</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB12">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Nakayama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Saito</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Fukui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Shirakura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Tomita</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochim. Biophys. Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>827</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>63</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB13">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Shiraki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Iwata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Saito</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Environ. Polym. Degrad.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>99</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB14">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Behrends</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Klingbeil</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>143</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>191</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB15">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Fukui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Narikawa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Miwa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Shirakura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Saito</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Tomita</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochim. Biophys. Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>952</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>164</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB16">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Kasuya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Inoue</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Tanaka</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Akehata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Iwata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Fukui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>63</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4844</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB17">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Shinomiya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Iwata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Kasuya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>154</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>89</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB18">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Backhaus</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Andermann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Can. J. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>41</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>Suppl. 1</sb:issue-nr>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>160</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB19">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Frisse</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Behrends</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Andermann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.D</ce:given-name>
+                                 <ce:surname>Kratzin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Stanislawski</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.G</ce:given-name>
+                                 <ce:surname>Schlegel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>177</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>596</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB20">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Shinohe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Nojiri</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Saito</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Stanislawski</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>141</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>103</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB21">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.E</ce:given-name>
+                                 <ce:surname>Jaeger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Steinbüchel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3113</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB22">
+                     <ce:label>[22]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.E</ce:given-name>
+                                 <ce:surname>Jaeger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Ransac</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.W</ce:given-name>
+                                 <ce:surname>Dijkstra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Colson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>van Heuvel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O</ce:given-name>
+                                 <ce:surname>Misset</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>29</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB23">
+                     <ce:label>[23]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.D</ce:given-name>
+                                 <ce:surname>Schrag</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.G</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Cygler</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>351</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>761</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB24">
+                     <ce:label>[24]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.H</ce:given-name>
+                                 <ce:surname>Briese</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Schmidt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Environ. Polym. Degrad.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>75</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB25">
+                     <ce:label>[25]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.K</ce:given-name>
+                                 <ce:surname>Hansen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEBS Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>305</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>91</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB26">
+                     <ce:label>[26]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Kasuya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Inoue</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Biol. Macromol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>19</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>35</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB27">
+                     <ce:label>[27]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Shinomiya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Iwata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Biol. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>22</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>129</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB28">
+                     <ce:label>[28]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Fukui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Kichise</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Yoshida</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biotechnol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>19</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1093</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB29">
+                     <ce:label>[29]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Abe</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Macromolecule</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>23</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3705</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB30">
+                     <ce:label>[30]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Kimura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Yoshida</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biotechnol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>445</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB31">
+                     <ce:label>[31]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Baba</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N</ce:given-name>
+                                 <ce:surname>Tanahashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Kumagai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Chem. Soc. Jpn.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>527</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB32">
+                     <ce:label>[32]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Abe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Matsubara</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Hori</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Yamaguchi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Macromolecules</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>27</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6018</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB33">
+                     <ce:label>[33]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Tanio</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Fukui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Shirakura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Saito</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Tomita</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Kaiho</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Masamune</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur. J. Biochem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>124</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1982</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>71</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB34">
+                     <ce:label>[34]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Uefuji</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Kasuya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Polym. Degad. Stab.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>58</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>275</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB35">
+                     <ce:label>[35]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Mukai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Yamada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Polym. Degad. Stab.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>319</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB36">
+                     <ce:label>[36]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Mukai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Yamada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Polym. Degad. Stab.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>41</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>85</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB37">
+                     <ce:label>[37]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Shirakura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Fukui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Saito</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Okamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Narikawa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Koide</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Tomita</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Takemasa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Masamune</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochim. Biophys. Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>880</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1986</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>46</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB38">
+                     <ce:label>[38]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.M</ce:given-name>
+                                 <ce:surname>Bradford</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Anal. Biochem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>72</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1976</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>248</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB39">
+                     <ce:label>[39]</ce:label>
+                     <ce:other-ref>
+                        <ce:textref>Protein Solutions Inc. In Operator’s Manual of Dynamic Light Scattering Molecular Size Detectors (DynaPro-801WIN and DynaPro-801TC).</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB40">
+                     <ce:label>[40]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Kasuya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Inoue</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Yamada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Polym. Degrad. Stab.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>167</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB41">
+                     <ce:label>[41]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Mukai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Yamada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Biol. Macromol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>361</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </converted-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

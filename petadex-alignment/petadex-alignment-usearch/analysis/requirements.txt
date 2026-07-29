@@ -1,0 +1,12 @@
+# Central notebook + analysis layer. The pipeline scripts (scripts/step*.py) are
+# pure stdlib and need none of these; only the notebook does.
+# Installed into the conda env `plasticome`.
+jupyter
+notebook>=7
+nbconvert
+pandas>=2
+numpy
+matplotlib>=3.8
+networkx>=3
+# usearch itself is NOT a pip dep: it is bin/usearch11 (Linux ELF), run via
+# Docker linux/amd64 (image debian:bookworm-slim). Requires a running Docker daemon.

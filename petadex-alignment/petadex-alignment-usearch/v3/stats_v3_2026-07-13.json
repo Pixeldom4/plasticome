@@ -1,0 +1,34 @@
+{
+  "prefix": "combined",
+  "evalue_mode": "paper_fixed",
+  "db_letters": 167376,
+  "evalue_scale": 0.443636,
+  "n_nodes": 476,
+  "n_v1": 205,
+  "n_delta": 271,
+  "raw_alignments": 89723,
+  "aligned_pairs": 44399,
+  "edges_passing": 33865,
+  "v1_induced_edges": 2651,
+  "v1_induced_components": 42,
+  "baseline_merges": [
+    [
+      "1",
+      "35"
+    ]
+  ],
+  "n_components": 47,
+  "kinds": {
+    "inherited": 37,
+    "merged": 2,
+    "novel": 7,
+    "split": 1
+  },
+  "delta_outcomes": {
+    "merge": 200,
+    "join": 64,
+    "novel": 7
+  },
+  "singletons": 24,
+  "largest_component": 282
+}

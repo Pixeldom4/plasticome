@@ -1,0 +1,1642 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "refseq_protein"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_3818679",
+          "query_title": "unnamed protein product",
+          "query_len": 297,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "ref|WP_390097707.1|",
+                  "accession": "WP_390097707",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura rubrobrunea]",
+                  "taxid": 115335,
+                  "sciname": "Actinomadura rubrobrunea"
+                }
+              ],
+              "len": 322,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 597.816,
+                  "score": 1540,
+                  "evalue": 0,
+                  "identity": 296,
+                  "positive": 297,
+                  "query_from": 1,
+                  "query_to": 297,
+                  "hit_from": 26,
+                  "hit_to": 322,
+                  "align_len": 297,
+                  "gaps": 0,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "hseq": "LRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "midline": "+RAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_345022072.1|",
+                  "accession": "WP_345022072",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura keratinilytica]",
+                  "taxid": 547461,
+                  "sciname": "Actinomadura keratinilytica"
+                }
+              ],
+              "len": 340,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 506.138,
+                  "score": 1302,
+                  "evalue": 2.2301e-178,
+                  "identity": 264,
+                  "positive": 274,
+                  "query_from": 1,
+                  "query_to": 297,
+                  "hit_from": 46,
+                  "hit_to": 340,
+                  "align_len": 297,
+                  "gaps": 2,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "hseq": "LRAVAKAALAVTLAAGTGALAVPAANAAPAA--ASAVTAVSPYQHGPDPTEDLIESPRGPYATSQTVVSRLSVTGFGGGVIYYPTTTSEGTFGAIAISPGFTATWASLDWLGPRLASHGFVVFGIETNTLLDQPDSRGSQLLAALDYLTQRSSVRNRVDASRLAVAGHSMGGGGTLEAAKDRPSLKAAIPIAPWNLDTTWPEVRTPTLIIGGQADAIAPVAIHSIPFYLTLSNAPEKAYLELRGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDLTISDYRDTCPV",
+                  "midline": "+RAVA  ALA+TL AGTG LA PAA AAPAA  A+A  AVSPYQHGPDPTEDLIE+PRGPYAT+Q  VSRLSVTGFGGGVIYYPTTTSEG FGAIAISPGFTATW+SLDWLGPRLASHGFVVFGIETNTLLDQPDSRG+QLLAALDYLTQRSSVR+RVDASRLAVAGHSMGGGGTLEAAK RPSLKAAIPIAPWNLD TWPEVRTPTLIIGGQ D IAPVA HSIPFYL+LSNAPEK YLEL GASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPND T+SD R TCPV"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_285496105.1|",
+                  "accession": "WP_285496105",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura sp. NBRC 104425]",
+                  "taxid": 3032204,
+                  "sciname": "Actinomadura sp. NBRC 104425"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 503.056,
+                  "score": 1294,
+                  "evalue": 7.19292e-178,
+                  "identity": 263,
+                  "positive": 273,
+                  "query_from": 1,
+                  "query_to": 297,
+                  "hit_from": 1,
+                  "hit_to": 295,
+                  "align_len": 297,
+                  "gaps": 2,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "hseq": "MRAVAKAALAVTLAAGTGALAVPAAHAAPAA--ASAVTAVSPYQHGPDPTEALIESPRGPYATSQTVVSGLSVTGFGGGVIYYPTTTSEGTFGAIAISPGFTATWSSLEWLGPRLASHGFVVFGIETNTLLDQPDSRGSQLLAALDYLTQRSSVRNRVDASRLAVAGHSMGGGGTLEAAKDRPSLKAAIPIAPWNLDTTWPEVRTPTLIIGGQADTIAPVAAHSIPFYLTLSNAPEKAYMELRGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDLTISDYRDTCPV",
+                  "midline": "MRAVA  ALA+TL AGTG LA PAA AAPAA  A+A  AVSPYQHGPDPTE LIE+PRGPYAT+Q  VS LSVTGFGGGVIYYPTTTSEG FGAIAISPGFTATWSSL+WLGPRLASHGFVVFGIETNTLLDQPDSRG+QLLAALDYLTQRSSVR+RVDASRLAVAGHSMGGGGTLEAAK RPSLKAAIPIAPWNLD TWPEVRTPTLIIGGQ DTIAPVA HSIPFYL+LSNAPEK Y+EL GASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPND T+SD R TCPV"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_344942353.1|",
+                  "accession": "WP_344942353",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura miaoliensis]",
+                  "taxid": 430685,
+                  "sciname": "Actinomadura miaoliensis"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 485.723,
+                  "score": 1249,
+                  "evalue": 4.31906e-171,
+                  "identity": 232,
+                  "positive": 240,
+                  "query_from": 43,
+                  "query_to": 297,
+                  "hit_from": 41,
+                  "hit_to": 295,
+                  "align_len": 255,
+                  "gaps": 0,
+                  "qseq": "YQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "hseq": "YQHGPDPTEALIESARGPYSTSQTAVSSLSVTGFGGGVIYYPTTTSEGTFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGSQLLAALDYLTQRSSVRSRVDASRLAVAGHSMGGGGTLEAAKDRPSLKAAIPIAPWNLDTTWPEVRTPTLIIGGQADTIAPVATHSIPFYLTLSNTPEKAYMELRGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDLTISDYRDTCPV",
+                  "midline": "YQHGPDPTE LIE+ RGPY+T+Q +VS LSVTGFGGGVIYYPTTTSEG FGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRG+QLLAALDYLTQRSSVR RVDASRLAVAGHSMGGGGTLEAAK RPSLKAAIPIAPWNLD TWPEVRTPTLIIGGQ DTIAPVATHSIPFYL+LSN PEK Y+EL GASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPND T+SD R TCPV"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_360692660.1|",
+                  "accession": "WP_360692660",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura sp. NPDC047616]",
+                  "taxid": 3155914,
+                  "sciname": "Actinomadura sp. NPDC047616"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 483.026,
+                  "score": 1242,
+                  "evalue": 5.86375e-170,
+                  "identity": 230,
+                  "positive": 239,
+                  "query_from": 43,
+                  "query_to": 297,
+                  "hit_from": 41,
+                  "hit_to": 295,
+                  "align_len": 255,
+                  "gaps": 0,
+                  "qseq": "YQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "hseq": "YQHGPDPTEALIESARGPYSTSQTAVSSLSVTGFGGGVIYYPTTTSEGTFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGSQLLAALDYLTQRSSVRSRVDASRLAVAGHSMGGGGTLEAAKDRPSLKAAIPIAPWNLDTTWPEVRTPTLIIGGQSDAVAPVATHSIPFYLTLSNTPEKAYMELRGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDLTISDYRDTCPV",
+                  "midline": "YQHGPDPTE LIE+ RGPY+T+Q +VS LSVTGFGGGVIYYPTTTSEG FGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRG+QLLAALDYLTQRSSVR RVDASRLAVAGHSMGGGGTLEAAK RPSLKAAIPIAPWNLD TWPEVRTPTLIIGGQ D +APVATHSIPFYL+LSN PEK Y+EL GASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPND T+SD R TCPV"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_012851645.1|",
+                  "accession": "WP_012851645",
+                  "title": "alpha/beta hydrolase family protein [Thermomonospora curvata]",
+                  "taxid": 2020,
+                  "sciname": "Thermomonospora curvata"
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 437.573,
+                  "score": 1124,
+                  "evalue": 4.57349e-152,
+                  "identity": 225,
+                  "positive": 243,
+                  "query_from": 11,
+                  "query_to": 296,
+                  "hit_from": 1,
+                  "hit_to": 287,
+                  "align_len": 287,
+                  "gaps": 1,
+                  "qseq": "LTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDF-TLSDSRVTCP",
+                  "hseq": "MSLRKSFGLLSATAALVAGLVAAPPAQAAANPYQRGPDPTESLLRAARGPFAVSEQSVSRLSVSGFGGGRIYYPTTTSQGTFGAIAISPGFTASWSSLAWLGPRLASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRNRVDASRLAVAGHSMGGGGTLEAAKSRTSLKAAIPIAPWNLDKTWPEVRTPTLIIGGELDSIAPVATHSIPFYNSLTNAREKAYLELNNASHFFPQFSNDTMAKFMISWMKRFIDDDTRYDQFLCPPPRAIGDISDYRDTCP",
+                  "midline": "++L    G+L+A AA  A    A  A AA +PYQ GPDPTE L+ A RGP+A ++ SVSRLSV+GFGGG IYYPTTTS+G FGAIAISPGFTA+WSSL WLGPRLASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR+RVDASRLAVAGHSMGGGGTLEAAKSR SLKAAIPIAPWNLDKTWPEVRTPTLIIGG+LD+IAPVATHSIPFY SL+NA EK YLEL  ASHFFPQ SN TMAK+MISWMKRFIDDDTRY QFLCP P     +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_140175735.1|",
+                  "accession": "WP_140175735",
+                  "title": "alpha/beta hydrolase family protein [Thermomonospora catenispora]",
+                  "taxid": 2493090,
+                  "sciname": "Thermomonospora catenispora"
+                }
+              ],
+              "len": 292,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 437.187,
+                  "score": 1123,
+                  "evalue": 5.74406e-152,
+                  "identity": 212,
+                  "positive": 236,
+                  "query_from": 20,
+                  "query_to": 296,
+                  "hit_from": 15,
+                  "hit_to": 290,
+                  "align_len": 277,
+                  "gaps": 1,
+                  "qseq": "LAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "IVALAGGGALVAPGTAAAAD-NPYERGPDPTEQLIESARGPFATAQTRVSSLSVTGFGGGVIYYPTDTSQGTFGAVAISPGFTADWTSLDWLGPRLASHGFVVIGIDTITRLDQPDSRGRQLLAALDYLTQRSSVRSRVDASRLAVAGHSMGGGGSLEAAKSRTSLKAAIPLAPWNLDKTWPEVVTPTMIFGGELDTVAPVSTHAIPFYNSLTNAREKAYLEIDNGSHFFPNVSNTLVAKYMISWLKRYVDNDTRYEQFLCPVPDDRGLSDSRGTCP",
+                  "midline": "+ A A G A  AP  AAAA  +PY+ GPDPTE LIE+ RGP+ATAQ  VS LSVTGFGGGVIYYPT TS+G FGA+AISPGFTA W+SLDWLGPRLASHGFVV GI+T T LDQPDSRG QLLAALDYLTQRSSVR RVDASRLAVAGHSMGGGG+LEAAKSR SLKAAIP+APWNLDKTWPEV TPT+I GG+LDT+APV+TH+IPFY SL+NA EK YLE+   SHFFP  SNT +AKYMISW+KR++D+DTRY QFLCP P+D  LSDSR TCP"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_286989292.1|",
+                  "accession": "WP_286989292",
+                  "title": "alpha/beta hydrolase family protein [Thermomonospora sp. CIF 1]",
+                  "taxid": 1916083,
+                  "sciname": "Thermomonospora sp. CIF 1"
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 436.032,
+                  "score": 1120,
+                  "evalue": 1.50914e-151,
+                  "identity": 224,
+                  "positive": 243,
+                  "query_from": 11,
+                  "query_to": 296,
+                  "hit_from": 1,
+                  "hit_to": 287,
+                  "align_len": 287,
+                  "gaps": 1,
+                  "qseq": "LTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDF-TLSDSRVTCP",
+                  "hseq": "MSLRKSFGLLSATAALVAGLVAAPPAQAAANPYQRGPDPTESLLRAARGPFAVSEQSVSRLSVSGFGGGRIYYPTTTSQGTFGAIAISPGFTASWSSLAWLGPRLASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRNRVDASRLAVAGHSMGGGGTLEAAKSRTSLKAAIPIAPWNLDKTWPEVRTPTLIIGGELDSIAPVATHSIPFYNSLTNAREKAYLELNNASHFFPQFSNDTMAKFMIAWMKRFIDDDTRYDQFLCPPPRAIGDISDYRDTCP",
+                  "midline": "++L    G+L+A AA  A    A  A AA +PYQ GPDPTE L+ A RGP+A ++ SVSRLSV+GFGGG IYYPTTTS+G FGAIAISPGFTA+WSSL WLGPRLASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR+RVDASRLAVAGHSMGGGGTLEAAKSR SLKAAIPIAPWNLDKTWPEVRTPTLIIGG+LD+IAPVATHSIPFY SL+NA EK YLEL  ASHFFPQ SN TMAK+MI+WMKRFIDDDTRY QFLCP P     +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_119728035.1|",
+                  "accession": "WP_119728035",
+                  "title": "alpha/beta hydrolase family protein [Thermomonospora amylolytica]",
+                  "taxid": 1411117,
+                  "sciname": "Thermomonospora amylolytica"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 434.876,
+                  "score": 1117,
+                  "evalue": 5.4113e-151,
+                  "identity": 217,
+                  "positive": 239,
+                  "query_from": 10,
+                  "query_to": 296,
+                  "hit_from": 14,
+                  "hit_to": 293,
+                  "align_len": 290,
+                  "gaps": 13,
+                  "qseq": "ALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTL---SDSRVTCP",
+                  "hseq": "AIVALAGSGALVAPGT----------AAAADNPYERGPNPTESLIEAARGPFATSQTTVSSLSVTGFGGGVIYYPTDTSQGTFGGIAISPGYTAAWSSLDWLGPRLASHGFVVIGIETNTRLDQPASRGDQLLAALDYLTQRSSVRSRVDATRLAVAGHSMGGGGSLEAAKDRTSLKAAIPLAPWNTDKTWPEVRTPTLIIGGESDTVAPVSSHSIPFYTSLTSAREKAYLELDNASHFFPQTSNTTMAKYMISWMKRYIDNDTRYEQFLCPGPSTGLLSGISDWRQTCP",
+                  "midline": "A+   AG+G L AP            AAAA +PY+ GP+PTE LIEA RGP+AT+Q +VS LSVTGFGGGVIYYPT TS+G FG IAISPG+TA WSSLDWLGPRLASHGFVV GIETNT LDQP SRG QLLAALDYLTQRSSVR RVDA+RLAVAGHSMGGGG+LEAAK R SLKAAIP+APWN DKTWPEVRTPTLIIGG+ DT+APV++HSIPFY SL++A EK YLEL  ASHFFPQTSNTTMAKYMISWMKR+ID+DTRY QFLCP P+   L   SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_289009563.1|",
+                  "accession": "WP_289009563",
+                  "title": "alpha/beta hydrolase family protein [uncultured Thermomonospora sp.]",
+                  "taxid": 671175,
+                  "sciname": "uncultured Thermomonospora sp."
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 432.95,
+                  "score": 1112,
+                  "evalue": 3.24009e-150,
+                  "identity": 221,
+                  "positive": 243,
+                  "query_from": 11,
+                  "query_to": 296,
+                  "hit_from": 1,
+                  "hit_to": 287,
+                  "align_len": 287,
+                  "gaps": 1,
+                  "qseq": "LTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDF-TLSDSRVTCP",
+                  "hseq": "MSLRKSFGLLSATAALVAGLVAAPPAQAAANPYQRGPDPTESLLRAARGPFAVSEQSVSRLSVSGFGGGRIYYPTTTSQGTFGAIAISPGFTASWSSLAWLGPRLASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRNRVDASRLAVAGHSMGGGGSLEAAKARTSLKAAIPLAPWNLDKTWPEVRTPTLIIGGELDSIAPVATHSIPFYNSLTNAREKAYLELNNASHFFPQFSNDTMAKFMIAWMKRFIDDDTRYDQFLCPPPRAIGDISDYRDTCP",
+                  "midline": "++L    G+L+A AA  A    A  A AA +PYQ GPDPTE L+ A RGP+A ++ SVSRLSV+GFGGG IYYPTTTS+G FGAIAISPGFTA+WSSL WLGPRLASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR+RVDASRLAVAGHSMGGGG+LEAAK+R SLKAAIP+APWNLDKTWPEVRTPTLIIGG+LD+IAPVATHSIPFY SL+NA EK YLEL  ASHFFPQ SN TMAK+MI+WMKRFIDDDTRY QFLCP P     +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_286988551.1|",
+                  "accession": "WP_286988551",
+                  "title": "alpha/beta hydrolase family protein [Thermomonospora sp. CIF 1]",
+                  "taxid": 1916083,
+                  "sciname": "Thermomonospora sp. CIF 1"
+                }
+              ],
+              "len": 292,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 432.18,
+                  "score": 1110,
+                  "evalue": 5.65109e-150,
+                  "identity": 210,
+                  "positive": 229,
+                  "query_from": 41,
+                  "query_to": 297,
+                  "hit_from": 33,
+                  "hit_to": 292,
+                  "align_len": 262,
+                  "gaps": 7,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAP-----NDFTLSDSRVTCPV",
+                  "hseq": "NPYQRGPNPTEASITAARGPFNTAEITVSRLSVSGFGGGKIYYPTTTSEGTFGAIAISPGFTAYWSSLEWLGHRLASQGFVVIGIETNTTLDQPDQRGQQLLAALDYLTQRSAVRDRVDASRLAVAGHSMGGGGSLEAAKARTSLKAAIPLAPWNLDKTWPEVRTPTLIIGGELDAVAPVATHSIPFYNSLSNAPEKAYLELDNASHFFPNVTNTQMAKYMIAWMKRFIDDDTRYTQFLCPPPSTGLLSDF--SDARFTCPM",
+                  "midline": "+PYQ GP+PTE  I A RGP+ TA+I+VSRLSV+GFGGG IYYPTTTSEG FGAIAISPGFTA WSSL+WLG RLAS GFVV GIETNT LDQPD RG QLLAALDYLTQRS+VRDRVDASRLAVAGHSMGGGG+LEAAK+R SLKAAIP+APWNLDKTWPEVRTPTLIIGG+LD +APVATHSIPFY SLSNAPEK YLEL  ASHFFP  +NT MAKYMI+WMKRFIDDDTRY+QFLCP P     +DF  SD+R TCP+"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_012850775.1|",
+                  "accession": "WP_012850775",
+                  "title": "alpha/beta hydrolase family protein [Thermomonospora curvata]",
+                  "taxid": 2020,
+                  "sciname": "Thermomonospora curvata"
+                }
+              ],
+              "len": 292,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 431.795,
+                  "score": 1109,
+                  "evalue": 8.20051e-150,
+                  "identity": 210,
+                  "positive": 229,
+                  "query_from": 41,
+                  "query_to": 297,
+                  "hit_from": 33,
+                  "hit_to": 292,
+                  "align_len": 262,
+                  "gaps": 7,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAP-----NDFTLSDSRVTCPV",
+                  "hseq": "NPYQRGPNPTEASITAARGPFNTAEITVSRLSVSGFGGGKIYYPTTTSEGTFGAIAISPGFTAYWSSLEWLGHRLASQGFVVIGIETNTTLDQPDQRGQQLLAALDYLTQRSAVRDRVDASRLAVAGHSMGGGGSLEAAKARTSLKAAIPLAPWNLDKTWPEVRTPTLIIGGELDAVAPVATHSIPFYNSLSNAPEKAYLELDNASHFFPNITNTQMAKYMIAWMKRFIDDDTRYTQFLCPPPSTGLLSDF--SDARFTCPM",
+                  "midline": "+PYQ GP+PTE  I A RGP+ TA+I+VSRLSV+GFGGG IYYPTTTSEG FGAIAISPGFTA WSSL+WLG RLAS GFVV GIETNT LDQPD RG QLLAALDYLTQRS+VRDRVDASRLAVAGHSMGGGG+LEAAK+R SLKAAIP+APWNLDKTWPEVRTPTLIIGG+LD +APVATHSIPFY SLSNAPEK YLEL  ASHFFP  +NT MAKYMI+WMKRFIDDDTRY+QFLCP P     +DF  SD+R TCP+"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_197015893.1|",
+                  "accession": "WP_197015893",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura viridis]",
+                  "taxid": 58110,
+                  "sciname": "Actinomadura viridis"
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.557,
+                  "score": 1098,
+                  "evalue": 3.29356e-148,
+                  "identity": 210,
+                  "positive": 227,
+                  "query_from": 33,
+                  "query_to": 296,
+                  "hit_from": 23,
+                  "hit_to": 287,
+                  "align_len": 265,
+                  "gaps": 1,
+                  "qseq": "AAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDF-TLSDSRVTCP",
+                  "hseq": "APSAQAAENPYERGPAPTESSVTAVRGPFATSQTSVSSLGVTGFGGGEIYYPTSTSEGTFGAIAISPGFTAYWSSLSWLGPRLASQGFVVFGIETNTTLDQPASRGDQLLAALDYLTQRSSVRSRVDASRLAVAGHSMGGGGSLEAAKDRTSLKAAIPIAPWNTDKTWPEVRTPTMIIGGESDSVAPVSSHAIPFYTSLSAAPEKAYLELDNASHFFPQTSNTTMAKYMISWMKRFIDNDTRYDQFLCPAPRAIGDISDYRDTCP",
+                  "midline": "A +A AA +PY+ GP PTE  + A RGP+AT+Q SVS L VTGFGGG IYYPT+TSEG FGAIAISPGFTA WSSL WLGPRLAS GFVVFGIETNT LDQP SRG QLLAALDYLTQRSSVR RVDASRLAVAGHSMGGGG+LEAAK R SLKAAIPIAPWN DKTWPEVRTPT+IIGG+ D++APV++H+IPFY SLS APEK YLEL  ASHFFPQTSNTTMAKYMISWMKRFID+DTRY QFLCPAP     +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_386918928.1|",
+                  "accession": "WP_386918928",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura viridis]",
+                  "taxid": 58110,
+                  "sciname": "Actinomadura viridis"
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 427.557,
+                  "score": 1098,
+                  "evalue": 4.01119e-148,
+                  "identity": 208,
+                  "positive": 228,
+                  "query_from": 33,
+                  "query_to": 296,
+                  "hit_from": 23,
+                  "hit_to": 287,
+                  "align_len": 265,
+                  "gaps": 1,
+                  "qseq": "AAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDF-TLSDSRVTCP",
+                  "hseq": "APSAQAAENPYERGPAPTESSVTAVRGPFATSQTSVSSLGVTGFGGGEIYYPTSTGEGTFGAIAISPGFTAYWSSLSWLGPRLASQGFVVFGIETNTTLDQPDSRGDQLLAALDYLTQRSSVRSRVDATRLAVAGHSMGGGGSLEAAKDRTSLKAAIPIAPWNLDKTWPEVRTPTMIIGGESDSVAPVSSHAIPFYTSLTSAPEKAYLELDNASHFFPQVSNTTMAKYMISWMKRFIDNDTRYDQFLCPAPPSIGDISDYRDTCP",
+                  "midline": "A +A AA +PY+ GP PTE  + A RGP+AT+Q SVS L VTGFGGG IYYPT+T EG FGAIAISPGFTA WSSL WLGPRLAS GFVVFGIETNT LDQPDSRG QLLAALDYLTQRSSVR RVDA+RLAVAGHSMGGGG+LEAAK R SLKAAIPIAPWNLDKTWPEVRTPT+IIGG+ D++APV++H+IPFY SL++APEK YLEL  ASHFFPQ SNTTMAKYMISWMKRFID+DTRY QFLCPAP     +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_182703940.1|",
+                  "accession": "WP_182703940",
+                  "title": "alpha/beta hydrolase family protein [Thermomonospora cellulosilytica]",
+                  "taxid": 1411118,
+                  "sciname": "Thermomonospora cellulosilytica"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.246,
+                  "score": 1092,
+                  "evalue": 3.89247e-147,
+                  "identity": 205,
+                  "positive": 228,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 35,
+                  "hit_to": 293,
+                  "align_len": 259,
+                  "gaps": 3,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPND--FT-LSDSRVTCP",
+                  "hseq": "NPYERGPNPTESLIEAARGPFSTSQTTVSSLSVTGFGGGVIYYPTDTSQGTFGGIAISPGFTASWSSLDWLGPRLASHGFVVIGIETNSRLDQPASRGDQLLAALDYLTQRSSVRSRVDATRLAVAGHSMGGGGSLEAAKDRTSLKAAIPLAPWNTDKTWPEVRTPTLIIGGESDTVASVSSHSIPFYNSLTNAREKAYLELDNASHFFPQTSNTTMAKYMISWMKRYIDNDTRYEQFLCPGPSTGLFSDISDWRQTCP",
+                  "midline": "+PY+ GP+PTE LIEA RGP++T+Q +VS LSVTGFGGGVIYYPT TS+G FG IAISPGFTA+WSSLDWLGPRLASHGFVV GIETN+ LDQP SRG QLLAALDYLTQRSSVR RVDA+RLAVAGHSMGGGG+LEAAK R SLKAAIP+APWN DKTWPEVRTPTLIIGG+ DT+A V++HSIPFY SL+NA EK YLEL  ASHFFPQTSNTTMAKYMISWMKR+ID+DTRY QFLCP P+   F+ +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_103939557.1|",
+                  "accession": "WP_103939557",
+                  "title": "alpha/beta hydrolase family protein [Thermomonospora echinospora]",
+                  "taxid": 1992,
+                  "sciname": "Thermomonospora echinospora"
+                }
+              ],
+              "len": 292,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 424.091,
+                  "score": 1089,
+                  "evalue": 9.47481e-147,
+                  "identity": 208,
+                  "positive": 219,
+                  "query_from": 43,
+                  "query_to": 296,
+                  "hit_from": 36,
+                  "hit_to": 290,
+                  "align_len": 255,
+                  "gaps": 1,
+                  "qseq": "YQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDF-TLSDSRVTCP",
+                  "hseq": "YERGPAPTESSVTAVRGPFATSQTTVSSLSVTGFGGGVIYYPTTTSEGTFGAIAISPGFTAYWSSLDWLGPRLASQGFVVIGIETNTTLDQPASRGDQLLAALDYLTQRSSVRTRVDASRLAVAGHSMGGGGTLEAAKDRTSLKAAIPLAPWNTDKTWPEVRTPTLIIGGESDAVASVASHSIPFYNSLSNAREKAYLELDNASHFFPQVSNTTMAKYMISWMKRYIDDDTRYDQFLCPAPRAIGDISDYRDTCP",
+                  "midline": "Y+ GP PTE  + A RGP+AT+Q +VS LSVTGFGGGVIYYPTTTSEG FGAIAISPGFTA WSSLDWLGPRLAS GFVV GIETNT LDQP SRG QLLAALDYLTQRSSVR RVDASRLAVAGHSMGGGGTLEAAK R SLKAAIP+APWN DKTWPEVRTPTLIIGG+ D +A VA+HSIPFY SLSNA EK YLEL  ASHFFPQ SNTTMAKYMISWMKR+IDDDTRY QFLCPAP     +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_111863467.1|",
+                  "accession": "WP_111863467",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura craniellae]",
+                  "taxid": 2231787,
+                  "sciname": "Actinomadura craniellae"
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 422.935,
+                  "score": 1086,
+                  "evalue": 2.83963e-146,
+                  "identity": 202,
+                  "positive": 222,
+                  "query_from": 34,
+                  "query_to": 296,
+                  "hit_from": 25,
+                  "hit_to": 287,
+                  "align_len": 263,
+                  "gaps": 0,
+                  "qseq": "AAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "AAQATAQSPYEKGPNPTESLVNSARGPFSTSQTNVSSLSATGFGGGVIYYPTTTSEGTFGAIAIAPGFTASWSTLDWLGPRLASHGFVVFGIETNTRLDQPGQRGDQLLAALDYLTQRSTVRSRVDASRLAVAGHSMGGGGTLEAAADRTSLKAAIPIAPWNLDKSWPEVRTPTLIISGSADTIASTGSHSMPFYNSLSNAPDKALMELRGASHFFPQFSNTLMAKMMISWLKRFVDDDTRYEQFLCPPPGGLDISQYRNTCP",
+                  "midline": "AA A A SPY+ GP+PTE L+ + RGP++T+Q +VS LS TGFGGGVIYYPTTTSEG FGAIAI+PGFTA+WS+LDWLGPRLASHGFVVFGIETNT LDQP  RG QLLAALDYLTQRS+VR RVDASRLAVAGHSMGGGGTLEAA  R SLKAAIPIAPWNLDK+WPEVRTPTLII G  DTIA   +HS+PFY SLSNAP+K  +EL GASHFFPQ SNT MAK MISW+KRF+DDDTRY QFLCP P    +S  R TCP"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_395103521.1|",
+                  "accession": "WP_395103521",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura sp. SCN-SB]",
+                  "taxid": 3373092,
+                  "sciname": "Actinomadura sp. SCN-SB"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 421.009,
+                  "score": 1081,
+                  "evalue": 1.63282e-145,
+                  "identity": 205,
+                  "positive": 225,
+                  "query_from": 37,
+                  "query_to": 296,
+                  "hit_from": 26,
+                  "hit_to": 287,
+                  "align_len": 262,
+                  "gaps": 2,
+                  "qseq": "AAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRS--SVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "ANAQSPYERGPDPTEASVSASRGPFSTSQTTVSRLSATGFGGGVIYYPNSTAEGTYGGIAISPGFTATWSSLDWLGPRLASFGFVVIGIETNTLLDQPASRGQQLLAALDYLTQRSPSAVRARLDPSRLAVAGHSMGGGGTLEAAASRPSLQAAIPIAPWNLDKTWTTVRVPTMIIGGESDSIAPVATHSIPFYTSLTSAPEKAYLELNNASHFFPQTPNTTMAKSMLSWMKRYIDDDTRYSQFLCPAPRSTAISDYRDTCP",
+                  "midline": "A A SPY+ GPDPTE  + A RGP++T+Q +VSRLS TGFGGGVIYYP +T+EG +G IAISPGFTATWSSLDWLGPRLAS GFVV GIETNTLLDQP SRG QLLAALDYLTQRS  +VR R+D SRLAVAGHSMGGGGTLEAA SRPSL+AAIPIAPWNLDKTW  VR PT+IIGG+ D+IAPVATHSIPFY SL++APEK YLEL  ASHFFPQT NTTMAK M+SWMKR+IDDDTRYSQFLCPAP    +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_030499223.1|",
+                  "accession": "WP_030499223",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora chalcea]",
+                  "taxid": 1874,
+                  "sciname": "Micromonospora chalcea"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 421.009,
+                  "score": 1081,
+                  "evalue": 2.01025e-145,
+                  "identity": 204,
+                  "positive": 240,
+                  "query_from": 1,
+                  "query_to": 296,
+                  "hit_from": 11,
+                  "hit_to": 294,
+                  "align_len": 296,
+                  "gaps": 12,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "VRALARFAVAALLATG-GALAVPVS-----------ASAASPYERGPAPTNAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAIAISPGYTAAWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVRVPTLIIGGETDSVAPVATHSIPFYNSIPSSSEKAYLELNGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "+RA+A  A+A  L  G G LA P +           A+A SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGAIAISPG+TA WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EVR PTLIIGG+ D++APVATHSIPFY S+ ++ EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_357344282.1|",
+                  "accession": "WP_357344282",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. NPDC023966]",
+                  "taxid": 3154699,
+                  "sciname": "Micromonospora sp. NPDC023966"
+                }
+              ],
+              "len": 299,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 420.624,
+                  "score": 1080,
+                  "evalue": 2.60671e-145,
+                  "identity": 205,
+                  "positive": 236,
+                  "query_from": 1,
+                  "query_to": 296,
+                  "hit_from": 13,
+                  "hit_to": 297,
+                  "align_len": 296,
+                  "gaps": 11,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "VRALARIAVAAVLAVG-GALAVPAG----------VQAADNPYERGPAPTDALLEASRGPFATTSYSVSALSVTGFGGGVVYYPTSTSEGTFGAIAISPGYTATWSSLSWLGPRIASHGFVVIGIETNTLLDQPDSRGRQLLAALDYLVQRSSVRGRIDASRLAVAGHSMGGGGTLEAAAARPSLQAAVPLAPWNLDKTWSEVTVPTLIVGGESDTIAPVASHSVPFYTSIPASSEKAYLELNGASHFFPQSVNTPTAKQMVAWLKRFVDNDTRYEQFLCPGPNGLAIEEYRNTCP",
+                  "midline": "+RA+A  A+A  L  G G LA PA             AA +PY+ GP PT+ L+EA RGP+AT   SVS LSVTGFGGGV+YYPT+TSEG FGAIAISPG+TATWSSL WLGPR+ASHGFVV GIETNTLLDQPDSRG QLLAALDYL QRSSVR R+DASRLAVAGHSMGGGGTLEAA +RPSL+AA+P+APWNLDKTW EV  PTLI+GG+ DTIAPVA+HS+PFY S+  + EK YLEL GASHFFPQ+ NT  AK M++W+KRF+D+DTRY QFLCP PN   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_210895263.1|",
+                  "accession": "WP_210895263",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein [unclassified Micromonospora]",
+                  "taxid": 2617518,
+                  "sciname": "unclassified Micromonospora"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 420.239,
+                  "score": 1079,
+                  "evalue": 4.37366e-145,
+                  "identity": 203,
+                  "positive": 241,
+                  "query_from": 1,
+                  "query_to": 296,
+                  "hit_from": 11,
+                  "hit_to": 294,
+                  "align_len": 296,
+                  "gaps": 12,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "VRALARFAVAALLATG-GALAVPVS-----------ASAASPYERGPAPTSAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAVAISPGYTASWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVRVPTLIIGGETDSVAPVATHSIPFYNSIPSSSEKAYLELDGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "+RA+A  A+A  L  G G LA P +           A+A SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGA+AISPG+TA+WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EVR PTLIIGG+ D++APVATHSIPFY S+ ++ EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_484527971.1|",
+                  "accession": "WP_484527971",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. Utrum1]",
+                  "taxid": 3694151,
+                  "sciname": "Micromonospora sp. Utrum1"
+                }
+              ],
+              "len": 299,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 419.468,
+                  "score": 1077,
+                  "evalue": 7.96273e-145,
+                  "identity": 205,
+                  "positive": 237,
+                  "query_from": 1,
+                  "query_to": 296,
+                  "hit_from": 13,
+                  "hit_to": 297,
+                  "align_len": 296,
+                  "gaps": 11,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "VRALARIAVAAVLAVG-GALAVPAG----------AQAADNPYERGPAPTDALLEASRGPFATTSYSVSALSVTGFGGGVVYYPTSTSEGTFGAIAISPGYTATWSSLSWLGPRIASHGFVVIGIETNTLLDQPDSRGRQLLAALDYLVQRSSVRGRIDASRLAVAGHSMGGGGTLEAAAARPSLQAAVPLAPWNLDKTWSEVTVPTLIVGGESDTIAPVASHSVPFYTSIPASSEKAYLELNGASHFFPQSVNTPTAKQMVAWLKRFVDNDTRYEQFLCPGPSGLAIEEYRNTCP",
+                  "midline": "+RA+A  A+A  L  G G LA PA           A AA +PY+ GP PT+ L+EA RGP+AT   SVS LSVTGFGGGV+YYPT+TSEG FGAIAISPG+TATWSSL WLGPR+ASHGFVV GIETNTLLDQPDSRG QLLAALDYL QRSSVR R+DASRLAVAGHSMGGGGTLEAA +RPSL+AA+P+APWNLDKTW EV  PTLI+GG+ DTIAPVA+HS+PFY S+  + EK YLEL GASHFFPQ+ NT  AK M++W+KRF+D+DTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_355588831.1|",
+                  "accession": "WP_355588831",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein [Micromonospora]",
+                  "taxid": 1873,
+                  "sciname": "Micromonospora"
+                }
+              ],
+              "len": 299,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 419.468,
+                  "score": 1077,
+                  "evalue": 7.96273e-145,
+                  "identity": 203,
+                  "positive": 237,
+                  "query_from": 8,
+                  "query_to": 296,
+                  "hit_from": 20,
+                  "hit_to": 297,
+                  "align_len": 289,
+                  "gaps": 11,
+                  "qseq": "ALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "ALAATLVAG-GVLAGPSG----------AAQAASPYERGPAPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTASWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVATHSVPFYNSIPASAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIQEYRNTCP",
+                  "midline": "ALA TL AG GVLA P+           AA A SPY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA+WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APVATHS+PFY S+  + EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_400315732.1|",
+                  "accession": "WP_400315732",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora chalcea]",
+                  "taxid": 1874,
+                  "sciname": "Micromonospora chalcea"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 419.468,
+                  "score": 1077,
+                  "evalue": 8.07445e-145,
+                  "identity": 203,
+                  "positive": 239,
+                  "query_from": 1,
+                  "query_to": 296,
+                  "hit_from": 11,
+                  "hit_to": 294,
+                  "align_len": 296,
+                  "gaps": 12,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "VRALARFAVAALLATG-GALAVPVS-----------ASAASPYERGPAPTNAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAVAISPGYTAAWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVRVPTLIIGGETDSVAPVATHSIPFYNSIPSSSEKAYLELNGASHFFPQTVNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "+RA+A  A+A  L  G G LA P +           A+A SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGA+AISPG+TA WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EVR PTLIIGG+ D++APVATHSIPFY S+ ++ EK YLEL GASHFFPQT NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_400300584.1|",
+                  "accession": "WP_400300584",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora chalcea]",
+                  "taxid": 1874,
+                  "sciname": "Micromonospora chalcea"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 418.698,
+                  "score": 1075,
+                  "evalue": 1.38069e-144,
+                  "identity": 203,
+                  "positive": 239,
+                  "query_from": 1,
+                  "query_to": 296,
+                  "hit_from": 11,
+                  "hit_to": 294,
+                  "align_len": 296,
+                  "gaps": 12,
+                  "qseq": "MRAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "VRALARFAVAALLATG-GALTVPVS-----------ASAASPYERGPAPTNAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAIAISPGYTAAWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVRVPTLIIGGETDSVAPVATHSIPFYNSIPSSSEKAYLELNGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "+RA+A  A+A  L  G G L  P +           A+A SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGAIAISPG+TA WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EVR PTLIIGG+ D++APVATHSIPFY S+ ++ EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_357483628.1|",
+                  "accession": "WP_357483628",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. NPDC047467]",
+                  "taxid": 3154814,
+                  "sciname": "Micromonospora sp. NPDC047467"
+                }
+              ],
+              "len": 299,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 418.313,
+                  "score": 1074,
+                  "evalue": 2.15636e-144,
+                  "identity": 203,
+                  "positive": 241,
+                  "query_from": 2,
+                  "query_to": 296,
+                  "hit_from": 10,
+                  "hit_to": 297,
+                  "align_len": 295,
+                  "gaps": 7,
+                  "qseq": "RAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "RSVAARAVRLALTA------ALVAGGVLAGPSGAAQAA-SPYERGPAPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTASWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVSSHSVPFYNSIPASAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIQEYRNTCP",
+                  "midline": "R+VA  A+ L LTA      A  AG   A P+ AA AA SPY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA+WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APV++HS+PFY S+  + EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_285693086.1|",
+                  "accession": "WP_285693086",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura sp. NBRC 104412]",
+                  "taxid": 3032203,
+                  "sciname": "Actinomadura sp. NBRC 104412"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 417.157,
+                  "score": 1071,
+                  "evalue": 3.95119e-144,
+                  "identity": 202,
+                  "positive": 225,
+                  "query_from": 37,
+                  "query_to": 296,
+                  "hit_from": 26,
+                  "hit_to": 287,
+                  "align_len": 262,
+                  "gaps": 2,
+                  "qseq": "AAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRS--SVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "ANAQSPYERGPDPTEASVSASRGPFSTSQTTVSRLSATGFGGGVIYYPNSTAEGTYGGIAISPGFTATWSSLDWLGPRLASFGFVVIGIETNTLLDQPASRGQQLLAALDYLTQRSPSAVRARLDPSRLAVAGHSMGGGGTLEAAANRPSLQAAIPIAPWNLDKTWTTVRVPTMIIGGESDTIAPVSSHSIPFYTSLTSAPEKAYLELNNASHFFPQTPDTTMARSMISWMKRYIDDDTRYSQFLCPAPRSLAISDYRDTCP",
+                  "midline": "A A SPY+ GPDPTE  + A RGP++T+Q +VSRLS TGFGGGVIYYP +T+EG +G IAISPGFTATWSSLDWLGPRLAS GFVV GIETNTLLDQP SRG QLLAALDYLTQRS  +VR R+D SRLAVAGHSMGGGGTLEAA +RPSL+AAIPIAPWNLDKTW  VR PT+IIGG+ DTIAPV++HSIPFY SL++APEK YLEL  ASHFFPQT +TTMA+ MISWMKR+IDDDTRYSQFLCPAP    +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_356999970.1|",
+                  "accession": "WP_356999970",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. NPDC047527]",
+                  "taxid": 3155144,
+                  "sciname": "Micromonospora sp. NPDC047527"
+                }
+              ],
+              "len": 299,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 417.542,
+                  "score": 1072,
+                  "evalue": 4.84783e-144,
+                  "identity": 203,
+                  "positive": 240,
+                  "query_from": 2,
+                  "query_to": 296,
+                  "hit_from": 10,
+                  "hit_to": 297,
+                  "align_len": 295,
+                  "gaps": 7,
+                  "qseq": "RAVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "RSVAARAVRLALTA------ALVAGGVLAGPSGAAQAA-SPYERGPAPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTAAWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVSSHSVPFYNSIPASAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIQEYRNTCP",
+                  "midline": "R+VA  A+ L LTA      A  AG   A P+ AA AA SPY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APV++HS+PFY S+  + EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_393131173.1|",
+                  "accession": "WP_393131173",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora arborensis]",
+                  "taxid": 2116518,
+                  "sciname": "Micromonospora arborensis"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.772,
+                  "score": 1070,
+                  "evalue": 7.53459e-144,
+                  "identity": 202,
+                  "positive": 236,
+                  "query_from": 3,
+                  "query_to": 296,
+                  "hit_from": 12,
+                  "hit_to": 294,
+                  "align_len": 294,
+                  "gaps": 11,
+                  "qseq": "AVATTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "ALTRLALAATLVAGV-VLAGPTG----------AAQAAGPYERGPDPTTSILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTAAWSSISWLGPRIASHGFVVIGIETNSRLDQPDSRGRQLLAALDYLTQRSSVRTRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDTVAPVSSHSVPFYNSIPASAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIEEYRNTCP",
+                  "midline": "A+   ALA TL AG  VLA P            AA A  PY+ GPDPT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA WSS+ WLGPR+ASHGFVV GIETN+ LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ DT+APV++HS+PFY S+  + EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_088991612.1|",
+                  "accession": "WP_088991612",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora chokoriensis]",
+                  "taxid": 356851,
+                  "sciname": "Micromonospora chokoriensis"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.387,
+                  "score": 1069,
+                  "evalue": 1.3758e-143,
+                  "identity": 200,
+                  "positive": 237,
+                  "query_from": 6,
+                  "query_to": 296,
+                  "hit_from": 5,
+                  "hit_to": 294,
+                  "align_len": 291,
+                  "gaps": 1,
+                  "qseq": "TTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "TTTRPRSVAARLGLSAALVAGVVLAGPSGAAQAA-GPYERGPAPTTAILEASRGPFATASQSVSSLGVTGFGGGVIYYPTSTSEGTFGAIAISPGYTASWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVATHSVPFYNSIPSSAEKAYLELNGASHFFPQTTNTPTGRQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "TT    ++ A  G+ AA  AG   A P+ AA AA  PY+ GP PT  ++EA RGP+ATA  SVS L VTGFGGGVIYYPT+TSEG FGAIAISPG+TA+WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APVATHS+PFY S+ ++ EK YLEL GASHFFPQT+NT   + M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_376771869.1|",
+                  "accession": "WP_376771869",
+                  "title": "alpha/beta hydrolase family protein [Thermocatellispora tengchongensis]",
+                  "taxid": 1073253,
+                  "sciname": "Thermocatellispora tengchongensis"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.001,
+                  "score": 1068,
+                  "evalue": 1.82785e-143,
+                  "identity": 194,
+                  "positive": 223,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 44,
+                  "hit_to": 299,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "NPYERGPAPTEASIEAARGPFATSQFSVSSLSVTGFGGGTVYYPTSTAEGTFGAVAISPGYTARWSSLDWLGPRIASQGFVVIGIETNTLYDQPSSRGRQLLAALDYLTQRSSVRDRIDPNRLAVAGHSMGGGGSLEAADDRPSLQAAVPIAPWNLTKSWSGLRVPTMIVGGESDSIAPVSSHSIPFYTSIPASAEKAYLELNNASHFFPQTSNTTLAKYMISWLKRFVDDDTRYEQFLCPAPDDITLSDSRHTCP",
+                  "midline": "+PY+ GP PTE  IEA RGP+AT+Q SVS LSVTGFGGG +YYPT+T+EG FGA+AISPG+TA WSSLDWLGPR+AS GFVV GIETNTL DQP SRG QLLAALDYLTQRSSVRDR+D +RLAVAGHSMGGGG+LEAA  RPSL+AA+PIAPWNL K+W  +R PT+I+GG+ D+IAPV++HSIPFY S+  + EK YLEL  ASHFFPQTSNTT+AKYMISW+KRF+DDDTRY QFLCPAP+D TLSDSR TCP"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_354863967.1|",
+                  "accession": "WP_354863967",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein [unclassified Micromonospora]",
+                  "taxid": 2617518,
+                  "sciname": "unclassified Micromonospora"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 415.231,
+                  "score": 1066,
+                  "evalue": 3.79822e-143,
+                  "identity": 196,
+                  "positive": 231,
+                  "query_from": 26,
+                  "query_to": 296,
+                  "hit_from": 25,
+                  "hit_to": 293,
+                  "align_len": 271,
+                  "gaps": 2,
+                  "qseq": "GAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "GGALSVPAAANAA--SPYERGPAPTSAVLEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAVAISPGYTASWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVRVPTLIIGGETDSVAPVATHSVPFYNSIPASSEKAYLELDGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "G A + PAAA AA  SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGA+AISPG+TA+WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EVR PTLIIGG+ D++APVATHS+PFY S+  + EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_393371541.1|",
+                  "accession": "WP_393371541",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein [unclassified Micromonospora]",
+                  "taxid": 2617518,
+                  "sciname": "unclassified Micromonospora"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 414.846,
+                  "score": 1065,
+                  "evalue": 4.84521e-143,
+                  "identity": 201,
+                  "positive": 233,
+                  "query_from": 6,
+                  "query_to": 296,
+                  "hit_from": 5,
+                  "hit_to": 294,
+                  "align_len": 291,
+                  "gaps": 1,
+                  "qseq": "TTALALTLTAGTGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "TTTRPRSVAARLAVTAVLVAGGVLSGPTGAAQAA-GPYERGPAPTTSILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTAAWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRTRIDSSRLAVAGHSMGGGGTLEAASSRPSLQAAVPLAPWNTDKSWSELRVPTLIIGGESDTVAPVATHSVPFYNSIPASAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIEEYRNTCP",
+                  "midline": "TT    ++ A   V A   AG   + P  AA AA  PY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGGTLEAA SRPSL+AA+P+APWN DK+W E+R PTLIIGG+ DT+APVATHS+PFY S+  + EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_354835428.1|",
+                  "accession": "WP_354835428",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein [unclassified Sphaerisporangium]",
+                  "taxid": 2630420,
+                  "sciname": "unclassified Sphaerisporangium"
+                }
+              ],
+              "len": 278,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 412.535,
+                  "score": 1059,
+                  "evalue": 2.13813e-142,
+                  "identity": 199,
+                  "positive": 217,
+                  "query_from": 42,
+                  "query_to": 297,
+                  "hit_from": 20,
+                  "hit_to": 277,
+                  "align_len": 258,
+                  "gaps": 2,
+                  "qseq": "PYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSS--VRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "hseq": "PYERGPAPTNASIEAARGPFATAQTSVSSLSVSGFGGGTIYYPTDTSQGTFGAIAISPGYTATWSSLSWLGPRLASQGFVVFGIETNTLYDQPDSRGRQLLAALDYLVSNSSSTVRARIDTTRLAVAGHSMGGGGTLEAANARPSLQAAIPIAPWNLDKSWSGVRVPTMIIGGQADAIAPVATHSQPFYTSIPSSTEKAYMELTGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYDQFLCPAPRSIAISEYRDTCPL",
+                  "midline": "PY+ GP PT   IEA RGP+ATAQ SVS LSV+GFGGG IYYPT TS+G FGAIAISPG+TATWSSL WLGPRLAS GFVVFGIETNTL DQPDSRG QLLAALDYL   SS  VR R+D +RLAVAGHSMGGGGTLEAA +RPSL+AAIPIAPWNLDK+W  VR PT+IIGGQ D IAPVATHS PFY S+ ++ EK Y+EL GASHFFPQTSNTTMAKYMISWMKRFIDDDTRY QFLCPAP    +S+ R TCP+"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_452569637.1|",
+                  "accession": "WP_452569637",
+                  "title": "alpha/beta hydrolase family protein [Sphaerisporangium sp. NPDC004334]",
+                  "taxid": 3157148,
+                  "sciname": "Sphaerisporangium sp. NPDC004334"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 412.92,
+                  "score": 1060,
+                  "evalue": 2.17923e-142,
+                  "identity": 210,
+                  "positive": 229,
+                  "query_from": 17,
+                  "query_to": 297,
+                  "hit_from": 2,
+                  "hit_to": 284,
+                  "align_len": 283,
+                  "gaps": 2,
+                  "qseq": "TGVLAAPAAGAAPAAPAAAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSS--VRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "hseq": "TKVCLALALTGGPLAAAPGAHAAAGPYERGPAPTNASIEAARGPFATAQTSVSSLSVSGFGGGTIYYPTDTSQGTFGAIAISPGYTATWSSLSWLGPRLASQGFVVFGIETNTLYDQPDSRGRQLLAALDYLVRNSSSTVRARIDTTRLAVAGHSMGGGGTLEAANARPSLQAAIPIAPWNLDKSWSGVRVPTMIIGGQADTIAPVATHSQPFYTSIPSSTEKAYMELTGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYDQFLCPAPRSIAISEYRDTCPL",
+                  "midline": "T V  A A    P A A  A AA  PY+ GP PT   IEA RGP+ATAQ SVS LSV+GFGGG IYYPT TS+G FGAIAISPG+TATWSSL WLGPRLAS GFVVFGIETNTL DQPDSRG QLLAALDYL + SS  VR R+D +RLAVAGHSMGGGGTLEAA +RPSL+AAIPIAPWNLDK+W  VR PT+IIGGQ DTIAPVATHS PFY S+ ++ EK Y+EL GASHFFPQTSNTTMAKYMISWMKRFIDDDTRY QFLCPAP    +S+ R TCP+"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_278153053.1|",
+                  "accession": "WP_278153053",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. WMMD1120]",
+                  "taxid": 3016106,
+                  "sciname": "Micromonospora sp. WMMD1120"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 413.305,
+                  "score": 1061,
+                  "evalue": 2.2681e-142,
+                  "identity": 191,
+                  "positive": 224,
+                  "query_from": 34,
+                  "query_to": 296,
+                  "hit_from": 32,
+                  "hit_to": 294,
+                  "align_len": 263,
+                  "gaps": 0,
+                  "qseq": "AAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SGAAQAAGPYERGPDPTTAILEASRGPFTTASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTAAWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVATHSVPFYNSIPSSAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIEEYRNTCP",
+                  "midline": "+ AA A  PY+ GPDPT  ++EA RGP+ TA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APVATHS+PFY S+ ++ EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_282303914.1|",
+                  "accession": "WP_282303914",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. WMMD964]",
+                  "taxid": 3016091,
+                  "sciname": "Micromonospora sp. WMMD964"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 412.535,
+                  "score": 1059,
+                  "evalue": 3.9639e-142,
+                  "identity": 191,
+                  "positive": 225,
+                  "query_from": 34,
+                  "query_to": 296,
+                  "hit_from": 32,
+                  "hit_to": 294,
+                  "align_len": 263,
+                  "gaps": 0,
+                  "qseq": "AAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SGAAQAAGPYERGPAPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTASWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVATHSVPFYNSIPSSAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "+ AA A  PY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA+WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APVATHS+PFY S+ ++ EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_189245711.1|",
+                  "accession": "WP_189245711",
+                  "title": "alpha/beta hydrolase family protein [Streptosporangium pseudovulgare]",
+                  "taxid": 35765,
+                  "sciname": "Streptosporangium pseudovulgare"
+                }
+              ],
+              "len": 288,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 411.379,
+                  "score": 1056,
+                  "evalue": 8.26236e-142,
+                  "identity": 194,
+                  "positive": 216,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 31,
+                  "hit_to": 286,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "NPYERGPAPTEASIEASRGPFATSQYSVSVLQVSGFGGGTVYYPTDTSQGTFGAIAISPGYTATWASLSWLGPRLASQGFVVIGIETNTIYDQPDSRGRQLLAALDYLVQNSSVRGRIDATRLAVAGHSMGGGGTLEAAATRPSLQAAIPIAPWNLDKTWSEVRVPTMIIGGEADTVAPVLTHSEPFYTSIPASSEKAYMELNGASHFFPQTPNTTMAKYMISWMKRFIDDDTRYEQFLCPAPRSLAIQEYRDTCP",
+                  "midline": "+PY+ GP PTE  IEA RGP+AT+Q SVS L V+GFGGG +YYPT TS+G FGAIAISPG+TATW+SL WLGPRLAS GFVV GIETNT+ DQPDSRG QLLAALDYL Q SSVR R+DA+RLAVAGHSMGGGGTLEAA +RPSL+AAIPIAPWNLDKTW EVR PT+IIGG+ DT+APV THS PFY S+  + EK Y+EL GASHFFPQT NTTMAKYMISWMKRFIDDDTRY QFLCPAP    + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_357063920.1|",
+                  "accession": "WP_357063920",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein [unclassified Micromonospora]",
+                  "taxid": 2617518,
+                  "sciname": "unclassified Micromonospora"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 411.379,
+                  "score": 1056,
+                  "evalue": 1.22403e-141,
+                  "identity": 192,
+                  "positive": 222,
+                  "query_from": 36,
+                  "query_to": 296,
+                  "hit_from": 34,
+                  "hit_to": 294,
+                  "align_len": 261,
+                  "gaps": 0,
+                  "qseq": "AAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "AAQAAGPYERGPAPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTAAWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRTRIDSSRLAVAGHSMGGGGTLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDTVAPVASHSVPFYNSIPASAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIEEYRNTCP",
+                  "midline": "AA A  PY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGGTLEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ DT+APVA+HS+PFY S+  + EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_187242739.1|",
+                  "accession": "WP_187242739",
+                  "title": "alpha/beta hydrolase family protein [Actinomadura alba]",
+                  "taxid": 406431,
+                  "sciname": "Actinomadura alba"
+                }
+              ],
+              "len": 289,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.609,
+                  "score": 1054,
+                  "evalue": 1.78264e-141,
+                  "identity": 199,
+                  "positive": 221,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 31,
+                  "hit_to": 287,
+                  "align_len": 257,
+                  "gaps": 1,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLC-PAPNDFTLSDSRVTCP",
+                  "hseq": "NPYERGPAPTESSVTAVRGPFATSQTTVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGFTAYWSSLDWLGPRLASQGFVVIGIETNSTYDQPASRGDQLLAALDYLTQRSSVRTRIDASRLAVAGHSMGGGGSLEAAKDRTSLQAAIPLAPWNSDKTWPEVRTPTLIIGGESDSVASVSSHAIPFYNSLSNTPDKAYLELNNASHFFPQSANTTMAKYMISWMKRFIDDDTRYDQFLCPPPPVTGDISDYRDTCP",
+                  "midline": "+PY+ GP PTE  + A RGP+AT+Q +VS LSVTGFGGGVIYYPT+TSEG FGAIAISPGFTA WSSLDWLGPRLAS GFVV GIETN+  DQP SRG QLLAALDYLTQRSSVR R+DASRLAVAGHSMGGGG+LEAAK R SL+AAIP+APWN DKTWPEVRTPTLIIGG+ D++A V++H+IPFY SLSN P+K YLEL  ASHFFPQ++NTTMAKYMISWMKRFIDDDTRY QFLC P P    +SD R TCP"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_203178789.1|",
+                  "accession": "WP_203178789",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora parastrephiae]",
+                  "taxid": 2806101,
+                  "sciname": "Micromonospora parastrephiae"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.223,
+                  "score": 1053,
+                  "evalue": 2.01156e-141,
+                  "identity": 189,
+                  "positive": 225,
+                  "query_from": 34,
+                  "query_to": 296,
+                  "hit_from": 21,
+                  "hit_to": 283,
+                  "align_len": 263,
+                  "gaps": 0,
+                  "qseq": "AAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SAVAQAASPYERGPAPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAVAISPGYTASWSSISWLGPRIASHGFVVIGIETNSRLDQPDSRGRQLLAALDYLTERSSVRTRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDTVAPVASHSVPFYTSIPASAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIEEYRNTCP",
+                  "midline": "+A A A SPY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGA+AISPG+TA+WSS+ WLGPR+ASHGFVV GIETN+ LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ DT+APVA+HS+PFY S+  + EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_380830535.1|",
+                  "accession": "WP_380830535",
+                  "title": "alpha/beta hydrolase family protein [Sphaerisporangium rhizosphaerae]",
+                  "taxid": 2269375,
+                  "sciname": "Sphaerisporangium rhizosphaerae"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.223,
+                  "score": 1053,
+                  "evalue": 2.07873e-141,
+                  "identity": 197,
+                  "positive": 217,
+                  "query_from": 43,
+                  "query_to": 297,
+                  "hit_from": 28,
+                  "hit_to": 284,
+                  "align_len": 257,
+                  "gaps": 2,
+                  "qseq": "YQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSS--VRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCPV",
+                  "hseq": "YERGPAPTNASIEAARGPFATAQTSVSSLSVSGFGGGTIYYPTDTSQGTFGAIAISPGYTATWSTLSWLGPRLASQGFVVFGIETNTLYDQPDSRGRQLLAALDYLVRNSSSTVRARIDTTRLAVAGHSMGGGGTLEAANARPSLQAAIPIAPWNLDKSWSGVRVPTMIIGGQADAIAPVATHSQPFYTSIPSSTEKAYMELTGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYDQFLCPAPRSIAISEYRDTCPL",
+                  "midline": "Y+ GP PT   IEA RGP+ATAQ SVS LSV+GFGGG IYYPT TS+G FGAIAISPG+TATWS+L WLGPRLAS GFVVFGIETNTL DQPDSRG QLLAALDYL + SS  VR R+D +RLAVAGHSMGGGGTLEAA +RPSL+AAIPIAPWNLDK+W  VR PT+IIGGQ D IAPVATHS PFY S+ ++ EK Y+EL GASHFFPQTSNTTMAKYMISWMKRFIDDDTRY QFLCPAP    +S+ R TCP+"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_269705583.1|",
+                  "accession": "WP_269705583",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein [unclassified Micromonospora]",
+                  "taxid": 2617518,
+                  "sciname": "unclassified Micromonospora"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.609,
+                  "score": 1054,
+                  "evalue": 2.11587e-141,
+                  "identity": 189,
+                  "positive": 222,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 39,
+                  "hit_to": 294,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SPYERGPAPTSAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAVAISPGYTASWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKSWSEVRVPTLIIGGETDSVAPVATHSIPFYNSIPASSEKAYLELDGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGA+AISPG+TA+WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDK+W EVR PTLIIGG+ D++APVATHSIPFY S+  + EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_282258910.1|",
+                  "accession": "WP_282258910",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. WMMD1155]",
+                  "taxid": 3016094,
+                  "sciname": "Micromonospora sp. WMMD1155"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.609,
+                  "score": 1054,
+                  "evalue": 2.60503e-141,
+                  "identity": 190,
+                  "positive": 224,
+                  "query_from": 34,
+                  "query_to": 296,
+                  "hit_from": 32,
+                  "hit_to": 294,
+                  "align_len": 263,
+                  "gaps": 0,
+                  "qseq": "AAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SGAAQAAGPYERGPAPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTASWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVSTHSVPFYNSIPASAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSAIEEYRNTCP",
+                  "midline": "+ AA A  PY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA+WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APV+THS+PFY S+  + EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_449847236.1|",
+                  "accession": "WP_449847236",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora chokoriensis]",
+                  "taxid": 356851,
+                  "sciname": "Micromonospora chokoriensis"
+                }
+              ],
+              "len": 299,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.223,
+                  "score": 1053,
+                  "evalue": 3.85029e-141,
+                  "identity": 190,
+                  "positive": 221,
+                  "query_from": 39,
+                  "query_to": 296,
+                  "hit_from": 40,
+                  "hit_to": 297,
+                  "align_len": 258,
+                  "gaps": 0,
+                  "qseq": "AVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "AAGPYERGPAPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTTTSEGTFGAIAISPGYTAAWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRSRIDSSRLAVAGHSMGGGGSLEAASSRPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVATHSVPFYNSIPSSAEKAYLELNGASHFFPQTTNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "A  PY+ GP PT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPTTTSEG FGAIAISPG+TA WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA SRPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APVATHS+PFY S+ ++ EK YLEL GASHFFPQT+NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_174536919.1|",
+                  "accession": "WP_174536919",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora chalcea]",
+                  "taxid": 1874,
+                  "sciname": "Micromonospora chalcea"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 410.223,
+                  "score": 1053,
+                  "evalue": 3.86325e-141,
+                  "identity": 189,
+                  "positive": 222,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 39,
+                  "hit_to": 294,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SPYERGPAPTSAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAVAISPGYTASWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVRVPTLIIGGETDSVAPVATHSIPFYNSIPASSEKAYLELDGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGA+AISPG+TA+WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EVR PTLIIGG+ D++APVATHSIPFY S+  + EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_194799122.1|",
+                  "accession": "WP_194799122",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. ANENR4]",
+                  "taxid": 2783662,
+                  "sciname": "Micromonospora sp. ANENR4"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 409.453,
+                  "score": 1051,
+                  "evalue": 5.85598e-141,
+                  "identity": 189,
+                  "positive": 222,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 39,
+                  "hit_to": 294,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SPYERGPAPTSAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAVAISPGYTASWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVRVPTLIIGGETDSVAPVATHSIPFYNSIPASSEKAYLELDGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGA+AISPG+TA+WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EVR PTLIIGG+ D++APVATHSIPFY S+  + EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_400310011.1|",
+                  "accession": "WP_400310011",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora orduensis]",
+                  "taxid": 1420891,
+                  "sciname": "Micromonospora orduensis"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 409.068,
+                  "score": 1050,
+                  "evalue": 6.34997e-141,
+                  "identity": 190,
+                  "positive": 223,
+                  "query_from": 34,
+                  "query_to": 296,
+                  "hit_from": 21,
+                  "hit_to": 283,
+                  "align_len": 263,
+                  "gaps": 0,
+                  "qseq": "AAAAAAVSPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "AGVAQADSPYERGPDPTTAILEASRGPFATASQSVSSLSVTGFGGGVIYYPTSTSEGTFGAIAISPGYTAAWSSISWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTERSSVRSRIDSSRLAVAGHSMGGGGSLEAASARPSLQAAVPLAPWNLDKSWSELRVPTLIIGGESDSVAPVASHSVPFYTSIPASAEKAYLELNGASHFFPQTVNTPTARQMVAWLKRFVDDDTRYEQFLCPGPSGSQIEEYRNTCP",
+                  "midline": "A  A A SPY+ GPDPT  ++EA RGP+ATA  SVS LSVTGFGGGVIYYPT+TSEG FGAIAISPG+TA WSS+ WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDK+W E+R PTLIIGG+ D++APVA+HS+PFY S+  + EK YLEL GASHFFPQT NT  A+ M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_281577567.1|",
+                  "accession": "WP_281577567",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. WMMA1947]",
+                  "taxid": 3015163,
+                  "sciname": "Micromonospora sp. WMMA1947"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 409.453,
+                  "score": 1051,
+                  "evalue": 7.20978e-141,
+                  "identity": 188,
+                  "positive": 222,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 39,
+                  "hit_to": 294,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SPYERGPAPTSAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAVAISPGYTASWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTQRSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVQVPTLIIGGETDSVAPVASHSIPFYNSIPASSEKAYLELNGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGA+AISPG+TA+WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLTQRSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EV+ PTLIIGG+ D++APVA+HSIPFY S+  + EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_281599325.1|",
+                  "accession": "WP_281599325",
+                  "title": "alpha/beta hydrolase family protein [Micromonospora sp. WMMA1976]",
+                  "taxid": 3014995,
+                  "sciname": "Micromonospora sp. WMMA1976"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 409.068,
+                  "score": 1050,
+                  "evalue": 8.68433e-141,
+                  "identity": 189,
+                  "positive": 222,
+                  "query_from": 41,
+                  "query_to": 296,
+                  "hit_from": 39,
+                  "hit_to": 294,
+                  "align_len": 256,
+                  "gaps": 0,
+                  "qseq": "SPYQHGPDPTEDLIEAPRGPYATAQISVSRLSVTGFGGGVIYYPTTTSEGRFGAIAISPGFTATWSSLDWLGPRLASHGFVVFGIETNTLLDQPDSRGAQLLAALDYLTQRSSVRDRVDASRLAVAGHSMGGGGTLEAAKSRPSLKAAIPIAPWNLDKTWPEVRTPTLIIGGQLDTIAPVATHSIPFYLSLSNAPEKGYLELLGASHFFPQTSNTTMAKYMISWMKRFIDDDTRYSQFLCPAPNDFTLSDSRVTCP",
+                  "hseq": "SPYERGPAPTSAILEASRGPFATSSINVSSLSVTGFGGGVIYYPTSTAEGTFGAVAISPGYTASWSSLSWLGPRIASHGFVVIGIETNTRLDQPDSRGRQLLAALDYLTERSSVRGRIDSSRLAVAGHSMGGGGSLEAAAARPSLQAAVPLAPWNLDKTWSEVRVPTLIIGGETDSVAPVATHSIPFYNSIPASSEKAYLELDGASHFFPQTTNTPTAKQMVAWLKRFVDDDTRYEQFLCPGPSGSAIQEYRNTCP",
+                  "midline": "SPY+ GP PT  ++EA RGP+AT+ I+VS LSVTGFGGGVIYYPT+T+EG FGA+AISPG+TA+WSSL WLGPR+ASHGFVV GIETNT LDQPDSRG QLLAALDYLT+RSSVR R+D+SRLAVAGHSMGGGG+LEAA +RPSL+AA+P+APWNLDKTW EVR PTLIIGG+ D++APVATHSIPFY S+  + EK YLEL GASHFFPQT+NT  AK M++W+KRF+DDDTRY QFLCP P+   + + R TCP"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 458877498,
+            "db_len": 1448622149,
+            "hsp_len": 162,
+            "eff_space": 13932557092215,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          },
+          "message": "Warning: Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/\u000A"
+        }
+      }
+    }
+  }
+]
+}
+

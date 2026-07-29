@@ -1,0 +1,1641 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "refseq_protein"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 1e-20,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_1254105",
+          "query_title": "unnamed protein product",
+          "query_len": 284,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "ref|WP_232306517.1|",
+                  "accession": "WP_232306517",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida cellulosilytica]",
+                  "taxid": 144786,
+                  "sciname": "Thermobifida cellulosilytica"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 565.844,
+                  "score": 1457,
+                  "evalue": 0,
+                  "identity": 276,
+                  "positive": 277,
+                  "query_from": 8,
+                  "query_to": 284,
+                  "hit_from": 1,
+                  "hit_to": 277,
+                  "align_len": 277,
+                  "gaps": 0,
+                  "qseq": "VVAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "MVAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "midline": "+VAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_068752972.1|",
+                  "accession": "WP_068752972",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida cellulosilytica]",
+                  "taxid": 144786,
+                  "sciname": "Thermobifida cellulosilytica"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 468.774,
+                  "score": 1205,
+                  "evalue": 1.95448e-164,
+                  "identity": 227,
+                  "positive": 242,
+                  "query_from": 21,
+                  "query_to": 284,
+                  "hit_from": 36,
+                  "hit_to": 300,
+                  "align_len": 265,
+                  "gaps": 1,
+                  "qseq": "PALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVS-GFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "PAQAANPYERGPNPTQALLEARSGPFSVSSERAWRLGSDGFGGGTIYYPRENNTYGAVAISPGYTGTQASVAWLGERIASHGFVVITIDTNTTLDQPDSRARQLDAALDHMLNDASSAVRSRIDRNRLAVMGHSMGGGGTLRLASQRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGADLDTIAPVLTHAEPFYNSIPTSTRKAYLELDGATHFAPNITNSTIGMYSVAWLKRFVDEDTRYTQFLCPGPRTGLFSDVEEYRSTCPF",
+                  "midline": "PA AANPYERGP+PTQA LEA  GPF VS ER     S GFGGGTIYYP+ENNTYGAVAISPGYT TQ+SVAWLGERIASHGFVVITIDTNTTLDQPDSRA QL+AALDHM++ ASS VRSRIDRNRLAVMGHSMGGGGTLRLAS+RPDLKAAIPLTPWHLNKSWSNVQVPTLIIGA+ DT+APV  HAEP Y SIPTSTRKAYLEL+GA+HFAP++ N+TIGMY VAWLKRFVDEDTRYT+FLCPGPRTGLFSDVEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_011291330.1|",
+                  "accession": "WP_011291330",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida fusca]",
+                  "taxid": 2021,
+                  "sciname": "Thermobifida fusca"
+                }
+              ],
+              "len": 301,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 444.891,
+                  "score": 1143,
+                  "evalue": 4.53533e-155,
+                  "identity": 213,
+                  "positive": 239,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 33,
+                  "hit_to": 301,
+                  "align_len": 269,
+                  "gaps": 1,
+                  "qseq": "TLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SLAAPAHAANPYERGPNPTDALLEASSGPFSVSEENVSRLSASGFGGGTIYYPRENNTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTITTLDQPDSRAEQLNAALNHMINRASSTVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPLTPWHLNKNWSSVTVPTLIIGADLDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPNIPNKIIGKYSVAWLKRFVDNDTRYTQFLCPGPRDGLFGEVEEYRSTCPF",
+                  "midline": "+L+APA AANPYERGP+PT A LEAS GPF VSEE VS    SGFGGGTIYYP+ENNTYGAVAISPGYT T++S+AWLGERIASHGFVVITIDT TTLDQPDSRA+QL AAL+HM++ ASSTVRSRID +RLAVMGHSMGGGGTLRLAS+RPDLKAAIPLTPWHLNK+WS+V VPTLIIGA+ DT+APVA HA+P Y S+P+S  KAYLEL+GA+HFAP++ N  IG Y VAWLKRFVD DTRYT+FLCPGPR GLF +VEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_193587071.1|",
+                  "accession": "WP_193587071",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida fusca]",
+                  "taxid": 2021,
+                  "sciname": "Thermobifida fusca"
+                }
+              ],
+              "len": 301,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 442.58,
+                  "score": 1137,
+                  "evalue": 3.4412e-154,
+                  "identity": 212,
+                  "positive": 238,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 33,
+                  "hit_to": 301,
+                  "align_len": 269,
+                  "gaps": 1,
+                  "qseq": "TLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SLAAPAHAANPYERGPNPTDALLEARSGPFSVSEENVSRLSASGFGGGTIYYPRENNTYGAVAISPGYTGTEASIAWLGERIASHGFVVITIDTITTLDQPDSRAEQLNAALNHMINRASSTVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPLTPWHLNKNWSSVTVPTLIIGADLDTIAPVATHAKPFYNSLPSSISKAYLELDGATHFAPNIPNKIIGKYSVAWLKRFVDNDTRYTQFLCPGPRDGLFGEVEEYRSTCPF",
+                  "midline": "+L+APA AANPYERGP+PT A LEA  GPF VSEE VS    SGFGGGTIYYP+ENNTYGAVAISPGYT T++S+AWLGERIASHGFVVITIDT TTLDQPDSRA+QL AAL+HM++ ASSTVRSRID +RLAVMGHSMGGGGTLRLAS+RPDLKAAIPLTPWHLNK+WS+V VPTLIIGA+ DT+APVA HA+P Y S+P+S  KAYLEL+GA+HFAP++ N  IG Y VAWLKRFVD DTRYT+FLCPGPR GLF +VEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_016188393.1|",
+                  "accession": "WP_016188393",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida fusca]",
+                  "taxid": 2021,
+                  "sciname": "Thermobifida fusca"
+                }
+              ],
+              "len": 301,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 441.81,
+                  "score": 1135,
+                  "evalue": 7.40822e-154,
+                  "identity": 213,
+                  "positive": 235,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 33,
+                  "hit_to": 301,
+                  "align_len": 269,
+                  "gaps": 1,
+                  "qseq": "TLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SLAAPAHAANPYERGPNPTDALLEARSGPFSVSEERASRFGADGFGGGTIYYPRENNTYGAVAISPGYTGTQASVAWLGERIASHGFVVITIDTNTTLDQPDSRARQLNAALDYMINDASSAVRSRIDSSRLAVMGHSMGGGGTLRLASQRPDLKAAIPLTPWHLNKNWSSVRVPTLIIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNIPNKIIGKYSVAWLKRFVDNDTRYTQFLCPGPRDGLFGEVEEYRSTCPF",
+                  "midline": "+L+APA AANPYERGP+PT A LEA  GPF VSEER S     GFGGGTIYYP+ENNTYGAVAISPGYT TQ+SVAWLGERIASHGFVVITIDTNTTLDQPDSRA QL AALD+M++ ASS VRSRID +RLAVMGHSMGGGGTLRLAS+RPDLKAAIPLTPWHLNK+WS+V+VPTLIIGA+ DT+APV  HA P Y S+PTS  KAYLEL+GA+HFAP++ N  IG Y VAWLKRFVD DTRYT+FLCPGPR GLF +VEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_248591948.1|",
+                  "accession": "WP_248591948",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida alba]",
+                  "taxid": 53522,
+                  "sciname": "Thermobifida alba"
+                }
+              ],
+              "len": 296,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 439.113,
+                  "score": 1128,
+                  "evalue": 7.86539e-153,
+                  "identity": 207,
+                  "positive": 231,
+                  "query_from": 26,
+                  "query_to": 284,
+                  "hit_from": 37,
+                  "hit_to": 296,
+                  "align_len": 260,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "NPYERGPNPTQSMLEARSGPFSVSEERASRLGADGFGGGTIYYPRENNTYGAIAISPGYTGTQSSIAWLGERIASHGFVVIAIDTNTTLDQPDSRARQLNSALDYMLTDASSSVRNRIDASRLAVMGHSMGGGGTLRLASQRPDLKAAIPLTPWHLNKSWRDITVPTLIIGADLDTIAPVSSHSEPFYNSIPSSTDKAYLELNNATHFAPNITNKTIGMYSVAWLKRFVDEDTRYTQFLCPGPRTGLLSDVDEYRSTCPF",
+                  "midline": "NPYERGP+PTQ+ LEA  GPF VSEER S     GFGGGTIYYP+ENNTYGA+AISPGYT TQSS+AWLGERIASHGFVVI IDTNTTLDQPDSRA QL +ALD+M+  ASS+VR+RID +RLAVMGHSMGGGGTLRLAS+RPDLKAAIPLTPWHLNKSW ++ VPTLIIGA+ DT+APV+ H+EP Y SIP+ST KAYLELN A+HFAP++ N TIGMY VAWLKRFVDEDTRYT+FLCPGPRTGL SDV+EYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_248591947.1|",
+                  "accession": "WP_248591947",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida alba]",
+                  "taxid": 53522,
+                  "sciname": "Thermobifida alba"
+                }
+              ],
+              "len": 300,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 439.113,
+                  "score": 1128,
+                  "evalue": 7.95698e-153,
+                  "identity": 209,
+                  "positive": 229,
+                  "query_from": 26,
+                  "query_to": 284,
+                  "hit_from": 41,
+                  "hit_to": 300,
+                  "align_len": 260,
+                  "gaps": 1,
+                  "qseq": "NPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "NPYERGPYPTESMLEARSGPFSVSEERASRFGADGFGGGTIYYPRENNTYGAIAISPGYTGTQSSIAWLGERIASHGFVVIAIDTNTTLDQPDSRARQLNAALDYMLTDASSAVRNRIDASRLAVMGHSMGGGGTLRLASQRPDLKAAIPLTPWHLNKSWRDITVPTLIIGAEYDTIASVTLHSKPFYNSIPSSTDKAYLELDGASHFAPNITNKTIGMYSVAWLKRFVDEDTRYTQFLCPGPRTGLLSDVEEYRSTCPF",
+                  "midline": "NPYERGP PT++ LEA  GPF VSEER S     GFGGGTIYYP+ENNTYGA+AISPGYT TQSS+AWLGERIASHGFVVI IDTNTTLDQPDSRA QL AALD+M+  ASS VR+RID +RLAVMGHSMGGGGTLRLAS+RPDLKAAIPLTPWHLNKSW ++ VPTLIIGAE DT+A V LH++P Y SIP+ST KAYLEL+GASHFAP++ N TIGMY VAWLKRFVDEDTRYT+FLCPGPRTGL SDVEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_243597586.1|",
+                  "accession": "WP_243597586",
+                  "title": "alpha/beta hydrolase family protein [Thermobifida halotolerans]",
+                  "taxid": 483545,
+                  "sciname": "Thermobifida halotolerans"
+                }
+              ],
+              "len": 309,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 421.779,
+                  "score": 1083,
+                  "evalue": 8.35088e-146,
+                  "identity": 198,
+                  "positive": 231,
+                  "query_from": 20,
+                  "query_to": 284,
+                  "hit_from": 44,
+                  "hit_to": 309,
+                  "align_len": 266,
+                  "gaps": 1,
+                  "qseq": "APALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SPAQAANPYERGPNPTNSSIEALRGPFRVDEERVSRLQARGFGGGTIYYPTDNNTFGAVAISPGYTGTQSSISWLGERLASHGFVVMTIDTNTTLDQPDSRASQLDAALDYMVEDSSYSVRNRIDSSRLAAMGHSMGGGGTLRLAERRPDLQAAIPLTPWHTDKTWGSVRVPTLIIGAENDTIASVRSHSEPFYNSLPGSLDKAYLELDGASHFAPNLSNTTIAKYSISWLKRFVDDDTRYTQFLCPGPSTGWGSDVEEYRSTCPF",
+                  "midline": "+PA AANPYERGP+PT +S+EA RGPF V EERVS     GFGGGTIYYP +NNT+GAVAISPGYT TQSS++WLGER+ASHGFVV+TIDTNTTLDQPDSRA QL+AALD+MV+ +S +VR+RID +RLA MGHSMGGGGTLRLA RRPDL+AAIPLTPWH +K+W +V+VPTLIIGAENDT+A V  H+EP Y S+P S  KAYLEL+GASHFAP+++N TI  Y ++WLKRFVD+DTRYT+FLCPGP TG  SDVEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_243597587.1|",
+                  "accession": "WP_243597587",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida halotolerans]",
+                  "taxid": 483545,
+                  "sciname": "Thermobifida halotolerans"
+                }
+              ],
+              "len": 303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 420.624,
+                  "score": 1080,
+                  "evalue": 1.8087e-145,
+                  "identity": 198,
+                  "positive": 232,
+                  "query_from": 20,
+                  "query_to": 284,
+                  "hit_from": 38,
+                  "hit_to": 303,
+                  "align_len": 266,
+                  "gaps": 1,
+                  "qseq": "APALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQ-ENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SPAQAANPYERGPNPTNSSIEALRGPYSVSEDSVSSLVSGFGGGTIYYPTGTNETFGAVAISPGYTGTQSSISWLGPRLASQGFVVMTIDTNTTLDQPDSRASQLDAALDYMVNRSSSTVRNRIDSSRLAAMGHSMGGGGTLRLAERRPDLQAAIPLTPWHTDKTWGSVRVPTLIIGAENDTIASVRSHSEPFYNSLPGSLDKAYLELDGASHFAPNLSNTTIAKYSISWLKRFVDDDTRYTQFLCPGPSTGLFGEVEEYRSTCPF",
+                  "midline": "+PA AANPYERGP+PT +S+EA RGP+ VSE+ VSS VSGFGGGTIYYP   N T+GAVAISPGYT TQSS++WLG R+AS GFVV+TIDTNTTLDQPDSRA QL+AALD+MV+ +SSTVR+RID +RLA MGHSMGGGGTLRLA RRPDL+AAIPLTPWH +K+W +V+VPTLIIGAENDT+A V  H+EP Y S+P S  KAYLEL+GASHFAP+++N TI  Y ++WLKRFVD+DTRYT+FLCPGP TGLF +VEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_287464091.1|",
+                  "accession": "WP_287464091",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida sp.]",
+                  "taxid": 2027107,
+                  "sciname": "Thermobifida sp."
+                }
+              ],
+              "len": 301,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.387,
+                  "score": 1069,
+                  "evalue": 9.57719e-144,
+                  "identity": 212,
+                  "positive": 237,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 33,
+                  "hit_to": 301,
+                  "align_len": 269,
+                  "gaps": 1,
+                  "qseq": "TLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SLAAPAHAANPYERGPNPTDALLEARSGPFSVSEENVSRLSASGFGGGTIYYPRENNTYGAVAISPGYTGTQASVAWLGKRIASHGFVVITIDTITTLDQPDSRAEQLNAALNHMINRASSTVRSRIDSSRLAVMGHSMGGGGSLRLASQRPDLKAAIPLTPWHLNKNWSSVRVPTLIIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNIPNKIIGKYSVAWLKRFVDNDTRYTQFLCPGPRDGLFGEVEEYRSTCPF",
+                  "midline": "+L+APA AANPYERGP+PT A LEA  GPF VSEE VS    SGFGGGTIYYP+ENNTYGAVAISPGYT TQ+SVAWLG+RIASHGFVVITIDT TTLDQPDSRA+QL AAL+HM++ ASSTVRSRID +RLAVMGHSMGGGG+LRLAS+RPDLKAAIPLTPWHLNK+WS+V+VPTLIIGA+ DT+APV  HA P Y S+PTS  KAYLEL+GA+HFAP++ N  IG Y VAWLKRFVD DTRYT+FLCPGPR GLF +VEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_061783624.1|",
+                  "accession": "WP_061783624",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida fusca]",
+                  "taxid": 2021,
+                  "sciname": "Thermobifida fusca"
+                }
+              ],
+              "len": 301,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 416.001,
+                  "score": 1068,
+                  "evalue": 1.25926e-143,
+                  "identity": 212,
+                  "positive": 235,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 33,
+                  "hit_to": 301,
+                  "align_len": 269,
+                  "gaps": 1,
+                  "qseq": "TLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SLAAPAHAANPYERGPNPTDALLEARSGPFSVSEERASRFGADGFGGGTIYYPRENNTYGAVAISPGYTGTQASVAWLGERIASHGFVVITIDTNTTLDQPDSRARQLNAALDYMINDASSAVRSRIDSSRLAVMGHSMGGGGSLRLASQRPDLKAAIPLTPWHLNKNWSSVRVPTLIIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNIPNKIIGKYSVAWLKRFVDNDTRYTQFLCPGPRDGLFGEVEEYRSTCPF",
+                  "midline": "+L+APA AANPYERGP+PT A LEA  GPF VSEER S     GFGGGTIYYP+ENNTYGAVAISPGYT TQ+SVAWLGERIASHGFVVITIDTNTTLDQPDSRA QL AALD+M++ ASS VRSRID +RLAVMGHSMGGGG+LRLAS+RPDLKAAIPLTPWHLNK+WS+V+VPTLIIGA+ DT+APV  HA P Y S+PTS  KAYLEL+GA+HFAP++ N  IG Y VAWLKRFVD DTRYT+FLCPGPR GLF +VEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_193587070.1|",
+                  "accession": "WP_193587070",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida fusca]",
+                  "taxid": 2021,
+                  "sciname": "Thermobifida fusca"
+                }
+              ],
+              "len": 301,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 414.846,
+                  "score": 1065,
+                  "evalue": 4.01918e-143,
+                  "identity": 211,
+                  "positive": 235,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 33,
+                  "hit_to": 301,
+                  "align_len": 269,
+                  "gaps": 1,
+                  "qseq": "TLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SLAAPAHAANPYERGPNPTDALLEARSGPFSVSEERASRFGADGFGGGTIYYPRENNTYGAVAISPGYTGTQASVAWLGKRIASHGFVVITIDTNTTLDQPDSRARQLNAALDYMINDASSAVRSRIDSSRLAVMGHSMGGGGSLRLASQRPDLKAAIPLTPWHLNKNWSSVRVPTLIIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNIPNKIIGKYSVAWLKRFVDNDTRYTQFLCPGPRDGLFGEVEEYRSTCPF",
+                  "midline": "+L+APA AANPYERGP+PT A LEA  GPF VSEER S     GFGGGTIYYP+ENNTYGAVAISPGYT TQ+SVAWLG+RIASHGFVVITIDTNTTLDQPDSRA QL AALD+M++ ASS VRSRID +RLAVMGHSMGGGG+LRLAS+RPDLKAAIPLTPWHLNK+WS+V+VPTLIIGA+ DT+APV  HA P Y S+PTS  KAYLEL+GA+HFAP++ N  IG Y VAWLKRFVD DTRYT+FLCPGPR GLF +VEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_104613137.1|",
+                  "accession": "WP_104613137",
+                  "title": "cutinase/poly(ethylene terephthalate) hydrolase [Thermobifida fusca]",
+                  "taxid": 2021,
+                  "sciname": "Thermobifida fusca"
+                }
+              ],
+              "len": 301,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 414.846,
+                  "score": 1065,
+                  "evalue": 4.06343e-143,
+                  "identity": 210,
+                  "positive": 237,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 33,
+                  "hit_to": 301,
+                  "align_len": 269,
+                  "gaps": 1,
+                  "qseq": "TLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "SLAAPAHAANPYERGPNPTDALLEARSGPFSVSEENVSRLSASGFGGGTIYYPRENNTYGAVAISPGYTGTEASIAWLGKRIASHGFVVITIDTITTLDQPDSRAEQLNAALNHMINRASSTVRSRIDSSRLAVMGHSMGGGGSLRLASQRPDLKAAIPLTPWHLNKNWSSVRVPTLIIGADLDTIAPVLTHARPFYNSLPTSISKAYLELDGATHFAPNIPNKIIGKYSVAWLKRFVDNDTRYTQFLCPGPRDGLFGEVEEYRSTCPF",
+                  "midline": "+L+APA AANPYERGP+PT A LEA  GPF VSEE VS    SGFGGGTIYYP+ENNTYGAVAISPGYT T++S+AWLG+RIASHGFVVITIDT TTLDQPDSRA+QL AAL+HM++ ASSTVRSRID +RLAVMGHSMGGGG+LRLAS+RPDLKAAIPLTPWHLNK+WS+V+VPTLIIGA+ DT+APV  HA P Y S+PTS  KAYLEL+GA+HFAP++ N  IG Y VAWLKRFVD DTRYT+FLCPGPR GLF +VEEYRSTCPF"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_133742058.1|",
+                  "accession": "WP_133742058",
+                  "title": "alpha/beta hydrolase family protein [Actinorugispora endophytica]",
+                  "taxid": 1605990,
+                  "sciname": "Actinorugispora endophytica"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 385.571,
+                  "score": 989,
+                  "evalue": 2.13467e-131,
+                  "identity": 178,
+                  "positive": 222,
+                  "query_from": 18,
+                  "query_to": 283,
+                  "hit_from": 43,
+                  "hit_to": 309,
+                  "align_len": 267,
+                  "gaps": 1,
+                  "qseq": "LSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQ-ENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "IASPAYAANPYERGPDPTDSSVEALRGPYSVDDTSVSSLVSGFGGGTVYYPTGTNETFGAVVIAPGYTASSSSMSWMGERLASQGFVIFTIDTNTRYDQPDSRGDQISAALDYLVEDSTSAVRNRIDPDRLAAMGHSMGGGGTLAVAADRPELKAAIPLTPWHLDKTWSEVDVPTMIIGAENDTVASVSSHSIPFYNSLSGAPDKVYLELDGASHFAPNLSNTTIAKYSISWLKRFVDEDTRYSQFLCPGPSTGLGSDVSDYRNTCP",
+                  "midline": "+++PA AANPYERGPDPT +S+EA RGP+ V +  VSS VSGFGGGT+YYP   N T+GAV I+PGYTA+ SS++W+GER+AS GFV+ TIDTNT  DQPDSR DQ+ AALD++V+ ++S VR+RID +RLA MGHSMGGGGTL +A+ RP+LKAAIPLTPWHL+K+WS V VPT+IIGAENDTVA V+ H+ P Y S+  +  K YLEL+GASHFAP+++N TI  Y ++WLKRFVDEDTRY++FLCPGP TGL SDV +YR+TCP"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_344976894.1|",
+                  "accession": "WP_344976894",
+                  "title": "alpha/beta hydrolase family protein [Salinactinospora qingdaonensis]",
+                  "taxid": 702744,
+                  "sciname": "Salinactinospora qingdaonensis"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.407,
+                  "score": 973,
+                  "evalue": 1.74307e-129,
+                  "identity": 183,
+                  "positive": 223,
+                  "query_from": 12,
+                  "query_to": 283,
+                  "hit_from": 6,
+                  "hit_to": 278,
+                  "align_len": 275,
+                  "gaps": 5,
+                  "qseq": "AAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSP-VSGFGGGTIYYPQENN-TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRT-GLFSDVEEYRSTCP",
+                  "hseq": "AMAGVGLAAPAHADNPYERGPAPTESSIEASEGPFDVDEDSVSSLFVSGFGGGTIYYPEDDSQTYGAVAISPGYTASQTSMSWYGPRIASQGFVVFTIDTNTRYDQPDSRGDQLQAALDYLVD--DSSVQDIIDEDRLAVMGHSMGGGGTLAAASERPELQAAIPLAPWHLDKTWGEVQVPTMIIGAEDDSIASVTTHSQPFYESLPSSLDKAYLELDGASHFAPNTSDTTIAKYSISWLKRFVDNDTRYEQFLCPPPNAGGLFNDISEYRDTCP",
+                  "midline": "A A V L+APA A NPYERGP PT++S+EAS GPF V E+ VSS  VSGFGGGTIYYP++++ TYGAVAISPGYTA+Q+S++W G RIAS GFVV TIDTNT  DQPDSR DQL+AALD++VD   S+V+  ID +RLAVMGHSMGGGGTL  AS RP+L+AAIPL PWHL+K+W  VQVPT+IIGAE+D++A V  H++P Y S+P+S  KAYLEL+GASHFAP+ ++ TI  Y ++WLKRFVD DTRY +FLCP P   GLF+D+ EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_344976891.1|",
+                  "accession": "WP_344976891",
+                  "title": "alpha/beta hydrolase family protein [Salinactinospora qingdaonensis]",
+                  "taxid": 702744,
+                  "sciname": "Salinactinospora qingdaonensis"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 375.555,
+                  "score": 963,
+                  "evalue": 5.78325e-128,
+                  "identity": 183,
+                  "positive": 223,
+                  "query_from": 12,
+                  "query_to": 283,
+                  "hit_from": 6,
+                  "hit_to": 278,
+                  "align_len": 275,
+                  "gaps": 5,
+                  "qseq": "AAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENN-TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRT-GLFSDVEEYRSTCP",
+                  "hseq": "AMAGVGLAAPAHADNPYERGPYPSESSIEASEGPFDVDEDSVSSWFVSGFGGGTIYYPEDDSQTYGAVAISPGYTASQTSMSWYGPRIASQGFVVFTIDTNTRYDQPDSRGDQLLAALDYLVD--DSSVQDIIDEDRLAVMGHSMGGGGTLAAASERPELQAAIPLAPWHLDKTWWEVQVPTMIIGAEDDSIASVITHSQPFYESLPSSLDKAYLELDGASHFAPNLSNTTIAKYSISWLKRFVDNDTRYEQFLCPPPSAGGLFNDISEYRDTCP",
+                  "midline": "A A V L+APA A NPYERGP P+++S+EAS GPF V E+ VSS  VSGFGGGTIYYP++++ TYGAVAISPGYTA+Q+S++W G RIAS GFVV TIDTNT  DQPDSR DQL AALD++VD   S+V+  ID +RLAVMGHSMGGGGTL  AS RP+L+AAIPL PWHL+K+W  VQVPT+IIGAE+D++A V  H++P Y S+P+S  KAYLEL+GASHFAP+++N TI  Y ++WLKRFVD DTRY +FLCP P   GLF+D+ EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_452262690.1|",
+                  "accession": "WP_452262690",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NPDC054927]",
+                  "taxid": 3345485,
+                  "sciname": "Lentzea sp. NPDC054927"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 368.622,
+                  "score": 945,
+                  "evalue": 3.41602e-125,
+                  "identity": 184,
+                  "positive": 218,
+                  "query_from": 9,
+                  "query_to": 283,
+                  "hit_from": 9,
+                  "hit_to": 280,
+                  "align_len": 277,
+                  "gaps": 7,
+                  "qseq": "VAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "IALSLVLVTGTAQA-AANPYERGPAPTVASIEASRGPFAVSETSVSSLVGGFGGGTIYYPTSTASGTFGAVAISPGYTGTQSSISWLGPRLASQGFVVFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSTVRTRIDATRLGVMGHSMGGGGTLRAASQRPALQAAIPLTAWHTTKNWSSVRVPTLVVGAESDSVAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "+A +   VT +A A AANPYERGP PT AS+EASRGPF VSE  VSS V GFGGGTIYYP    + T+GAVAISPGYT TQSS++WLG R+AS GFVV TIDTNT  DQPDSRA QL AALD++     STVR+RID  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D+VAPV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_285640745.1|",
+                  "accession": "WP_285640745",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NBRC 102530]",
+                  "taxid": 3032201,
+                  "sciname": "Lentzea sp. NBRC 102530"
+                }
+              ],
+              "len": 279,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 367.081,
+                  "score": 941,
+                  "evalue": 1.10659e-124,
+                  "identity": 176,
+                  "positive": 211,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 20,
+                  "hit_to": 277,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "AENPYERGPAPTNSSIEASRGPFAVSETSVSSLVTGFGGGTIYYPTSTASGTFGAVAVSPGYTGTQSSISWLGPRLASQGFVVFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSSVRSRIDTSRLGVMGHSMGGGGTLRAASQRPSLQAAIPLTGWHTTKNWSSVRVPTLVIGAESDSIAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNTSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "A NPYERGP PT +S+EASRGPF VSE  VSS V+GFGGGTIYYP    + T+GAVA+SPGYT TQSS++WLG R+AS GFVV TIDTNT  DQPDSRA QL AALD++     S+VRSRID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL+IGAE+D++APV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_363835882.1|",
+                  "accession": "WP_363835882",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NPDC051208]",
+                  "taxid": 3154642,
+                  "sciname": "Lentzea sp. NPDC051208"
+                }
+              ],
+              "len": 271,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.311,
+                  "score": 939,
+                  "evalue": 2.09763e-124,
+                  "identity": 177,
+                  "positive": 211,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 12,
+                  "hit_to": 269,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "ADNPYERGPAPTNSSIEASRGPFAVSETSVSSLVSGFGGGTIYYPTSTSAGTFGAVAISPGYTGTQSTMAWLGPRLASQGFVIFTIDTNSIYDQPDSRASQLLAALDYLTQ--QSSVRSRIDSSRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTTKNWSSVRVPTLVVGAENDSVAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "A NPYERGP PT +S+EASRGPF VSE  VSS VSGFGGGTIYYP   +  T+GAVAISPGYT TQS++AWLG R+AS GFV+ TIDTN+  DQPDSRA QL AALD++     S+VRSRID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAEND+VAPV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_166025403.1|",
+                  "accession": "WP_166025403",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. MJP52]",
+                  "taxid": 2940555,
+                  "sciname": "Streptomyces sp. MJP52"
+                }
+              ],
+              "len": 286,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.696,
+                  "score": 940,
+                  "evalue": 2.26081e-124,
+                  "identity": 182,
+                  "positive": 227,
+                  "query_from": 2,
+                  "query_to": 284,
+                  "hit_from": 1,
+                  "hit_to": 286,
+                  "align_len": 288,
+                  "gaps": 7,
+                  "qseq": "LSQVTAVVAAAAAAVTLSAPALAA--NPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQ--ENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "MAGLSASVAAAIAFSTLAAPGATAADNPYERGPAPTNSSIEALRGPYSVSSTSVSSLAVTGFGGGTIYYPTTTSDGTFGAVVITPGFTAYESSISWLGERLASQGFVVFTIDTNTTMDQPASRGDQMLAAADYLTQ--RSTARSRVDATRVALMGHSMGGGGTLEAAKDRPSIKAIIPMTPWNLDKTWSEIRTPALIFGAESDSVAPVASHSEPFYSSIPSTTEKAYLELNGASHFAPNTSNTTIAKYSISWLKRWVDNDTRYSQFLCPGPSTGLFSDVEEYRNTCAF",
+                  "midline": "++ ++A VAAA A  TL+AP   A  NPYERGP PT +S+EA RGP+ VS   VSS  V+GFGGGTIYYP    + T+GAV I+PG+TA +SS++WLGER+AS GFVV TIDTNTT+DQP SR DQ+ AA D++     ST RSR+D  R+A+MGHSMGGGGTL  A  RP +KA IP+TPW+L+K+WS ++ P LI GAE+D+VAPVA H+EP Y+SIP++T KAYLELNGASHFAP+ +N TI  Y ++WLKR+VD DTRY++FLCPGP TGLFSDVEEYR+TC F"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_402465518.1|",
+                  "accession": "WP_402465518",
+                  "title": "alpha/beta hydrolase family protein [Isoptericola aurantiacus]",
+                  "taxid": 3377839,
+                  "sciname": "Isoptericola aurantiacus"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 367.081,
+                  "score": 941,
+                  "evalue": 2.72597e-124,
+                  "identity": 173,
+                  "positive": 210,
+                  "query_from": 24,
+                  "query_to": 284,
+                  "hit_from": 38,
+                  "hit_to": 298,
+                  "align_len": 263,
+                  "gaps": 4,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQ--ENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "ADNPYERGPNPSESSIEATRGSYSVSQRSVSSWVRGFGGGTIYYPSTTSDGDFGAVVISPGYTGTESSIAWLGPRLASQGFVVMTIDTNTIYDQPDSRADQLQAALDYLTD--SSDVADRIDPDRLALMGHSMGGGGTLRAVDDNPAIKAAIPMTPWHLKKNWSSITTPTLIFGAENDTIAPHQSHAEPFYDSLSGSLPKAYLELDGASHFAPNLSNTTIAKYSISWLKRYVDDDTRYTQFLCPGPSTGLFSDVQAYESSCPL",
+                  "midline": "A NPYERGP+P+++S+EA+RG + VS+  VSS V GFGGGTIYYP    +  +GAV ISPGYT T+SS+AWLG R+AS GFVV+TIDTNT  DQPDSRADQL+AALD++ D  SS V  RID +RLA+MGHSMGGGGTLR     P +KAAIP+TPWHL K+WS++  PTLI GAENDT+AP   HAEP Y S+  S  KAYLEL+GASHFAP+++N TI  Y ++WLKR+VD+DTRYT+FLCPGP TGLFSDV+ Y S+CP "
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_434443894.1|",
+                  "accession": "WP_434443894",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea xerophila]",
+                  "taxid": 3435883,
+                  "sciname": "Lentzea xerophila"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.311,
+                  "score": 939,
+                  "evalue": 3.08625e-124,
+                  "identity": 180,
+                  "positive": 221,
+                  "query_from": 4,
+                  "query_to": 283,
+                  "hit_from": 2,
+                  "hit_to": 281,
+                  "align_len": 284,
+                  "gaps": 8,
+                  "qseq": "QVTAVVAAAAAAVTLSAPALAA--NPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "QLRTLIPAALSLVLVTGTAAQAADNPYERGPAPTNSSIEATRGPFAVSETSVSSLVSGFGGGTIYYPTSTSAGTFGAVAISPGYTGTQSSISWLGPRLASQGFVIFTIDTNSRYDQPDSRASQLLAALDYLTQ--QSSVRSRIDSSRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTTKNWSTVRVPTLVVGAEDDSVAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "Q+  ++ AA + V ++  A  A  NPYERGP PT +S+EA+RGPF VSE  VSS VSGFGGGTIYYP   +  T+GAVAISPGYT TQSS++WLG R+AS GFV+ TIDTN+  DQPDSRA QL AALD++     S+VRSRID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS V+VPTL++GAE+D+VAPV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_258949674.1|",
+                  "accession": "WP_258949674",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea californiensis]",
+                  "taxid": 438851,
+                  "sciname": "Lentzea californiensis"
+                }
+              ],
+              "len": 271,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 365.54,
+                  "score": 937,
+                  "evalue": 3.66514e-124,
+                  "identity": 176,
+                  "positive": 211,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 12,
+                  "hit_to": 269,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "ADNPYERGPAPTNSSIEASRGPFAVSETSVSSLVSGFGGGTIYYPTSTSAGTFGAVAISPGYTGTQSTMAWLGPRLASQGFVIFTIDTNSVYDQPDSRASQLLAALDYLTQ--QSTVRTRIDSSRLGVMGHSMGGGGTLRAASQRPSLQAAIPLTGWHTTKNWSSVRVPTLVVGAESDSVAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "A NPYERGP PT +S+EASRGPF VSE  VSS VSGFGGGTIYYP   +  T+GAVAISPGYT TQS++AWLG R+AS GFV+ TIDTN+  DQPDSRA QL AALD++     STVR+RID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D+VAPV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_218133669.1|",
+                  "accession": "WP_218133669",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea fradiae]",
+                  "taxid": 200378,
+                  "sciname": "Lentzea fradiae"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 365.925,
+                  "score": 938,
+                  "evalue": 4.1924e-124,
+                  "identity": 182,
+                  "positive": 221,
+                  "query_from": 4,
+                  "query_to": 283,
+                  "hit_from": 2,
+                  "hit_to": 281,
+                  "align_len": 284,
+                  "gaps": 8,
+                  "qseq": "QVTAVVAAAAAAVTLSAPALAA--NPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "QLRSLIPIALSVLLIGAPAARAADNPYERGPAPTNSSIEATRGPFAVSDTRVSSLVSGFGGGTIYYPTSTSSGTFGAVVISPGFTGTQSSIDWLGPRIASQGFVVFTIDTITIYDQPDSRASQLLAALDYLTQ--RSDVRSRIDASRLGVMGHSMGGGGTLRAAAQRPSLQAAIPLTGWHTTKNWSSVSVPTLVIGAESDSVAPVATHSEPFYTSLPSTLDKAYLELNNASHFAPNLPDTTIAKYSISWLKRFIDNDTRYEQFLCPGP--GRSTQVEEYRNTCP",
+                  "midline": "Q+ +++  A + + + APA  A  NPYERGP PT +S+EA+RGPF VS+ RVSS VSGFGGGTIYYP   +  T+GAV ISPG+T TQSS+ WLG RIAS GFVV TIDT T  DQPDSRA QL AALD++     S VRSRID +RL VMGHSMGGGGTLR A++RP L+AAIPLT WH  K+WS+V VPTL+IGAE+D+VAPVA H+EP YTS+P++  KAYLELN ASHFAP++ + TI  Y ++WLKRF+D DTRY +FLCPGP  G  + VEEYR+TCP"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_218130479.1|",
+                  "accession": "WP_218130479",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea jiangxiensis]",
+                  "taxid": 641025,
+                  "sciname": "Lentzea jiangxiensis"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 365.54,
+                  "score": 937,
+                  "evalue": 5.82098e-124,
+                  "identity": 180,
+                  "positive": 213,
+                  "query_from": 9,
+                  "query_to": 283,
+                  "hit_from": 9,
+                  "hit_to": 281,
+                  "align_len": 277,
+                  "gaps": 6,
+                  "qseq": "VAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQEN--NTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "IALSLVLVTGTAAQAADNPYERGPAPTNASIEATRGSFAVSETSVSSLVSGFGGGTIYYPTSTAAGTFGAVVISPGYTGTQSSISWLGPRIASQGFVVFTIDTNSIYDQPDSRASQLLAALDYLTQ--QSSVRTRIDATRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTQKSWSTVRVPTLVIGAEDDSIAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "+A +   VT +A   A NPYERGP PT AS+EA+RG F VSE  VSS VSGFGGGTIYYP      T+GAV ISPGYT TQSS++WLG RIAS GFVV TIDTN+  DQPDSRA QL AALD++     S+VR+RID  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  KSWS V+VPTL+IGAE+D++APV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_382454455.1|",
+                  "accession": "WP_382454455",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NPDC060358]",
+                  "taxid": 3347103,
+                  "sciname": "Lentzea sp. NPDC060358"
+                }
+              ],
+              "len": 285,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 365.54,
+                  "score": 937,
+                  "evalue": 7.11619e-124,
+                  "identity": 177,
+                  "positive": 211,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 26,
+                  "hit_to": 283,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "AANPYERGPAPTTSSIEAARGPFAVSETSVSSLVSGFGGGTIYYPTSTASGTFGAVAVSPGYTGTQSSIAWLGPRLASQGFVVFTIDTITIYDQPDSRASQLLAALDYLTE--RSSVRSRVDTSRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTAKNWSSVRVPTLVIGAEDDSIAPVLTHSEPFYTSLPSTLDKAYLELNGASHFAPNSPNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTQIEEYRDTCP",
+                  "midline": "AANPYERGP PT +S+EA+RGPF VSE  VSS VSGFGGGTIYYP    + T+GAVA+SPGYT TQSS+AWLG R+AS GFVV TIDT T  DQPDSRA QL AALD++ +   S+VRSR+D +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL+IGAE+D++APV  H+EP YTS+P++  KAYLELNGASHFAP+  N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_435839940.1|",
+                  "accession": "WP_435839940",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces chilikensis]",
+                  "taxid": 1194079,
+                  "sciname": "Streptomyces chilikensis"
+                }
+              ],
+              "len": 311,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.311,
+                  "score": 939,
+                  "evalue": 7.38043e-124,
+                  "identity": 182,
+                  "positive": 225,
+                  "query_from": 5,
+                  "query_to": 284,
+                  "hit_from": 29,
+                  "hit_to": 311,
+                  "align_len": 285,
+                  "gaps": 7,
+                  "qseq": "VTAVVAAAAAAVTLSAPALAA--NPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQ--ENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "LSASVAAAIAFSTLAAPGATAADNPYERGPAPTNSSIEALRGPYSVSSTSVSSLAVTGFGGGTIYYPTTTSDGTFGAVVITPGFTAYESSISWLGERLASQGFVVFTIDTNTTMDQPASRGDQMLAAADYLTQ--RSTARSRVDATRVALMGHSMGGGGTLEAAKDRPSIKAIIPMTPWNLDKTWSEIRTPALIFGAESDSVAPVASHSEPFYSSIPSTTEKAYLELNGASHFAPNTSNTTIAKYSISWLKRWVDNDTRYSQFLCPGPSTGLFSDVEEYRNTCAF",
+                  "midline": "++A VAAA A  TL+AP   A  NPYERGP PT +S+EA RGP+ VS   VSS  V+GFGGGTIYYP    + T+GAV I+PG+TA +SS++WLGER+AS GFVV TIDTNTT+DQP SR DQ+ AA D++     ST RSR+D  R+A+MGHSMGGGGTL  A  RP +KA IP+TPW+L+K+WS ++ P LI GAE+D+VAPVA H+EP Y+SIP++T KAYLELNGASHFAP+ +N TI  Y ++WLKR+VD DTRY++FLCPGP TGLFSDVEEYR+TC F"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_090004458.1|",
+                  "accession": "WP_090004458",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea albidocapillata]",
+                  "taxid": 40571,
+                  "sciname": "Lentzea albidocapillata"
+                }
+              ],
+              "len": 271,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.77,
+                  "score": 935,
+                  "evalue": 7.46409e-124,
+                  "identity": 176,
+                  "positive": 210,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 12,
+                  "hit_to": 269,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "ADNPYERGPAPTNSSIEASRGPFAVSETSVSSLVSGFGGGTIYYPTSTSAGTFGAVAISPGYTGTQSSISWLGPRLASQGFVIFTIDTNSRYDQPDSRASQLLAALDYLTQ--QSSVRSRIDSSRLGVMGHSMGGGGTLRAASQRPALQAAIPLTAWHTTKNWSSVRVPTLVVGAENDSVASVSAHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "A NPYERGP PT +S+EASRGPF VSE  VSS VSGFGGGTIYYP   +  T+GAVAISPGYT TQSS++WLG R+AS GFV+ TIDTN+  DQPDSRA QL AALD++     S+VRSRID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAEND+VA V+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_458432623.1|",
+                  "accession": "WP_458432623",
+                  "title": "MULTISPECIES: bis(hydroxyethyl) terephthalate hydrolase [Lentzea]",
+                  "taxid": 165301,
+                  "sciname": "Lentzea"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 365.155,
+                  "score": 936,
+                  "evalue": 8.82137e-124,
+                  "identity": 180,
+                  "positive": 212,
+                  "query_from": 16,
+                  "query_to": 283,
+                  "hit_from": 16,
+                  "hit_to": 281,
+                  "align_len": 270,
+                  "gaps": 6,
+                  "qseq": "VTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "VTGTGTAHAANPYERGPAPTNASIEALRGPFAVSETSVSSLVGGFGGGTIYYPTSTASGTFGAVAISPGYTGTQSSISWLGPRLASQGFVVFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSSVRSRIDTTRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTTKNWSSVRVPTLVVGAEDDSIAPVASHSEPFYTSLPSTLDKAYLELNNANHFAPNSNNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "VT +  A AANPYERGP PT AS+EA RGPF VSE  VSS V GFGGGTIYYP    + T+GAVAISPGYT TQSS++WLG R+AS GFVV TIDTNT  DQPDSRA QL AALD++     S+VRSRID  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D++APVA H+EP YTS+P++  KAYLELN A+HFAP+  N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_360384978.1|",
+                  "accession": "WP_360384978",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NPDC042327]",
+                  "taxid": 3154801,
+                  "sciname": "Lentzea sp. NPDC042327"
+                }
+              ],
+              "len": 278,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.77,
+                  "score": 935,
+                  "evalue": 9.1229e-124,
+                  "identity": 180,
+                  "positive": 212,
+                  "query_from": 16,
+                  "query_to": 283,
+                  "hit_from": 11,
+                  "hit_to": 276,
+                  "align_len": 270,
+                  "gaps": 6,
+                  "qseq": "VTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "VTGTGTAHAANPYERGPAPTNASIEALRGPFAVSETSVSSLVGGFGGGTIYYPTSTASGTFGAVAISPGYTGTQSSISWLGPRLASQGFVVFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSSVRSRIDTTRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTTKNWSSVRVPTLVVGAEDDSIAPVASHSEPFYTSLPSTLDKAYLELNNANHFAPNSNNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "VT +  A AANPYERGP PT AS+EA RGPF VSE  VSS V GFGGGTIYYP    + T+GAVAISPGYT TQSS++WLG R+AS GFVV TIDTNT  DQPDSRA QL AALD++     S+VRSRID  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D++APVA H+EP YTS+P++  KAYLELN A+HFAP+  N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_329791647.1|",
+                  "accession": "WP_329791647",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. DG1S-22]",
+                  "taxid": 3108822,
+                  "sciname": "Lentzea sp. DG1S-22"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.77,
+                  "score": 935,
+                  "evalue": 9.62818e-124,
+                  "identity": 180,
+                  "positive": 212,
+                  "query_from": 9,
+                  "query_to": 283,
+                  "hit_from": 9,
+                  "hit_to": 281,
+                  "align_len": 277,
+                  "gaps": 6,
+                  "qseq": "VAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQEN--NTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "IALSLVLVTGTTAQAADNPYERGPAPTNASIEATRGSFAVSETSVSSLVSGFGGGTIYYPTSTAAGTFGAVVISPGYTGTQSSISWLGPRIASQGFVVFTIDTNSIYDQPDSRASQLLAALDYLTQ--QSSVRSRIDATRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTQKSWSTVRVPTLVIGAEDDSIAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "+A +   VT +    A NPYERGP PT AS+EA+RG F VSE  VSS VSGFGGGTIYYP      T+GAV ISPGYT TQSS++WLG RIAS GFVV TIDTN+  DQPDSRA QL AALD++     S+VRSRID  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  KSWS V+VPTL+IGAE+D++APV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_245777812.1|",
+                  "accession": "WP_245777812",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea xinjiangensis]",
+                  "taxid": 402600,
+                  "sciname": "Lentzea xinjiangensis"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.77,
+                  "score": 935,
+                  "evalue": 9.82144e-124,
+                  "identity": 179,
+                  "positive": 221,
+                  "query_from": 4,
+                  "query_to": 283,
+                  "hit_from": 2,
+                  "hit_to": 280,
+                  "align_len": 283,
+                  "gaps": 7,
+                  "qseq": "QVTAVVAAAAAAVTLSAPALAA-NPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "QLRTLIPVALSLVLITGTAQAAENPYERGPAPTVSSIEATRGPFAVSETSVSSLVSGFGGGTIYYPTSTASGTFGAVAISPGYTGTQSTISWLGPRIASQGFVVFTIDTNSIYDQPDSRASQLLAALDYLTQ--QSSVRTRIDATRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTTKNWSSVRVPTLVVGAEDDSIAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "Q+  ++  A + V ++  A AA NPYERGP PT +S+EA+RGPF VSE  VSS VSGFGGGTIYYP    + T+GAVAISPGYT TQS+++WLG RIAS GFVV TIDTN+  DQPDSRA QL AALD++     S+VR+RID  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D++APV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_355294350.1|",
+                  "accession": "WP_355294350",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NPDC003310]",
+                  "taxid": 3154447,
+                  "sciname": "Lentzea sp. NPDC003310"
+                }
+              ],
+              "len": 275,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.385,
+                  "score": 934,
+                  "evalue": 1.03383e-123,
+                  "identity": 176,
+                  "positive": 209,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 16,
+                  "hit_to": 273,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "ADNPYERGPAPTNASIEASRGSFAVSETSVSSLVGGFGGGTIYYPTSTSAGTFGAVAISPGYTGTQSSISWLGPRLASQGFVVFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSSVRSRIDSSRLGVMGHSMGGGGTLRAASQRPSLQAAIPLTGWHTTKNWSSVRVPTLVVGAESDSIAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "A NPYERGP PT AS+EASRG F VSE  VSS V GFGGGTIYYP   +  T+GAVAISPGYT TQSS++WLG R+AS GFVV TIDTNT  DQPDSRA QL AALD++     S+VRSRID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D++APV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_236224100.1|",
+                  "accession": "WP_236224100",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. CC55]",
+                  "taxid": 2884909,
+                  "sciname": "Lentzea sp. CC55"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.77,
+                  "score": 935,
+                  "evalue": 1.27959e-123,
+                  "identity": 180,
+                  "positive": 212,
+                  "query_from": 9,
+                  "query_to": 283,
+                  "hit_from": 9,
+                  "hit_to": 281,
+                  "align_len": 277,
+                  "gaps": 6,
+                  "qseq": "VAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQEN--NTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "IALSLVLVTGTTAQAADNPYERGPAPTNASIEATRGSFAVSETSVSSLVSGFGGGTIYYPTSTAAGTFGAVVISPGYTGTQSSISWLGPRIASQGFVVFTIDTNSIYDQPDSRASQLLAALDYLTQ--QSSVRTRIDATRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTQKSWSTVRVPTLVIGAEDDSIAPVASHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "+A +   VT +    A NPYERGP PT AS+EA+RG F VSE  VSS VSGFGGGTIYYP      T+GAV ISPGYT TQSS++WLG RIAS GFVV TIDTN+  DQPDSRA QL AALD++     S+VR+RID  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  KSWS V+VPTL+IGAE+D++APVA H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_382441980.1|",
+                  "accession": "WP_382441980",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NPDC058450]",
+                  "taxid": 3346505,
+                  "sciname": "Lentzea sp. NPDC058450"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.385,
+                  "score": 934,
+                  "evalue": 1.63578e-123,
+                  "identity": 177,
+                  "positive": 210,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 20,
+                  "hit_to": 277,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "AANPYERGPAPTNSSIEASRGSFAVSETSVSSLVSGFGGGTIYYPTSTSAGTFGAVAISPGYTGTQSSISWLGPRLASQGFVVFTIDTNTIYDQPDSRASQLLAALDYLT--GQSSVRSRIDSSRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTTKNWSSVRVPTLVVGAESDSVAPVSSHSEPFYNSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "AANPYERGP PT +S+EASRG F VSE  VSS VSGFGGGTIYYP   +  T+GAVAISPGYT TQSS++WLG R+AS GFVV TIDTNT  DQPDSRA QL AALD++     S+VRSRID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D+VAPV+ H+EP Y S+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_433211352.1|",
+                  "accession": "WP_433211352",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. CA-135723]",
+                  "taxid": 3239950,
+                  "sciname": "Lentzea sp. CA-135723"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.614,
+                  "score": 932,
+                  "evalue": 2.82672e-123,
+                  "identity": 177,
+                  "positive": 209,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 20,
+                  "hit_to": 277,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "AANPYERGPAPTNSSIEASRGSFAVSETSVSSLVSGFGGGTIYYPTSTSAGTFGAVAISPGYTGTQSSISWLGPRLASQGFVVFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSTVRTRIDSSRLGVMGHSMGGGGTLRAASQRPALQAAIPLTGWHTTKNWSSVRVPTLVVGAESDSVAPVSSHSEPFYNSLPSTLDKAYLELNNASHFAPNSPNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "AANPYERGP PT +S+EASRG F VSE  VSS VSGFGGGTIYYP   +  T+GAVAISPGYT TQSS++WLG R+AS GFVV TIDTNT  DQPDSRA QL AALD++     STVR+RID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D+VAPV+ H+EP Y S+P++  KAYLELN ASHFAP+  N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_360030371.1|",
+                  "accession": "WP_360030371",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NPDC034063]",
+                  "taxid": 3154912,
+                  "sciname": "Lentzea sp. NPDC034063"
+                }
+              ],
+              "len": 278,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.614,
+                  "score": 932,
+                  "evalue": 2.84626e-123,
+                  "identity": 178,
+                  "positive": 215,
+                  "query_from": 9,
+                  "query_to": 283,
+                  "hit_from": 4,
+                  "hit_to": 276,
+                  "align_len": 277,
+                  "gaps": 6,
+                  "qseq": "VAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "IALSLVLVTGTAARAADNPYERGPAPTNSSIEASRGSFAVSETSVSSLVGGFGGGTIYYPTSTSAGTFGAVVISPGYTGTQSSISWLGPRLASQGFVIFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSSVRTRIDSSRLGVMGHSMGGGGTLRAASQRPALQAAIPLTAWHTTKNWSSVRVPTLVVGAESDSVAPVASHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "+A +   VT +A   A NPYERGP PT +S+EASRG F VSE  VSS V GFGGGTIYYP   +  T+GAV ISPGYT TQSS++WLG R+AS GFV+ TIDTNT  DQPDSRA QL AALD++     S+VR+RID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D+VAPVA H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_396424841.1|",
+                  "accession": "WP_396424841",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp. NPDC020367]",
+                  "taxid": 3364125,
+                  "sciname": "Lentzea sp. NPDC020367"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.614,
+                  "score": 932,
+                  "evalue": 3.46259e-123,
+                  "identity": 178,
+                  "positive": 215,
+                  "query_from": 9,
+                  "query_to": 283,
+                  "hit_from": 9,
+                  "hit_to": 281,
+                  "align_len": 277,
+                  "gaps": 6,
+                  "qseq": "VAAAAAAVTLSAPALAANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "IALSLVLVTGTAARAADNPYERGPAPTNSSIEASRGSFAVSETSVSSLVGGFGGGTIYYPTSTSAGTFGAVVISPGYTGTQSSISWLGPRLASQGFVIFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSSVRTRIDSSRLGVMGHSMGGGGTLRAASQRPALQAAIPLTAWHTTKNWSSVRVPTLVVGAESDSVAPVASHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "+A +   VT +A   A NPYERGP PT +S+EASRG F VSE  VSS V GFGGGTIYYP   +  T+GAV ISPGYT TQSS++WLG R+AS GFV+ TIDTNT  DQPDSRA QL AALD++     S+VR+RID +RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D+VAPVA H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_319968385.1|",
+                  "accession": "WP_319968385",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea miocenica]",
+                  "taxid": 3095431,
+                  "sciname": "Lentzea miocenica"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.229,
+                  "score": 931,
+                  "evalue": 4.16203e-123,
+                  "identity": 177,
+                  "positive": 209,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 23,
+                  "hit_to": 280,
+                  "align_len": 262,
+                  "gaps": 6,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "ADNPYERGPAPTVASIEASRGPFAVSETSVSSLVGGFGGGTIYYPTSTASGTFGAVAISPGYTGTQSSISWLGPRLASQGFVVFTIDTNTIYDQPDSRASQLLAALDYLTQ--QSTVRTRVDATRLGVMGHSMGGGGTLRAASQRPALQAAIPLTAWHTTKNWSSVRVPTLVVGAESDSVAPVSSHSEPFYTSLPSTLDKAYLELNNASHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPPP--GRSTLIEEYRDTCP",
+                  "midline": "A NPYERGP PT AS+EASRGPF VSE  VSS V GFGGGTIYYP    + T+GAVAISPGYT TQSS++WLG R+AS GFVV TIDTNT  DQPDSRA QL AALD++     STVR+R+D  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D+VAPV+ H+EP YTS+P++  KAYLELN ASHFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_382560657.1|",
+                  "accession": "WP_382560657",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC056600]",
+                  "taxid": 3345874,
+                  "sciname": "Streptomyces sp. NPDC056600"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.614,
+                  "score": 932,
+                  "evalue": 7.64753e-123,
+                  "identity": 180,
+                  "positive": 219,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 41,
+                  "hit_to": 310,
+                  "align_len": 272,
+                  "gaps": 6,
+                  "qseq": "TLSAPALAA--NPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQ--ENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "TLAAPGATAADNPYERGPAPTNSSIEALRGSYSVSSTSVSSLVSGFGGGTIYYPTTTSDGTFGAVVITPGFTAYESSISWLGERLASQGFVVFTIDTNTTMDQPDSRGDQMLAAADYLTQ--SSSVRSRVDATRVALMGHSMGGGGTLEAAKDRPSVKAIIPMTPWNLDKTWSEIRTPALIFGAESDTVAPVASHSEPFYTSIPSTTEKAYLELNGASHFAPNTSNTTIAKYSISWLKRWVDNDTRYSQFLCPGPSTGLFSDVEEYRNTCAF",
+                  "midline": "TL+AP   A  NPYERGP PT +S+EA RG + VS   VSS VSGFGGGTIYYP    + T+GAV I+PG+TA +SS++WLGER+AS GFVV TIDTNTT+DQPDSR DQ+ AA D++    SS+VRSR+D  R+A+MGHSMGGGGTL  A  RP +KA IP+TPW+L+K+WS ++ P LI GAE+DTVAPVA H+EP YTSIP++T KAYLELNGASHFAP+ +N TI  Y ++WLKR+VD DTRY++FLCPGP TGLFSDVEEYR+TC F"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_380646624.1|",
+                  "accession": "WP_380646624",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Saccharothrix xinjiangensis]",
+                  "taxid": 204798,
+                  "sciname": "Saccharothrix xinjiangensis"
+                }
+              ],
+              "len": 287,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.073,
+                  "score": 928,
+                  "evalue": 1.41528e-122,
+                  "identity": 177,
+                  "positive": 208,
+                  "query_from": 24,
+                  "query_to": 283,
+                  "hit_from": 26,
+                  "hit_to": 284,
+                  "align_len": 263,
+                  "gaps": 7,
+                  "qseq": "AANPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQENN--TYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "AETEYRRGPAPTNSSIEASRGPFSTSETSVSSLAVTGFGGGTIYYPTSTSEGTYGAVAISPGFTGTQSSIGWLGPRLASQGFVVFTIDTNTTLDQPDSRASQLLAALDYLTE--RSSVRSRIDTSRLGVMGHSMGGGGTLRAAEQRPALQAAIPLTGWHTDKSWSGVRTPTLVIGAENDSVAPVSSHSEPFYSSLPSTLDKAYLELNGASHFAPNTSNTTIAKYSIAWLKRFIDNDTRYEQFLCPAP--GRSTQIEEYRDTCP",
+                  "midline": "A   Y RGP PT +S+EASRGPF  SE  VSS  V+GFGGGTIYYP   +  TYGAVAISPG+T TQSS+ WLG R+AS GFVV TIDTNTTLDQPDSRA QL AALD++ +   S+VRSRID +RL VMGHSMGGGGTLR A +RP L+AAIPLT WH +KSWS V+ PTL+IGAEND+VAPV+ H+EP Y+S+P++  KAYLELNGASHFAP+ +N TI  Y +AWLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_351118721.1|",
+                  "accession": "WP_351118721",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Streptomyces sp. NPDC002734]",
+                  "taxid": 3154426,
+                  "sciname": "Streptomyces sp. NPDC002734"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.844,
+                  "score": 930,
+                  "evalue": 1.50629e-122,
+                  "identity": 179,
+                  "positive": 219,
+                  "query_from": 17,
+                  "query_to": 284,
+                  "hit_from": 41,
+                  "hit_to": 310,
+                  "align_len": 272,
+                  "gaps": 6,
+                  "qseq": "TLSAPALAA--NPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQ--ENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "TLAAPGATAADNPYERGPAPTNSSIEALRGSYSVSSTSVSSLVSGFGGGTIYYPTTTSDGTFGAVVITPGFTAYESSISWLGERLASQGFVVFTIDTNTTMDQPDSRGDQMLAAADYLTQ--SSSVRSRVDATRVALMGHSMGGGGTLEAAKDRPSIKAIIPMTPWNLDKTWSEIKTPALIFGAESDTVAPVASHSEPFYTSIPSTTEKAYLELNGATHFAPNTSNTTIAKYSISWLKRWVDNDTRYSQFLCPGPSTGLFSDVEEYRNTCAF",
+                  "midline": "TL+AP   A  NPYERGP PT +S+EA RG + VS   VSS VSGFGGGTIYYP    + T+GAV I+PG+TA +SS++WLGER+AS GFVV TIDTNTT+DQPDSR DQ+ AA D++    SS+VRSR+D  R+A+MGHSMGGGGTL  A  RP +KA IP+TPW+L+K+WS ++ P LI GAE+DTVAPVA H+EP YTSIP++T KAYLELNGA+HFAP+ +N TI  Y ++WLKR+VD DTRY++FLCPGP TGLFSDVEEYR+TC F"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_402371896.1|",
+                  "accession": "WP_402371896",
+                  "title": "MULTISPECIES: alpha/beta hydrolase family protein [Isoptericola]",
+                  "taxid": 254250,
+                  "sciname": "Isoptericola"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.459,
+                  "score": 929,
+                  "evalue": 1.81697e-122,
+                  "identity": 177,
+                  "positive": 221,
+                  "query_from": 4,
+                  "query_to": 284,
+                  "hit_from": 13,
+                  "hit_to": 298,
+                  "align_len": 288,
+                  "gaps": 9,
+                  "qseq": "QVTAVVAAAAAAVTL---SAPAL--AANPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQ--ENNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "RVTGILASLAVAVGVGIAAGPAAQGADNPHERGPDPTESSIEASRGSYSISEQNVSSLVSGFGGGTIYYPTTTRDGDFGAVVISPGYTGTERTISWLGPRLASQGFVVLTMATNSIYDQPDSRARQLQAALDYLTD--SSPVADRIDADRLALMGHSMGGGGTLRAVDDNPDIKAAIPMTPWHVKKNWSSVSTPTLIFGAEYDSVARHETHAEPFYESFDRDLQKAYLELDGASHFAPNSSNTTIAKYSISWLKRFVDDDTRYTQFLCPGPSTGWFSDVEKYESSCPF",
+                  "midline": "+VT ++A+ A AV +   + PA   A NP+ERGPDPT++S+EASRG + +SE+ VSS VSGFGGGTIYYP    +  +GAV ISPGYT T+ +++WLG R+AS GFVV+T+ TN+  DQPDSRA QL+AALD++ D  SS V  RID +RLA+MGHSMGGGGTLR     PD+KAAIP+TPWH+ K+WS+V  PTLI GAE D+VA    HAEP Y S     +KAYLEL+GASHFAP+ +N TI  Y ++WLKRFVD+DTRYT+FLCPGP TG FSDVE+Y S+CPF"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_414675306.1|",
+                  "accession": "WP_414675306",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Lentzea sp.]",
+                  "taxid": 56099,
+                  "sciname": "Lentzea sp."
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.303,
+                  "score": 926,
+                  "evalue": 2.54019e-122,
+                  "identity": 174,
+                  "positive": 206,
+                  "query_from": 26,
+                  "query_to": 283,
+                  "hit_from": 27,
+                  "hit_to": 282,
+                  "align_len": 260,
+                  "gaps": 6,
+                  "qseq": "NPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "NPYERGPAPTNSSIEATRGPFAVSETSVSSLVSGFGGGTIYYPTSTASGTFGAVAVSPGYTGTQSSIAWLGPRIASQGFVVFTIDTITIYDQPDSRASQLLAALDYLTQ--QSSVRSRIDTTRLGVMGHSMGGGGTLRAASQRPSLQAAIPLTGWHTTKNWSSVRVPTLVVGAEDDSIAPVATHSEPFYTTLPSTLDKAYLELNSATHFAPNSPNTTIAKYSISWLKRFIDNDTRYEQFLCPAPGRSLL--IEEYRDTCP",
+                  "midline": "NPYERGP PT +S+EA+RGPF VSE  VSS VSGFGGGTIYYP    + T+GAVA+SPGYT TQSS+AWLG RIAS GFVV TIDT T  DQPDSRA QL AALD++     S+VRSRID  RL VMGHSMGGGGTLR AS+RP L+AAIPLT WH  K+WS+V+VPTL++GAE+D++APVA H+EP YT++P++  KAYLELN A+HFAP+  N TI  Y ++WLKRF+D DTRY +FLCP P   L   +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_420867444.1|",
+                  "accession": "WP_420867444",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Actinomadura bangladeshensis]",
+                  "taxid": 453573,
+                  "sciname": "Actinomadura bangladeshensis"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.918,
+                  "score": 925,
+                  "evalue": 6.78743e-122,
+                  "identity": 177,
+                  "positive": 207,
+                  "query_from": 26,
+                  "query_to": 283,
+                  "hit_from": 37,
+                  "hit_to": 293,
+                  "align_len": 261,
+                  "gaps": 7,
+                  "qseq": "NPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQEN--NTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "NPYERGPAPTQSSIEALRGPFATSQTSVSSLSVSGFGGGTIYYPTSTAAGTFGAVAVAPGFTADQSSMAWLGPRLASQGFVIFTIDTNTRLDQPDSRARQLEAALDYLTQ--RSGVRSRIDATRLGVMGHSMGGGGTLEAAEDRPQLQAAIPLTPWDLQKNFSDVRVPTMIIGAEADTIAPVASHSEPFYTSIPASSEKAYLELNGASHFAPNIANTTIAKYSISWLKRYIDNDTRYDQFLCPGPSRDL--NISEYRDTCP",
+                  "midline": "NPYERGP PTQ+S+EA RGPF  S+  VSS  VSGFGGGTIYYP      T+GAVA++PG+TA QSS+AWLG R+AS GFV+ TIDTNT LDQPDSRA QLEAALD++     S VRSRID  RL VMGHSMGGGGTL  A  RP L+AAIPLTPW L K++S+V+VPT+IIGAE DT+APVA H+EP YTSIP S+ KAYLELNGASHFAP++AN TI  Y ++WLKR++D DTRY +FLCPGP   L  ++ EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_380640057.1|",
+                  "accession": "WP_380640057",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Saccharothrix lopnurensis]",
+                  "taxid": 1670621,
+                  "sciname": "Saccharothrix lopnurensis"
+                }
+              ],
+              "len": 287,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.533,
+                  "score": 924,
+                  "evalue": 6.91219e-122,
+                  "identity": 181,
+                  "positive": 218,
+                  "query_from": 4,
+                  "query_to": 283,
+                  "hit_from": 2,
+                  "hit_to": 284,
+                  "align_len": 287,
+                  "gaps": 11,
+                  "qseq": "QVTAVVAAAAAAVTLSAPALAAN----PYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "QLRKLIPALVPALVLALVAPQANAAETEYRRGPAPSNSSIEAVRGPFSTSETSVSSLVVSGFGGGTIYYPTSTAEGTYGAIAVSPGYTGTQSSISWLGPRLASQGFVVFTIDTNTTLDQPDSRASQLLAALDYLTQ--RSTVRSRIDTSRLGVMGHSMGGGGTLRAAEQRPALQAAIPLTGWHTDKSWSGVRVPTLVVGAENDSIAPVSSHSEPFYSSLPSTLDKAYLELNGASHFAPNTSNTTIAKYSIAWLKRFIDNDTRYEQFLCPAP--GRSTLIEEYRDTCP",
+                  "midline": "Q+  ++ A   A+ L+  A  AN     Y RGP P+ +S+EA RGPF  SE  VSS  VSGFGGGTIYYP      TYGA+A+SPGYT TQSS++WLG R+AS GFVV TIDTNTTLDQPDSRA QL AALD++     STVRSRID +RL VMGHSMGGGGTLR A +RP L+AAIPLT WH +KSWS V+VPTL++GAEND++APV+ H+EP Y+S+P++  KAYLELNGASHFAP+ +N TI  Y +AWLKRF+D DTRY +FLCP P  G  + +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_424923522.1|",
+                  "accession": "WP_424923522",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Actinomadura bangladeshensis]",
+                  "taxid": 453573,
+                  "sciname": "Actinomadura bangladeshensis"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.533,
+                  "score": 924,
+                  "evalue": 7.09093e-122,
+                  "identity": 175,
+                  "positive": 209,
+                  "query_from": 26,
+                  "query_to": 283,
+                  "hit_from": 37,
+                  "hit_to": 293,
+                  "align_len": 261,
+                  "gaps": 7,
+                  "qseq": "NPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQEN--NTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "NPYERGPAPTQSSIEALRGPFATSQTSVSSLSVSGFGGGTIYYPTSTAAGTFGAVAVAPGFTADQSSMAWLGPRLASQGFVIFTIDTNTRLDQPDSRARQLNAALDYLTQ--RSSVRSRIDASRLGVMGHSMGGGGTLEIAEDRPQLQAAIPLTPWDLQKNFSDVRVPTMIIGAEADTIAPVATHSKPFYTSIPASSEKAYLELNGASHFAPNIANTTIAKYSISWLKRYIDNDTRYDQFLCPGPSRDL--NISEYRDTCP",
+                  "midline": "NPYERGP PTQ+S+EA RGPF  S+  VSS  VSGFGGGTIYYP      T+GAVA++PG+TA QSS+AWLG R+AS GFV+ TIDTNT LDQPDSRA QL AALD++     S+VRSRID +RL VMGHSMGGGGTL +A  RP L+AAIPLTPW L K++S+V+VPT+IIGAE DT+APVA H++P YTSIP S+ KAYLELNGASHFAP++AN TI  Y ++WLKR++D DTRY +FLCPGP   L  ++ EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_428831207.1|",
+                  "accession": "WP_428831207",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Actinomadura chokoriensis]",
+                  "taxid": 454156,
+                  "sciname": "Actinomadura chokoriensis"
+                }
+              ],
+              "len": 295,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.147,
+                  "score": 923,
+                  "evalue": 1.02844e-121,
+                  "identity": 176,
+                  "positive": 207,
+                  "query_from": 26,
+                  "query_to": 283,
+                  "hit_from": 37,
+                  "hit_to": 293,
+                  "align_len": 261,
+                  "gaps": 7,
+                  "qseq": "NPYERGPDPTQASLEASRGPFPVSEERVSS-PVSGFGGGTIYYPQEN--NTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "NPYERGPAPTQSSIEALRGPFATSQTSVSSLSVSGFGGGTIYYPTSTAAGTFGAVAVAPGFTADQSSMAWLGPRLASQGFVIFTIDTNTRLDQPDSRARQLEAALDYLTQ--RSSVRSRIDATRLGVMGHSMGGGGTLEAAEDRPQLQAAIPLTPWDLQKNFSDVRVPTMIIGAEADTIAPVASHSEPFYNSIPASSEKAYLELNGASHFAPNIANTTIAKYSISWLKRYIDNDTRYDQFLCPGPSRDL--NISEYRDTCP",
+                  "midline": "NPYERGP PTQ+S+EA RGPF  S+  VSS  VSGFGGGTIYYP      T+GAVA++PG+TA QSS+AWLG R+AS GFV+ TIDTNT LDQPDSRA QLEAALD++     S+VRSRID  RL VMGHSMGGGGTL  A  RP L+AAIPLTPW L K++S+V+VPT+IIGAE DT+APVA H+EP Y SIP S+ KAYLELNGASHFAP++AN TI  Y ++WLKR++D DTRY +FLCPGP   L  ++ EYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_397556327.1|",
+                  "accession": "WP_397556327",
+                  "title": "bis(hydroxyethyl) terephthalate hydrolase [Saccharothrix variisporea]",
+                  "taxid": 543527,
+                  "sciname": "Saccharothrix variisporea"
+                }
+              ],
+              "len": 278,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 359.377,
+                  "score": 921,
+                  "evalue": 1.28123e-121,
+                  "identity": 176,
+                  "positive": 202,
+                  "query_from": 26,
+                  "query_to": 283,
+                  "hit_from": 21,
+                  "hit_to": 276,
+                  "align_len": 260,
+                  "gaps": 6,
+                  "qseq": "NPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCP",
+                  "hseq": "NPYERGPAPTTASIEASRGPFATASTTVSSLVSGFGGGTIYYPTSTAEGTFGAVAISPGYTGTQSSIAWLGPRIASQGFVVITIDTNTIYDQPDSRASQLLAALDYLTQ--SSSVRTRIDATRLGVMGHSMGGGGTLRAAESRPALQAAIPLTAWHTDKSWGGVRVPTLVIGAENDSIAPVATHSELFYSSLPSTLDKAYLELNAADHFAPNSSNTTIAKYSISWLKRFIDNDTRYEQFLCPPPSRSLL--IEEYRDTCP",
+                  "midline": "NPYERGP PT AS+EASRGPF  +   VSS VSGFGGGTIYYP      T+GAVAISPGYT TQSS+AWLG RIAS GFVVITIDTNT  DQPDSRA QL AALD++    SS+VR+RID  RL VMGHSMGGGGTLR A  RP L+AAIPLT WH +KSW  V+VPTL+IGAEND++APVA H+E  Y+S+P++  KAYLELN A HFAP+ +N TI  Y ++WLKRF+D DTRY +FLCP P   L   +EEYR TCP"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_495402955.1|",
+                  "accession": "WP_495402955",
+                  "title": "alpha/beta hydrolase family protein [Isoptericola dokdonensis]",
+                  "taxid": 372663,
+                  "sciname": "Isoptericola dokdonensis"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 4.28358e-121,
+                  "identity": 177,
+                  "positive": 217,
+                  "query_from": 4,
+                  "query_to": 284,
+                  "hit_from": 13,
+                  "hit_to": 298,
+                  "align_len": 288,
+                  "gaps": 9,
+                  "qseq": "QVTAVVAAAAAAVTLSAPALAA-----NPYERGPDPTQASLEASRGPFPVSEERVSSPVSGFGGGTIYYPQE--NNTYGAVAISPGYTATQSSVAWLGERIASHGFVVITIDTNTTLDQPDSRADQLEAALDHMVDGASSTVRSRIDRNRLAVMGHSMGGGGTLRLASRRPDLKAAIPLTPWHLNKSWSNVQVPTLIIGAENDTVAPVALHAEPSYTSIPTSTRKAYLELNGASHFAPSVANATIGMYGVAWLKRFVDEDTRYTRFLCPGPRTGLFSDVEEYRSTCPF",
+                  "hseq": "RLTGALASLAVAVGIGVASGAAAHAADNPYERGPDPTESSIEATRGAYTVSERNVSSWVSGFGGGTIYYPTTTGDGAFGAVVVSPGYTGTESTIAWLGPRLASQGFVVLTMATNSIYDQPDSRADQLQAALDYLT--GSSPVADRIDEDRLALMGHSMGGGGTLRAVDDNPEIKAAIPMTPWHLKKDWSSVATPTLIFGAENDSVARHETHAEPFYESLDDDLPKAYLELDGASHFAPNYSNTTIAKYSISWLKRFVDDDDRYTQFLCPGPSTGWFSDVEVYESSCPF",
+                  "midline": "++T  +A+ A AV +   + AA     NPYERGPDPT++S+EA+RG + VSE  VSS VSGFGGGTIYYP    +  +GAV +SPGYT T+S++AWLG R+AS GFVV+T+ TN+  DQPDSRADQL+AALD++    SS V  RID +RLA+MGHSMGGGGTLR     P++KAAIP+TPWHL K WS+V  PTLI GAEND+VA    HAEP Y S+     KAYLEL+GASHFAP+ +N TI  Y ++WLKRFVD+D RYT+FLCPGP TG FSDVE Y S+CPF"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 458877498,
+            "db_len": 1448622149,
+            "hsp_len": 161,
+            "eff_space": 12750549505161,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+]
+}
+

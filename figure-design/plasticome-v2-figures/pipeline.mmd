@@ -1,0 +1,34 @@
+flowchart TD
+    subgraph S1["Step 1 · Data Processing (Compile)"]
+        A["pazy-pulled 260701\nn=495"] --> B["Manual curation\n+4 added / −26 removed"]
+        B --> C["cleaned_pazy-260701\nn=473"]
+        C --> D["Retrieve by accession\n446 NCBI + 27 manual = 473"]
+        D --> E["QC annotation\nactivity · direct/indirect proof"]
+    end
+
+    subgraph S21["Step 2.1 · Clean-up Plasticome V1"]
+        F["Plasticome v1"] --> G["Fix accession · resolve\nErickson sequences"]
+        G --> H["plasticome v1.1\n213 rows"]
+    end
+
+    E --> U["Step 2.2 · V1.V2 Union merge\naccession == retrieved"]
+    H --> U
+    U --> UNION["union n=611\nv260701 398 · merge 75 · v1.1 138"]
+
+    UNION --> SEED["seed set n=13"]
+    UNION --> NOSEED["no-seed n=598"]
+    SEED --> CL["Step 2.3 · USEARCH clustering\n90% AA id · 3-phase closed-ref + de-novo"]
+    NOSEED --> CL
+    CL --> CENT["412 clusters\n273 singletons"]
+
+    CENT --> ALIGN["Step 2.4 · Align centroids → components\nDIAMOND + USEARCH all-vs-all\n≥30% aaid AND e<1e-5 · single-linkage"]
+    ALIGN --> VAL["Step 2.5 · Validate singletons\nPL14 · PL458 · PL467 · PL539"]
+    VAL --> R1["2.6a Rebuild (4 seqs updated)"]
+    R1 --> R2["2.6b Recluster\nstill 412 centroids"]
+    R2 --> R3["2.6c Re-align\n46 components"]
+    R3 --> OUT["Output · 412-centroid FASTA\nfor nr-search"]
+
+    classDef product fill:#dbeafe,stroke:#2563eb,color:#1e3a8a;
+    classDef output fill:#dcfce7,stroke:#16a34a,color:#14532d;
+    class C,H,UNION,CENT product;
+    class OUT output;

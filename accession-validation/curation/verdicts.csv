@@ -1,0 +1,5 @@
+accession,verdict,evidence_accession,note
+ARF18137.1,correct,,"Sporosarcina ureae amidase; organism matches the screening paper's M&M (10.1016/j.jbiosc.2021.05.003). NCBI title 'glutamyl-tRNA amidotransferase' is a benign re-annotation, not a wrong protein."
+WP_012433325.1,correct,,"Paraburkholderia phytofirmans amidase; RefSeq equivalent of the paper's ACD16728.1, same organism (P. phytofirmans is the current name for the deposited B. phytofirmans DSM17436). NCBI title 'allantoinase PuuE' is a benign re-annotation. Verified vs paper M&M."
+AAK11724.1,verify_cds,AY026386,"Paper (10.1016/j.jbiosc.2021.05.003) cites AY026386 (nucleotide) for R. erythropolis MP50; auto-verify AAK11724.1 is a CDS product of it."
+ACY56506.1,verify_cds,GU116480,"Paper (10.1016/j.jbiosc.2021.05.003) cites GU116480 (nucleotide) for M. hydrocarbonoxydans; auto-verify ACY56506.1 is a CDS product of it."

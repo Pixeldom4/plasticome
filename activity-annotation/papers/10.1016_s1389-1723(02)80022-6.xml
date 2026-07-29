@@ -1,0 +1,985 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1389172302800226</prism:url><dc:identifier>doi:10.1016/S1389-1723(02)80022-6</dc:identifier><eid>1-s2.0-S1389172302800226</eid><prism:doi>10.1016/S1389-1723(02)80022-6</prism:doi><pii>S1389-1723(02)80022-6</pii><dc:title>Cloning and sequence analysis of poly(tetramethylene succinate) depolymerase from Acidovorax delafieldii strain BS-3 </dc:title><prism:publicationName>Journal of Bioscience and Bioengineering</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>13891723</prism:issn><prism:volume>93</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>245</prism:startingPage><prism:endingPage>247</prism:endingPage><prism:pageRange>245-247</prism:pageRange><prism:number>2</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2002-02-28</prism:coverDate><prism:coverDisplayDate>February 2002</prism:coverDisplayDate><prism:copyright>Copyright © 2002 Published by Elsevier B.V.</prism:copyright><prism:publisher>Published by Elsevier B.V.</prism:publisher><dc:creator>Uchida, Hiromi</dc:creator><dc:creator>Shigeno-Akutsu, Yukie</dc:creator><dc:creator>Nomura, Nobuhiko</dc:creator><dc:creator>Nakahara, Tadaatsu</dc:creator><dc:creator>Nakajima-Kambe, Toshiaki</dc:creator><dc:description>
+                  A gene encoding poly(tetramethylene succinate), PBS, depolymerase, pbsA, has been cloned from Acidovorax delafieldii strain BS-3 chromosomal DNA. The clone expressed in Escherichia coli showed the ability to degrade both PBS and poly{(tetramethylene succinate)-co-adipate} that are kinds of biodegradable plastics. PBS depolymerase was considered to be a kind of lipase, since it also degrades olive oil. It had no apparent hydrophobic-amino-acid-rich region which exists in other known plastic-degrading enzymes. From the result of amino acid homology search, PbsA was found to have some similarities with lipases of Streptomyces sp. and Mollaxella sp. In the motif surrounding the active site Ser residue (Gly-X1-Ser-X2-Gly), PbsA was revealed to have a Trp residue in the X1 position instead of His which is most likely found in other bacterial lipases.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>poly(tetramethylene succinate)</dcterms:subject><dcterms:subject>depolymerase</dcterms:subject><dcterms:subject>
+                     Acidovorax
+                  </dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1389172302800226" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1389172302800226" rel="scidir"/></coredata><scopus-id>0036207916</scopus-id><scopus-eid>2-s2.0-0036207916</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/0036207916" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>272249</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291808</xocs:ssid>
+         <xocs:ssid type="subj">291832</xocs:ssid>
+         <xocs:ssid type="subj">291850</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Bioscience and Bioengineering</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALBIOSCIENCEBIOENGINEERING</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20020529">2002-05-29</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20020529">2002-05-29</xocs:available-online-date>
+      <xocs:ew-transaction-id>2010-11-15T15:30:04</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1389172302800226</xocs:eid>
+      <xocs:pii-formatted>S1389-1723(02)80022-6</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1389172302800226</xocs:pii-unformatted>
+      <xocs:doi>10.1016/S1389-1723(02)80022-6</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1389172300X00370</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20150515">2015-05-15T06:10:32.916745-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20020201</xocs:date-search-begin>
+      <xocs:date-search-end>20020228</xocs:date-search-end>
+      <xocs:year-nav>2002</xocs:year-nav>
+      <xocs:indexeddate epoch="1022630400">2002-05-29T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo crossmark dco dateupdated tomb dateloaded datesearch indexeddate issuelist volumelist yearnav articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright dateloadedtxt docsubtype doctype doi eid ewtransactionid hubeid issfirst issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype volfirst volissue webpdf webpdfpagecount affil articletitle auth authfirstini authfull authkeywords authlast primabst ref alllist content subj ssids</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1389-1723</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>13891723</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0"/>
+      <xocs:vol-first>93</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>93</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>2</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>2</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 93, Issue 2</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>22</xocs:sort-order>
+      <xocs:first-fp>245</xocs:first-fp>
+      <xocs:last-lp>247</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>245</xocs:first-page>
+         <xocs:last-page>247</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>200202</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>February 2002</xocs:cover-date-text>
+      <xocs:cover-date-start>2002-02-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2002-02-28</xocs:cover-date-end>
+      <xocs:cover-date-year>2002</xocs:cover-date-year>
+      <xocs:document-type>converted-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2002 Published by Elsevier B.V.</xocs:copyright-line>
+      <xocs:normalized-article-title>CLONINGSEQUENCEANALYSISPOLYTETRAMETHYLENESUCCINATEDEPOLYMERASEACIDOVORAXDELAFIELDIISTRAINBS3</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>UCHIDA</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>H</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="BIB1">
+            <xocs:ref-normalized-surname>PRANAMUDA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1828</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1832</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB2">
+            <xocs:ref-normalized-surname>MERGAERT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>463</xocs:ref-first-fp>
+            <xocs:ref-last-lp>469</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB3">
+            <xocs:ref-normalized-surname>KLEEBERG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1731</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1735</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB4">
+            <xocs:ref-normalized-surname>PRANAMUDA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4220</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4222</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB5">
+            <xocs:ref-normalized-surname>UCHIDA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>25</xocs:ref-first-fp>
+            <xocs:ref-last-lp>29</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB6">
+            <xocs:ref-normalized-surname>TOMITA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>350</xocs:ref-first-fp>
+            <xocs:ref-last-lp>352</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB7">
+            <xocs:ref-normalized-surname>JARERAT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>647</xocs:ref-first-fp>
+            <xocs:ref-last-lp>651</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB8">
+            <xocs:ref-normalized-surname>MANIATIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>MOLECULARCLONINGALABORATORYMANUAL</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB9">
+            <xocs:ref-normalized-surname>YANISCHPERRON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>103</xocs:ref-first-fp>
+            <xocs:ref-last-lp>119</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB10">
+            <xocs:ref-normalized-surname>SANGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1977</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5463</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5467</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB11">
+            <xocs:ref-normalized-surname>NOMURA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>339</xocs:ref-first-fp>
+            <xocs:ref-last-lp>345</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB12">
+            <xocs:ref-normalized-surname>JENDROSSEK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>596</xocs:ref-first-fp>
+            <xocs:ref-last-lp>607</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB13">
+            <xocs:ref-normalized-surname>JAEGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>29</xocs:ref-first-fp>
+            <xocs:ref-last-lp>63</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB14">
+            <xocs:ref-normalized-surname>FELLER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>239</xocs:ref-first-fp>
+            <xocs:ref-last-lp>244</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB15">
+            <xocs:ref-normalized-surname>JENDROSSEK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>451</xocs:ref-first-fp>
+            <xocs:ref-last-lp>463</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB16">
+            <xocs:ref-normalized-surname>NAKAJIMAKAMBE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>134</xocs:ref-first-fp>
+            <xocs:ref-last-lp>140</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>UCHIDAX2002X245</xocs:refkey3>
+         <xocs:refkey4lp>UCHIDAX2002X245X247</xocs:refkey4lp>
+         <xocs:refkey4ai>UCHIDAX2002X245XH</xocs:refkey4ai>
+         <xocs:refkey5>UCHIDAX2002X245X247XH</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1389-1723(02)80022-6</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1389172302800226</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1389172302800226</xocs:eid>
+         <xocs:doi>10.1016/S1389-1723(02)80022-6</xocs:doi>
+         <xocs:cid>272249</xocs:cid>
+         <xocs:timestamp>2010-12-10T03:22:30.622343-05:00</xocs:timestamp>
+         <xocs:cover-date-start>2002-02-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2002-02-28</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1389172302800226-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1389172302800226/MAIN/application/pdf/f8ff59bf65f907b7ec8245140c5bf312/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172302800226/MAIN/application/pdf/f8ff59bf65f907b7ec8245140c5bf312/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>432269</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>3</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1389172302800226-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1389172302800226/PREVIEW/image/png/2fc66ba7a900edda91c4e40642a8ff96/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1389172302800226/PREVIEW/image/png/2fc66ba7a900edda91c4e40642a8ff96/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>94553</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">JOURNAL OF BIOSCIENCE AND BIOENGINEERING Vol. 93, NO. 2,245-247. 2002   Cloning and Sequence Analysis of Poly(tetramethylene succinate) Depolymerase from Acidovorax delafieldii Strain BS-3 HIROMI UCHIDA,1 YUKIE SHIGENO-AKUTSU,~ NOBUHIKO NOMURA,1 TADAATSU NAKAHARA,1 AND TOSHIAKI NAKAJIMA-KAMBE1. Institute of Applied Biochemistr), Universi~ of Tsukuba, Tsukuba, Ibaraki 305-8572, Japan~   Received 27 August 2001/Accepted 5 November 2001   A gene encoding poly(tetramethylene succinate), PBS, depolymerase, pbsA, has been cloned from Acidovorax delafieldii strain BS-3 chromosomal DNA. The clone expressed in Escherichia coli showed the ability to degrade both PBS and poly{(tetramethylene succinate)-co-adipate} that are kinds of biodegradable plastics. PBS depolymerase was considered to be a kind of lipase, since it also degrades olive oil. It had no apparent hydrophobic-amino-acid-rich region which exists in other known plastic-degrading enzymes. From the result of amino acid homology search, PbsA was found to have some similarities with lipases ofStreptomyces sp. and Mollaxella sp. In the motif surrounding the active site Ser residue (Gly-X1-Ser-X2-Gly), PbsA was revealed to have a Trp residue in the X1 position instead of His which is most likely found in other bacterial lipases.   [Key words: poly(tetramethylene succinate), depolymerase, Acidovorax]   Poly(tetramethylene succinate), PBS, and poly{(tetrame- thylene succinate)-co-adipate}, PBSA, are synthetic polyes- ter-based polymers which have been developed as biode- gradable plastics. Although several PBS(A) degrading mi- crobes have been reported (1-7), there is only limited infor- mation about the key enzymes involved in PBS(A) biodeg- radation. Moreover, there is no information about the genes encoding PBS(A)-degrading enzymes. Previously, we reported Acidovorax delafieldii strain BS- 3 which uses PBS as the sole carbon and energy source (5). Strain BS-3 could use emulsified PBS, and both solid and emulsified PBSA. In this report, we present results of the molecular cloning and sequence analysis of the PBS de- polymerase gene (pbsA) from A. delafieldii strain BS-3 and its functional expression in Escherichia coli. The molecular distinctive characteristics of PbsA from other solid-poly- mer-degrading enzymes and lipases based on putative amino acid sequences are also discussed. PBS (Bionolle #1020) and PBSA (Bionolle #3020) used in this study were supplied by Showa Highpolymer Co. Ltd. (Tokyo). The number average molecular weights of PBS and PBSA are approximately 60,000. All other reagents were commercially available products. Unless specified otherwise, standard methods for DNA manipulation described by Maniatis et al. were followed (8). The total DNA extracted from strain BS-3 was partially digested with Sau3A I and fragments whose size ranged from 2 to 4 kbp were recovered using the QIAEX II agarose gel extraction kit (Qiagen, Germany). These fragments were then ligated to pUC 18 (9), which was digested with BamHI and dephosphorized, using a DNA ligation kit (Ligation High, Toyobo Co. Ltd., Tokyo) under conditions recom-   * Corresponding author, e-mail: toshi@sakura.cc.tsukuba.ac.jp phone: +81-(0)298-53-4927 fax: +81-(0)298-53-4605   mended by the supplier. These recombinants were intro- duced into E. coli strain JM 109. For screening of the recombinant E. coli that exhibits PBS depolymerase activity, indicator plates were prepared as follows. The emulsified PBS (0.8%) solution containing 1.5% agar was prepared as described previously (5) and was overlaid on a Luria-Bertani (LB) agar plate (8). Among 16,800 recombinants, only one colony forming a clear-zone on the indicator plate was isolated. This clone could grow at both 30 and 37 C, but the clear-zone formation was ob- served only at 30 C. In addition, it took 2 or 3 d for clear- zone formation to be obtained. From this clone, the plasmid containing an approximately 4-kbp fragment derived from strain BS-3 was extracted and named pBSI. To determine the location of the gene on the 4-kbp fragment, the fragment was digested using several re- striction enzymes. The fragments obtained were subcloned into the appropriate sites in the pUCI 8 (or pUCI9) vector. The subcloning procedure is summarized in Fig. 1. The plasmids' ability to produce PBS depolymerase was investi- gated using the indicator plates. The gene responsible for clear-zone formation was located in pBS-ss7 which carried an approximately 1-kpb SacI-Smal fragment. In addition, transformants expressing PBS depolymerase could also de- grade PBSA and olive oil in addition to PBS (Fig. 1). This result strongly suggests that PBS depolymerase is a kind of lipase. The nucleotide sequence of the 1-kbp DNA fragment in- serted in pBS-ss7 was determined. The DNA fragment was sequenced by the dideoxy chain termination method de- scribed by Sanger et al. (10) using the ABI PRISM Big Dye Terminator Cycle Sequencing Core kit (Applied Biosys- terns, USA). The complete nucleotide sequence of the sense strand and its deduced amino acid sequence are shown in Fig. 2. The nucleotide sequence reported in this paper was   245   246   UCHIDA ET AL.                                                                                 J. BloscL B[OENG.,   clear zone formation   PBS PBSA Olive oil   Sac I  Sma I EcoR I pBS1 q          p 4"  4"  4"          h          +  +  + pBS-ss7 ~                  "1"   "1"   4" 1 kbp I   I FIG. l.  Subcloning procedure ofPBS depolymerase gene and sub- strate specificity of its gene products, pBS1 and pBS-ss7 were con- structed using pUC18. The other plasmids were constructed using the pUCI9 vector. Each plasmid was introduced into E, coli strain JM109 and the strain was grown on various indicator plates for 3 d at 30 C. Indicator plates were prepared as described in the text, but PBS was re- placed with PBSA or olive oil.   obtained from the DDBJ nucleotide sequence database with the accession number of AB066349. The computer analysis of the nucleotide sequence using the GENETYX-MAC program, version 8.0 (Software De- velopment Co. Ltd., Tokyo), detected one open reading frame (ORF), located between 1 and 912. The ORF consists of 912 bp with a putative GTG initiation codon, which is 8 bp downstream from a potential ribosome-binding site (-,3GGGCGA 8), and TGA as the stop codon. A potential promoter sequence similar to -10 and -35 consensus sequences of E. coli was found upstream of the ORF ( 55ACGAAT 50 and 83TTAGCA 78, respectively). The entire ORF molar G+C content was 66.6%. At the third position of the codon, G or C was found in 92.2% of the cases. It was concluded that this ORF codes for the PBS depolymerase gene named pbsA. The ORF encoded 304 amino acid resi- dues, capable of forming a 32,722-Da precursor protein. The first 41 deduced amino acids exhibited the characteris- tics of signal peptides with positively charged amino acids that are followed by hydrophobic amino acids. The nucleotide and amino acid sequences were computer- analyzed using FASTA (ver. 3.0) and BLAST (ver. 2.0) pro- grams (Table 1). From computerized search of databases, it was shown that PbsA had no homology with other known plastic-degrading esterases such as polyurethane esterase (PudA) (ll) and poly(hydroxyalkanoate) depolymerase (PhaZ) (12). PbsA showed very low homology with lipases derived from Pseudomonas spp., bacteria which are taxo- nomically similar to members of the genus Acidovorax. On the other hand, PbsA showed relatively high homol- ogy with lipases from Moraxella and Streptomyces that be- long to the family Neisseriaceae and actinomycetes, respec- tively (Table 1). It was reported that most of the known PBS-degrading bacteria belong to actinomycetes (1-4, 7). The relationship between actinomyces-type lipases and PBS degradation is still unknown because no PBS-degrading en- zyme genes from actinomycetes have been cloned. It is well known that most lipases and esterases contain a GIy-X1-Ser-X2-GIy motif, called lipase box, in their poly- peptide chain. The homologous region (~72Gly-Trp-Ser-Met- Gly176) was also found in PbsA. As a unique characteristic   Sac I    -105           -95           -85           -75           -65           -55 ICTGGGCGTCGGGGCGGGGCGTTCGGGGTGCGTTAGCAC/~TCGGGGCGGTTGGCTTG~ -35 -45           -35           -25           -15             -5              6 CGAATCGGCGCAGGCAAGTGCCGATGGTCTGGCAGCGGGCGGGGCGAACAATCGGTGCAC -I0                                                              S.D.            M   H 16            26            36            46            56            66 CTGCCTCGCTCGAGGTGGGACATCCCGTTCAAAGAGGAGACAACAATGACTCACCACTTC L   P   R   S   R   W   D   I   P   F   K   E   E   T   T   M   T   H   H   F   76            86            96          106          116          126 AGCGTCCGCGCCCTGCTGGCCGCCGGCGCCCTGCTGGCCTCGGCTGCCGTGTCCGCACAG S      V      R      A      L       L      A      A      G      A      L       L      A      S      A      A      V      S      A      Q   136                       146                       156                       166                       176                       186 ACC~CCCGTACGAGCGCGGCCCGGCGCCCACCACCTCGTCGCTCGAGGCCTCGCGCGGC TNPYERGPApTTSSLEASRG 196          206          216          226          236          246 CCGTTCAGCTACCAGTCCTTCACCGTCAGCCGCCCGAGCGGCTATCGCGCAGGCACGGTG PFSYQSFTVSRPSGYRAGTV 256          266          276          286          296          306 TACTACCCGACC~CGCGGGCGGCCCGGTCGGCGCCATCGCGATCGTTCCGGGGTTCACC YYPTNAGGPVGAIAIVPGFT 316                       326                       336                       346                       356                       366 GCTCGCCAGTCGAGCATC~CTGGTGGGGCCCTCGCCTCGCATCGCACGGCTTCGTGGTC ARQSSINWWGPRLASHGFVV 376                       386                       396                       406                       416                       426 ATCACCATCGACACC~CTCCACGCTCGACCAGCCGGACAGCCGCTCGCGTCAGCAGATG ITIDTNSTLDQPDSRSRQQM 436                       446                       456                       466                       476                       486 GCCGCGCTGAGCCAGGTCGCCACGCTGTCGCGCACCAGCAGCAGCCCGATCTAC~C~G AALSQVATLSRTSSSPIYNK 496          506          516          526          536          546 GTCGACACCTCGCGCCTGGGCGTGATGGGCTGGTCGATGGGCGGTGGAGGGTCGTTGATC VDTSRLGVM]GWSMG]GGGSLI 556          566          576          586          596          606 TCGGCGCGT~C~TCCGTCGATC~GGCCGCGGCGCCCCAGGCGCCGTGGAGCGCCTCC SARNNPSIKAAAPQAPWSAS 616                       626                       636                       646                       656                       666 ~G~CTTCAGCTCGCTGACCGTGCCGACGCTGATCATCGCCTGCGAG~CGACACCATC KNFSSLTVPTLIIACENDTI 676                       686                       696                       706                       716                       726 GCACCGGTG~CCAGCATGCGGACACCTTCTACGACAGCATGTCGCGC~CCCGCGCGAG APVNQHADTFYDSMSRNPRE 736                       746                       756                       766                       776                       786 TTCCTGGAGATC~C~CGGCTCGCATTCCTGCGCC~CAGCGGC~CAGC~CCAGGCG FLEINNGSHSCANSGNSNQA 796                       806                       816                       826                       836                       846 CTGCTGGGC~GAAAGGCGTCGCGTGGATG~GCGCTTCATGGAC~CGACAGGCGCTAC LLGKKGVAWMKRFMDNDRRY 856          866          876          886          896          906 ACCAGCTTCGCCTGCAGC~CCCG~CAGCTAC~CGTCTCGGATTTCCGCGTCGCGGCC TSFACSNPNSYNVSDFRVAA 916          926          936          946          956          966 TGC~CTGACCTGAGTTCGACCTGCCGCCGTCAGGCGGTTGCCGCCGCGCCCCTCGCCCT CN* 976                       986                       996                    1006                    1016                    1026 CACCGGCGCGGGCGCGGCGTTCGCACGAGG~GGCACGCCACGGCCCCCGTTCCCTCGGC 1036                    1046                    1056                    1066                    1076 GCCCATGGCGCGCGGCACGCCGGCCACCAGGGCATCGATGGCCGCCC Sm~ I FIG. 2. Nucleotide sequence of the ~cl-SmaI ~agment of pBS- ss7 including that of the PBS depolymerase gene of strain BS-3. The deduced amino acid sequence is shown below the nucleotide sequence. A putative promoter region ~d a Shine-Dalgarno sequence (S.D.) are indicated. A sequence that exhibits the characteristics of signal pep- tides is underlined, and the lipase box is boxed.   of the lipase box of PbsA, Trp takes the position of X 1. It is known that His is found in this position in a number of lipases from bacteria (13). This observation is only true in the lipase derived from Moraxella sp. strain TA144, a psy- chrophile strain isolated from Antarctic seawater (14). Unlike other water-soluble substrates, solid substrates are thought to have extremely low-contact efficiency with en- zyme molecules. Enzymes that degrade solid substrates are considered to have some functions that enable them to ad- sorb onto the surface of solid substrates. Recently, it has been reported that solid-polyester-degrading enzymes, such as poly(hydroxyalkanoate) depolymerase (15) or polyure-   VoL. 93, 2002                                                                                             NOTES   247 TABLE I.  Results of homology analysis of PbsA and various bacterial l ipases and plastic-degrading esterases   Number          %           Sequence adjacent          GenBank Enzyme         Source of enzyme                   of           identity            to lipase box             accession amino acids                                                   number PbsA          A. delafieldii BS-3                 304                      LGVMGWSMGGGG S L      This study Lipases Lipase I        Moraxella sp. TA 144                319            40.6        LGA I GWSMGGGGA L       X53053-1 Lip            Streptomyces sp. MI 1                310            45.2       LGVMGHSMGGGGS L       M86351-1 Lip            S. albus G                         304            48.0       LGV I GHSMGGGGT L       U03114-2 LipA          S. coelicolor A3(2)                 310           48.7       LGVMGHSMGGGGT L      AF009336 LipA          Pseudomonas aeruginosa PAO1       311             -~        VNL I GHSHGGPT I R       X63390 LipA         P. cepacia DSM 3959              363           -       VNL VGHSQGGL S S R      M58494 Lipase         P.fluorescens SIK W1               449             -        VLV S GHSLGGLAVN       $77830   Plastic-degrading esterases (polyurethane degrader) PudA          Comamonas acidovorans TB-35      522 (Poly(hydroxyalkanoate)degrader) PhaZ4         Pseudomonas lemoignei             567 LMG2207 PhaZ5         P. lemoignei LMG2207              433   VT I FGESAGGFSVM   AB009606   I YV S G LSAGAGETH             U12976   VYVTG LS S GGGET G             U12977   "No significant homology was observed.   thane esterase (16), have hydrophobic substrate-binding do- mains in addition to a catalytic domain in their polypeptide chain. Plastic degradation by these enzymes is carried out in two steps, hydrophobic adsorption onto a plastic surface and degradation. In the previous report, we also demonstrated that PBS de- polymerase of strain BS-3 also degrades solid PBSA in two steps (5). However, although 48.4% of the amino acid resi- dues of PbsA were found to be hydrophobic, there was no apparent hydrophobic-amino-acid-rich region in PbsA. From this observation, PbsA was considered a novel plastic- degrading enzyme without a apparent hydrophobic-amino- acid-rich region. Further studies on the three-dimensional structure of PbsA are necessary. Although there have been several reports about PBS-de- grading bacteria (1-7) and their PBS-degrading enzymes, no information about their genes has been reported. In this study, we cloned a PBS depolymerase gene, pbsA, derived from A. delafieldii strain BS-3, and expressed it in E. coli. To our knowledge, this is the first report about a PBS de- polymerase gene from PBS-utilizing microorganisms. How- ever, further study is necessary to determine whether this gene is the only PBS depolymerase gene of strain BS-3. It may be possible that microbial PBS-degrading en- zymes will be classified as a new group in the lipase family if other genes of PBS-degrading enzymes from various mi- croorganisms are cloned and analyzed.   REFERENCES   1. Pranamuda, H., Tokiwa, Y., and Tanaka, H.: Microbial de.gradation of an aliphatic polyester with a high melting point, poly(tetramethylene succinate). Appl. Environ. Micro- biol., 61, 1828 1832 (1995). 2. Mergaert, J. and Swings, J.: Biodiversity of microorgan- isms that degrade bacterial and synthetic polyesters. J. Ind. Microbiol., 17, 463-469 (1996). 3. Kleeberg, I., Hetz, C., Kroppenstedt, R. M., Miiller, R-J., and Deekwer, W-D.: Biodegradation of aliphatic-aromatic copolyesters by Thermomonospora fusca and other thermo- philic compost isolates. Appl. Environ. Microbiol., 64, 1731-   1735 (1998). 4. Pranamuda, H., Chollakup, R., and Tokiwa, Y.: Degrada- tion of polycarbonate by a polyester-degrading strain, Amy- colatopsis sp. strain HT-6. Appl. Environ. Microbiol., 65, 4220-4222 (1999). 5. Uchida, H., Nakajima-Kambe, T., Shigeno-Akutsu, Y., Nomura, N., and Nakahara, T.: Properties of a bacterium which degrades solid poly(tetramethylene succinate)-co-adi- pate, a biodegradable plastic. FEMS Microbiol. Lett., 189, 25-29 (2000). 6. Tomita, K., Knroki, Y., Hayashi, N., and Komukai, Y.: Iso- lation of a thermophile degrading poly(butylene succinate-co- butylene adipate). J. Biosci. Bioeng., 90, 350-352 (2000). 7. Jarerat, A, and Tokiwa, Y.: Degradation of poly(tetrameth- ylene succinate) by the therrnophilic actinomycetes. Biotech- nol. Lett., 23, 647-651 (2001). 8. Maniatis, T., Fritseh, E.F., and Sambrook, J.: Molecular cloning: a laboratory manual, 2nd ed. Cold Spring Harbor Laboratory, Cold Spring Harbor, NY (1989). 9. Yaniseh-Perron, C., Vieira, J., and Messing, J.: Improved M13 phage cloning vectors and host strains: nucleotide se- quences of the M13 mp and pUC vectors. Gene, 33, 103-119 (1985). 10. Sanger, F., Nieklen, S., and Coulson, A. R.: DNA sequenc- ing with chain-terminating inhibitors. Proc. Natl. Acad. Sci. USA, 74, 5463 5467 (1977). 11.  Nomura, N., Shigeno-Akutsu, Y., Nakajima-Kambe, T., and Nakahara, T.: Cloning and sequence analysis of a poly- urethane esterase of Comamonas acidovorans TB-35. J. Fer- ment. Bioeng., 86, 339-345 (1998). 12. Jendrossek, D., Frisse, A., Behrends, A., Andermann, M., Kratzin, H.D., Stanislawski, T., and Schlegel, H.G.: Biochemical and molecular characterization of the Pseu- domonas temoignei polyhydroxyalkanoate depolymerase sys- tem. J. Bacteriol., 177, 596~07 (1995). 13. Jaeger, K-E., Ransac, S., Dijkstra, B.W., Colson, C., van Heuvel, M., and Misset, O.: Bacterial lipases. FEMS Micro- biol. Rev., 15, 29-63 (1994). 14. Feller, G., Thiry, M., Arpigny, J-L., Mergeay, M., and Gerday, C.: Lipase from psychrophic antarctic bacteria. FEMS Microbiol. Lea., 66, 239-244 (1990). 15. Jendrossek, D., Schirmer, A., and Schlegel, H.G.: Bio- degradation of polyhydroxyalkanoic acids. Appl. Microbiol. Biotechnol., 46, 451-463 (1996). 16. Nakajima-Kambe, T., Shigeno-Akutsu, Y., Nomura, N., Onuma, F., and Nakahara, T.: Microbial degradation of polyurethane, polyester polyurethanes and polyether polyure- thanes. Appl. Microbiol. Biotechnol., 51, 134-140 (1999).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <converted-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="4.5.2" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>JBIOSC</jid>
+            <aid>02800226</aid>
+            <ce:pii>S1389-1723(02)80022-6</ce:pii>
+            <ce:doi>10.1016/S1389-1723(02)80022-6</ce:doi>
+            <ce:copyright type="unknown" year="2002"/>
+         </item-info>
+         <head>
+            <ce:title>Cloning and sequence analysis of poly(tetramethylene succinate) depolymerase from <ce:italic>Acidovorax delafieldii</ce:italic> strain BS-3</ce:title>
+            <ce:author-group>
+               <ce:author>
+                  <ce:given-name>Hiromi</ce:given-name>
+                  <ce:surname>Uchida</ce:surname>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Yukie</ce:given-name>
+                  <ce:surname>Shigeno-Akutsu</ce:surname>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Nobuhiko</ce:given-name>
+                  <ce:surname>Nomura</ce:surname>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Tadaatsu</ce:given-name>
+                  <ce:surname>Nakahara</ce:surname>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Toshiaki</ce:given-name>
+                  <ce:surname>Nakajima-Kambe</ce:surname>
+                  <ce:cross-ref refid="COR1">
+                     <ce:sup loc="post">∗</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation>
+                  <ce:textfn>Institute of Applied Biochemistry, University of Tsukuba, Tsukuba, Ibaraki 305-8572, Japan</ce:textfn>
+               </ce:affiliation>
+               <ce:correspondence id="COR1">
+                  <ce:label>∗</ce:label>
+                  <ce:text>Corresponding author.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="27" month="8" year="2001"/>
+            <ce:date-accepted day="5" month="11" year="2001"/>
+            <ce:abstract class="author"><ce:abstract-sec>
+                  <ce:simple-para view="all">A gene encoding poly(tetramethylene succinate), PBS, depolymerase, <ce:italic>pbsA</ce:italic>, has been cloned from <ce:italic>Acidovorax delafieldii</ce:italic> strain BS-3 chromosomal DNA. The clone expressed in <ce:italic>Escherichia coli</ce:italic> showed the ability to degrade both PBS and poly{(tetramethylene succinate)-<ce:italic>co</ce:italic>-adipate} that are kinds of biodegradable plastics. PBS depolymerase was considered to be a kind of lipase, since it also degrades olive oil. It had no apparent hydrophobic-amino-acid-rich region which exists in other known plastic-degrading enzymes. From the result of amino acid homology search, PbsA was found to have some similarities with lipases of <ce:italic>Streptomyces</ce:italic> sp. and <ce:italic>Mollaxella</ce:italic> sp. In the motif surrounding the active site Ser residue (Gly-X1-Ser-X2-Gly), PbsA was revealed to have a Trp residue in the X1 position instead of His which is most likely found in other bacterial lipases.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords class="keyword">
+               <ce:section-title>Keywords</ce:section-title>
+               <ce:keyword>
+                  <ce:text>poly(tetramethylene succinate)</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>depolymerase</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>
+                     <ce:italic>Acidovorax</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <tail>
+            <ce:bibliography view="all">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec>
+                  <ce:bib-reference id="BIB1">
+                     <ce:label>1</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Pranamuda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tokiwa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Tanaka</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Microbial degradation of an aliphatic polyester with a high melting point, poly(tetramethylene succinate)</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1828</sb:first-page>
+                              <sb:last-page>1832</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB2">
+                     <ce:label>2</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Mergaert</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Swings</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Biodiversity of microorganisms that degrade bacterial and synthetic polyesters</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Ind. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>463</sb:first-page>
+                              <sb:last-page>469</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB3">
+                     <ce:label>3</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Kleeberg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Hetz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.M.</ce:given-name>
+                                 <ce:surname>Kroppenstedt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R-J.</ce:given-name>
+                                 <ce:surname>Müller</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W-D.</ce:given-name>
+                                 <ce:surname>Deckwer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Biodegradation of aliphatic-aromatic copolyesters by <ce:italic>Thermomonospora fusca</ce:italic> and other thermophilic compost isolates</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>64</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1731</sb:first-page>
+                              <sb:last-page>1735</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB4">
+                     <ce:label>4</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Pranamuda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Chollakup</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tokiwa</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Degradation of polycarbonate by a polyester-degrading strain, <ce:italic>Amycolatopsis</ce:italic> sp. strain HT-6</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Environ. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4220</sb:first-page>
+                              <sb:last-page>4222</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB5">
+                     <ce:label>5</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Uchida</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakajima-Kambe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shigeno-Akutsu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nomura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakahara</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Properties of a bacterium which degrades solid poly(tetramethylene succinate)-<ce:italic>co</ce:italic>-adipate, a biodegradable plastic</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>189</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>25</sb:first-page>
+                              <sb:last-page>29</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB6">
+                     <ce:label>6</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tomita</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Kuroki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Hayashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Komukai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Isolation of a thermophile degrading poly(butylene succinate-<ce:italic>co</ce:italic>-butylene adipate)</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biosci. Bioeng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>90</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>350</sb:first-page>
+                              <sb:last-page>352</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB7">
+                     <ce:label>7</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Jarerat</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Tokiwa</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Degradation of poly(tetramethylene succinate) by the thermophilic actinomycetes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biotechnol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>23</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>647</sb:first-page>
+                              <sb:last-page>651</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB8">
+                     <ce:label>8</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Maniatis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.F.</ce:given-name>
+                                 <ce:surname>Fritsch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Sambrook</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Molecular cloning: a laboratory manual</sb:maintitle>
+                                    </sb:title>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>1989</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Cold Spring Harbor Laboratory</sb:name>
+                                 <sb:location>Cold Spring Harbor, NY</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB9">
+                     <ce:label>9</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yanisch-Perron</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Vieira</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Messing</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Improved M13 phage cloning vectors and host strains: nucleotide sequences of the M13 mp and pUC vectors</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Gene</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>103</sb:first-page>
+                              <sb:last-page>119</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB10">
+                     <ce:label>10</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sanger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Nicklen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.R.</ce:given-name>
+                                 <ce:surname>Coulson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>DNA sequencing with chain-terminating inhibitors</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Proc. Natl. Acad. Sci. USA</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>74</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1977</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5463</sb:first-page>
+                              <sb:last-page>5467</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB11">
+                     <ce:label>11</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nomura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shigeno-Akutsu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakajima-Kambe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakahara</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Cloning and sequence analysis of a polyurethane esterase of <ce:italic>Comamonas acidovorans</ce:italic> TB-35</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Ferment. Bioeng.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>86</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>339</sb:first-page>
+                              <sb:last-page>345</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB12">
+                     <ce:label>12</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Frisse</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Behrends</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Andermann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.D.</ce:given-name>
+                                 <ce:surname>Kratzin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Stanislawski</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.G.</ce:given-name>
+                                 <ce:surname>Schlegel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Biochemical and molecular characterization of the <ce:italic>Pseudomonas lemoignei</ce:italic> polyhydroxyalkanoate depolymerase system</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>177</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>596</sb:first-page>
+                              <sb:last-page>607</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB13">
+                     <ce:label>13</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K-E.</ce:given-name>
+                                 <ce:surname>Jaeger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ransac</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.W.</ce:given-name>
+                                 <ce:surname>Dijkstra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Colson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Heuvel M.</ce:given-name>
+                                 <ce:surname>van</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Misset</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Bacterial lipases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>29</sb:first-page>
+                              <sb:last-page>63</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB14">
+                     <ce:label>14</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Feller</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Thiry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J-L.</ce:given-name>
+                                 <ce:surname>Arpigny</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Mergeay</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Gerday</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Lipase from psychrophic antarctic bacteria</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>66</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>239</sb:first-page>
+                              <sb:last-page>244</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB15">
+                     <ce:label>15</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Jendrossek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Schirmer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.G.</ce:given-name>
+                                 <ce:surname>Schlegel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Biodegradation of polyhydroxyalkanoic acids</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Microbiol. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>451</sb:first-page>
+                              <sb:last-page>463</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB16">
+                     <ce:label>16</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakajima-Kambe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shigeno-Akutsu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nomura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Onuma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakahara</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Microbial degradation of polyurethane, polyester polyurethanes and polyether polyurethanes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Microbiol. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>134</sb:first-page>
+                              <sb:last-page>140</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </converted-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

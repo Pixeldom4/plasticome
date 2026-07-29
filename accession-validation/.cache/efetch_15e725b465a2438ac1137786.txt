@@ -1,0 +1,5 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+406923	INSDC	X02864.1	222	1400	+	CAA26616.1	unnamed protein product	Flavobacterium sp.	sp. K172	
+406923	Swiss-Prot	N/A				P07062.1	6-aminohexanoate-dimer hydrolase	Paenarthrobacter ureafaciens		
+406923	PIR	N/A				B22644	6-aminohexanoate-dimer hydrolase EII'	Flavobacterium sp.		
+406923	PRF	N/A				0912258B	enzyme RSIIB,nylon degrading	Flavobacterium sp.		

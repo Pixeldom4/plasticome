@@ -1,0 +1,36 @@
+digraph plasticome {
+    rankdir=TB;
+    bgcolor="white";
+    node [shape=box, style="rounded,filled", fillcolor="#f8fafc", fontname="Helvetica", fontsize=11];
+    edge [color="#475569"];
+
+    subgraph cluster_s1 {
+        label="Step 1 · Compile pazy"; style=dashed; color="#94a3b8"; fontname="Helvetica-Bold";
+        A [label="pazy-pulled 260701\nn=495"];
+        B [label="Manual curation\n+4 / −26"];
+        C [label="cleaned_pazy-260701\nn=473", fillcolor="#dbeafe"];
+        D [label="Retrieve by accession\n446 NCBI + 27 manual"];
+        E [label="QC annotation\nactivity · direct/indirect"];
+        A -> B -> C -> D -> E;
+    }
+
+    subgraph cluster_s21 {
+        label="Step 2.1 · Clean V1"; style=dashed; color="#94a3b8"; fontname="Helvetica-Bold";
+        F [label="Plasticome v1"];
+        G [label="Fix accession · Erickson seqs"];
+        H [label="plasticome v1.1\n213 rows", fillcolor="#dbeafe"];
+        F -> G -> H;
+    }
+
+    U     [label="Step 2.2 · Union merge\naccession == retrieved"];
+    UNION [label="union n=611\n398 · 75 · 138", fillcolor="#dbeafe"];
+    CL    [label="Step 2.3 · USEARCH cluster\n90% AA id · 3-phase"];
+    CENT  [label="412 clusters\n273 singletons", fillcolor="#dbeafe"];
+    ALIGN [label="Step 2.4 · Align to components\nDIAMOND + USEARCH all-vs-all"];
+    VAL   [label="Step 2.5 · Validate singletons\nPL14/458/467/539"];
+    R     [label="Step 2.6 · Rebuild -> recluster (412)\n-> re-align (46 components)"];
+    OUT   [label="Output · 412-centroid FASTA\nfor nr-search", fillcolor="#dcfce7"];
+
+    E -> U; H -> U;
+    U -> UNION -> CL -> CENT -> ALIGN -> VAL -> R -> OUT;
+}

@@ -1,0 +1,2 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+154901895	INSDC	NMUL01000091.1	19237	20145	+	OXM59192.1	triacylglycerol lipase	Amycolatopsis vastitatis	H5	GCA_002234595.1

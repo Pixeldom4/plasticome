@@ -1,0 +1,141 @@
+STEP 1-4 — Component Assignment v2 (PETadex seed expansion)
+===========================================================
+Run date : 2026-07-09        PAZy snapshot : 2026-06-30
+Aligner  : usearch v11.0.667 (i86linux64), bin/usearch11
+Command  : usearch11 -allpairs_local <fasta> -userout <pairs> \
+             -userfields query+target+id+evalue+bits -acceptall
+           ...run TWICE, on the FASTA and on the reverse-ordered FASTA (see B3)
+Criterion: best-scoring HSP per pair, then >=30% aa identity AND e < 1e-5,
+           with e-values renormalized to the paper's 213-node search space (B2)
+Graph    : undirected, single-linkage connected components
+Decisions: D1 paper-faithful (merges allowed) · D3 boundary variants kept separate
+           D4 merge-aware canonical IDs (inherit / M<parent> / N<k>)
+
+HEADLINE
+--------
+492 nodes (205 v1-unique + 287 delta)  ->  37,153 edges  ->  45 components.
+Delta outcomes: 65 join · 217 merge · 5 novel   (all 287 classified, none unclassified)
+45/45 domain models built (hmmbuild); every member detected by its own HMM.
+Component-count change: 42 (v1 seed) -> 45 (combined seed).
+
+THREE METHOD BUGS FOUND AND FIXED (all three change the partition)
+------------------------------------------------------------------
+B1  Step 0 deduplicated multi-HSP pairs by MAXIMUM PERCENT IDENTITY, which selects
+    short, high-id, statistically insignificant fragments over the true best
+    alignment. Example: n157<->n160 (Q7WXF6) — step0 kept the 69.6%-id / e=2.7e-5 /
+    40-bit HSP and discarded the 63.1%-id / e=4.07e-78 / 282-bit one, then failed
+    the pair on e-value. 11 strong edges were dropped this way.
+    -> Step 0's archived "42 components / 3,170 edges" is reproduced EXACTLY by the
+       max-id rule, and by no other rule. The 42 was an artifact.
+    -> Its reported "SPLIT: v1 comp 3 sheds Q7WXF6" was entirely this artifact.
+    Correct rule (best-scoring HSP: max bits, ties -> min e-value):
+       fwd only    : 3,179 edges / 41 components
+       symmetrized : 3,178 edges / 42 components   <- adopted (paper: 3,195, -0.5%)
+    The paper's edge count is CLOSER to the corrected 3,178 than to step0's 3,170.
+
+B2  usearch e-values scale with database size: E = K*m*N*2^-bits, N = total db
+    letters. Verified on 4,986 shared v1-v1 pairs between the 213- and 492-node
+    runs: alignments identical (median d(pct_id) = 0.000, median d(bits) = 0.000)
+    while median log10(e_492/e_213) = +0.3537 vs predicted log10(N2/N0) = +0.3538.
+    A raw e < 1e-5 on the 492-node db is therefore a STRICTER criterion than the
+    paper's, and would sever edges between two unchanged sequences merely because
+    PAZy grew. Raw thresholding gives 44 v1-induced components instead of 42.
+    -> Fix: renormalize every e-value to the 213-node search space
+       (N_REF = 74,254 letters; scale = 0.442781) before thresholding.
+    -> Only then does the plan's Step 2 requirement hold: the v1-induced subgraph
+       of the 492-node graph is PARTITION-IDENTICAL to the standalone 213-node
+       reference (42 blocks, identical membership).
+
+B3  `-allpairs_local` is ORIENTATION-DEPENDENT: the earlier FASTA sequence is always
+    the query, and the HSP returned depends on that role. m0275/m0438 aligns at
+    29.8% id / 195 bits one way and 35.8% id / 179 bits the other — straddling the
+    30% cutoff. 8 boundary edges flipped between the 213- and 492-node node orders;
+    7 of them sit at 29.2-30.4% id. The graph was a function of FASTA order.
+    -> Fix: align every pair in both orientations (run on the reverse-ordered FASTA)
+       and keep the best-scoring HSP. Graph is now order-invariant.
+
+Also fixed: 27 delta nodes carry a sequence but NO accession (33 such pull records),
+so D4's "smallest member accession" rule was resolving on blank strings. Added a
+fallback chain accession -> uniprot -> pdb -> all_accessions -> "pazy:<id>".
+
+Residual (does not change the partition): pair m0214<->m0487 aligns at 30.4% id /
+e=1.5e-18 / 84 bits in the 213-node run but is not reported by usearch in EITHER
+orientation of the 492-node run. No per-query hit cap is in play (max 312 hits,
+attained once). This is a genuine usearch allpairs_local coverage miss.
+
+VALIDATION GATES (plan §5)
+--------------------------
+G1  Step 0 reproduces 42 components ............................ PASS (corrected rule)
+    ...11 CATH folds ........................................... NOT EVALUABLE — the
+        v1 `cath` column holds only 10 distinct strings: 6 real CATH codes,
+        placeholders TBDX/TBDY/TBDZ, and 8 rows of "NA".
+G2  All 287 delta nodes classified, exactly one outcome each .... PASS
+G3  Multi-v1-label components are all reported merges ........... PASS (only M1)
+G4  Re-run reproduces identical edges, partition, component IDs . PASS
+G5  492 nodes, 205 v1 + 287 delta, no md5 twice ................. PASS
+
+INDEPENDENT CORROBORATION (not used to fit anything)
+----------------------------------------------------
+A/B-hydrolase fold 3.40.50.1820 covers 162/205 unique v1 nodes (paper: ~170/213)
+and spans 28 components in the v1-only baseline (paper: ~28 components).
+
+RESULTS
+-------
+Components : 45  =  39 inherited + 1 merged (M1) + 5 novel
+Singletons : 22 of 45
+Largest    : M1, 302 nodes (61.4% of the node set)
+
+M1 — the merge. Absorbs v1 components 1, 20 and 35 (3 baseline groups),
+85 v1 + 217 delta nodes, uniformly CATH 3.40.50.1820. Permitted and reported
+under D1. Despite its size it remains a coherent domain family: hmm_len = 367,
+mean member coverage 0.958, mean HMM coverage 0.740, min member coverage 0.577.
+The 1<->35 bridge is a single real edge, n134 (WP_010659881.1) <-> n34 (GBD22443),
+30.6% id / e = 2.96e-6 / 43 bits — it survives the corrected rule.
+
+Joins  : 65 delta nodes into 18 existing components; comp 9 grows most (6 -> 48).
+Novel  : 5 singleton components —
+   N1  BEG79545      len 716  Direct
+   N2  NP_390179.1   len 286  Direct
+   N3  NP_999368.1   len 438  Indirect
+   N4  P08684        len 503  Indirect
+   N5  pazy:489      len 299  Direct
+   N3 and N4 are curated "Indirect" activity — flag for the §6 annotation pass
+   before either seeds an expansion.
+
+SENSITIVITY
+-----------
+                     nodes  edges   comps  v1-induced comps  novel
+canonical (adopted)    492  37,153     45                42      5
+raw_db e-value         492  37,121     45                44      5   <- criterion drifts
+plasticome.2 overlay   499  37,475     48                42      8
+
+The overlay (7 rescued + 15 revised sequences) leaves the v1 partition and M1
+essentially unchanged. Its 3 extra "novel components" are sequences of length
+36, 15 and 15 aa — peptide fragments, which plasticome.2's own header marks
+("yellow = fragment sequence"). Adopting the overlay requires a fragment filter.
+
+CAVEATS
+-------
+- 22 of 45 models are singleton HMMs, built from one sequence; their coverage is
+  vacuous and they cannot be validated. They can seed a search but carry no
+  family-level evidence.
+- Coverage is measured by searching each HMM against its own training members,
+  so it is optimistic by construction (this mirrors the paper's HMM-coverage
+  filtering, which is likewise self-referential).
+- The 42-component target is conditional on the 2026-06-30 PAZy snapshot matching
+  the paper's 2024-12-19 retrieval.
+- Input data is a rough/demo snapshot; the `cath` column and 33 sequence-less
+  records are incomplete.
+
+ARTIFACTS (petadex-alignment/v2/)
+---------------------------------
+component_edges_v2_2026-07-09.csv          37,153 edges passing the dual threshold
+component_assignment_v2_2026-07-09.csv     one row per node (492)
+delta_component_summary_v2_2026-07-09.csv  one row per delta node (287)
+component_members_v2_2026-07-09.csv        one row per component (45)
+component_models_v2_2026-07-09/            45 HMMs + manifest.csv
+component_graph_v1_corrected_2026-07-09.csv       corrected Step 0 edge list
+component_assignment_v1_corrected_2026-07-09.csv  corrected Step 0 partition
+stats_v2_2026-07-09.json                   run provenance + counts
+step1_nodes.py · step23_graph.py · step4_models.py
+sensitivity: *_sensRAW_* , *_sensOVL_*

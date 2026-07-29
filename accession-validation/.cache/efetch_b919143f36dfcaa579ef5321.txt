@@ -1,0 +1,33 @@
+Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
+6329756	RefSeq	NZ_CAXYQR010000008.1	87234	88076	-	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	SOMR-OS015KB	GCF_964291145.1
+6329756	RefSeq	NZ_CP099397.1	4837375	4838217	-	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	DSWY01	GCF_021495345.1
+6329756	RefSeq	NZ_CP100553.1	4933270	4934112	-	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	KHPS2	GCF_024205225.1
+6329756	RefSeq	NZ_JAODYT010000043.1	19782	20624	-	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Pseudomonas sp. GD04158	GD04158	GCF_029834875.1
+6329756	RefSeq	NZ_JBMULN010000005.1	234799	235641	+	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC080055	GCF_049534615.1
+6329756	RefSeq	NZ_JBMULO010000006.1	234799	235641	+	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC080053	GCF_049534675.1
+6329756	RefSeq	NZ_JBMULP010000005.1	273684	274526	-	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC080041	GCF_049534655.1
+6329756	RefSeq	NZ_JBMULR010000007.1	181538	182380	-	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC080001	GCF_049534695.1
+6329756	RefSeq	NZ_JBMULS010000004.1	234799	235641	+	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC079992	GCF_049534735.1
+6329756	RefSeq	NZ_JBMUMI010000141.1	8735	9577	+	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC080207	GCF_049535035.1
+6329756	RefSeq	NZ_JBMUMK010000004.1	234799	235641	+	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC080066	GCF_049535075.1
+6329756	RefSeq	NZ_JBMUML010000005.1	273684	274526	-	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC080061	GCF_049535115.1
+6329756	RefSeq	NZ_JBMVDK010000005.1	234799	235641	+	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	NPDC079990	GCF_049541775.1
+6329756	RefSeq	NZ_JBPAIK010000004.1	765274	766116	+	WP_004373894.1	poly(ethylene terephthalate) hydrolase family protein	Ectopseudomonas hydrolytica	OI214	GCF_051450345.1
+6329756	INSDC	CP011508.1	4805690	4806532	-	ARS50917.1	lipase	Ectopseudomonas mendocina	NSYSU	GCA_002155165.1
+6329756	INSDC	ALKM01000023.1	254052	254894	-	EJO91904.1	hypothetical protein	Ectopseudomonas mendocina DLHK	DLHK	GCA_000287395.1
+6329756	INSDC	PNME01000002.1	158674	159516	+	MBA4242632.1	alpha/beta hydrolase	Pseudomonas sp.		GCA_013823455.1
+6329756	INSDC	JADMNJ010000005.1	130294	131136	+	MBF8162059.1	alpha/beta hydrolase	Ectopseudomonas mendocina	GU	GCA_015645415.1
+6329756	INSDC	JAODYT010000043.1	19782	20624	-	MDH0098099.1	alpha/beta hydrolase	Pseudomonas sp. GD04158	GD04158	GCA_029834875.1
+6329756	INSDC	JBMULN010000005.1	234799	235641	+	MGA4323202.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC080055	GCA_049534615.1
+6329756	INSDC	JBMULS010000004.1	234799	235641	+	MGA4443616.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC079992	GCA_049534735.1
+6329756	INSDC	JBMULR010000007.1	181538	182380	-	MGA4460144.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC080001	GCA_049534695.1
+6329756	INSDC	JBMUML010000005.1	273684	274526	-	MGA4480399.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC080061	GCA_049535115.1
+6329756	INSDC	JBMULP010000005.1	273684	274526	-	MGA4491037.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC080041	GCA_049534655.1
+6329756	INSDC	JBMUMK010000004.1	234799	235641	+	MGA4570502.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC080066	GCA_049535075.1
+6329756	INSDC	JBMUMI010000141.1	8735	9577	+	MGA4602845.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC080207	GCA_049535035.1
+6329756	INSDC	JBMULO010000006.1	234799	235641	+	MGA4616658.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC080053	GCA_049534675.1
+6329756	INSDC	JBMVDK010000005.1	234799	235641	+	MGA5392057.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	NPDC079990	GCA_049541775.1
+6329756	INSDC	JBPAIK010000004.1	765274	766116	+	MGK8440099.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	OI214	GCA_051450345.1
+6329756	INSDC	CP099397.1	4837375	4838217	-	USR39447.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	DSWY01	GCA_021495345.2
+6329756	INSDC	CP100553.1	4933270	4934112	-	UTH31311.1	alpha/beta hydrolase	Ectopseudomonas hydrolytica	KHPS2	GCA_024205225.1
+6329756	INSDC	CP098606.1	5158326	5159168	-	UZZ10512.1	alpha/beta hydrolase	Ectopseudomonas mendocina	MET-2	GCA_026503285.1

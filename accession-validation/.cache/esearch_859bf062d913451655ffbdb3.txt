@@ -1,0 +1,1 @@
+{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"0","retmax":"0","retstart":"0","idlist":[],"translationset":[],"querytranslation":"(A0A368EC02[Accession])","errorlist":{"phrasesnotfound":["A0A368EC02[Accession]"],"fieldsnotfound":[]},"warninglist":{"phrasesignored":[],"quotedphrasesnotfound":[],"outputmessages":["No items found."]}}}
