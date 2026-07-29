@@ -6,7 +6,7 @@
 #   - substring_scan_extended.py  additionally reads `near`
 #
 # Paths are resolved relative to the run directory you run from
-# (i.e. this folder, petadex-clustering/).
+# (i.e. runs/<run>/collapse/, via PLASTICOME_RUN).
 
 # Input workbook and the sheet holding one row per unique aa_sequence.
 workbook: plasticomev1_join_retrievingfromaccession.xlsx

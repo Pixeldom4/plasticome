@@ -6,11 +6,14 @@
 # Parameter choices deliberately track usearch; see the header of cluster.py and
 # the notes below. DIAMOND is a Linux ELF -> run through Docker linux/amd64.
 set -euo pipefail
-cd "$(dirname "$0")/.."                 # -> petadex-alignment-diamond/
+cd "$(dirname "$0")/.."                 # -> <run>/alignment-diamond/
+REPO="$PWD"; while [[ ! -d "$REPO/lib" || ! -d "$REPO/bin" ]]; do
+  REPO="$(dirname "$REPO")"; [[ "$REPO" == "/" ]] && { echo "repo root not found" >&2; exit 1; }; done
 IN=substrings-collapsed/plasticome-substrings-collapsed.tsv
 OUT=allvsall
 
-D() { docker run --rm --platform linux/amd64 -v "$PWD":/data -w /data debian:stable-slim ./diamond "$@"; }
+D() { docker run --rm --platform linux/amd64 -v "$PWD":/data -v "$REPO/bin":/b \
+        -w /data debian:stable-slim /b/diamond "$@"; }
 
 # 1. TSV -> FASTA (identifier as header, aa_sequence as body)
 python3 - "$IN" "$OUT/seqs.faa" <<'PY'

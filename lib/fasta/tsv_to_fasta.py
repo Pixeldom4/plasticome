@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate a protein FASTA from a TSV sheet.
 
-Every plasticome sheet (accession-validation, petadex-clustering, the usearch
+Every plasticome sheet (accession validation, clustering, the usearch
 input) is a tab-separated table carrying an amino-acid column and one or more
 identifier columns. The alignment/clustering tools downstream all speak FASTA,
 so this is the one conversion that keeps getting re-implemented per pipeline
@@ -15,13 +15,13 @@ Conventions match the rest of the repo:
   * rows whose sequence is blank after normalization are dropped, not emitted
     as empty records (they would break blastp/usearch downstream).
 
-Defaults target accession-validation/cleaned_pazy_final-accession_validation.tsv
+Defaults target runs/2026-07-20_collapse-v9-v10/accession-validation/cleaned_pazy_final-accession_validation.tsv
 (id=identifier, seq=aa_sequence) but every column name is a flag.
 
 Examples
 --------
   # default columns, write beside the input
-  python tsv_to_fasta.py accession-validation/cleaned_pazy_final-accession_validation.tsv
+  python tsv_to_fasta.py runs/2026-07-20_collapse-v9-v10/accession-validation/cleaned_pazy_final-accession_validation.tsv
 
   # header ">accession pazy_id | organism", dedup identical sequences
   python tsv_to_fasta.py in.tsv -o out.fasta \\

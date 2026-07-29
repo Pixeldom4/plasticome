@@ -38,12 +38,17 @@ import os
 import re
 from collections import defaultdict
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)  # petadex-clustering/
+HERE = os.path.dirname(os.path.abspath(__file__))          # lib/collapse/
+REPO = os.path.dirname(os.path.dirname(HERE))              # repo root
+# Data lives in a run, not next to this script. Point PLASTICOME_RUN at another
+# runs/<date>_<name>/ to re-run this against a different run's collapse data.
+RUN = os.environ.get("PLASTICOME_RUN",
+                     os.path.join(REPO, "runs", "2026-07-20_collapse-v9-v10"))
+ROOT = os.path.join(RUN, "collapse")
 ERICK = os.path.join(ROOT, "erickson-collapsed",
                      "plasticomev1_join_retrievingfromaccession - plasticomev1_erickson_collapsed.tsv")
-MATCH = os.path.join(HERE, "plasticome.v2 - substring-matches.tsv")
-OUT = os.path.join(HERE, "plasticome.v2 - substring-collapsed.tsv")
+MATCH = os.path.join(ROOT, "substring-collapsed", "plasticome.v2 - substring-matches.tsv")
+OUT = os.path.join(ROOT, "substring-collapsed", "plasticome.v2 - substring-collapsed.tsv")
 
 META_COLS = [1, 2, 3, 4]  # enzyme_name, pazy_id, accession, organism
 
