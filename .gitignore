@@ -3,6 +3,12 @@ __pycache__/
 *.pyc
 .env
 .ipynb_checkpoints/
+*.fasta
+*.tsv
+*.json
+*.csv
+*.log
+*.uc
 
 # third-party binaries and fetch caches — large, reproducible, not source
 bin/usearch11
