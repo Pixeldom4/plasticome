@@ -10,3 +10,38 @@ bin/usearch12
 bin/diamond/
 bin/diamond-linux64.tar.gz
 cache/
+
+# ── derived pipeline data ─────────────────────────────────────────────
+# Bulky alignment/clustering artifacts under runs/. All regenerable via
+# run_pipeline.sh from source-data/ (which stays tracked). Reports, stats,
+# scripts and the numbered step outputs are re-included at the bottom.
+
+# newer run layout keeps derived files in a sibling *.intermediates/ dir.
+# Match the contents, not the dir itself, so the negations below still apply.
+runs/**/*.intermediates/**
+
+# older flat run layout — same artifacts, no intermediates/ dir
+runs/**/component_edges_*.csv
+runs/**/component_graph_*.csv
+runs/**/*pairs*.tsv
+runs/**/allpairs.tsv
+runs/**/*.uc
+runs/**/*.log
+
+# intermediate FASTA / alignment working files
+runs/**/combined*.fasta
+runs/**/canonical*.fasta
+runs/**/overlay*.fasta
+runs/**/*.afa
+runs/**/*.domtbl
+
+# binary sequence databases — rebuilt from FASTA by usearch/diamond
+*.udb
+*.dmnd
+
+# keep the human-readable record even where it sits beside ignored data
+!runs/**/*.md
+!runs/**/*.py
+!runs/**/*.sh
+!runs/**/*stats*.json
+!runs/**/comparison_*.json

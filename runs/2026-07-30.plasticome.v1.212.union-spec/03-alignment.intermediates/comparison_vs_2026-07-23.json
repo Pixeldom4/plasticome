@@ -1,0 +1,176 @@
+{
+  "this_run": {
+    "path": "/Users/Pixel/Documents/projects/plasticome/runs/2026-07-30.plasticome.v1.212.union-spec/03 alignment.tsv.work",
+    "n_nodes": 411,
+    "n_components": 46,
+    "singletons": 25,
+    "largest": 232,
+    "top10_sizes": [
+      232,
+      45,
+      19,
+      16,
+      14,
+      10,
+      5,
+      5,
+      5,
+      5
+    ],
+    "edges": 22211
+  },
+  "comparisons": {
+    "pass1/usearch": {
+      "other": {
+        "n_nodes": 412,
+        "n_components": 47,
+        "singletons": 26,
+        "largest": 232,
+        "top10_sizes": [
+          232,
+          45,
+          19,
+          16,
+          14,
+          10,
+          5,
+          5,
+          5,
+          5
+        ],
+        "edges": 22207
+      },
+      "node_overlap": {
+        "shared": 396,
+        "this_only": 15,
+        "other_only": 16
+      },
+      "edge_overlap_on_shared_nodes": {
+        "shared": 20737,
+        "this_only": 1,
+        "other_only": 0,
+        "jaccard": 0.99995
+      },
+      "partition_agreement": {
+        "n_nodes_compared": 396,
+        "rand_index": 1.0,
+        "adjusted_rand_index": 1.0,
+        "nodes_in_differently_matched_component": 0
+      }
+    },
+    "pass1/diamond": {
+      "other": {
+        "n_nodes": 412,
+        "n_components": 47,
+        "singletons": 25,
+        "largest": 228,
+        "top10_sizes": [
+          228,
+          45,
+          19,
+          16,
+          14,
+          10,
+          5,
+          5,
+          5,
+          5
+        ],
+        "edges": 22321
+      },
+      "node_overlap": {
+        "shared": 396,
+        "this_only": 15,
+        "other_only": 16
+      },
+      "edge_overlap_on_shared_nodes": {
+        "shared": 20583,
+        "this_only": 155,
+        "other_only": 266,
+        "jaccard": 0.97996
+      },
+      "partition_agreement": {
+        "n_nodes_compared": 396,
+        "rand_index": 0.985884,
+        "adjusted_rand_index": 0.967988,
+        "nodes_in_differently_matched_component": 6
+      }
+    },
+    "pass3/usearch": {
+      "other": {
+        "n_nodes": 412,
+        "n_components": 46,
+        "singletons": 25,
+        "largest": 233,
+        "top10_sizes": [
+          233,
+          45,
+          19,
+          16,
+          14,
+          10,
+          5,
+          5,
+          5,
+          5
+        ],
+        "edges": 22410
+      },
+      "node_overlap": {
+        "shared": 397,
+        "this_only": 14,
+        "other_only": 15
+      },
+      "edge_overlap_on_shared_nodes": {
+        "shared": 20587,
+        "this_only": 1,
+        "other_only": 0,
+        "jaccard": 0.99995
+      },
+      "partition_agreement": {
+        "n_nodes_compared": 397,
+        "rand_index": 1.0,
+        "adjusted_rand_index": 1.0,
+        "nodes_in_differently_matched_component": 0
+      }
+    },
+    "pass3/diamond": {
+      "other": {
+        "n_nodes": 412,
+        "n_components": 46,
+        "singletons": 24,
+        "largest": 229,
+        "top10_sizes": [
+          229,
+          45,
+          19,
+          16,
+          14,
+          10,
+          5,
+          5,
+          5,
+          5
+        ],
+        "edges": 22541
+      },
+      "node_overlap": {
+        "shared": 397,
+        "this_only": 14,
+        "other_only": 15
+      },
+      "edge_overlap_on_shared_nodes": {
+        "shared": 20422,
+        "this_only": 166,
+        "other_only": 280,
+        "jaccard": 0.97863
+      },
+      "partition_agreement": {
+        "n_nodes_compared": 397,
+        "rand_index": 0.985892,
+        "adjusted_rand_index": 0.968081,
+        "nodes_in_differently_matched_component": 6
+      }
+    }
+  }
+}

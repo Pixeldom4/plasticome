@@ -38,7 +38,20 @@ import csv
 import hashlib
 import re
 import sys
+from collections import Counter
 from pathlib import Path
+
+
+def duplicate_columns(fieldnames) -> list[str]:
+    """Column names that appear more than once in the header row.
+
+    csv.DictReader keeps only the *last* column of a repeated name, so a stray
+    empty duplicate silently blanks every row: the v260701 sheet carries a
+    second, near-empty `aa_sequence` at column 12, and reading it as the
+    sequence yields 4 records out of 473 with a zero exit status. Callers
+    refuse to run rather than emit a truncated FASTA.
+    """
+    return [c for c, n in Counter(fieldnames or []).items() if n > 1]
 
 
 def normalize(seq: str) -> str:
@@ -136,6 +149,13 @@ def main() -> int:
     with args.tsv.open(newline="") as fh:
         reader = csv.DictReader(fh, delimiter="\t")
         cols = reader.fieldnames or []
+        dupes = duplicate_columns(cols)
+        if dupes:
+            print(f"error: duplicate column name(s) {dupes} in {args.tsv.name}; "
+                  f"only the last of each is readable, which silently drops "
+                  f"data. Rename or remove the duplicate column(s).",
+                  file=sys.stderr)
+            return 1
         if args.header_template is not None:
             needed = re.findall(r"\{([^}:!]+)", args.header_template)
             missing = [c for c in [args.seq_col, *needed] if c not in cols]

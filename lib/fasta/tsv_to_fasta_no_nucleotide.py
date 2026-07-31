@@ -35,7 +35,20 @@ import argparse
 import csv
 import re
 import sys
+from collections import Counter
 from pathlib import Path
+
+
+def duplicate_columns(fieldnames) -> list[str]:
+    """Column names that appear more than once in the header row.
+
+    csv.DictReader keeps only the *last* column of a repeated name, so a stray
+    empty duplicate silently blanks every row: the v260701 sheet carries a
+    second, near-empty `aa_sequence` at column 12, and reading it as the
+    sequence yields 4 records out of 473 with a zero exit status. main()
+    refuses to run rather than emit a truncated FASTA.
+    """
+    return [c for c, n in Counter(fieldnames or []).items() if n > 1]
 
 # --- accession classification ------------------------------------------------
 
@@ -99,6 +112,12 @@ def main() -> int:
                     help="output FASTA path, or '-' for stdout "
                          "(default: <input>.protein.fasta)")
     ap.add_argument("--width", type=int, default=60, help="line-wrap width")
+    ap.add_argument("--acc-col", default="accession",
+                    help="column holding the ';'-separated accession list "
+                         "(default: accession). The v1.1 sheet has no column "
+                         "by that name -- point this at 'retrieved'. Whatever "
+                         "the column is called, the filtered list is exposed "
+                         "to the template as '{accession}'.")
     ap.add_argument("--header-template", default=DEFAULT_TEMPLATE,
                     help="Python str.format template over the row columns "
                          f"(default: '{DEFAULT_TEMPLATE}'). '{{accession}}' "
@@ -114,8 +133,18 @@ def main() -> int:
     with args.tsv.open(newline="") as fh:
         reader = csv.DictReader(fh, delimiter="\t")
         cols = reader.fieldnames or []
+        dupes = duplicate_columns(cols)
+        if dupes:
+            print(f"error: duplicate column name(s) {dupes} in {args.tsv.name}; "
+                  f"only the last of each is readable, which silently drops "
+                  f"data. Rename or remove the duplicate column(s).",
+                  file=sys.stderr)
+            return 1
         placeholders = re.findall(r"\{([^}:!]+)", args.header_template)
-        need = ["accession", "aa_sequence", *placeholders]
+        # '{accession}' is synthesized from --acc-col, so it is not required to
+        # exist under that name in the sheet.
+        need = [args.acc_col, "aa_sequence",
+                *(p for p in placeholders if p != "accession")]
         missing = [c for c in need if c not in cols]
         if missing:
             print(f"error: column(s) {missing} not in {args.tsv.name}; "
@@ -137,8 +166,8 @@ def main() -> int:
             if not seq:
                 blank += 1
                 continue
-            raw = [t.strip() for t in (r.get("accession") or "").split(";") if t.strip()]
-            acc = protein_accessions(r.get("accession", ""))
+            raw = [t.strip() for t in (r.get(args.acc_col) or "").split(";") if t.strip()]
+            acc = protein_accessions(r.get(args.acc_col, ""))
             dropped_tokens += len(raw) - (len(acc.split(";")) if acc else 0)
             if raw and not acc:
                 rows_emptied += 1
