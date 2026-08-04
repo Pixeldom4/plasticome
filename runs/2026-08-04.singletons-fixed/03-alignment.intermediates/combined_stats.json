@@ -1,0 +1,19 @@
+{
+  "input_tsv": "/Users/Pixel/Documents/projects/plasticome/runs/2026-08-04.singletons-fixed/03-alignment.intermediates/nodes_input.tsv",
+  "input_md5": "34cf02454b3f5b5684eaca005901bc8a",
+  "v1_overlay_csv": "/Users/Pixel/Documents/projects/plasticome/source-data/plasticome.v1.1/plasticome.v1.1.tsv",
+  "n_rows": 403,
+  "n_blank_seq_dropped": 0,
+  "n_rows_with_seq": 403,
+  "n_nodes": 403,
+  "n_md5_collapsed_rows": 0,
+  "n_multi_row_nodes": 0,
+  "n_unique_md5": 403,
+  "db_letters": 141600,
+  "len_min": 186,
+  "len_median": 315,
+  "len_max": 734,
+  "n_lt_200aa": 3,
+  "n_lt_100aa": 0,
+  "n_with_v1_overlay": 161
+}

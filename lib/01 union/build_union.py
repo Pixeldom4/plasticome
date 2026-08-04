@@ -12,8 +12,8 @@ Sequences are always the ones retrieved from accession, never carried over from
 v1.1 -- EXCEPT for the manual-assignment rows selected by is_manual(), whose
 aa_sequence was set by hand in the v1 cleaning step and must survive.
 
-  v260701-only  -> v260701 aa_sequence (already retrieved from accession)
-  both (merged) -> v260701 aa_sequence, unless manually assigned -> v1.1's
+  v260701-only  -> v260701 aa_sequence, per --v2-seq (below)
+  both (merged) -> same, unless manually assigned -> v1.1's
   v1.1-only     -> BLANK, for fetch_sequences.py (Stage 2) to fill from
                    accession, unless manually assigned -> v1.1's
 
@@ -21,6 +21,21 @@ Leaving v1.1-only sequences blank here is deliberate: it is what hands those
 rows to the Stage 2 accession lookup. Do not "helpfully" carry v1.1's sequence
 forward, or Stage 2 becomes a no-op and the never-carried-over rule is silently
 violated.
+
+--v2-seq picks what the v260701 aa_sequence column means:
+
+  as-given        the column already holds sequences retrieved from accession,
+                  so take it verbatim. Correct for
+                  cleaned_pazy-260701_retrieving_from_accession.tsv.
+  from-accession  the column holds the sequence attached to the PAZy record,
+                  which is authoritative only where there is no accession to
+                  retrieve from. Keep it on accession-less rows; blank it
+                  everywhere else so Stage 2 fetches from the accession.
+                  Correct for cleaned_pazy-260701-singletons.tsv.
+
+"Accession-less" means blank after norm_accession(), so a placeholder accession
+that is dropped from the output (PLACEHOLDER_ACCESSIONS) also keeps its attached
+sequence -- Stage 2 would have nothing to look it up by.
 
 Ordering
 --------
@@ -34,12 +49,12 @@ identically.
 
 Usage
 -----
-  python3 build_union.py <v1.1.tsv> <v260701.tsv> [-o out.tsv]
+  python3 build_union.py <v1.1.tsv> <v260701.tsv> [-o out.tsv] [--v2-seq MODE]
 
 e.g.
   python3 "lib/01 union/build_union.py" source-data/plasticome.v1.1/plasticome.v1.1.tsv \\
-      source-data/plasticome.v260701/cleaned_pazy-260701_retrieving_from_accession.tsv \\
-      -o runs/<run>/01-union.tsv
+      source-data/plasticome.v260701/cleaned_pazy-260701-singletons.tsv \\
+      --v2-seq from-accession -o runs/<run>/01-union.tsv
 """
 import argparse
 import csv
@@ -129,6 +144,11 @@ def parse_args():
     p.add_argument("v1", help="v1.1 table (joined on its `retrieved` column)")
     p.add_argument("v2", help="v260701 table, the base (joined on its `accession` column)")
     p.add_argument("-o", "--out", default=DEFAULT_OUT, help=f"output TSV (default: ./{DEFAULT_OUT})")
+    p.add_argument("--v2-seq", choices=("as-given", "from-accession"), default="as-given",
+                   help="what the v260701 aa_sequence column holds: sequences already "
+                        "retrieved from accession (as-given, the default), or the "
+                        "PAZy-attached sequence, kept only where the row has no "
+                        "accession and blanked for Stage 2 otherwise (from-accession)")
     return p.parse_args()
 
 
@@ -151,7 +171,12 @@ def main():
     # 1. Emit every v260701 row (base table).
     for idx, r in enumerate(v2_rows):
         a = norm(col(v2_header, r, "accession"))
+        out_acc = norm_accession(col(v2_header, r, "accession"))
         seq = col(v2_header, r, "aa_sequence", occurrence=0).strip()
+        # Under from-accession the column is the PAZy-attached sequence: it stands
+        # only where there is no accession for Stage 2 to retrieve from.
+        if args.v2_seq == "from-accession" and out_acc:
+            seq = ""
         source = SRC_V2
         component = ""
         manual = False
@@ -165,7 +190,9 @@ def main():
                     v1_seq = col(v1_header, cand, "aa_sequence").strip()
                     # Manual assignments outrank the database sequence.
                     if is_manual(v1_name) and v1_seq:
-                        if v1_seq != seq.strip():
+                        # Only an actual v260701 sequence can be "overridden"; a
+                        # blank one under --v2-seq from-accession is not a clash.
+                        if seq.strip() and v1_seq != seq.strip():
                             kept_manual.append((v1_name, a, len(v1_seq), len(seq.strip())))
                         seq = v1_seq
                         manual = True
@@ -174,7 +201,7 @@ def main():
             # earlier duplicate v260701 accession -- still `both`, no component.
         out.append({
             "enzyme_name": col(v2_header, r, "enzyme_name"),
-            "accession": norm_accession(col(v2_header, r, "accession")),
+            "accession": out_acc,
             "pazy_id": col(v2_header, r, "pazy_id"),
             "aa_sequence": seq,
             "source": source,
@@ -216,6 +243,7 @@ def main():
         w.writerows(out)
 
     print(f"wrote   : {args.out}")
+    print(f"v2 seq  : {args.v2_seq}")
     counts = Counter(row["source"] for row in out)
     print(f"{SRC_V2:<8}: {counts[SRC_V2]}")
     print(f"{SRC_BOTH:<8}: {counts[SRC_BOTH]}")

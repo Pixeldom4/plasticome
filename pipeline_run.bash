@@ -4,14 +4,17 @@
 # One run directory, four numbered deliverables, one sidecar per step:
 #
 #   runs/<date>.<run-name>/
-#   ├── 01-union.tsv               607 rows   v1.1 u v260701, sequences backfilled
+#   ├── 01-union.tsv               610 rows   v1.1 u v260701, sequences backfilled
 #   ├── 02-clusters.tsv            411 rows   reference-seeded 90% clusters
 #   ├── 02-clusters.intermediates/              usearch seed/closed-ref/de-novo scratch
 #   ├── 03-alignment.tsv           411 rows   + component_id
 #   ├── 03-alignment.intermediates/             all-pairs alignment + graph scratch
-#   └── 04-<run-name>.fasta        411 records centroid FASTA
+#   ├── 04-<run-name>.fasta        411 records centroid FASTA
+#   └── summary.md                            counts and provenance for the above
 #
 # Per-step logs (usearch stdout/stderr, phase logs) land in that step's sidecar.
+# summary.md is rewritten on every invocation from what is on disk, so it also
+# describes a partial run (steps not built are named as such).
 #
 # Usage:
 #   ./run_pipeline.sh <run-name>              # new run under runs/<today>.<run-name>/
@@ -27,6 +30,10 @@
 #   --id PCT          clustering identity threshold (default: 0.90)
 #   --v1 FILE         v1.1 table        (default: source-data/plasticome.v1.1/...)
 #   --v2 FILE         v260701 table     (default: source-data/plasticome.v260701/...)
+#   --v2-seq MODE     how to read v260701's aa_sequence column: from-accession
+#                     (default) keeps the attached sequence only on rows with no
+#                     accession and fetches the rest in step 1; as-given takes the
+#                     column verbatim, for a v2 table already retrieved from accession
 #   --seeds FILE      curated seeds     (default: source-data/plasticome-curated-seeds/...)
 #   --dry-run         print the commands without running them
 #   -h, --help        this message
@@ -52,8 +59,14 @@ PY="${PY:-/opt/homebrew/Caskroom/miniconda/base/envs/plasticome/bin/python}"
 [ -x "$PY" ] || PY="$(command -v python3 || true)"
 
 V1="$REPO/source-data/plasticome.v1.1/plasticome.v1.1.tsv"
-V2="$REPO/source-data/plasticome.v260701/cleaned_pazy-260701_retrieving_from_accession.tsv"
+V2="$REPO/source-data/plasticome.v260701/cleaned_pazy-260701-singletons.tsv"
 SEEDS="$REPO/source-data/plasticome-curated-seeds/plasticome-curated-seeds.tsv"
+
+# The singletons table carries the sequence attached to the PAZy record, which is
+# the right one only where the record has no accession; everywhere else step 1
+# blanks it and refetches from the accession. A v2 table whose sequences were
+# already retrieved from accession wants --v2-seq as-given instead.
+V2SEQ="from-accession"
 
 RUN_NAME=""; RUN_DIR=""; FROM=1; TO=4; FORCE=""; DRY=""; ID="0.90"
 
@@ -73,6 +86,7 @@ while [ $# -gt 0 ]; do
     --id)       ID="${2:?--id needs a value}"; shift 2 ;;
     --v1)       V1="${2:?--v1 needs a path}"; shift 2 ;;
     --v2)       V2="${2:?--v2 needs a path}"; shift 2 ;;
+    --v2-seq)   V2SEQ="${2:?--v2-seq needs as-given or from-accession}"; shift 2 ;;
     --seeds)    SEEDS="${2:?--seeds needs a path}"; shift 2 ;;
     -*)         die "unknown option: $1 (try --help)" ;;
     *)          [ -z "$RUN_NAME" ] || die "unexpected argument: $1"
@@ -82,6 +96,10 @@ done
 
 case "$FROM$TO" in *[!1-4]*) die "--from/--to must be between 1 and 4" ;; esac
 [ "$FROM" -le "$TO" ] || die "--from ($FROM) is after --to ($TO)"
+case "$V2SEQ" in
+  as-given|from-accession) ;;
+  *) die "--v2-seq must be as-given or from-accession (got: $V2SEQ)" ;;
+esac
 
 # ------------------------------------------------------------- run directory --
 if [ -n "$RUN_DIR" ]; then
@@ -181,11 +199,12 @@ printf '== plasticome pipeline\n'
 printf '   run      %s\n' "${RUN_DIR#"$REPO"/}"
 printf '   steps    %s-%s%s%s\n' "$FROM" "$TO" "${FORCE:+ (force)}" "${DRY:+ (dry run)}"
 printf '   python   %s\n' "$PY"
+want 1 && printf '   v2       %s (--v2-seq %s)\n' "${V2#"$REPO"/}" "$V2SEQ"
 
 if want 1 && ! skip 1 "$S1"; then
   banner 1 "union — v1.1 ∪ v260701, then backfill sequences from accession"
   [ -n "${NCBI_API_KEY:-}" ] || printf '  note: NCBI_API_KEY unset — fetches are rate-limited to 3/s\n'
-  run "$PY" "$REPO/lib/01 union/build_union.py" "$V1" "$V2" -o "$S1"
+  run "$PY" "$REPO/lib/01 union/build_union.py" "$V1" "$V2" --v2-seq "$V2SEQ" -o "$S1"
   # fetch_sequences.py fills the table in place; it is a no-op when every row
   # already carries a sequence, so it is safe to re-run.
   run "$PY" "$REPO/lib/01 union/fetch_sequences.py" "$S1"
@@ -213,10 +232,21 @@ if want 4 && ! skip 4 "$S4"; then
 fi
 
 # ------------------------------------------------------------------ summary --
+# summary.md is rebuilt from whatever is on disk on every invocation, including
+# one that skipped every step -- it is a read-only description of the run, so
+# there is nothing to preserve and a stale one would be worse than none.
 printf '\n== summary\n'
-printf '   %-38s %8s\n' "deliverable" "rows"
+run "$PY" "$REPO/lib/summary/summarize_run.py" --run-dir "$RUN_DIR" \
+    --s1 "$S1" --s2 "$S2" --s3 "$S3" --s4 "$S4" \
+    --v1 "$V1" --v2 "$V2" --v2-seq "$V2SEQ" --seeds "$SEEDS" \
+    --id "$ID" --date "$(date +%F)"
+printf '\n   %-38s %8s\n' "deliverable" "rows"
 for f in "$S1" "$S2" "$S3" "$S4"; do
   printf '   %-38s %8s\n' "$(basename "$f")" "$(rows "$f")"
 done
-printf '\n   expected on the reference inputs: 607 / 411 / 411 / 411\n'
+# Step 1 is 610 on the singletons table (473 v260701 rows + 137 unmatched v1.1).
+# 607 / 411 / 411 / 411 was the previous default input,
+# cleaned_pazy-260701_retrieving_from_accession.tsv; steps 2-4 have not been
+# re-measured on the singletons table, so only step 1's count is stated here.
+printf '\n   expected step 1 on the reference inputs: 610\n'
 printf '   done: %s\n' "${RUN_DIR#"$REPO"/}"
