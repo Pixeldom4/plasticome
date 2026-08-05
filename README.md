@@ -67,9 +67,16 @@ snapshots — never regenerated, never edited in place.
 
 ### `bin/` and `archive/`
 
-`usearch11` / `usearch12` are Linux x86-64 ELF binaries and **only run through
-Docker `linux/amd64`** on this arm64 macOS host — Docker Desktop must be running
-before any clustering or alignment step. DIAMOND likewise, via `bin/diamond.sh`.
+**DIAMOND** is the pipeline's engine for both the clustering (step 2) and the
+all-vs-all alignment (step 3). A native `diamond` on PATH (`brew install diamond`)
+is used when there is one, and needs no Docker; `bin/diamond` is the bundled Linux
+x86-64 ELF fallback, run through Docker `linux/amd64` (`bin/diamond.sh` wraps that
+call for interactive use).
+
+`usearch11` / `usearch12` are Linux x86-64 ELF binaries with no macOS distribution,
+so they **only run through Docker `linux/amd64`** — Docker Desktop must be running
+before any step that uses them: `--engine usearch`, `lib/03 alignment/run.sh`, the
+notebook, and the Step-0 sanity fixture.
 
 `archive/cache/` holds the NCBI / BLAST / supplementary-file caches and the
 ~26-paper corpus; all of it is keyed on stable identifiers, so deleting it only
@@ -94,7 +101,12 @@ It is **resumable**: a step whose deliverable already exists is skipped unless
 `--force`, so an interrupted run picks up where it stopped and re-running only the
 last step is cheap. It also adopts a deliverable that a previous run named
 differently, rather than building a second one beside it. `--help` lists the rest
-(`--id`, `--v1`, `--v2`, `--seeds`, `--only`, `--to`).
+(`--id`, `--engine`, `--v1`, `--v2`, `--seeds`, `--only`, `--to`).
+
+`--engine` selects the engine for **both** steps 2 and 3 — `diamond` (default) or
+`usearch`, the engine used through 2026-08-04. They are not interchangeable outputs:
+diamond enforces member coverage where usearch recruited on identity alone, and the
+two aligners' edge sets differ slightly, so state which one produced a run.
 
 The driver passes `V1=` explicitly to step 3, which sidesteps the stale-path bug
 described under *Known gaps* below. Invoking the steps by hand does not, and loses
@@ -116,13 +128,13 @@ python3 "lib/01 union/build_union.py" \
     -o "$RUN/01-plasticome_v1.v260701-union.tsv"
 python3 "lib/01 union/fetch_sequences.py" "$RUN/01-plasticome_v1.v260701-union.tsv"
 
-# 2. reference-seeded clustering at 90% — 607 rows → 411 clusters  [Docker]
+# 2. reference-seeded clustering at 90% — 607 rows → clusters  [diamond]
 python3 "lib/02 clustering/cluster_reference_seeded.py" \
     "$RUN/01-plasticome_v1.v260701-union.tsv" \
     source-data/plasticome-curated-seeds/plasticome-curated-seeds.tsv \
     -o "$RUN/02-clusters.tsv"
 
-# 3. all-vs-all alignment of the 411 centroids → adds component_id  [Docker]
+# 3. all-vs-all alignment of the centroids → adds component_id  [diamond]
 OUT_TSV="$RUN/03-alignment.tsv" "lib/03 alignment/run_from_clusters.sh" "$RUN/02-clusters.tsv"
 
 # 4. centroid FASTA
@@ -130,9 +142,11 @@ python3 lib/fasta/clusters_to_fasta.py "$RUN/03-alignment.tsv" \
     -o "$RUN/04-plasticome.v1.212.union-spec.fasta"
 ```
 
-Steps 2 and 3 shell out to usearch through Docker and will fail immediately if
-Docker Desktop is not running. Step 1 hits NCBI/UniProt; export `NCBI_API_KEY`
-first to lift the rate limit from 3 to 10 requests/second.
+Steps 2 and 3 shell out to DIAMOND, which runs natively when one is on PATH and
+otherwise falls back to `bin/diamond` under Docker — as does all of `--engine
+usearch`, which fails immediately if Docker Desktop is not running. Step 1 hits
+NCBI/UniProt; export `NCBI_API_KEY` first to lift the rate limit from 3 to 10
+requests/second.
 
 **Row counts through the pipeline**, as a smoke test — if these drift, something
 upstream changed:
@@ -281,12 +295,14 @@ their true dates only in their filenames: `step0` (07-02) and `v2` (07-09).
 with different bytes across passes. Always compare by hash before assuming two
 copies are the same file.
 
-**Docker.** Every usearch/DIAMOND invocation mounts the **repo root** at `/d`, so
-tool paths inside the container are `/d/bin/usearch11` and data paths are
-`/d/$REL/...`. Relocated drivers discover the repo root by walking up to the
-directory containing both `lib/` and `bin/`, so they work from any depth. A
-consequence: **inputs and outputs must both live under the repo root**, or they
-are invisible inside the container.
+**Docker.** Containerized invocations mount the **repo root** at `/d`, so tool paths
+inside the container are `/d/bin/usearch11` and data paths are `/d/$REL/...`. The
+clustering step is the one exception: it mounts `bin/` at `/b` and only the run's
+intermediates directory at `/w`, since that is all it reads or writes. Relocated
+drivers discover the repo root by walking up to the directory containing both `lib/`
+and `bin/`, so they work from any depth. A consequence: **inputs and outputs must
+both live under the repo root**, or they are invisible inside the container. None of
+this applies when DIAMOND runs natively, which is the normal case.
 
 ---
 

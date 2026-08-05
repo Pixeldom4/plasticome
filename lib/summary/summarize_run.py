@@ -165,6 +165,12 @@ def main():
         L.append(f"- {len(clusters)} clusters over {sum(sizes)} sequences")
         L.append(f"- {sum(1 for s in sizes if s == 1)} singleton clusters, "
                  f"largest {max(sizes) if sizes else 0}")
+        prov = read_json(os.path.join(run_dir, "02-clusters.intermediates", "provenance.json"))
+        if prov:
+            cov = prov.get("member_cov")
+            L.append(f"- engine: {prov.get('engine_version', prov.get('engine', '?'))}"
+                     f" — centroids ordered by {prov.get('greedy_ordering', '?')}, member "
+                     f"coverage {cov if cov else 'not enforced (identity only)'}")
         L.append(f"- representatives — {counts_line(rep_src, ['v260701', 'both', 'v1.1', 'seed'])}")
         if lens:
             L.append(f"- representative length: min {min(lens)} / median {median(lens)} / max {max(lens)} aa")
@@ -182,6 +188,8 @@ def main():
         top = ", ".join(f"{cid} ({n})" for cid, n in comp.most_common(3))
         L.append(f"- {sum(1 for n in comp.values() if n == 1)} single-cluster components; largest: {top}")
         if stats:
+            if stats.get("aligner_command"):
+                L.append(f"- aligner: {stats['aligner_command']}")
             if stats.get("edge_criterion"):
                 L.append(f"- edge criterion: {stats['edge_criterion']}")
             if stats.get("edges_passing") is not None:

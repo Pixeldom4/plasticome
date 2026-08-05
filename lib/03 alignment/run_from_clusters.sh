@@ -1,13 +1,18 @@
 #!/usr/bin/env bash
 # End-to-end driver: cluster-centroids TSV -> components.
 #
-# Same method as run.sh / the central notebook -- usearch v11.0.667
-# -allpairs_local via Docker linux/amd64, permissive search (-acceptall), both
-# FASTA orientations, >=30% aaid AND e-value < 1e-5 applied as a POST-filter,
-# single-linkage connected components. The only difference is the front door:
-# the node set comes from one row per cluster (the representative) instead of
-# the curated PAZy TSV, and there is no Step-0 engine sanity check (run.sh
-# keeps that; it is a fixed 213-node fixture, independent of this input).
+# Same method as run.sh / the central notebook -- permissive all-vs-all search,
+# >=30% aaid AND e-value < 1e-5 applied as a POST-filter, single-linkage
+# connected components -- with two differences: the node set comes from one row
+# per cluster (the representative) instead of the curated PAZy TSV, and there is
+# no Step-0 engine sanity check (run.sh keeps that; it is a fixed 213-node
+# usearch fixture, independent of this input).
+#
+# The aligner is DIAMOND (`diamond blastp`, all-vs-all, settings mapped one to one
+# from the usearch method -- see scripts/step2_align.py and config.py). It runs
+# natively when a `diamond` is on PATH, else bin/diamond through Docker
+# linux/amd64. ENGINE=usearch switches back to usearch11 -allpairs_local, which
+# always needs Docker on this host.
 #
 # Usage:
 #   ./run_from_clusters.sh "<clusters.tsv>" ["<outdir>"]
@@ -22,11 +27,14 @@
 #
 # Env overrides:
 #   PY=...        python 3.9+           (default: the plasticome conda env)
+#   ENGINE=...    diamond | usearch     (default: diamond)
 #   OUT_TSV=...   the deliverable path  (default: "<dir>/03 alignment.tsv")
 #   TAG=...       output file stem      (default: clusters)
 #   DATE=...      output file stem      (default: today)
 #   ID_MODE=...   cluster | label       (default: cluster; see clusters_to_tsv.py)
 #   V1=...        v1 overlay table      (default: source-data/plasticome.v1.1/plasticome.v1.1.tsv)
+#   UNION=...     union TSV supplying sequences for v1 rows that carry none, so the
+#                 overlay can still key on sequence md5 (optional; see step1_nodes.py)
 set -euo pipefail
 # Absolute + physical path; only the parent has to exist. `pwd -P` matters: the
 # paths are later matched against $REPO to build the Docker mount-relative form.
@@ -53,6 +61,7 @@ cd "$(dirname "$0")"                       # -> lib/03 alignment/
 REPO="$(cd ../.. && pwd -P)"               # -> repo root == the Docker /d mount
 
 PY="${PY:-/opt/homebrew/Caskroom/miniconda/base/envs/plasticome/bin/python}"
+ENGINE="${ENGINE:-diamond}"
 TAG="${TAG:-clusters}"
 DATE="${DATE:-$(date +%F)}"
 ID_MODE="${ID_MODE:-cluster}"
@@ -60,31 +69,36 @@ V1="${V1:-$REPO/source-data/plasticome.v1.1/plasticome.v1.1.tsv}"
 
 [ -f "$CLUSTERS" ]           || { echo "no such clusters TSV: $CLUSTERS" >&2; exit 1; }
 [ -x "$PY" ] || command -v "$PY" >/dev/null || { echo "no python at: $PY" >&2; exit 1; }
-[ -f "$REPO/bin/usearch11" ] || { echo "missing $REPO/bin/usearch11" >&2; exit 1; }
-docker info >/dev/null 2>&1  || { echo "Docker is not running (usearch is a Linux ELF binary)" >&2; exit 1; }
+case "$ENGINE" in
+  diamond)
+    # A native diamond skips Docker entirely; the bundled copy is a Linux ELF and does not.
+    if ! command -v diamond >/dev/null; then
+      [ -f "$REPO/bin/diamond" ] || { echo "no diamond on PATH and missing $REPO/bin/diamond" >&2; exit 1; }
+      docker info >/dev/null 2>&1 || { echo "Docker is not running (bin/diamond is a Linux ELF binary)" >&2; exit 1; }
+    fi ;;
+  usearch)
+    [ -f "$REPO/bin/usearch11" ] || { echo "missing $REPO/bin/usearch11" >&2; exit 1; }
+    docker info >/dev/null 2>&1 || { echo "Docker is not running (usearch is a Linux ELF binary)" >&2; exit 1; } ;;
+  *) echo "ENGINE must be diamond or usearch (got: $ENGINE)" >&2; exit 1 ;;
+esac
 case "$CLUSTERS" in "$REPO"/*) ;; *) echo "clusters TSV must be under $REPO" >&2; exit 1;; esac
 case "$OUT"      in "$REPO"/*) ;; *) echo "outdir must be under $REPO" >&2; exit 1;; esac
 mkdir -p "$OUT"
-
-usearch() {  # $1 = fasta (absolute), $2 = out pairs (absolute)
-  docker run --rm --platform linux/amd64 -v "$REPO":/d -w /d debian:bookworm-slim \
-    /d/bin/usearch11 -allpairs_local "/d/${1#"$REPO"/}" -userout "/d/${2#"$REPO"/}" \
-    -userfields query+target+id+evalue+bits -acceptall 2>>"$OUT/usearch.log"
-}
 
 echo "== Step A: clusters TSV -> curated node shape =="
 "$PY" scripts/clusters_to_tsv.py --clusters "$CLUSTERS" --out "$OUT/nodes_input.tsv" \
       --id-mode "$ID_MODE"
 
 echo "== Step 1: md5-unique node set + both-orientation FASTA =="
-"$PY" scripts/step1_nodes.py --tsv "$OUT/nodes_input.tsv" --v1 "$V1" --outprefix "$OUT/combined"
+"$PY" scripts/step1_nodes.py --tsv "$OUT/nodes_input.tsv" --v1 "$V1" \
+      ${UNION:+--v1-seqs "$UNION"} --outprefix "$OUT/combined"
 
-echo "== Step 2: all-vs-all usearch (both orientations) =="
-usearch "$OUT/combined.fasta"     "$OUT/combined_pairs.tsv"
-usearch "$OUT/combined_rev.fasta" "$OUT/combined_rev_pairs.tsv"
+echo "== Step 2: all-vs-all alignment ($ENGINE) =="
+"$PY" scripts/step2_align.py --prefix "$OUT/combined" --engine "$ENGINE"
 
 echo "== Step 3: filter + single-linkage partition =="
-"$PY" scripts/step23_graph.py --prefix "$OUT/combined" --outdir "$OUT" --tag "$TAG" --date "$DATE"
+"$PY" scripts/step23_graph.py --prefix "$OUT/combined" --outdir "$OUT" --tag "$TAG" \
+      --date "$DATE" --engine "$ENGINE"
 
 echo "== Step 4: join components back onto every cluster =="
 "$PY" scripts/annotate_clusters.py --clusters "$CLUSTERS" \

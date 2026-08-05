@@ -1,0 +1,43 @@
+{
+  "tag": "clusters",
+  "date": "2026-08-05",
+  "prefix": "/Users/Pixel/Documents/projects/plasticome/runs/2026-08-05.diamond/03-alignment.intermediates/combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 140831,
+  "aligner": "diamond",
+  "aligner_command": "diamond blastp all-vs-all, --ultra-sensitive --max-target-seqs 0 --evalue 10 --masking 0 --comp-based-stats 0",
+  "pair_files": [
+    "combined_pairs.tsv"
+  ],
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 140831-residue db",
+  "n_nodes": 404,
+  "raw_alignments": 54094,
+  "aligned_pairs": 27259,
+  "edges_passing": 20736,
+  "n_components": 48,
+  "n_singletons": 25,
+  "largest_component": 218,
+  "top10_component_sizes": [
+    218,
+    45,
+    19,
+    16,
+    14,
+    10,
+    5,
+    5,
+    5,
+    5
+  ],
+  "n_nodes_with_v1_overlay": 173,
+  "n_v1_labels_split_across_components": 1,
+  "v1_labels_split": {
+    "1": [
+      "C001",
+      "C012",
+      "C024"
+    ]
+  }
+}

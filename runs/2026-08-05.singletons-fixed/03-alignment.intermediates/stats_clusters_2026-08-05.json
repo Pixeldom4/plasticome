@@ -1,0 +1,33 @@
+{
+  "tag": "clusters",
+  "date": "2026-08-05",
+  "prefix": "/Users/Pixel/Documents/projects/plasticome/runs/2026-08-05.singletons-fixed/03-alignment.intermediates/combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 145227,
+  "usearch": "v11.0.667 -allpairs_local -acceptall, both orientations",
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 145227-residue db",
+  "n_nodes": 413,
+  "raw_alignments": 62771,
+  "aligned_pairs": 30859,
+  "edges_passing": 22415,
+  "n_components": 47,
+  "n_singletons": 26,
+  "largest_component": 233,
+  "top10_component_sizes": [
+    233,
+    45,
+    19,
+    16,
+    14,
+    10,
+    5,
+    5,
+    5,
+    5
+  ],
+  "n_nodes_with_v1_overlay": 167,
+  "n_v1_labels_split_across_components": 0,
+  "v1_labels_split": {}
+}

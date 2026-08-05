@@ -10,9 +10,11 @@ Use it when you have hand-picked reference sequences that must survive as centro
 named enzymes that anchor downstream stages), but you still want unbiased clustering of
 everything else.
 
-Two engines are documented and interchangeable: **USEARCH** (`cluster_fast` / `usearch_global`)
-and **DIAMOND** (`greedy-vertex-cover`). Concrete runs:
-`plasticome-union-v1.1/reference-seed-clustering/` (usearch) and
+Two engines are documented: **DIAMOND** (`greedy-vertex-cover`) and **USEARCH**
+(`cluster_fast` / `usearch_global`). `cluster_reference_seeded.py` implements both;
+`--engine diamond` is the default and is what `run_pipeline.bash` runs. They are not
+interchangeable *outputs* — see "Coverage semantics" — only interchangeable *methods*.
+Concrete runs: `plasticome-union-v1.1/reference-seed-clustering/` (usearch) and
 `plasticome-clustering-diamond/reference-seed-clustering-diamond/` (diamond).
 
 ---
@@ -40,6 +42,8 @@ and reuse it for every phase — never rebuild per phase (that invites parameter
 - USEARCH: no persistent graph; each step re-searches (see command table).
 - DIAMOND: build one edge graph — `diamond blastp` all-vs-all, `--id $id`,
   `--query-or-subject-cover 90`, output `qseqid sseqid pident qcovhsp scovhsp bitscore`.
+  Feed DIAMOND **ordinal** ids, not labels: labels here are `U0001|WP_012345.1`, and `|`
+  is the character DIAMOND's seqid parser splits accessions on.
 
 ### Phase 1 — seed diagnostic (are the seeds non-redundant?)
 Cluster the seed set **against itself** at `$id`. Report how many seeds remain centroids:
@@ -64,7 +68,9 @@ sequences leave the pool.
 Cluster the **unmatched remainder** at `$id` into fresh clusters.
 - USEARCH: `cluster_fast unmatched -id $id -sort length`.
 - DIAMOND: `greedy-vertex-cover` on the residual node list, same `--member-cover $cov`, same
-  edge graph, passing only the residual ids as `-d`.
+  edge graph. There is no "these nodes only" flag: restrict by writing the induced subgraph
+  (edges whose both endpoints are residual, reindexed 0..k-1) and passing `--max-oid k-1`,
+  which is what defines the node set — GVC emits a row for every ordinal in that range.
 
 ### Phase 4 — merge & emit
 Concatenate reference clusters (seeds + recruits) and de-novo clusters. Emit:
@@ -89,6 +95,10 @@ in this order.
 | 1 seed self-cluster | `cluster_fast SEEDS -id $id -sort length` | `greedy-vertex-cover` on seeds |
 | 2 closed-ref recruit | `usearch_global -db SEEDS -id $id -top_hit_only` | edge `s→v`, `scovhsp ≥ $cov` |
 | 3 de-novo | `cluster_fast unmatched -id $id -sort length` | `greedy-vertex-cover` on remainder, `--member-cover $cov` |
+
+Edge rows are quintuplets — `query, subject, qcovhsp, scovhsp, bitscore` — and
+`greedy-vertex-cover` reads a member's coverage off whichever column that member sits in,
+so it does not matter which direction of a pair the row records.
 
 Greedy ordering differs and is worth stating in any report: USEARCH `cluster_fast` orders by
 **length** (`-sort length`); DIAMOND `greedy-vertex-cover` orders by **graph degree**. Neither
@@ -115,6 +125,14 @@ stages and the inconsistency propagates.
 Engines also differ in what they recruit: usearch `usearch_global` recruits on **identity
 alone**; diamond enforces `--member-cover`. Expect diamond to recruit fewer sequences to
 seed clusters and push the rest to de-novo (in the pazy run: 25 vs 36 recruited).
+
+That difference is not a tuning choice — it is forced by what "identity" means to each
+engine. USEARCH measures it over a near-global alignment, so 90% identity already implies
+the two sequences are the same length and the same protein. DIAMOND measures it over a
+local HSP, so 90% identity over one conserved 40-residue stretch would otherwise be enough
+to merge two unrelated proteins. Hence `cluster_reference_seeded.py` defaults `--member-cov`
+to **0.90 under diamond and unset under usearch**, and prints which rule it applied. On the
+610-row v1/v260701 union at 90%: diamond 404 clusters / 17 recruited, usearch 413 / 28.
 
 ---
 
@@ -146,8 +164,10 @@ B single anchor / C variant family / D full seed set) across identity thresholds
 
 ## Reproducibility notes
 
-- DIAMOND runs natively. USEARCH `usearch11/12` are Linux x86-64 ELF binaries — on arm64
-  macOS run them inside a Docker `linux/amd64` container (Docker Desktop must be up).
+- DIAMOND runs natively when one is on PATH (`brew install diamond`); the bundled
+  `bin/diamond` is a Linux ELF and falls back to Docker like usearch does. USEARCH
+  `usearch11/12` are Linux x86-64 ELF binaries with no macOS build — on arm64 macOS run
+  them inside a Docker `linux/amd64` container (Docker Desktop must be up).
 - Fix the identity threshold, coverage rule, and greedy ordering explicitly; defaults differ
   between tools and versions.
 - Deduplicate or note exact-duplicate sequences: they co-cluster and can inflate a

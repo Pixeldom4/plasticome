@@ -1,0 +1,21 @@
+{
+  "input_tsv": "/Users/Pixel/Documents/projects/plasticome/runs/2026-08-05.test-usearch/03-alignment.intermediates/nodes_input.tsv",
+  "input_md5": "78a2787a14c3efc634af0cb34ce95f13",
+  "v1_overlay_csv": "/Users/Pixel/Documents/projects/plasticome/source-data/plasticome.v1.1/plasticome.v1.1.no-seq.tsv",
+  "n_rows": 413,
+  "n_blank_seq_dropped": 0,
+  "n_rows_with_seq": 413,
+  "n_nodes": 413,
+  "n_md5_collapsed_rows": 0,
+  "n_multi_row_nodes": 0,
+  "n_unique_md5": 413,
+  "db_letters": 145227,
+  "len_min": 186,
+  "len_median": 315,
+  "len_max": 734,
+  "n_lt_200aa": 4,
+  "n_lt_100aa": 0,
+  "n_with_v1_overlay": 167,
+  "n_v1_overlay_by_md5": 167,
+  "n_v1_overlay_by_accession": 0
+}

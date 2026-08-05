@@ -1,0 +1,21 @@
+{
+  "input_tsv": "/Users/Pixel/Documents/projects/plasticome/runs/2026-08-05.test-diamond/03-alignment.intermediates/nodes_input.tsv",
+  "input_md5": "126a8c370d234469f5e039345ad09b59",
+  "v1_overlay_csv": "/Users/Pixel/Documents/projects/plasticome/source-data/plasticome.v1.1/plasticome.v1.1.no-seq.tsv",
+  "n_rows": 404,
+  "n_blank_seq_dropped": 0,
+  "n_rows_with_seq": 404,
+  "n_nodes": 404,
+  "n_md5_collapsed_rows": 0,
+  "n_multi_row_nodes": 0,
+  "n_unique_md5": 404,
+  "db_letters": 140831,
+  "len_min": 186,
+  "len_median": 314,
+  "len_max": 734,
+  "n_lt_200aa": 4,
+  "n_lt_100aa": 0,
+  "n_with_v1_overlay": 173,
+  "n_v1_overlay_by_md5": 173,
+  "n_v1_overlay_by_accession": 0
+}

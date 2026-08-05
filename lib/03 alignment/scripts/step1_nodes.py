@@ -45,27 +45,73 @@ def pl_num(ident: str) -> int:
     return int(m.group(1)) if m else 10**9
 
 
-def load_v1_overlay(v1_csv: Path) -> dict:
-    """md5 -> (v1_component, cath) from the v1 reference (overlay only).
+def acc_key(acc: str) -> str:
+    """Accession as an overlay key: version suffix stripped, upper-cased."""
+    return (acc or "").strip().split(".")[0].upper()
+
+
+def load_seq_by_accession(path) -> dict:
+    """accession (version-stripped) -> aa_sequence, from a union-shaped TSV.
+
+    Lets the overlay key on sequence md5 even when the v1 table itself no longer
+    carries sequences: the union holds the sequence that was retrieved for each
+    v1 accession, which is exactly what the md5 key needs.
+    """
+    seqs = {}
+    if not path:
+        return seqs
+    path = Path(path)
+    if not path.exists():
+        print(f"[step1] no overlay sequence source at {path}")
+        return seqs
+    for r in csv.DictReader(path.open(), delimiter="\t"):
+        a, s = acc_key(r.get("accession", "")), (r.get("aa_sequence") or "").strip()
+        if a and s:
+            seqs.setdefault(a, s)
+    return seqs
+
+
+def load_v1_overlay(v1_csv: Path, seq_source=None):
+    """-> (md5 -> (v1_component, cath), accession -> (v1_component, cath)).
+
+    Two keys because neither alone is sufficient. The md5 of the sequence is
+    exact, but it only works while the v1 table still carries sequences: the
+    `.no-seq` re-export keeps 13 of 212, which cut the overlay from 161 nodes to
+    10 without erroring. `retrieved` is the same accession the union joins on, so
+    it covers every row that has one, sequence or not.
+
+    md5 is tried first and accession second, so an exact sequence match always
+    outranks an accession match on the same node.
 
     A missing file yields an empty overlay -- v1_component/cath stay blank and
     nothing else changes, since the partition never reads them. The delimiter
     follows the extension, so either the v1 CSV or the tab-separated v1.1 table
     can be supplied.
     """
-    overlay = {}
+    by_md5, by_acc = {}, {}
     v1_csv = Path(v1_csv)
     if not v1_csv.exists():
         print(f"[step1] no v1 overlay at {v1_csv} -- v1_component/cath left blank")
-        return overlay
+        return by_md5, by_acc
+    borrowed = load_seq_by_accession(seq_source)
+    n_borrowed = 0
     delim = "\t" if v1_csv.suffix.lower() in (".tsv", ".tab") else ","
     for r in csv.DictReader(v1_csv.open(), delimiter=delim):
+        val = (r.get("component", "").strip(), r.get("cath", "").strip())
+        if not any(val):
+            continue  # nothing to overlay; keying on it would only shadow a real hit
+        acc = acc_key(r.get("retrieved", ""))
         seq = normalize(r.get("aa_sequence", ""))
-        if not seq:
-            continue
-        overlay.setdefault(md5_of(seq),
-                           (r.get("component", "").strip(), r.get("cath", "").strip()))
-    return overlay
+        if not seq and acc in borrowed:
+            seq = normalize(borrowed[acc])
+            n_borrowed += 1
+        if seq:
+            by_md5.setdefault(md5_of(seq), val)
+        if acc:
+            by_acc.setdefault(acc, val)
+    print(f"[step1] v1 overlay: {len(by_md5)} md5 keys "
+          f"({n_borrowed} from the sequence source), {len(by_acc)} accession keys")
+    return by_md5, by_acc
 
 
 def uniq_sorted(mem, col, key=None):
@@ -85,12 +131,15 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--tsv", type=Path, default=config.INPUT_TSV)
     ap.add_argument("--v1", type=Path, default=config.V1_CSV)
+    ap.add_argument("--v1-seqs", type=Path, default=None,
+                    help="union TSV supplying sequences for v1 rows that carry none, "
+                         "so the overlay can still key on sequence md5")
     ap.add_argument("--outprefix", type=Path, default=config.OUTPUTS / "combined")
     args = ap.parse_args()
     args.outprefix.parent.mkdir(parents=True, exist_ok=True)
     out = args.outprefix
 
-    overlay = load_v1_overlay(args.v1)
+    ov_md5, ov_acc = load_v1_overlay(args.v1, args.v1_seqs)
     rows = list(csv.DictReader(args.tsv.open(), delimiter="\t"))
 
     # collapse to md5-unique nodes, preserving provenance
@@ -112,8 +161,18 @@ def main() -> None:
         names = uniq_sorted(mem, "enzyme_name")
         orgs = uniq_sorted(mem, "organism")
         pazy = uniq_sorted(mem, "pazy_id")
-        v1c, cath = overlay.get(h, ("", ""))
+        # md5 first (exact sequence), then any of the node's accessions
+        v1c, cath = ov_md5.get(h, ("", ""))
+        via = "md5" if (v1c or cath) else ""
+        if not via:
+            for a in accs:
+                hit = ov_acc.get(acc_key(a))
+                if hit:
+                    v1c, cath = hit
+                    via = "accession"
+                    break
         nodes[h] = {
+            "v1_overlay_via": via,
             "sequence_md5": h, "sequence": seq,
             "identifier": idents[0] if idents else "", "identifier_all": ";".join(idents),
             "accession": accs[0] if accs else "", "accession_all": ";".join(accs),
@@ -135,7 +194,7 @@ def main() -> None:
     cols = ["node_id", "sequence_md5", "identifier", "identifier_all", "accession",
             "accession_all", "enzyme_name", "enzyme_name_all", "organism",
             "pazy_id", "pazy_id_all", "sequence_length", "n_source_rows",
-            "v1_component", "cath"]
+            "v1_component", "cath", "v1_overlay_via"]
     with Path(f"{out}_nodes.tsv").open("w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=cols, delimiter="\t", extrasaction="ignore")
         w.writeheader()
@@ -154,6 +213,8 @@ def main() -> None:
         "len_min": lens[0], "len_median": lens[len(lens) // 2], "len_max": lens[-1],
         "n_lt_200aa": sum(l < 200 for l in lens), "n_lt_100aa": sum(l < 100 for l in lens),
         "n_with_v1_overlay": sum(1 for n in ordered if n["v1_component"]),
+        "n_v1_overlay_by_md5": sum(1 for n in ordered if n["v1_overlay_via"] == "md5"),
+        "n_v1_overlay_by_accession": sum(1 for n in ordered if n["v1_overlay_via"] == "accession"),
     }
     Path(f"{out}_stats.json").write_text(json.dumps(stats, indent=2))
     print(f"[step1] {len(nodes)} nodes / {stats['n_unique_md5']} unique md5 "

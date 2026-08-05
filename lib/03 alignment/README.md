@@ -16,12 +16,13 @@ all 484 nodes).
 analysis/
 ├── PETadex_alignment.ipynb   ← central notebook: orchestrate (Steps 0–3) + analyse
 ├── run.sh                    ← shell twin of the notebook (same steps/outputs)
-├── config.py                 ← all paths + scientific constants + usearch(Docker) helper
+├── config.py                 ← all paths + scientific constants + the aligner helpers
 ├── requirements.txt          ← notebook deps (scripts are pure stdlib)
 ├── scripts/
 │   ├── step0_sanity.py       ← rebuild 213 v1 nodes (engine gate → 42 comps / 3178 edges)
 │   ├── step1_nodes.py        ← curated PAZy TSV → 484 md5-unique nodes + FASTA
-│   ├── step23_graph.py       ← usearch pairs → filtered graph → connected components
+│   ├── step2_align.py        ← all-vs-all alignment (diamond, or usearch per orientation)
+│   ├── step23_graph.py       ← aligner pairs → filtered graph → connected components
 │   └── annotate_source.py    ← join components back onto every source row
 ├── data/
 │   ├── cleaned_pazy_final.tsv (frozen input, md5 1d13e83691cc767c7ba9635c9bd2ed60)
@@ -32,7 +33,11 @@ analysis/
 
 ## Prerequisites
 
-- **Docker** running (`docker ps` must work) — usearch is a Linux ELF binary run
+- **DIAMOND** — the pipeline's aligner (`run_from_clusters.sh`). A native `diamond`
+  on PATH (`brew install diamond`) needs nothing else; without one, `bin/diamond`
+  is used and Docker applies as below.
+- **Docker** running (`docker ps` must work) for anything usearch — `run.sh`, the
+  notebook, the Step-0 fixture, `ENGINE=usearch`. usearch is a Linux ELF binary run
   through `debian:bookworm-slim` on `linux/amd64`. There is no macOS/arm64 native path.
 - The **`plasticome`** conda env for the notebook (jupyter, pandas, matplotlib, networkx —
   see `requirements.txt`). A kernel named *Python 3 (plasticome)* is registered.
@@ -60,9 +65,10 @@ python scripts/step23_graph.py --prefix outputs/combined --outdir outputs --tag 
 `run_from_clusters.sh` is the second front door: it takes the one-row-per-cluster
 TSV written by `lib/02 clustering/cluster_reference_seeded.py` (`cluster_id, size,
 rep_*, member_*, rep_aa_sequence`) and aligns the cluster **representatives** by the
-identical method — same usearch call, same both-orientation search, same ≥30% aaid
-AND e<1e-5 post-filter, same single-linkage partition. Step 0 (the fixed 213-node
-engine check) is skipped; it is independent of this input and still lives in `run.sh`.
+same method — permissive all-vs-all search, ≥30% aaid AND e<1e-5 post-filter,
+single-linkage partition — with **DIAMOND** as the aligner (`ENGINE=usearch` runs the
+usearch arm instead). Step 0 (the fixed 213-node engine check) is skipped; it is
+independent of this input, is a usearch measurement, and still lives in `run.sh`.
 
 ```bash
 ./run_from_clusters.sh "runs/<run>/02 clusters.tsv"
@@ -76,7 +82,7 @@ one column added, `component_id` — and every intermediate lands in
 deliverable's stem with the extension **replaced**, not appended; folders written
 before 2026-07-30 use the older `<deliverable>.work/` form. Both paths must sit
 under the repo root, which is the single Docker mount. Env overrides: `PY`,
-`OUT_TSV`, `TAG`, `DATE`, `ID_MODE`, `V1`.
+`ENGINE`, `OUT_TSV`, `TAG`, `DATE`, `ID_MODE`, `V1`.
 
 Two extra scripts back it:
 
@@ -100,7 +106,13 @@ md5-unique nodes → **46 components**, 22,211 passing edges, largest 232, 25 si
 ## Method (paper-faithful, carried forward v4–v8; do not change without a version bump)
 
 - Node identity = md5 of `normalize()` (letters only, uppercased) — the paper's component definition.
-- Aligner: `usearch v11.0.667 -allpairs_local -acceptall`, **both FASTA orientations**.
+- Aligner (pipeline): `diamond blastp` all-vs-all, `--ultra-sensitive --max-target-seqs 0
+  --evalue 10 --masking 0 --comp-based-stats 0` — each flag maps one-to-one onto the usearch
+  setting it replaces (see `config.DIAMOND_FLAGS`). Query == database, so a pair is reported in
+  both directions within the single run and there is no reversed-FASTA second pass.
+- Aligner (usearch arm, and Step 0): `usearch v11.0.667 -allpairs_local -acceptall`,
+  **both FASTA orientations** — `-allpairs_local` is asymmetric in query/target, which is
+  the only reason the reversed FASTA exists.
 - HSP selection: best per unordered pair by **max bits** (ties → lower e-value) — the B4 convention.
 - Edge criterion (post-filter only, never a search parameter): **≥30% aaid AND e-value < 1e-5**,
   thresholded as reported at this run's db (no down-scaling).
@@ -116,7 +128,7 @@ md5-unique nodes → **46 components**, 22,211 passing edges, largest 232, 25 si
 | `component_members_petadex_<date>.csv`    | one row per component (size, v1 spread, CATH, members) |
 | `component_edges_petadex_<date>.csv`      | passing edges |
 | `cleaned_pazy_final_components_<date>.csv`| every source row + joined component + `prior_component_id` |
-| `combined{,_rev}.fasta`, `combined{,_rev}_pairs.tsv` | node set + raw usearch HSPs |
+| `combined{,_rev}.fasta`, `combined{,_rev}_pairs.tsv` | node set + raw HSPs (`_rev_pairs.tsv` only under usearch) |
 | `stats_petadex_<date>.json`, `combined_stats.json`   | provenance + counts |
 | `step0_check/`                            | the 213-node engine-sanity inputs/pairs/partition (→ 42) |
 

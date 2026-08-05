@@ -7,10 +7,12 @@ Partition: undirected single-linkage connected components over ALL nodes.
 
 Flat de-novo run (decisions 1-4), identical method to v4-v8:
   * No v1 anchor, no delta, no join/merge/novel typing.
-  * E-values thresholded AS REPORTED by usearch at this run's search space (no
+  * E-values thresholded AS REPORTED by the aligner at this run's search space (no
     down-scaling to the paper's 213-seq space; decision 2). --scale 1.0 = identity.
   * HSP selection: best HSP per unordered pair by MAX BITS (ties -> lower e-value),
-    over both FASTA orientations (adopted v3 s7 convention; accepted B4 cost).
+    over every pair file present (adopted v3 s7 convention; accepted B4 cost). That
+    is one DIAMOND file, which already holds both directions of each pair, or the
+    two usearch orientation files, whose asymmetry is what the reduction repairs.
   * Canonical labels/IDs resolve on the PL identifier when present, else fall back
     to accession, enzyme name, node id. The 213-node Step-0 roster has no PL
     identifiers, so it labels by accession -- the component/edge COUNTS are label-
@@ -32,6 +34,13 @@ import config  # noqa: E402
 
 ID_MIN = config.ID_MIN
 EVALUE_MAX = config.EVALUE_MAX
+
+# What produced the pair files, recorded in stats_*.json so a partition can always be
+# traced back to its aligner (the edge sets differ slightly between the two).
+ALIGNER_PROVENANCE = {
+    "diamond": "diamond blastp all-vs-all, " + " ".join(config.DIAMOND_FLAGS),
+    "usearch": f"usearch {config.USEARCH_VERSION} -allpairs_local -acceptall, both orientations",
+}
 
 
 def pl_num(ident):
@@ -85,10 +94,18 @@ def components(node_ids, edges):
 def load_pairs(paths, scale=1.0):
     """Best HSP per unordered pair by max bits (ties -> lower e), then the dual
     threshold. `scale` multiplies e-values to renormalize the search space (1.0 =
-    threshold the e-value as reported at this run's db)."""
+    threshold the e-value as reported at this run's db).
+
+    A path that does not exist is skipped: the reversed-orientation file is a usearch
+    device (-allpairs_local is asymmetric in query/target), and DIAMOND reports both
+    directions of every pair inside its single all-vs-all run, so it writes only
+    `_pairs.tsv`. The max-bits reduction below is what makes either input symmetric.
+    """
     best = {}
     total = 0
     for path in paths:
+        if not Path(path).exists():
+            continue
         for line in Path(path).open():
             f = line.rstrip("\n").split("\t")
             if len(f) < 5:
@@ -111,7 +128,10 @@ def load_pairs(paths, scale=1.0):
 def partition(prefix, scale=1.0):
     nodes = {r["node_id"]: r for r in
              csv.DictReader(Path(f"{prefix}_nodes.tsv").open(), delimiter="\t")}
-    pair_files = [f"{prefix}_pairs.tsv", f"{prefix}_rev_pairs.tsv"]
+    pair_files = [p for p in (f"{prefix}_pairs.tsv", f"{prefix}_rev_pairs.tsv")
+                  if Path(p).exists()]
+    if not pair_files:
+        sys.exit(f"error: no alignment output at {prefix}_pairs.tsv (run step2_align.py first)")
     edges, n_raw, n_pairs = load_pairs(pair_files, scale=scale)
     edge_list = [(q, t, *v) for (q, t), v in sorted(edges.items())]
 
@@ -124,7 +144,8 @@ def partition(prefix, scale=1.0):
     for rank, c in enumerate(comps, start=1):
         c["component_id"] = f"C{rank:03d}"
         c["canonical_label"] = node_label(nodes[c["canon"]])
-    return nodes, edge_list, comps, {"raw_alignments": n_raw, "aligned_pairs": n_pairs}
+    return nodes, edge_list, comps, {"raw_alignments": n_raw, "aligned_pairs": n_pairs,
+                                     "pair_files": [Path(p).name for p in pair_files]}
 
 
 def main():
@@ -135,6 +156,8 @@ def main():
     ap.add_argument("--tag", default=config.TAG)
     ap.add_argument("--scale", type=float, default=config.EVALUE_SCALE,
                     help="e-value renorm multiplier (1.0: threshold at the run db)")
+    ap.add_argument("--engine", default=config.ALIGNER, choices=["diamond", "usearch"],
+                    help="aligner that produced the pair files; recorded in stats only")
     args = ap.parse_args()
 
     nodes, edge_list, comps, frag = partition(args.prefix, scale=args.scale)
@@ -205,7 +228,9 @@ def main():
         "tag": args.tag, "date": args.date, "prefix": str(args.prefix),
         "partition_mode": "flat de novo (no v1 anchor)",
         "evalue_scale": args.scale, "db_letters_N": N,
-        "usearch": f"{config.USEARCH_VERSION} -allpairs_local -acceptall, both orientations",
+        "aligner": args.engine,
+        "aligner_command": ALIGNER_PROVENANCE.get(args.engine, args.engine),
+        "pair_files": frag["pair_files"],
         "docker_platform": config.DOCKER_PLATFORM,
         "edge_criterion": f"pct_id>={ID_MIN} AND evalue<{EVALUE_MAX:g} @ {N}-residue db",
         "n_nodes": len(nodes),
