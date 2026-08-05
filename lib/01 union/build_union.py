@@ -8,19 +8,29 @@ unmatched v1.1 rows are appended.
 
 Sequence rule
 -------------
-Sequences are always the ones retrieved from accession, never carried over from
-v1.1 -- EXCEPT for the manual-assignment rows selected by is_manual(), whose
-aa_sequence was set by hand in the v1 cleaning step and must survive.
+The sequence retrieved from the accession wins wherever retrieval is possible.
+The v1.1 table encodes that policy in its own data: it carries an aa_sequence
+only on rows Stage 2 could never fill -- those whose `retrieved` is blank, or is
+a placeholder rather than a database accession. So the rule here is just:
 
   v260701-only  -> v260701 aa_sequence, per --v2-seq (below)
-  both (merged) -> same, unless manually assigned -> v1.1's
-  v1.1-only     -> BLANK, for fetch_sequences.py (Stage 2) to fill from
-                   accession, unless manually assigned -> v1.1's
+  both (merged) -> same
+  v1.1-only     -> v1.1's aa_sequence if it has one, else BLANK for
+                   fetch_sequences.py (Stage 2) to fill from the accession
 
-Leaving v1.1-only sequences blank here is deliberate: it is what hands those
-rows to the Stage 2 accession lookup. Do not "helpfully" carry v1.1's sequence
-forward, or Stage 2 becomes a no-op and the never-carried-over rule is silently
-violated.
+The `both` case cannot collide with a carried sequence: `retrieved` is the join
+key, and a v1.1 row that carries a sequence has none, so it can never merge. A
+merged row that does carry one means the input table has broken that invariant,
+so it is reported rather than silently dropped.
+
+This was previously a name test -- is_manual(): `Enzyme <n>` (Erickson 2022) plus
+jmPE13 -- which kept v1.1's hand-curated sequence even for rows with a working
+accession. It was dropped because the name was never a sound proxy for
+provenance: the `Enzyme <n>` numbering is not Erickson-exclusive (cf.
+`CtPL; Enzyme 504`, Avilan 2023), and only some Erickson enzymes are absent from
+NCBI -- the ones that are present are better taken from their accession. Curate
+the input table instead: blank a sequence to have it fetched, keep one to
+protect it.
 
 --v2-seq picks what the v260701 aa_sequence column means:
 
@@ -32,6 +42,12 @@ violated.
                   retrieve from. Keep it on accession-less rows; blank it
                   everywhere else so Stage 2 fetches from the accession.
                   Correct for cleaned_pazy-260701-singletons.tsv.
+
+A blanked sequence is not discarded: it is written to v2_attached_sequences.tsv
+beside the union, and Stage 2 restores it for any accession the databases cannot
+resolve. That keeps "retrieved from accession wins" true wherever retrieval is
+actually possible, without silently dropping a sequence curated by hand from a
+paper for an accession that nothing serves (e.g. MGYP000321434903).
 
 "Accession-less" means blank after norm_accession(), so a placeholder accession
 that is dropped from the output (PLACEHOLDER_ACCESSIONS) also keeps its attached
@@ -52,16 +68,18 @@ Usage
   python3 build_union.py <v1.1.tsv> <v260701.tsv> [-o out.tsv] [--v2-seq MODE]
 
 e.g.
-  python3 "lib/01 union/build_union.py" source-data/plasticome.v1.1/plasticome.v1.1.tsv \\
+  python3 "lib/01 union/build_union.py" source-data/plasticome.v1.1/plasticome.v1.1.no-seq.tsv \\
       source-data/plasticome.v260701/cleaned_pazy-260701-singletons.tsv \\
       --v2-seq from-accession -o runs/<run>/01-union.tsv
 """
 import argparse
 import csv
+import os
 from collections import Counter
 
 OUT_COLS = ["plasticome_id", "enzyme_name", "accession", "pazy_id", "aa_sequence", "source"]
 DEFAULT_OUT = "plasticome_v1.v260701-union.tsv"
+ATTACHED_SIDECAR = "v2_attached_sequences.tsv"
 
 SRC_V1 = "v1.1"
 SRC_V2 = "v260701"
@@ -71,24 +89,6 @@ SRC_BOTH = "both"
 # no database record at all (sequence curated from the paper supplement), so its
 # name was parked in `retrieved` as a placeholder.
 PLACEHOLDER_ACCESSIONS = {"jmPE13"}
-
-
-def is_manual(enzyme_name):
-    """True for rows whose aa_sequence was assigned by hand during v1 cleaning.
-
-    Two groups, per the v1.1 cleaning step:
-      - the Erickson primary/only enzymes, named `Enzyme <n>` / `Enzyme <n> like`,
-        whose sequences were set to Erickson supplementary table D1 verbatim
-        (they differ from the database record by signal sequence and/or His-tag,
-        or are outright divergent);
-      - jmPE13, carried forward from its paper supplement.
-
-    Rows where Erickson is a *secondary* reference keep their primary name
-    (`Est1; Enzyme 708`, `MtCut; Enzyme 606`, `RgCut-II`) and are NOT manual --
-    hence the startswith test rather than a substring match.
-    """
-    n = (enzyme_name or "").strip()
-    return n.startswith("Enzyme ") or n == "jmPE13"
 
 
 def norm(x):
@@ -166,7 +166,8 @@ def main():
 
     consumed = set()  # id() of v1 rows folded into a v260701 row
     out = []
-    kept_manual = []  # merged rows where the manual v1.1 sequence beat v260701's
+    merged_with_seq = []  # v1.1 rows that merged yet carry a sequence -- see docstring
+    attached = []         # (accession, enzyme_name, seq) blanked under from-accession
 
     # 1. Emit every v260701 row (base table).
     for idx, r in enumerate(v2_rows):
@@ -174,28 +175,27 @@ def main():
         out_acc = norm_accession(col(v2_header, r, "accession"))
         seq = col(v2_header, r, "aa_sequence", occurrence=0).strip()
         # Under from-accession the column is the PAZy-attached sequence: it stands
-        # only where there is no accession for Stage 2 to retrieve from.
+        # only where there is no accession for Stage 2 to retrieve from. What is
+        # blanked here is handed to Stage 2 as a fallback, not thrown away.
         if args.v2_seq == "from-accession" and out_acc:
+            if seq:
+                attached.append((out_acc, col(v2_header, r, "enzyme_name"), seq))
             seq = ""
         source = SRC_V2
         component = ""
-        manual = False
         if a and a in v1_by_ret:
             source = SRC_BOTH
             for cand in v1_by_ret[a]:
                 if id(cand) not in consumed:
                     consumed.add(id(cand))
                     component = col(v1_header, cand, "component")
-                    v1_name = col(v1_header, cand, "enzyme_name")
+                    # A merged v1.1 row should never carry a sequence: it merged,
+                    # so it has an accession, so Stage 2 can fetch it. Report the
+                    # breach instead of dropping the sequence without a word.
                     v1_seq = col(v1_header, cand, "aa_sequence").strip()
-                    # Manual assignments outrank the database sequence.
-                    if is_manual(v1_name) and v1_seq:
-                        # Only an actual v260701 sequence can be "overridden"; a
-                        # blank one under --v2-seq from-accession is not a clash.
-                        if seq.strip() and v1_seq != seq.strip():
-                            kept_manual.append((v1_name, a, len(v1_seq), len(seq.strip())))
-                        seq = v1_seq
-                        manual = True
+                    if v1_seq:
+                        merged_with_seq.append(
+                            (col(v1_header, cand, "enzyme_name"), a, len(v1_seq)))
                     break
             # else: accession present in v1 but its row was already consumed by an
             # earlier duplicate v260701 accession -- still `both`, no component.
@@ -206,29 +206,24 @@ def main():
             "aa_sequence": seq,
             "source": source,
             "_component": component,
-            "_manual": manual,
             "_idx": idx,
         })
 
     # 2. Append unmatched v1.1 rows.
     #    accession = `retrieved` only (may be blank); pazy_id blank.
-    #    aa_sequence is left BLANK for Stage 2 to fill from the accession, except
-    #    for manual assignments -- which includes every accession-less Erickson
-    #    row, for which v1.1 is the only possible source.
+    #    aa_sequence is taken as given: v1.1 carries one only where Stage 2 could
+    #    not fetch it (blank or placeholder `retrieved`), and blank everywhere
+    #    else is exactly what hands the row to the Stage 2 accession lookup.
     for idx, r in enumerate(v1_rows):
         if id(r) in consumed:
             continue
-        name = col(v1_header, r, "enzyme_name")
-        manual = is_manual(name)
-        seq = col(v1_header, r, "aa_sequence").strip() if manual else ""
         out.append({
-            "enzyme_name": name,
+            "enzyme_name": col(v1_header, r, "enzyme_name"),
             "accession": norm_accession(col(v1_header, r, "retrieved")),
             "pazy_id": "",
-            "aa_sequence": seq,
+            "aa_sequence": col(v1_header, r, "aa_sequence").strip(),
             "source": SRC_V1,
             "_component": col(v1_header, r, "component"),
-            "_manual": manual,
             "_idx": len(v2_rows) + idx,
         })
 
@@ -242,6 +237,14 @@ def main():
         w.writeheader()
         w.writerows(out)
 
+    # Sequences blanked above, for Stage 2 to fall back on. Written even when
+    # empty so a stale sidecar from a previous build can never be picked up.
+    side = os.path.join(os.path.dirname(os.path.abspath(args.out)), ATTACHED_SIDECAR)
+    with open(side, "w", newline="") as f:
+        w = csv.writer(f, delimiter="\t")
+        w.writerow(["accession", "enzyme_name", "aa_sequence"])
+        w.writerows(attached)
+
     print(f"wrote   : {args.out}")
     print(f"v2 seq  : {args.v2_seq}")
     counts = Counter(row["source"] for row in out)
@@ -250,13 +253,19 @@ def main():
     print(f"{SRC_V1:<8}: {counts[SRC_V1]}")
     print(f"total   : {len(out)}")
 
-    manual_rows = [r for r in out if r["_manual"]]
-    print(f"\nmanual-assignment rows (v1.1 sequence kept): {len(manual_rows)} "
-          f"({sum(1 for r in manual_rows if r['aa_sequence'])} with a sequence)")
-    if kept_manual:
-        print(f"merged rows where the manual v1.1 sequence overrode v260701's: {len(kept_manual)}")
-        for name, acc, l1, l2 in kept_manual:
-            print(f"  {name:<20} {acc:<18} v1.1 len={l1:<5} (v260701 len={l2})")
+    carried = [r for r in out if r["source"] == SRC_V1 and r["aa_sequence"].strip()]
+    print(f"\nv1.1 sequences carried through (rows Stage 2 cannot fetch): {len(carried)}")
+    if merged_with_seq:
+        print(f"WARNING: {len(merged_with_seq)} merged v1.1 row(s) carry a sequence, which is "
+              f"dropped in favour of the accession -- v1.1 should not hold one here:")
+        for name, acc, n in merged_with_seq:
+            print(f"  {name:<20} {acc:<18} v1.1 len={n}")
+
+    if attached:
+        print(f"\nv260701 attached sequences held for Stage 2 fallback: {len(attached)} "
+              f"-> {os.path.basename(side)}")
+        for acc, name, seq in attached:
+            print(f"    {name:<20} {acc:<18} len={len(seq)}")
 
     blank = [r for r in out if not r["aa_sequence"].strip()]
     no_acc = [r for r in blank if not r["accession"].strip()]

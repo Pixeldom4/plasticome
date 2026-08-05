@@ -21,10 +21,16 @@ Accession shapes that need more than a plain protein efetch:
 The NCBI pass runs twice because a chunk occasionally comes back short a record
 or two without raising -- the second pass asks only for what is still missing.
 
-Stage 2 of the union build: build_union.py deliberately leaves every non-manual
-v1.1-only row blank so this script fills it from the accession. Rows that already
-have a sequence are never touched, so manual assignments and v260701's retrieved
-sequences pass through untouched. Idempotent.
+Last of all comes v2_attached_sequences.tsv, the sequences build_union.py blanked
+under --v2-seq from-accession. It is a fallback, never a first choice: it fills
+only accessions no database served, which is how a sequence curated by hand from
+a paper survives a rule that otherwise says the accession wins.
+
+Stage 2 of the union build: build_union.py leaves a v1.1-only row's aa_sequence
+blank whenever v1.1 has none, which is every row with a real accession, so this
+script fills it from that accession. Rows that already have a sequence are never
+touched -- the v1.1 sequences carried through (rows with no accession to fetch
+by) and v260701's retrieved sequences pass through untouched. Idempotent.
 
 Usage
 -----
@@ -35,6 +41,7 @@ fetched_sequences.json next to the union table."""
 import argparse, csv, os, re, sys, time, json, urllib.request, urllib.parse
 
 DEFAULT_UNION = "plasticome_v1.v260701-union.tsv"
+ATTACHED_SIDECAR = "v2_attached_sequences.tsv"
 EMAIL = "pixeldom04@gmail.com"
 KEY = os.environ.get("NCBI_API_KEY", "")
 
@@ -215,6 +222,16 @@ def main():
     targets = sorted({r[acci].strip() for r in d if not r[ai].strip() and r[acci].strip()})
     print(f"targets (missing seq, has accession): {len(targets)}")
 
+    attached = {}  # accession -> sequence build_union.py blanked, as a last resort
+    side = os.path.join(os.path.dirname(os.path.abspath(union)), ATTACHED_SIDECAR)
+    if os.path.exists(side):
+        with open(side, newline="") as f:
+            for r in csv.DictReader(f, delimiter="\t"):
+                s = (r.get("aa_sequence") or "").strip()
+                if r.get("accession", "").strip() and s:
+                    attached[r["accession"].strip()] = s
+        print(f"attached sequences available as fallback: {len(attached)}")
+
     seqs = {}
     src = {}  # accession -> the stage that resolved it, for the provenance file
 
@@ -249,6 +266,8 @@ def main():
     one_by_one("nuccore CDS", ncbi_nuccore_cds)
     one_by_one("MGnify", mgnify_one)
     one_by_one("UniParc", uniparc_one)
+    # 7) whatever build_union.py blanked, for accessions nothing else served.
+    record("v260701 attached", {a: attached.get(a) for a in targets if a not in seqs})
 
     missing = [a for a in targets if a not in seqs]
     print(f"  still unresolved: {len(missing)} -> {missing}")

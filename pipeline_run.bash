@@ -58,7 +58,7 @@ cd "$REPO"
 PY="${PY:-/opt/homebrew/Caskroom/miniconda/base/envs/plasticome/bin/python}"
 [ -x "$PY" ] || PY="$(command -v python3 || true)"
 
-V1="$REPO/source-data/plasticome.v1.1/plasticome.v1.1.tsv"
+V1="$REPO/source-data/plasticome.v1.1/plasticome.v1.1.no-seq.tsv"
 V2="$REPO/source-data/plasticome.v260701/cleaned_pazy-260701-singletons.tsv"
 SEEDS="$REPO/source-data/plasticome-curated-seeds/plasticome-curated-seeds.tsv"
 
