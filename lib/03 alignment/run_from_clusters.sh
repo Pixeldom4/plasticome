@@ -16,6 +16,14 @@
 #
 # Usage:
 #   ./run_from_clusters.sh "<clusters.tsv>" ["<outdir>"]
+#   ./run_from_clusters.sh "<union.tsv>"    ["<outdir>"]
+#
+# The UNION table (step 1's "01-union.tsv") is accepted in place of the clusters
+# table, which is the align-BEFORE-cluster arrangement: every union row becomes a
+# node and clustering never runs. The shape is detected from the header by
+# scripts/clusters_to_tsv.py and scripts/annotate_clusters.py; the aligner, the
+# filter and the partition are identical either way, so the two runs are directly
+# comparable. With a union input, UNION defaults to that same file.
 #
 # The run deliverable is "<dir of clusters.tsv>/03 alignment.tsv" -- the input
 # table with one column added, `component_id` -- and every intermediate lands in
@@ -85,7 +93,13 @@ case "$CLUSTERS" in "$REPO"/*) ;; *) echo "clusters TSV must be under $REPO" >&2
 case "$OUT"      in "$REPO"/*) ;; *) echo "outdir must be under $REPO" >&2; exit 1;; esac
 mkdir -p "$OUT"
 
-echo "== Step A: clusters TSV -> curated node shape =="
+# A union input IS the sequence source the v1 overlay wants to key on, so it
+# supplies its own --v1-seqs unless the caller named another one.
+if [ -z "${UNION:-}" ] && head -1 "$CLUSTERS" | grep -q $'^plasticome_id\t'; then
+  UNION="$CLUSTERS"
+fi
+
+echo "== Step A: input TSV -> curated node shape =="
 "$PY" scripts/clusters_to_tsv.py --clusters "$CLUSTERS" --out "$OUT/nodes_input.tsv" \
       --id-mode "$ID_MODE"
 
@@ -100,7 +114,7 @@ echo "== Step 3: filter + single-linkage partition =="
 "$PY" scripts/step23_graph.py --prefix "$OUT/combined" --outdir "$OUT" --tag "$TAG" \
       --date "$DATE" --engine "$ENGINE"
 
-echo "== Step 4: join components back onto every cluster =="
+echo "== Step 4: join components back onto every input row =="
 "$PY" scripts/annotate_clusters.py --clusters "$CLUSTERS" \
       --assignment "$OUT/component_assignment_${TAG}_${DATE}.csv" \
       --out "$OUT/clusters_components_${DATE}.tsv" \

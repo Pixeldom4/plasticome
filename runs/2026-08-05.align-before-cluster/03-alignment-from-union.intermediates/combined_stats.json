@@ -1,0 +1,21 @@
+{
+  "input_tsv": "/Users/Pixel/Documents/projects/plasticome/runs/2026-08-05.align-before-cluster/03-alignment-from-union.intermediates/nodes_input.tsv",
+  "input_md5": "100de3b6ae758e6737ecab1c3ecc415b",
+  "v1_overlay_csv": "/Users/Pixel/Documents/projects/plasticome/source-data/plasticome.v1.1/plasticome.v1.1.no-seq.tsv",
+  "n_rows": 610,
+  "n_blank_seq_dropped": 0,
+  "n_rows_with_seq": 610,
+  "n_nodes": 494,
+  "n_md5_collapsed_rows": 116,
+  "n_multi_row_nodes": 109,
+  "n_unique_md5": 494,
+  "db_letters": 172577,
+  "len_min": 28,
+  "len_median": 314,
+  "len_max": 734,
+  "n_lt_200aa": 6,
+  "n_lt_100aa": 1,
+  "n_with_v1_overlay": 204,
+  "n_v1_overlay_by_md5": 204,
+  "n_v1_overlay_by_accession": 0
+}

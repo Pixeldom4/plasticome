@@ -1,0 +1,42 @@
+{
+  "tag": "union",
+  "date": "2026-08-05",
+  "prefix": "/Users/Pixel/Documents/projects/plasticome/runs/2026-08-05.align-before-cluster/03-alignment-from-union.intermediates/combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 172577,
+  "aligner": "diamond",
+  "aligner_command": "diamond blastp all-vs-all, --ultra-sensitive --max-target-seqs 0 --evalue 10 --masking 0 --comp-based-stats 0",
+  "pair_files": [
+    "combined_pairs.tsv"
+  ],
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 172577-residue db",
+  "n_nodes": 494,
+  "raw_alignments": 89674,
+  "aligned_pairs": 45149,
+  "edges_passing": 35220,
+  "n_components": 47,
+  "n_singletons": 24,
+  "largest_component": 292,
+  "top10_component_sizes": [
+    292,
+    48,
+    25,
+    18,
+    15,
+    11,
+    8,
+    7,
+    5,
+    5
+  ],
+  "n_nodes_with_v1_overlay": 204,
+  "n_v1_labels_split_across_components": 1,
+  "v1_labels_split": {
+    "1": [
+      "C001",
+      "C039"
+    ]
+  }
+}

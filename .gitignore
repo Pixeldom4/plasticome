@@ -10,6 +10,9 @@ __pycache__/
 *.log
 *.uc
 
+
+
+
 # third-party binaries and fetch caches — large, reproducible, not source
 bin/usearch11
 bin/usearch12
