@@ -72,7 +72,7 @@ def load_seq_by_accession(path) -> dict:
 
 
 def load_v1_overlay(v1_csv: Path, seq_source=None):
-    """-> (md5 -> (v1_component, cath), accession -> (v1_component, cath)).
+    """-> (md5 -> (v1_component, cath, reference), accession -> same).
 
     Two keys because neither alone is sufficient. The md5 of the sequence is
     exact, but it only works while the v1 table still carries sequences: the
@@ -83,22 +83,29 @@ def load_v1_overlay(v1_csv: Path, seq_source=None):
     md5 is tried first and accession second, so an exact sequence match always
     outranks an accession match on the same node.
 
-    A missing file yields an empty overlay -- v1_component/cath stay blank and
-    nothing else changes, since the partition never reads them. The delimiter
-    follows the extension, so either the v1 CSV or the tab-separated v1.1 table
-    can be supplied.
+    A missing file yields an empty overlay -- v1_component/cath/reference stay
+    blank and nothing else changes, since the partition never reads them. The
+    delimiter follows the extension, so either the v1 CSV or the tab-separated
+    v1.1 table can be supplied.
+
+    `reference` is the v1 table's literature citation, carried purely as
+    annotation. Rows are still admitted on component/cath alone: on the v1.1
+    table every one of the 211 rows with a reference also has a component, so
+    gating on the citation as well would admit no extra row while risking a
+    blank-overlay key shadowing a real hit.
     """
     by_md5, by_acc = {}, {}
     v1_csv = Path(v1_csv)
     if not v1_csv.exists():
-        print(f"[step1] no v1 overlay at {v1_csv} -- v1_component/cath left blank")
+        print(f"[step1] no v1 overlay at {v1_csv} -- v1_component/cath/reference left blank")
         return by_md5, by_acc
     borrowed = load_seq_by_accession(seq_source)
     n_borrowed = 0
     delim = "\t" if v1_csv.suffix.lower() in (".tsv", ".tab") else ","
     for r in csv.DictReader(v1_csv.open(), delimiter=delim):
-        val = (r.get("component", "").strip(), r.get("cath", "").strip())
-        if not any(val):
+        val = (r.get("component", "").strip(), r.get("cath", "").strip(),
+               r.get("reference", "").strip())
+        if not any(val[:2]):
             continue  # nothing to overlay; keying on it would only shadow a real hit
         acc = acc_key(r.get("retrieved", ""))
         seq = normalize(r.get("aa_sequence", ""))
@@ -112,6 +119,46 @@ def load_v1_overlay(v1_csv: Path, seq_source=None):
     print(f"[step1] v1 overlay: {len(by_md5)} md5 keys "
           f"({n_borrowed} from the sequence source), {len(by_acc)} accession keys")
     return by_md5, by_acc
+
+
+def load_doi_overlay(v2_tsv):
+    """-> (pazy_id -> doi, accession -> doi) from the v260701 table.
+
+    The DOI is the v260701 side of the same literature annotation the v1 table
+    spells as `reference`, and it is the better-covered of the two: every one of
+    the 473 rows carries one, against 167 of 413 clusters for the v1 overlay.
+    It is read here rather than through the union because `01-union.tsv` has no
+    doi column, and adding one would mean re-running step 1's NCBI fetches.
+
+    pazy_id is the primary key and accession only the fallback. In the union,
+    pazy_id is populated exactly on the rows that came from v260701 (468 of them,
+    all distinct, blank on every v1.1-only row), so it cannot mis-join a v1.1 row
+    onto a v260701 citation. Accession is looser -- 445 rows share 442 distinct
+    version-stripped values -- so it is consulted only when pazy_id misses.
+
+    A missing file yields an empty overlay and `doi` stays blank, exactly as the
+    v1 overlay behaves; the partition never reads either.
+    """
+    by_pazy, by_acc = {}, {}
+    if v2_tsv is None:
+        return by_pazy, by_acc
+    v2_tsv = Path(v2_tsv)
+    if not v2_tsv.exists():
+        print(f"[step1] no v260701 table at {v2_tsv} -- doi left blank")
+        return by_pazy, by_acc
+    delim = "\t" if v2_tsv.suffix.lower() in (".tsv", ".tab") else ","
+    for r in csv.DictReader(v2_tsv.open(), delimiter=delim):
+        doi = (r.get("doi") or "").strip()
+        if not doi:
+            continue
+        pazy = (r.get("pazy_id") or "").strip()
+        acc = acc_key(r.get("accession", ""))
+        if pazy:
+            by_pazy.setdefault(pazy, doi)
+        if acc:
+            by_acc.setdefault(acc, doi)
+    print(f"[step1] doi overlay: {len(by_pazy)} pazy_id keys, {len(by_acc)} accession keys")
+    return by_pazy, by_acc
 
 
 def uniq_sorted(mem, col, key=None):
@@ -134,12 +181,16 @@ def main() -> None:
     ap.add_argument("--v1-seqs", type=Path, default=None,
                     help="union TSV supplying sequences for v1 rows that carry none, "
                          "so the overlay can still key on sequence md5")
+    ap.add_argument("--v2", type=Path, default=None,
+                    help="v260701 TSV supplying the doi citation, keyed on pazy_id "
+                         "then accession")
     ap.add_argument("--outprefix", type=Path, default=config.OUTPUTS / "combined")
     args = ap.parse_args()
     args.outprefix.parent.mkdir(parents=True, exist_ok=True)
     out = args.outprefix
 
     ov_md5, ov_acc = load_v1_overlay(args.v1, args.v1_seqs)
+    doi_pazy, doi_acc = load_doi_overlay(args.v2)
     rows = list(csv.DictReader(args.tsv.open(), delimiter="\t"))
 
     # collapse to md5-unique nodes, preserving provenance
@@ -162,15 +213,21 @@ def main() -> None:
         orgs = uniq_sorted(mem, "organism")
         pazy = uniq_sorted(mem, "pazy_id")
         # md5 first (exact sequence), then any of the node's accessions
-        v1c, cath = ov_md5.get(h, ("", ""))
+        v1c, cath, ref = ov_md5.get(h, ("", "", ""))
         via = "md5" if (v1c or cath) else ""
         if not via:
             for a in accs:
                 hit = ov_acc.get(acc_key(a))
                 if hit:
-                    v1c, cath = hit
+                    v1c, cath, ref = hit
                     via = "accession"
                     break
+        # A node is md5-unique and can collapse several source rows, so every one
+        # of its pazy_ids is consulted; accessions are the fallback for the rows
+        # v260701 left without a pazy_id.
+        dois = [doi_pazy[p] for p in pazy if p in doi_pazy]
+        if not dois:
+            dois = [doi_acc[k] for k in (acc_key(a) for a in accs) if k in doi_acc]
         nodes[h] = {
             "v1_overlay_via": via,
             "sequence_md5": h, "sequence": seq,
@@ -180,7 +237,8 @@ def main() -> None:
             "organism": orgs[0] if orgs else "",
             "pazy_id": pazy[0] if pazy else "", "pazy_id_all": ";".join(pazy),
             "sequence_length": len(seq), "n_source_rows": len(mem),
-            "v1_component": v1c, "cath": cath,
+            "v1_component": v1c, "cath": cath, "reference": ref,
+            "doi": ";".join(dict.fromkeys(dois)),
         }
 
     # deterministic node ids by md5 order
@@ -194,7 +252,7 @@ def main() -> None:
     cols = ["node_id", "sequence_md5", "identifier", "identifier_all", "accession",
             "accession_all", "enzyme_name", "enzyme_name_all", "organism",
             "pazy_id", "pazy_id_all", "sequence_length", "n_source_rows",
-            "v1_component", "cath", "v1_overlay_via"]
+            "v1_component", "cath", "reference", "doi", "v1_overlay_via"]
     with Path(f"{out}_nodes.tsv").open("w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=cols, delimiter="\t", extrasaction="ignore")
         w.writeheader()

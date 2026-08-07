@@ -45,8 +45,8 @@ orders by length (longest = centroid), `greedy-vertex-cover` by graph degree.
 Inputs
 ------
 UNION_TSV   union table  : enzyme_name, accession, pazy_id, aa_sequence, source
-SEEDS_TSV   curated seeds: plasticome_id, enzyme_name, accession, pazy_id,
-                           justification, aa_sequence
+SEEDS_TSV   curated seeds: enzyme_name, accession, pazy_id, justification,
+                           aa_sequence, and optionally plasticome_id
 Extra columns in either file are ignored.
 
 A curated seed is an ANNOTATION on a union row, not a record of its own: the union row
@@ -110,7 +110,12 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 UNION_COLS = ["enzyme_name", "accession", "pazy_id", "aa_sequence", "source"]
-SEED_COLS = ["plasticome_id", "enzyme_name", "accession", "pazy_id", "aa_sequence"]
+SEED_COLS = ["enzyme_name", "accession", "pazy_id", "aa_sequence"]
+# plasticome_id is provenance, not a join key: seeds match union rows by exact
+# sequence, and the merge below keeps the union's id wherever the seed's is blank.
+# A seed table that omits the column therefore loses nothing, so it is read as
+# optional and defaulted to "" rather than required.
+SEED_OPTIONAL_COLS = ["plasticome_id"]
 
 OUT_COLS = [
     "cluster_id", "size",
@@ -124,12 +129,16 @@ JOIN = "; "
 
 # --------------------------------------------------------------------------- io
 
-def read_table(path: Path, required: list[str], what: str) -> list[dict]:
+def read_table(path: Path, required: list[str], what: str,
+               optional: list[str] = ()) -> list[dict]:
     """Read a TSV into dicts, keeping the FIRST column of any repeated header name.
 
     csv.DictReader keeps the *last*, which silently blanks every row when a sheet
     carries a stray empty duplicate (the v260701 sheet has done exactly that with a
     second `aa_sequence`), so the header is indexed by hand here.
+
+    `optional` columns are read when the header carries them and defaulted to ""
+    when it does not, so callers can index them without a KeyError either way.
     """
     with open(path, newline="") as fh:
         rows = list(csv.reader(fh, delimiter="\t"))
@@ -146,11 +155,14 @@ def read_table(path: Path, required: list[str], what: str) -> list[dict]:
     dup = sorted({c for c, n in Counter(h.strip() for h in header).items() if n > 1})
     if dup:
         print(f"warning: {what} table has duplicate column(s) {dup}; using the first of each")
+    absent = [c for c in optional if c not in idx]
     out = []
     for row in rows[1:]:
         if not any(cell.strip() for cell in row):
             continue
-        out.append({c: (row[i].strip() if i < len(row) else "") for c, i in idx.items()})
+        rec = {c: (row[i].strip() if i < len(row) else "") for c, i in idx.items()}
+        rec.update({c: "" for c in absent})
+        out.append(rec)
     return out
 
 
@@ -476,7 +488,7 @@ def parse_args():
         description="Reference-seeded clustering of a union table; one row per cluster.",
         formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("union", type=Path, help="union TSV (enzyme_name, accession, pazy_id, aa_sequence, source)")
-    p.add_argument("seeds", type=Path, help="curated seed TSV (plasticome_id, enzyme_name, accession, pazy_id, justification, aa_sequence)")
+    p.add_argument("seeds", type=Path, help="curated seed TSV (enzyme_name, accession, pazy_id, justification, aa_sequence; optional plasticome_id)")
     p.add_argument("-o", "--out", type=Path, default=Path("clusters.tsv"), help="output TSV (default: ./clusters.tsv)")
     p.add_argument("--id", type=float, default=0.90, help="identity threshold (default: 0.90)")
     p.add_argument("--engine", choices=["diamond", "usearch"], default="diamond",
@@ -543,7 +555,7 @@ def load_records(args):
     union already holds. `n_union` is the number of union rows with a sequence, which
     is what the universe must come to once nothing is double-counted.
     """
-    seed_rows = read_table(args.seeds, SEED_COLS, "seed")
+    seed_rows = read_table(args.seeds, SEED_COLS, "seed", SEED_OPTIONAL_COLS)
     union_rows = read_table(args.union, UNION_COLS, "union")
 
     seeds, empty_seed = [], 0

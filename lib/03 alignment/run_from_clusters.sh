@@ -43,6 +43,8 @@
 #   V1=...        v1 overlay table      (default: source-data/plasticome.v1.1/plasticome.v1.1.tsv)
 #   UNION=...     union TSV supplying sequences for v1 rows that carry none, so the
 #                 overlay can still key on sequence md5 (optional; see step1_nodes.py)
+#   V2=...        v260701 table supplying the doi citation, keyed on pazy_id then
+#                 accession (optional; a missing file only leaves `doi` blank)
 set -euo pipefail
 # Absolute + physical path; only the parent has to exist. `pwd -P` matters: the
 # paths are later matched against $REPO to build the Docker mount-relative form.
@@ -105,7 +107,7 @@ echo "== Step A: input TSV -> curated node shape =="
 
 echo "== Step 1: md5-unique node set + both-orientation FASTA =="
 "$PY" scripts/step1_nodes.py --tsv "$OUT/nodes_input.tsv" --v1 "$V1" \
-      ${UNION:+--v1-seqs "$UNION"} --outprefix "$OUT/combined"
+      ${UNION:+--v1-seqs "$UNION"} ${V2:+--v2 "$V2"} --outprefix "$OUT/combined"
 
 echo "== Step 2: all-vs-all alignment ($ENGINE) =="
 "$PY" scripts/step2_align.py --prefix "$OUT/combined" --engine "$ENGINE"

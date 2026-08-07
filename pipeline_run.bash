@@ -247,7 +247,9 @@ if want 3 && ! skip 3 "$S3"; then
   # UNION lets the v1 overlay key on sequence md5 even though the v1.1 table is now
   # a .no-seq export: without it the overlay falls back to accession-only matching
   # and annotates far fewer clusters (161 -> 114 on the 08-05 node set).
-  run env PY="$PY" ENGINE="$ENGINE" V1="$V1" UNION="$S1" OUT_TSV="$S3" \
+  # V2 supplies the doi citation for the alignment step's `reference` column; like
+  # the v1 overlay it is annotation only, so a missing file just leaves it blank.
+  run env PY="$PY" ENGINE="$ENGINE" V1="$V1" V2="$V2" UNION="$S1" OUT_TSV="$S3" \
       "$REPO/lib/03 alignment/run_from_clusters.sh" "$S2"
 fi
 

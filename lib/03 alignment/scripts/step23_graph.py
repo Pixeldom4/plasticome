@@ -205,15 +205,27 @@ def main():
         w = csv.writer(fh)
         w.writerow(["component_id", "size_rank", "canonical_label", "n_members",
                     "n_with_v1_overlay", "v1_component_spread", "cath_folds",
-                    "member_identifiers"])
+                    "reference", "member_identifiers"])
         for c in sorted(comps, key=lambda c: c["size_rank"]):
             mem = sorted(c["members"], key=key)
             v1labs = sorted({nodes[n]["v1_component"] for n in mem if nodes[n].get("v1_component")},
                             key=lambda s: int(s))
             cath = sorted({nodes[n]["cath"] for n in mem if nodes[n].get("cath")})
+            # Both citation fields are themselves ";"-separated lists, so the
+            # component's set is the union of the split parts rather than of whole
+            # cells -- otherwise "Bell, 2024" and "Bell, 2024; Branson, 2022" would
+            # both survive and the shared citation would be listed twice.
+            # v1's author-year citations and v260701's DOIs are sorted separately
+            # and then concatenated: they are different notations, and interleaving
+            # them alphabetically would bury one inside the other.
+            def parts(col):
+                return sorted({p.strip() for n in mem
+                               for p in (nodes[n].get(col) or "").split(";")
+                               if p.strip()})
+            refs = parts("reference") + parts("doi")
             w.writerow([c["component_id"], c["size_rank"], c["canonical_label"], len(mem),
                         sum(1 for n in mem if nodes[n].get("v1_component")),
-                        ";".join(v1labs), ";".join(cath),
+                        ";".join(v1labs), ";".join(cath), ";".join(refs),
                         ";".join(node_label(nodes[n]) for n in mem)])
 
     sizes = sorted((len(c["members"]) for c in comps), reverse=True)
