@@ -7,6 +7,7 @@ read either source sheet through flags.
 | Script | Role |
 |---|---|
 | `tsv_to_fasta.py` | Generic engine. Any TSV, any columns. Adds `--dedup`, `--desc-cols`/`--sep`, `--width`. |
+| `clusters_to_fasta.py` | **Pipeline step 4.** Step-03 clusters table to the centroid FASTA (and `--tsv-out` table). PL numbers are the centroids' step-01 union ids, resolved via `rep_plasticome_id`, then the `U####` label, then the accession; it exits 1 rather than number a centroid it cannot join back to `01-union.tsv`. |
 | `tsv_to_fasta_no_nucleotide.py` | **Production.** Same output conventions, but `{accession}` is filtered to protein/stable identifiers — GenBank/RefSeq *nucleotide* accessions are stripped. This is the `plasticome.v1.1` convention. |
 | `validate_accession_order.py` | QC: checks the `;`-separated accession field is ordered protein → cross-ref → PDB. |
 | `fix_accession_order.py` | Applies the hand-verified fixes `validate_accession_order.py` flags. Run it from inside this directory. |

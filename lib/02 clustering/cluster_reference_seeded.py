@@ -74,7 +74,10 @@ One row per 90% cluster, ordered by `cluster_id` ascending:
                         the block at one cluster per seed.)
   size                  members incl. the centroid
   rep_*                 the representative: label, enzyme_name, accession, pazy_id,
-                        plasticome_id (seeds only), source, seq_len
+                        plasticome_id, source, seq_len. `rep_plasticome_id` is the
+                        centroid's union row id, carried through unchanged — step 4
+                        publishes it as the PL identifier, so it is blank only on a
+                        seed-only centroid, which has no union row.
   member_*              the non-centroid members, "; "-joined and index-aligned:
                         labels, enzyme_names, accessions, pct ids to the centroid
   rep_aa_sequence       amino-acid sequence of the representative centroid
@@ -82,8 +85,9 @@ One row per 90% cluster, ordered by `cluster_id` ascending:
 Labels are `U####|accession` (union rows, including the promoted seed centroids) and
 `S###|accession` (only a seed that is absent from the union); the numeric prefix keeps
 them unique when accessions repeat or are blank. A reference cluster is marked by its
-`rep_plasticome_id` / `rep_source=seed` and by its position in the id order, not by the
-letter its label starts with.
+`rep_source=seed` and by its position in the id order, not by the letter its label
+starts with — `rep_plasticome_id` is now set on every union-backed centroid, so it no
+longer distinguishes the two.
 
 Examples
 --------
@@ -113,9 +117,12 @@ UNION_COLS = ["enzyme_name", "accession", "pazy_id", "aa_sequence", "source"]
 SEED_COLS = ["enzyme_name", "accession", "pazy_id", "aa_sequence"]
 # plasticome_id is provenance, not a join key: seeds match union rows by exact
 # sequence, and the merge below keeps the union's id wherever the seed's is blank.
-# A seed table that omits the column therefore loses nothing, so it is read as
-# optional and defaulted to "" rather than required.
+# A table that omits the column therefore loses nothing here, so it is read as
+# optional and defaulted to "" rather than required -- but on the union side it is
+# the row's permanent identity, and step 4 turns it into the published PL id, so it
+# is carried onto every union node instead of being dropped.
 SEED_OPTIONAL_COLS = ["plasticome_id"]
+UNION_OPTIONAL_COLS = ["plasticome_id"]
 
 OUT_COLS = [
     "cluster_id", "size",
@@ -556,7 +563,7 @@ def load_records(args):
     is what the universe must come to once nothing is double-counted.
     """
     seed_rows = read_table(args.seeds, SEED_COLS, "seed", SEED_OPTIONAL_COLS)
-    union_rows = read_table(args.union, UNION_COLS, "union")
+    union_rows = read_table(args.union, UNION_COLS, "union", UNION_OPTIONAL_COLS)
 
     seeds, empty_seed = [], 0
     for i, r in enumerate(seed_rows, 1):
@@ -582,7 +589,12 @@ def load_records(args):
         union.append({
             "label": f"U{i:04d}|{safe(r['accession'])}",
             "enzyme_name": r["enzyme_name"], "accession": r["accession"],
-            "pazy_id": r["pazy_id"], "plasticome_id": "",
+            "pazy_id": r["pazy_id"],
+            # The union row's own id, not a blank: this is what step 4 publishes as
+            # the PL identifier, so a centroid that loses it here gets renumbered
+            # downstream and stops pointing back at its union row. A union table
+            # without the column falls back to row order, which is what U#### is.
+            "plasticome_id": (r.get("plasticome_id") or "").strip() or str(i),
             "source": r["source"], "seq": seq,
         })
     if empty_union:
@@ -605,8 +617,11 @@ def load_records(args):
             continue
         claimed.add(id(promoted))
         # Curated values win; the union row fills whatever the seed leaves blank, so
-        # neither table's annotation is lost in the merge.
-        for col in ("enzyme_name", "accession", "pazy_id", "plasticome_id"):
+        # neither table's annotation is lost in the merge. plasticome_id is excluded:
+        # it is the union row's identity rather than an annotation, and the promoted
+        # row *is* that union row, so a seed table carrying its own (possibly stale)
+        # id must not rename it -- step 4 publishes this value as the PL identifier.
+        for col in ("enzyme_name", "accession", "pazy_id"):
             promoted[col] = s[col] or promoted[col]
         promoted["source"] = "seed"
         refs.append(promoted)

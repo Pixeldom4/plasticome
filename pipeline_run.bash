@@ -9,7 +9,8 @@
 #   ├── 02-clusters.intermediates/              edge graph + seed/closed-ref/de-novo scratch
 #   ├── 03-alignment.tsv           411 rows   + component_id
 #   ├── 03-alignment.intermediates/             all-pairs alignment + graph scratch
-#   ├── 04-<run-name>.fasta        411 records centroid FASTA
+#   ├── 04-<run-name>.fasta        411 records centroid FASTA, PL ids from step 1
+#   ├── 04-<run-name>.tsv          411 rows   the same records as a table
 #   └── summary.md                            counts and provenance for the above
 #
 # Per-step logs (aligner stdout/stderr, phase logs) land in that step's sidecar.
@@ -146,6 +147,9 @@ S1="$(adopt "$RUN_DIR/01-union.tsv"        '01-*.tsv')"
 S2="$(adopt "$RUN_DIR/02-clusters.tsv"     '02-*.tsv')"
 S3="$(adopt "$RUN_DIR/03-alignment.tsv"    '03-*.tsv')"
 S4="$(adopt "$RUN_DIR/04-$RUN_NAME.fasta"  '04-*.fasta')"
+# The step-4 TSV is the same records as the FASTA, one row per record; it is named
+# off whatever the FASTA ended up called so an adopted 04-*.fasta keeps its sibling.
+S4T="${S4%.fasta}.tsv"
 
 # --------------------------------------------------------------- preflight ---
 want() { [ "$1" -ge "$FROM" ] && [ "$1" -le "$TO" ]; }
@@ -254,8 +258,13 @@ if want 3 && ! skip 3 "$S3"; then
 fi
 
 if want 4 && ! skip 4 "$S4"; then
-  banner 4 "centroid FASTA"
-  run "$PY" "$REPO/lib/fasta/clusters_to_fasta.py" "$S3" -o "$S4"
+  banner 4 "centroid FASTA + TSV"
+  # UNION is what the PL identifiers come from: each centroid keeps its step-1 union
+  # id rather than being renumbered 1..N over the 411 centroids, so the FASTA joins
+  # back to 01-union.tsv on the identifier. Naming it explicitly rather than relying
+  # on the beside-the-input default keeps an adopted/renamed step-1 file working.
+  run "$PY" "$REPO/lib/fasta/clusters_to_fasta.py" "$S3" -o "$S4" \
+      --union "$S1" --tsv-out "$S4T"
 fi
 
 # ------------------------------------------------------------------ summary --
