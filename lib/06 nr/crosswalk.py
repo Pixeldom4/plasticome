@@ -85,9 +85,11 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "common"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "03 alignment" / "scripts"))
 try:
+    from build_nr import write_fasta  # noqa: E402
     from membership import membership  # noqa: E402
     from step1_nodes import normalize  # noqa: E402
 except ImportError as exc:  # pragma: no cover
@@ -269,6 +271,13 @@ def main() -> int:
     ap.add_argument("--intermediates", type=Path, default=None,
                     help="sidecar directory for crosswalk.json "
                          "(default: 06-nr.intermediates beside the input)")
+    ap.add_argument("--fasta", type=Path, default=None,
+                    help="06-nr.fasta to re-emit with the component filled into header "
+                         "field 5 (default: the .fasta beside the input)")
+    ap.add_argument("--no-fasta", action="store_true",
+                    help="leave 06-nr.fasta as build_nr.py wrote it, field 5 empty")
+    ap.add_argument("--width", type=int, default=0,
+                    help="FASTA line-wrap width; 0 = one line per record (default: 0)")
     ap.add_argument("--prefix", default="PL",
                     help="identifier prefix for centroid_identifier (default: PL)")
     args = ap.parse_args()
@@ -319,6 +328,22 @@ def main() -> int:
     inter.mkdir(parents=True, exist_ok=True)
     write_provenance(inter / "crosswalk.json", rows, args.nr, b_path.name,
                      engine, identity, has_comps)
+
+    # Field 5 of the FASTA header is the component, which is a branch-B fact and so
+    # unknown to build_nr.py. It writes the file with field 5 empty; this fills it.
+    # The file therefore has two byte-states under one name -- see --no-fasta.
+    fasta = args.fasta or args.nr.with_suffix(".fasta")
+    if not args.no_fasta and has_comps and fasta.exists():
+        # rep_pazy_id is header field 4 and deliberately not a column of
+        # 06-nr.tsv, so it is re-derived from the union rather than read back.
+        pazy = {(r.get("plasticome_id") or "").strip(): (r.get("pazy_id") or "").strip()
+                for r in union}
+        groups = read_tsv(args.nr)
+        for g in groups:
+            g["rep_pazy_id"] = pazy.get(g["rep_plasticome_id"], "")
+        comps = {r["seq_md5"]: r["component_id"] for r in rows}
+        n = write_fasta(fasta, groups, args.width, comps)
+        print(f"{fasta}: field 5 filled on {n} of {len(groups)} records", file=sys.stderr)
 
     n_cent = sum(1 for r in rows if r["is_centroid"] == "yes")
     print(f"{out}: {len(rows)} sequences -> {len({r['cluster_id'] for r in rows})} clusters"

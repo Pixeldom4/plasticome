@@ -67,7 +67,7 @@ that does not produce 493 rows means the union or `normalize()` changed.
 Deliverables (beside the input, unless overridden)
 --------------------------------------------------
   06-nr.tsv                             one row per distinct sequence
-  06-nr.fasta                           `>seq_md5`, normalized sequence
+  06-nr.fasta                           5-field pipe header, normalized sequence
   06-nr.intermediates/provenance.json   input md5, normalize() hash, counts
 
 Example
@@ -161,14 +161,18 @@ def check(rows: list[dict], path: Path) -> None:
             + "\n       the id is the join key for every downstream set; it has to be unique."
         )
 
+    # `;` separates accessions inside a field; `|` separates the fields. Either one
+    # inside an accession corrupts the header, so both are fatal.
     bad = [f"{(r.get('plasticome_id') or '?')} ({(r.get('accession') or '').strip()})"
-           for r in rows if DELIM in (r.get("accession") or "")]
+           for r in rows
+           if DELIM in (r.get("accession") or "") or "|" in (r.get("accession") or "")]
     if bad:
         raise SystemExit(
-            f"error: {len(bad)} accession(s) contain the '{DELIM}' list delimiter: "
+            f"error: {len(bad)} accession(s) contain '{DELIM}' or '|', which separate "
+            f"accessions and header fields respectively: "
             + ", ".join(bad[:10]) + (" ..." if len(bad) > 10 else "")
-            + f"\n       '{DELIM}' separates accessions in every downstream rendering; an "
-              "accession carrying one is a hard error rather than something to escape."
+            + "\n       an accession carrying either is a hard error rather than "
+              "something to escape."
         )
 
 
@@ -187,6 +191,10 @@ def group(rows: list[dict]) -> list[dict]:
         ids = [(m.get("plasticome_id") or "").strip() for m in members]
         accs = [(m.get("accession") or "").strip() for m in members]
         out.append({
+            # Header field 4. Deliberately not a TSV column: it is the union's
+            # own value for the representative row, one join away on
+            # rep_plasticome_id, so storing it here would be a second copy.
+            "rep_pazy_id": (rep.get("pazy_id") or "").strip(),
             "seq_md5": md5,
             "rep_plasticome_id": ids[0],
             "rep_accession": accs[0],
@@ -202,28 +210,65 @@ def group(rows: list[dict]) -> list[dict]:
 
 def write_tsv(path: Path, groups: list[dict]) -> None:
     with path.open("w", newline="") as fh:
-        w = csv.DictWriter(fh, COLS, delimiter="\t", lineterminator="\n")
+        # extrasaction: groups carry rep_pazy_id for the FASTA header, which is
+        # not a column of this file.
+        w = csv.DictWriter(fh, COLS, delimiter="\t", lineterminator="\n",
+                           extrasaction="ignore")
         w.writeheader()
         w.writerows(groups)
 
 
-def write_fasta(path: Path, groups: list[dict], width: int) -> None:
-    """Headed on `seq_md5` alone.
+def alternates_of(g: dict) -> str:
+    """Header field 3: the accessions of a group's *other* members.
 
-    C is the one set in the pipeline whose row count does not move when the
-    engine does, and the hash is the only handle that is true of it independent
-    of any labelling choice. Everything else about a group is one join away in
-    `06-nr.tsv`, and the TSV stays authoritative.
+    The complement of field 2, so the representative's own accession never
+    repeats in the list. Blanks are dropped and order is preserved, which is
+    ascending `plasticome_id` because that is how the group was sorted. Duplicates
+    are removed: two union rows can carry the same accession at the same version.
     """
+    accs = [a.strip() for a in (g["member_accessions"] or "").split(DELIM)]
+    rep = (g["rep_accession"] or "").strip()
+    out, seen = [], {rep} if rep else set()
+    for a in accs[1:]:
+        if a and a not in seen:
+            seen.add(a)
+            out.append(a)
+    return DELIM.join(out)
+
+
+def header_of(g: dict, component: str = "") -> str:
+    """`PL<n>|accession|alt_accessions|pazy_id|component`, five positional fields.
+
+    Same shape and arity as the step-4 and step-5 headers, so one `split("|")`
+    parser reads all three. Field 5 is a branch-B fact this script cannot know:
+    `build_nr.py` leaves it empty and `crosswalk.py` re-emits the file with it
+    filled once the component partition is on disk. See the module docstring.
+    """
+    return (f"PL{g['rep_plasticome_id']}|{g['rep_accession']}|{alternates_of(g)}"
+            f"|{g.get('rep_pazy_id', '')}|{component}")
+
+
+def write_fasta(path: Path, groups: list[dict], width: int = 0,
+                components: dict | None = None) -> int:
+    """One record per distinct sequence. Returns how many carry a component.
+
+    `components` maps seq_md5 -> component_id; anything absent leaves field 5
+    empty, with both pipes in place so the arity stays five.
+    """
+    components = components or {}
+    n = 0
     with path.open("w") as fh:
         for g in groups:
-            fh.write(f">{g['seq_md5']}\n")
+            comp = components.get(g["seq_md5"], "")
+            n += bool(comp)
+            fh.write(f">{header_of(g, comp)}\n")
             seq = g["aa_sequence"]
             if width > 0:
                 for i in range(0, len(seq), width):
                     fh.write(seq[i:i + width] + "\n")
             else:
                 fh.write(seq + "\n")
+    return n
 
 
 def file_md5(path: Path) -> str:
@@ -302,7 +347,7 @@ def main() -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     inter.mkdir(parents=True, exist_ok=True)
     write_tsv(out, groups)
-    write_fasta(fasta, groups, args.width)
+    n_comp = write_fasta(fasta, groups, args.width)
     prov = provenance(args.union, rows, groups)
     with (inter / "provenance.json").open("w") as fh:
         json.dump(prov, fh, indent=2)
@@ -312,7 +357,8 @@ def main() -> int:
           f"({prov['n_duplicate_groups']} duplicate groups covering "
           f"{prov['n_rows_in_duplicate_groups']} rows, largest {prov['largest_group']})",
           file=sys.stderr)
-    print(f"{fasta}: {len(groups)} records", file=sys.stderr)
+    print(f"{fasta}: {len(groups)} records, {n_comp} with a component "
+          f"(crosswalk.py fills field 5 once branch B is on disk)", file=sys.stderr)
     return 0
 
 

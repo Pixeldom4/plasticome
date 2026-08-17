@@ -97,6 +97,11 @@ Step 4's FASTA header is five positional fields:
 `>identifier|accession|genbank_accessions|pazy_id|component`. Field 3 is currently
 always empty; the pipe is kept so the field count is fixed.
 
+`06-nr.fasta` uses the same five-field shape, so one `split("|")` parser reads
+both, but the two are confusable from a header line alone: `06-nr.fasta` has 493
+records against step 4's 411, and its field 5 is empty until `crosswalk.py` fills
+it from branch B. See `lib/06 nr/README.md`.
+
 ---
 
 ## Conventions

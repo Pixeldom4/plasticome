@@ -264,6 +264,19 @@ def main():
         if union is not None and members != len(union):
             L.append(f"- NOTE: members sum to {members}, not the {len(union)} union rows")
 
+        # 06-nr.fasta has two byte-states under one name: build_nr.py writes field 5
+        # of the header empty, crosswalk.py fills it. Report which one is on disk so
+        # the two are distinguishable without re-reading the file.
+        fa = os.path.join(run_dir, "06-nr.fasta")
+        if os.path.exists(fa):
+            with open(fa) as f:
+                heads = [l[1:].rstrip("\n") for l in f if l.startswith(">")]
+            filled = sum(1 for h in heads if h.count("|") == 4 and h.rsplit("|", 1)[1])
+            L.append(f"- `06-nr.fasta`: {len(heads)} records, "
+                     f"`>identifier|accession|alt_accessions|pazy_id|component`; "
+                     f"component filled on {filled}"
+                     + ("" if filled else " (crosswalk not run)"))
+
         xw = read_tsv(os.path.join(run_dir, "06-nr-to-clusters.tsv"))
         if xw is None:
             L.append("- crosswalk: not built (needs step 2/3 in this run directory)")

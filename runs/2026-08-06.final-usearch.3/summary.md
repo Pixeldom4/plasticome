@@ -59,6 +59,7 @@ Summary written 2026-08-17 by `lib/summary/summarize_run.py`.
 - 493 distinct sequences from 609 union rows — 100% identity by md5 of the normalized sequence
 - 109 duplicate groups covering 225 union rows, largest 5
 - built from `01-union.tsv` (md5 `8959e4ec4d93`), accession versions kept
+- `06-nr.fasta`: 493 records, `>identifier|accession|alt_accessions|pazy_id|component`; component filled on 493
 - crosswalk: 493 sequences over 411 clusters / 46 components; 411 are centroids of branch B, 82 are not
   - built against 03-alignment.tsv, usearch v11.0.667_i86linux64 at 0.9 identity
   - md5 containment held at build time: no identical sequence split across two clusters or components

@@ -57,8 +57,30 @@ trailing `*`, lowercase masking or whitespace, and the join would fail silently.
 - `aa_sequence` is the *normalized* one, so what was hashed and what gets queried
   are the same bytes.
 
-**`06-nr.fasta`** — headed on `seq_md5` alone, the only handle true of a group
-independent of any labelling choice. The handoff artifact for the nr search.
+**`06-nr.fasta`** — five positional fields, the same shape and arity as the step-4
+and step-5 headers, so one `split("|")` parser reads all three:
+
+```
+>PL1|WP_054022242.1|A0A0K8P6T7.1;6QGC_A;6QGC_B|1|C001
+>identifier|accession|alt_accessions|pazy_id|component
+```
+
+Field 3 is the **complement** of field 2, deduplicated: the representative's own
+accession never repeats in the alternates. 99 of 493 records carry alternates.
+
+Field 5 is a branch-B fact, so it has two states. `build_nr.py` writes it empty,
+because it cannot know a component; `crosswalk.py` re-emits the file with it filled
+once the partition is on disk. Arity stays five either way, so `--only 6` in a
+directory holding just `01-union.tsv` still produces a valid file. `summary.md`
+reports how many records carry a component, so the two states are distinguishable
+from disk; `crosswalk.py --no-fasta` keeps the engine-independent form.
+
+`rep_pazy_id` is field 4 and deliberately **not** a TSV column: it is the union's
+value for the representative row, one join away, so storing it would be a second
+copy that could drift.
+
+Note that `06-nr.fasta` and `04-<run>.fasta` are now confusable from a header line
+alone. They differ by record count, 493 against 411.
 
 **`06-nr-to-clusters.tsv`** (optional) —
 `seq_md5, cluster_id, component_id, is_centroid, centroid_identifier, engine`
@@ -85,7 +107,7 @@ All hard failures.
 
 | script | check |
 |---|---|
-| `build_nr.py` | no blank `aa_sequence`; `plasticome_id` unique; no `;` in an accession; `sum(n_members)` equals union rows; optional `--expect N` |
+| `build_nr.py` | no blank `aa_sequence`; `plasticome_id` unique; no `;` or `|` in an accession (they separate accessions and header fields); `sum(n_members)` equals union rows; optional `--expect N` |
 | `crosswalk.py` | labels are a partition of the union; **md5 containment**; centroid md5s distinct; every C row gets a cluster |
 
 **md5 containment** means every group falls inside exactly one cluster and one
@@ -113,8 +135,11 @@ union or `normalize()` changed.
 ## Scope
 
 No network lookup. Alternates come only from other union rows sharing a `seq_md5`,
-so every accession reported is already in `01-union.tsv`. Step 6 is a pure function
-of that file: deterministic, offline, byte-reproducible, sub-second.
+so every accession reported is already in `01-union.tsv`. Step 6 is offline,
+deterministic and sub-second.
+
+`06-nr.tsv` is a pure function of `01-union.tsv`. The FASTA is too, **except for
+header field 5**, which the crosswalk fills from branch B.
 
 The nr search is downstream and out of scope. Its results merge in as a **second
 tranche**, which belongs in a separate step so the offline half stays reproducible.
