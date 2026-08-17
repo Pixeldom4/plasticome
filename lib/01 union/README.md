@@ -15,7 +15,9 @@ is the cleaned form of the older curated table.
 
 ## Output
 
-Six columns, 607 rows; one row per input record (see [Duplicates](#duplicates-are-intentional)).
+Six columns, one row per input record (see [Duplicates](#duplicates-are-intentional)).
+**609 rows** on the current default inputs (the v260701 singletons table); 607 on
+the earlier `cleaned_pazy-260701_retrieving_from_accession.tsv`.
 
 | Column | Value |
 |--------|-------|
