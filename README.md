@@ -44,7 +44,11 @@ directory name, so the pipeline reads top-to-bottom in a directory listing.
 | `lib/01 union/` | 1 | `build_union.py` (v1 ∪ v260701 merge), `fetch_sequences.py` (sequence backfill) |
 | `lib/02 clustering/` | 2 | `cluster_reference_seeded.py` + the `reference-seed-clustering.md` method doc |
 | `lib/03 alignment/` | 3 | all-vs-all component assignment — `config.py`, `run.sh`, `run_from_clusters.sh`, `scripts/`, `PETadex_alignment.ipynb` |
-| `lib/fasta/` | 4 | TSV→FASTA generators and accession-order utilities — see `lib/fasta/README.md` |
+| `lib/04 fasta/` | 4 | TSV→FASTA generators and accession-order utilities — see `lib/04 fasta/README.md` |
+| `lib/05 annotate/` | 5 | `annotate_union.py` — the union at one row per sequence, with its cluster and component |
+| `lib/06 nr/` | 6 | `build_nr.py` (100% non-redundant set) + `crosswalk.py` (the B × C crosswalk) |
+| `lib/common/` | — | `membership.py`, the positional cluster-membership reconstruction steps 5 and 6 share |
+| `lib/summary/` | — | `summarize_run.py`, which rebuilds `summary.md` from whatever is on disk |
 | `lib/00-archived-steps/` | — | retired steps: `accession/` (8-tier validation), `annotation/` (paper fetching), `collapse/` (substring/numbered-enzyme scans) |
 
 Directory names contain spaces, so **every path must be quoted** in the shell. An
@@ -138,7 +142,7 @@ python3 "lib/02 clustering/cluster_reference_seeded.py" \
 OUT_TSV="$RUN/03-alignment.tsv" "lib/03 alignment/run_from_clusters.sh" "$RUN/02-clusters.tsv"
 
 # 4. centroid FASTA
-python3 lib/fasta/clusters_to_fasta.py "$RUN/03-alignment.tsv" \
+python3 "lib/04 fasta/clusters_to_fasta.py" "$RUN/03-alignment.tsv" \
     -o "$RUN/04-plasticome.v1.212.union-spec.fasta"
 ```
 
@@ -335,7 +339,33 @@ report, plus `config.py`, `run.sh` and `collapse/config.yaml`.
 `plasticome.v1.csv`. Two files sharing the basename `tsv_to_fasta.py` were *not*
 duplicates — the PAZy/PL-header-specific one was preserved as
 `tsv_to_fasta_pl_headers.py`, then retired on 2026-07-30 once both input schemas
-were settled (see `lib/fasta/README.md`).
+were settled (see `lib/04 fasta/README.md`).
+
+## Migration record — 2026-08-17
+
+| Was | Is |
+|---|---|
+| `lib/fasta/` | `lib/04 fasta/` |
+
+Every live step directory is now numbered in execution order, so `lib/` reads
+top-to-bottom as the pipeline runs. `lib/fasta/` was the only live step still
+named by what it does rather than when it happens, which put step 4 between
+`03 alignment` and `05 annotate` alphabetically but not visibly.
+
+The new directory name contains a space, like the others, so the examples in
+`lib/04 fasta/README.md` are now quoted. `fix_accession_order.py` still resolves
+its input as a bare filename and so still has to be run from inside that
+directory.
+
+Added `lib/05 annotate/` (step 5, which previously had no code at all -- the
+`05-union-with-components.tsv` on `2026-08-06.final-usearch.2` was built outside
+the repo), `lib/06 nr/` (step 6), and `lib/common/membership.py`, shared by both.
+The driver's step range is now 1-6; the default is still 1-4, so a plain run
+produces exactly what it always did.
+
+Dated migration prose below is left as written. Those entries describe paths as
+they were at the time, and rewriting them would make the record inaccurate rather
+than current.
 
 ## Migration record — 2026-07-30
 

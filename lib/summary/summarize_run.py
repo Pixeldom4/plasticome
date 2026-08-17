@@ -74,6 +74,7 @@ def parse_args():
     p.add_argument("--run-dir", required=True)
     p.add_argument("--s1"); p.add_argument("--s2")
     p.add_argument("--s3"); p.add_argument("--s4")
+    p.add_argument("--s5"); p.add_argument("--s6")
     p.add_argument("--v1"); p.add_argument("--v2"); p.add_argument("--seeds")
     p.add_argument("--v2-seq", default="")
     p.add_argument("--id", default="")
@@ -92,6 +93,8 @@ def main():
     s2 = a.s2 or os.path.join(run_dir, "02-clusters.tsv")
     s3 = a.s3 or os.path.join(run_dir, "03-alignment.tsv")
     s4 = a.s4
+    s5 = a.s5 or os.path.join(run_dir, "05-union-with-components.tsv")
+    s6 = a.s6 or os.path.join(run_dir, "06-nr.tsv")
 
     L = []  # output lines
     L.append(f"# {os.path.basename(run_dir)}")
@@ -117,17 +120,27 @@ def main():
     clusters = read_tsv(s2)
     aligned = read_tsv(s3)
     n_fasta = fasta_count(s4)
+    annot = read_tsv(s5)
+    nr = read_tsv(s6)
 
     L.append("## Deliverables")
     L.append("")
     L.append("| step | file | rows |")
     L.append("| --- | --- | --- |")
-    for n, path, rows in (
+    rows_by_step = [
         (1, s1, len(union) if union is not None else None),
         (2, s2, len(clusters) if clusters is not None else None),
         (3, s3, len(aligned) if aligned is not None else None),
         (4, s4, n_fasta),
-    ):
+    ]
+    # Steps 1-4 are the driver's default range, so an absent one is a partial run and
+    # worth naming. Step 6 is opt-in (`--only 6`), so a run that never asked for it is
+    # not partial; listing it as "not built" would report an absence nobody chose.
+    if annot is not None:
+        rows_by_step.append((5, s5, len(annot)))
+    if nr is not None:
+        rows_by_step.append((6, s6, len(nr)))
+    for n, path, rows in rows_by_step:
         name = f"`{os.path.basename(path)}`" if path else "—"
         L.append(f"| {n} | {name} | {rows if rows is not None else 'not built'} |")
     L.append("")
@@ -207,6 +220,72 @@ def main():
         L.append(f"- {n_fasta} centroid records in `{os.path.basename(s4)}`")
         if clusters is not None and n_fasta != len(clusters):
             L.append(f"- NOTE: record count differs from the {len(clusters)} clusters in step 2")
+        L.append("")
+
+    # -- step 5 ---------------------------------------------------------------
+    # The cluster-level result put back at union-row level. Same partition as step 2,
+    # so the interesting number is the non-centroid count, which steps 2-4 never show.
+    if annot is not None:
+        cent = sum(1 for r in annot if r.get("is_centroid") == "yes")
+        comps = {r.get("component_id") for r in annot if r.get("component_id")}
+        L.append("## 5. Union with components")
+        L.append("")
+        L.append(f"- {len(annot)} rows, one per union sequence — "
+                 f"{cent} centroids, {len(annot) - cent} non-centroid members")
+        L.append(f"- over {len({r.get('cluster_id') for r in annot})} clusters "
+                 f"and {len(comps)} components")
+        if union is not None and len(annot) != len(union):
+            L.append(f"- NOTE: {len(annot)} rows against {len(union)} union rows; "
+                     f"step 5 is meant to be row-aligned with step 1")
+        if clusters is not None and cent != len(clusters):
+            L.append(f"- NOTE: {cent} centroids against {len(clusters)} clusters in step 2")
+        L.append("")
+
+    # -- step 6 ---------------------------------------------------------------
+    # Branch C. Parallel to steps 2-4, not downstream of them, so this section says
+    # nothing about the engine; the crosswalk is where the branch-B provenance lives.
+    if nr is not None:
+        L.append("## 6. Non-redundant set")
+        L.append("")
+        prov = read_json(os.path.join(run_dir, "06-nr.intermediates", "provenance.json"))
+        n_union = (prov or {}).get("n_union_rows") or (len(union) if union else None)
+        L.append(f"- {len(nr)} distinct sequences"
+                 + (f" from {n_union} union rows" if n_union else "")
+                 + " — 100% identity by md5 of the normalized sequence")
+        if prov:
+            L.append(f"- {prov.get('n_duplicate_groups', '?')} duplicate groups covering "
+                     f"{prov.get('n_rows_in_duplicate_groups', '?')} union rows, "
+                     f"largest {prov.get('largest_group', '?')}")
+            L.append(f"- built from `{prov.get('input', '?')}` "
+                     f"(md5 `{str(prov.get('input_md5', ''))[:12]}`), "
+                     f"accession versions {'kept' if prov.get('keeps_accession_versions') else 'stripped'}")
+        # The universe must be conserved: every union row lands in exactly one group.
+        members = sum(int(r["n_members"]) for r in nr if (r.get("n_members") or "").isdigit())
+        if union is not None and members != len(union):
+            L.append(f"- NOTE: members sum to {members}, not the {len(union)} union rows")
+
+        xw = read_tsv(os.path.join(run_dir, "06-nr-to-clusters.tsv"))
+        if xw is None:
+            L.append("- crosswalk: not built (needs step 2/3 in this run directory)")
+        else:
+            # engine is still a column; identity moved to the crosswalk sidecar,
+            # since it is a per-run constant and was 0.9 on every run to date.
+            xwp = read_json(os.path.join(run_dir, "06-nr.intermediates", "crosswalk.json")) or {}
+            eng = next((r.get("engine") for r in xw if r.get("engine")), "") or xwp.get("engine", "")
+            ident = xwp.get("identity", "")
+            cent = sum(1 for r in xw if r.get("is_centroid") == "yes")
+            L.append(f"- crosswalk: {len(xw)} sequences over "
+                     f"{len({r.get('cluster_id') for r in xw})} clusters / "
+                     f"{len({r.get('component_id') for r in xw if r.get('component_id')})} components; "
+                     f"{cent} are centroids of branch B, {len(xw) - cent} are not")
+            if eng or ident or xwp.get("built_against"):
+                L.append(f"  - built against {xwp.get('built_against', 'branch B')}, "
+                         f"{eng or 'unrecorded engine'}"
+                         + (f" at {ident} identity" if ident else ""))
+            # crosswalk.py writes the file only after the containment check passes, so
+            # the file existing IS the result. This is not a check re-run here.
+            L.append("  - md5 containment held at build time: no identical sequence "
+                     "split across two clusters or components")
         L.append("")
 
     with open(out_path, "w") as f:

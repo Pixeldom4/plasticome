@@ -1,0 +1,38 @@
+{
+  "tag": "clusters",
+  "date": "2026-08-17",
+  "prefix": "/Users/Pixel/Documents/projects/plasticome/runs/2026-08-06.final-usearch.3/03-alignment.intermediates/combined",
+  "partition_mode": "flat de novo (no v1 anchor)",
+  "evalue_scale": 1.0,
+  "db_letters_N": 144560,
+  "aligner": "usearch",
+  "aligner_command": "usearch v11.0.667 -allpairs_local -acceptall, both orientations",
+  "pair_files": [
+    "combined_pairs.tsv",
+    "combined_rev_pairs.tsv"
+  ],
+  "docker_platform": "linux/amd64",
+  "edge_criterion": "pct_id>=30.0 AND evalue<1e-05 @ 144560-residue db",
+  "n_nodes": 411,
+  "raw_alignments": 62223,
+  "aligned_pairs": 30588,
+  "edges_passing": 22203,
+  "n_components": 46,
+  "n_singletons": 25,
+  "largest_component": 232,
+  "top10_component_sizes": [
+    232,
+    45,
+    19,
+    16,
+    14,
+    10,
+    5,
+    5,
+    5,
+    5
+  ],
+  "n_nodes_with_v1_overlay": 166,
+  "n_v1_labels_split_across_components": 0,
+  "v1_labels_split": {}
+}

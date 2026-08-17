@@ -53,7 +53,7 @@ numbering, so `--sort id` is available to emit in identifier order instead.
 
 Example
 -------
-  python lib/fasta/clusters_to_fasta.py \\
+  python "lib/04 fasta/clusters_to_fasta.py" \\
       runs/2026-07-30.plasticome.v1.212.union-spec/03-alignment.tsv \\
       -o runs/2026-07-30.plasticome.v1.212.union-spec/04-plasticome.v1.212.union-spec.fasta
 """

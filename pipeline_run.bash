@@ -11,6 +11,11 @@
 #   ├── 03-alignment.intermediates/             all-pairs alignment + graph scratch
 #   ├── 04-<run-name>.fasta        411 records centroid FASTA, PL ids from step 1
 #   ├── 04-<run-name>.tsv          411 rows   the same records as a table
+#   ├── 05-union-with-components.tsv 609 rows the union + cluster/component per row
+#   ├── 06-nr.tsv                  493 rows   100% non-redundant view of the union
+#   ├── 06-nr.fasta                493 records the same, headed on seq_md5
+#   ├── 06-nr-to-clusters.tsv      493 rows   optional B x C crosswalk
+#   ├── 06-nr.intermediates/                  provenance for the above
 #   └── summary.md                            counts and provenance for the above
 #
 # Per-step logs (aligner stdout/stderr, phase logs) land in that step's sidecar.
@@ -22,10 +27,17 @@
 #   ./run_pipeline.sh --run-dir runs/<dir>    # resume / re-run an existing directory
 #   ./run_pipeline.sh <run-name> --from 3     # only steps 3-4
 #
+# Step 6 is the 100% non-redundant set, a parallel branch off step 1 rather than a
+# continuation of steps 2-4: its only input is 01-union.tsv, it is offline and
+# sub-second, and `--only 6` runs in a directory holding nothing but step 1. It is
+# NOT in the default range, so a plain run produces exactly what it always did; ask
+# for it with `--only 6` or `--to 6`. Step 5 is union-level annotation and IS in
+# range 1-6 but not in the default 1-4, for the same reason.
+#
 # Options:
 #   --run-dir DIR     operate on an existing run directory instead of creating one
 #   --from N          first step to run  (default: 1)
-#   --to N            last step to run   (default: 4)
+#   --to N            last step to run   (default: 4, max 6)
 #   --only N          shorthand for --from N --to N
 #   --force           re-run steps whose deliverable already exists
 #   --id PCT          clustering identity threshold (default: 0.90)
@@ -100,7 +112,7 @@ while [ $# -gt 0 ]; do
   esac
 done
 
-case "$FROM$TO" in *[!1-4]*) die "--from/--to must be between 1 and 4" ;; esac
+case "$FROM$TO" in *[!1-6]*) die "--from/--to must be between 1 and 6" ;; esac
 [ "$FROM" -le "$TO" ] || die "--from ($FROM) is after --to ($TO)"
 case "$V2SEQ" in
   as-given|from-accession) ;;
@@ -150,6 +162,12 @@ S4="$(adopt "$RUN_DIR/04-$RUN_NAME.fasta"  '04-*.fasta')"
 # The step-4 TSV is the same records as the FASTA, one row per record; it is named
 # off whatever the FASTA ended up called so an adopted 04-*.fasta keeps its sibling.
 S4T="${S4%.fasta}.tsv"
+S5="$(adopt "$RUN_DIR/05-union-with-components.tsv" '05-*.tsv')"
+# Step 6 is not run through adopt(): it postdates the naming churn adopt() exists to
+# absorb, so no run on disk calls it anything else, and its two TSVs both match
+# '06-*.tsv' anyway. Its name is fixed rather than run-derived because the file is a
+# property of the union, not of this run's engine or identity settings.
+S6="$RUN_DIR/06-nr.tsv"
 
 # --------------------------------------------------------------- preflight ---
 want() { [ "$1" -ge "$FROM" ] && [ "$1" -le "$TO" ]; }
@@ -183,6 +201,9 @@ fi
 # this invocation, it has to already be on disk.
 want 3 && ! want 2 && [ ! -f "$S2" ] && die "step 3 needs $S2 (run --from 2)"
 want 4 && ! want 3 && [ ! -f "$S3" ] && die "step 4 needs $S3 (run --from 3)"
+want 5 && ! want 3 && [ ! -f "$S3" ] && die "step 5 needs $S3 (run --from 3)"
+# Step 6 hangs off step 1, not step 4, so this is the union it needs -- never S3.
+want 6 && ! want 1 && [ ! -f "$S1" ] && die "step 6 needs $S1 (run --from 1)"
 
 [ -n "$DRY" ] || mkdir -p "$RUN_DIR"
 
@@ -263,8 +284,28 @@ if want 4 && ! skip 4 "$S4"; then
   # id rather than being renumbered 1..N over the 411 centroids, so the FASTA joins
   # back to 01-union.tsv on the identifier. Naming it explicitly rather than relying
   # on the beside-the-input default keeps an adopted/renamed step-1 file working.
-  run "$PY" "$REPO/lib/fasta/clusters_to_fasta.py" "$S3" -o "$S4" \
+  run "$PY" "$REPO/lib/04 fasta/clusters_to_fasta.py" "$S3" -o "$S4" \
       --union "$S1" --tsv-out "$S4T"
+fi
+
+if want 5 && ! skip 5 "$S5"; then
+  banner 5 "union annotated with cluster + component — one row per sequence"
+  # Steps 2-4 are cluster-level: 411 rows for 609 sequences, with the 198 non-centroid
+  # rows visible only as labels inside member_labels. Step 5 puts that back at
+  # union-row level. It reads the step-3 table and the union and nothing else.
+  run "$PY" "$REPO/lib/05 annotate/annotate_union.py" "$S3" --union "$S1" -o "$S5"
+fi
+
+if want 6 && ! skip 6 "$S6"; then
+  banner 6 "100% non-redundant set — md5 groupby on the union"
+  # Branch C: the union is the only input. No aligner, no Docker, no network. Do not
+  # pass S2/S3 here -- C's whole value is that its row count does not move with the
+  # engine, and taking a branch-B input would forfeit that.
+  run "$PY" "$REPO/lib/06 nr/build_nr.py" "$S1" -o "$S6"
+  # The crosswalk carries the branch-B facts C deliberately omits. It exits 0 with a
+  # note when steps 2-3 are absent, which is what keeps `--only 6` runnable in a
+  # directory holding nothing but step 1.
+  run "$PY" "$REPO/lib/06 nr/crosswalk.py" "$S6"
 fi
 
 # ------------------------------------------------------------------ summary --
@@ -273,11 +314,11 @@ fi
 # there is nothing to preserve and a stale one would be worse than none.
 printf '\n== summary\n'
 run "$PY" "$REPO/lib/summary/summarize_run.py" --run-dir "$RUN_DIR" \
-    --s1 "$S1" --s2 "$S2" --s3 "$S3" --s4 "$S4" \
+    --s1 "$S1" --s2 "$S2" --s3 "$S3" --s4 "$S4" --s5 "$S5" --s6 "$S6" \
     --v1 "$V1" --v2 "$V2" --v2-seq "$V2SEQ" --seeds "$SEEDS" \
     --id "$ID" --date "$(date +%F)"
 printf '\n   %-38s %8s\n' "deliverable" "rows"
-for f in "$S1" "$S2" "$S3" "$S4"; do
+for f in "$S1" "$S2" "$S3" "$S4" "$S5" "$S6"; do
   printf '   %-38s %8s\n' "$(basename "$f")" "$(rows "$f")"
 done
 # Step 1 is 610 on the singletons table (473 v260701 rows + 137 unmatched v1.1).

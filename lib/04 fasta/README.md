@@ -1,4 +1,4 @@
-# lib/fasta
+# lib/04 fasta
 
 TSV → protein FASTA generation, plus the accession-column order checker and its
 fixer. Two generators, split by *function* rather than by input schema — both
@@ -32,7 +32,7 @@ aa_sequence, organism, ncbi_taxonomy_id, tier_s_label, sequence_source,
 dna_acc_to_pro_acc, comment`.
 
 ```bash
-python3 lib/fasta/tsv_to_fasta_no_nucleotide.py \
+python3 "lib/04 fasta/tsv_to_fasta_no_nucleotide.py" \
   source-data/plasticome.v260701/cleaned_pazy-260701_retrieving_from_accession.tsv \
   --header-template "{enzyme_name}|{accession}||{pazy_id}" \
   -o out.fasta
@@ -59,7 +59,7 @@ Point `--acc-col` at it — the filtered list is still exposed to the template a
 `{accession}`.
 
 ```bash
-python3 lib/fasta/tsv_to_fasta_no_nucleotide.py \
+python3 "lib/04 fasta/tsv_to_fasta_no_nucleotide.py" \
   source-data/plasticome.v1.1/plasticome.v1.1.tsv \
   --acc-col retrieved \
   --header-template "{rowid}|{accession}||" \
@@ -85,7 +85,7 @@ enzyme_name, accession, pazy_id, aa_sequence, source`), not from the
 re-annotated sheet above:
 
 ```bash
-python3 lib/fasta/tsv_to_fasta_no_nucleotide.py plasticome.v1.1.tsv \
+python3 "lib/04 fasta/tsv_to_fasta_no_nucleotide.py" plasticome.v1.1.tsv \
   --header-template "{plasticome_id}|{accession}||{pazy_id}" \
   -o plasticome.v1.1.fasta
 # wrote 611 records from 611 rows (0 blank seq; dropped 3 nucleotide
@@ -102,11 +102,11 @@ Both default their positional argument to `cleaned_pazy_final.tsv`, which no
 longer exists at that bare path after the reorg — pass the TSV explicitly.
 
 ```bash
-python3 lib/fasta/validate_accession_order.py <tsv> --acc-col accession --strict
-cd lib/fasta && python3 fix_accession_order.py <tsv> --dry-run
+python3 "lib/04 fasta/validate_accession_order.py" <tsv> --acc-col accession --strict
+cd "lib/04 fasta" && python3 fix_accession_order.py <tsv> --dry-run
 ```
 
 `fix_accession_order.py` imports `validate_accession_order` and re-invokes it by
-bare filename, so it only works with `lib/fasta/` as the working directory. Its
+bare filename, so it only works with `lib/04 fasta/` as the working directory. Its
 edits are hardcoded and hand-verified; it aborts if a target row no longer
 matches the recorded `before` value.
