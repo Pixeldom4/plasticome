@@ -64,3 +64,7 @@ runs/**/*.domtbl
 !runs/**/*.sh
 !runs/**/*stats*.json
 !runs/**/comparison_*.json
+
+# presentation figures. Talk material, not pipeline output, and regenerable
+# from the scripts inside. These live with the slides, not with the pipeline.
+figures/

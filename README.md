@@ -28,8 +28,16 @@ plasticome/
 ├── lib/               step-generic code, no data     → per-step READMEs below
 ├── bin/               third-party binaries (usearch11/12, DIAMOND)
 ├── source-data/       immutable upstream inputs of record
+├── plasticome-figures/ union + substrate/organism/PDB metadata, figure inputs → plasticome-figures/CLAUDE.md
 └── archive/           retired material, caches, figures, one-off investigations
 ```
+
+`plasticome-figures/` stands outside the pipeline: `pipeline_run.bash` doesn't call
+it, and it reads the curation workbook `plasticome.v2.xlsx` rather than `source-data/`.
+Its union CSV has the same 609 rows as `01-union.tsv` in
+`runs/2026-08-06.final-usearch.3`. Its `annotate_union.py` is **not** step 5's script
+of the same name: it adds substrate, organism, superkingdom, UniProt and PDB metadata,
+not cluster or component assignments.
 
 | Directory | Step | Contents |
 |---|---|---|
@@ -148,6 +156,12 @@ is embedded in a filename or frontmatter, that date wins.
   whose artifacts are not in the repo; superseded by the reference-seeded runs.
 - Per-run `manifest.yaml` files (parent run, tool versions, input md5s) are **not
   yet written**. Until they exist, lineage lives only in this README.
+- `source-data/plasticome.v1.1/` carries two bad PDB IDs: `7CWG` (ApLip-Ec, an
+  unrelated phosphodiesterase; should be `7CWQ`) and `4EBO` (doesn't exist; should be
+  `4EB0`, LCC). The snapshot is left as it is. `plasticome-figures/annotate_union.py`
+  corrects both, plus `501L`→`5O1L` and the obsolete `6IQ9`→`6M43` from the
+  workbook, in its `PDB_FIXES` map. Each fix was verified by sequence alignment
+  (2026-09-23).
 
 ---
 
