@@ -1,0 +1,156 @@
+IQ-TREE version 3.1.4 for MacOS ARM 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Air-239.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/Caskroom/miniconda/base/envs/plasticome-tree/bin/iqtree -s aa.afa -m MFP -mset LG,WAG,JTT,Q.pfam -seed 1 -T 1 -pre aa -redo -quiet -B 1000 -bnni
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  1 16:21:12 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file aa.afa ... Fasta format detected
+Reading fasta file: done in 3.00407e-05 secs using 76.56% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000182152 secs using 63.68% CPU
+Alignment has 4 sequences with 407 columns, 395 distinct patterns
+14 parsimony-informative, 374 singleton sites, 19 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.00679e-06 secs using 59.92% CPU
+   1  c17   14.00%    passed     54.67%
+   2  c37    2.70%    passed     29.04%
+   3  c38   10.32%    passed     11.68%
+   4  c40   21.38%    passed     39.95%
+****  TOTAL   12.10%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 6.91414e-06 secs using 86.78% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -3833.800
+Optimal log-likelihood: -3832.806
+Proportion of invariable sites: 0.005
+Gamma shape alpha: 2.079
+Parameters optimization took 1 rounds (0.007 sec)
+Time for fast ML tree search: 0.036 seconds
+
+NOTE: ModelFinder requires 4 MB RAM!
+ModelFinder will test up to 176 protein models (sample size: 407 epsilon: 0.100) ...
+Akaike Information Criterion:           LG+F+G4
+Corrected Akaike Information Criterion: LG+F+G4
+Bayesian Information Criterion:         Q.PFAM+G4
+Best-fit model: Q.PFAM+G4 chosen according to BIC
+
+All model information printed to aa.model.gz
+CPU time for ModelFinder: 0.403 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.407 seconds (0h:0m:0s)
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3818.805
+2. Current log-likelihood: -3818.305
+Optimal log-likelihood: -3818.266
+Gamma shape alpha: 2.819
+Parameters optimization took 2 rounds (0.010 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00153899 secs using 99.42% CPU
+Computing ML distances took 0.001558 sec (of wall-clock time) 0.001543 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 5.96046e-06 secs using 83.89% CPU
+Constructing RapidNJ tree: done in 5.00679e-06 secs using 119.8% CPU
+Computing RapidNJ tree took 0.000024 sec (of wall-clock time) 0.000016 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3818.258
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.007 second
+Computing log-likelihood of 2 initial trees ... 0.002 seconds
+Current best score: -3818.258
+
+Do NNI search on 3 best initial trees
+Finish initializing candidate tree set (3)
+Current best tree score: -3818.258 / CPU time: 0.024
+Number of iterations: 3
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+Iteration 10 / LogL: -3818.258 / Time: 0h:0m:0s
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+Iteration 20 / LogL: -3818.382 / Time: 0h:0m:0s
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+Iteration 30 / LogL: -3818.382 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -3818.382 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+UPDATE BEST LOG-LIKELIHOOD: -3818.258
+Iteration 50 / LogL: -3818.389 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 60 / LogL: -3818.382 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -3818.389 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -3818.389 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 90 / LogL: -3818.324 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 100 / LogL: -3818.438 / Time: 0h:0m:1s (0h:0m:0s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 92 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3818.258
+Optimal log-likelihood: -3818.254
+Gamma shape alpha: 2.777
+Parameters optimization took 1 rounds (0.004 sec)
+BEST SCORE FOUND : -3818.254
+Creating bootstrap support values...
+Split supports printed to NEXUS file aa.splits.nex
+Total tree length: 7.346
+
+Total number of iterations: 101
+CPU time used for tree search: 3.523 sec (0h:0m:3s)
+Wall-clock time used for tree search: 3.557 sec (0h:0m:3s)
+Total CPU time used: 3.958 sec (0h:0m:3s)
+Total wall-clock time used: 3.997 sec (0h:0m:3s)
+UFBoot trees printed to aa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file aa.splits.nex...
+4 taxa and 7 splits.
+Consensus tree written to aa.contree
+Reading input trees file aa.contree
+Log-likelihood of consensus tree: -3818.253
+
+Analysis results written to: 
+  IQ-TREE report:                aa.iqtree
+  Maximum-likelihood tree:       aa.treefile
+  Likelihood distances:          aa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          aa.splits.nex
+  Consensus tree:                aa.contree
+  UFBoot trees:                  aa.ufboot
+  Screen log file:               aa.log
+
+Date and Time: Thu Oct  1 16:21:16 2026

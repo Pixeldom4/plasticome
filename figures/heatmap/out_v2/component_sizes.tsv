@@ -1,0 +1,57 @@
+component	fold	distinct_sequences	records	seeds
+c00	Alpha/beta hydrolase	284	329	ISPETase;LCC;TfCut_2;Cut190;Mipa-P;Kubu-P
+c01	Ntn amidase (NylC)	48	53	NylC
+c02	Amidase signature	24	34	NylA
+c03	Alpha/beta hydrolase	18	29	HiC
+c04	Alpha/beta hydrolase	10	15	
+c05	Oxygenase MpaB (Lcp)	11	15	
+c06	Subtilisin S8/S53	8	12	
+c07	Alpha/beta hydrolase	7	9	
+c08	Alpha/beta hydrolase	5	9	PhaZ1
+c09	Alpha/beta hydrolase	7	8	
+c10	Alpha/beta hydrolase	5	7	PueA
+c11	Alpha/beta hydrolase	5	6	
+c12	Alpha/beta hydrolase	4	5	
+c13	Cytochrome c (RoxA)	3	5	
+c14	Trypsin-like protease	4	4	PLAase I
+c15	Alpha/beta hydrolase	2	4	
+c16	Alpha/beta hydrolase	2	4	
+c17	Beta-lactamase / DD-peptidase	2	3	NylB
+c18	Alpha/beta hydrolase	2	3	
+c19	Alpha/beta hydrolase	2	3	
+c20	SGNH hydrolase	2	2	
+c21	Alpha/beta hydrolase	1	2	
+c22	Trypsin-like protease	2	2	
+c23	Alpha/beta hydrolase	1	2	
+c24	Alpha/beta hydrolase	1	2	
+c25	Alpha/beta hydrolase	1	2	
+c26	Alpha/beta hydrolase	2	2	
+c27	Alpha/beta hydrolase	1	2	
+c28	Alpha/beta hydrolase	1	2	
+c29	Alpha/beta hydrolase	1	2	
+c30	Glycoside hydrolase/deacetylase	1	2	
+c31	Alpha/beta hydrolase	1	2	
+c32	Alpha/beta hydrolase	1	2	
+c33	Alpha/beta hydrolase	1	2	
+c34	Alpha/beta hydrolase	1	2	
+c35	Alpha/beta hydrolase	1	1	
+c36	Alpha/beta hydrolase	1	1	
+c37	Beta-lactamase / DD-peptidase	1	1	
+c38	Beta-lactamase / DD-peptidase	1	1	
+c39	Alpha/beta hydrolase	1	1	
+c40	Beta-lactamase / DD-peptidase	1	1	
+c41	Peroxidase (MnP)	1	1	
+c42	Alpha/beta hydrolase	1	1	
+c43	Alpha/beta hydrolase	1	1	
+c44	Alpha/beta hydrolase	1	1	
+c45	Alpha/beta hydrolase	1	1	
+c46	Beta-lactamase, unconfirmed	1	1	
+c47	Cytochrome P450	1	1	
+c48	Alpha/beta hydrolase	1	1	
+c49	Acid protease	1	1	
+c50	Alpha/beta hydrolase	1	1	
+c51	Purple acid phosphatase	1	1	
+c52	Alpha/beta hydrolase	1	1	
+c53	Cupredoxin (laccase)	1	1	
+c54	Cupredoxin (laccase)	1	1	
+c55	Alpha/beta hydrolase	1	1	

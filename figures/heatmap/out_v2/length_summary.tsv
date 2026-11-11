@@ -1,0 +1,5 @@
+set	n	median	p5	p95	min	max
+Plasticome (492 distinct)	492	314	231	493	176	734
+PETadex-nr families, full ORF	61855	309	246	678	158	989
+PETadex-nr families, catalytic domain only	61855	236	189	428	38	925
+Logan, halo assay set	199	306	272	457	134	540

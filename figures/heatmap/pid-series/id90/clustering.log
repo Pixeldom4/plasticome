@@ -1,0 +1,24 @@
+universe: 13 seed centroids + 587 remaining + 9 union row(s) folded into their seed = 609 records
+          609 union row(s) with a sequence; no record is counted twice
+engine: diamond (native /opt/homebrew/bin/diamond)   id=0.9   member coverage: 0.9 (member covered by its representative)
+substrate: 600 sequences, 966 directed edges at >=90% id and >=90% query-or-subject coverage
+
+== Phase 1: seed self-cluster diagnostic @ 0.9 ==
+all 13 seeds are non-redundant at 0.9; each is a reference centroid
+
+== Phase 2: closed-reference recruitment of 587 remaining ==
+recruited to a seed: 17   unmatched: 570
+
+== Phase 3: de-novo clustering of the 570 unmatched ==
+de-novo clusters: 390
+
+== Phase 4: /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/plasticome-heatmap/pid-series/id90/clusters.tsv ==
+clusters              : 403  (reference 13 + de_novo 390)
+records placed        : 609 / 609  (all accounted for)
+seeds as centroids    : 13 / 13
+recruited to seeds    : 17 (+9 folded seed duplicates)   de-novo members: 570
+singletons            : 267 (66.3% of clusters)
+largest cluster       : 14 -> 266 U0455|WP_181548579.1
+size distribution     : {1: 267, 2: 107, 3: 16, 4: 6, 5: 3, 6: 1, 10: 1, 11: 1, 14: 1}
+engine                : diamond version 2.2.4 (native /opt/homebrew/bin/diamond)
+work dir              : /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/plasticome-heatmap/pid-series/id90/work

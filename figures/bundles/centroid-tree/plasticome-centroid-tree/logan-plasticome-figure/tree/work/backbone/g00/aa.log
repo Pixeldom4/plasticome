@@ -1,0 +1,278 @@
+IQ-TREE version 3.1.4 for MacOS ARM 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Air-239.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/Caskroom/miniconda/base/envs/plasticome-tree/bin/iqtree -s aa.afa -m MFP -mset LG,WAG,JTT,Q.pfam -seed 1 -T 1 -pre aa -redo -quiet -B 1000 -bnni
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  1 15:50:09 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file aa.afa ... Fasta format detected
+Reading fasta file: done in 0.000152111 secs using 89.41% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000290155 secs using 75.82% CPU
+Alignment has 36 sequences with 324 columns, 324 distinct patterns
+321 parsimony-informative, 3 singleton sites, 0 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.40667e-05 secs using 85.31% CPU
+   1  c00    9.26%    failed      0.00%
+   2  c03   44.75%    passed     24.97%
+   3  c04    7.10%    passed     78.55%
+   4  c07   25.31%    failed      0.47%
+   5  c08   33.02%    failed      0.00%
+   6  c09   41.05%    failed      0.42%
+   7  c10   21.30%    failed      0.01%
+   8  c11   24.07%    failed      0.16%
+   9  c12   17.28%    passed     44.41%
+  10  c15   20.68%    failed      0.35%
+  11  c16    7.41%    passed     10.69%
+  12  c18   23.46%    passed     40.89%
+  13  c19   23.77%    passed     24.19%
+  14  c21   19.44%    failed      0.01%
+  15  c23   20.68%    failed      0.08%
+  16  c24   19.75%    passed     54.98%
+  17  c25   35.49%    failed      4.07%
+  18  c26   27.78%    passed     46.43%
+  19  c27   19.75%    passed     76.53%
+  20  c28   12.96%    failed      0.00%
+  21  c29   19.44%    passed     12.19%
+  22  c31   25.00%    failed      0.17%
+  23  c32   30.56%    failed      0.08%
+  24  c33   25.93%    failed      0.00%
+  25  c34   16.98%    passed     30.11%
+  26  c35   45.99%    passed     13.51%
+  27  c36   23.77%    passed     28.86%
+  28  c39   41.36%    failed      3.16%
+  29  c42   19.75%    passed     58.74%
+  30  c43   22.53%    failed      0.00%
+  31  c44   20.37%    failed      0.44%
+  32  c45   26.23%    passed      7.37%
+  33  c48   33.33%    passed     14.03%
+  34  c50   17.90%    failed      0.00%
+  35  c52   11.42%    failed      4.55%
+  36  c55   25.00%    failed      4.27%
+****  TOTAL   23.89%  20 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 4.60148e-05 secs using 73.89% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -24334.499
+Optimal log-likelihood: -24334.285
+Gamma shape alpha: 2.124
+Parameters optimization took 1 rounds (0.053 sec)
+Time for fast ML tree search: 1.280 seconds
+
+NOTE: ModelFinder requires 20 MB RAM!
+ModelFinder will test up to 88 protein models (sample size: 324 epsilon: 0.100) ...
+Akaike Information Criterion:           Q.PFAM+F+R5
+Corrected Akaike Information Criterion: Q.PFAM+F+R4
+Bayesian Information Criterion:         Q.PFAM+F+R4
+Best-fit model: Q.PFAM+F+R4 chosen according to BIC
+
+All model information printed to aa.model.gz
+CPU time for ModelFinder: 28.229 seconds (0h:0m:28s)
+Wall-clock time for ModelFinder: 28.441 seconds (0h:0m:28s)
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 8 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -24121.049
+2. Current log-likelihood: -24120.898
+Optimal log-likelihood: -24120.849
+Site proportion and rates:  (0.014,0.103) (0.078,0.303) (0.409,0.701) (0.499,1.379)
+Parameters optimization took 2 rounds (0.291 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.340875 secs using 99.83% CPU
+Computing ML distances took 0.340941 sec (of wall-clock time) 0.340324 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 3.09944e-05 secs using 106.5% CPU
+Constructing RapidNJ tree: done in 7.70092e-05 secs using 172.7% CPU
+Computing RapidNJ tree took 0.000124 sec (of wall-clock time) 0.000187 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -24140.659
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.322 second
+Computing log-likelihood of 98 initial trees ... 1.796 seconds
+Current best score: -24120.849
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -24114.679
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -24112.191
+Iteration 10 / LogL: -24117.233 / Time: 0h:0m:39s
+Iteration 20 / LogL: -24126.907 / Time: 0h:0m:51s
+Finish initializing candidate tree set (20)
+Current best tree score: -24112.191 / CPU time: 21.944
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -24111.682
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -24107.773
+Iteration 30 / LogL: -24122.357 / Time: 0h:0m:56s (0h:1m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 36: -24106.469
+Iteration 40 / LogL: -24110.192 / Time: 0h:1m:1s (0h:1m:21s left)
+UPDATE BEST LOG-LIKELIHOOD: -24106.464
+Iteration 50 / LogL: -24106.506 / Time: 0h:1m:6s (0h:1m:7s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -24106.313
+Iteration 60 / LogL: -24106.632 / Time: 0h:1m:11s (0h:0m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -24105.930
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -24104.793
+Iteration 70 / LogL: -24104.793 / Time: 0h:1m:16s (0h:1m:9s left)
+UPDATE BEST LOG-LIKELIHOOD: -24104.784
+Iteration 80 / LogL: -24104.784 / Time: 0h:1m:20s (0h:0m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 84: -24104.589
+Iteration 90 / LogL: -24106.667 / Time: 0h:1m:25s (0h:1m:0s left)
+Iteration 100 / LogL: -24104.666 / Time: 0h:1m:31s (0h:0m:53s left)
+Iteration 110 / LogL: -24111.082 / Time: 0h:1m:36s (0h:0m:45s left)
+Iteration 120 / LogL: -24105.207 / Time: 0h:1m:40s (0h:0m:38s left)
+Iteration 130 / LogL: -24106.190 / Time: 0h:1m:45s (0h:0m:32s left)
+Iteration 140 / LogL: -24105.215 / Time: 0h:1m:50s (0h:0m:25s left)
+Iteration 150 / LogL: -24104.778 / Time: 0h:1m:55s (0h:0m:19s left)
+Iteration 160 / LogL: -24104.746 / Time: 0h:2m:0s (0h:0m:13s left)
+Iteration 170 / LogL: -24104.668 / Time: 0h:2m:4s (0h:0m:7s left)
+Iteration 180 / LogL: -24104.746 / Time: 0h:2m:9s (0h:0m:2s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 185 ITERATIONS / Time: 0h:3m:57s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -24104.589
+2. Current log-likelihood: -24104.561
+3. Current log-likelihood: -24104.520
+4. Current log-likelihood: -24104.482
+5. Current log-likelihood: -24104.445
+6. Current log-likelihood: -24104.408
+7. Current log-likelihood: -24104.372
+8. Current log-likelihood: -24104.337
+9. Current log-likelihood: -24104.302
+10. Current log-likelihood: -24104.268
+11. Current log-likelihood: -24104.234
+12. Current log-likelihood: -24104.201
+13. Current log-likelihood: -24104.168
+14. Current log-likelihood: -24104.136
+15. Current log-likelihood: -24104.103
+16. Current log-likelihood: -24104.072
+17. Current log-likelihood: -24104.040
+18. Current log-likelihood: -24104.009
+19. Current log-likelihood: -24103.979
+20. Current log-likelihood: -24103.949
+21. Current log-likelihood: -24103.919
+22. Current log-likelihood: -24103.896
+23. Current log-likelihood: -24103.865
+24. Current log-likelihood: -24103.842
+25. Current log-likelihood: -24103.812
+26. Current log-likelihood: -24103.790
+27. Current log-likelihood: -24103.760
+28. Current log-likelihood: -24103.738
+29. Current log-likelihood: -24103.709
+30. Current log-likelihood: -24103.688
+31. Current log-likelihood: -24103.659
+32. Current log-likelihood: -24103.638
+33. Current log-likelihood: -24103.610
+34. Current log-likelihood: -24103.590
+35. Current log-likelihood: -24103.562
+36. Current log-likelihood: -24103.541
+37. Current log-likelihood: -24103.514
+38. Current log-likelihood: -24103.494
+39. Current log-likelihood: -24103.467
+40. Current log-likelihood: -24103.448
+41. Current log-likelihood: -24103.422
+42. Current log-likelihood: -24103.403
+43. Current log-likelihood: -24103.378
+44. Current log-likelihood: -24103.359
+45. Current log-likelihood: -24103.340
+46. Current log-likelihood: -24103.320
+47. Current log-likelihood: -24103.302
+48. Current log-likelihood: -24103.283
+49. Current log-likelihood: -24103.264
+50. Current log-likelihood: -24103.247
+51. Current log-likelihood: -24103.230
+52. Current log-likelihood: -24103.212
+53. Current log-likelihood: -24103.188
+54. Current log-likelihood: -24103.172
+55. Current log-likelihood: -24103.156
+56. Current log-likelihood: -24103.139
+57. Current log-likelihood: -24103.122
+58. Current log-likelihood: -24103.105
+59. Current log-likelihood: -24103.089
+60. Current log-likelihood: -24103.073
+61. Current log-likelihood: -24103.058
+62. Current log-likelihood: -24103.043
+63. Current log-likelihood: -24103.029
+64. Current log-likelihood: -24103.015
+65. Current log-likelihood: -24103.001
+66. Current log-likelihood: -24102.986
+67. Current log-likelihood: -24102.972
+68. Current log-likelihood: -24102.958
+69. Current log-likelihood: -24102.943
+70. Current log-likelihood: -24102.930
+71. Current log-likelihood: -24102.917
+72. Current log-likelihood: -24102.904
+Optimal log-likelihood: -24102.890
+Site proportion and rates:  (0.008,0.067) (0.063,0.247) (0.377,0.673) (0.553,1.322)
+Parameters optimization took 72 rounds (10.215 sec)
+BEST SCORE FOUND : -24102.890
+Creating bootstrap support values...
+Split supports printed to NEXUS file aa.splits.nex
+Total tree length: 102.678
+
+Total number of iterations: 185
+CPU time used for tree search: 207.714 sec (0h:3m:27s)
+Wall-clock time used for tree search: 208.670 sec (0h:3m:28s)
+Total CPU time used: 246.968 sec (0h:4m:6s)
+Total wall-clock time used: 248.185 sec (0h:4m:8s)
+UFBoot trees printed to aa.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file aa.splits.nex...
+36 taxa and 1307 splits.
+Consensus tree written to aa.contree
+Reading input trees file aa.contree
+Log-likelihood of consensus tree: -24102.956
+
+Analysis results written to: 
+  IQ-TREE report:                aa.iqtree
+  Maximum-likelihood tree:       aa.treefile
+  Likelihood distances:          aa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          aa.splits.nex
+  Consensus tree:                aa.contree
+  UFBoot trees:                  aa.ufboot
+  Screen log file:               aa.log
+
+Date and Time: Thu Oct  1 15:54:18 2026

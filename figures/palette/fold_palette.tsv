@@ -1,0 +1,11 @@
+slice	fold	catalytic_cath	hue	hue_source	tint	tint_second	label	atlas_base
+g00	Alpha/beta hydrolase	3.40.50.1820	210	atlas	#d4e3f2	#c4d9ed	#5b8ab9	#27619b
+g01	L-amino peptidase D-ALA esterase/amidase	3.60.70.12	25	atlas	#f2e1d4	#edd6c4	#b9825b	#9b5727
+g02	Amidase signature (AS) domain	3.90.1300.10	0	atlas	#f2d4d4	#edc4c4	#b95b5b	#9b2727
+g03	Oxygenase MpaB family protein	none	90	extended	#e3f2d4	#d9edc4	#8ab95b	#619b27
+g04	DD-peptidase/beta-lactamase superfamily	3.40.710.10	140	atlas	#d4f2de	#c4edd2	#5bb97a	#279b4e
+g05	Trypsin-like serine proteases	2.40.10.10	270	atlas	#e3d4f2	#d9c4ed	#8a5bb9	#61279b
+g06	Peptidase S8/S53 domain	3.40.50.200	175	extended	#d4f2ef	#c4ede9	#5bb9b1	#279b91
+g07	Cytochrome c-like domain	1.10.760.10	315	extended	#f2d4ea	#edc4e2	#b95ba1	#9b277e
+g08	Cupredoxins, blue copper proteins	2.60.40.420	50	atlas	#f2edd4	#ede6c4	#b9a95b	#9b8827
+g09	SGNH hydrolase	3.40.50.1110	240	extended	#d4d4f2	#c4c4ed	#5b5bb9	#27279b

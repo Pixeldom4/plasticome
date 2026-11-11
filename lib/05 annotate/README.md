@@ -14,7 +14,7 @@ In: `01-union.tsv` (609 rows) and `03-alignment.tsv` (411 rows). Out:
 `05-union-with-components.tsv`, 609 rows. Opt-in, like step 6, not in the driver's
 default 1-4 range.
 
-Not to be confused with `plasticome-figures/annotate_union.py`, which annotates the
+Not to be confused with `annotation/union/annotate_union.py`, which annotates the
 same 609-row union with substrate, organism and PDB metadata from the workbook. The
 two scripts share a filename but have no code in common.
 

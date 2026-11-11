@@ -1,0 +1,9 @@
+slice	representative	pdb_accession	uniprot	url
+g00	TfCut_2	4CG1	Q6A0I4	https://files.rcsb.org/download/4CG1.pdb
+g01	NylC	5XYG	Q79F77	https://files.rcsb.org/download/5XYG.pdb
+g02	NylA	3A2P	P13398	https://files.rcsb.org/download/3A2P.pdb
+g03	LCP_STRK3	5O1L	NA	https://files.rcsb.org/download/5O1L.pdb
+g04	NylB	2E8I	P07061	https://files.rcsb.org/download/2E8I.pdb
+g06	Subtilisin BL	1ST3	P29599	https://files.rcsb.org/download/1ST3.pdb
+g07	RoxA	4B2N	Q7X0P3	https://files.rcsb.org/download/4B2N.pdb
+g09	E4	6M43	A0A4P1LYH5	https://files.rcsb.org/download/6M43.pdb

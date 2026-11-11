@@ -1,0 +1,7 @@
+fold	column	in the sheet now	proposed	evidence
+DD-peptidase/beta-lactamase	Reference GenBank accession	CAA24927.1 (NylB)	CAA26616.1 (NylB')	model is 98% identical to NylB' and 89% to NylB; its 8 differences from NylB' match the NylB/NylB' hybrids crystallised as 2ZLY
+Cytochrome P450	Reference GenBank accession	BAA00001.1	UniProt P08684 (CYP3A4, human)	model is 99.6% identical to P08684 and 97.7% to BAA00001.1; reference structure 1W0E is CYP3A4
+SGNH hydrolase	Secondary Residues	Oxyanion Hole (G55[UNVERIFIED], A:N82)	Oxyanion Hole (A:G51, A:N82)	fold 55 is Ala; G51 is the block II glycine: its backbone N is 4.7 A from the S14 OG, against 13.9 A for position 55 and 12.6 A for G57 (ref G50 in 7C82 numbering)
+cupredoxins - blue copper proteins	Secondary Residues	C457[CORRECTED?]	C457	the model's T1 copper is bound by H409 ND1, C457 SG and H462 ND1 (all under 3 A); C457 is the only cysteine in the chain
+metallo-dependent phosphatases	Secondary Residues	H39[CORRECTED?]	H39	fold 37 to 39 read D-I-H, the DxH metal motif paired with D37; H39 is the only histidine within 20 residues
+cupredoxins - blue copper proteins	Catalytic Residues	N-term T2/T3 Copper Binding Sites (H412, H414, H456, H458)	N-term T2/T3 Copper Binding Sites (H83, H85, H125, H127)	the same four histidines are listed again as the C-term T2/T3 site under Secondary Residues; in the model the trinuclear coppers are bound by H83, H85, H125, H127 (N-terminal domain) and H412, H414, H456, H458 (C-terminal domain), each NE2 or ND1 under 3 A from a copper

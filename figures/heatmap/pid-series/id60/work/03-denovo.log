@@ -1,0 +1,603 @@
+diamond v2.2.4.184 (C) Max Planck Society for the Advancement of Science, Benjamin J. Buchfink, University of Tuebingen
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 8
+Coverage cutoff: 90%
+Edge format: quintuplet
+Symmetric: no
+#Numeric vertex OIDs: 492
+Reading input lines...  [0.009s]
+#Input lines: 4190
+#Input edges: 6644
+Finding neighbor counts bucket 1/256 records=4
+Finding neighbor counts bucket 2/256 records=8
+Finding neighbor counts bucket 3/256 records=54
+Finding neighbor counts bucket 4/256 records=0
+Finding neighbor counts bucket 5/256 records=16
+Finding neighbor counts bucket 6/256 records=2
+Finding neighbor counts bucket 7/256 records=32
+Finding neighbor counts bucket 8/256 records=12
+Finding neighbor counts bucket 9/256 records=4
+Finding neighbor counts bucket 10/256 records=0
+Finding neighbor counts bucket 11/256 records=2
+Finding neighbor counts bucket 12/256 records=2
+Finding neighbor counts bucket 13/256 records=8
+Finding neighbor counts bucket 14/256 records=2
+Finding neighbor counts bucket 15/256 records=0
+Finding neighbor counts bucket 16/256 records=38
+Finding neighbor counts bucket 17/256 records=10
+Finding neighbor counts bucket 18/256 records=2
+Finding neighbor counts bucket 19/256 records=8
+Finding neighbor counts bucket 20/256 records=70
+Finding neighbor counts bucket 21/256 records=6
+Finding neighbor counts bucket 22/256 records=4
+Finding neighbor counts bucket 23/256 records=0
+Finding neighbor counts bucket 24/256 records=0
+Finding neighbor counts bucket 25/256 records=0
+Finding neighbor counts bucket 26/256 records=0
+Finding neighbor counts bucket 27/256 records=0
+Finding neighbor counts bucket 28/256 records=8
+Finding neighbor counts bucket 29/256 records=6
+Finding neighbor counts bucket 30/256 records=4
+Finding neighbor counts bucket 31/256 records=2
+Finding neighbor counts bucket 32/256 records=2
+Finding neighbor counts bucket 33/256 records=2
+Finding neighbor counts bucket 34/256 records=6
+Finding neighbor counts bucket 35/256 records=4
+Finding neighbor counts bucket 36/256 records=38
+Finding neighbor counts bucket 37/256 records=6
+Finding neighbor counts bucket 38/256 records=12
+Finding neighbor counts bucket 39/256 records=6
+Finding neighbor counts bucket 40/256 records=12
+Finding neighbor counts bucket 41/256 records=44
+Finding neighbor counts bucket 42/256 records=4
+Finding neighbor counts bucket 43/256 records=52
+Finding neighbor counts bucket 44/256 records=40
+Finding neighbor counts bucket 45/256 records=40
+Finding neighbor counts bucket 46/256 records=16
+Finding neighbor counts bucket 47/256 records=56
+Finding neighbor counts bucket 48/256 records=38
+Finding neighbor counts bucket 49/256 records=18
+Finding neighbor counts bucket 50/256 records=4
+Finding neighbor counts bucket 51/256 records=16
+Finding neighbor counts bucket 52/256 records=10
+Finding neighbor counts bucket 53/256 records=4
+Finding neighbor counts bucket 54/256 records=4
+Finding neighbor counts bucket 55/256 records=6
+Finding neighbor counts bucket 56/256 records=4
+Finding neighbor counts bucket 57/256 records=6
+Finding neighbor counts bucket 58/256 records=2
+Finding neighbor counts bucket 59/256 records=4
+Finding neighbor counts bucket 60/256 records=4
+Finding neighbor counts bucket 61/256 records=4
+Finding neighbor counts bucket 62/256 records=4
+Finding neighbor counts bucket 63/256 records=6
+Finding neighbor counts bucket 64/256 records=10
+Finding neighbor counts bucket 65/256 records=4
+Finding neighbor counts bucket 66/256 records=6
+Finding neighbor counts bucket 67/256 records=2
+Finding neighbor counts bucket 68/256 records=4
+Finding neighbor counts bucket 69/256 records=4
+Finding neighbor counts bucket 70/256 records=4
+Finding neighbor counts bucket 71/256 records=4
+Finding neighbor counts bucket 72/256 records=4
+Finding neighbor counts bucket 73/256 records=8
+Finding neighbor counts bucket 74/256 records=12
+Finding neighbor counts bucket 75/256 records=8
+Finding neighbor counts bucket 76/256 records=8
+Finding neighbor counts bucket 77/256 records=10
+Finding neighbor counts bucket 78/256 records=2
+Finding neighbor counts bucket 79/256 records=4
+Finding neighbor counts bucket 80/256 records=12
+Finding neighbor counts bucket 81/256 records=10
+Finding neighbor counts bucket 82/256 records=20
+Finding neighbor counts bucket 83/256 records=8
+Finding neighbor counts bucket 84/256 records=2
+Finding neighbor counts bucket 85/256 records=4
+Finding neighbor counts bucket 86/256 records=0
+Finding neighbor counts bucket 87/256 records=2
+Finding neighbor counts bucket 88/256 records=40
+Finding neighbor counts bucket 89/256 records=56
+Finding neighbor counts bucket 90/256 records=30
+Finding neighbor counts bucket 91/256 records=24
+Finding neighbor counts bucket 92/256 records=6
+Finding neighbor counts bucket 93/256 records=4
+Finding neighbor counts bucket 94/256 records=4
+Finding neighbor counts bucket 95/256 records=4
+Finding neighbor counts bucket 96/256 records=20
+Finding neighbor counts bucket 97/256 records=4
+Finding neighbor counts bucket 98/256 records=4
+Finding neighbor counts bucket 99/256 records=2
+Finding neighbor counts bucket 100/256 records=4
+Finding neighbor counts bucket 101/256 records=6
+Finding neighbor counts bucket 102/256 records=6
+Finding neighbor counts bucket 103/256 records=4
+Finding neighbor counts bucket 104/256 records=4
+Finding neighbor counts bucket 105/256 records=8
+Finding neighbor counts bucket 106/256 records=6
+Finding neighbor counts bucket 107/256 records=4
+Finding neighbor counts bucket 108/256 records=4
+Finding neighbor counts bucket 109/256 records=8
+Finding neighbor counts bucket 110/256 records=40
+Finding neighbor counts bucket 111/256 records=8
+Finding neighbor counts bucket 112/256 records=16
+Finding neighbor counts bucket 113/256 records=14
+Finding neighbor counts bucket 114/256 records=40
+Finding neighbor counts bucket 115/256 records=22
+Finding neighbor counts bucket 116/256 records=6
+Finding neighbor counts bucket 117/256 records=4
+Finding neighbor counts bucket 118/256 records=4
+Finding neighbor counts bucket 119/256 records=4
+Finding neighbor counts bucket 120/256 records=20
+Finding neighbor counts bucket 121/256 records=18
+Finding neighbor counts bucket 122/256 records=2
+Finding neighbor counts bucket 123/256 records=14
+Finding neighbor counts bucket 124/256 records=14
+Finding neighbor counts bucket 125/256 records=6
+Finding neighbor counts bucket 126/256 records=22
+Finding neighbor counts bucket 127/256 records=10
+Finding neighbor counts bucket 128/256 records=0
+Finding neighbor counts bucket 129/256 records=0
+Finding neighbor counts bucket 130/256 records=0
+Finding neighbor counts bucket 131/256 records=0
+Finding neighbor counts bucket 132/256 records=8
+Finding neighbor counts bucket 133/256 records=4
+Finding neighbor counts bucket 134/256 records=198
+Finding neighbor counts bucket 135/256 records=182
+Finding neighbor counts bucket 136/256 records=146
+Finding neighbor counts bucket 137/256 records=184
+Finding neighbor counts bucket 138/256 records=140
+Finding neighbor counts bucket 139/256 records=138
+Finding neighbor counts bucket 140/256 records=54
+Finding neighbor counts bucket 141/256 records=14
+Finding neighbor counts bucket 142/256 records=126
+Finding neighbor counts bucket 143/256 records=126
+Finding neighbor counts bucket 144/256 records=120
+Finding neighbor counts bucket 145/256 records=40
+Finding neighbor counts bucket 146/256 records=96
+Finding neighbor counts bucket 147/256 records=118
+Finding neighbor counts bucket 148/256 records=32
+Finding neighbor counts bucket 149/256 records=192
+Finding neighbor counts bucket 150/256 records=96
+Finding neighbor counts bucket 151/256 records=110
+Finding neighbor counts bucket 152/256 records=36
+Finding neighbor counts bucket 153/256 records=36
+Finding neighbor counts bucket 154/256 records=36
+Finding neighbor counts bucket 155/256 records=14
+Finding neighbor counts bucket 156/256 records=2
+Finding neighbor counts bucket 157/256 records=104
+Finding neighbor counts bucket 158/256 records=2
+Finding neighbor counts bucket 159/256 records=38
+Finding neighbor counts bucket 160/256 records=66
+Finding neighbor counts bucket 161/256 records=8
+Finding neighbor counts bucket 162/256 records=2
+Finding neighbor counts bucket 163/256 records=2
+Finding neighbor counts bucket 164/256 records=6
+Finding neighbor counts bucket 165/256 records=4
+Finding neighbor counts bucket 166/256 records=14
+Finding neighbor counts bucket 167/256 records=152
+Finding neighbor counts bucket 168/256 records=28
+Finding neighbor counts bucket 169/256 records=4
+Finding neighbor counts bucket 170/256 records=20
+Finding neighbor counts bucket 171/256 records=20
+Finding neighbor counts bucket 172/256 records=56
+Finding neighbor counts bucket 173/256 records=46
+Finding neighbor counts bucket 174/256 records=28
+Finding neighbor counts bucket 175/256 records=92
+Finding neighbor counts bucket 176/256 records=50
+Finding neighbor counts bucket 177/256 records=66
+Finding neighbor counts bucket 178/256 records=188
+Finding neighbor counts bucket 179/256 records=60
+Finding neighbor counts bucket 180/256 records=110
+Finding neighbor counts bucket 181/256 records=114
+Finding neighbor counts bucket 182/256 records=114
+Finding neighbor counts bucket 183/256 records=56
+Finding neighbor counts bucket 184/256 records=36
+Finding neighbor counts bucket 185/256 records=96
+Finding neighbor counts bucket 186/256 records=110
+Finding neighbor counts bucket 187/256 records=64
+Finding neighbor counts bucket 188/256 records=18
+Finding neighbor counts bucket 189/256 records=24
+Finding neighbor counts bucket 190/256 records=36
+Finding neighbor counts bucket 191/256 records=112
+Finding neighbor counts bucket 192/256 records=112
+Finding neighbor counts bucket 193/256 records=86
+Finding neighbor counts bucket 194/256 records=16
+Finding neighbor counts bucket 195/256 records=122
+Finding neighbor counts bucket 196/256 records=38
+Finding neighbor counts bucket 197/256 records=26
+Finding neighbor counts bucket 198/256 records=114
+Finding neighbor counts bucket 199/256 records=68
+Finding neighbor counts bucket 200/256 records=146
+Finding neighbor counts bucket 201/256 records=82
+Finding neighbor counts bucket 202/256 records=0
+Finding neighbor counts bucket 203/256 records=0
+Finding neighbor counts bucket 204/256 records=12
+Finding neighbor counts bucket 205/256 records=4
+Finding neighbor counts bucket 206/256 records=4
+Finding neighbor counts bucket 207/256 records=2
+Finding neighbor counts bucket 208/256 records=2
+Finding neighbor counts bucket 209/256 records=8
+Finding neighbor counts bucket 210/256 records=16
+Finding neighbor counts bucket 211/256 records=4
+Finding neighbor counts bucket 212/256 records=2
+Finding neighbor counts bucket 213/256 records=4
+Finding neighbor counts bucket 214/256 records=2
+Finding neighbor counts bucket 215/256 records=2
+Finding neighbor counts bucket 216/256 records=0
+Finding neighbor counts bucket 217/256 records=0
+Finding neighbor counts bucket 218/256 records=0
+Finding neighbor counts bucket 219/256 records=0
+Finding neighbor counts bucket 220/256 records=0
+Finding neighbor counts bucket 221/256 records=0
+Finding neighbor counts bucket 222/256 records=0
+Finding neighbor counts bucket 223/256 records=0
+Finding neighbor counts bucket 224/256 records=2
+Finding neighbor counts bucket 225/256 records=0
+Finding neighbor counts bucket 226/256 records=0
+Finding neighbor counts bucket 227/256 records=0
+Finding neighbor counts bucket 228/256 records=0
+Finding neighbor counts bucket 229/256 records=0
+Finding neighbor counts bucket 230/256 records=0
+Finding neighbor counts bucket 231/256 records=0
+Finding neighbor counts bucket 232/256 records=0
+Finding neighbor counts bucket 233/256 records=2
+Finding neighbor counts bucket 234/256 records=8
+Finding neighbor counts bucket 235/256 records=12
+Finding neighbor counts bucket 236/256 records=10
+Finding neighbor counts bucket 237/256 records=4
+Finding neighbor counts bucket 238/256 records=10
+Finding neighbor counts bucket 239/256 records=6
+Finding neighbor counts bucket 240/256 records=0
+Finding neighbor counts bucket 241/256 records=0
+Finding neighbor counts bucket 242/256 records=10
+Finding neighbor counts bucket 243/256 records=18
+Finding neighbor counts bucket 244/256 records=16
+Finding neighbor counts bucket 245/256 records=12
+Finding neighbor counts bucket 246/256 records=22
+Finding neighbor counts bucket 247/256 records=0
+Finding neighbor counts bucket 248/256 records=0
+Finding neighbor counts bucket 249/256 records=0
+Finding neighbor counts bucket 250/256 records=0
+Finding neighbor counts bucket 251/256 records=0
+Finding neighbor counts bucket 252/256 records=0
+Finding neighbor counts bucket 253/256 records=0
+Finding neighbor counts bucket 254/256 records=0
+Finding neighbor counts bucket 255/256 records=0
+Finding neighbor counts bucket 256/256 records=0
+Writing degree sorted edges 1/256 records=4
+Writing degree sorted edges 2/256 records=8
+Writing degree sorted edges 3/256 records=54
+Writing degree sorted edges 4/256 records=0
+Writing degree sorted edges 5/256 records=16
+Writing degree sorted edges 6/256 records=2
+Writing degree sorted edges 7/256 records=32
+Writing degree sorted edges 8/256 records=12
+Writing degree sorted edges 9/256 records=4
+Writing degree sorted edges 10/256 records=0
+Writing degree sorted edges 11/256 records=2
+Writing degree sorted edges 12/256 records=2
+Writing degree sorted edges 13/256 records=8
+Writing degree sorted edges 14/256 records=2
+Writing degree sorted edges 15/256 records=0
+Writing degree sorted edges 16/256 records=38
+Writing degree sorted edges 17/256 records=10
+Writing degree sorted edges 18/256 records=2
+Writing degree sorted edges 19/256 records=8
+Writing degree sorted edges 20/256 records=70
+Writing degree sorted edges 21/256 records=6
+Writing degree sorted edges 22/256 records=4
+Writing degree sorted edges 23/256 records=0
+Writing degree sorted edges 24/256 records=0
+Writing degree sorted edges 25/256 records=0
+Writing degree sorted edges 26/256 records=0
+Writing degree sorted edges 27/256 records=0
+Writing degree sorted edges 28/256 records=8
+Writing degree sorted edges 29/256 records=6
+Writing degree sorted edges 30/256 records=4
+Writing degree sorted edges 31/256 records=2
+Writing degree sorted edges 32/256 records=2
+Writing degree sorted edges 33/256 records=2
+Writing degree sorted edges 34/256 records=6
+Writing degree sorted edges 35/256 records=4
+Writing degree sorted edges 36/256 records=38
+Writing degree sorted edges 37/256 records=6
+Writing degree sorted edges 38/256 records=12
+Writing degree sorted edges 39/256 records=6
+Writing degree sorted edges 40/256 records=12
+Writing degree sorted edges 41/256 records=44
+Writing degree sorted edges 42/256 records=4
+Writing degree sorted edges 43/256 records=52
+Writing degree sorted edges 44/256 records=40
+Writing degree sorted edges 45/256 records=40
+Writing degree sorted edges 46/256 records=16
+Writing degree sorted edges 47/256 records=56
+Writing degree sorted edges 48/256 records=38
+Writing degree sorted edges 49/256 records=18
+Writing degree sorted edges 50/256 records=4
+Writing degree sorted edges 51/256 records=16
+Writing degree sorted edges 52/256 records=10
+Writing degree sorted edges 53/256 records=4
+Writing degree sorted edges 54/256 records=4
+Writing degree sorted edges 55/256 records=6
+Writing degree sorted edges 56/256 records=4
+Writing degree sorted edges 57/256 records=6
+Writing degree sorted edges 58/256 records=2
+Writing degree sorted edges 59/256 records=4
+Writing degree sorted edges 60/256 records=4
+Writing degree sorted edges 61/256 records=4
+Writing degree sorted edges 62/256 records=4
+Writing degree sorted edges 63/256 records=6
+Writing degree sorted edges 64/256 records=10
+Writing degree sorted edges 65/256 records=4
+Writing degree sorted edges 66/256 records=6
+Writing degree sorted edges 67/256 records=2
+Writing degree sorted edges 68/256 records=4
+Writing degree sorted edges 69/256 records=4
+Writing degree sorted edges 70/256 records=4
+Writing degree sorted edges 71/256 records=4
+Writing degree sorted edges 72/256 records=4
+Writing degree sorted edges 73/256 records=8
+Writing degree sorted edges 74/256 records=12
+Writing degree sorted edges 75/256 records=8
+Writing degree sorted edges 76/256 records=8
+Writing degree sorted edges 77/256 records=10
+Writing degree sorted edges 78/256 records=2
+Writing degree sorted edges 79/256 records=4
+Writing degree sorted edges 80/256 records=12
+Writing degree sorted edges 81/256 records=10
+Writing degree sorted edges 82/256 records=20
+Writing degree sorted edges 83/256 records=8
+Writing degree sorted edges 84/256 records=2
+Writing degree sorted edges 85/256 records=4
+Writing degree sorted edges 86/256 records=0
+Writing degree sorted edges 87/256 records=2
+Writing degree sorted edges 88/256 records=40
+Writing degree sorted edges 89/256 records=56
+Writing degree sorted edges 90/256 records=30
+Writing degree sorted edges 91/256 records=24
+Writing degree sorted edges 92/256 records=6
+Writing degree sorted edges 93/256 records=4
+Writing degree sorted edges 94/256 records=4
+Writing degree sorted edges 95/256 records=4
+Writing degree sorted edges 96/256 records=20
+Writing degree sorted edges 97/256 records=4
+Writing degree sorted edges 98/256 records=4
+Writing degree sorted edges 99/256 records=2
+Writing degree sorted edges 100/256 records=4
+Writing degree sorted edges 101/256 records=6
+Writing degree sorted edges 102/256 records=6
+Writing degree sorted edges 103/256 records=4
+Writing degree sorted edges 104/256 records=4
+Writing degree sorted edges 105/256 records=8
+Writing degree sorted edges 106/256 records=6
+Writing degree sorted edges 107/256 records=4
+Writing degree sorted edges 108/256 records=4
+Writing degree sorted edges 109/256 records=8
+Writing degree sorted edges 110/256 records=40
+Writing degree sorted edges 111/256 records=8
+Writing degree sorted edges 112/256 records=16
+Writing degree sorted edges 113/256 records=14
+Writing degree sorted edges 114/256 records=40
+Writing degree sorted edges 115/256 records=22
+Writing degree sorted edges 116/256 records=6
+Writing degree sorted edges 117/256 records=4
+Writing degree sorted edges 118/256 records=4
+Writing degree sorted edges 119/256 records=4
+Writing degree sorted edges 120/256 records=20
+Writing degree sorted edges 121/256 records=18
+Writing degree sorted edges 122/256 records=2
+Writing degree sorted edges 123/256 records=14
+Writing degree sorted edges 124/256 records=14
+Writing degree sorted edges 125/256 records=6
+Writing degree sorted edges 126/256 records=22
+Writing degree sorted edges 127/256 records=10
+Writing degree sorted edges 128/256 records=0
+Writing degree sorted edges 129/256 records=0
+Writing degree sorted edges 130/256 records=0
+Writing degree sorted edges 131/256 records=0
+Writing degree sorted edges 132/256 records=8
+Writing degree sorted edges 133/256 records=4
+Writing degree sorted edges 134/256 records=198
+Writing degree sorted edges 135/256 records=182
+Writing degree sorted edges 136/256 records=146
+Writing degree sorted edges 137/256 records=184
+Writing degree sorted edges 138/256 records=140
+Writing degree sorted edges 139/256 records=138
+Writing degree sorted edges 140/256 records=54
+Writing degree sorted edges 141/256 records=14
+Writing degree sorted edges 142/256 records=126
+Writing degree sorted edges 143/256 records=126
+Writing degree sorted edges 144/256 records=120
+Writing degree sorted edges 145/256 records=40
+Writing degree sorted edges 146/256 records=96
+Writing degree sorted edges 147/256 records=118
+Writing degree sorted edges 148/256 records=32
+Writing degree sorted edges 149/256 records=192
+Writing degree sorted edges 150/256 records=96
+Writing degree sorted edges 151/256 records=110
+Writing degree sorted edges 152/256 records=36
+Writing degree sorted edges 153/256 records=36
+Writing degree sorted edges 154/256 records=36
+Writing degree sorted edges 155/256 records=14
+Writing degree sorted edges 156/256 records=2
+Writing degree sorted edges 157/256 records=104
+Writing degree sorted edges 158/256 records=2
+Writing degree sorted edges 159/256 records=38
+Writing degree sorted edges 160/256 records=66
+Writing degree sorted edges 161/256 records=8
+Writing degree sorted edges 162/256 records=2
+Writing degree sorted edges 163/256 records=2
+Writing degree sorted edges 164/256 records=6
+Writing degree sorted edges 165/256 records=4
+Writing degree sorted edges 166/256 records=14
+Writing degree sorted edges 167/256 records=152
+Writing degree sorted edges 168/256 records=28
+Writing degree sorted edges 169/256 records=4
+Writing degree sorted edges 170/256 records=20
+Writing degree sorted edges 171/256 records=20
+Writing degree sorted edges 172/256 records=56
+Writing degree sorted edges 173/256 records=46
+Writing degree sorted edges 174/256 records=28
+Writing degree sorted edges 175/256 records=92
+Writing degree sorted edges 176/256 records=50
+Writing degree sorted edges 177/256 records=66
+Writing degree sorted edges 178/256 records=188
+Writing degree sorted edges 179/256 records=60
+Writing degree sorted edges 180/256 records=110
+Writing degree sorted edges 181/256 records=114
+Writing degree sorted edges 182/256 records=114
+Writing degree sorted edges 183/256 records=56
+Writing degree sorted edges 184/256 records=36
+Writing degree sorted edges 185/256 records=96
+Writing degree sorted edges 186/256 records=110
+Writing degree sorted edges 187/256 records=64
+Writing degree sorted edges 188/256 records=18
+Writing degree sorted edges 189/256 records=24
+Writing degree sorted edges 190/256 records=36
+Writing degree sorted edges 191/256 records=112
+Writing degree sorted edges 192/256 records=112
+Writing degree sorted edges 193/256 records=86
+Writing degree sorted edges 194/256 records=16
+Writing degree sorted edges 195/256 records=122
+Writing degree sorted edges 196/256 records=38
+Writing degree sorted edges 197/256 records=26
+Writing degree sorted edges 198/256 records=114
+Writing degree sorted edges 199/256 records=68
+Writing degree sorted edges 200/256 records=146
+Writing degree sorted edges 201/256 records=82
+Writing degree sorted edges 202/256 records=0
+Writing degree sorted edges 203/256 records=0
+Writing degree sorted edges 204/256 records=12
+Writing degree sorted edges 205/256 records=4
+Writing degree sorted edges 206/256 records=4
+Writing degree sorted edges 207/256 records=2
+Writing degree sorted edges 208/256 records=2
+Writing degree sorted edges 209/256 records=8
+Writing degree sorted edges 210/256 records=16
+Writing degree sorted edges 211/256 records=4
+Writing degree sorted edges 212/256 records=2
+Writing degree sorted edges 213/256 records=4
+Writing degree sorted edges 214/256 records=2
+Writing degree sorted edges 215/256 records=2
+Writing degree sorted edges 216/256 records=0
+Writing degree sorted edges 217/256 records=0
+Writing degree sorted edges 218/256 records=0
+Writing degree sorted edges 219/256 records=0
+Writing degree sorted edges 220/256 records=0
+Writing degree sorted edges 221/256 records=0
+Writing degree sorted edges 222/256 records=0
+Writing degree sorted edges 223/256 records=0
+Writing degree sorted edges 224/256 records=2
+Writing degree sorted edges 225/256 records=0
+Writing degree sorted edges 226/256 records=0
+Writing degree sorted edges 227/256 records=0
+Writing degree sorted edges 228/256 records=0
+Writing degree sorted edges 229/256 records=0
+Writing degree sorted edges 230/256 records=0
+Writing degree sorted edges 231/256 records=0
+Writing degree sorted edges 232/256 records=0
+Writing degree sorted edges 233/256 records=2
+Writing degree sorted edges 234/256 records=8
+Writing degree sorted edges 235/256 records=12
+Writing degree sorted edges 236/256 records=10
+Writing degree sorted edges 237/256 records=4
+Writing degree sorted edges 238/256 records=10
+Writing degree sorted edges 239/256 records=6
+Writing degree sorted edges 240/256 records=0
+Writing degree sorted edges 241/256 records=0
+Writing degree sorted edges 242/256 records=10
+Writing degree sorted edges 243/256 records=18
+Writing degree sorted edges 244/256 records=16
+Writing degree sorted edges 245/256 records=12
+Writing degree sorted edges 246/256 records=22
+Writing degree sorted edges 247/256 records=0
+Writing degree sorted edges 248/256 records=0
+Writing degree sorted edges 249/256 records=0
+Writing degree sorted edges 250/256 records=0
+Writing degree sorted edges 251/256 records=0
+Writing degree sorted edges 252/256 records=0
+Writing degree sorted edges 253/256 records=0
+Writing degree sorted edges 254/256 records=0
+Writing degree sorted edges 255/256 records=0
+Writing degree sorted edges 256/256 records=0
+Computing vertex cover bucket 38/38 edges=51 key_begin=51 key_end=52
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 37/38 edges=50 key_begin=50 key_end=51
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 36/38 edges=196 key_begin=49 key_end=50
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 35/38 edges=288 key_begin=48 key_end=49
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 34/38 edges=235 key_begin=47 key_end=48
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 33/38 edges=92 key_begin=46 key_end=47
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 32/38 edges=225 key_begin=45 key_end=46
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 31/38 edges=88 key_begin=44 key_end=45
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 30/38 edges=172 key_begin=43 key_end=44
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 29/38 edges=42 key_begin=42 key_end=43
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 28/38 edges=74 key_begin=37 key_end=42
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 27/38 edges=96 key_begin=32 key_end=37
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 26/38 edges=30 key_begin=30 key_end=32
+Queue nodes=0 edges=0 top degree=0
+Computing vertex cover bucket 25/38 edges=27 key_begin=27 key_end=30
+Queue nodes=1 edges=30 top degree=14
+Computing vertex cover bucket 24/38 edges=75 key_begin=25 key_end=27
+Queue nodes=2 edges=57 top degree=14
+Computing vertex cover bucket 23/38 edges=24 key_begin=24 key_end=25
+Queue nodes=5 edges=132 top degree=16
+Computing vertex cover bucket 22/38 edges=22 key_begin=22 key_end=24
+Queue nodes=6 edges=156 top degree=16
+Computing vertex cover bucket 21/38 edges=21 key_begin=21 key_end=22
+Queue nodes=7 edges=178 top degree=16
+Computing vertex cover bucket 20/38 edges=80 key_begin=20 key_end=21
+Queue nodes=8 edges=199 top degree=16
+Computing vertex cover bucket 19/38 edges=38 key_begin=19 key_end=20
+Queue nodes=12 edges=279 top degree=16
+Computing vertex cover bucket 18/38 edges=126 key_begin=18 key_end=19
+Queue nodes=14 edges=317 top degree=16
+Computing vertex cover bucket 17/38 edges=119 key_begin=17 key_end=18
+Queue nodes=20 edges=425 top degree=16
+Computing vertex cover bucket 16/38 edges=48 key_begin=16 key_end=17
+Queue nodes=11 edges=200 top degree=10
+Computing vertex cover bucket 15/38 edges=75 key_begin=15 key_end=16
+Queue nodes=11 edges=200 top degree=10
+Computing vertex cover bucket 14/38 edges=112 key_begin=14 key_end=15
+Queue nodes=14 edges=245 top degree=10
+Computing vertex cover bucket 13/38 edges=52 key_begin=13 key_end=14
+Queue nodes=20 edges=329 top degree=10
+Computing vertex cover bucket 12/38 edges=36 key_begin=12 key_end=13
+Queue nodes=24 edges=381 top degree=10
+Computing vertex cover bucket 11/38 edges=44 key_begin=11 key_end=12
+Queue nodes=25 edges=393 top degree=10
+Computing vertex cover bucket 10/38 edges=70 key_begin=10 key_end=11
+Queue nodes=5 edges=86 top degree=2
+Computing vertex cover bucket 9/38 edges=72 key_begin=9 key_end=10
+Queue nodes=5 edges=86 top degree=2
+Computing vertex cover bucket 8/38 edges=48 key_begin=8 key_end=9
+Queue nodes=6 edges=95 top degree=6
+Computing vertex cover bucket 7/38 edges=84 key_begin=7 key_end=8
+Queue nodes=8 edges=111 top degree=6
+Computing vertex cover bucket 6/38 edges=30 key_begin=6 key_end=7
+Queue nodes=7 edges=100 top degree=2
+Computing vertex cover bucket 5/38 edges=45 key_begin=5 key_end=6
+Queue nodes=7 edges=100 top degree=2
+Computing vertex cover bucket 4/38 edges=132 key_begin=4 key_end=5
+Queue nodes=7 edges=100 top degree=2
+Computing vertex cover bucket 3/38 edges=99 key_begin=3 key_end=4
+Queue nodes=12 edges=120 top degree=2
+Computing vertex cover bucket 2/38 edges=72 key_begin=2 key_end=3
+Queue nodes=13 edges=104 top degree=1
+Computing vertex cover bucket 1/38 edges=132 key_begin=1 key_end=2
+Queue nodes=10 edges=52 top degree=0
+Computing transitive closure...  [0s]
+Generating output...  [0s]
+#Clusters: 220

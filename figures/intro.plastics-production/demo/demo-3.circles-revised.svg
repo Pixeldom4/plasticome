@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="217.0mm" height="183.8mm" viewBox="0 0 217.0 183.8">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><pattern id="hatch" patternUnits="userSpaceOnUse" width="1.4" height="1.4" patternTransform="rotate(45)"><rect width="1.4" height="1.4" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="1.4" stroke="#1b5998" stroke-width="0.3" stroke-opacity="0.55"/></pattern></defs>
+<text x="12.0" y="12.0" font-family="'Ubuntu Sans Mono'" font-size="7.0" font-weight="bold" fill="#000000">A.</text>
+<text x="21.2" y="12.0" font-family="'Ubuntu Sans Mono'" font-size="7.0" font-weight="bold" fill="#000000">The Scale of Global Plastics Production</text>
+<text x="21.2" y="17.2" font-family="'Ubuntu Sans Mono', monospace" font-size="3.1" fill="#555555">Carbon mass in 2026. Plastics: Geyer 2017, Pottinger 2024. Life: Bar-On et al. 2018.</text>
+<circle cx="125.000" cy="84.000" r="60.000" fill="#7de8a1" stroke="#24ca5b" stroke-width="0.5"/>
+<circle cx="125.000" cy="120.336" r="23.664" fill="#c59bed" stroke="#a15ee3" stroke-width="0.5"/>
+<circle cx="125.000" cy="134.202" r="9.798" fill="#f0c5a6" stroke="#e59f6c" stroke-width="0.5"/>
+<circle cx="125.000" cy="136.517" r="7.483" fill="#ecde97" stroke="#ddc23c" stroke-width="0.5"/>
+<circle cx="125.000" cy="138.343" r="5.657" fill="#7cd9de" stroke="#33c0c8" stroke-width="0.5"/>
+<circle cx="125.000" cy="140.000" r="4.000" fill="#f2b3b4" stroke="#e1595b" stroke-width="0.5"/>
+<path d="M200.019,134.981 L200.019,125.963 A9.019,9.019 0 1 1 192.410,139.824 Z" fill="#7db3e8" stroke="#ffffff" stroke-width="0.35" stroke-linejoin="round"/>
+<path d="M200.019,134.981 L192.410,139.824 A9.019,9.019 0 0 1 191.407,132.302 Z" fill="#1b5998" stroke="#ffffff" stroke-width="0.35" stroke-linejoin="round"/>
+<path d="M200.019,134.981 L191.407,132.302 A9.019,9.019 0 0 1 200.019,125.963 Z" fill="url(#hatch)" stroke="#ffffff" stroke-width="0.35" stroke-linejoin="round"/>
+<path d="M200.019,125.963 A9.019,9.019 0 1 1 192.410,139.824" fill="none" stroke="#1b5998" stroke-width="0.8"/>
+<path d="M192.410,139.824 A9.019,9.019 0 0 1 191.407,132.302" fill="none" stroke="#1b5998" stroke-width="0.8"/>
+<path d="M191.407,132.302 A9.019,9.019 0 0 1 200.019,125.963" fill="none" stroke="#1b5998" stroke-width="0.8" stroke-dasharray="1.1 0.7"/>
+<line x1="59.00" y1="136.00" x2="125.00" y2="136.00" stroke="#e1595b" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+<circle cx="125.00" cy="136.00" r="0.5" fill="#a24042"/>
+<polyline points="59.00,136.00 57.40,136.00 56.20,136.00" fill="none" stroke="#a24042" stroke-width="0.35"/>
+<text x="55.60" y="137.19" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#a24042"><tspan font-size="3.4" font-weight="bold">Animals</tspan><tspan font-size="2.89" dx="1.2">2 Gt C</tspan></text>
+<line x1="59.00" y1="132.69" x2="125.00" y2="132.69" stroke="#33c0c8" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+<circle cx="125.00" cy="132.69" r="0.5" fill="#258a90"/>
+<polyline points="59.00,132.69 57.40,132.69 56.20,131.20" fill="none" stroke="#258a90" stroke-width="0.35"/>
+<text x="55.60" y="132.39" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#258a90"><tspan font-size="3.4" font-weight="bold">Protists</tspan><tspan font-size="2.89" dx="1.2">4 Gt C</tspan></text>
+<line x1="59.00" y1="129.03" x2="125.00" y2="129.03" stroke="#ddc23c" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+<circle cx="125.00" cy="129.03" r="0.5" fill="#9f8c2b"/>
+<polyline points="59.00,129.03 57.40,129.03 56.20,126.40" fill="none" stroke="#9f8c2b" stroke-width="0.35"/>
+<text x="55.60" y="127.59" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#9f8c2b"><tspan font-size="3.4" font-weight="bold">Archaea</tspan><tspan font-size="2.89" dx="1.2">7 Gt C</tspan></text>
+<line x1="59.00" y1="125.96" x2="200.02" y2="125.96" stroke="#1b5998" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+<circle cx="200.02" cy="125.96" r="0.5" fill="#13406d"/>
+<polyline points="59.00,125.96 57.40,125.96 56.20,121.60" fill="none" stroke="#13406d" stroke-width="0.35"/>
+<text x="55.60" y="122.79" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#13406d"><tspan font-size="3.4" font-weight="bold">Plastics produced</tspan><tspan font-size="2.89" dx="1.2">10.2 Gt C</tspan></text>
+<line x1="59.00" y1="124.40" x2="125.00" y2="124.40" stroke="#e59f6c" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+<circle cx="125.00" cy="124.40" r="0.5" fill="#a5724e"/>
+<polyline points="59.00,124.40 57.40,124.40 56.20,116.80" fill="none" stroke="#a5724e" stroke-width="0.35"/>
+<text x="55.60" y="117.99" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#a5724e"><tspan font-size="3.4" font-weight="bold">Fungi</tspan><tspan font-size="2.89" dx="1.2">12 Gt C</tspan></text>
+<line x1="59.00" y1="96.67" x2="125.00" y2="96.67" stroke="#a15ee3" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+<circle cx="125.00" cy="96.67" r="0.5" fill="#7444a3"/>
+<polyline points="59.00,96.67 57.40,96.67 56.20,96.67" fill="none" stroke="#7444a3" stroke-width="0.35"/>
+<text x="55.60" y="97.86" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#7444a3"><tspan font-size="3.4" font-weight="bold">Bacteria</tspan><tspan font-size="2.89" dx="1.2">70 Gt C</tspan></text>
+<line x1="59.00" y1="24.00" x2="125.00" y2="24.00" stroke="#24ca5b" stroke-width="0.3" stroke-dasharray="1 0.8"/>
+<circle cx="125.00" cy="24.00" r="0.5" fill="#1a9142"/>
+<polyline points="59.00,24.00 57.40,24.00 56.20,24.00" fill="none" stroke="#1a9142" stroke-width="0.35"/>
+<text x="55.60" y="25.19" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#1a9142"><tspan font-size="3.4" font-weight="bold">Plants</tspan><tspan font-size="2.89" dx="1.2">450 Gt C</tspan></text>
+<rect x="206.44" y="147.50" width="2.6" height="2.6" rx="0.4" fill="#7db3e8" stroke="#1b5998" stroke-width="0.3"/>
+<text x="204.84" y="150.00" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#000000"><tspan font-size="3.2">landfill, environment or in use</tspan><tspan font-size="2.9" fill="#555555" dx="1.2">6.7 Gt C</tspan></text>
+<rect x="206.44" y="152.10" width="2.6" height="2.6" rx="0.4" fill="#1b5998" stroke="#1b5998" stroke-width="0.3"/>
+<text x="204.84" y="154.60" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#000000"><tspan font-size="3.2">recycled</tspan><tspan font-size="2.9" fill="#555555" dx="1.2">1.4 Gt C</tspan></text>
+<rect x="206.44" y="156.70" width="2.6" height="2.6" rx="0.4" fill="url(#hatch)" stroke="#1b5998" stroke-width="0.3" stroke-dasharray="0.6 0.4"/>
+<text x="204.84" y="159.20" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#000000"><tspan font-size="3.2">incinerated, now CO₂</tspan><tspan font-size="2.9" fill="#555555" dx="1.2">2.1 Gt C</tspan></text>
+<line x1="131.04" y1="163.80" x2="209.04" y2="163.80" stroke="#c8c8c8" stroke-width="0.25"/>
+<circle cx="205.04" cy="171.80" r="4.00" fill="#f2b3b4" stroke="#e1595b" stroke-width="0.5"/>
+<text x="198.64" y="171.20" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#000000"><tspan font-size="3.4" font-weight="bold">Still plastic: 8.1 Gt C</tspan></text>
+<text x="198.64" y="175.40" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" font-size="3.1" fill="#13406d"><tspan font-weight="bold">4.1×</tspan> the carbon in all animals (circle)</text>
+<circle cx="14.828" cy="152.828" r="2.828" fill="#aeaeae" stroke="#989898" stroke-width="0.5"/>
+<text x="19.66" y="154.03" font-family="'Ubuntu Sans Mono', monospace" font-size="3.4" fill="#000000">= 1 billion tonnes of carbon (area)</text>
+</svg>

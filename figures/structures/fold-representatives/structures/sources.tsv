@@ -1,0 +1,11 @@
+slice	representative	fold	catalytic_cath	fill	source	source_note	chain	percent_identity_to_rep	residues_drawn	rep_length_aa	helix	strand	loop	secondary_structure_from	trimmed_n_term	trimmed_c_term
+g00	TfCut_2	Alpha/beta hydrolase	3.40.50.1820	#f3ead6	rcsb	4CG1	A	99.2	262	261	100	58	104	records	0	0
+g01	NylC	L-amino peptidase D-ALA esterase/amidase	3.60.70.12	#f5dde2	rcsb	5XYG	B	95.5	339	355	104	99	136	records	0	0
+g02	NylA	Amidase signature (AS) domain	3.90.1300.10	#e4dff3	rcsb	3A2P	A	98.0	483	493	242	60	181	records	0	0
+g03	LCP_STRK3	Oxygenase MpaB family protein	none	#dcedd6	rcsb	5O1L	A	92.1	375	407	268	0	107	records	0	0
+g04	NylB	DD-peptidase/beta-lactamase superfamily	3.40.710.10	#d3ece8	rcsb	2E8I	A	88.8	384	392	163	53	168	records	0	0
+g05	PLAase I	Trypsin-like serine proteases	2.40.10.10	#fbe2cf	esmfold	mean pLDDT 92.3	A	100.0	208	245	43	111	54	ca_geometry	37	0
+g06	Subtilisin BL	Peptidase S8/S53 domain	3.40.50.200	#d8e6f5	rcsb	1ST3	A	99.6	269	269	83	46	140	records	0	0
+g07	RoxA	Cytochrome c-like domain	1.10.760.10	#f4efc2	rcsb	4B2N	A	95.6	648	678	280	33	335	records	0	0
+g08	LMC021	Cupredoxins - blue copper proteins	2.60.40.420	#eddcee	afdb	A0A076EYX8	A	100.0	475	516	124	255	96	ca_geometry	41	0
+g09	E4	SGNH hydrolase	3.40.50.1110	#e2e8cc	rcsb	6M43	A	99.5	190	191	114	26	50	records	0	0

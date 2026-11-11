@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CATH Assignment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+/* Wiki tokens from src/styles/globalStyles.js, plus chart series (validated, dataviz palette slots 1-3) */
+:root {
+  --color-bg: #f0ede6;
+  --color-surface: #faf8f3;
+  --color-accent: #c8f050;
+  --color-text: #0a0a0a;
+  --color-text-2: #52514e;
+  --color-muted: #8a8780;
+  --color-rule: #d9d4c8;
+  --color-grid: #e4dfd4;
+  --s-v2: #2a78d6;   /* CATH class 3, alpha-beta */
+  --s-both: #1baf7a; /* CATH class 1, mainly alpha */
+  --s-v1: #eb6834;   /* CATH class 2, mainly beta */
+  --s-one: #2a78d6;  /* single-series charts */
+  --note-bg: #fff7d6;
+  --note-rule: #d9b84a;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #121211; --color-surface: #1a1a19; --color-text: #f0efec; --color-text-2: #c3c2b7;
+    --color-muted: #8f8d85; --color-rule: #34332f; --color-grid: #2a2a27;
+    --s-v2: #3987e5; --s-both: #199e70; --s-v1: #d95926; --s-one: #3987e5;
+    --note-bg: #2b2716; --note-rule: #8a7430;
+  }
+}
+:root[data-theme="dark"] {
+  --color-bg: #121211; --color-surface: #1a1a19; --color-text: #f0efec; --color-text-2: #c3c2b7;
+  --color-muted: #8f8d85; --color-rule: #34332f; --color-grid: #2a2a27;
+  --s-v2: #3987e5; --s-both: #199e70; --s-v1: #d95926; --s-one: #3987e5;
+  --note-bg: #2b2716; --note-rule: #8a7430;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--color-bg); color: var(--color-text); font: 16px/1.6 var(--font-body); }
+a { color: inherit; text-decoration-color: var(--color-muted); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--color-text); }
+code, .mono { font-family: var(--font-mono); font-size: 0.9em; }
+
+/* draft chrome, not part of the wiki page */
+.draftbar { position: sticky; top: 0; z-index: 10; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+  padding: 10px 16px; background: var(--color-text); color: var(--color-bg); font-size: 13px; }
+.draftbar b { font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; font-size: 11px; opacity: 0.7; }
+.draftbar nav { display: flex; gap: 4px; }
+.draftbar nav a { padding: 4px 12px; border-radius: 99px; text-decoration: none; }
+.draftbar .xpage { padding: 4px 12px; border: 1px solid currentColor; border-radius: 99px; text-decoration: none; opacity: 0.8; }
+.draftbar nav a[aria-current="page"] { background: var(--color-accent); color: #0a0a0a; }
+.draftbar label { margin-left: auto; display: flex; gap: 6px; align-items: center; cursor: pointer; }
+
+main { max-width: 1040px; margin: 0 auto; padding: 40px 16px 96px; }
+.page[hidden] { display: none; }
+.eyebrow { font: 500 12px/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-2); }
+h1 { font: 400 clamp(36px, 6vw, 60px)/1.05 var(--font-display); margin: 12px 0 16px; letter-spacing: -0.01em; }
+h2 { font: 400 30px/1.15 var(--font-display); margin: 64px 0 12px; }
+h3 { font: 700 17px/1.3 var(--font-body); margin: 32px 0 8px; }
+.lede { font-size: 20px; line-height: 1.5; max-width: 62ch; color: var(--color-text-2); margin: 0; }
+.prose { max-width: 70ch; }
+.prose p { margin: 0 0 14px; }
+
+/* writer notes: visible in the draft, become MDX comments on the real page */
+.note { border: 1.5px dashed var(--note-rule); background: var(--note-bg); border-radius: 10px; padding: 12px 14px;
+  font-size: 14px; line-height: 1.5; margin: 16px 0; max-width: 78ch; }
+.note::before { content: "Writer note"; display: block; font: 500 11px/1 var(--font-mono); letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--color-text-2); margin-bottom: 6px; }
+.note ul { margin: 4px 0 0; padding-left: 18px; }
+.show-notes-off .note { display: none; }
+
+/* text provenance markers: draft only, hidden with the notes */
+:root { --src-hand: #7fae00; --src-ai: #d9a400; --src-own: #8a8780; }
+.ms-hand, .ms-ai, .own { border-left: 3px solid transparent; padding-left: 12px; margin-left: -15px; }
+.ms-hand { border-left-color: var(--src-hand); }
+.ms-ai { border-left-color: var(--src-ai); }
+.own { border-left: 3px dashed var(--src-own); }
+.show-notes-off .ms-hand, .show-notes-off .ms-ai, .show-notes-off .own { border-left-color: transparent; }
+.key { display: inline-block; padding: 1px 8px; margin: 2px 4px 2px 0; border-left: 3px solid; font-size: 12.5px; }
+.key.hand { border-color: var(--src-hand); } .key.ai { border-color: var(--src-ai); } .key.own { border-left-style: dashed; border-color: var(--src-own); }
+@media (max-width: 760px) { .ms-hand, .ms-ai, .own { margin-left: 0; } }
+
+.fighead { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; flex-wrap: wrap; }
+.fighead select { font: inherit; font-size: 14px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--color-rule); background: var(--color-bg); color: var(--color-text); }
+.bars.wide { grid-template-columns: minmax(120px, 290px) 1fr 44px; }
+.bars .lab b { font-weight: 700; }
+@media (max-width: 600px) { .bars.wide .lab small { display: none; } .bars.wide { grid-template-columns: 64px 1fr 36px; } }
+
+/* stat tiles */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 36px 0 8px; }
+.stat { background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 14px; padding: 16px; }
+.stat .v { font: 400 40px/1 var(--font-display); }
+.stat .k { font-size: 13px; color: var(--color-text-2); margin-top: 8px; line-height: 1.35; }
+.stat.hero { background: var(--color-accent); border-color: transparent; color: #0a0a0a; }
+.stat.hero .k { color: #2a2a26; }
+
+/* figures */
+figure { margin: 28px 0 0; background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 16px; padding: 20px; }
+figcaption { font-size: 14px; color: var(--color-text-2); margin-top: 14px; line-height: 1.5; max-width: 80ch; }
+figcaption b { color: var(--color-text); font-weight: 700; }
+.figtitle { font-weight: 700; font-size: 15px; margin: 0 0 4px; }
+.figsub { font-size: 13px; color: var(--color-text-2); margin: 0 0 16px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--color-text-2); margin: 0 0 12px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+
+/* flow figure */
+.flow { display: grid; grid-template-columns: 1fr 40px 1fr 40px 1.1fr; align-items: center; gap: 0; }
+.lane { display: flex; flex-direction: column; gap: 12px; }
+.node { border: 1px solid var(--color-rule); border-radius: 12px; padding: 12px 14px; background: var(--color-bg); }
+.node .n { font: 400 28px/1 var(--font-display); }
+.node .t { font-weight: 700; font-size: 14px; margin-top: 4px; }
+.node .d { font-size: 12.5px; color: var(--color-text-2); margin-top: 4px; line-height: 1.4; }
+.node.out { background: var(--color-accent); border-color: transparent; color: #0a0a0a; }
+.node.out .d { color: #2a2a26; }
+.arrow { text-align: center; color: var(--color-muted); font-size: 20px; }
+.mini { display: flex; height: 8px; gap: 2px; margin-top: 10px; }
+.mini i { display: block; height: 100%; border-radius: 3px; }
+@media (max-width: 760px) {
+  .flow { grid-template-columns: 1fr; }
+  .arrow { transform: rotate(90deg); padding: 4px 0; }
+}
+
+/* bar charts */
+.bars { display: grid; grid-template-columns: 96px 1fr 44px; gap: 6px 10px; align-items: center; font-size: 13px; }
+.bars .lab { color: var(--color-text); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bars .lab small { color: var(--color-muted); }
+.bars .track { display: flex; gap: 2px; height: 16px; }
+.bars .seg { height: 100%; border-radius: 0; position: relative; }
+.bars .seg:first-child { border-radius: 4px 0 0 4px; }
+.bars .seg:last-child { border-radius: 0 4px 4px 0; }
+.bars .seg:only-child { border-radius: 4px; }
+.bars .seg:hover, .bars .seg.hl { filter: brightness(1.12); outline: 2px solid var(--color-text); outline-offset: 1px; z-index: 1; }
+.bars .val { color: var(--color-text-2); font-variant-numeric: tabular-nums; }
+.bars.dim .seg:not(.hl) { opacity: 0.35; }
+
+/* dumbbell */
+.dumb svg { width: 100%; height: auto; display: block; overflow: visible; }
+.dumb text { font: 12px var(--font-body); fill: var(--color-text-2); }
+.dumb .axis line { stroke: var(--color-grid); }
+.dumb .row:hover text.name { fill: var(--color-text); font-weight: 700; }
+
+/* tooltip */
+#tip { position: fixed; pointer-events: none; z-index: 20; background: var(--color-text); color: var(--color-bg);
+  font-size: 12.5px; line-height: 1.4; padding: 8px 10px; border-radius: 8px; max-width: 260px; opacity: 0; transition: opacity .08s; }
+#tip b { font-weight: 700; }
+
+/* demo */
+.demo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 16px; }
+@media (max-width: 860px) { .demo { grid-template-columns: 1fr; } }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.controls input, .controls select { font: inherit; font-size: 14px; padding: 8px 10px; border-radius: 10px;
+  border: 1px solid var(--color-rule); background: var(--color-bg); color: var(--color-text); min-width: 0; }
+.controls input { flex: 1 1 180px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.chip { font: inherit; font-size: 12.5px; border: 1px solid var(--color-rule); background: transparent; color: var(--color-text);
+  border-radius: 99px; padding: 4px 10px; cursor: pointer; }
+.chip:hover { border-color: var(--color-text); }
+.list { max-height: 460px; overflow: auto; border: 1px solid var(--color-rule); border-radius: 12px; background: var(--color-bg); }
+.list button { display: grid; grid-template-columns: 52px 1fr auto; gap: 8px; align-items: center; width: 100%; text-align: left;
+  font: inherit; font-size: 14px; color: inherit; background: none; border: 0; border-bottom: 1px solid var(--color-grid); padding: 8px 12px; cursor: pointer; }
+.list button:hover { background: var(--color-surface); }
+.list button[aria-selected="true"] { background: var(--color-accent); color: #0a0a0a; }
+.list .pl { font-family: var(--font-mono); font-size: 12px; color: var(--color-text-2); }
+.list button[aria-selected="true"] .pl { color: #2a2a26; }
+.list .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tag { font: 500 11px/1 var(--font-mono); padding: 4px 6px; border-radius: 6px; color: #fff; white-space: nowrap; }
+.count { font-size: 13px; color: var(--color-text-2); margin: 8px 2px 0; }
+.card { border: 1px solid var(--color-rule); border-radius: 14px; background: var(--color-bg); padding: 18px; }
+.card h4 { font: 400 28px/1.1 var(--font-display); margin: 4px 0 6px; }
+.card .meta { font-size: 13px; color: var(--color-text-2); }
+.kv { display: grid; grid-template-columns: 120px 1fr; gap: 4px 12px; font-size: 13.5px; margin: 14px 0; }
+.kv dt { color: var(--color-text-2); }
+.kv dd { margin: 0; overflow-wrap: anywhere; }
+.trail { list-style: none; padding: 0; margin: 16px 0 0; position: relative; }
+.trail li { position: relative; padding: 0 0 14px 26px; font-size: 13.5px; line-height: 1.45; }
+.trail li::before { content: ""; position: absolute; left: 6px; top: 6px; width: 9px; height: 9px; border-radius: 50%; background: var(--color-text); }
+.trail li::after { content: ""; position: absolute; left: 10px; top: 18px; bottom: 0; width: 1px; background: var(--color-rule); }
+.trail li:last-child::after { display: none; }
+.trail li.skip::before { background: var(--color-bg); border: 1.5px solid var(--color-muted); }
+.trail li.skip { color: var(--color-muted); }
+.trail .st { font-weight: 700; display: block; }
+.trail q { color: var(--color-text-2); font-style: italic; }
+
+/* methods */
+.methods-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; }
+@media (max-width: 900px) { .methods-layout { grid-template-columns: 1fr; } .toc { display: none; } }
+.toc { position: sticky; top: 64px; align-self: start; font-size: 13.5px; }
+.toc ol { list-style: none; padding: 0; margin: 0; border-left: 1px solid var(--color-rule); }
+.toc a { display: block; padding: 4px 0 4px 12px; text-decoration: none; color: var(--color-text-2); }
+.toc a:hover { color: var(--color-text); }
+.callout { border-left: 4px solid var(--color-accent); background: var(--color-surface); padding: 12px 16px; border-radius: 0 10px 10px 0; margin: 24px 0; max-width: 70ch; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 20px; }
+.tablewrap { overflow-x: auto; max-width: 100%; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--color-rule); vertical-align: top; }
+th { font-weight: 700; font-size: 13px; color: var(--color-text-2); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+pre { background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 10px; padding: 14px; overflow-x: auto; font: 13px/1.5 var(--font-mono); }
+.cta { display: inline-flex; gap: 8px; align-items: center; margin-top: 28px; padding: 12px 18px; border-radius: 99px;
+  background: var(--color-text); color: var(--color-bg); text-decoration: none; font-weight: 500; }
+.cta:hover { background: #333; }
+/* forest figure */
+.forest { display: block; background: #fbfbf9; border-radius: 12px; padding: 8px; cursor: zoom-in; }
+.forest img { display: block; width: 100%; height: auto; }
+.foldbtns { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.foldbtns a { text-decoration: none;  font: inherit; font-size: 12.5px; border: 1px solid var(--color-rule); background: transparent; color: var(--color-text); border-radius: 99px; padding: 4px 10px; cursor: pointer; }
+.foldbtns a:hover { border-color: var(--color-text); }
+.foldbtns a small { color: var(--color-muted); font-family: var(--font-mono); margin-left: 4px; }
+
+
+/* ---- CATH Assignment additions ---- */
+.flow4 { display: grid; grid-template-columns: 0.9fr 32px 1.3fr 32px 1fr 32px 1fr; align-items: center; }
+@media (max-width: 860px) { .flow4 { grid-template-columns: 1fr; } .flow4 .arrow { transform: rotate(90deg); padding: 4px 0; } }
+.node .rt { font: 500 11px/1 var(--font-mono); letter-spacing: 0.06em; color: var(--color-text-2); text-transform: uppercase; }
+.track svg { width: 100%; height: auto; display: block; overflow: visible; }
+.track text { font: 11px var(--font-body); fill: var(--color-text-2); }
+.track text.in { fill: #fff; font: 500 10.5px var(--font-mono); pointer-events: none; }
+.track .blk:hover { filter: brightness(1.12); }
+.dt { font-size: 12.5px; }
+.dt td, .dt th { padding: 6px 8px; }
+.dt small { color: var(--color-muted); }
+.dt .muted { color: var(--color-muted); }
+.verdict { font: 500 11px/1 var(--font-mono); padding: 3px 6px; border-radius: 6px; border: 1px solid var(--color-rule); white-space: nowrap; }
+.verdict.conflict { border-color: var(--s-v1); }
+.hist svg { width: 100%; height: auto; display: block; overflow: visible; }
+.hist text { font: 12px var(--font-body); fill: var(--color-text-2); }
+.hist .axis line { stroke: var(--color-grid); }
+.hist rect.bar:hover { filter: brightness(1.15); }
+.cls3 { background: var(--s-v2); } .cls1 { background: var(--s-both); } .cls2 { background: var(--s-v1); } .clsN { background: var(--color-muted); }
+.card .special { border-left: 3px solid var(--color-accent); background: var(--color-surface); padding: 8px 12px; font-size: 13.5px; margin: 12px 0 0; border-radius: 0 8px 8px 0; }
+</style>
+</head>
+<body>
+<div id="tip" role="tooltip"></div>
+
+<div class="draftbar">
+  <b>Draft</b>
+  <nav aria-label="Draft pages">
+    <a href="#overview" data-page="overview">1 · Overview (on Model page)</a>
+    <a href="#methods" data-page="methods">2 · Methods page</a>
+  </nav>
+  <a class="xpage" href="../01%20plasticome/plasticome-curation.html#overview">← 01 Plasticome</a>
+  <label><input type="checkbox" id="notesToggle" checked> Writer notes</label>
+  <label><input type="checkbox" id="darkToggle"> Dark</label>
+</div>
+
+<main>
+<!-- =========================================================== -->
+<!-- PAGE 1: OVERVIEW. Lives at /dry-lab/model/#cath-assignment -->
+<!-- =========================================================== -->
+<section class="page" id="page-overview">
+  <div class="eyebrow">Model · Dataset Generation · 2 of 7</div>
+  <h1>CATH Assignment</h1>
+  <div class="own">
+    <p class="lede">Before using the plasticome to search for new enzymes, we checked what kinds of proteins it contains. We gave every enzyme a structural label from CATH, a database that sorts protein domains into families by their 3D fold.</p>
+    <p class="lede" style="margin-top:14px">Each enzyme was labelled three independent ways: by comparing its predicted structure with known structures, by matching its sequence against CATH sequence models, and by matching it against Pfam protein families. The structure search and the sequence search against CATH agree on every domain they both label. The plasticome is dominated by the α/β-hydrolase fold shared by IsPETase and LCC, followed by a smaller group of peptidases and amidases.</p>
+  </div>
+
+  <div class="note">
+    This block replaces the placeholder under <code>### CATH Assignment</code> in <code>src/content/wiki/dry-lab/model/index.mdx</code>.
+    <ul>
+      <li><b>Every passage on both pages is marked <span class="key own">no manuscript text, drafted for the wiki</span>, except the Figure 1 caption, which is <span class="key hand">manuscript, hand-written</span>.</b> <code>petadex-manuscript.tex</code> is not on watson, so no sentence here could be checked against it or attributed to it. Before publishing, compare against the manuscript's plasticome-domain paragraphs and re-mark any sentence that matches.</li>
+      <li>The manuscript gap list (<code>~/manuscript-README.md</code>, D4) says the Results text credits domain assignment to "InterProScan" and gives "15 distinct protein domains". InterProScan was not run for this. The page credits the three routes that were run. The 15 does match: the final table has 15 distinct catalytic CATH superfamilies (Figure 5, Methods), and the Lcp family is a 16th domain name with no CATH code. Make the manuscript and the wiki say the same thing.</li>
+      <li>Every number comes from <code>~/plasticome-cath-assignment/results/</code> through <code>extract_data.py</code>. Reference of record is CATH v4.3.0.</li>
+    </ul>
+  </div>
+
+
+
+
+  <figure aria-labelledby="ft">
+    <p class="figtitle" id="ft">Figure 1. The plasticome as a forest of fold groups</p>
+    <p class="figsub">Click the figure to open it full size. Pick a fold group below to list its enzymes in the plasticome explorer.</p>
+    <a class="forest" href="assets/plasticome-forest-full.png" target="_blank" rel="noopener"><img src="assets/plasticome-forest.jpg" alt="Circular forest of 16 fold groups. The alpha/beta hydrolase fold fills more than half the circle; amidase and peptidase folds follow, then smaller slices for oxygenases, beta-lactamase-like enzymes, proteases, cytochromes, cupredoxins and SGNH hydrolases, each with a representative structure." loading="lazy"></a>
+    <div class="foldbtns" id="foldBtns" aria-label="Fold groups"></div>
+    <figcaption class="ms-hand">The plasticome spans several unrelated and unalignable folds, so it cannot be aligned as a single family. Instead the 411 centroids are represented as 56 sequence-similarity families (connected components at 30% identity over 50% coverage), assigned to 16 fold groups by the CATH superfamily of their catalytic domain. Each slice is one fold group with its own tree; slices are not related to each other. Phylogenetic relationships are only reliable within families: between the families of the α/β-hydrolase fold only 2 of 33 backbone branches are supported, and no relationship is inferred across folds. Tips are coloured by substrate; dashed lines are supported links between families of the same fold (not to scale). Structures show one representative enzyme per fold, with its CATH superfamily and PDB entry.</figcaption>
+  </figure>
+  <div class="note">
+    Figure 1 is <code>petadex-manuscript/figures/figure2c_plasticome-forest.png</code> (Supplementary Fig. 1), copied into this folder's <code>assets/</code> as a 2400 px JPEG plus the full PNG. The caption merges Results ¶5 (hand-written) with the Supplementary Fig. 1 caption, whose .tex carries no AI-GENERATED marker; confirm it is hand-written. The tree README reports 4 of 33 backbone branches at UFBoot 95 (3 recovered independently); the manuscript says 2 of 33. The caption follows the manuscript; reconcile before publishing. Fold groups under the figure come from <code>logan-plasticome-figure/tree/runs/centroids/results/fold_table.tsv</code>.
+   The fold-group buttons link to the 01 plasticome explorer with that fold group selected (<code>#fold=g01</code>).</div>
+  <div class="note">Overview is the introduction text plus the forest figure. The stats tiles and the folds bar chart moved to Methods (end of "The final table"). The domain-call explorer is merged into the plasticome explorer on <code>01 plasticome</code> (tab "Domain calls"), which reads this folder's <code>data.json</code>.</div>
+  <p class="prose own">The domain calls for every enzyme can be browsed in the <a href="#">plasticome explorer</a>, under "Domain calls".</p>
+  <a class="cta" href="#methods">Read the full assignment methods →</a>
+</section>
+
+<!-- =========================================================== -->
+<!-- PAGE 2: METHODS. Lives at /dry-lab/model/cath-assignment/ (not in any menu) -->
+<!-- =========================================================== -->
+<section class="page" id="page-methods" hidden>
+  <div class="eyebrow">Model · Methods</div>
+  <h1>CATH Assignment: Methods</h1>
+  <div class="note">
+    New MDX file, following <code>dry-lab/model/plasticome/</code>: frontmatter <code>path: "/dry-lab/model/cath-assignment/"</code>, <code>order: 23</code>, reached only from the link at the end of the overview. Facts follow <code>obsidian-vault/PETadex/Projects/Plasticome CATH Assignment/</code> and the repo README. Counts in tables and figures come from <code>~/plasticome-cath-assignment/results/</code>.
+    <ul><li>Source key: <span class="key own">no manuscript text, drafted for the wiki</span> (the manuscript was not available; see the note on the overview).</li></ul>
+  </div>
+  <div class="callout">This page is the full write-up behind the <a href="#overview">CATH Assignment</a> subsection of the Model page. It picks up where <a href="#">Plasticome Reference Curation</a> ends, with one predicted structure for each of the 609 plasticome enzymes.</div>
+
+  <div class="methods-layout">
+    <nav class="toc" aria-label="On this page"><ol>
+      <li><a href="#m-why">Why assign CATH</a></li>
+      <li><a href="#m-design">Three independent routes</a></li>
+      <li><a href="#m-inputs">Inputs and references</a></li>
+      <li><a href="#m-seg">Cutting structures into domains</a></li>
+      <li><a href="#m-a">Route A: structure search</a></li>
+      <li><a href="#m-ted">Route A′: TED50</a></li>
+      <li><a href="#m-b">Route B: sequence models</a></li>
+      <li><a href="#m-x">Reconciling the routes</a></li>
+      <li><a href="#m-c">Route C: Pfam</a></li>
+      <li><a href="#m-res">How the routes compare</a></li>
+      <li><a href="#m-final">The final table</a></li>
+      <li><a href="#m-val">Validation</a></li>
+      <li><a href="#m-limits">Limitations</a></li>
+      <li><a href="#m-repro">Reproducing</a></li>
+    </ol></nav>
+
+    <div class="prose" style="max-width:none">
+      <h2 id="m-why" style="margin-top:0">Why assign CATH</h2>
+      <div class="own">
+        <p>The plasticome was assembled from published papers, one enzyme at a time. A fold label for every enzyme is a check on the whole set: it shows whether the set contains the kinds of proteins we expect, and makes outliers easy to find.</p>
+        <p>CATH classifies protein <i>domains</i>, the independently folding units of a protein, not whole chains. Each domain gets a four-part code: <b>C</b>lass (mainly α, mainly β, or α–β), <b>A</b>rchitecture, <b>T</b>opology, and <b>H</b>omologous superfamily. For example, <code>3.40.50.1820</code> is the α/β-hydrolase superfamily. We label at the superfamily level, the full four-part code, and do not go further into CATH's functional families. Superfamilies that share their first three numbers, such as <code>3.40.50.200</code> (subtilisin-like proteases) and <code>3.40.50.1820</code>, are different superfamilies and are reported separately.</p>
+        <p>Because CATH works on domains, every enzyme must first be cut into domains. A multidomain enzyme with different codes on different domains is a normal result, not a disagreement.</p>
+      </div>
+
+      <h2 id="m-design">Three independent routes</h2>
+      <div class="own">
+        <p>We labelled every domain in more than one way, so that agreement between methods tells us how far to trust each label. A single method gives a label but no way to judge it.</p>
+      </div>
+      <figure aria-labelledby="fpt">
+        <p class="figtitle" id="fpt">Figure 2. From 609 structures to one CATH label per domain</p>
+        <p class="figsub">The routes run on all 609 structures. Counts are domains unless marked.</p>
+        <div class="flow4" id="flow"></div>
+        <figcaption class="own">Routes A and A′ are the same structure search against two references. Route B uses only the sequence. Route C (Pfam) was added later to cover a family that CATH has never classified. All calls are mapped onto the domains Merizo cut, compared, and then collapsed into one row per enzyme.</figcaption>
+      </figure>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Route</th><th>Evidence</th><th>Reference</th><th>Output</th></tr></thead>
+        <tbody>
+          <tr><td><b>A</b></td><td>Structure</td><td>CATH S40, a curated set of 31,885 non-redundant CATH domains</td><td>CATH superfamily per Merizo domain</td></tr>
+          <tr><td><b>A′</b></td><td>Structure</td><td>TED50, 77.7 million domains cut from AlphaFold models</td><td>CATH superfamily per Merizo domain, where TED has one</td></tr>
+          <tr><td><b>B</b></td><td>Sequence</td><td>Gene3D, 66,720 profile HMMs built from CATH superfamilies</td><td>CATH superfamily per resolved HMM hit</td></tr>
+          <tr><td><b>C</b></td><td>Sequence</td><td>Pfam-A 38.2, 30,134 families</td><td>Pfam family and clan (not a CATH code)</td></tr>
+        </tbody>
+      </table></div>
+      <div class="own">
+        <p>Routes A and B are the core design: one reads the structure, the other the sequence, and they share nothing but the CATH classification itself. Routes A′ and C were added after the first run, each to answer a specific question raised by its results (see <a href="#m-ted">TED50</a> and <a href="#m-c">Pfam</a>).</p>
+      </div>
+
+      <h2 id="m-inputs">Inputs and references</h2>
+      <div class="own">
+        <p>The input is one predicted structure per plasticome enzyme: 609 ESMFold models, single chain, with per-residue confidence (pLDDT) in the B-factor column. Each file also contains the full sequence, so Route B reads its sequences from the same files and nothing has to be matched up between a FASTA and a structure. Sequences run from 28 to 734 residues (median 313). Residues are numbered 1 to <i>L</i> in both routes. Because the numbering is shared, domains from different routes can be compared residue by residue.</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Component</th><th>Version used</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>CATH S40 (Route A)</td><td>v4.3.0, September 2019</td><td>Reference of record. Re-checked against v4.4.0 (<a href="#m-val">Validation</a>).</td></tr>
+          <tr><td>TED50 (Route A′)</td><td>Foldseek <code>databases TED50</code>, AlphaFold DB v4, built February 2025</td><td>The only TED release published</td></tr>
+          <tr><td>Gene3D (Route B)</td><td>v21.0.1 (CATH v4.3.0), July 2019</td><td>Newest available. Gene3D has not been rebuilt since.</td></tr>
+          <tr><td>Pfam-A (Route C)</td><td>38.2, January 2026</td><td>Current release</td></tr>
+          <tr><td>Merizo</td><td>commit <code>c7dbbd1</code></td><td>Domain segmentation</td></tr>
+          <tr><td>Foldseek</td><td>master build <code>7f4b946</code> (July 2026)</td><td>See <a href="#m-repro">Reproducing</a></td></tr>
+          <tr><td>HMMER / cath-resolve-hits</td><td>3.4 / v0.16.10</td><td></td></tr>
+        </tbody>
+      </table></div>
+
+      <h2 id="m-seg">Cutting structures into domains</h2>
+      <div class="own">
+        <p>Each structure was cut into domains with Merizo, a deep-learning domain segmenter, run with iterative segmentation on CPU. Merizo reads only PDB format, so the mmCIF files were first converted with gemmi. This gave <span data-n="n_merizo_domains"></span> domains across the 609 structures.</p>
+        <p>Of these, <span data-n="merizo_discontinuous"></span> are <b>discontinuous</b>: one domain built from two or more separate stretches of sequence, usually because another domain is inserted into it. Every later step treats a domain as a <i>set</i> of residues, not a start and end, so these are handled correctly.</p>
+      </div>
+      <div class="bars" id="ndomBars" style="max-width:520px;margin:12px 0 4px"></div>
+      <p class="count">Structures by number of Merizo domains.</p>
+      <div class="note">The Merizo domain table's <code>n_res</code> column is a span (end − start + 1), not a residue count, so it overstates the size of the 280 discontinuous domains (<code>72_dom2</code>: 162 residues, <code>n_res</code> 392). No figure on this page uses it, but don't quote domain sizes from that column.</div>
+
+      <h2 id="m-a">Route A: structure search against CATH</h2>
+      <div class="own">
+        <p>Each Merizo domain was searched against CATH S40 with Foldseek <code>easy-search</code>, keeping up to 300 hits per domain. The search keeps every hit, and the thresholds are applied afterwards, so cutoffs can be revisited from the data. A domain takes the superfamily of its best hit that passes both:</p>
+        <ul>
+          <li><b>TM-score ≥ 0.5</b>, the usual threshold for two structures sharing a fold, and</li>
+          <li><b>E-value ≤ 10<sup>−5</sup></b>.</li>
+        </ul>
+        <p>These are the thresholds our team uses for its TED50 domain annotation, so that the two analyses can be compared. <span data-n="routes.A.hit"></span> of the <span data-n="routes.A.domains"></span> domains received a call.</p>
+      </div>
+      <div class="callout"><b>Foldseek's default mode, not TM-align mode.</b> Foldseek can also align in TM-align mode (<code>--alignment-type 1</code>), but its E-values there are not calibrated. On our test set, a hit at TM ≈ 0.94 scored E ≈ 0.9 in TM-align mode and E ≈ 10<sup>−30</sup> in the default 3Di+AA mode. With an E-value cutoff, TM-align mode would silently throw away real assignments. All Route A searches use the default mode.</div>
+
+      <h2 id="m-ted">Route A′: the same search against TED50</h2>
+      <div class="own">
+        <p>CATH S40 is small and curated. The Encyclopedia of Domains (TED) applies CATH labels to domains cut from the whole AlphaFold Database, so it is far broader. After the first run left <span id="nUnassigned1">24</span> structures without a call, we repeated Route A's search against TED50, TED clustered at 50% identity. The search reused the same Merizo domains and thresholds. Only the reference changed.</p>
+        <p>Each TED50 entry carries its CATH label in its name, for example <code>AF-A0A005-F1-model_v4_TED02 CATH3.40.50.2000_RES225-381</code>. The label is a full superfamily, a topology only (three levels), <code>no-hit</code> or <code>NOVEL</code>. Only a full four-level superfamily counts as a call. The rest are kept as a "nearest known neighbour" note. This gave <span data-n="routes.T.status.hit"></span> domains with a superfamily, compared with <span data-n="routes.A.hit"></span> from CATH S40.</p>
+        <p>The search took 8 minutes 47 seconds on 64 threads at a peak of 193.5 GB of memory, so memory, the expected obstacle, was not a problem.</p>
+      </div>
+      <figure aria-labelledby="fht" class="hist">
+        <p class="figtitle" id="fht">Figure 3. Where the E-value cutoff sits</p>
+        <p class="figsub">All TED50 hits with TM-score ≥ 0.5, binned by E-value. Hover a bar for the count.</p>
+        <div id="hist"></div>
+        <figcaption class="own">Among structurally good hits, E-values form a main peak near 10<sup>−9</sup> and a second, broader peak of weaker hits above 10<sup>−5</sup>. The cutoff (dashed) sits in the dip between them. The number of domains assigned rises smoothly as the cutoff is relaxed, so the shape of this distribution, not the yield, is what justifies keeping 10<sup>−5</sup>.</figcaption>
+      </figure>
+      <div class="tablewrap" style="max-width:520px"><table>
+        <thead><tr><th>E-value cutoff (TM ≥ 0.5)</th><th class="num">Domains with a superfamily</th></tr></thead>
+        <tbody id="tYield"></tbody>
+      </table></div>
+      <div class="note">Figure 3 is recomputed from <code>results/route_a_ted50/foldseek/aln.tsv</code> (all HSPs, not just the best per domain). The vault describes the noise mode as sitting "near E ≈ 1". On this binning the dip is at 10<sup>−6</sup> to 10<sup>−5</sup> and the second mode peaks around 10<sup>−3</sup>. Check against <code>ted50_tm_evalue_calibration.png</code> before keeping either wording.</div>
+
+      <h2 id="m-b">Route B: sequence search against Gene3D</h2>
+      <div class="own">
+        <p>Gene3D is CATH's own library of profile hidden Markov models, one or more per superfamily. We followed the official Gene3D scan recipe exactly, including its thresholds:</p>
+      </div>
+      <pre>hmmsearch -Z 10000000 --domE 0.001 --incdomE 0.001 main.hmm plasticome.faa
+cath-resolve-hits --input-format hmmsearch_out \
+    --min-dc-hmm-coverage=80 --worst-permissible-bitscore 25</pre>
+      <div class="own">
+        <p><code>cath-resolve-hits</code> resolves overlapping HMM hits into one non-overlapping set of domains per sequence. Each resolved hit is then mapped to its superfamily through Gene3D's model-to-family table. This gave <span data-n="routes.B.domains"></span> domains across <span data-n="routes.B.seqs"></span> sequences. Eleven models had no superfamily in the table. They were flagged, not dropped.</p>
+        <p><b>Each route keeps its own thresholds.</b> Route B does not use Route A's 10<sup>−5</sup>. Gene3D's settings were calibrated by its authors for exactly this task, and Foldseek E-values and HMMER domain E-values are not on the same scale. The routes are compared on the label they produce, not on matching thresholds.</p>
+      </div>
+
+      <h2 id="m-x">Reconciling the routes</h2>
+      <div class="own">
+        <p>Merizo and Gene3D cut proteins into domains independently, and their boundaries rarely match exactly. Before two labels can be compared, we have to decide when two domains are "the same domain". Overlap is measured on residue sets, so a discontinuous domain counts only the residues it actually contains. The rule uses the labels themselves:</p>
+        <ul>
+          <li><b>Same superfamily:</b> a match if the overlap covers at least half of the <i>smaller</i> domain (min-based overlap ≥ 0.5). This tolerates the routes cutting at different granularity. Merizo often splits one Gene3D domain in two.</li>
+          <li><b>Different superfamily:</b> a disagreement only if the overlap covers at least 70% of <i>both</i> domains (reciprocal overlap ≥ 0.7). A weaker overlap between different labels means two different domains that happen to touch, not two labels for one domain.</li>
+        </ul>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Tier</th><th>Meaning</th><th class="num">Domains</th></tr></thead>
+        <tbody id="tTiers"></tbody>
+      </table></div>
+      <figure aria-labelledby="fxt">
+        <p class="figtitle" id="fxt">Figure 4. Two structures the overlap rule has to handle</p>
+        <p class="figsub">Merizo domains (top lane) and Gene3D domains (bottom lane), drawn to scale along the sequence. Colour is CATH class. Hover a block for its superfamily.</p>
+        <div class="legend" id="clsLegend2"></div>
+        <div class="track" id="xfig"></div>
+        <figcaption class="own"><b>Structure 52</b>, a serine β-lactamase-like nylon hydrolase: its catalytic domain (<code>3.40.710.10</code>) is split around an inserted α-helical domain (<code>1.20.58.710</code>, TM 0.999). Gene3D's sequence models cannot represent an insertion and tile the region with two β-lactamase hits. The body agrees, and the insertion is a structure-only finding. <b>Structure 410</b>: Gene3D finds a small 51-residue trefoil domain (<code>2.80.10.50</code>) inside the region Merizo leaves as one α/β-hydrolase domain. Different folds with little reciprocal overlap: two domains, not a conflict.</figcaption>
+      </figure>
+      <div class="own">
+        <p>We arrived at this rule after trying two simpler ones on the same data. Every apparent disagreement each one produced was reviewed by hand.</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Matching rule</th><th class="num">Agree</th><th class="num">Disagree</th><th>What went wrong</th></tr></thead>
+        <tbody>
+          <tr><td>Intersection over the smaller domain, any label</td><td class="num">641</td><td class="num">4</td><td>Insertions and nested domains (structures 52, 604, 410) read as conflicts</td></tr>
+          <tr><td>Reciprocal overlap, any label</td><td class="num">618</td><td class="num">2</td><td>Split 56 same-fold agreements into one-route calls when Merizo cut finer than Gene3D</td></tr>
+          <tr><td><b>Label-aware rule (used)</b></td><td class="num"><b>643</b></td><td class="num"><b>0</b></td><td>No same-fold splits. Every remaining case reviewed</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note"><code>results/crosscheck/summary.txt</code> prints "overall agreement among matched domains: 77.6%". That number is AGREE over all 829 comparisons, including one-route domains. Among matched domains it is 643/643 = 100%. The wiki uses 100% and says "matched". Fix the label in <code>crosscheck.py</code>.</div>
+
+      <h2 id="m-c">Route C: Pfam</h2>
+      <div class="own">
+        <p>After Routes A, A′ and B, eleven cluster centroids still had no label. One was MGS0084 (see <a href="#m-final">below</a>). The other ten were the whole of one component, C024: 15 structures (11 distinct sequences, 10 centroids) that all superpose on each other at TM ≥ 0.89. A whole family without a single hit looked at first like a candidate new fold.</p>
+        <p>It is not new. A BLASTp search identifies it in one step as the latex clearing protein (Lcp), a rubber oxygenase with a solved crystal structure (PDB <a href="https://www.rcsb.org/structure/5O1L" target="_blank" rel="noopener">5O1L</a>, 2017). The cause was the reference: CATH has never assigned Lcp a superfamily. Route A's reference <i>is</i> CATH, and Route B's Gene3D models are <i>built from</i> CATH, so a family missing from CATH is invisible to both. Running either more sensitively would not have helped.</p>
+        <p>Route C asks a database built independently of CATH. Every sequence was searched against Pfam-A with each family's own curated gathering threshold:</p>
+      </div>
+      <pre>hmmsearch --cut_ga --domtblout plasticome.pfam.domtbl Pfam-A.hmm plasticome.faa</pre>
+      <div class="own">
+        <p>Each hit is placed on the Merizo domain it overlaps (min-based overlap ≥ 0.5) and tagged with its Pfam clan, a group of families that share an ancestor. All 15 Lcp structures hit <code>PF09995 MPAB_Lcp_cat</code>, the weakest at nearly twice the gathering threshold (bit score 43.2 against 23). Across the full set Pfam made <span data-n="routes.C.domains"></span> domain calls on <span data-n="routes.C.seqs"></span> of 609 structures.</p>
+        <p>Pfam is also an independent check on the CATH routes, because its clans line up with CATH superfamilies:</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Pfam clan</th><th class="num">Enzymes</th><th>CATH superfamily</th><th class="num">Enzymes</th></tr></thead>
+        <tbody>
+          <tr><td>AB_hydrolase (CL0028)</td><td class="num">453</td><td><code>3.40.50.1820</code> α/β-hydrolase</td><td class="num">463</td></tr>
+          <tr><td>Trefoil (CL0066)</td><td class="num">57</td><td><code>2.80.10.50</code> trefoil</td><td class="num">56</td></tr>
+          <tr><td>DmpA_ArgJ</td><td class="num">52</td><td><code>3.60.70.12</code> L-aminopeptidase / D-Ala esterase-amidase</td><td class="num">53</td></tr>
+        </tbody>
+      </table></div>
+      <div class="own">
+        <p>For Lcp, Pfam places <code>PF09995</code> in the Globin clan, and TED50 had independently given the same domains the globin-like <i>topology</i> <code>1.10.490</code> but no superfamily. So CATH has the fold but no superfamily for this family. We report that as supporting evidence only. A clan is not a CATH superfamily, so the Lcp catalytic CATH code stays empty.</p>
+      </div>
+
+      <h2 id="m-res">How the routes compare</h2>
+      <div class="bars" id="covBars" style="max-width:620px;margin:16px 0 4px"></div>
+      <p class="count">Enzymes (of 609) with at least one call from each route.</p>
+      <div class="own">
+        <p>Across the <span data-n="n_merizo_domains"></span> Merizo domains, the three CATH routes and Pfam give:</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Outcome per Merizo domain</th><th class="num">Domains</th><th class="num">Enzymes</th></tr></thead>
+        <tbody id="tAgree"></tbody>
+      </table></div>
+      <div class="own">
+        <p><b>TED50 adds calls and never contradicts.</b> Comparing CATH S40, TED50 and Gene3D per structure: <span data-n="ted_cmp.AGREE"></span> agree, <span data-n="ted_cmp.TED_EXTENDS"></span> gain an extra domain from TED50 (for example an Ig-like domain on several α/β-hydrolases), <span data-n="ted_cmp.TED_SUBSET"></span> have a call TED50 misses, and none conflict. TED50's misses are mostly heme-binding all-α proteins (the RoxA and RoxB rubber oxygenases, which Gene3D labels as cytochrome c-like <code>1.10.760.10</code>).</p>
+        <p><b>The four conflicts are one question of granularity.</b> All four are nylon hydrolases (structures 318, 325, 335 and 342). On the same Merizo domain, CATH S40 and Gene3D give <code>3.60.70.12</code>, while TED50 gives <code>3.30.365.10</code> or <code>3.30.2330.10</code> at a higher TM-score (0.97–0.99 against 0.80–0.84). TED appears to be matching a sub-domain of the larger fold. Pfam settles it: all four carry <code>Peptidase_S58</code> in clan DmpA_ArgJ, which corresponds to <code>3.60.70.12</code>.</p>
+      </div>
+      <div class="note">The final union table still lists the TED50 label (<code>3.30.365.10</code> ×3, <code>3.30.2330.10</code> ×1) as an <i>accessory</i> domain on these four rows, because the centroid call is the union of A, A′ and B. That contradicts the "Pfam settles it" sentence. Either drop the TED-only label from <code>accessory-cath</code> for these rows or soften the sentence. The repo README also calls the 572 / 13 / 20 / 4 split "per domain". It is per enzyme. The per-domain counts are in the table above.</div>
+
+      <h2 id="m-final">The final table</h2>
+      <div class="own">
+        <p>The per-route calls become one CATH annotation per plasticome enzyme in three steps.</p>
+        <p><b>1. One call per cluster centroid.</b> The plasticome was clustered at 90% identity into <span data-n="centroids.n"></span> centroids. A centroid's call is the union of the superfamilies from Routes A, A′ and B. Pfam is kept as a separate annotation. <span data-n="centroids.assigned"></span> of <span data-n="centroids.n"></span> centroids are assigned.</p>
+      </div>
+      <div class="tablewrap" style="max-width:620px"><table>
+        <thead><tr><th>Routes contributing</th><th class="num">Centroids</th></tr></thead>
+        <tbody id="tSources"></tbody>
+      </table></div>
+      <div class="own">
+        <p>One centroid, MGS0084, gets its call from a second, more sensitive pass. Its structure has no hit from any route at the standard thresholds. Foldseek in TM-align mode, with E-values ignored, finds an α/β-hydrolase domain at TM 0.777 and 0.794 in its two independent copies, with ≥ 0.89 coverage. We accepted this call because it meets three conditions together: high TM-score, high coverage on both sides, and the same label across independent copies. The same pass also returned TM ≥ 0.5 "hits" for the Lcp domains, but 14 near-identical N-terminal domains came back with 12 different superfamilies. A real homologue would give the same label every time. These were rejected, because TM ≈ 0.5–0.7 alone does not discriminate all-α folds.</p>
+        <p><b>2. Transfer to all 609 enzymes.</b> Each enzyme takes the call of the centroid its sequence matches:</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Transfer</th><th>Rule</th><th class="num">Enzymes</th></tr></thead>
+        <tbody id="tTransfer"></tbody>
+      </table></div>
+      <div class="own">
+        <p><b>3. Catalytic and accessory domains.</b> Within each graph component from <a href="#">Component Assignment</a>, the superfamilies carried by <i>every</i> member are the catalytic core. Anything on only some members is accessory: carbohydrate-binding modules, propeptides, Ig-like and trefoil domains. This rule cannot separate the two in a component of one member, so eight components were assigned by hand, each from the superfamily's role elsewhere in the dataset and the enzyme's identity. For example, the PLAT/C2-like domain of porcine pancreatic lipase is the colipase-binding domain, not the catalytic one. <span data-n="components.homogeneous"></span> of <span data-n="components.n"></span> components carry an identical CATH string on every member.</p>
+        <p>Superfamilies CATH leaves unnamed take the name of their parent topology, marked "[topology]", so a parent name is never presented as a superfamily name. The Lcp component is named from Pfam ("oxygenase MpaB family protein") with its CATH columns left empty. The only other empty row is a 28-residue fragment (Arylacylamidase), too short to annotate.</p>
+      </div>
+      <div class="note">The centroid table keeps MGS0084's Tier-2 call out of <code>cath_assigned</code> (hence 400/411), but the final union table includes it (hence 401 and only the Lcp component empty). The page describes that as a deliberate acceptance. Confirm that's the wording you want.</div>
+
+      <div class="stats" id="stats" style="margin-top:24px"></div>
+      <figure aria-labelledby="f1t">
+        <div class="fighead">
+          <div>
+            <p class="figtitle" id="f1t">Figure 5. The folds of the plasticome</p>
+            <p class="figsub" id="figSub"></p>
+          </div>
+          <select id="figView" aria-label="Figure view">
+            <option value="cat">Catalytic domain</option>
+            <option value="acc">Accessory domains</option>
+          </select>
+        </div>
+        <div class="legend" id="clsLegend"></div>
+        <div class="bars wide" id="figBars"></div>
+        <figcaption id="figCap" class="own"></figcaption>
+      </figure>
+
+      <h2 id="m-val">Validation</h2>
+      <h3>Against the original PETadex annotations</h3>
+      <div class="own">
+        <p>The original PETadex seed set (pazy-240826) carried one hand-assigned CATH code per enzyme. We matched its sequences to the new structures with DIAMOND (≥ 99% identity, ≥ 90% coverage for "same protein") and compared.</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Outcome</th><th class="num">Enzymes</th></tr></thead>
+        <tbody id="tV1"></tbody>
+      </table></div>
+      <div class="own">
+        <p>The calls agree on <b>186 of 191</b> comparable enzymes (97.4%). All five disagreements are errors in the old annotation: five subtilisin-family proteases, including Proteinase K, were labelled α/β-hydrolase (<code>3.40.50.1820</code>). Both new routes independently place them in the subtilase superfamily <code>3.40.50.200</code>, which is correct for these enzymes. The new pipeline also labels five enzymes the old set left blank, including the rubber oxygenases RoxA, RoxB and LatA (<code>1.10.760.10</code>).</p>
+      </div>
+      <h3>Against a newer CATH release</h3>
+      <div class="own">
+        <p>The reference of record, CATH v4.3.0, dates from 2019. To test whether any result depends on that, we rebuilt Route A's reference from CATH v4.4.0 (December 2024) and re-ran it on the same Merizo domains, so every difference comes from the reference.</p>
+      </div>
+      <div class="tablewrap" style="max-width:620px"><table>
+        <thead><tr><th>Domain, v4.3.0 → v4.4.0</th><th class="num">Domains</th></tr></thead>
+        <tbody id="tRel"></tbody>
+      </table></div>
+      <div class="own">
+        <p>No call changed superfamily. All six gains repeat calls TED50, Gene3D and Pfam had already made. The one loss, a Proteinase K propeptide, sat just inside the cutoff (E = 7.3 × 10<sup>−6</sup>) and is still called by TED50 and Gene3D. The final table does not change. CATH v4.4.0 adds 101,090 domains but no new superfamilies: its additions are automatic assignments into existing ones. A newer CATH could raise sensitivity but could not have supplied a label the 2019 release lacked. Lcp's two PDB structures (5O1L, 5O1M) are on CATH v4.4.0's list of chains still waiting to be classified.</p>
+      </div>
+
+      <h2 id="m-limits">Limitations</h2>
+      <div class="own">
+        <ul>
+          <li><b>Labels only for what CATH has classified.</b> Three of the four routes depend on CATH. A family CATH has not classified, like Lcp, can only be named by Pfam. No CATH label does not mean a new fold.</li>
+          <li><b>Superfamily level only.</b> We do not assign CATH functional families, and a CATH code says nothing about substrate or activity.</li>
+          <li><b>All-α domains are hard to place.</b> Structural similarity alone is weak evidence for helical bundles. TED50 misses the heme-binding rubber oxygenases, and the sensitive pass gave incoherent labels for Lcp.</li>
+          <li><b>Predicted structures.</b> All structures are ESMFold models, not experimental structures.</li>
+          <li><b>Route B cannot be updated.</b> Gene3D has not been rebuilt since CATH v4.3.0.</li>
+        </ul>
+      </div>
+
+      <h2 id="m-repro">Reproducing</h2>
+      <p class="own">The pipeline is a config-driven repository. Every tool and reference version is pinned in <code>config/versions.sh</code>. The two-route core runs from one driver:</p>
+      <pre>bash scripts/setup_tools.sh all           # Foldseek, cath-resolve-hits, Merizo
+bash scripts/setup_databases.sh all       # CATH S40, Gene3D (TED50, Pfam optional)
+bash run.sh all                           # structures -> Route A -> Route B -> cross-check
+bash scripts/route_c_01_pfam.sh           # Route C
+python scripts/route_c_02_parse.py
+python scripts/annotate_three_routes.py   # per-enzyme and per-domain tables</pre>
+      <p class="own">The TED50 pass, the CATH v4.4.0 audit and the transfer to the final table are run by hand in the order listed in the repository README.</p>
+      <div class="note">Reproducibility caveats to decide on before publishing: (1) the Foldseek results came from a rolling master build (<code>7f4b946</code>) that can't be downloaded again; setup now installs the nearest tagged release, so structural hits may shift slightly. (2) Structures are read from a private S3 bucket. (3) Where the final unified table will live (RDS or S3) is still open. Add the GitHub link once the repo is public.</div>
+      <div class="note">Demo ideas, not built: overlay pLDDT on the domain track; link each enzyme to its Plasticome Reference Curation record; show the Lcp all-vs-all TM matrix next to the 12-labels-for-14-domains result.</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+const D = /*DATA*/null;
+const TREE = /*TREE*/null;
+const $ = (s, r = document) => r.querySelector(s);
+const fmt = n => n.toLocaleString("en-US");
+const get = path => path.split(".").reduce((o, k) => o == null ? o : o[k], D);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const blank = v => !v || v === "-" || v === "NA";
+const E = D.enz, byId = Object.fromEntries(E.map(e => [e.id, e]));
+const CLS = { "3": { l: "Alpha-beta", c: "var(--s-v2)" }, "1": { l: "Mainly alpha", c: "var(--s-both)" }, "2": { l: "Mainly beta", c: "var(--s-v1)" } };
+const CLS_ORDER = ["3", "1", "2"];
+const colOf = sf => blank(sf) ? "var(--color-muted)" : (CLS[sf[0]] || { c: "var(--color-muted)" }).c;
+const nameOf = sf => D.names[sf] || "";
+const legendHTML = (na) => CLS_ORDER.map(k => `<span><i class="sw" style="background:${CLS[k].c}"></i>Class ${k} · ${CLS[k].l}</span>`).join("") + (na ? `<span><i class="sw" style="background:var(--color-muted)"></i>${na}</span>` : "");
+
+/* ---------- tooltip ---------- */
+const tip = $("#tip");
+function showTip(e, html) { tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e) {
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + pad, y = e.clientY + pad;
+  if (x + w > innerWidth - 8) x = e.clientX - w - pad;
+  if (y + h > innerHeight - 8) y = e.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() { tip.style.opacity = 0; }
+function bindTip(el, html) {
+  el.addEventListener("pointerenter", e => showTip(e, html));
+  el.addEventListener("pointermove", moveTip);
+  el.addEventListener("pointerleave", hideTip);
+}
+
+/* ---------- figure 1: fold groups link into the 01 plasticome explorer ---------- */
+$("#foldBtns").innerHTML = TREE.groups.map(g => `<a href="../01%20plasticome/plasticome-curation.html#fold=${g.g}" title="CATH ${esc(g.cath)}">${esc(g.fold)}<small>${g.n}</small></a>`).join("");
+
+/* ---------- number slots ---------- */
+document.querySelectorAll("[data-n]").forEach(el => { const v = get(el.dataset.n); el.textContent = v == null ? "?" : fmt(v); });
+
+/* ---------- stats ---------- */
+const nCatSf = D.folds.filter(([s]) => !blank(s)).reduce((a, [s]) => a + s.split(";").length, 0);
+const ab = (D.folds.find(([s]) => s === "3.40.50.1820") || [0, 0, 0])[2];
+const tiles = el => (rows => $(el).innerHTML = rows.map(([c, v, k]) => `<div class="stat ${c}"><div class="v">${v}</div><div class="k">${k}</div></div>`).join(""));
+tiles("#stats")([
+  ["hero", `${fmt(D.cov.union)}<span style="font-size:22px"> / ${fmt(E.length)}</span>`, "enzymes labelled by at least one of the three routes"],
+  ["", "0", `disagreements between the structure and sequence routes, over ${fmt(D.xc.AGREE)} domains both labelled`],
+  ["", fmt(nCatSf), "catalytic CATH superfamilies, plus one family CATH has never classified"],
+  ["", `${Math.round(100 * ab / E.length)}%`, "of enzymes have an α/β-hydrolase catalytic domain"],
+]);
+
+/* ---------- bars helper (as on the plasticome page) ---------- */
+function stacked(el, rows, max) {
+  el.innerHTML = "";
+  rows.forEach(({ label, parts, title }) => {
+    const tot = parts.reduce((a, p) => a + p.n, 0);
+    const lab = document.createElement("div"); lab.className = "lab"; lab.innerHTML = label; lab.title = title || "";
+    const track = document.createElement("div"); track.className = "track";
+    parts.filter(p => p.n).forEach(p => {
+      const s = document.createElement("div"); s.className = "seg";
+      s.style.cssText = `width:${100 * p.n / max}%;background:${p.c}`;
+      bindTip(s, `<b>${label.replace(/<[^>]+>/g, "")}</b><br>${p.l}: ${fmt(p.n)}${parts.length > 1 ? " of " + fmt(tot) : ""}`);
+      track.appendChild(s);
+    });
+    const val = document.createElement("div"); val.className = "val"; val.textContent = fmt(tot);
+    el.append(lab, track, val);
+  });
+}
+
+/* ---------- figure 1 ---------- */
+$("#clsLegend").innerHTML = legendHTML("No CATH superfamily");
+const foldRow = ([s, n, c]) => {
+  if (blank(s)) return { label: `<b>None</b> <small>no CATH superfamily</small>`, title: "Lcp rubber oxygenases (15) and a 28-residue fragment (1)", parts: [{ n: c, c: "var(--color-muted)", l: "No CATH superfamily: 15 Lcp rubber oxygenases, 1 fragment" }] };
+  const nm = s.split(";").map(x => nameOf(x) || "unnamed superfamily").join(" + ");
+  return { label: `<b>${s.replace(";", " + ")}</b> <small>${esc(nm)}</small>`, title: nm, parts: [{ n: c, c: colOf(s), l: `Class ${s[0]} · ${nm}` }] };
+};
+const VIEWS = {
+  cat: { sub: "Enzymes per catalytic CATH superfamily. Each enzyme counts once.",
+    cap: "The α/β-hydrolase fold of IsPETase and LCC dominates. Next come two amidase and peptidase folds that include the nylon hydrolases, then a tail of proteases, oxygenases and peroxidases. The grey bar is the Lcp rubber-oxygenase family, which CATH has never classified, plus one 28-residue fragment.",
+    rows: () => D.folds.map(foldRow) },
+  acc: { sub: "Enzymes carrying each accessory (non-catalytic) superfamily. An enzyme with several counts once for each.",
+    cap: "Accessory domains are mostly binding modules: the trefoil (ricin-B-like) domain, Ig-like and galactose-binding domains, and the subtilisin propeptide. Superfamilies CATH leaves unnamed are shown by code only.",
+    rows: () => D.accessory.map(foldRow) },
+};
+function drawFig() {
+  const v = VIEWS[$("#figView").value], rows = v.rows();
+  $("#figSub").textContent = v.sub; $("#figCap").textContent = v.cap;
+  stacked($("#figBars"), rows, Math.max(...rows.map(r => r.parts[0].n)));
+}
+$("#figView").addEventListener("change", drawFig); drawFig();
+
+/* ---------- domain track ---------- */
+const ranges = s => blank(s) ? [] : [...String(s).matchAll(/(\d+)-(\d+)/g)].map(m => [+m[1], +m[2]]);
+const consensus = d => [d.A, d.T, d.B].find(x => !blank(x)) || "";
+function trackSVG(L, lanes, W = 640) {
+  const left = 76, right = 8, laneH = 24, gap = 10, top = 20;
+  const x = v => left + (v - 1) / Math.max(L - 1, 1) * (W - left - right);
+  const H = top + lanes.length * (laneH + gap);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Domain map"><g>`;
+  for (let t = 0; t <= L; t += (L > 500 ? 200 : 100)) s += `<line x1="${x(Math.max(t, 1))}" x2="${x(Math.max(t, 1))}" y1="${top - 6}" y2="${H - gap}" stroke="var(--color-grid)"/><text x="${x(Math.max(t, 1))}" y="${top - 9}" text-anchor="middle">${t || 1}</text>`;
+  s += `</g>`;
+  const tips = [];
+  lanes.forEach((ln, i) => {
+    const y = top + i * (laneH + gap);
+    s += `<text x="0" y="${y + laneH / 2 + 4}">${ln.name}</text><line x1="${x(1)}" x2="${x(L)}" y1="${y + laneH / 2}" y2="${y + laneH / 2}" stroke="var(--color-rule)"/>`;
+    ln.items.forEach(it => {
+      const rs = it.r; if (!rs.length) return;
+      if (rs.length > 1) s += `<line x1="${x(rs[0][1])}" x2="${x(rs[rs.length - 1][0])}" y1="${y + 3}" y2="${y + 3}" stroke="${it.c}" stroke-width="1.5" stroke-dasharray="3 3"/>`;
+      const id = tips.length; tips.push(it.tip);
+      rs.forEach(([a, b], k) => {
+        const w = Math.max(x(b) - x(a), 2);
+        s += `<rect class="blk" data-t="${id}" x="${x(a)}" y="${y + 4}" width="${w}" height="${laneH - 4}" rx="4" fill="${it.c}" stroke="var(--color-surface)" stroke-width="2"/>`;
+        if (k === 0 && w > 74 && it.lab) s += `<text class="in" x="${x(a) + 6}" y="${y + laneH / 2 + 5}">${esc(it.lab)}</text>`;
+      });
+    });
+  });
+  return { svg: s + "</svg>", tips };
+}
+function mountTrack(el, L, lanes, W) {
+  const { svg, tips } = trackSVG(L, lanes, W);
+  el.innerHTML = svg;
+  el.querySelectorAll("[data-t]").forEach(r => bindTip(r, tips[+r.dataset.t]));
+}
+function lanesFor(e) {
+  const ds = D.dom[e.id] || [];
+  const mer = ds.map(d => { const sf = consensus(d); return { r: ranges(d.seg), c: colOf(sf), lab: sf || (blank(d.Tl) ? "" : d.Tl),
+    tip: `<b>${d.d}</b> · residues ${esc(d.seg)}<br>${sf ? `${sf} ${esc(nameOf(sf))}` : "No CATH superfamily"}` }; });
+  const seen = new Set(), g3 = [], pf = [];
+  ds.forEach(d => {
+    if (!blank(d.Bseg) && !seen.has("b" + d.Bseg + d.B)) { seen.add("b" + d.Bseg + d.B); g3.push({ r: ranges(d.Bseg), c: colOf(d.B), lab: d.B, tip: `<b>Gene3D</b> · ${esc(d.Bseg)}<br>${d.B} ${esc(nameOf(d.B))}<br>bit score ${d.Bsc}` }); }
+    if (!blank(d.Cenv) && !seen.has("c" + d.Cenv + d.C)) {
+      const ns = d.C.split(";"), envs = d.Cenv.split(";");
+      envs.forEach((en, i) => { if (!seen.has("c" + en)) { seen.add("c" + en); pf.push({ r: ranges(en), c: "var(--color-text-2)", lab: ns[i] || ns[0], tip: `<b>Pfam</b> · ${esc(en)}<br>${esc(ns[i] || ns[0])} (${esc(d.Ca.split(";")[i] || d.Ca)})` }); } });
+      seen.add("c" + d.Cenv + d.C);
+    }
+  });
+  return [{ name: "Merizo", items: mer }, { name: "Gene3D", items: g3 }, { name: "Pfam", items: pf }];
+}
+
+
+/* ---------- methods: flow ---------- */
+const RT = D.routes;
+$("#flow").innerHTML = `
+  <div class="lane"><div class="node"><div class="n">609</div><div class="t">Predicted structures</div><div class="d">ESMFold, one per plasticome enzyme; sequence read from the same file</div></div>
+    <div class="node"><div class="n">${fmt(D.n_merizo_domains)}</div><div class="t">Merizo domains</div><div class="d">${fmt(D.merizo_discontinuous)} discontinuous</div></div></div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="lane">
+    <div class="node"><div class="rt">Route A · structure</div><div class="t">Foldseek vs CATH S40</div><div class="d">${fmt(RT.A.hit)} domains labelled · TM ≥ 0.5, E ≤ 10⁻⁵</div></div>
+    <div class="node"><div class="rt">Route A′ · structure</div><div class="t">Foldseek vs TED50</div><div class="d">${fmt(RT.T.status.hit)} domains labelled · same thresholds</div></div>
+    <div class="node"><div class="rt">Route B · sequence</div><div class="t">Gene3D HMMs</div><div class="d">${fmt(RT.B.domains)} domains on ${fmt(RT.B.seqs)} sequences · Gene3D's own thresholds</div></div>
+    <div class="node"><div class="rt">Route C · sequence</div><div class="t">Pfam-A</div><div class="d">${fmt(RT.C.domains)} domains on ${fmt(RT.C.seqs)} sequences · gathering thresholds</div></div>
+  </div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="lane"><div class="node"><div class="t">Reconcile per domain</div><div class="d">Residue-set overlap, label-aware rule</div>
+      <div class="mini">${[["agree", "var(--s-v2)", "Routes agree"], ["single_route", "var(--s-both)", "One route"], ["no_hit", "var(--color-muted)", "No CATH call"], ["conflict", "var(--s-v1)", "Routes disagree"]].map(([k, c, l]) => `<i style="flex:${D.dom_agree[k] || 0};background:${c}" data-tip="${l}: ${fmt(D.dom_agree[k] || 0)} domains"></i>`).join("")}</div></div>
+    <div class="node"><div class="n">${fmt(D.centroids.assigned)}<span style="font-size:18px"> / ${D.centroids.n}</span></div><div class="t">Centroids labelled</div><div class="d">Union of A, A′, B</div></div></div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="lane"><div class="node out"><div class="n">609</div><div class="t">Plasticome, one row per enzyme</div><div class="d">Catalytic and accessory CATH, domain name, Pfam</div></div></div>`;
+document.querySelectorAll("#flow [data-tip]").forEach(el => bindTip(el, el.dataset.tip));
+
+/* ---------- methods: merizo domain counts ---------- */
+const nd = Object.entries(D.merizo_ndom).map(([k, n]) => [+k, n]).sort((a, b) => a[0] - b[0]);
+stacked($("#ndomBars"), nd.map(([k, n]) => ({ label: `${k} domain${k > 1 ? "s" : ""}`, parts: [{ n, c: "var(--s-one)", l: "Structures" }] })), Math.max(...nd.map(r => r[1])));
+
+/* ---------- methods: TED E-value histogram ---------- */
+(function () {
+  if (!D.ted_hist) { $("#hist").textContent = "aln.tsv was not available when data.json was built."; return; }
+  const h = D.ted_hist, n = h.counts.length, mx = Math.max(...h.counts);
+  const W = 760, H = 260, l = 56, r = 12, t = 16, b = 40;
+  const x = i => l + i / n * (W - l - r), y = v => t + (1 - v / mx) * (H - t - b);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Histogram of log10 E-value for TED50 hits with TM-score at least 0.5"><g class="axis">`;
+  for (let v = 0; v <= mx; v += 5000) s += `<line x1="${l}" x2="${W - r}" y1="${y(v)}" y2="${y(v)}"/><text x="${l - 8}" y="${y(v) + 4}" text-anchor="end">${fmt(v)}</text>`;
+  for (let e = h.lo; e <= h.lo + n * h.w; e += 10) s += `<text x="${x((e - h.lo) / h.w)}" y="${H - b + 18}" text-anchor="middle">10<tspan dy="-6" font-size="9">${e}</tspan></text>`;
+  s += `<text x="${(l + W - r) / 2}" y="${H - 4}" text-anchor="middle">E-value (lowest bin includes all smaller; highest, all larger)</text></g>`;
+  h.counts.forEach((c, i) => {
+    const e0 = h.lo + i * h.w, good = e0 < -5;
+    s += `<rect class="bar" data-i="${i}" x="${x(i) + 1}" y="${y(c)}" width="${Math.max(x(i + 1) - x(i) - 2, 1)}" height="${y(0) - y(c)}" rx="2" fill="${good ? "var(--s-v2)" : "var(--color-muted)"}"/>`;
+  });
+  const cx = x((-5 - h.lo) / h.w);
+  s += `<line x1="${cx}" x2="${cx}" y1="${t - 6}" y2="${y(0)}" stroke="var(--color-text)" stroke-dasharray="4 4"/><text x="${cx - 6}" y="${t + 4}" text-anchor="end">cutoff 10⁻⁵</text>`;
+  $("#hist").innerHTML = s + "</svg>";
+  $("#hist").querySelectorAll("rect.bar").forEach(rc => { const i = +rc.dataset.i, e0 = h.lo + i * h.w;
+    bindTip(rc, `<b>10<sup>${e0}</sup> to 10<sup>${e0 + h.w}</sup></b><br>${fmt(h.counts[i])} hits`); });
+})();
+$("#tYield").innerHTML = (D.ted_yield || []).map(([c, n]) => `<tr${c === 1e-5 ? ' style="font-weight:700"' : ""}><td>E ≤ ${c === 1 ? "1" : "10<sup>" + Math.round(Math.log10(c)) + "</sup>"}${c === 1e-5 ? " (used)" : ""}</td><td class="num">${fmt(n)}</td></tr>`).join("");
+
+/* ---------- methods: tiers ---------- */
+const TIERS = [["AGREE", "Both routes label a matched domain with the same superfamily"], ["CANNOT_VERIFY", "Strongly co-located domains with different superfamilies; sent for manual review"], ["PARTIAL_A", "Labelled by the structure route only"], ["PARTIAL_B", "Labelled by the sequence route only"]];
+$("#tTiers").innerHTML = TIERS.map(([k, d]) => `<tr><td class="mono">${k}</td><td>${d}</td><td class="num">${fmt(D.xc[k])}</td></tr>`).join("") + `<tr><td><b>Total</b></td><td>Domain comparisons, Route A vs Route B</td><td class="num"><b>${fmt(D.xc.TOTAL)}</b></td></tr>`;
+
+/* ---------- methods: reconciliation figure ---------- */
+$("#clsLegend2").innerHTML = legendHTML();
+(function () {
+  const blk = (r, sf, who) => ({ r, c: colOf(sf), lab: sf, tip: `<b>${who}</b> · ${r.map(p => p.join("-")).join(", ")}<br>${sf} ${esc(nameOf(sf))}` });
+  const ex = [
+    { id: 52, L: 392, m: [blk([[39, 130], [234, 392]], "3.40.710.10", "Merizo"), blk([[131, 233]], "1.20.58.710", "Merizo")],
+      g: [blk([[29, 52]], "6.10.250.420", "Gene3D"), blk([[58, 206]], "3.40.710.10", "Gene3D"), blk([[204, 392]], "3.40.710.10", "Gene3D")] },
+    { id: 410, L: 339, m: [blk([[46, 339]], "3.40.50.1820", "Merizo")],
+      g: [blk([[25, 288]], "3.40.50.1820", "Gene3D"), blk([[289, 339]], "2.80.10.50", "Gene3D")] },
+  ];
+  $("#xfig").innerHTML = ex.map(e => `<p class="figsub" style="margin:14px 0 4px"><b>Structure ${e.id}</b> · ${esc(byId[e.id].name)} · ${e.L} aa</p><div id="x${e.id}"></div>`).join("");
+  ex.forEach(e => mountTrack($(`#x${e.id}`), e.L, [{ name: "Merizo", items: e.m }, { name: "Gene3D", items: e.g }], 760));
+})();
+
+/* ---------- methods: coverage + agreement ---------- */
+const C_ = D.cov;
+stacked($("#covBars"), [["A · CATH S40", C_.A], ["A′ · TED50", C_.T], ["B · Gene3D", C_.B], ["C · Pfam", C_.Ca], ["<b>Any route</b>", C_.union]]
+  .map(([l, n]) => ({ label: l, parts: [{ n, c: "var(--s-one)", l: "Enzymes with a call" }] })), E.length);
+const AG = [["agree", "Two or more routes, same superfamily"], ["single_route", "One route only"], ["no_hit", "No CATH route"], ["conflict", "Routes disagree"]];
+$("#tAgree").innerHTML = AG.map(([k, d]) => `<tr><td>${d}</td><td class="num">${fmt(D.dom_agree[k] || 0)}</td><td class="num">${fmt(D.enz_agree[k] || 0)}</td></tr>`).join("") +
+  `<tr><td><b>Total</b></td><td class="num"><b>${fmt(D.n_merizo_domains)}</b></td><td class="num"><b>${fmt(E.length)}</b></td></tr>`;
+
+/* ---------- methods: final-table tables ---------- */
+const SRCN = { ABT: "CATH S40, TED50 and Gene3D", BT: "TED50 and Gene3D", AT: "CATH S40 and TED50", T: "TED50 only", B: "Gene3D only", A: "CATH S40 only", AB: "CATH S40 and Gene3D", none: "None (the Lcp component and MGS0084)" };
+$("#tSources").innerHTML = Object.entries(D.centroids.sources).sort((a, b) => b[1] - a[1]).map(([k, n]) => `<tr><td>${SRCN[k] || k}</td><td class="num">${fmt(n)}</td></tr>`).join("");
+const TR = [["exact", "Sequence identical to a centroid: its call is copied"], ["near", "Best DIAMOND hit to a centroid at ≥ 80% identity and ≥ 0.8 coverage both ways: the whole call transfers"], ["partial", "A fragment of a longer centroid: only superfamilies whose domain the fragment covers transfer (≥ 0.5 of the catalytic domain, ≥ 0.8 of an accessory one)"]];
+$("#tTransfer").innerHTML = TR.map(([k, d]) => `<tr><td><b>${k}</b></td><td>${d}</td><td class="num">${fmt(D.union_tier[k] || 0)}</td></tr>`).join("");
+const V1 = [["MATCH_both", "Same superfamily, both routes"], ["MATCH_B_only", "Same superfamily, sequence route only"], ["MATCH_A_only", "Same superfamily, structure route only"], ["MISMATCH", "Different superfamily (old label wrong)"], ["no_v1_ref", "Old set had no CATH code"], ["no_v2_call", "Matched, no new call at the time (since resolved by TED50)"], ["unmapped", "Old full-length ORF; no identical new structure"]];
+$("#tV1").innerHTML = V1.map(([k, d]) => `<tr><td>${d}</td><td class="num">${fmt(D.v1[k] || 0)}</td></tr>`).join("");
+const REL = [["unchanged_hit", "Same superfamily"], ["changed_sfam", "Different superfamily"], ["gained", "No call → call"], ["lost", "Call → no call"], ["unchanged_no_hit", "No call in either"]];
+$("#tRel").innerHTML = REL.map(([k, d]) => `<tr><td>${d}</td><td class="num">${fmt(D.release[k] || 0)}</td></tr>`).join("");
+
+/* ---------- routing + toggles ---------- */
+function route() {
+  const p = location.hash === "#methods" || location.hash.startsWith("#m-") ? "methods" : "overview";
+  $("#page-overview").hidden = p !== "overview"; $("#page-methods").hidden = p !== "methods";
+  document.querySelectorAll(".draftbar nav a").forEach(a => a.dataset.page === p ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  if (location.hash === "#methods" || location.hash === "#overview" || !location.hash) scrollTo(0, 0);
+}
+addEventListener("hashchange", route); route();
+$("#notesToggle").addEventListener("change", e => document.body.classList.toggle("show-notes-off", !e.target.checked));
+$("#darkToggle").checked = matchMedia("(prefers-color-scheme: dark)").matches;
+$("#darkToggle").addEventListener("change", e => document.documentElement.dataset.theme = e.target.checked ? "dark" : "light");
+</script>
+</body>
+</html>

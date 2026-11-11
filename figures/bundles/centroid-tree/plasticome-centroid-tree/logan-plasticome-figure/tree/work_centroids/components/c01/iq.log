@@ -1,0 +1,217 @@
+IQ-TREE version 3.1.4 for MacOS ARM 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Air-239.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/Caskroom/miniconda/base/envs/plasticome-tree/bin/iqtree -s /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/ml.afa -m MFP -mset LG,WAG,JTT,Q.pfam -B 1000 -seed 1 -T 1 -pre /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq -quiet -redo
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  1 18:04:51 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/ml.afa ... Fasta format detected
+Reading fasta file: done in 0.000274897 secs using 37.47% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000428915 secs using 35.44% CPU
+Alignment has 45 sequences with 272 columns, 263 distinct patterns
+245 parsimony-informative, 11 singleton sites, 16 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.00272e-05 secs using 54.93% CPU
+   1  53     6.99%    passed     91.18%
+   2  189    6.99%    passed     67.46%
+   3  190    6.99%    passed     72.20%
+   4  215    0.37%    failed      0.49%
+   5  216    6.99%    passed     52.45%
+   6  218    2.21%    passed     28.18%
+   7  312    5.51%    passed     41.56%
+   8  313    5.88%    passed      7.85%
+   9  314    0.00%    passed     70.70%
+  10  315    3.31%    failed      0.42%
+  11  316    1.84%    passed     53.79%
+  12  317    0.37%    failed      0.58%
+  13  318    0.00%    passed     87.09%
+  14  319    2.94%    passed     12.34%
+  15  320    1.47%    passed     24.70%
+  16  321    5.15%    passed      8.39%
+  17  322    1.10%    failed      0.00%
+  18  323    0.37%    failed      0.13%
+  19  324    6.25%    passed     15.26%
+  20  325    4.04%    failed      0.08%
+  21  326    4.41%    failed      0.00%
+  22  327    1.84%    failed      3.33%
+  23  328    1.47%    passed     93.10%
+  24  329    0.37%    passed     47.36%
+  25  330    5.88%    passed     28.55%
+  26  331    5.51%    passed     76.47%
+  27  332    5.88%    passed     33.33%
+  28  333    3.68%    passed     45.30%
+  29  334    2.21%    passed      9.74%
+  30  335    2.57%    passed     69.13%
+  31  336    5.88%    failed      0.00%
+  32  337    2.57%    passed      8.25%
+  33  338    1.84%    passed     85.99%
+  34  339    2.94%    passed     60.54%
+  35  340    0.00%    passed     95.88%
+  36  341    4.78%    passed     27.79%
+  37  342    1.10%    passed     47.59%
+  38  343    0.37%    passed     25.81%
+  39  344    2.21%    passed     98.76%
+  40  345    2.21%    passed     88.34%
+  41  346    4.04%    failed      2.84%
+  42  347    5.88%    failed      0.06%
+  43  348    3.31%    failed      0.19%
+  44  349    2.21%    passed     17.26%
+  45  543    6.99%    passed     65.74%
+****  TOTAL    3.31%  12 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 4.00543e-05 secs using 72.4% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -19411.849
+Optimal log-likelihood: -19411.588
+Proportion of invariable sites: 0.054
+Gamma shape alpha: 1.202
+Parameters optimization took 1 rounds (0.078 sec)
+Time for fast ML tree search: 0.663 seconds
+
+NOTE: ModelFinder requires 20 MB RAM!
+ModelFinder will test up to 176 protein models (sample size: 272 epsilon: 0.100) ...
+Akaike Information Criterion:           Q.PFAM+I+R6
+Corrected Akaike Information Criterion: Q.PFAM+I+G4
+Bayesian Information Criterion:         Q.PFAM+I+G4
+Best-fit model: Q.PFAM+I+G4 chosen according to BIC
+
+All model information printed to /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.model.gz
+CPU time for ModelFinder: 26.200 seconds (0h:0m:26s)
+Wall-clock time for ModelFinder: 26.339 seconds (0h:0m:26s)
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+
+NOTE: 8 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.188 / Estimate: 0.055, 1.223 / LogL: -19385.460
+Init pinv, alpha: 0.007, 1.188 / Estimate: 0.055, 1.223 / LogL: -19385.460
+Init pinv, alpha: 0.013, 1.188 / Estimate: 0.055, 1.224 / LogL: -19385.461
+Init pinv, alpha: 0.020, 1.188 / Estimate: 0.055, 1.225 / LogL: -19385.465
+Init pinv, alpha: 0.026, 1.188 / Estimate: 0.055, 1.224 / LogL: -19385.461
+Init pinv, alpha: 0.033, 1.188 / Estimate: 0.055, 1.223 / LogL: -19385.462
+Init pinv, alpha: 0.039, 1.188 / Estimate: 0.055, 1.222 / LogL: -19385.458
+Init pinv, alpha: 0.046, 1.188 / Estimate: 0.055, 1.222 / LogL: -19385.457
+Init pinv, alpha: 0.052, 1.188 / Estimate: 0.055, 1.221 / LogL: -19385.457
+Init pinv, alpha: 0.059, 1.188 / Estimate: 0.055, 1.220 / LogL: -19385.459
+Optimal pinv,alpha: 0.055, 1.222 / LogL: -19385.457
+
+Parameters optimization took 1.814 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.212539 secs using 99.8% CPU
+Computing ML distances took 0.212603 sec (of wall-clock time) 0.212145 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 3.50475e-05 secs using 99.86% CPU
+Constructing RapidNJ tree: done in 8.29697e-05 secs using 176% CPU
+Computing RapidNJ tree took 0.000135 sec (of wall-clock time) 0.000199 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -19418.333
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.269 second
+Computing log-likelihood of 98 initial trees ... 1.407 seconds
+Current best score: -19385.457
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -19385.457
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -19322.578
+Iteration 10 / LogL: -19368.685 / Time: 0h:0m:32s
+Iteration 20 / LogL: -19351.900 / Time: 0h:0m:36s
+Finish initializing candidate tree set (20)
+Current best tree score: -19322.578 / CPU time: 7.568
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -19321.034
+Iteration 30 / LogL: -19322.117 / Time: 0h:0m:39s (0h:0m:42s left)
+Iteration 40 / LogL: -19322.988 / Time: 0h:0m:41s (0h:0m:34s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -19314.313
+Iteration 50 / LogL: -19320.993 / Time: 0h:0m:44s (0h:0m:35s left)
+Log-likelihood cutoff on original alignment: -19396.233
+Iteration 60 / LogL: -19321.882 / Time: 0h:0m:46s (0h:0m:30s left)
+Iteration 70 / LogL: -19320.576 / Time: 0h:0m:49s (0h:0m:25s left)
+Iteration 80 / LogL: -19314.571 / Time: 0h:0m:51s (0h:0m:21s left)
+Iteration 90 / LogL: -19314.361 / Time: 0h:0m:54s (0h:0m:17s left)
+Iteration 100 / LogL: -19314.364 / Time: 0h:0m:57s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -19391.978
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 104: -19313.607
+Iteration 110 / LogL: -19314.607 / Time: 0h:0m:59s (0h:0m:28s left)
+Iteration 120 / LogL: -19314.399 / Time: 0h:1m:2s (0h:0m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 129: -19313.574
+Iteration 130 / LogL: -19315.448 / Time: 0h:1m:5s (0h:0m:29s left)
+Iteration 140 / LogL: -19315.336 / Time: 0h:1m:7s (0h:0m:26s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -19313.406
+Iteration 150 / LogL: -19314.341 / Time: 0h:1m:10s (0h:0m:23s left)
+Log-likelihood cutoff on original alignment: -19391.978
+Iteration 160 / LogL: -19314.761 / Time: 0h:1m:13s (0h:0m:20s left)
+Iteration 170 / LogL: -19318.486 / Time: 0h:1m:15s (0h:0m:17s left)
+Iteration 180 / LogL: -19313.709 / Time: 0h:1m:18s (0h:0m:14s left)
+Iteration 190 / LogL: -19313.455 / Time: 0h:1m:20s (0h:0m:11s left)
+Iteration 200 / LogL: -19313.716 / Time: 0h:1m:23s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -19391.978
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 210 / LogL: -19314.596 / Time: 0h:1m:25s (0h:0m:25s left)
+Iteration 220 / LogL: -19314.354 / Time: 0h:1m:28s (0h:0m:22s left)
+Iteration 230 / LogL: -19314.827 / Time: 0h:1m:31s (0h:0m:19s left)
+TREE SEARCH COMPLETED AFTER 230 ITERATIONS / Time: 0h:1m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -19313.406
+Optimal log-likelihood: -19313.404
+Proportion of invariable sites: 0.055
+Gamma shape alpha: 1.313
+Parameters optimization took 1 rounds (0.045 sec)
+BEST SCORE FOUND : -19313.404
+Creating bootstrap support values...
+Split supports printed to NEXUS file /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.splits.nex
+Total tree length: 31.698
+
+Total number of iterations: 230
+CPU time used for tree search: 62.531 sec (0h:1m:2s)
+Wall-clock time used for tree search: 62.740 sec (0h:1m:2s)
+Total CPU time used: 91.006 sec (0h:1m:31s)
+Total wall-clock time used: 91.399 sec (0h:1m:31s)
+
+Computing bootstrap consensus tree...
+Reading input file /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.splits.nex...
+45 taxa and 664 splits.
+Consensus tree written to /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.contree
+Reading input trees file /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.contree
+Log-likelihood of consensus tree: -19313.403
+
+Analysis results written to: 
+  IQ-TREE report:                /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.iqtree
+  Maximum-likelihood tree:       /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.treefile
+  Likelihood distances:          /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.splits.nex
+  Consensus tree:                /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.contree
+  Screen log file:               /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq.log
+
+Date and Time: Thu Oct  1 18:06:23 2026

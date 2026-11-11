@@ -1,0 +1,124 @@
+$ /opt/homebrew/Caskroom/miniconda/base/envs/plasticome-tree/bin/muscle -align /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/seqs.faa -stratified -replicates 4 -output /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/ensemble.efa.part -threads 4
+
+muscle 5.3.osxarm64 []  17.2Gb RAM, 10 cores
+Built Jul 31 2025 00:34:33
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+[align /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/seqs.faa]
+Input: 45 seqs, avg length 328, max 376, min 285
+
+Replicate 1/16, none.0
+00:00 4.0Mb     2.2% Derep 1 uniques, 0 dupes00:00 4.0Mb   100.0% Derep 45 uniques, 0 dupes
+00:00 4.1Mb  CPU has 10 cores, running 4 threads
+00:00 4.2Mb     0.1% Calc posteriors00:01 113Mb    20.1% Calc posteriors00:02 177Mb    63.6% Calc posteriors00:03 186Mb   100.0% Calc posteriors
+00:03 186Mb     2.3% UPGMA5         00:03 186Mb   100.0% UPGMA5
+00:03 186Mb     0.1% Consistency (1/2)00:03 197Mb   100.0% Consistency (1/2)
+00:03 197Mb     0.1% Consistency (2/2)00:03 197Mb   100.0% Consistency (2/2)
+00:03 197Mb     1.0% Refining         00:03 197Mb   100.0% Refining
+Replicate 2/16, abc.0        
+00:03 197Mb     2.2% Derep 1 uniques, 0 dupes00:03 197Mb   100.0% Derep 45 uniques, 0 dupes
+00:03 197Mb     0.1% Calc posteriors          00:04 206Mb    21.0% Calc posteriors00:05 210Mb    65.3% Calc posteriors00:05 211Mb   100.0% Calc posteriors
+00:05 211Mb     2.3% UPGMA5         00:05 211Mb   100.0% UPGMA5
+00:05 211Mb     0.1% Consistency (1/2)00:06 211Mb    20.4% Consistency (1/2)00:06 213Mb   100.0% Consistency (1/2)
+00:06 213Mb     0.1% Consistency (2/2)00:06 213Mb   100.0% Consistency (2/2)
+00:06 213Mb     1.0% Refining         00:06 213Mb   100.0% Refining
+Replicate 3/16, acb.0        
+00:06 213Mb     2.2% Derep 1 uniques, 0 dupes00:06 213Mb   100.0% Derep 45 uniques, 0 dupes
+00:06 213Mb     0.1% Calc posteriors          00:07 221Mb    22.9% Calc posteriors00:08 227Mb    66.9% Calc posteriors00:08 233Mb   100.0% Calc posteriors
+00:08 233Mb     2.3% UPGMA5         00:08 233Mb   100.0% UPGMA5
+00:08 233Mb     0.1% Consistency (1/2)00:09 233Mb    55.2% Consistency (1/2)00:09 234Mb   100.0% Consistency (1/2)
+00:09 234Mb     0.1% Consistency (2/2)00:09 234Mb   100.0% Consistency (2/2)
+00:09 234Mb     1.0% Refining         00:09 234Mb   100.0% Refining
+Replicate 4/16, bca.0        
+00:09 234Mb     2.2% Derep 1 uniques, 0 dupes00:09 234Mb   100.0% Derep 45 uniques, 0 dupes
+00:09 234Mb     0.1% Calc posteriors          00:10 234Mb    24.7% Calc posteriors00:11 234Mb    68.9% Calc posteriors00:11 235Mb   100.0% Calc posteriors
+00:11 235Mb     2.3% UPGMA5         00:11 235Mb   100.0% UPGMA5
+00:11 235Mb     0.1% Consistency (1/2)00:12 235Mb    77.9% Consistency (1/2)00:12 235Mb   100.0% Consistency (1/2)
+00:12 235Mb     0.1% Consistency (2/2)00:12 235Mb   100.0% Consistency (2/2)
+00:12 235Mb     1.0% Refining         00:12 235Mb   100.0% Refining
+Replicate 5/16, none.1       
+00:12 235Mb     2.2% Derep 1 uniques, 0 dupes00:12 235Mb   100.0% Derep 45 uniques, 0 dupes
+00:12 235Mb     0.1% Calc posteriors          00:13 236Mb    26.1% Calc posteriors00:14 236Mb    68.9% Calc posteriors00:14 236Mb   100.0% Calc posteriors
+00:14 236Mb     2.3% UPGMA5         00:14 236Mb   100.0% UPGMA5
+00:14 236Mb     0.1% Consistency (1/2)00:15 237Mb    58.7% Consistency (1/2)00:15 237Mb   100.0% Consistency (1/2)
+00:15 237Mb     0.1% Consistency (2/2)00:15 217Mb   100.0% Consistency (2/2)
+00:15 217Mb     1.0% Refining         00:15 217Mb   100.0% Refining
+Replicate 6/16, abc.1        
+00:15 217Mb     2.2% Derep 1 uniques, 0 dupes00:15 217Mb   100.0% Derep 45 uniques, 0 dupes
+00:15 217Mb     0.1% Calc posteriors          00:16 224Mb    23.9% Calc posteriors00:17 230Mb    67.3% Calc posteriors00:17 232Mb   100.0% Calc posteriors
+00:17 232Mb     2.3% UPGMA5         00:17 232Mb   100.0% UPGMA5
+00:17 232Mb     0.1% Consistency (1/2)00:18 232Mb    49.6% Consistency (1/2)00:18 234Mb   100.0% Consistency (1/2)
+00:18 234Mb     0.1% Consistency (2/2)00:18 235Mb   100.0% Consistency (2/2)
+00:18 235Mb     1.0% Refining         00:18 235Mb   100.0% Refining
+Replicate 7/16, acb.1        
+00:18 235Mb     2.2% Derep 1 uniques, 0 dupes00:18 235Mb   100.0% Derep 45 uniques, 0 dupes
+00:18 235Mb     0.1% Calc posteriors          00:19 235Mb    24.0% Calc posteriors00:20 237Mb    67.5% Calc posteriors00:20 237Mb   100.0% Calc posteriors
+00:20 237Mb     2.3% UPGMA5         00:20 237Mb   100.0% UPGMA5
+00:20 237Mb     0.1% Consistency (1/2)00:21 237Mb    42.5% Consistency (1/2)00:21 237Mb   100.0% Consistency (1/2)
+00:21 237Mb     0.1% Consistency (2/2)00:21 237Mb   100.0% Consistency (2/2)
+00:21 237Mb     1.0% Refining         00:21 237Mb   100.0% Refining
+Replicate 8/16, bca.1        
+00:21 237Mb     2.2% Derep 1 uniques, 0 dupes00:21 237Mb   100.0% Derep 45 uniques, 0 dupes
+00:21 237Mb     0.1% Calc posteriors          00:22 238Mb    23.3% Calc posteriors00:23 235Mb    66.5% Calc posteriors00:23 238Mb   100.0% Calc posteriors
+00:23 238Mb     2.3% UPGMA5         00:23 238Mb   100.0% UPGMA5
+00:23 238Mb     0.1% Consistency (1/2)00:24 238Mb    29.5% Consistency (1/2)00:24 238Mb   100.0% Consistency (1/2)
+00:24 238Mb     0.1% Consistency (2/2)00:24 238Mb   100.0% Consistency (2/2)
+00:24 238Mb     1.0% Refining         00:24 238Mb   100.0% Refining
+Replicate 9/16, none.2       
+00:24 238Mb     2.2% Derep 1 uniques, 0 dupes00:24 238Mb   100.0% Derep 45 uniques, 0 dupes
+00:24 238Mb     0.1% Calc posteriors          00:25 239Mb    23.5% Calc posteriors00:26 244Mb    68.4% Calc posteriors00:26 243Mb   100.0% Calc posteriors
+00:26 243Mb     2.3% UPGMA5         00:26 243Mb   100.0% UPGMA5
+00:26 243Mb     0.1% Consistency (1/2)00:27 243Mb    72.0% Consistency (1/2)00:27 238Mb   100.0% Consistency (1/2)
+00:27 238Mb     0.1% Consistency (2/2)00:27 238Mb   100.0% Consistency (2/2)
+00:27 238Mb     1.0% Refining         00:27 238Mb   100.0% Refining
+Replicate 10/16, abc.2       
+00:27 238Mb     2.2% Derep 1 uniques, 0 dupes00:27 238Mb   100.0% Derep 45 uniques, 0 dupes
+00:27 238Mb     0.1% Calc posteriors          00:28 244Mb    24.4% Calc posteriors00:29 248Mb    68.2% Calc posteriors00:29 247Mb   100.0% Calc posteriors
+00:29 249Mb     2.3% UPGMA5         00:29 249Mb   100.0% UPGMA5
+00:29 249Mb     0.1% Consistency (1/2)00:30 250Mb    71.4% Consistency (1/2)00:30 250Mb   100.0% Consistency (1/2)
+00:30 250Mb     0.1% Consistency (2/2)00:30 250Mb   100.0% Consistency (2/2)
+00:30 250Mb     1.0% Refining         00:30 250Mb   100.0% Refining
+Replicate 11/16, acb.2       
+00:30 250Mb     2.2% Derep 1 uniques, 0 dupes00:30 250Mb   100.0% Derep 45 uniques, 0 dupes
+00:30 250Mb     0.1% Calc posteriors          00:31 245Mb    24.1% Calc posteriors00:32 247Mb    69.0% Calc posteriors00:32 250Mb   100.0% Calc posteriors
+00:32 250Mb     2.3% UPGMA5         00:32 250Mb   100.0% UPGMA5
+00:32 250Mb     0.1% Consistency (1/2)00:33 250Mb    74.7% Consistency (1/2)00:33 251Mb   100.0% Consistency (1/2)
+00:33 251Mb     0.1% Consistency (2/2)00:33 251Mb   100.0% Consistency (2/2)
+00:33 251Mb     1.0% Refining         00:33 251Mb   100.0% Refining
+Replicate 12/16, bca.2       
+00:33 251Mb     2.2% Derep 1 uniques, 0 dupes00:33 251Mb   100.0% Derep 45 uniques, 0 dupes
+00:33 251Mb     0.1% Calc posteriors          00:34 251Mb    24.9% Calc posteriors00:35 252Mb    69.4% Calc posteriors00:35 252Mb   100.0% Calc posteriors
+00:35 252Mb     2.3% UPGMA5         00:35 252Mb   100.0% UPGMA5
+00:35 252Mb     0.1% Consistency (1/2)00:36 252Mb    76.4% Consistency (1/2)00:36 253Mb   100.0% Consistency (1/2)
+00:36 253Mb     0.1% Consistency (2/2)00:36 254Mb   100.0% Consistency (2/2)
+00:36 254Mb     1.0% Refining         00:36 254Mb   100.0% Refining
+Replicate 13/16, none.3      
+00:36 254Mb     2.2% Derep 1 uniques, 0 dupes00:36 254Mb   100.0% Derep 45 uniques, 0 dupes
+00:36 254Mb     0.1% Calc posteriors          00:37 255Mb    24.6% Calc posteriors00:38 255Mb    68.5% Calc posteriors00:38 255Mb   100.0% Calc posteriors
+00:38 255Mb     2.3% UPGMA5         00:38 255Mb   100.0% UPGMA5
+00:38 255Mb     0.1% Consistency (1/2)00:39 255Mb    63.9% Consistency (1/2)00:39 255Mb   100.0% Consistency (1/2)
+00:39 255Mb     0.1% Consistency (2/2)00:39 256Mb   100.0% Consistency (2/2)
+00:39 256Mb     1.0% Refining         00:39 256Mb   100.0% Refining
+Replicate 14/16, abc.3       
+00:39 256Mb     2.2% Derep 1 uniques, 0 dupes00:39 256Mb   100.0% Derep 45 uniques, 0 dupes
+00:39 256Mb     0.1% Calc posteriors          00:40 257Mb    23.5% Calc posteriors00:41 257Mb    66.8% Calc posteriors00:41 257Mb   100.0% Calc posteriors
+00:41 257Mb     2.3% UPGMA5         00:41 257Mb   100.0% UPGMA5
+00:41 257Mb     0.1% Consistency (1/2)00:42 257Mb    31.5% Consistency (1/2)00:42 258Mb   100.0% Consistency (1/2)
+00:42 258Mb     0.1% Consistency (2/2)00:42 258Mb   100.0% Consistency (2/2)
+00:42 258Mb     1.0% Refining         00:42 258Mb   100.0% Refining
+Replicate 15/16, acb.3       
+00:42 258Mb     2.2% Derep 1 uniques, 0 dupes00:42 258Mb   100.0% Derep 45 uniques, 0 dupes
+00:42 258Mb     0.1% Calc posteriors          00:43 258Mb    21.7% Calc posteriors00:44 251Mb    64.4% Calc posteriors00:44 255Mb   100.0% Calc posteriors
+00:45 255Mb     2.3% UPGMA5         00:45 255Mb   100.0% UPGMA5
+00:45 255Mb     0.1% Consistency (1/2)00:45 255Mb   100.0% Consistency (1/2)
+00:45 255Mb     0.1% Consistency (2/2)00:45 255Mb   100.0% Consistency (2/2)
+00:45 255Mb     1.0% Refining         00:45 255Mb   100.0% Refining
+Replicate 16/16, bca.3       
+00:45 255Mb     2.2% Derep 1 uniques, 0 dupes00:45 255Mb   100.0% Derep 45 uniques, 0 dupes
+00:45 255Mb     0.1% Calc posteriors          00:46 257Mb    18.7% Calc posteriors00:47 259Mb    61.6% Calc posteriors00:48 259Mb    99.4% Calc posteriors00:48 259Mb   100.0% Calc posteriors
+00:48 259Mb     2.3% UPGMA5         00:48 259Mb   100.0% UPGMA5
+00:48 259Mb     0.1% Consistency (1/2)00:48 259Mb   100.0% Consistency (1/2)
+00:48 259Mb     0.1% Consistency (2/2)00:48 259Mb   100.0% Consistency (2/2)
+00:48 259Mb     1.0% Refining         00:48 259Mb   100.0% Refining
+$ /opt/homebrew/Caskroom/miniconda/base/envs/plasticome-tree/bin/iqtree -s /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/ml.afa -m MFP -mset LG,WAG,JTT,Q.pfam -B 1000 -seed 1 -T 1 -pre /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work_centroids/components/c01/iq -quiet -redo

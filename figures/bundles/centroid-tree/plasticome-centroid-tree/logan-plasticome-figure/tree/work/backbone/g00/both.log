@@ -1,0 +1,1259 @@
+IQ-TREE version 3.1.4 for MacOS ARM 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Air-239.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/Caskroom/miniconda/base/envs/plasticome-tree/bin/iqtree -p partitions.nex -seed 1 -T 1 -pre both -redo -quiet -B 1000 -bnni
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  1 15:54:18 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file partitions.nex ...
+Partition file is in NEXUS format...
+Loading 2 partitions...
+Reading alignment file aa.afa ... Fasta format detected
+Reading fasta file: done in 0.000149965 secs using 89.35% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00027895 secs using 78.87% CPU
+Alignment has 36 sequences with 324 columns, 324 distinct patterns
+321 parsimony-informative, 3 singleton sites, 0 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.28746e-05 secs using 93.21% CPU
+   1  c00    9.26%    failed      0.00%
+   2  c03   44.75%    passed     24.97%
+   3  c04    7.10%    passed     78.55%
+   4  c07   25.31%    failed      0.47%
+   5  c08   33.02%    failed      0.00%
+   6  c09   41.05%    failed      0.42%
+   7  c10   21.30%    failed      0.01%
+   8  c11   24.07%    failed      0.16%
+   9  c12   17.28%    passed     44.41%
+  10  c15   20.68%    failed      0.35%
+  11  c16    7.41%    passed     10.69%
+  12  c18   23.46%    passed     40.89%
+  13  c19   23.77%    passed     24.19%
+  14  c21   19.44%    failed      0.01%
+  15  c23   20.68%    failed      0.08%
+  16  c24   19.75%    passed     54.98%
+  17  c25   35.49%    failed      4.07%
+  18  c26   27.78%    passed     46.43%
+  19  c27   19.75%    passed     76.53%
+  20  c28   12.96%    failed      0.00%
+  21  c29   19.44%    passed     12.19%
+  22  c31   25.00%    failed      0.17%
+  23  c32   30.56%    failed      0.08%
+  24  c33   25.93%    failed      0.00%
+  25  c34   16.98%    passed     30.11%
+  26  c35   45.99%    passed     13.51%
+  27  c36   23.77%    passed     28.86%
+  28  c39   41.36%    failed      3.16%
+  29  c42   19.75%    passed     58.74%
+  30  c43   22.53%    failed      0.00%
+  31  c44   20.37%    failed      0.44%
+  32  c45   26.23%    passed      7.37%
+  33  c48   33.33%    passed     14.03%
+  34  c50   17.90%    failed      0.00%
+  35  c52   11.42%    failed      4.55%
+  36  c55   25.00%    failed      4.27%
+****  TOTAL   23.89%  20 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading alignment file 3di.afa ... Fasta format detected
+Reading fasta file: done in 0.000136852 secs using 94.26% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000267029 secs using 79.02% CPU
+Alignment has 36 sequences with 324 columns, 324 distinct patterns
+316 parsimony-informative, 7 singleton sites, 1 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.19209e-05 secs using 92.27% CPU
+   1  c00    9.26%    failed      0.00%
+   2  c03   44.75%    passed     46.17%
+   3  c04    7.10%    failed      0.02%
+   4  c07   25.31%    passed     32.66%
+   5  c08   33.02%    passed     38.05%
+   6  c09   41.05%    passed      9.05%
+   7  c10   21.30%    failed      0.10%
+   8  c11   24.07%    failed      0.85%
+   9  c12   17.28%    passed      9.29%
+  10  c15   20.68%    failed      0.03%
+  11  c16    7.41%    failed      0.00%
+  12  c18   23.46%    passed     94.05%
+  13  c19   23.77%    passed     65.27%
+  14  c21   19.44%    passed     67.56%
+  15  c23   20.68%    passed     30.43%
+  16  c24   19.75%    passed      5.49%
+  17  c25   35.49%    failed      1.96%
+  18  c26   27.78%    passed     41.21%
+  19  c27   19.75%    passed     14.58%
+  20  c28   12.96%    failed      1.21%
+  21  c29   19.44%    failed      0.25%
+  22  c31   25.00%    passed      7.83%
+  23  c32   30.56%    failed      0.00%
+  24  c33   25.93%    failed      0.46%
+  25  c34   16.98%    passed     17.54%
+  26  c35   45.99%    passed     17.50%
+  27  c36   23.77%    passed     72.14%
+  28  c39   41.36%    failed      4.66%
+  29  c42   19.75%    passed     86.51%
+  30  c43   22.53%    passed     78.77%
+  31  c44   20.37%    passed     92.21%
+  32  c45   26.23%    passed     54.38%
+  33  c48   33.33%    failed      2.03%
+  34  c50   17.90%    failed      1.99%
+  35  c52   11.42%    failed      0.00%
+  36  c55   25.00%    passed     67.41%
+****  TOTAL   23.89%  15 sequences failed composition chi2 test (p-value<5%; df=19)
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	AA	36	324	321	0	Q.PFAM+F+R4	aa
+2	AA	36	324	316	1	3DI+G4	di
+Degree of missing data: 0.000
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 1)...
+Reading model parameters from file 3DI
+
+NOTE: 17 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -44831.389
+Current log-likelihood at step 1: -43699.438
+Current log-likelihood at step 2: -43617.843
+Current log-likelihood at step 3: -43596.795
+Current log-likelihood at step 4: -43592.422
+Current log-likelihood at step 5: -43590.181
+Current log-likelihood at step 6: -43588.739
+Current log-likelihood at step 7: -43587.837
+Current log-likelihood at step 8: -43587.307
+Current log-likelihood at step 9: -43586.998
+Current log-likelihood at step 10: -43586.816
+Current log-likelihood at step 11: -43586.710
+Current log-likelihood at step 12: -43586.645
+Partition-specific rates:  1.495 0.505
+Parameters optimization took 11 rounds (3.544 sec)
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 7.51019e-05 secs using 90.54% CPU
+Computing ML distances took 0.000089 sec (of wall-clock time) 0.000078 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 2.19345e-05 secs using 68.39% CPU
+Constructing RapidNJ tree: done in 6.50883e-05 secs using 161.3% CPU
+Computing RapidNJ tree took 0.000104 sec (of wall-clock time) 0.000133 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -44921.241
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.563 second
+Computing log-likelihood of 98 initial trees ... 3.710 seconds
+Current best score: -43586.645
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -43524.927
+Current log-likelihood at step 1: -43523.240
+Current log-likelihood at step 2: -43523.195
+Parameters optimization took 1 rounds (0.613 sec)
+
+BETTER TREE FOUND at iteration 1: -43523.195
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -43522.463
+Current log-likelihood at step 1: -43522.400
+Parameters optimization took 0 rounds (0.245 sec)
+
+BETTER TREE FOUND at iteration 2: -43522.400
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -43519.572
+Current log-likelihood at step 1: -43519.377
+Current log-likelihood at step 2: -43519.303
+Parameters optimization took 1 rounds (0.504 sec)
+
+BETTER TREE FOUND at iteration 5: -43519.303
+Iteration 10 / LogL: -43523.431 / Time: 0h:0m:20s
+Iteration 20 / LogL: -43522.192 / Time: 0h:0m:31s
+Finish initializing candidate tree set (16)
+Current best tree score: -43519.303 / CPU time: 27.176
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -43528.796 / Time: 0h:0m:39s (0h:1m:43s left)
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -43519.282
+Current log-likelihood at step 1: -43519.218
+Parameters optimization took 0 rounds (0.558 sec)
+
+UPDATE BEST LOG-LIKELIHOOD: -43519.218
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -43518.658
+Current log-likelihood at step 1: -43518.445
+Current log-likelihood at step 2: -43518.436
+Parameters optimization took 1 rounds (0.427 sec)
+
+BETTER TREE FOUND at iteration 40: -43518.436
+Iteration 40 / LogL: -43518.436 / Time: 0h:1m:5s (0h:2m:48s left)
+Iteration 50 / LogL: -43519.314 / Time: 0h:2m:53s (0h:5m:19s left)
+Iteration 60 / LogL: -43541.701 / Time: 0h:18m:14s (0h:24m:44s left)
+Iteration 70 / LogL: -43519.284 / Time: 0h:18m:32s (0h:18m:48s left)
+Iteration 80 / LogL: -43518.475 / Time: 0h:20m:53s (0h:15m:51s left)
+Iteration 90 / LogL: -43518.682 / Time: 0h:20m:59s (0h:11m:47s left)
+Iteration 100 / LogL: -43519.676 / Time: 0h:21m:5s (0h:8m:31s left)
+Iteration 110 / LogL: -43518.674 / Time: 0h:21m:12s (0h:5m:50s left)
+Iteration 120 / LogL: -43520.614 / Time: 0h:21m:19s (0h:3m:34s left)
+Iteration 130 / LogL: -43518.615 / Time: 0h:21m:25s (0h:1m:39s left)
+Iteration 140 / LogL: -43518.509 / Time: 0h:21m:32s (0h:0m:0s left)
+Refining ufboot trees with NNI 5 branches...
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+100 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+200 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+300 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+400 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+500 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+600 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+700 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+800 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+900 samples done
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+Reading model parameters from file 3DI
+1000 samples done
+Total 998 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 141 ITERATIONS / Time: 0h:26m:48s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -43518.436
+Current log-likelihood at step 1: -43518.433
+Partition-specific rates:  1.494 0.506
+Parameters optimization took 0 rounds (0.220 sec)
+
+Partition information was printed to both.best_model.nex
+BEST SCORE FOUND : -43518.433
+Creating bootstrap support values...
+Split supports printed to NEXUS file both.splits.nex
+Total tree length: 68.599
+
+Total number of iterations: 141
+CPU time used for tree search: 457.423 sec (0h:7m:37s)
+Wall-clock time used for tree search: 1604.230 sec (0h:26m:44s)
+Total CPU time used: 461.608 sec (0h:7m:41s)
+Total wall-clock time used: 1608.436 sec (0h:26m:48s)
+UFBoot trees printed to both.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file both.splits.nex...
+36 taxa and 461 splits.
+Consensus tree written to both.contree
+Reading input trees file both.contree
+Log-likelihood of consensus tree: -43521.562
+
+Analysis results written to: 
+  IQ-TREE report:                both.iqtree
+  Maximum-likelihood tree:       both.treefile
+  Likelihood distances:          both.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          both.splits.nex
+  Consensus tree:                both.contree
+  UFBoot trees:                  both.ufboot
+  Screen log file:               both.log
+
+Date and Time: Thu Oct  1 16:21:07 2026

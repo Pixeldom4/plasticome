@@ -1,0 +1,184 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c07/ml.afa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 1
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 7 sequences with 413 amino-acid sites
+Number of constant sites: 119 (= 28.8136% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 119 (= 28.8136% of all sites)
+Number of parsimony informative sites: 227
+Number of distinct site patterns: 313
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+G4             -4242.987    8509.974 -  0.00337    8510.754 -    0.032    8558.255 +    0.732
+Q.PFAM+G4         -4244.649    8513.299 - 0.000638    8514.079 -  0.00606    8561.580 +    0.139
+LG+I+G4           -4242.612    8511.224 -   0.0018    8512.136 -    0.016    8563.529 +   0.0524
+WAG+G4            -4245.783    8515.565 - 0.000206    8516.345 -  0.00195    8563.847 -   0.0447
+WAG+I+G4          -4243.777    8513.553 - 0.000562    8514.466 -    0.005    8565.858 -   0.0163
+Q.PFAM+I+G4       -4243.957    8513.914 - 0.000469    8514.826 -  0.00417    8566.219 -   0.0136
+LG+I+R2           -4242.834    8513.668 - 0.000531    8514.723 -  0.00439    8569.996 -  0.00207
+LG+R2             -4249.327    8524.654 - 2.18e-06    8525.566 - 1.94e-05    8576.959 - 6.35e-05
+LG+R3             -4244.177    8518.355 -  5.1e-05    8519.564 - 0.000391    8578.706 - 2.65e-05
+LG+I+R3           -4242.172    8516.344 - 0.000139    8517.718 - 0.000983    8580.719 - 9.69e-06
+JTT+G4            -4274.537    8573.073 - 6.69e-17    8573.853 - 6.35e-16    8621.355 - 1.45e-14
+LG+I              -4275.841    8575.683 - 1.81e-17    8576.463 - 1.72e-16    8623.964 - 3.94e-15
+JTT+I+G4          -4273.668    8573.336 - 5.86e-17    8574.248 - 5.21e-16    8625.641 - 1.71e-15
+Q.PFAM+F+G4       -4219.576    8501.153 +    0.277    8506.360 +    0.288    8625.880 - 1.51e-15
+LG+F+G4           -4220.700    8503.401 +     0.09    8508.608 +   0.0935    8628.128 - 4.92e-16
+Q.PFAM+F+I+G4     -4218.151    8500.301 +    0.424    8505.859 +    0.369    8629.052 -  3.1e-16
+WAG+F+G4          -4222.276    8506.552 -   0.0186    8511.759 -   0.0193    8631.279 - 1.02e-16
+LG+F+I+G4         -4219.654    8503.309 +   0.0943    8508.867 +   0.0821    8632.059 - 6.89e-17
+WAG+F+I+G4        -4219.719    8503.438 +   0.0883    8508.996 +    0.077    8632.189 - 6.46e-17
+JTT+F+G4          -4252.256    8566.512 - 1.78e-15    8571.719 - 1.85e-15    8691.239 - 9.71e-30
+JTT+F+I+G4        -4250.759    8565.518 - 2.92e-15    8571.076 - 2.55e-15    8694.268 - 2.14e-30
+LG                -4356.332    8734.664 - 5.45e-52    8735.323 -  5.5e-51    8778.922 - 8.86e-49
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.6815
+
+ Category  Relative_rate  Proportion
+  1         0.0702         0.2500
+  2         0.3547         0.2500
+  3         0.9178         0.2500
+  4         2.6573         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4242.9856 (s.e. 98.5702)
+Unconstrained log-likelihood (without tree): -2240.1307
+Number of free parameters (#branches + #model parameters): 12
+Akaike information criterion (AIC) score: 8509.9712
+Corrected Akaike information criterion (AICc) score: 8510.7512
+Bayesian information criterion (BIC) score: 8558.2526
+
+Total tree length (sum of branch lengths): 4.1753
+Sum of internal branch lengths: 1.8860 (45.1697% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon '75' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--75
+|
+|                                +-------------------102
+|                           +----| (52)
+|                           |    +----------------------103
+|                      +----| (60)
+|                      |    |                            +--180
+|                      |    +----------------------------| (100)
+|                      |                                 +**457
++----------------------| (100)
+|                      +--------------------------------104
+|
++--587
+
+Tree in newick format:
+
+(75:0.0313853967,(((102:0.5909710030,103:0.6772814845)52:0.1670939840,(180:0.0206030474,457:0.0000019098)100:0.8580054973)60:0.1686228116,104:0.9592741806)100:0.6922406365,587:0.0098065754);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4242.985676
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--75
+|
+|                                +-------------------102
+|                           +----| (52)
+|                           |    +----------------------103
+|                      +----| (60)
+|                      |    |                            +--180
+|                      |    +----------------------------| (100)
+|                      |                                 +--457
++----------------------| (100)
+|                      +--------------------------------104
+|
++--587
+
+
+Consensus tree in newick format: 
+
+(75:0.0312961637,(((102:0.5908511521,103:0.6771200243)52:0.1670040248,(180:0.0205961156,457:0.0000025554)100:0.8578502562)60:0.1686476669,104:0.9589979797)100:0.6921046288,587:0.0098484156);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c07/iq.treefile -m "LG+G4{0.681463}" --length 413
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c07/ml.afa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c07/ml.afa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  1 15:34:16 2026
+Total CPU time used: 3.744049 seconds (0h:0m:3s)
+Total wall-clock time used: 3.867920876 seconds (0h:0m:3s)
+

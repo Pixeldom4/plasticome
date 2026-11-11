@@ -1,0 +1,404 @@
+row	tip	enzyme_name	accession	fold_group	fold	component	seed
+1	72	MGS0084	AKJ87250	g00	Alpha/beta hydrolase	c24	
+2	467	porcine pancreatic lipase	1ETH_A	g00	Alpha/beta hydrolase	c52	
+3	14	EstB	QDD67397.1	g00	Alpha/beta hydrolase	c35	
+4	96	PhaZpst	BAA32541.1	g00	Alpha/beta hydrolase	c29	
+5	454	TA26	WDT94443	g00	Alpha/beta hydrolase	c50	
+6	69	MGS0109	AGT96415.1	g00	Alpha/beta hydrolase	c36	
+7	64	RPA1511	WP_011157072.1	g00	Alpha/beta hydrolase	c23	
+8	576	phaZ-like	WP_013956815.1	g00	Alpha/beta hydrolase	c55	
+9	92	PhaY2	WP_011615004.1	g00	Alpha/beta hydrolase	c27	
+10	77	PlaM9	BAF57214.1	g00	Alpha/beta hydrolase	c39	
+11	187	CE_Ubrb	SIP63154.1	g00	Alpha/beta hydrolase	c42	
+12	182	Est11_32	WP_041846030	g00	Alpha/beta hydrolase	c31	
+13	195	HG-3	RGD93181.1	g00	Alpha/beta hydrolase	c44	
+14	194	HG-2	WP_118011433.1	g00	Alpha/beta hydrolase	c43	
+15	73	MGS0156	AKJ87264	g00	Alpha/beta hydrolase	c25	
+16	90	PhaZd1	WP_010811062.1	g00	Alpha/beta hydrolase	c15	
+17	595	PhaZ7	Q0JYJ1	g00	Alpha/beta hydrolase	c15	
+18	146	Amidase	ACY56506.1	g00	Alpha/beta hydrolase	c19	
+19	181	Est8_89	WP_034768559.1	g00	Alpha/beta hydrolase	c19	
+20	63	ABO2449	WP_011589723.1	g00	Alpha/beta hydrolase	c18	
+21	455	TA29	WDT94189	g00	Alpha/beta hydrolase	c18	
+22	91	PhaY1(PhaZ2)	WP_011615575.1	g00	Alpha/beta hydrolase	c16	
+23	97	PhaZCac	WP_034398300.1	g00	Alpha/beta hydrolase	c16	
+24	231	APET-23	MSQ87502.1	g00	Alpha/beta hydrolase	c48	
+25	214	PD3	QPA27412.1	g00	Alpha/beta hydrolase	c34	
+26	196	HG-4	WP_013858543.1	g00	Alpha/beta hydrolase	c45	
+27	185	Ces39_5	WP_108898647	g00	Alpha/beta hydrolase	c33	
+28	184	Ces19_14	WP_034767800	g00	Alpha/beta hydrolase	c32	
+29	74	GEN0105	AKJ87216	g00	Alpha/beta hydrolase	c12	
+30	453	TA21	WDT94064	g00	Alpha/beta hydrolase	c12	
+31	166	IS12	UNZ81748.1	g00	Alpha/beta hydrolase	c12	
+32	164	IS10	UNZ81746.1	g00	Alpha/beta hydrolase	c12	
+33	46	LipasePueB	AAF01331.1	g00	Alpha/beta hydrolase	c10	
+34	49	PueB	WP_011061489.1	g00	Alpha/beta hydrolase	c10	
+35	47	EsterasePulA	AAF66684.1	g00	Alpha/beta hydrolase	c10	
+36	48	PueA	WP_011061486.1	g00	Alpha/beta hydrolase	c10	PueA
+37	593	PhaZAfa	P94146	g00	Alpha/beta hydrolase	c11	
+38	95	PhaZ5	AAA65705.1	g00	Alpha/beta hydrolase	c11	
+39	93	PhaZAfa	AAA21974.1	g00	Alpha/beta hydrolase	c11	
+40	605	PhaZcac	BAA19791.1	g00	Alpha/beta hydrolase	c11	
+41	98	PHB depolymerase	BAG32152.1	g00	Alpha/beta hydrolase	c11	
+42	86	PhaZ2	WP_010813770.1	g00	Alpha/beta hydrolase	c08	
+43	89	PhaZ5	WP_011616952.1	g00	Alpha/beta hydrolase	c08	
+44	85	PhaZ1	WP_011614907.1	g00	Alpha/beta hydrolase	c08	PhaZ1
+45	88	PhaZ4	AAP85930.1	g00	Alpha/beta hydrolase	c08	
+46	87	PhaZ3	WP_011616504.1	g00	Alpha/beta hydrolase	c08	
+47	104	Cbotu_EstB	AKZ20829.1	g00	Alpha/beta hydrolase	c07	
+48	587	PlaM5 depolymerase	BAF57211.1	g00	Alpha/beta hydrolase	c07	
+49	457	JW45_1534		g00	Alpha/beta hydrolase	c07	
+50	103	Cbotu_EstA	AKZ20828.1	g00	Alpha/beta hydrolase	c07	
+51	102	PFL1	EIW29778.1	g00	Alpha/beta hydrolase	c07	
+52	44	PudA	BAA76305.1	g00	Alpha/beta hydrolase	c04	
+53	468	CRL	CAA34684	g00	Alpha/beta hydrolase	c04	
+54	178	Tcca	WP_015255658	g00	Alpha/beta hydrolase	c04	
+55	115	102		g00	Alpha/beta hydrolase	c04	
+56	114	101		g00	Alpha/beta hydrolase	c04	
+57	210	Dkca1	WID88783	g00	Alpha/beta hydrolase	c04	
+58	100	Chath_Est1	ALS54749.1	g00	Alpha/beta hydrolase	c04	
+59	183	Est18_23	WP_041847557	g00	Alpha/beta hydrolase	c04	
+60	35	BsEstB	ADH43200.1	g00	Alpha/beta hydrolase	c04	
+61	41	CalB	CAA83122.1	g00	Alpha/beta hydrolase	c21	
+62	94	PhaZ7	WP_132259156.1	g00	Alpha/beta hydrolase	c28	
+63	535	PlaM8 depolymerase	BAF57213.1	g00	Alpha/beta hydrolase	c26	
+64	465	PET94	WKW63608.1	g00	Alpha/beta hydrolase	c09	
+65	464	PET93	WKW63607.1	g00	Alpha/beta hydrolase	c09	
+66	62	PLaA	BAC67195.1	g00	Alpha/beta hydrolase	c09	
+67	456	JW44_1708		g00	Alpha/beta hydrolase	c09	
+68	222	TGL	WAT79796.1	g00	Alpha/beta hydrolase	c09	
+69	155	Sub1	QEX94755.1	g00	Alpha/beta hydrolase	c03	
+70	99	PBATHRF	BCL64964.1	g00	Alpha/beta hydrolase	c03	
+71	84	PaE	XP_014659518.1	g00	Alpha/beta hydrolase	c03	
+72	204	BaCut1	XAQ58225	g00	Alpha/beta hydrolase	c03	
+73	82	CmCut	BAN42606.1	g00	Alpha/beta hydrolase	c03	
+74	81	CfCLE	BAT32793.1	g00	Alpha/beta hydrolase	c03	
+75	161	MRCUT1	ESK97883.1	g00	Alpha/beta hydrolase	c03	
+76	200	CpCut1	WKA69984.1	g00	Alpha/beta hydrolase	c03	
+77	79	CutL1	XP_001817153.1	g00	Alpha/beta hydrolase	c03	
+78	83	PCLE	BAN51852.1	g00	Alpha/beta hydrolase	c03	
+79	160	FoCut5a	EXK81749	g00	Alpha/beta hydrolase	c03	
+80	173	FSC	Q99174	g00	Alpha/beta hydrolase	c03	
+81	202	DmC	KAH7127633	g00	Alpha/beta hydrolase	c03	
+82	201	TaC		g00	Alpha/beta hydrolase	c03	
+83	203	RtC		g00	Alpha/beta hydrolase	c03	
+84	43	HiC	A0A075B5G4	g00	Alpha/beta hydrolase	c03	HiC
+85	122	307		g00	Alpha/beta hydrolase	c00	
+86	118	211		g00	Alpha/beta hydrolase	c00	
+87	40	PET46	RLI42440.1	g00	Alpha/beta hydrolase	c00	
+88	117	204		g00	Alpha/beta hydrolase	c00	
+89	116	202		g00	Alpha/beta hydrolase	c00	
+90	121	305		g00	Alpha/beta hydrolase	c00	
+91	225	APET-5	WP_218920366.1	g00	Alpha/beta hydrolase	c00	
+92	120	301		g00	Alpha/beta hydrolase	c00	
+93	458	GuaPA		g00	Alpha/beta hydrolase	c00	
+94	213	HGMP01		g00	Alpha/beta hydrolase	c00	
+95	197	HG-5	WP_008690040.1	g00	Alpha/beta hydrolase	c00	
+96	234	APET-26	WP_203847453.1	g00	Alpha/beta hydrolase	c00	
+97	232	APET-24	WP_018657411.1	g00	Alpha/beta hydrolase	c00	
+98	233	APET-25	MPZ00478.1	g00	Alpha/beta hydrolase	c00	
+99	236	APET-28	MBX2857432.1	g00	Alpha/beta hydrolase	c00	
+100	235	APET-27	WP_104739856.1	g00	Alpha/beta hydrolase	c00	
+101	459	HP	ATH80290	g00	Alpha/beta hydrolase	c00	
+102	238	APET-32	KZY99137.1	g00	Alpha/beta hydrolase	c00	
+103	209	dsPETase06	MEC8523093	g00	Alpha/beta hydrolase	c00	
+104	176	GlacPETase		g00	Alpha/beta hydrolase	c00	
+105	237	APET-29	MBE65357.1	g00	Alpha/beta hydrolase	c00	
+106	288	1395	RZL02950.1	g00	Alpha/beta hydrolase	c00	
+107	303	1876	WP_067035690.1	g00	Alpha/beta hydrolase	c00	
+108	257	1821	WP_137976057.1	g00	Alpha/beta hydrolase	c00	
+109	358	DP039	WP_085750434.1	g00	Alpha/beta hydrolase	c00	
+110	130	CtPl	WP_062195544.1	g00	Alpha/beta hydrolase	c00	
+111	4	PET12	WP_047194864.1	g00	Alpha/beta hydrolase	c00	
+112	15	RgPETase	WP_085749752.1	g00	Alpha/beta hydrolase	c00	
+113	159	AdCut	BAB86909	g00	Alpha/beta hydrolase	c00	
+114	1	ISPETase	WP_054022242.1	g00	Alpha/beta hydrolase	c00	ISPETase
+115	385	ESM045	MBX3621832.1	g00	Alpha/beta hydrolase	c00	
+116	156	RgCut-2	WP_085749238	g00	Alpha/beta hydrolase	c00	
+117	170	BurPL	OGB27210	g00	Alpha/beta hydrolase	c00	
+118	125	406	ODU60407.1	g00	Alpha/beta hydrolase	c00	
+119	38	PET30	WP_039353427.1	g00	Alpha/beta hydrolase	c00	
+120	37	PET27	WP_111881932.1	g00	Alpha/beta hydrolase	c00	
+121	128	412	WP_158643351.1	g00	Alpha/beta hydrolase	c00	
+122	127	409	RLT92980.1	g00	Alpha/beta hydrolase	c00	
+123	3	PET6	ASA57064.1	g00	Alpha/beta hydrolase	c00	
+124	11	Mors1	P19833.1	g00	Alpha/beta hydrolase	c00	
+125	310	PC8	MBA55398.1	g00	Alpha/beta hydrolase	c00	
+126	496	jmPE14	WP_068824797.1	g00	Alpha/beta hydrolase	c00	
+127	199	jmPE14		g00	Alpha/beta hydrolase	c00	
+128	211	PpPETase	WP_220815207	g00	Alpha/beta hydrolase	c00	
+129	367	DP078	WP_184682765.1	g00	Alpha/beta hydrolase	c00	
+130	403	ESM096	WP_252275389.1	g00	Alpha/beta hydrolase	c00	
+131	175	PaCut	SUD16364	g00	Alpha/beta hydrolase	c00	
+132	2	PET5	CCK74972.1	g00	Alpha/beta hydrolase	c00	
+133	39	PET2	ACC95208.1	g00	Alpha/beta hydrolase	c00	
+134	6	PLE629	UUT36763	g00	Alpha/beta hydrolase	c00	
+135	5	PLE628	UUT36764	g00	Alpha/beta hydrolase	c00	
+136	8	PpelaLip	WP_022964382.1	g00	Alpha/beta hydrolase	c00	
+137	9	PE-H	WP_088276085.1	g00	Alpha/beta hydrolase	c00	
+138	174	Hfor_PE-H	WP_090538641	g00	Alpha/beta hydrolase	c00	
+139	158	PbauzCut	WP_036989706.1	g00	Alpha/beta hydrolase	c00	
+140	7	PpCutA	ADK73612.1	g00	Alpha/beta hydrolase	c00	
+141	421	ESM186	WP_093473685.1	g00	Alpha/beta hydrolase	c00	
+142	13	MG8	MGYP000532440779	g00	Alpha/beta hydrolase	c00	
+143	418	ESM169	MBT9528079.1	g00	Alpha/beta hydrolase	c00	
+144	357	DP038	MBX3624429.1	g00	Alpha/beta hydrolase	c00	
+145	269	1169	WP_065917710.1	g00	Alpha/beta hydrolase	c00	
+146	370	DP082	WP_203733135.1	g00	Alpha/beta hydrolase	c00	
+147	368	DP080	MBJ7347705.1	g00	Alpha/beta hydrolase	c00	
+148	284	1309	TQL66274.1	g00	Alpha/beta hydrolase	c00	
+149	129	503	EGD44994.1	g00	Alpha/beta hydrolase	c00	
+150	302	1228	WP_091450391.1	g00	Alpha/beta hydrolase	c00	
+151	351	DP006	TDP67440	g00	Alpha/beta hydrolase	c00	
+152	352	DP007	WP_035284691	g00	Alpha/beta hydrolase	c00	
+153	434	TEP101	WP_019633337.1	g00	Alpha/beta hydrolase	c00	
+154	304	1340	WP_103564314.1	g00	Alpha/beta hydrolase	c00	
+155	162	PET1	ADV66860.1	g00	Alpha/beta hydrolase	c00	
+156	279	1240	KNX38636.1	g00	Alpha/beta hydrolase	c00	
+157	230	APET-20	MBO9532528.1	g00	Alpha/beta hydrolase	c00	
+158	16	LCC	AEV21261.1	g00	Alpha/beta hydrolase	c00	LCC
+159	452	DIEGO	YCL34723	g00	Alpha/beta hydrolase	c00	
+160	282	247	WP_116813002.1	g00	Alpha/beta hydrolase	c00	
+161	450	Sis	XDS72785.1	g00	Alpha/beta hydrolase	c00	
+162	169	ApLip-Ec		g00	Alpha/beta hydrolase	c00	
+163	508	PurH	XCO66867.1	g00	Alpha/beta hydrolase	c00	
+164	207	dsPETase01		g00	Alpha/beta hydrolase	c00	
+165	350	DP003	ACV09511	g00	Alpha/beta hydrolase	c00	
+166	163	SM14est	DAC80635.1	g00	Alpha/beta hydrolase	c00	
+167	308	PC5	WP_075975245.1	g00	Alpha/beta hydrolase	c00	
+168	411	ESM140	WP_247056560.1	g00	Alpha/beta hydrolase	c00	
+169	417	ESM167	WP_091317053.1	g00	Alpha/beta hydrolase	c00	
+170	285	414	WP_123685830.1	g00	Alpha/beta hydrolase	c00	
+171	449	KaPETase	WP_143447025.1	g00	Alpha/beta hydrolase	c00	
+172	300	282	WP_092528534.1	g00	Alpha/beta hydrolase	c00	
+173	212	ScPETase	WP_142197250.1	g00	Alpha/beta hydrolase	c00	
+174	305	191	WP_129849678.1	g00	Alpha/beta hydrolase	c00	
+175	132	607-Nsp	KPI31299.1	g00	Alpha/beta hydrolase	c00	
+176	413	ESM156	WP_203812622.1	g00	Alpha/beta hydrolase	c00	
+177	448	TEP194	WP_250563816.1	g00	Alpha/beta hydrolase	c00	
+178	428	TEP061	GGO06455.1	g00	Alpha/beta hydrolase	c00	
+179	291	169	OPG10926.1	g00	Alpha/beta hydrolase	c00	
+180	363	DP057	MBN2622270.1	g00	Alpha/beta hydrolase	c00	
+181	151	PHL-3	SAY37583.1	g00	Alpha/beta hydrolase	c00	
+182	31	Thh_Est	AFA45122.1	g00	Alpha/beta hydrolase	c00	
+183	32	Est1	BAI99230.2	g00	Alpha/beta hydrolase	c00	
+184	423	TEP014	MGYP001477358452	g00	Alpha/beta hydrolase	c00	
+185	136	711	WP_083947829	g00	Alpha/beta hydrolase	c00	
+186	23	Tfu_0882	AAZ54920.1	g00	Alpha/beta hydrolase	c00	
+187	24	TfCut_2	CBY05530	g00	Alpha/beta hydrolase	c00	TfCut_2
+188	373	DP090	WP_233872418.1	g00	Alpha/beta hydrolase	c00	
+189	18	Cut190	WP_015787089.1	g00	Alpha/beta hydrolase	c00	Cut190
+190	150	PHL-1	SAY37579.1	g00	Alpha/beta hydrolase	c00	
+191	131	606	SJZ42839.1	g00	Alpha/beta hydrolase	c00	
+192	431	TEP091	MBO9569276.1	g00	Alpha/beta hydrolase	c00	
+193	372	DP089	WP_129786244.1	g00	Alpha/beta hydrolase	c00	
+194	425	TEP037		g00	Alpha/beta hydrolase	c00	
+195	437	TEP105	WP_150070118.1	g00	Alpha/beta hydrolase	c00	
+196	133	611	WP_093412886.1	g00	Alpha/beta hydrolase	c00	
+197	362	DP056	MGYP001489421514	g00	Alpha/beta hydrolase	c00	
+198	154	PHL-6	SAY37589	g00	Alpha/beta hydrolase	c00	
+199	447	TEP189	GIU85371.1	g00	Alpha/beta hydrolase	c00	
+200	386	ESM050	GIU85367.1	g00	Alpha/beta hydrolase	c00	
+201	355	DP017	WP_187224800.1	g00	Alpha/beta hydrolase	c00	
+202	353	DP008	WP_130342639	g00	Alpha/beta hydrolase	c00	
+203	124	405	KPI12031.1	g00	Alpha/beta hydrolase	c00	
+204	227	APET-15	WP_019629726.1	g00	Alpha/beta hydrolase	c00	
+205	361	DP054	WP_161104454.1	g00	Alpha/beta hydrolase	c00	
+206	296	1392	SPF04022.1	g00	Alpha/beta hydrolase	c00	
+207	429	TEP067	WP_149259982.1	g00	Alpha/beta hydrolase	c00	
+208	354	DP016	WP_151597653.1	g00	Alpha/beta hydrolase	c00	
+209	229	APET-19	WP_116023875.1	g00	Alpha/beta hydrolase	c00	
+210	359	DP040	WP_233427406.1	g00	Alpha/beta hydrolase	c00	
+211	298	1424	WP_110080872.1	g00	Alpha/beta hydrolase	c00	
+212	264	917	WP_083950838.1	g00	Alpha/beta hydrolase	c00	
+213	29	Tcur_1278	WP_012851645.1	g00	Alpha/beta hydrolase	c00	
+214	30	Tcur0390	WP_012850775.1	g00	Alpha/beta hydrolase	c00	
+215	306	PC3	WP_103939557.1	g00	Alpha/beta hydrolase	c00	
+216	186	CaPETase	SHM40309	g00	Alpha/beta hydrolase	c00	
+217	445	TEP178	WP_253762837.1	g00	Alpha/beta hydrolase	c00	
+218	371	DP084	NUT34383.1	g00	Alpha/beta hydrolase	c00	
+219	262	385	WP_143590710.1	g00	Alpha/beta hydrolase	c00	
+220	297	486	WP_120326365.1	g00	Alpha/beta hydrolase	c00	
+221	295	401	WP_104115406.1	g00	Alpha/beta hydrolase	c00	
+222	239	Mipa-P	SDZ16714.1	g00	Alpha/beta hydrolase	c00	Mipa-P
+223	292	1638	WP_051808300.1	g00	Alpha/beta hydrolase	c00	
+224	436	TEP103	WP_211769896.1	g00	Alpha/beta hydrolase	c00	
+225	245	Kubu-P	WP_116180173.1	g00	Alpha/beta hydrolase	c00	Kubu-P
+226	244	1663	WP_084434874.1	g00	Alpha/beta hydrolase	c00	
+227	226	KbPETase	WP_209642273.1	g00	Alpha/beta hydrolase	c00	
+228	401	ESM090	WP_229836555.1	g00	Alpha/beta hydrolase	c00	
+229	402	ESM093	WP_239135698.1	g00	Alpha/beta hydrolase	c00	
+230	399	ESM082	UAC02078.1	g00	Alpha/beta hydrolase	c00	
+231	420	ESM177	WP_239086781.1	g00	Alpha/beta hydrolase	c00	
+232	412	ESM144	WP_239125827.1	g00	Alpha/beta hydrolase	c00	
+233	398	ESM081	WP_265247586.1	g00	Alpha/beta hydrolase	c00	
+234	360	DP043	WP_229068674.1	g00	Alpha/beta hydrolase	c00	
+235	415	ESM159	WP_203906211.1	g00	Alpha/beta hydrolase	c00	
+236	390	ESM060	WP_203790592.1	g00	Alpha/beta hydrolase	c00	
+237	416	ESM160	WP_144022925.1	g00	Alpha/beta hydrolase	c00	
+238	414	ESM157	PWR09075.1	g00	Alpha/beta hydrolase	c00	
+239	407	ESM128	WP_269740835.1	g00	Alpha/beta hydrolase	c00	
+240	356	DP021	MBT8227529.1	g00	Alpha/beta hydrolase	c00	
+241	380	ESM026	WP_232326807.1	g00	Alpha/beta hydrolase	c00	
+242	410	ESM139	WP_199199185.1	g00	Alpha/beta hydrolase	c00	
+243	378	ESM021	WP_210157342.1	g00	Alpha/beta hydrolase	c00	
+244	383	ESM038	WP_182904095.1	g00	Alpha/beta hydrolase	c00	
+245	379	ESM024	MBO4274871.1	g00	Alpha/beta hydrolase	c00	
+246	377	ESM012	WBC00352.1	g00	Alpha/beta hydrolase	c00	
+247	366	DP068	MGYP000271253724	g00	Alpha/beta hydrolase	c00	
+248	364	DP059	MGYP001121581011	g00	Alpha/beta hydrolase	c00	
+249	443	TEP165	WP_233604767.1	g00	Alpha/beta hydrolase	c00	
+250	246	1538	WP_130464304.1	g00	Alpha/beta hydrolase	c00	
+251	439	TEP111	WP_260422593.1	g00	Alpha/beta hydrolase	c00	
+252	397	ESM080	WP_084261341.1	g00	Alpha/beta hydrolase	c00	
+253	405	ESM101	MBW4703769.1	g00	Alpha/beta hydrolase	c00	
+254	301	1635	WP_145923095.1	g00	Alpha/beta hydrolase	c00	
+255	432	TEP092	GIG90696.1	g00	Alpha/beta hydrolase	c00	
+256	422	TEP010	WP_164449727.1	g00	Alpha/beta hydrolase	c00	
+257	419	ESM173	MTK05241.1	g00	Alpha/beta hydrolase	c00	
+258	261	1546	WP_013736455.1	g00	Alpha/beta hydrolase	c00	
+259	365	DP061	WP_221382552.1	g00	Alpha/beta hydrolase	c00	
+260	266	1519	WP_131056699.1	g00	Alpha/beta hydrolase	c00	
+261	389	ESM059	WP_111214096.1	g00	Alpha/beta hydrolase	c00	
+262	388	ESM058	WP_173061649.1	g00	Alpha/beta hydrolase	c00	
+263	395	ESM069	WP_181548579.1	g00	Alpha/beta hydrolase	c00	
+264	381	ESM033	GFJ87714.1	g00	Alpha/beta hydrolase	c00	
+265	369	DP081	MGYP000221121644	g00	Alpha/beta hydrolase	c00	
+266	400	ESM084	WP_252811421.1	g00	Alpha/beta hydrolase	c00	
+267	384	ESM043	WP_031525917.1	g00	Alpha/beta hydrolase	c00	
+268	258	1477	WP_125191182.1	g00	Alpha/beta hydrolase	c00	
+269	289	1478	WP_141569747.1	g00	Alpha/beta hydrolase	c00	
+270	276	1555	WP_078844206.1	g00	Alpha/beta hydrolase	c00	
+271	438	TEP109	WP_307855560.1	g00	Alpha/beta hydrolase	c00	
+272	430	TEP083	MBN1171866.1	g00	Alpha/beta hydrolase	c00	
+273	427	TEP054	WP_260709492.1	g00	Alpha/beta hydrolase	c00	
+274	446	TEP181	WP_212846608.1	g00	Alpha/beta hydrolase	c00	
+275	294	1718	WP_084578793.1	g00	Alpha/beta hydrolase	c00	
+276	404	ESM097	WP_271190254.1	g00	Alpha/beta hydrolase	c00	
+277	396	ESM070	GHJ08786.1	g00	Alpha/beta hydrolase	c00	
+278	268	1496	WP_075737041.1	g00	Alpha/beta hydrolase	c00	
+279	265	1537	OKK16161.1	g00	Alpha/beta hydrolase	c00	
+280	424	TEP024	WP_264933993.1	g00	Alpha/beta hydrolase	c00	
+281	435	TEP102	WP_109361459.1	g00	Alpha/beta hydrolase	c00	
+282	433	TEP097	WP_086599340.1	g00	Alpha/beta hydrolase	c00	
+283	254	1468	WP_132413760.1	g00	Alpha/beta hydrolase	c00	
+284	299	1475	WP_086668955.1	g00	Alpha/beta hydrolase	c00	
+285	286	1506	WP_084400763.1	g00	Alpha/beta hydrolase	c00	
+286	274	1573	WP_109639600.1	g00	Alpha/beta hydrolase	c00	
+287	442	TEP164	WP_256510519.1	g00	Alpha/beta hydrolase	c00	
+288	275	1654	WP_086784246.1	g00	Alpha/beta hydrolase	c00	
+289	267	1678	WP_045318561.1	g00	Alpha/beta hydrolase	c00	
+290	426	TEP041	WP_256510026.1	g00	Alpha/beta hydrolase	c00	
+291	281	1457	WP_093954453.1	g00	Alpha/beta hydrolase	c00	
+292	441	TEP163	WP_218517662.1	g00	Alpha/beta hydrolase	c00	
+293	126	407	WP_162908185.1	g00	Alpha/beta hydrolase	c00	
+294	287	1493	WP_132183354.1	g00	Alpha/beta hydrolase	c00	
+295	252	1521	WP_132337032.1	g00	Alpha/beta hydrolase	c00	
+296	251	1489	WP_132386942.1	g00	Alpha/beta hydrolase	c00	
+297	247	1465	WP_073887759.1	g00	Alpha/beta hydrolase	c00	
+298	382	ESM035	WP_158852571.1	g00	Alpha/beta hydrolase	c00	
+299	259	1482	WP_141984372.1	g00	Alpha/beta hydrolase	c00	
+300	375	ESM006	WP_267938240.1	g00	Alpha/beta hydrolase	c00	
+301	256	1491	WP_082403176.1	g00	Alpha/beta hydrolase	c00	
+302	327	Nyl40	A0A3M1X2K7	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+303	319	Nyl18	A0A2E3XQJ6	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+304	312	Nyl04	KXS08985	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+305	315	Nyl12	A0A1Q3SHB0	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+306	332	Nyl54	WP_170322449.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+307	190	Nc-NylC	WP_312893488.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+308	543	Tt-NylC	A0A840P940	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+309	217	NylC2	XHH12375	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+310	216	NylC1	XHH12374	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+311	53	NylC	WP_012476895.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	NylC
+312	333	Nyl57	A0A661XAJ6	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+313	341	Nyl72	A0A7W0NYQ1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+314	336	Nyl63	A0A7C3G8G6	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+315	326	Nyl39	A0A3D4HM79	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+316	320	Nyl25	PSR30050	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+317	318	Nyl16	OWT56952	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+318	321	Nyl29	A0A315R6Z8	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+319	347	Nyl85	R5FI29	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+320	325	Nyl37	A0A3D1YDR8	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+321	342	Nyl73	MSS57807	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+322	323	Nyl32	A0A351YZM4	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+323	316	Nyl13	WP_075885500.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+324	331	Nyl50	TAL40028	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+325	335	Nyl60	A0A6I1QW75	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+326	330	Nyl47	WP_131292212.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+327	313	Nyl10	WP_073391230.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+328	314	Nyl11	WP_082766707.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+329	343	Nyl74	A0A7X7N2B0	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+330	317	Nyl14	A0A1Y4BJH4	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+331	339	Nyl68	A0A7V5VEC1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+332	340	Nyl71	A0A7V9NEU5	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+333	328	Nyl44	A0A432H965	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+334	215	TvgC	WP_068749367	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+335	322	Nyl30	PWX09261.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+336	348	Nyl87	U7UHN3	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+337	329	Nyl45	RYL92504.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+338	338	Nyl66	A0A7C7DKE8	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+339	337	Nyl65	A0A7C6SQZ1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+340	346	Nyl84	WP_010949597.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+341	349	Nyl93	WP_170196788.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+342	218	NylC5	XHH12378	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+343	344	Nyl82	WP_014810472.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+344	334	Nyl58	A0A6A7M915	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+345	345	Nyl83	XP_005707592.1	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+346	324	Nyl34	A0A368EC02	g01	L-amino peptidase D-ALA esterase/amidase	c01	
+347	550	PURase	Q12559.2	g02	Amidase signature (AS) domain	c02	
+348	147	CPUTNase	BBP47208.1	g02	Amidase signature (AS) domain	c02	
+349	191	GatA		g02	Amidase signature (AS) domain	c02	
+350	137	UMG-SP-1	OP972509	g02	Amidase signature (AS) domain	c02	
+351	139	UMG-SP-3	OP972511	g02	Amidase signature (AS) domain	c02	
+352	138	UMG-SP-2	OP972510	g02	Amidase signature (AS) domain	c02	
+353	141	Amidase	AGT90042.1	g02	Amidase signature (AS) domain	c02	
+354	144	AmdA	AAK28498.1	g02	Amidase signature (AS) domain	c02	
+355	142	Amidase	AAK11724.1	g02	Amidase signature (AS) domain	c02	
+356	143	Amidase	ARF18137.1	g02	Amidase signature (AS) domain	c02	
+357	140	Urethanase	ANG60415	g02	Amidase signature (AS) domain	c02	
+358	224	GatA250		g02	Amidase signature (AS) domain	c02	
+359	193	ReU		g02	Amidase signature (AS) domain	c02	
+360	51	NylA	WP_012476897.1	g02	Amidase signature (AS) domain	c02	NylA
+361	461	pQR3141		g02	Amidase signature (AS) domain	c02	
+362	462	pQR3144		g02	Amidase signature (AS) domain	c02	
+363	460	pQR3139		g02	Amidase signature (AS) domain	c02	
+364	188	TtA	WP_185053500	g02	Amidase signature (AS) domain	c02	
+365	192	OoH	BAI44731	g02	Amidase signature (AS) domain	c02	
+366	110	Lcp1	WP_189902969.1	g03	Oxygenase MpaB family protein	c05	
+367	606	lcp1	UFE15762.1	g03	Oxygenase MpaB family protein	c05	
+368	607	lcp2	UFE15763.1	g03	Oxygenase MpaB family protein	c05	
+369	113	Lcp2	UFE15761.1	g03	Oxygenase MpaB family protein	c05	
+370	168	Lcp2VH2	AFA76036.1	g03	Oxygenase MpaB family protein	c05	
+371	167	Lcp1VH2	WP_006368739.1	g03	Oxygenase MpaB family protein	c05	
+372	608	lcp3	UFE15764.1	g03	Oxygenase MpaB family protein	c05	
+373	112	Lcp1	UFE15760.1	g03	Oxygenase MpaB family protein	c05	
+374	111	Lcp2	WP_254586337.1	g03	Oxygenase MpaB family protein	c05	
+375	106	LCP_STRK3	AAR25849.1	g03	Oxygenase MpaB family protein	c05	
+376	78	Proteinase K	CAA32820.1	g04	Peptidase S8/S53 domain	c06	
+377	223	PAM	BAU20375	g04	Peptidase S8/S53 domain	c06	
+378	68	LP175	ATG80622.1	g04	Peptidase S8/S53 domain	c06	
+379	67	Subtilisin SubC	CAB56500	g04	Peptidase S8/S53 domain	c06	
+380	66	Subtilisin BL	P29599	g04	Peptidase S8/S53 domain	c06	
+381	557	PLase3	WP_044849715.1	g05	Trypsin-like serine proteases	c22	
+382	220	Trypsin	P00761.1	g05	Trypsin-like serine proteases	c14	
+383	60	PLAase II	ABY53108.1	g05	Trypsin-like serine proteases	c14	
+384	556	PLAase	Q75UA4	g05	Trypsin-like serine proteases	c14	
+385	59	PLAase I	WP_037320891.1	g05	Trypsin-like serine proteases	c14	PLAase I
+386	71	MGS0105	AGT96414.1	g06	DD-peptidase/beta-lactamase superfamily	c38	
+387	52	NylB	CAA24927.1	g06	DD-peptidase/beta-lactamase superfamily	c17	NylB
+388	451	NylB'	CAA26616.1	g06	DD-peptidase/beta-lactamase superfamily	c17	
+389	165	IS11	UNZ81747.1	g06	DD-peptidase/beta-lactamase superfamily	c40	
+390	70	MGS0010	AHG30919.1	g06	DD-peptidase/beta-lactamase superfamily	c37	
+391	107	RoxA	AAP41848.1	g07	Cytochrome c-like domain	c13	
+392	109	LatA	WP_085748997.1	g07	Cytochrome c-like domain	c13	
+393	108	RoxB	AQV11968.1	g07	Cytochrome c-like domain	c13	
+394	558	LMC021	AII11185.1	g08	Cupredoxins - blue copper proteins	c53	
+395	559	LMC031	AII11221.1	g08	Cupredoxins - blue copper proteins	c54	
+396	12	PpEst	WP_003460012.1	g09	SGNH hydrolase	c20	
+397	463	E4	7C2A_A	g09	SGNH hydrolase	c20	
+398	177	MnP	AAA33742.1	g10	Peroxidase, domain 2	c41	
+399	221	CYP450	P08684.4	g11	Cytochrome P450	c47	
+400	311	Nepenthesin-1	BAD07474.1	g12	Acid Proteases	c49	
+401	145	Amidase	WP_012433325.1	g13	Glycoside hydrolase/deacetylase	c30	
+402	466	BsMPPE	NP_390179.1	g14	Purple Acid Phosphatase	c51	
+403	219	PA4-degrading enzyme	BEG79545	g15	DD-peptidase/beta-lactamase superfamily (unconfirmed)	c46	

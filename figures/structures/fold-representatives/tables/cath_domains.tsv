@@ -1,0 +1,34 @@
+cath	domain	cath_class	role	fold_it_occurs_in	slice	fill	components	sequences	records	pet	pe	pa	pur	pla	pbat	pbs	pha	pc	nr	combi.	bacterial	eukaryotic	metagenomic
+3.40.50.1820	Alpha/beta hydrolase	Alpha beta	catalytic	Alpha/beta hydrolase	g00	#f3ead6	36	309	309	238			10	14	7	1	17	1	1	20	268	18	23
+2.80.10.50	Trefoil (Acidic Fibroblast Growth Factor, subunit A)	Mainly beta	accessory	Alpha/beta hydrolase	g00	#f3ead6	1	42	42	42											42		
+2.60.40.290	Immunoglobulin-like	Mainly beta	accessory	Alpha/beta hydrolase	g00	#f3ead6	1	18	18	18											18		
+2.60.40.10	Immunoglobulins	Mainly beta	accessory	Alpha/beta hydrolase	g00	#f3ead6	3	6	6	2							3		1		5		1
+2.150.10.10	Serralysin-like metalloprotease, C-terminal	Mainly beta	accessory	Alpha/beta hydrolase	g00	#f3ead6	1	4	4				4								4		
+2.60.120.260	Galactose-binding domain-like	Mainly beta	accessory	Alpha/beta hydrolase	g00	#f3ead6	1	4	4	4											4		
+2.60.60.20	PLAT/LH2 domain	Mainly beta	accessory	Alpha/beta hydrolase	g00	#f3ead6	1	1	1									1				1	
+4.10.320.10	E3-binding domain	Few secondary structures	accessory	Alpha/beta hydrolase	g00	#f3ead6	1	1	1	1													1
+3.60.70.12	L-amino peptidase D-ALA esterase/amidase	Alpha beta	catalytic	L-amino peptidase D-ALA esterase/amidase	g01	#f5dde2	1	45	45			45									43	2	
+3.30.365.10	Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding domain	Alpha beta	accessory	L-amino peptidase D-ALA esterase/amidase	g01	#f5dde2	1	3	3			3									3		
+3.30.2330.10	Arginine biosynthesis bifunctional protein suprefamily	Alpha beta	accessory	L-amino peptidase D-ALA esterase/amidase	g01	#f5dde2	1	1	1			1									1		
+3.90.1300.10	Amidase signature (AS) domain	Alpha beta	catalytic	Amidase signature (AS) domain	g02	#e4dff3	1	19	19			5	14								10	2	7
+1.10.20.60	Glu-tRNAGln amidotransferase C subunit, N-terminal domain	Mainly alpha	accessory	Amidase signature (AS) domain	g02	#e4dff3	1	1	1				1								1		
+none	Oxygenase MpaB family protein		catalytic	Oxygenase MpaB family protein	g03	#dcedd6	1	10	10										10		7		3
+3.40.710.10	DD-peptidase/beta-lactamase superfamily	Alpha beta	catalytic	DD-peptidase/beta-lactamase superfamily	g04	#d3ece8	4	5	5	1		2		2							3		2
+1.20.58.710	Methane Monooxygenase Hydroxylase; Chain G, domain 1	Mainly alpha	accessory	DD-peptidase/beta-lactamase superfamily	g04	#d3ece8	1	2	2			2									2		
+2.40.128.50	Lipocalin	Mainly beta	accessory	DD-peptidase/beta-lactamase superfamily	g04	#d3ece8	1	1	1	1											1		
+6.10.250.420	Single alpha-helices involved in coiled-coils or other helix-helix interfaces	Special	accessory	DD-peptidase/beta-lactamase superfamily	g04	#d3ece8	1	1	1			1									1		
+2.40.10.10	Trypsin-like serine proteases	Mainly beta	catalytic	Trypsin-like serine proteases	g05	#fbe2cf	2	5	5	1				4							4	1	
+3.30.300.50	GMP Synthetase; Chain A, domain 3	Alpha beta	accessory	Trypsin-like serine proteases	g05	#fbe2cf	1	1	1					1							1		
+3.40.50.200	Peptidase S8/S53 domain	Alpha beta	catalytic	Peptidase S8/S53 domain	g06	#d8e6f5	1	5	5					5							4	1	
+3.30.70.80	Peptidase S8 propeptide/proteinase inhibitor I9	Alpha beta	accessory	Peptidase S8/S53 domain	g06	#d8e6f5	1	4	4					4							3	1	
+1.10.760.10	Cytochrome c-like domain	Mainly alpha	catalytic	Cytochrome c-like domain	g07	#f4efc2	1	3	3										3		3		
+2.60.40.420	Cupredoxins - blue copper proteins	Mainly beta	catalytic	Cupredoxins - blue copper proteins	g08	#eddcee	2	2	2		2										2		
+3.40.50.1110	SGNH hydrolase	Alpha beta	catalytic	SGNH hydrolase	g09	#e2e8cc	1	2	2	1										1	2		
+1.10.420.10	Peroxidase, domain 2	Mainly alpha	catalytic	Peroxidase, domain 2	g10	#e9e9e6	1	1	1			1											1
+1.10.520.10	Peroxidase; domain 1	Mainly alpha	catalytic	Peroxidase, domain 2	g10	#e9e9e6	1	1	1			1											1
+1.10.630.10	Cytochrome P450	Mainly alpha	catalytic	Cytochrome P450	g11	#e9e9e6	1	1	1	1												1	
+2.40.70.10	Acid Proteases	Mainly beta	catalytic	Acid Proteases	g12	#e9e9e6	1	1	1											1		1	
+3.20.20.370	Glycoside hydrolase/deacetylase	Alpha beta	catalytic	Glycoside hydrolase/deacetylase	g13	#e9e9e6	1	1	1				1								1		
+3.60.21.10	Purple Acid Phosphatase; chain A, domain 2	Alpha beta	catalytic	Purple Acid Phosphatase	g14	#e9e9e6	1	1	1									1			1		
+3.40.710.10	DD-peptidase/beta-lactamase superfamily	Alpha beta	catalytic	DD-peptidase/beta-lactamase superfamily (unconfirmed)	g15	#e9e9e6	1	1	1			1									1		
+2.60.120.260	Galactose-binding domain-like	Mainly beta	accessory	DD-peptidase/beta-lactamase superfamily (unconfirmed)	g15	#e9e9e6	1	1	1			1									1		

@@ -1,0 +1,5 @@
+fold_group	tips	added_by_sequence	columns	columns_kept	median_identity	model	branches	ufboot_ge95	ufboot_ge95_and_cross_checked
+g00	36	0	866	324	0.106	Q.PFAM+F+R4 | 3DI+G4	33	4	3
+g05	2	0	256	256	0.174	LG+G (FastTree)	0	0	0
+g06	4	1	492	407	0.187	Q.PFAM+G4 | 3DI+G4	1	1	1
+g08	2	0	550	550	0.220	LG+G (FastTree)	0	0	0

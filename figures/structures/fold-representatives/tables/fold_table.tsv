@@ -1,0 +1,17 @@
+fold_group	fold	cath	components	sequences	records	homology
+g00	Alpha/beta hydrolase	3.40.50.1820	36	309	309	confirmed
+g01	L-amino peptidase D-ALA esterase/amidase	3.60.70.12	1	45	45	alone
+g02	Amidase signature (AS) domain	3.90.1300.10	1	19	19	alone
+g03	Oxygenase MpaB family protein	none	1	10	10	alone
+g04	DD-peptidase/beta-lactamase superfamily	3.40.710.10	4	5	5	confirmed
+g05	Trypsin-like serine proteases	2.40.10.10	2	5	5	confirmed
+g06	Peptidase S8/S53 domain	3.40.50.200	1	5	5	alone
+g07	Cytochrome c-like domain	1.10.760.10	1	3	3	alone
+g08	Cupredoxins - blue copper proteins	2.60.40.420	2	2	2	confirmed
+g09	SGNH hydrolase	3.40.50.1110	1	2	2	alone
+g10	Peroxidase, domain 2	1.10.420.10;1.10.520.10	1	1	1	alone
+g11	Cytochrome P450	1.10.630.10	1	1	1	alone
+g12	Acid Proteases	2.40.70.10	1	1	1	alone
+g13	Glycoside hydrolase/deacetylase	3.20.20.370	1	1	1	alone
+g14	Purple Acid Phosphatase	3.60.21.10	1	1	1	alone
+g15	DD-peptidase/beta-lactamase superfamily (unconfirmed)	3.40.710.10	1	1	1	unconfirmed

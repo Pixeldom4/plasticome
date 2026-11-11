@@ -1,0 +1,93 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c13/reference.afa
+Type of analysis: tree reconstruction
+Random seed number: 1
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 3 sequences with 725 amino-acid sites
+Number of constant sites: 316 (= 43.5862% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 316 (= 43.5862% of all sites)
+Number of parsimony informative sites: 0
+Number of distinct site patterns: 329
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.0695
+
+ Category  Relative_rate  Proportion
+  1         0.1506         0.2500
+  2         0.4967         0.2500
+  3         1.0106         0.2500
+  4         2.3421         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4122.1330 (s.e. 57.4774)
+Unconstrained log-likelihood (without tree): -3829.7029
+Number of free parameters (#branches + #model parameters): 4
+Akaike information criterion (AIC) score: 8252.2659
+Corrected Akaike information criterion (AICc) score: 8252.3215
+Bayesian information criterion (BIC) score: 8270.6106
+
+Total tree length (sum of branch lengths): 2.1146
+Sum of internal branch lengths: 0.0000 (0.0000% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon '107' is drawn at root
+
++-----------------------------------------------------------107
+|
++--108
+|
++---109
+
+Tree in newick format:
+
+(107:1.8892904925,108:0.0966778004,109:0.1285903870);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c13/iq.treefile -m "LG+G4{1.06946}" --length 725
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c13/reference.afa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c13/reference.afa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  1 15:34:38 2026
+Total CPU time used: 0.029642 seconds (0h:0m:0s)
+Total wall-clock time used: 0.0312221 seconds (0h:0m:0s)
+

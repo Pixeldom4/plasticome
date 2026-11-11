@@ -1,0 +1,14 @@
+$ /opt/homebrew/Caskroom/miniconda/base/envs/plasticome-tree/bin/muscle -align /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c20/seqs.faa -output /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c20/reference.afa
+
+muscle 5.3.osxarm64 []  17.2Gb RAM, 10 cores
+Built Jul 31 2025 00:34:33
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+[align /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c20/seqs.faa]
+Input: 2 seqs, avg length 196, max 201, min 191
+
+00:00 3.8Mb    50.0% Derep 1 uniques, 0 dupes00:00 3.8Mb   100.0% Derep 2 uniques, 0 dupes
+00:00 3.8Mb  CPU has 10 cores, running 10 threads
+00:00 4.1Mb   100.0% Calc posteriors
+00:00 5.9Mb   100.0% UPGMA5         

@@ -1,0 +1,22 @@
+# Linux environment for the plasticome centroid tree.
+# Tool versions match the Mac run that produced the shipped results. If an
+# exact pin is not available for linux-64, relax that one pin and say which.
+name: plasticome-tree
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.12
+  - biopython
+  - numpy
+  - scipy
+  - matplotlib
+  - networkx
+  - openpyxl
+  - muscle=5.3
+  - iqtree=3.1.4
+  - fasttree=2.2.0
+  - foldseek=10.941cd33
+  - foldmason=4.dd3c235
+  - hhsuite=3.3.0
+  - mafft=7.526

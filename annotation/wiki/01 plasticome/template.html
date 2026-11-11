@@ -1,0 +1,972 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plasticome Reference Curation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+/* Wiki tokens from src/styles/globalStyles.js, plus chart series (validated, dataviz palette slots 1-3) */
+:root {
+  --color-bg: #f0ede6;
+  --color-surface: #faf8f3;
+  --color-accent: #c8f050;
+  --color-text: #0a0a0a;
+  --color-text-2: #52514e;
+  --color-muted: #8a8780;
+  --color-rule: #d9d4c8;
+  --color-grid: #e4dfd4;
+  --s-v2: #2a78d6;   /* pazy-260701 only */
+  --s-both: #1baf7a; /* in both */
+  --s-v1: #eb6834;   /* pazy-240826 only */
+  --s-one: #2a78d6;  /* single-series charts */
+  --note-bg: #fff7d6;
+  --note-rule: #d9b84a;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #121211; --color-surface: #1a1a19; --color-text: #f0efec; --color-text-2: #c3c2b7;
+    --color-muted: #8f8d85; --color-rule: #34332f; --color-grid: #2a2a27;
+    --s-v2: #3987e5; --s-both: #199e70; --s-v1: #d95926; --s-one: #3987e5;
+    --note-bg: #2b2716; --note-rule: #8a7430;
+  }
+}
+:root[data-theme="dark"] {
+  --color-bg: #121211; --color-surface: #1a1a19; --color-text: #f0efec; --color-text-2: #c3c2b7;
+  --color-muted: #8f8d85; --color-rule: #34332f; --color-grid: #2a2a27;
+  --s-v2: #3987e5; --s-both: #199e70; --s-v1: #d95926; --s-one: #3987e5;
+  --note-bg: #2b2716; --note-rule: #8a7430;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--color-bg); color: var(--color-text); font: 16px/1.6 var(--font-body); }
+a { color: inherit; text-decoration-color: var(--color-muted); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--color-text); }
+code, .mono { font-family: var(--font-mono); font-size: 0.9em; }
+
+/* draft chrome, not part of the wiki page */
+.draftbar { position: sticky; top: 0; z-index: 10; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+  padding: 10px 16px; background: var(--color-text); color: var(--color-bg); font-size: 13px; }
+.draftbar b { font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; font-size: 11px; opacity: 0.7; }
+.draftbar nav { display: flex; gap: 4px; }
+.draftbar nav a { padding: 4px 12px; border-radius: 99px; text-decoration: none; }
+.draftbar .xpage { padding: 4px 12px; border: 1px solid currentColor; border-radius: 99px; text-decoration: none; opacity: 0.8; }
+.draftbar nav a[aria-current="page"] { background: var(--color-accent); color: #0a0a0a; }
+.draftbar label { margin-left: auto; display: flex; gap: 6px; align-items: center; cursor: pointer; }
+
+main { max-width: 1040px; margin: 0 auto; padding: 40px 16px 96px; }
+.page[hidden] { display: none; }
+.eyebrow { font: 500 12px/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-2); }
+h1 { font: 400 clamp(36px, 6vw, 60px)/1.05 var(--font-display); margin: 12px 0 16px; letter-spacing: -0.01em; }
+h2 { font: 400 30px/1.15 var(--font-display); margin: 64px 0 12px; }
+h3 { font: 700 17px/1.3 var(--font-body); margin: 32px 0 8px; }
+.lede { font-size: 20px; line-height: 1.5; max-width: 62ch; color: var(--color-text-2); margin: 0; }
+.prose { max-width: 70ch; }
+.prose p { margin: 0 0 14px; }
+
+/* writer notes: visible in the draft, become MDX comments on the real page */
+.note { border: 1.5px dashed var(--note-rule); background: var(--note-bg); border-radius: 10px; padding: 12px 14px;
+  font-size: 14px; line-height: 1.5; margin: 16px 0; max-width: 78ch; }
+.note::before { content: "Writer note"; display: block; font: 500 11px/1 var(--font-mono); letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--color-text-2); margin-bottom: 6px; }
+.note ul { margin: 4px 0 0; padding-left: 18px; }
+.show-notes-off .note { display: none; }
+
+/* text provenance markers: draft only, hidden with the notes */
+:root { --src-hand: #7fae00; --src-ai: #d9a400; --src-own: #8a8780; }
+.ms-hand, .ms-ai, .own { border-left: 3px solid transparent; padding-left: 12px; margin-left: -15px; }
+.ms-hand { border-left-color: var(--src-hand); }
+.ms-ai { border-left-color: var(--src-ai); }
+.own { border-left: 3px dashed var(--src-own); }
+.show-notes-off .ms-hand, .show-notes-off .ms-ai, .show-notes-off .own { border-left-color: transparent; }
+.key { display: inline-block; padding: 1px 8px; margin: 2px 4px 2px 0; border-left: 3px solid; font-size: 12.5px; }
+.key.hand { border-color: var(--src-hand); } .key.ai { border-color: var(--src-ai); } .key.own { border-left-style: dashed; border-color: var(--src-own); }
+@media (max-width: 760px) { .ms-hand, .ms-ai, .own { margin-left: 0; } }
+
+.fighead { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; flex-wrap: wrap; }
+.fighead select { font: inherit; font-size: 14px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--color-rule); background: var(--color-bg); color: var(--color-text); }
+.bars.wide { grid-template-columns: minmax(120px, 290px) 1fr 44px; }
+/* two-tier donut */
+:root { --ring: #d6cfbf; --ring-hl: var(--color-accent); }
+:root[data-theme="dark"] { --ring: #3d3c37; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ring: #3d3c37; } }
+.donutwrap { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 24px; align-items: center; }
+@media (max-width: 760px) { .donutwrap { grid-template-columns: 1fr; } .donut { max-width: 360px; margin: 0 auto; } }
+.donut svg { width: 100%; height: auto; display: block; }
+.donut path { stroke: var(--color-surface); stroke-width: 2; stroke-linejoin: round; transition: opacity .12s; }
+.donut path.inner { fill: var(--ring); }
+.donut .slice.hl path.inner { fill: var(--ring-hl); }
+.donut.dim .slice:not(.hl) path { opacity: 0.3; }
+.donut .slab { font: 700 11px var(--font-body); fill: var(--color-text); pointer-events: none; }
+.donut .slice.hl .slab { fill: #0a0a0a; }
+.donut .ctitle { font: 400 20px var(--font-display); fill: var(--color-text); }
+.donut .csub { font: 12px var(--font-body); fill: var(--color-text-2); }
+.dtable { margin: 0; font-size: 13.5px; }
+.dtable td, .dtable th { padding: 5px 8px; }
+.dtable td small { color: var(--color-muted); }
+.dtable tr.hl td { background: var(--color-bg); }
+.dtable .mini { margin: 0; width: 100%; min-width: 80px; }
+
+
+/* explorer: tabs and domain calls (from 02 CATH Assignment) */
+.tabs { display: flex; gap: 4px; margin: 16px 0 4px; border-bottom: 1px solid var(--color-rule); }
+.tabs button { font: inherit; font-size: 13.5px; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--color-text-2); padding: 6px 10px; cursor: pointer; margin-bottom: -1px; }
+.tabs button[aria-selected="true"] { color: var(--color-text); border-bottom-color: var(--color-text); font-weight: 700; }
+.track svg { width: 100%; height: auto; display: block; overflow: visible; }
+.track text { font: 11px var(--font-body); fill: var(--color-text-2); }
+.track text.in { fill: #fff; font: 500 10.5px var(--font-mono); pointer-events: none; }
+.track .blk:hover { filter: brightness(1.12); }
+.dt { font-size: 12.5px; }
+.dt td, .dt th { padding: 6px 8px; }
+.dt small { color: var(--color-muted); }
+.dt .muted { color: var(--color-muted); }
+.verdict { font: 500 11px/1 var(--font-mono); padding: 3px 6px; border-radius: 6px; border: 1px solid var(--color-rule); white-space: nowrap; }
+.verdict.conflict { border-color: var(--s-v1); }
+.card .special { border-left: 3px solid var(--color-accent); background: var(--color-surface); padding: 8px 12px; font-size: 13.5px; margin: 12px 0 0; border-radius: 0 8px 8px 0; }
+.bars .lab b { font-weight: 700; }
+@media (max-width: 600px) { .bars.wide .lab small { display: none; } .bars.wide { grid-template-columns: 64px 1fr 36px; } }
+
+/* stat tiles */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 36px 0 8px; }
+.stat { background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 14px; padding: 16px; }
+.stat .v { font: 400 40px/1 var(--font-display); }
+.stat .k { font-size: 13px; color: var(--color-text-2); margin-top: 8px; line-height: 1.35; }
+.stat.hero { background: var(--color-accent); border-color: transparent; color: #0a0a0a; }
+.stat.hero .k { color: #2a2a26; }
+
+/* figures */
+figure { margin: 28px 0 0; background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 16px; padding: 20px; }
+figcaption { font-size: 14px; color: var(--color-text-2); margin-top: 14px; line-height: 1.5; max-width: 80ch; }
+figcaption b { color: var(--color-text); font-weight: 700; }
+.figtitle { font-weight: 700; font-size: 15px; margin: 0 0 4px; }
+.figsub { font-size: 13px; color: var(--color-text-2); margin: 0 0 16px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--color-text-2); margin: 0 0 12px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+
+/* flow figure */
+.flow { display: grid; grid-template-columns: 1fr 40px 1fr 40px 1.1fr; align-items: center; gap: 0; }
+.lane { display: flex; flex-direction: column; gap: 12px; }
+.node { border: 1px solid var(--color-rule); border-radius: 12px; padding: 12px 14px; background: var(--color-bg); }
+.node .n { font: 400 28px/1 var(--font-display); }
+.node .t { font-weight: 700; font-size: 14px; margin-top: 4px; }
+.node .d { font-size: 12.5px; color: var(--color-text-2); margin-top: 4px; line-height: 1.4; }
+.node.out { background: var(--color-accent); border-color: transparent; color: #0a0a0a; }
+.node.out .d { color: #2a2a26; }
+.arrow { text-align: center; color: var(--color-muted); font-size: 20px; }
+.mini { display: flex; height: 8px; gap: 2px; margin-top: 10px; }
+.mini i { display: block; height: 100%; border-radius: 3px; }
+@media (max-width: 760px) {
+  .flow { grid-template-columns: 1fr; }
+  .arrow { transform: rotate(90deg); padding: 4px 0; }
+}
+
+/* bar charts */
+.bars { display: grid; grid-template-columns: 96px 1fr 44px; gap: 6px 10px; align-items: center; font-size: 13px; }
+.bars .lab { color: var(--color-text); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bars .lab small { color: var(--color-muted); }
+.bars .track { display: flex; gap: 2px; height: 16px; }
+.bars .seg { height: 100%; border-radius: 0; position: relative; }
+.bars .seg:first-child { border-radius: 4px 0 0 4px; }
+.bars .seg:last-child { border-radius: 0 4px 4px 0; }
+.bars .seg:only-child { border-radius: 4px; }
+.bars .seg:hover, .bars .seg.hl { filter: brightness(1.12); outline: 2px solid var(--color-text); outline-offset: 1px; z-index: 1; }
+.bars .val { color: var(--color-text-2); font-variant-numeric: tabular-nums; }
+.bars.dim .seg:not(.hl) { opacity: 0.35; }
+
+/* dumbbell */
+.dumb svg { width: 100%; height: auto; display: block; overflow: visible; }
+.dumb text { font: 12px var(--font-body); fill: var(--color-text-2); }
+.dumb .axis line { stroke: var(--color-grid); }
+.dumb .row:hover text.name { fill: var(--color-text); font-weight: 700; }
+
+/* tooltip */
+#tip { position: fixed; pointer-events: none; z-index: 20; background: var(--color-text); color: var(--color-bg);
+  font-size: 12.5px; line-height: 1.4; padding: 8px 10px; border-radius: 8px; max-width: 260px; opacity: 0; transition: opacity .08s; }
+#tip b { font-weight: 700; }
+
+/* demo */
+.demo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 16px; }
+@media (max-width: 860px) { .demo { grid-template-columns: 1fr; } }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.controls input, .controls select { font: inherit; font-size: 14px; padding: 8px 10px; border-radius: 10px;
+  border: 1px solid var(--color-rule); background: var(--color-bg); color: var(--color-text); min-width: 0; }
+.controls input { flex: 1 1 180px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.chip { font: inherit; font-size: 12.5px; border: 1px solid var(--color-rule); background: transparent; color: var(--color-text);
+  border-radius: 99px; padding: 4px 10px; cursor: pointer; }
+.chip:hover { border-color: var(--color-text); }
+.list { max-height: 460px; overflow: auto; border: 1px solid var(--color-rule); border-radius: 12px; background: var(--color-bg); }
+.list button { display: grid; grid-template-columns: 52px 1fr auto; gap: 8px; align-items: center; width: 100%; text-align: left;
+  font: inherit; font-size: 14px; color: inherit; background: none; border: 0; border-bottom: 1px solid var(--color-grid); padding: 8px 12px; cursor: pointer; }
+.list button:hover { background: var(--color-surface); }
+.list button[aria-selected="true"] { background: var(--color-accent); color: #0a0a0a; }
+.list .pl { font-family: var(--font-mono); font-size: 12px; color: var(--color-text-2); }
+.list button[aria-selected="true"] .pl { color: #2a2a26; }
+.list .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tag { font: 500 11px/1 var(--font-mono); padding: 4px 6px; border-radius: 6px; color: #fff; white-space: nowrap; }
+.count { font-size: 13px; color: var(--color-text-2); margin: 8px 2px 0; }
+.card { border: 1px solid var(--color-rule); border-radius: 14px; background: var(--color-bg); padding: 18px; }
+.card h4 { font: 400 28px/1.1 var(--font-display); margin: 4px 0 6px; }
+.card .meta { font-size: 13px; color: var(--color-text-2); }
+.kv { display: grid; grid-template-columns: 120px 1fr; gap: 4px 12px; font-size: 13.5px; margin: 14px 0; }
+.kv dt { color: var(--color-text-2); }
+.kv dd { margin: 0; overflow-wrap: anywhere; }
+.trail { list-style: none; padding: 0; margin: 16px 0 0; position: relative; }
+.trail li { position: relative; padding: 0 0 14px 26px; font-size: 13.5px; line-height: 1.45; }
+.trail li::before { content: ""; position: absolute; left: 6px; top: 6px; width: 9px; height: 9px; border-radius: 50%; background: var(--color-text); }
+.trail li::after { content: ""; position: absolute; left: 10px; top: 18px; bottom: 0; width: 1px; background: var(--color-rule); }
+.trail li:last-child::after { display: none; }
+.trail li.skip::before { background: var(--color-bg); border: 1.5px solid var(--color-muted); }
+.trail li.skip { color: var(--color-muted); }
+.trail .st { font-weight: 700; display: block; }
+.trail q { color: var(--color-text-2); font-style: italic; }
+
+/* methods */
+.methods-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; }
+@media (max-width: 900px) { .methods-layout { grid-template-columns: 1fr; } .toc { display: none; } }
+.toc { position: sticky; top: 64px; align-self: start; font-size: 13.5px; }
+.toc ol { list-style: none; padding: 0; margin: 0; border-left: 1px solid var(--color-rule); }
+.toc a { display: block; padding: 4px 0 4px 12px; text-decoration: none; color: var(--color-text-2); }
+.toc a:hover { color: var(--color-text); }
+.callout { border-left: 4px solid var(--color-accent); background: var(--color-surface); padding: 12px 16px; border-radius: 0 10px 10px 0; margin: 24px 0; max-width: 70ch; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 20px; }
+.tablewrap { overflow-x: auto; max-width: 100%; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--color-rule); vertical-align: top; }
+th { font-weight: 700; font-size: 13px; color: var(--color-text-2); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+pre { background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 10px; padding: 14px; overflow-x: auto; font: 13px/1.5 var(--font-mono); }
+.cta { display: inline-flex; gap: 8px; align-items: center; margin-top: 28px; padding: 12px 18px; border-radius: 99px;
+  background: var(--color-text); color: var(--color-bg); text-decoration: none; font-weight: 500; }
+.cta:hover { background: #333; }
+</style>
+</head>
+<body>
+<div id="tip" role="tooltip"></div>
+
+<div class="draftbar">
+  <b>Draft</b>
+  <nav aria-label="Draft pages">
+    <a href="#overview" data-page="overview">1 · Overview (on Model page)</a>
+    <a href="#methods" data-page="methods">2 · Methods page</a>
+  </nav>
+  <a class="xpage" href="../02%20CATH%20Assignment/cath-assignment.html#overview">02 CATH Assignment →</a>
+  <a class="xpage" href="../03%20Component%20Assignment/component-assignment.html#overview">03 Component Assignment →</a>
+  <label><input type="checkbox" id="notesToggle" checked> Writer notes</label>
+  <label><input type="checkbox" id="darkToggle"> Dark</label>
+</div>
+
+<main>
+<!-- =========================================================== -->
+<!-- PAGE 1: OVERVIEW. Lives at /dry-lab/model/#plasticome-reference-curation -->
+<!-- =========================================================== -->
+<section class="page" id="page-overview">
+  <div class="eyebrow">Model · Dataset Generation · 1 of 7</div>
+  <h1>Plasticome Reference Curation</h1>
+  <div class="ms-hand">
+    <p class="lede">Existing databases of plastic-degrading enzymes (PDEs) are limited in scope and diversity. The plastics-active enzymes database (PAZy) contains 495 functionally verified plastic-active enzymes, most of them homologs of leaf-branch compost cutinase (LCC) or IsPETase.</p>
+    <p class="lede" style="margin-top:14px">To build PETadex, we created a starting search query by combining two versions of the PAZy database: the one used in the original PETadex generation (pazy-240826) and a recently updated, manually curated version (pazy-260701). Together they give a union of 609 curated, experimentally validated PDEs, which we call the plasticome.</p>
+  </div>
+
+  <div class="note">
+    This block replaces the placeholder under <code>### Plasticome Reference Curation</code> in <code>src/content/wiki/dry-lab/model/index.mdx</code>.
+    <ul>
+      <li>Coloured left rules show where text came from: <span class="key hand">manuscript, hand-written</span> <span class="key ai">manuscript, marked AI-GENERATED in the .tex</span> <span class="key own">no manuscript text, drafted for the wiki</span>. They disappear with the Writer notes toggle.</li>
+      <li>Lede: sentences 1 and 2 are Introduction ¶3 of <code>petadex-manuscript.tex</code>, verbatim. Sentences 3 and 4 adapt Results ¶4 ("To generate this updated PETadex-260701 dataset...") and the abstract.</li>
+      <li>The manuscript's Methods "Plasticome construction" paragraphs are flagged <code>% AI-GENERATED</code> in the source. They are used on the Methods page for facts and marked accordingly.</li>
+    </ul>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+
+  <h2 id="explore">Explore the plasticome</h2>
+  <p class="prose own">Every one of the 609 enzymes, with the trail of curation decisions behind it and the domain calls from <a href="#">CATH Assignment</a>. Pick an example or search by name, accession, organism, CATH code or Pfam family.</p>
+  <figure style="margin-top:12px">
+    <div class="demo">
+      <div>
+        <div class="controls">
+          <input id="q" type="search" placeholder="Search name, accession, organism, CATH, Pfam" aria-label="Search records">
+          <select id="fSrc" aria-label="Source">
+            <option value="">All sources</option><option value="v260701">pazy-260701 only</option><option value="both">Both snapshots</option><option value="v1.1">pazy-240826 only</option>
+          </select>
+          <select id="fSub" aria-label="Substrate"><option value="">All plastics</option></select>
+          <select id="fFold" aria-label="Fold group"><option value="">All fold groups</option></select>
+          <select id="fComp" aria-label="Component"><option value="">All components</option></select>
+        </div>
+        <div class="chips" id="chips"></div>
+        <div class="list" id="list" role="listbox" aria-label="Records"></div>
+        <p class="count" id="count"></p>
+      </div>
+      <div class="card" id="card" aria-live="polite"></div>
+    </div>
+  </figure>
+
+  <a class="cta" href="#methods">Read the full curation methods →</a>
+</section>
+
+<!-- =========================================================== -->
+<!-- PAGE 2: METHODS. Lives at /dry-lab/model/plasticome/ (not in any menu) -->
+<!-- =========================================================== -->
+<section class="page" id="page-methods" hidden>
+  <div class="eyebrow">Model · Methods</div>
+  <h1>Plasticome Reference Curation: Methods</h1>
+  <div class="note">
+    New MDX file, following <code>dry-lab/model/datasets/index.mdx</code>: frontmatter <code>path: "/dry-lab/model/plasticome/"</code>, <code>order: 22</code>, reached only from the link at the end of the overview. Facts follow <code>petadex-manuscript.tex</code>. Counts in tables and figures come from <code>plasticome.v2.xlsx</code> and agree with it.
+    <ul>
+      <li>Source key: <span class="key hand">manuscript, hand-written</span> <span class="key ai">manuscript, marked AI-GENERATED</span> <span class="key own">no manuscript text, drafted for the wiki</span>.</li>
+    </ul>
+  </div>
+  <div class="callout">This page is the full write-up behind the <a href="#overview">Plasticome Reference Curation</a> subsection of the Model page.</div>
+
+  <div class="methods-layout">
+    <nav class="toc" aria-label="On this page"><ol>
+      <li><a href="#m-why">Why curate</a></li>
+      <li><a href="#m-build">Building the plasticome</a></li>
+      <li><a href="#m-inputs">Inputs</a></li>
+      <li><a href="#m-pazy">Curating pazy-260701</a></li>
+      <li><a href="#m-v1">Preparing pazy-240826</a></li>
+      <li><a href="#m-merge">Merging</a></li>
+      <li><a href="#m-seq">Sequences</a></li>
+      <li><a href="#m-annot">Annotation and structures</a></li>
+      <li><a href="#m-out">Outputs</a></li>
+      <li><a href="#m-limits">What "validated" means</a></li>
+      <li><a href="#m-repro">Reproducing</a></li>
+    </ol></nav>
+
+    <div class="prose" style="max-width:none">
+      <h2 id="m-why" style="margin-top:0">Why curate</h2>
+      <div class="ms-hand">
+        <p>Existing databases of PDEs are limited in scope and diversity. The plastics-active enzymes database (PAZy) contains 495 functionally verified plastic-active enzymes, most of them homologs of leaf-branch compost cutinase (LCC) or IsPETase. Following established workflows for the homology-based retrieval and expansion of a given set of enzymes of interest, we built a workflow for the retrieval of PDEs from NCBI-nr and the SRA, using the Logan assembly.</p>
+      </div>
+      <div class="ms-ai">
+        <p>PETadex links back to characterized enzymes through the plasticome. Apart from the plasticome, PETadex entries are putative enzymes that have not been validated experimentally.</p>
+      </div>
+      <div class="own">
+        <p>Because every downstream search starts from these sequences, an enzyme wrongly included pulls in false relatives, and one that is missing leaves a family unsearched. That is why each record was checked against its source publication before the search began.</p>
+      </div>
+
+      <h2 id="m-build">Building the plasticome</h2>
+      <div class="ms-hand">
+        <p>To generate this updated PETadex-260701 dataset, we created a starting search query from combining two versions of the PAZy database: the first from the original PETadex generation (pazy-240826; <i>n</i> = 212; 26 August 2024), and a recently updated version (pazy-260701; <i>n</i> = 473; retrieved 30 June 2026). Sourcing 136 enzymes from pazy-240826, 397 enzymes from pazy-260701 and 76 merged between both generates a 609-enzyme union set, the plasticome. The plasticome was then clustered at 90% amino acid identity to 411 cluster centroids.</p>
+      </div>
+      <figure aria-labelledby="f1t">
+        <p class="figtitle" id="f1t">Figure 2. Two PAZy snapshots, merged on accession</p>
+        <p class="figsub">Bars under each box show how its records split. Hover a bar for counts.</p>
+        <div class="flow" id="flow"></div>
+        <figcaption class="ms-ai">pazy-260701 was curated manually against each record's source publication: records without experimentally reported activity were removed and four sequences were added. pazy-240826 is the seed set of the original PETadex build. The two snapshots were joined on accession, ignoring accession version.</figcaption>
+      </figure>
+
+      <h2 id="m-inputs">Inputs</h2>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Source</th><th>What it is</th><th class="num">Records</th><th>Workbook sheet</th></tr></thead>
+        <tbody id="tInputs"></tbody>
+      </table></div>
+
+      <h2 id="m-pazy">Curating pazy-260701</h2>
+      <div class="ms-ai">
+        <p>pazy-260701 was retrieved on 30 June 2026; 260701 is the version label of the dataset, not the retrieval date. The 495 records in the 2026 snapshot were curated manually against their source publications: 26 records without experimentally reported activity were removed and 4 sequences were added (one reported in the literature but absent from PAZy, one replacing an inactive PAZy record, and two that PAZy aggregates under a single identifier), leaving 473 enzymes.</p>
+      </div>
+      <div class="own">
+        <p>Of the 495 records, <span data-n="pull.status.in_v1"></span> were already in the original PETadex seed set, <span data-n="pull.status.new_since_v1"></span> were new and <span data-n="pull.status.no_sequence"></span> came with no sequence. The curator checked that the paper reports the enzyme, that the accession points to the protein the paper tested, and whether the paper shows activity on a plastic directly or only indirectly. Each decision is recorded in sheet <code>pazy-260701_manual-curation</code> by cell colour.</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Decision</th><th>Marked as</th><th class="num">Records</th></tr></thead>
+        <tbody id="tManual"></tbody>
+      </table></div>
+      <div class="own">
+        <p>Curators left free-text notes on <span data-n="manual.activity_comments"></span> records explaining a change, and on <span data-n="manual.seq_comments"></span> explaining where a sequence came from when it had to be recovered by hand: translating a DNA sequence from a supplement, locating a gene from its PCR primers in a genome, or copying a sequence out of a patent. A few examples:</p>
+      </div>
+      <div class="tablewrap"><table><thead><tr><th>Enzyme</th><th>Curator note</th></tr></thead><tbody id="tNotes"></tbody></table></div>
+      <div class="note">The direct / indirect split (459 / 14) is from the workbook; the manuscript does not report it. Decide whether the wiki should, and define the two terms in one sentence if so.</div>
+
+      <h2 id="m-v1">Preparing pazy-240826</h2>
+      <div class="ms-ai">
+        <p>The first snapshot, pazy-240826 (26 August 2024; <i>n</i> = 212), is the seed set of the original PETadex build.</p>
+      </div>
+      <div class="own">
+        <p>In the workbook it appears as plasticome v1 (<span data-n="v1.n_v1"></span> records) and, after cleaning, plasticome v1.1 (<span data-n="v1.n_v11"></span> records), the version merged here. Cleaning involved four changes.</p>
+        <ol>
+          <li><b>Accessions.</b> <span data-n="v1.retrieved_changed"></span> records had their accession corrected to the one that matches the reported protein.</li>
+          <li><b>Erickson sequences.</b> The 21 metagenomic enzymes from Erickson et al. (2022) were reset to the sequences in the paper's supplementary table D1 (Figure 3).</li>
+          <li><b>DOIs.</b> Every record now carries the DOI of its source paper (<span data-n="v1.doi_filled"></span> of <span data-n="v1.n_v11"></span>).</li>
+          <li><b>Labels.</b> Kingdom was written several ways (<span id="kLabels"></span>); these were normalised to superkingdom during annotation.</li>
+        </ol>
+      </div>
+      <div class="note">None of this section's detail is in the manuscript. Check you want it on the wiki.</div>
+      <figure aria-labelledby="f3t" class="dumb">
+        <p class="figtitle" id="f3t">Figure 3. The Erickson enzymes: database record against the paper</p>
+        <p class="figsub">Sequence length before (database record) and after (paper supplement, table D1), for the 21 Erickson et al. (2022) metagenomic enzymes in pazy-240826.</p>
+        <div class="legend"><span><i class="sw" style="background:var(--color-muted)"></i>Database record</span><span><i class="sw" style="background:var(--s-v1)"></i>Sequence from the paper</span></div>
+        <div id="dumb"></div>
+        <figcaption class="own">These enzymes were found by functional metagenomics, and their database records differ from the constructs reported in the paper. Several database sequences were nearly twice as long as the reported construct. All 21 were replaced with the sequences printed in the paper. Where these enzymes also appear in pazy-260701, the paper's sequence wins over the database record.</figcaption>
+      </figure>
+
+      <h2 id="m-merge">Merging</h2>
+      <div class="ms-ai">
+        <p>The two snapshots were joined on accession, ignoring accession version, giving a union of 609 enzymes: 397 from pazy-260701 only, 136 from pazy-240826 only and 76 present in both.</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Source tag</th><th>Meaning</th><th class="num">Records</th></tr></thead>
+        <tbody id="tMerge"></tbody>
+      </table></div>
+      <div class="own">
+        <p><b>Duplicates are kept on purpose.</b> When the two snapshots cite the same enzyme under different accessions, nothing joins them and the enzyme appears twice. Cut190, for example, is in pazy-240826 as <code>BAO42836.1</code> and in pazy-260701 as <code>WP_015787089.1</code>. These are not resolved by hand: identical and near-identical sequences are collapsed by clustering (see Outputs), which is a rule rather than a judgement call.</p>
+      </div>
+
+      <h2 id="m-seq">Sequences</h2>
+      <div class="ms-ai"><p>Sequences were retrieved by accession, primarily from NCBI Protein.</p></div>
+      <div class="own">
+        <p>Sequences were never copied from an older table. The one exception is a sequence assigned by hand because the database record is not the protein that was tested: the 21 Erickson enzymes and jmPE13, whose sequence exists only in its paper's supplement. Where such a sequence meets a pazy-260701 record with the same accession, the manual sequence wins. This happened four times:</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Enzyme</th><th>Accession</th><th class="num">Kept (paper)</th><th class="num">Discarded (database)</th></tr></thead>
+        <tbody>
+          <tr><td>Enzyme 503 like</td><td class="mono">EGD44994.1</td><td class="num">267 aa</td><td class="num">294 aa</td></tr>
+          <tr><td>Enzyme 611</td><td class="mono">WP_093412886.1</td><td class="num">269 aa</td><td class="num">293 aa</td></tr>
+          <tr><td>Enzyme 701</td><td class="mono">WP_104613137.1</td><td class="num">270 aa</td><td class="num">301 aa</td></tr>
+          <tr><td>Enzyme 702</td><td class="mono">ADM47605.1</td><td class="num">271 aa</td><td class="num">262 aa</td></tr>
+        </tbody>
+      </table></div>
+      <div class="own"><p>For everything else, each accession was looked up in turn against NCBI Protein, UniProt, RCSB PDB, NCBI Nucleotide (for coding sequences), MGnify and UniParc, taking the first hit. No accession was left unresolved.</p></div>
+      <div class="bars" id="fetchBars" style="max-width:520px;margin:12px 0 4px"></div>
+      <p class="count">Accessions resolved at each stage, final run.</p>
+      <div class="note">The step-1 README gives a different split (NCBI 65, UniProt +45, RCSB +2, UniParc +4) for the 116 pazy-240826-only rows only. The bars above are from <code>runs/2026-08-06.final-usearch.3/fetched_sequences.json</code>, which covers 565 accessions. Decide which one the page reports and say what population it covers.</div>
+
+      <h2 id="m-annot">Annotation and structures</h2>
+      <div class="own">
+        <p>Each record was joined back to its source tables to recover substrate, organism, superkingdom, metagenomic origin, UniProt accession and PDB structure. Where the two snapshots disagreed, pazy-260701 won. Several PDB IDs in the sources were typos or obsolete; each correction was checked by aligning the RCSB sequence to the record's own sequence. After correction, <span id="nPdb"></span> records link to an experimental structure.</p>
+      </div>
+      <div class="ms-ai">
+        <p>Structures were predicted with ESMFold2. For the 609 plasticome enzymes the mean pLDDT was 0.94, and 605 structures (99.3%) had a mean pLDDT of at least 0.70. These structures are the input to <a href="#">CATH Assignment</a>.</p>
+      </div>
+      <figure aria-labelledby="f2t">
+        <div class="fighead">
+          <div>
+            <p class="figtitle" id="f2t">Figure 4</p>
+            <p class="figsub" id="figSub"></p>
+          </div>
+          <select id="figView" aria-label="Figure view">
+            <option value="sub">Plastic type</option>
+            <option value="sk">Superkingdom</option>
+            <option value="pdb">Experimental structure</option>
+            <option value="meta">Metagenomic origin</option>
+          </select>
+        </div>
+        <div class="legend" id="srcLegend"></div>
+        <div class="donutwrap">
+          <div class="donut" id="donut"></div>
+          <div class="tablewrap"><table class="dtable" id="dtable"></table></div>
+        </div>
+        <figcaption id="figCap" class="own"></figcaption>
+      </figure>
+
+      <h2 id="m-out">Outputs</h2>
+      <div class="stats" id="stats2" style="margin-top:12px"></div>
+      <div class="ms-ai">
+        <p>The 609 sequences were clustered at 90% amino acid identity with USEARCH v11.0.667 in a reference-seeded scheme. Thirteen well-characterized enzymes were fixed as cluster centroids, the remaining sequences were first recruited to these centroids, and those left unassigned were clustered <i>de novo</i> with centroids chosen by decreasing length. This produced 411 clusters (13 reference-seeded and 398 <i>de novo</i>). The 411 centroids are the query set for the NCBI-nr search. Separately, collapsing the plasticome at 100% identity gives 493 non-redundant proteins, which were used to seed the profile HMMs.</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Set</th><th>How it is made</th><th class="num">Size</th><th>Used for</th></tr></thead>
+        <tbody>
+          <tr><td>Plasticome (union)</td><td>pazy-260701 and pazy-240826 merged on accession</td><td class="num" data-n="union.length"></td><td>The reference record of every enzyme</td></tr>
+          <tr><td>Non-redundant</td><td>Collapsed at 100% identity</td><td class="num" data-n="nr.n"></td><td>Seeding the profile HMMs</td></tr>
+          <tr><td>90% centroids</td><td>Reference-seeded clustering at 90% identity</td><td class="num" data-n="centroids.n"></td><td>The NCBI-nr search query, and <a href="#">Component Assignment</a></td></tr>
+        </tbody>
+      </table></div>
+      <p class="own" id="nrSplit"></p>
+
+      <h2 id="m-limits">What "validated" means</h2>
+      <div class="own">
+        <p>An enzyme is in the plasticome because a published paper reports experimental activity on a plastic. We did not test these enzymes ourselves, and the evidence varies from paper to paper, but the search treats every plasticome enzyme the same way.</p>
+      </div>
+      <div class="ms-hand">
+        <p>Most of PAZy's enzymes are homologs of LCC or IsPETase, so the families the pipeline searches most thoroughly are the ones already best studied.</p>
+      </div>
+
+      <h2 id="m-repro">Reproducing</h2>
+      <p class="own">The curation workbook, <code>plasticome.v2.xlsx</code>, holds every sheet named on this page. The union is rebuilt from the two cleaned tables by the first step of the plasticome pipeline:</p>
+      <pre>python3 "lib/01 union/build_union.py" \
+    source-data/plasticome.v1.1/plasticome.v1.1.tsv \
+    source-data/plasticome.v260701/cleaned_pazy-260701-singletons.tsv \
+    -o runs/&lt;run&gt;/01-union.tsv
+python3 "lib/01 union/fetch_sequences.py" runs/&lt;run&gt;/01-union.tsv</pre>
+      <div class="note">Add the GitHub / Hugging Face link for the workbook and repo once they are public.</div>
+      <div class="note">Demo ideas, not built: show each sequence with its signal peptide shaded; link each record's centroid to the Component Assignment section; a "same enzyme, two records" toggle that lists all 609 against the 493 non-redundant proteins.</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+const D = /*DATA*/null;
+const CATH = /*CATH*/null, TREE = /*TREE*/null;
+const $ = (s, r = document) => r.querySelector(s);
+const fmt = n => n.toLocaleString("en-US");
+const get = path => path.split(".").reduce((o, k) => o == null ? o : o[k], D);
+const SRC = { v260701: { label: "pazy-260701 only", c: "var(--s-v2)" }, both: { label: "Both snapshots", c: "var(--s-both)" }, "v1.1": { label: "pazy-240826 only", c: "var(--s-v1)" } };
+const SRC_ORDER = ["v260701", "both", "v1.1"];
+const SUBNAME = { PET: "PET", PA: "Polyamide", PLA: "PLA", PUR: "Polyurethane", PBAT: "PBAT", PHA: "PHA", NR: "Natural rubber", PC: "Polycarbonate", PBS: "PBS", PEF: "PEF", PE: "Polyethylene" };
+const U = D.union;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+/* ---------- tooltip ---------- */
+const tip = $("#tip");
+function showTip(e, html) { tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e) {
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + pad, y = e.clientY + pad;
+  if (x + w > innerWidth - 8) x = e.clientX - w - pad;
+  if (y + h > innerHeight - 8) y = e.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() { tip.style.opacity = 0; }
+function bindTip(el, html) {
+  el.addEventListener("pointerenter", e => showTip(e, html));
+  el.addEventListener("pointermove", moveTip);
+  el.addEventListener("pointerleave", hideTip);
+}
+
+/* ---------- number slots ---------- */
+document.querySelectorAll("[data-n]").forEach(el => { const v = get(el.dataset.n); el.textContent = v == null ? "?" : fmt(v); });
+
+/* ---------- stats ---------- */
+const nComp = D.centroids.components;
+const tiles = el => (rows => $(el).innerHTML = rows.map(([c, v, k]) => `<div class="stat ${c}"><div class="v">${v}</div><div class="k">${k}</div></div>`).join(""));
+tiles("#stats")([
+  ["hero", fmt(U.length), "curated, experimentally validated enzymes: the plasticome"],
+  ["", fmt(D.pull.n), "functionally verified enzymes in PAZy, each curated by hand"],
+  ["", fmt(new Set(U.flatMap(r => r.sub.split(";").map(s => s.trim()).filter(s => s && s !== "NA"))).size), "plastic types with a known enzyme"],
+]);
+tiles("#stats2")([
+  ["", fmt(D.nr.n), "non-redundant proteins (100% identity)"],
+  ["", fmt(D.centroids.n), `cluster centroids at 90% identity`],
+  ["", fmt(nComp), "graph components of the centroids"],
+]);
+
+/* ---------- figure 1: flow ---------- */
+function mini(parts) {
+  const tot = parts.reduce((a, p) => a + p[0], 0);
+  return `<div class="mini">${parts.map(([n, c, l]) => `<i style="flex:${n};background:${c}" data-tip="${esc(l)}: ${fmt(n)} (${Math.round(100 * n / tot)}%)"></i>`).join("")}</div>`;
+}
+const src = Object.fromEntries(SRC_ORDER.map(k => [k, U.filter(r => r.src === k).length]));
+const m = D.manual;
+$("#flow").innerHTML = `
+  <div class="lane">
+    <div class="node"><div class="n">${fmt(D.pull.n)}</div><div class="t">pazy-260701</div><div class="d">Retrieved 30 June 2026, via API</div>
+      ${mini([[D.pull.status.in_v1, "var(--s-both)", "Already in the PETadex v1 seed set"], [D.pull.status.new_since_v1, "var(--s-v2)", "New since PETadex v1"], [D.pull.status.no_sequence, "var(--color-muted)", "No sequence"]])}</div>
+    <div class="node"><div class="n">${fmt(D.v1.n_v1)}</div><div class="t">PETadex v1 seed set</div><div class="d">The enzymes the original build searched with</div></div>
+  </div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="lane">
+    <div class="node"><div class="n">${fmt(D.cleaned.n)}</div><div class="t">Curated against each paper</div>
+      <div class="d">${m.activity["-"]} without reported activity removed, 4 added</div>
+      ${mini([[D.cleaned.activity.Direct, "var(--s-v2)", "Direct activity"], [D.cleaned.activity.Indirect, "var(--color-muted)", "Indirect activity"]])}</div>
+    <div class="node"><div class="n">${fmt(D.v1.n_v11)}</div><div class="t">pazy-240826</div>
+      <div class="d">${D.v1.retrieved_changed} accessions fixed, ${D.v1.erickson.length} sequences reset to the paper, DOI on every record</div></div>
+  </div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="lane">
+    <div class="node out"><div class="n">${fmt(U.length)}</div><div class="t">Plasticome, merged on accession</div>
+      <div class="d">${fmt(src.v260701)} pazy-260701 only · ${fmt(src.both)} in both · ${fmt(src["v1.1"])} pazy-240826 only</div>
+      ${mini(SRC_ORDER.map(k => [src[k], SRC[k].c, SRC[k].label]))}</div>
+    <div class="node"><div class="n">${fmt(D.nr.n)}</div><div class="t">Non-redundant proteins</div><div class="d">Collapsed at 100% identity; ${fmt(D.centroids.n)} centroids at 90%</div></div>
+  </div>`;
+document.querySelectorAll("[data-tip]").forEach(el => bindTip(el, el.dataset.tip));
+
+/* ---------- figure 2: stacked bars ---------- */
+$("#srcLegend").innerHTML = SRC_ORDER.map(k => `<span><i class="sw" style="background:${SRC[k].c}"></i>${SRC[k].label}</span>`).join("");
+function stacked(el, rows, max) {
+  el.innerHTML = "";
+  rows.forEach(({ label, parts, title }) => {
+    const tot = parts.reduce((a, p) => a + p.n, 0);
+    const lab = document.createElement("div"); lab.className = "lab"; lab.innerHTML = label; lab.title = title || "";
+    const track = document.createElement("div"); track.className = "track";
+    parts.filter(p => p.n).forEach(p => {
+      const s = document.createElement("div"); s.className = "seg";
+      s.style.cssText = `width:${100 * p.n / max}%;background:${p.c}`;
+      bindTip(s, `<b>${label.replace(/<[^>]+>/g, "")}</b><br>${p.l}: ${fmt(p.n)} of ${fmt(tot)}`);
+      track.appendChild(s);
+    });
+    const val = document.createElement("div"); val.className = "val"; val.textContent = fmt(tot);
+    el.append(lab, track, val);
+  });
+}
+const SUBFULL = { PET: "polyethylene terephthalate", PA: "polyamide (nylon)", PLA: "polylactic acid", PUR: "polyurethane", PBAT: "poly(butylene adipate-co-terephthalate)", PHA: "polyhydroxyalkanoates", NR: "natural rubber", PC: "polycarbonate", PBS: "poly(butylene succinate)", PEF: "polyethylene furanoate", PE: "polyethylene" };
+const subCount = {};
+U.forEach(r => r.sub.split(";").map(s => s.trim()).filter(s => s && s !== "NA").forEach(s => {
+  subCount[s] ??= { v260701: 0, both: 0, "v1.1": 0 }; subCount[s][r.src]++;
+}));
+const subRows = Object.entries(subCount).map(([s, c]) => ({ s, c, t: c.v260701 + c.both + c["v1.1"] })).sort((a, b) => b.t - a.t);
+const bySrc = f => SRC_ORDER.map(s => ({ n: U.filter(r => f(r) && r.src === s).length, c: SRC[s].c, l: SRC[s].label, k: s }));
+const nPlastics = subRows.length;
+const VIEWS = {
+  sub: {
+    title: ["Plastics the", "plasticome", "acts on"], sub: `${fmt(U.length)} enzymes · ${nPlastics} plastics`,
+    figsub: "Inner ring: plastic type. Outer ring: which PAZy snapshot each enzyme came from.",
+    cap: `An enzyme reported on several plastics counts once for each, so the ring totals ${fmt(subRows.reduce((a, r) => a + r.t, 0))} enzyme-plastic records. PET dominates, reflecting where published work has concentrated.`,
+    head: "Plastic",
+    rows: () => subRows.map(({ s, c }) => ({ key: s, label: `<b>${s}</b> <small>${SUBFULL[s] || ""}</small>`, name: `${s} (${SUBFULL[s] || s})`,
+      parts: SRC_ORDER.map(k => ({ n: c[k], c: SRC[k].c, l: SRC[k].label, k })) })),
+  },
+  sk: {
+    title: ["Where the", "enzymes", "come from"], sub: `${fmt(U.length)} enzymes`,
+    figsub: "Inner ring: superkingdom of the source organism. Outer ring: PAZy snapshot.",
+    cap: "Most known plastic-degrading enzymes come from bacteria. Unassigned enzymes have no organism recorded in either snapshot.",
+    head: "Superkingdom",
+    rows: () => ["Bacteria", "Eukaryota", "Archaea", "NA"].map(k => ({ key: k === "NA" ? "Unassigned" : k, label: k === "NA" ? "Unassigned" : k, name: k === "NA" ? "Unassigned" : k, parts: bySrc(r => r.sk === k) })),
+  },
+  pdb: {
+    title: ["Solved", "structures"], sub: `${fmt(U.length)} enzymes`,
+    figsub: "Inner ring: whether the enzyme has an experimental structure in the PDB. Outer ring: PAZy snapshot.",
+    cap: "Every plasticome enzyme also has a predicted ESMFold2 structure; this view counts only experimental structures.",
+    head: "Structure",
+    rows: () => [["PDB", "In the PDB", r => r.pdb && r.pdb !== "NA"], ["None", "No experimental structure", r => !(r.pdb && r.pdb !== "NA")]].map(([key, label, f]) => ({ key, label, name: label, parts: bySrc(f) })),
+  },
+  meta: {
+    title: ["Metagenomic", "origin"], sub: `${fmt(U.length)} enzymes`,
+    figsub: "Inner ring: whether the enzyme was found by metagenomics. Outer ring: PAZy snapshot.",
+    cap: "Metagenomic enzymes were identified from environmental DNA rather than from a cultured organism.",
+    head: "Origin",
+    rows: () => [["Meta", "Metagenomic", r => r.meta], ["Other", "Not metagenomic", r => !r.meta]].map(([key, label, f]) => ({ key, label, name: label, parts: bySrc(f) })),
+  },
+};
+
+function arcPath(r0, r1, a0, a1) {
+  const C = 170, p = (r, a) => `${(C + r * Math.cos(a)).toFixed(2)},${(C + r * Math.sin(a)).toFixed(2)}`;
+  if (a1 - a0 >= 2 * Math.PI - 1e-6) a1 = a0 + 2 * Math.PI - 1e-4;
+  const lg = a1 - a0 > Math.PI ? 1 : 0;
+  return `M${p(r1, a0)}A${r1},${r1} 0 ${lg} 1 ${p(r1, a1)}L${p(r0, a1)}A${r0},${r0} 0 ${lg} 0 ${p(r0, a0)}Z`;
+}
+function drawFig() {
+  const v = VIEWS[$("#figView").value], rows = v.rows();
+  $("#figSub").textContent = v.figsub; $("#figCap").textContent = v.cap;
+  const total = rows.reduce((a, r) => a + r.parts.reduce((b, p) => b + p.n, 0), 0);
+  const IN0 = 92, IN1 = 128, OUT0 = 131, OUT1 = 156;
+  let a = -Math.PI / 2, s = `<svg viewBox="0 0 340 340" role="img" aria-label="${esc(v.title.join(" "))}">`;
+  rows.forEach((r, i) => {
+    r.n = r.parts.reduce((b, p) => b + p.n, 0);
+    const a0 = a, a1 = a + 2 * Math.PI * r.n / total; a = a1;
+    s += `<g class="slice" data-i="${i}"><path class="inner" d="${arcPath(IN0, IN1, a0, a1)}"/>`;
+    let b = a0;
+    r.parts.filter(p => p.n).forEach(p => {
+      const b1 = b + (a1 - a0) * p.n / r.n;
+      s += `<path class="outer" data-p="${p.k}" d="${arcPath(OUT0, OUT1, b, b1)}" style="fill:${p.c}"/>`; b = b1;
+    });
+    if (a1 - a0 > 0.8 || (a1 - a0 > 0.2 && r.key.length * 7 <= IN1 - IN0)) {
+      const m = (a0 + a1) / 2, rr = (IN0 + IN1) / 2;
+      s += `<text class="slab" x="${(170 + rr * Math.cos(m)).toFixed(1)}" y="${(170 + rr * Math.sin(m) + 4).toFixed(1)}" text-anchor="middle">${esc(r.key)}</text>`;
+    }
+    s += `</g>`;
+  });
+  const lines = v.title, y0 = 170 - (lines.length - 1) * 11 - 8;
+  s += `<text class="ctitle" text-anchor="middle">${lines.map((l, i) => `<tspan x="170" y="${y0 + i * 22}">${esc(l)}</tspan>`).join("")}</text>`;
+  s += `<text class="csub" x="170" y="${y0 + lines.length * 22 + 4}" text-anchor="middle">${esc(v.sub)}</text></svg>`;
+  $("#donut").innerHTML = s;
+
+  $("#dtable").innerHTML = `<thead><tr><th>${v.head}</th><th class="num">Enzymes</th><th>By source</th></tr></thead><tbody>` +
+    rows.map((r, i) => `<tr data-i="${i}"><td>${r.label}</td><td class="num">${fmt(r.n)}</td><td><div class="mini">${r.parts.filter(p => p.n).map(p => `<i style="flex:${p.n};background:${p.c}"></i>`).join("")}</div></td></tr>`).join("") + `</tbody>`;
+
+  const hl = i => {
+    $("#donut").classList.toggle("dim", i != null);
+    document.querySelectorAll("#donut .slice, #dtable tr[data-i]").forEach(el => el.classList.toggle("hl", el.dataset.i == i));
+  };
+  const tipFor = r => `<b>${esc(r.name)}</b>: ${fmt(r.n)}<br>` + r.parts.map(p => `${p.l}: ${fmt(p.n)}`).join("<br>");
+  document.querySelectorAll("#donut .slice").forEach(g => {
+    const r = rows[+g.dataset.i];
+    g.addEventListener("pointerenter", e => { hl(g.dataset.i); showTip(e, tipFor(r)); });
+    g.addEventListener("pointermove", moveTip);
+    g.addEventListener("pointerleave", () => { hl(null); hideTip(); });
+  });
+  document.querySelectorAll("#dtable tr[data-i]").forEach(tr => {
+    tr.addEventListener("pointerenter", () => hl(tr.dataset.i));
+    tr.addEventListener("pointerleave", () => hl(null));
+  });
+}
+$("#figView").addEventListener("change", drawFig);
+drawFig();
+
+/* ---------- figure 3: dumbbell ---------- */
+(function () {
+  const rows = [...D.v1.erickson].sort((a, b) => (b.old - b.new) - (a.old - a.new));
+  const W = 760, rowH = 22, top = 24, left = 120, right = 60, H = top + rows.length * rowH + 8;
+  const lo = 150, hi = 650, x = v => left + (v - lo) / (hi - lo) * (W - left - right);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Sequence length before and after for 21 Erickson enzymes"><g class="axis">`;
+  for (let t = 200; t <= 600; t += 100) s += `<line x1="${x(t)}" x2="${x(t)}" y1="${top - 8}" y2="${H}"/><text x="${x(t)}" y="${top - 12}" text-anchor="middle">${t} aa</text>`;
+  s += `</g>`;
+  rows.forEach((r, i) => {
+    const y = top + i * rowH + rowH / 2;
+    s += `<g class="row" data-i="${i}"><rect x="0" y="${y - rowH / 2}" width="${W}" height="${rowH}" fill="transparent"/>
+      <text class="name" x="${left - 10}" y="${y + 4}" text-anchor="end">${esc(r.name)}</text>
+      <line x1="${x(r.old)}" x2="${x(r.new)}" y1="${y}" y2="${y}" stroke="var(--color-muted)" stroke-width="2"/>
+      <circle cx="${x(r.old)}" cy="${y}" r="5" fill="var(--color-muted)" stroke="var(--color-surface)" stroke-width="2"/>
+      <circle cx="${x(r.new)}" cy="${y}" r="5" fill="var(--s-v1)" stroke="var(--color-surface)" stroke-width="2"/>
+      ${i < 3 ? `<text x="${x(Math.max(r.old, r.new)) + 10}" y="${y + 4}">${r.new - r.old > 0 ? "+" : "−"}${Math.abs(r.new - r.old)}</text>` : ""}</g>`;
+  });
+  $("#dumb").innerHTML = s + "</svg>";
+  $("#dumb").querySelectorAll(".row").forEach(g => {
+    const r = rows[+g.dataset.i], d = r.new - r.old;
+    bindTip(g, `<b>${esc(r.name)}</b><br>Database record: ${r.old} aa<br>From paper: ${r.new} aa<br>${d > 0 ? "+" : "−"}${Math.abs(d)} aa`);
+  });
+})();
+
+/* ---------- CATH calls and fold groups (shared with 02 CATH Assignment) ---------- */
+const blank = v => !v || v === "-" || v === "NA";
+const CLS = { "3": { l: "Alpha-beta", c: "var(--s-v2)" }, "1": { l: "Mainly alpha", c: "var(--s-both)" }, "2": { l: "Mainly beta", c: "var(--s-v1)" } };
+const colOf = sf => blank(sf) ? "var(--color-muted)" : (CLS[sf[0]] || { c: "var(--color-muted)" }).c;
+const nameOf = sf => CATH.names[sf] || "";
+const cathOf = r => CATH.enz[r.id] || {};
+const GROUP = Object.fromEntries(TREE.groups.map(g => [g.g, g]));
+const groupOf = r => GROUP[TREE.tip[String(r.cent ? r.id : r.cid)]];
+const ranges = s => blank(s) ? [] : [...String(s).matchAll(/(\d+)-(\d+)/g)].map(m => [+m[1], +m[2]]);
+const consensus = d => [d.A, d.T, d.B].find(x => !blank(x)) || "";
+function trackSVG(L, lanes, W = 640) {
+  const left = 76, right = 8, laneH = 24, gap = 10, top = 20;
+  const x = v => left + (v - 1) / Math.max(L - 1, 1) * (W - left - right);
+  const H = top + lanes.length * (laneH + gap);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Domain map"><g>`;
+  for (let t = 0; t <= L; t += (L > 500 ? 200 : 100)) s += `<line x1="${x(Math.max(t, 1))}" x2="${x(Math.max(t, 1))}" y1="${top - 6}" y2="${H - gap}" stroke="var(--color-grid)"/><text x="${x(Math.max(t, 1))}" y="${top - 9}" text-anchor="middle">${t || 1}</text>`;
+  s += `</g>`;
+  const tips = [];
+  lanes.forEach((ln, i) => {
+    const y = top + i * (laneH + gap);
+    s += `<text x="0" y="${y + laneH / 2 + 4}">${ln.name}</text><line x1="${x(1)}" x2="${x(L)}" y1="${y + laneH / 2}" y2="${y + laneH / 2}" stroke="var(--color-rule)"/>`;
+    ln.items.forEach(it => {
+      const rs = it.r; if (!rs.length) return;
+      if (rs.length > 1) s += `<line x1="${x(rs[0][1])}" x2="${x(rs[rs.length - 1][0])}" y1="${y + 3}" y2="${y + 3}" stroke="${it.c}" stroke-width="1.5" stroke-dasharray="3 3"/>`;
+      const id = tips.length; tips.push(it.tip);
+      rs.forEach(([a, b], k) => {
+        const w = Math.max(x(b) - x(a), 2);
+        s += `<rect class="blk" data-t="${id}" x="${x(a)}" y="${y + 4}" width="${w}" height="${laneH - 4}" rx="4" fill="${it.c}" stroke="var(--color-surface)" stroke-width="2"/>`;
+        if (k === 0 && w > 74 && it.lab) s += `<text class="in" x="${x(a) + 6}" y="${y + laneH / 2 + 5}">${esc(it.lab)}</text>`;
+      });
+    });
+  });
+  return { svg: s + "</svg>", tips };
+}
+function mountTrack(el, L, lanes, W) {
+  const { svg, tips } = trackSVG(L, lanes, W);
+  el.innerHTML = svg;
+  el.querySelectorAll("[data-t]").forEach(r => bindTip(r, tips[+r.dataset.t]));
+}
+function lanesFor(id) {
+  const ds = CATH.dom[id] || [];
+  const mer = ds.map(d => { const sf = consensus(d); return { r: ranges(d.seg), c: colOf(sf), lab: sf || (blank(d.Tl) ? "" : d.Tl),
+    tip: `<b>${d.d}</b> · residues ${esc(d.seg)}<br>${sf ? `${sf} ${esc(nameOf(sf))}` : "No CATH superfamily"}` }; });
+  const seen = new Set(), g3 = [], pf = [];
+  ds.forEach(d => {
+    if (!blank(d.Bseg) && !seen.has("b" + d.Bseg + d.B)) { seen.add("b" + d.Bseg + d.B); g3.push({ r: ranges(d.Bseg), c: colOf(d.B), lab: d.B, tip: `<b>Gene3D</b> · ${esc(d.Bseg)}<br>${d.B} ${esc(nameOf(d.B))}<br>bit score ${d.Bsc}` }); }
+    if (!blank(d.Cenv) && !seen.has("c" + d.Cenv + d.C)) {
+      const ns = d.C.split(";"), envs = d.Cenv.split(";");
+      envs.forEach((en, i) => { if (!seen.has("c" + en)) { seen.add("c" + en); pf.push({ r: ranges(en), c: "var(--color-text-2)", lab: ns[i] || ns[0], tip: `<b>Pfam</b> · ${esc(en)}<br>${esc(ns[i] || ns[0])} (${esc(d.Ca.split(";")[i] || d.Ca)})` }); } });
+      seen.add("c" + d.Cenv + d.C);
+    }
+  });
+  return [{ name: "Merizo", items: mer }, { name: "Gene3D", items: g3 }, { name: "Pfam", items: pf }];
+}
+const VERD = { agree: "Routes agree", single_route: "One route", no_hit: "No call", conflict: "Routes disagree", "-": "" };
+const SPECIAL = {
+  52: "A discontinuous β-lactamase-like domain with an α-helical domain inserted in it. Gene3D cannot represent the insertion, so it is a structure-only call.",
+  604: "Same protein as structure 52: a β-lactamase-like domain with an inserted α-helical domain.",
+  56: "A 28-residue fragment, too short to annotate. Its empty CATH columns are correct.",
+  72: "No route passes the standard thresholds. The α/β-hydrolase call comes from the sensitive TM-align pass, where both copies of MGS0084 (72 and 567) agree at TM 0.78–0.79.",
+  567: "No route passes the standard thresholds. The α/β-hydrolase call comes from the sensitive TM-align pass, where both copies of MGS0084 (72 and 567) agree at TM 0.78–0.79.",
+  78: "The original PETadex set labelled this α/β-hydrolase. Both new routes say subtilase (3.40.50.200), the correct fold for Proteinase K.",
+};
+[318, 325, 335, 342].forEach(i => SPECIAL[i] = "One of the four conflicts: CATH S40 and Gene3D say 3.60.70.12, TED50 labels a sub-domain differently. Pfam's Peptidase_S58 (clan DmpA_ArgJ) supports 3.60.70.12.");
+[65, 66, 68, 574].forEach(i => SPECIAL[i] = "The original PETadex set labelled this subtilisin α/β-hydrolase. Both new routes say subtilase (3.40.50.200).");
+Object.values(CATH.enz).filter(e => e.comp === "C024").forEach(e => SPECIAL[e.id] = "Latex clearing protein (Lcp), a rubber oxygenase. CATH has never classified this family, so no CATH route can label it. Pfam identifies it as PF09995 MPAB_Lcp_cat.");
+const cell = (sf, extra, fallback) => blank(sf) ? `<span class="muted">${fallback ? esc(fallback) : "–"}</span>` : `<span class="mono">${esc(sf)}</span>${extra ? `<br><small>${extra}</small>` : ""}`;
+const TIER = { exact: "Its sequence is a centroid; the call is its own.", near: "Same protein as a centroid (≥ 80% identity, ≥ 0.8 coverage both ways); the whole call transfers.", partial: "A fragment of a longer centroid; only domains it covers transfer.", none: "No usable match to a centroid." };
+function domainsHTML(r) {
+  const e = cathOf(r), ds = CATH.dom[r.id] || [];
+  if (!e.id) return `<p class="meta">No CATH record for this enzyme.</p>`;
+  const nDisc = ds.filter(d => ranges(d.seg).length > 1).length;
+  const domNames = e.dom.split(";"), catList = blank(e.cat) ? [] : e.cat.split(";");
+  const named = (list, off) => list.map((s, i) => `<span class="mono">${s}</span> ${esc(domNames[off + i] || nameOf(s) || "unnamed")}`).join("<br>");
+  const catNames = blank(e.cat) ? (e.dom !== "NA" ? esc(e.dom) : "None") : named(catList, 0);
+  const accNames = blank(e.acc_cath) ? "None" : named(e.acc_cath.split(";"), catList.length);
+  const steps = [
+    ["Predicted structure", `${e.len} aa, ESMFold`],
+    ["Cut into domains", ds.length ? `${ds.length} Merizo domain${ds.length > 1 ? "s" : ""}${nDisc ? `, ${nDisc} discontinuous` : ""}` : "No domain cut"],
+    ["Searched four ways", `${e.nr} of 4 routes returned a call${VERD[e.agree] ? ` · ${VERD[e.agree].toLowerCase()}` : ""}`],
+    ["Call transferred", `${TIER[e.tier] || e.tier}${e.tier !== "exact" ? ` Centroid <a href="#" data-goto="${esc(e.cent)}">PL${esc(e.cent)}</a>, ${esc(e.pid)}% identity.` : ""}`],
+    ["Split into catalytic and accessory", `Component ${esc(e.comp)}`],
+  ];
+  return `
+    <dl class="kv">
+      <dt>Catalytic</dt><dd>${catNames}</dd>
+      <dt>Accessory</dt><dd>${accNames}</dd>
+      <dt>Pfam</dt><dd>${blank(e.Cn) ? "No hit" : e.Cn.split(";").map((n, i) => `${esc(n)} <span class="mono" style="color:var(--color-muted)">${esc(e.Ca.split(";")[i] || "")}</span>`).join("<br>")}</dd>
+    </dl>
+    ${SPECIAL[r.id] ? `<p class="special">${esc(SPECIAL[r.id])}</p>` : ""}
+    <div class="legend" style="margin:14px 0 0">${["3", "1", "2"].map(k => `<span><i class="sw" style="background:${CLS[k].c}"></i>CATH class ${k} · ${CLS[k].l}</span>`).join("")}</div>
+    <div class="track" id="cardTrack" style="margin-top:8px"></div>
+    <div class="tablewrap"><table class="dt">
+      <thead><tr><th>Domain</th><th>CATH S40</th><th>TED50</th><th>Gene3D</th><th>Pfam</th><th></th></tr></thead>
+      <tbody>${ds.map(d => `<tr><td><b>${d.d}</b><br><small>${esc(d.seg)}</small></td>
+        <td>${cell(d.A, blank(d.A) ? "" : "TM " + (+d.Atm).toFixed(2))}</td>
+        <td>${cell(d.T, blank(d.T) ? "" : "TM " + Math.min(+d.Ttm, 1).toFixed(2), blank(d.Tl) ? "" : d.Tl)}</td>
+        <td>${cell(d.B)}</td>
+        <td>${blank(d.C) ? `<span class="muted">–</span>` : esc(d.C).replace(/;/g, "<br>")}</td>
+        <td>${VERD[d.agr] ? `<span class="verdict ${d.agr}">${VERD[d.agr]}</span>` : ""}</td></tr>`).join("")}</tbody>
+    </table></div>
+    <ol class="trail">${steps.map(([t, d]) => `<li><span class="st">${t}</span>${d}</li>`).join("")}</ol>`;
+}
+
+/* ---------- demo ---------- */
+const fSub = $("#fSub");
+subRows.forEach(({ s }) => fSub.insertAdjacentHTML("beforeend", `<option value="${s}">${SUBNAME[s] || s}</option>`));
+TREE.groups.forEach(g => $("#fFold").insertAdjacentHTML("beforeend", `<option value="${g.g}">${esc(g.fold)} (${g.n})</option>`));
+/* components from 03 Component Assignment, largest first, named by their most common domain */
+const COMPS = Object.values(Object.values(CATH.enz).reduce((a, e) => { const c = a[e.comp] ||= { c: e.comp, n: 0, dom: {} }; c.n++; const d = e.dom.split(";")[0]; c.dom[d] = (c.dom[d] || 0) + 1; return a; }, {}))
+  .map(c => ({ ...c, dom: Object.entries(c.dom).sort((a, b) => b[1] - a[1])[0][0].replace("alpha/beta", "α/β") })).sort((a, b) => b.n - a.n || a.c.localeCompare(b.c));
+COMPS.forEach(c => $("#fComp").insertAdjacentHTML("beforeend", `<option value="${c.c}">${c.c} · ${esc(c.dom)} (${c.n})</option>`));
+let tab = "cur";
+const EXAMPLES = [
+  ["IsPETase", r => r.name === "ISPETase", "cur"],
+  ["Cut190 (two records)", r => r.name === "Cut190", "cur"],
+  ["Enzyme 702 (paper wins)", r => r.name === "Enzyme 702", "cur"],
+  ["A hand-recovered sequence", r => r.seqnote && /primers/i.test(r.seqnote), "cur"],
+  ["An inserted domain", r => r.id === 52, "dom"],
+  ["Not in CATH (Lcp)", r => cathOf(r).comp === "C024", "dom"],
+  ["Old label corrected", r => [78, 65, 66, 68, 574].includes(r.id), "dom"],
+  ["Routes disagree", r => cathOf(r).agree === "conflict", "dom"],
+];
+$("#chips").innerHTML = EXAMPLES.map(([l], i) => `<button class="chip" data-ex="${i}">${l}</button>`).join("");
+let selected = U[0].id, exFilter = null;
+$("#chips").addEventListener("click", e => {
+  const b = e.target.closest("[data-ex]"); if (!b) return;
+  const [, f, t] = EXAMPLES[+b.dataset.ex]; tab = t;
+  $("#q").value = ""; $("#fSrc").value = ""; fSub.value = ""; $("#fFold").value = ""; $("#fComp").value = "";
+  exFilter = f; const hit = U.find(f); if (hit) selected = hit.id; render();
+});
+["input", "change"].forEach(ev => [$("#q"), $("#fSrc"), fSub, $("#fFold"), $("#fComp")].forEach(el => el.addEventListener(ev, () => { exFilter = null; render(); })));
+
+function filtered() {
+  const q = $("#q").value.trim().toLowerCase(), fs = $("#fSrc").value, fb = fSub.value, fg = $("#fFold").value, fc = $("#fComp").value;
+  return U.filter(r => (!exFilter || exFilter(r)) && (!fs || r.src === fs) &&
+    (!fb || r.sub.split(";").map(s => s.trim()).includes(fb)) && (!fg || (groupOf(r) || {}).g === fg) && (!fc || cathOf(r).comp === fc) &&
+    (!q || [r.name, r.acc, r.org, "pl" + r.id, r.pdb, r.uni, cathOf(r).cat, cathOf(r).acc_cath, cathOf(r).Cn, cathOf(r).Ca].join(" ").toLowerCase().includes(q)));
+}
+function tag(srcKey) { return `<span class="tag" style="background:${SRC[srcKey].c}">${SRC[srcKey].label}</span>`; }
+function render() {
+  const rows = filtered();
+  if (rows.length && !rows.some(r => r.id === selected)) selected = rows[0].id;
+  $("#list").innerHTML = rows.slice(0, 300).map(r =>
+    `<button role="option" aria-selected="${r.id === selected}" data-id="${r.id}"><span class="pl">PL${r.id}</span><span class="nm">${esc(r.name)}</span>${tag(r.src)}</button>`).join("");
+  $("#count").textContent = `${fmt(rows.length)} of ${fmt(U.length)} records${rows.length > 300 ? ", first 300 shown" : ""}`;
+  renderCard(U.find(r => r.id === selected));
+}
+$("#list").addEventListener("click", e => { const b = e.target.closest("[data-id]"); if (!b) return; selected = +b.dataset.id; render(); });
+
+function link(href, text) { return `<a href="${href}" target="_blank" rel="noopener">${esc(text)}</a>`; }
+function renderCard(r) {
+  if (!r) { $("#card").innerHTML = `<p class="meta">No records match.</p>`; return; }
+  const twins = U.filter(o => o.id !== r.id && o.name.toLowerCase() === r.name.toLowerCase());
+  const dois = r.doi && r.doi !== "NA" ? r.doi.split(";").map(d => d.trim().replace(/^https?:\/\/(dx\.)?doi\.org\//, "")).filter(Boolean) : [];
+  const steps = [];
+  if (r.src !== "v1.1") steps.push(["", "In pazy-260701", `PAZy ID ${esc(r.pazy)}, retrieved 30 June 2026`]);
+  if (r.src !== "v260701") steps.push(["", r.src === "both" ? "Also in pazy-240826" : "From pazy-240826", r.name.startsWith("Enzyme ") ? "Erickson et al. (2022) metagenomic enzyme; sequence taken from the paper" : "Seed set of the original PETadex build"]);
+  if (r.src !== "v1.1") {
+    const bits = [];
+    if (r.act) bits.push(`${r.act} evidence of activity`);
+    if (r.accfix) bits.push("accession added or corrected by the curator");
+    if (r.renamed) bits.push("name changed to the one in the paper");
+    steps.push(["", "Checked against the paper", (bits.join("; ") || "Kept as pulled") + (r.note ? `<br><q>${esc(r.note)}</q>` : "")]);
+  } else steps.push(["skip", "Not curated in 2026", "Not in pazy-260701"]);
+  steps.push(["", "Sequence", `${r.len} aa · ${esc(r.seqsrc)}` + (r.seqnote ? `<br><q>${esc(r.seqnote)}</q>` : "")]);
+  steps.push(["", "Merged into the plasticome", `${SRC[r.src].label}` + (twins.length ? `<br>Also recorded as ${twins.map(t => `<a href="#" data-goto="${t.id}">PL${t.id}</a> (${esc(t.acc || "no accession")})`).join(", ")}: kept as separate records, collapsed by clustering` : "")]);
+  steps.push(["", "Clustered at 90%", r.cent ? "Centroid of its cluster" : `Member of the cluster led by <a href="#" data-goto="${r.cid}">PL${esc(r.cid)}</a>`]);
+
+  const grp = groupOf(r);
+  const acc = r.acc ? (/^[A-Z0-9]{4}(_[A-Z])?$/.test(r.acc) ? link(`https://www.rcsb.org/structure/${r.acc.slice(0, 4)}`, r.acc) : link(`https://www.ncbi.nlm.nih.gov/protein/${r.acc}`, r.acc)) : "None";
+  $("#card").innerHTML = `
+    <div class="meta mono">PL${r.id}</div>
+    <h4>${esc(r.name)}</h4>
+    <div class="meta">${esc(r.org && r.org !== "NA" ? r.org : "Organism not recorded")}${r.meta ? " · metagenomic" : ""}</div>
+    <dl class="kv">
+      <dt>Accession</dt><dd class="mono">${acc}</dd>
+      <dt>Plastics</dt><dd>${esc(r.sub.split(";").map(s => SUBNAME[s.trim()] || s.trim()).join(", "))}</dd>
+      <dt>Component</dt><dd>${cathOf(r).comp ? `<a href="#comp=${cathOf(r).comp}" class="mono">${cathOf(r).comp}</a>` : "None"}</dd>
+      <dt>Fold group</dt><dd>${grp ? `${esc(grp.fold)} <span class="mono" style="color:var(--color-muted)">${esc(grp.g)}</span>` : "None"}</dd>
+      <dt>Structure</dt><dd>${r.pdb && r.pdb !== "NA" ? r.pdb.split(";").map(p => link(`https://www.rcsb.org/structure/${p.trim()}`, p.trim())).join(", ") : "None in PDB"}</dd>
+      <dt>Paper</dt><dd>${dois.length ? dois.slice(0, 3).map(d => link(`https://doi.org/${d}`, d)).join("<br>") : "None recorded"}</dd>
+    </dl>
+    <div class="tabs" role="tablist">
+      <button role="tab" data-tab="cur" aria-selected="${tab === "cur"}">Curation</button>
+      <button role="tab" data-tab="dom" aria-selected="${tab === "dom"}">Domain calls</button>
+    </div>
+    <div role="tabpanel">${tab === "cur" ? `<ol class="trail">${steps.map(([c, t, d]) => `<li class="${c}"><span class="st">${t}</span>${d}</li>`).join("")}</ol>` : domainsHTML(r)}</div>`;
+  if (tab === "dom" && $("#cardTrack")) mountTrack($("#cardTrack"), cathOf(r).len || r.len, lanesFor(r.id), 560);
+}
+$("#card").addEventListener("click", e => {
+  const tb = e.target.closest("[data-tab]"); if (tb) { tab = tb.dataset.tab; render(); return; }
+  const a = e.target.closest("[data-goto]"); if (!a) return; e.preventDefault();
+  selected = +a.dataset.goto; exFilter = null; $("#q").value = ""; $("#fSrc").value = ""; fSub.value = ""; $("#fFold").value = ""; $("#fComp").value = ""; render();
+  const b = $(`#list [data-id="${selected}"]`); if (b) b.scrollIntoView({ block: "nearest" });
+});
+render();
+
+/* ---------- methods tables ---------- */
+$("#tInputs").innerHTML = [
+  ["pazy-260701", "Every record in PAZy, retrieved 30 June 2026", D.pull.n, "pazy-260701_pull"],
+  ["pazy-260701, curated", "After curation against each source publication", D.cleaned.n, "cleaned_pazy-260701"],
+  ["Original PETadex seed set", "Plasticome v1, used to build PETadex v1", D.v1.n_v1, "plasticome.v1"],
+  ["pazy-240826", "The seed set after cleaning (plasticome v1.1)", D.v1.n_v11, "plasticome.v1.1"],
+  ["Erickson changes", "Sequences reset to the paper's supplement", D.v1.erickson.length, "erickson-changes"],
+].map(([a, b, n, s]) => `<tr><td>${a}</td><td>${b}</td><td class="num">${fmt(n)}</td><td class="mono">${s}</td></tr>`).join("");
+const sf = m.seq_flag;
+$("#tManual").innerHTML = [
+  ["Sequence taken from the accession", "green, sequence column", sf.from_accession],
+  ["No sequence could be recovered", "red, sequence column", sf.no_sequence],
+  ["Only a fragment is available", "yellow, sequence column", sf.fragment],
+  ["Accession added or corrected", "green, accession column", m.acc_added],
+  ["Name changed to the one in the paper", "green, name column", m.name_changed],
+  ["Direct evidence of activity", "activity column", m.activity.Direct],
+  ["Indirect evidence of activity", "activity column", m.activity.Indirect],
+  ["No experimentally reported activity (removed)", "activity column", m.activity["-"]],
+].map(([a, b, n]) => `<tr><td>${a}</td><td>${b}</td><td class="num">${fmt(n)}</td></tr>`).join("");
+const noteRows = U.filter(r => r.note).slice(0, 6);
+$("#tNotes").innerHTML = noteRows.map(r => `<tr><td>${esc(r.name)}</td><td>${esc(r.note)}</td></tr>`).join("");
+$("#tMerge").innerHTML = [
+  ["v260701", "pazy-260701 record with no match in pazy-240826"], ["both", "Accessions match across the two snapshots"], ["v1.1", "pazy-240826 record with no match, appended"],
+].map(([k, d]) => `<tr><td>${tag(k)}</td><td>${d}</td><td class="num">${fmt(src[k])}</td></tr>`).join("") +
+  `<tr><td><b>Total</b></td><td></td><td class="num"><b>${fmt(U.length)}</b></td></tr>`;
+$("#kLabels").textContent = Object.keys(D.v1.kingdom_labels).map(k => `"${k}"`).join(", ");
+$("#nPdb").textContent = fmt(U.filter(r => r.pdb && r.pdb !== "NA").length);
+const mem = D.nr.members, multi = D.nr.n - (mem["1"] || 0);
+$("#nrSplit").textContent = `In the non-redundant set, ${fmt(mem["1"] || 0)} sequences come from a single record and ${fmt(multi)} are shared by two or more records.`;
+if (D.fetch_by_stage) {
+  const fb = Object.entries(D.fetch_by_stage), mx = Math.max(...fb.map(([, n]) => n));
+  stacked($("#fetchBars"), fb.map(([k, n]) => ({ label: k, parts: [{ n, c: "var(--s-one)", l: "Resolved" }] })), mx);
+}
+
+/* ---------- routing + toggles ---------- */
+function route() {
+  const p = location.hash === "#methods" || location.hash.startsWith("#m-") ? "methods" : "overview";
+  $("#page-overview").hidden = p !== "overview"; $("#page-methods").hidden = p !== "methods";
+  document.querySelectorAll(".draftbar nav a").forEach(a => a.dataset.page === p ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  if (location.hash === "#methods" || location.hash === "#overview" || !location.hash) scrollTo(0, 0);
+}
+addEventListener("hashchange", route); route();
+function foldFromHash() {
+  const m = location.hash.match(/^#(fold|comp)=(g\d+|C\d+)$/); if (!m) return;
+  $("#q").value = ""; $("#fSrc").value = ""; fSub.value = "";
+  $("#fFold").value = m[1] === "fold" ? m[2] : ""; $("#fComp").value = m[1] === "comp" ? m[2] : ""; exFilter = null; render();
+  $("#explore").scrollIntoView();
+}
+addEventListener("hashchange", foldFromHash); foldFromHash();
+$("#notesToggle").addEventListener("change", e => document.body.classList.toggle("show-notes-off", !e.target.checked));
+$("#darkToggle").checked = matchMedia("(prefers-color-scheme: dark)").matches;
+$("#darkToggle").addEventListener("change", e => document.documentElement.dataset.theme = e.target.checked ? "dark" : "light");
+</script>
+</body>
+</html>

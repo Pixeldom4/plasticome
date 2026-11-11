@@ -1,0 +1,716 @@
+plasticome_id	enzyme_name	accession	source	substrate_group	substrate_raw	family_group	domain	superkingdom	metagenomic	shape	color	component	component_family	component_size	degree_drawn	x	y
+108	RoxB	AQV11968.1	both	NR	NR	Cytochrome C-like	Cytochrome c-like domain	Bacteria	no	D	#959595	13	Cytochrome C-like	5	2	41.0002	-70.9428
+60	PLAase II	ABY53108.1	both	PLA	PLA	Trypsin-like	Trypsin-like serine proteases	Bacteria	no	D	#cc490b	14	Trypsin-like	4	0	59.7543	-71.4314
+12	PpEst	WP_003460012.1	both	Combi.	PBAT; PET	Other	SGNH hydrolase	Bacteria	no	D	#262626	20	Other	2	1	21.8472	-61.9847
+1	ISPETase	WP_054022242.1	both	Combi.	PEF; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	3	10.3717	-28.5272
+3	PET6	ASA57064.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	18.2831	-26.5522
+7	PpCutA	ADK73612.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	9.8737	-20.3837
+9	PE-H	WP_088276085.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	8.9463	-22.5859
+11	Mors1	P19833.1	both	Combi.	PEF; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	3	8.9219	-28.6969
+14	EstB	QDD67397.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	35	A/B hydrolase	1	0	22.7675	-45.2161
+17	BhrPETase	GBD22443.1	both	Combi.	PC; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	3	11.6958	-9.6037
+20	BTA-2	CAH17554.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	25.6465	-17.4316
+21	TfH42_Cut1	ADV92528.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	29.3795	-17.2842
+25	Cut1	AET05798.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	25.2605	-18.4172
+26	Cut2	AET05799.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	11	28.395	-14.2892
+27	Thc_Cut1	ADV92526.1	both	Combi.	PBAT; PC; PEF; PET; PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	11	27.3698	-15.1478
+28	Thc_Cut2	ADV92527.1	both	Combi.	PET; PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	12	23.7068	-18.5321
+31	Thh_Est	AFA45122.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	20.887	-20.0763
+32	Est1	BAI99230.2	both	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	4	22.1679	-20.6029
+33	Tha_Cut1	ADV92525.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	27.5546	-12.4719
+34	Est119	BAK48590.1	both	Combi.	PBAT; PET; PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	4	21.9048	-19.5324
+35	BsEstB	ADH43200.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	4	A/B hydrolase	15	3	36.8698	-7.6523
+36	PHL-7	7NEI	both	Combi.	PC; PEF; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	yes	o	#262626	0	A/B hydrolase	329	6	14.0405	-11.3592
+37	PET27	WP_111881932.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulins	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	30.9028	-20.3206
+38	PET30	WP_039353427.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulins	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	29.9759	-19.8989
+39	PET2	ACC95208.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	3	15.9274	-23.7166
+40	PET46	RLI42440.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Archaea	no	D	#275ca0	0	A/B hydrolase	329	2	27.6453	-24.1915
+42	FsC	AAA33335.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#275ca0	3	A/B hydrolase	29	4	9.1068	-43.2297
+44	PudA	BAA76305.1	both	Combi.	PLA; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	4	A/B hydrolase	15	2	37.9077	-10.9863
+45	LipasePueA	AAD22743.1	both	PUR	PUR	A/B hydrolase	alpha/beta hydrolase;Serralysin-like metalloprotease, C-terminal	Bacteria	no	D	#f0c95e	10	A/B hydrolase	7	6	16.922	-38.0404
+46	LipasePueB	AAF01331.1	both	PUR	PUR	A/B hydrolase	alpha/beta hydrolase;Serralysin-like metalloprotease, C-terminal	Bacteria	no	D	#f0c95e	10	A/B hydrolase	7	3	15.5255	-38.747
+47	EsterasePulA	AAF66684.1	both	PUR	PUR	A/B hydrolase	alpha/beta hydrolase;Serralysin-like metalloprotease, C-terminal	Bacteria	no	D	#f0c95e	10	A/B hydrolase	7	3	18.8294	-37.5311
+62	PLaA	BAC67195.1	both	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#cc490b	9	A/B hydrolase	8	3	34.1612	-26.1518
+69	MGS0109	AGT96415.1	both	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	36	A/B hydrolase	1	0	33.7782	-45.6136
+75	PlaM4	BAF57210.1	both	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	7	A/B hydrolase	9	4	34.2062	-32.4181
+76	PlaM7	BAF57212.1	both	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	26	A/B hydrolase	2	1	15.1078	-44.6551
+77	PlaM9	BAF57214.1	both	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	39	A/B hydrolase	1	0	8.3098	-47.4707
+80	Cutinase	BAC67242.1	both	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	3	4.48	-40.8383
+98	PHB depolymerase	BAG32152.1	both	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#8fbf5f	11	A/B hydrolase	6	1	38.5679	-38.6212
+99	PBATHRF	BCL64964.1	both	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	3	A/B hydrolase	29	2	7.1036	-42.5843
+100	Chath_Est1	ALS54749.1	both	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	4	A/B hydrolase	15	0	39.1972	-12.4234
+103	Cbotu_EstA	AKZ20828.1	both	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	7	A/B hydrolase	9	7	35.9438	-30.9258
+104	Cbotu_EstB	AKZ20829.1	both	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	7	A/B hydrolase	9	3	34.8867	-33.9937
+105	PBATHBp	BAV72205.1	both	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	9	A/B hydrolase	8	4	35.734	-26.0583
+123	403	RLU00646.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	19.0998	-25.5037
+129	503	EGD44994.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	8.18	-14.6768
+133	611	WP_093412886.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	15.7947	-11.7592
+134	701	WP_104613137.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	28.3317	-17.579
+135	702	ADM47605.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	29.604	-15.0703
+146	Amidase	ACY56506.1	both	PUR	PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#f0c95e	19	A/B hydrolase	3	0	21.7143	-41.2136
+148	RCut	UNZ22463.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	3	A/B hydrolase	29	2	7.6503	-42.1777
+149	PHL-2	SAY37582.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	yes	o	#275ca0	0	A/B hydrolase	329	18	12.2138	-14.6668
+150	PHL-1	SAY37579.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	yes	o	#275ca0	0	A/B hydrolase	329	12	10.1534	-14.9185
+151	PHL-3	SAY37583.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	yes	o	#275ca0	0	A/B hydrolase	329	5	13.0273	-11.3842
+152	PHL-4	SAY37584.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	3	5.585	-16.0408
+155	Sub1	QEX94755.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	3	A/B hydrolase	29	2	4.6965	-38.7313
+157	PsCut	WP_044499735.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	11.0331	-20.7661
+158	PbauzCut	WP_036989706.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	9.9699	-21.5057
+161	MRCUT1	ESK97883.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#275ca0	3	A/B hydrolase	29	0	6.8289	-44.6707
+162	PET1	ADV66860.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	7.2605	-19.1393
+163	SM14est	DAC80635.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	14.7728	-20.8934
+164	IS10	UNZ81746.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	12	A/B hydrolase	5	2	24.5194	-38.4136
+166	IS12	UNZ81748.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	12	A/B hydrolase	5	2	24.8186	-37.6996
+187	CE_Ubrb	SIP63154.1	both	PUR	PUR	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#f0c95e	42	A/B hydrolase	1	0	11.1822	-47.4707
+194	HG-2	WP_118011433.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	43	A/B hydrolase	1	0	25.6398	-47.9059
+195	HG-3	RGD93181.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	44	A/B hydrolase	1	0	22.7675	-48.0161
+196	HG-4	WP_013858543.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	45	A/B hydrolase	1	0	36.6506	-48.1402
+200	CpCut1	WKA69984.1	both	PUR	PUR	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#f0c95e	3	A/B hydrolase	29	3	8.3004	-36.8186
+450	Sis	XDS72785.1	both	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	yes	o	#275ca0	0	A/B hydrolase	329	3	24.8326	-11.7901
+70	MGS0010	AHG30919.1	both	PLA	PLA	Peptidase	DD-peptidase/beta-lactamase superfamily	NA	yes	o	#cc490b	37	Peptidase	1	0	8.27	-67.9086
+71	MGS0105	AGT96414.1	both	PLA	PLA	Peptidase	DD-peptidase/beta-lactamase superfamily	NA	yes	o	#cc490b	38	Peptidase	1	0	11.0861	-67.9086
+165	IS11	UNZ81747.1	both	PET	PET	Peptidase	DD-peptidase/beta-lactamase superfamily;Lipocalin [topology]	Bacteria	no	D	#275ca0	40	Peptidase	1	0	8.27	-70.7086
+57	Arylacylamidase	WP_011209364.1	both	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	4	57.6978	-34.1374
+141	Amidase	AGT90042.1	both	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#f0c95e	2	Amidase	35	0	50.9183	-30.5805
+142	Amidase	AAK11724.1	both	PUR	PUR	Amidase	Amidase signature (AS) domain;Glu-tRNAGln amidotransferase C subunit, N-terminal domain	Bacteria	no	D	#f0c95e	2	Amidase	35	0	60.1492	-30.5243
+143	Amidase	ARF18137.1	both	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#f0c95e	2	Amidase	35	3	53.2546	-28.2109
+144	AmdA	AAK28498.1	both	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#f0c95e	2	Amidase	35	0	58.352	-27.5975
+560	LatA	BAS44780.1	v1.1	NR	NR	Cytochrome C-like	Cytochrome c-like domain	Bacteria	no	D	#959595	13	Cytochrome C-like	5	2	41.6042	-70.1458
+561	RoxA	Q7X0P3	v1.1	NR	NR	Cytochrome C-like	Cytochrome c-like domain	Bacteria	no	D	#959595	13	Cytochrome C-like	5	1	39.9339	-71.5601
+556	PLAase	Q75UA4	v1.1	PLA	PLA	Trypsin-like	Trypsin-like serine proteases	Bacteria	no	D	#cc490b	14	Trypsin-like	4	0	58.0917	-70.1458
+557	PLase3	WP_044849715.1	v1.1	PLA	PLA	Trypsin-like	Trypsin-like serine proteases;GMP Synthetase; Chain A, domain 3 [topology]	Bacteria	no	D	#cc490b	22	Trypsin-like	2	1	59.0797	-74.8431
+558	LMC021	AII11185.1	v1.1	PE	PE	Other	Cupredoxins -  blue copper proteins	Bacteria	no	D	#e8559e	53	Other	1	0	24.6498	-67.5847
+559	LMC031	AII11221.1	v1.1	PE	PE	Other	Cupredoxins -  blue copper proteins	Bacteria	no	D	#e8559e	54	Other	1	0	21.8472	-70.3847
+568	PURase	ACD16728.1	v1.1	PUR	PUR	Other	Glycoside hydrolase/deacetylase	Bacteria	no	D	#f0c95e	30	Other	2	1	26.6281	-61.8307
+469	Enzyme 204 like		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	1	15.0207	-7.2383
+470	Enzyme 211 like		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	2	26.7635	-23.2449
+471	Enzyme 214 like		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	3	8.7611	-11.1148
+472	Enzyme 301 like		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	2	29.6543	-27.1351
+473	Enzyme 307 like		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	1	7.9648	-29.6882
+474	Enzyme 403		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	8	17.9327	-24.9801
+475	Enzyme 406		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.5931	-12.5091
+476	Enzyme 409		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	7.2033	-12.3575
+477	Enzyme 412		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	6.6993	-13.0985
+478	AdCut	WP_058088494.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	25.7839	-10.0856
+479	ApLip-Ec	OGB27210.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase;Galactose-binding domain-like	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	9	19.2551	-15.0139
+480	BTA-1; TfH	Q6A0I4.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	25.9787	-13.8582
+481	CaPETase	SHM40309.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.9523	-13.9764
+482	CtPL; Enzyme 504	Q8RR62	v1.1	PBS	PBS	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#23873d	0	A/B hydrolase	329	4	12.6025	-30.0876
+483	Cut190	BAO42836.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.3652	-16.2773
+484	dsPETase05	MEC8523093.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	4.6441	-18.8424
+485	Enzyme 202	7QJM	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase;E3-binding domain	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	9.2749	-10.5344
+486	Enzyme 405	WP_082414832.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	9	14.4797	-27.6237
+487	Enzyme 407	WP_117215036.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase;Galactose-binding domain-like	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	5.615	-22.6324
+488	Enzyme 607	WP_107095481.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	9.4051	-18.5388
+489	Enzyme 711	WP_083947829.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	22.437	-15.3944
+490	Est1	D4Q9N1	v1.1	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	22.7324	-19.9568
+491	EstB	A0A1W6L588	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	11.0896	-27.4821
+492	GlacPETase	WNY00484.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	18.9102	-7.8176
+493	Hfor_PE-H	WP_090538641.1	v1.1	PUR	PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#f0c95e	0	A/B hydrolase	329	8	11.6554	-21.8695
+494	HRB29-GBD22443 like	G9BY57.1	v1.1	Combi.	PET; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	yes	o	#262626	0	A/B hydrolase	329	3	11.2726	-8.9608
+495	jmPE13		v1.1	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	23.6173	-22.091
+496	jmPE14	WP_068824797.1	v1.1	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	0	A/B hydrolase	329	4	25.2164	-21.4106
+497	MtCut; Enzyme 606	WP_078759821.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	13.1557	-16.386
+498	PbauzCut	SUD16364.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	28.814	-21.4133
+499	PbsA	BAB86909.1	v1.1	PBS	PBS	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#23873d	0	A/B hydrolase	329	4	12.6995	-29.4366
+500	PET12; PbCut; SbCut; AAW51_2473	UUT36764.1	v1.1	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	4	6.7197	-26.8576
+501	PET40	WAU86704.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	21	14.8347	-17.6521
+502	PET6; BSQ33_03270	AKJ29164.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	17.6959	-14.3057
+503	PETase	MBQ0729274.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	10.1451	-25.784
+504	PHL-51	SAY37587.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	4	6.2694	-16.0186
+505	PHL-61	SAY37589.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	5	6.7895	-15.6799
+506	PLE628	UUT36763.1	v1.1	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	8.1001	-27.0904
+507	PpCutA; PoCut	ANP21910.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	8.3302	-20.5265
+508	PurH	XCO66867.1	v1.1	PUR	PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#f0c95e	0	A/B hydrolase	329	4	14.3901	-19.7265
+509	RgPETase; RgCut-I	WP_085749238.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	10.2111	-31.6329
+510	SIBER-1	WOR09923.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	8	6.419	-20.2569
+511	Tcur_1278	ACY96861.1	v1.1	Combi.	PET; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	16.5711	-8.3297
+512	Tcur0390	ACY95991.1	v1.1	Combi.	PET; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	6	16.5227	-9.821
+513	TfCut_1; Cut-1.kw3	E5BBQ2	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	26.6192	-17.875
+514	TfCut_2; Cut-2.kw3	CBY05530.1	v1.1	Combi.	PET; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	7	29.2179	-16.0677
+515	Thc_cut1	E9LVH8	v1.1	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	26.4972	-12.7728
+516	Thc_cut2	E9LVH9	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	9	24.362	-17.4337
+517	WSH03-11; Tfu_0882	Q47RJ7.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	24.7227	-19.2167
+518	WSH03-11; Tfu_0883	Q47RJ6.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	8	27.4089	-13.5119
+519	BaCut1-like	XAQ58225.1	v1.1	PUR	PUR	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#f0c95e	3	A/B hydrolase	29	5	7.2985	-40.7365
+520	CmCut	A0A060N5H2	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	6	6.192	-38.5913
+521	CutL1	P52956.1	v1.1	Combi.	PBS; PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#262626	3	A/B hydrolase	29	3	12.2806	-41.9329
+522	DmC	KAH7127633.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#275ca0	3	A/B hydrolase	29	5	12.0727	-40.3214
+523	FoCut5a	EXK81749.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#275ca0	3	A/B hydrolase	29	4	10.6088	-43.8968
+524	FSC	Q99174.1	v1.1	PBS	PBS	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#23873d	3	A/B hydrolase	29	7	9.1866	-44.5771
+525	GB-1; CLE	A0A0P0ZE81	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	4	5.3146	-40.3365
+526	HiC	4OYY	v1.1	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#262626	3	A/B hydrolase	29	7	9.345	-38.7055
+527	PaE; PaCLE1	BAN66731.1	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	3	5.3555	-43.1069
+528	PLAse	A0A060N399	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	3	9.4813	-40.4801
+529	PhaZ1	Q0KCI0	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	6	37.4582	-19.1561
+530	PhaZ2	Q0K7T2	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	3	34.7889	-17.0234
+531	PhaZ3	Q0K4D5	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	4	37.9838	-20.6299
+532	PhaZ5	Q0K2G9	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	5	35.4444	-18.6567
+533	PueA	AAY92471.1	v1.1	PUR	PUR	A/B hydrolase	alpha/beta hydrolase;Serralysin-like metalloprotease, C-terminal	Bacteria	no	D	#f0c95e	10	A/B hydrolase	7	4	17.9362	-37.9808
+534	PueB	AAY92474.2	v1.1	PUR	PUR	A/B hydrolase	alpha/beta hydrolase;Serralysin-like metalloprotease, C-terminal	Bacteria	no	D	#f0c95e	10	A/B hydrolase	7	5	16.3313	-37.3969
+535	PlaM8 depolymerase	BAF57213.1	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	26	A/B hydrolase	2	1	16.0959	-44.5011
+536	RPA1511, esterase	CAE26953.1	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#cc490b	23	A/B hydrolase	2	1	16.0959	-41.547
+537	lipase B; CalB	P41365	v1.1	Combi.	PET; PUR	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#262626	21	A/B hydrolase	2	1	41.5643	-41.4212
+567	MGS0084	AKJ87250.1	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	24	A/B hydrolase	2	1	27.1066	-41.9978
+569	PE-H; B7O88_11480	2FX5	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	19.5601	-19.0005
+575	Est8_89	CEE00769.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	19	A/B hydrolase	3	1	22.5134	-41.8149
+576	phaZ-like	WP_013956815.1	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	55	A/B hydrolase	1	0	8.3098	-50.2707
+577	Enzyme 101 like		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	4	A/B hydrolase	15	3	40.413	-8.5748
+578	Enzyme 102 like		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	4	A/B hydrolase	15	11	38.2301	-9.5927
+579	Dkca1	WID88783.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	4	A/B hydrolase	15	3	36.3053	-8.8255
+580	Est18_23	WP_041847557.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	4	A/B hydrolase	15	4	37.7557	-7.1809
+581	GEN0105	AKJ87216.1	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	12	A/B hydrolase	5	1	21.7143	-36.8186
+582	Lip1; Lip5	P20261.3	v1.1	PUR	PUR	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#f0c95e	4	A/B hydrolase	15	1	35.8297	-12.3326
+583	Tcca	WP_015255658.1	v1.1	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	4	A/B hydrolase	15	3	40.3846	-9.8369
+584	MGS0156	AKJ87264.1	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	25	A/B hydrolase	2	1	41.5643	-44.3752
+585	Lip4_120	WP_108898452.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	7	A/B hydrolase	9	3	37.2639	-28.9518
+586	PFL1	WP_007937185.1	v1.1	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	7	A/B hydrolase	9	5	35.1861	-32.4821
+587	PlaM5 depolymerase	BAF57211.1	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	7	A/B hydrolase	9	3	34.1612	-31.1881
+588	LipMRD9	APJ12152.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	9	A/B hydrolase	8	4	36.5506	-24.7864
+589	PhaY1	Q0K9H3.1	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	16	A/B hydrolase	4	3	33.926	-41.9938
+590	PhaZCac	KFJ10595.1	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	16	A/B hydrolase	4	3	33.1062	-41.4212
+591	PhaZst	O82950	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase;Immunoglobulins	Bacteria	no	D	#8fbf5f	29	A/B hydrolase	2	1	19.9257	-45.2161
+592	PhaZ5	Q51871	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	11	A/B hydrolase	6	2	35.9619	-36.7937
+593	PhaZAfa	P94146	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase;Immunoglobulins	Bacteria	no	D	#8fbf5f	11	A/B hydrolase	6	0	34.1612	-37.2631
+594	PhaZ6	Q0JZG9	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	15	A/B hydrolase	4	1	27.6505	-39.1978
+595	PhaZ7	Q0JYJ1	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	15	A/B hydrolase	4	1	29.6399	-36.8186
+596	ABO2449, esterase	Q0VLQ1	v1.1	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#cc490b	18	A/B hydrolase	3	2	37.7132	-41.4212
+597	PhaY2	Q4W8C9	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	27	A/B hydrolase	2	1	27.1066	-44.9519
+598	PhaZ7	Q939Q9	v1.1	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	28	A/B hydrolase	2	1	37.7344	-45.1862
+599	Enzyme 305 like		v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	1	31.182	-19.2577
+600	dsPETase06	WP_010659881.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	34	A/B hydrolase	2	1	5.4681	-47.4707
+601	Ces19_14	WP_034767800.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	32	A/B hydrolase	2	1	41.5643	-47.3292
+602	Est11_32	WP_041846030.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	31	A/B hydrolase	2	1	30.9365	-45.6136
+603	Ces39_5	WP_108898647.1	v1.1	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	33	A/B hydrolase	2	1	16.0959	-47.4551
+570	LP175	A0A291HVH1	v1.1	PLA	PLA	Peptidase	Peptidase S8/S53 domain;Peptidase S8 propeptide/proteinase inhibitor I9	Bacteria	no	D	#cc490b	6	Peptidase	12	3	11.0735	-65.1086
+571	Proteinase K	P06873.2	v1.1	PLA	PLA	Peptidase	Peptidase S8/S53 domain;Peptidase S8 propeptide/proteinase inhibitor I9	Eukaryota	no	h	#cc490b	6	Peptidase	12	3	4.48	-62.6255
+572	Subtilisin BL	P29599.1	v1.1	PLA	PLA	Peptidase	Peptidase S8/S53 domain	Bacteria	no	D	#cc490b	6	Peptidase	12	3	12.5173	-63.0806
+573	Subtilisin; Savinase	P29600.1	v1.1	PLA	PLA	Peptidase	Peptidase S8/S53 domain	Bacteria	no	D	#cc490b	6	Peptidase	12	7	10.2398	-63.3439
+574	Subtilisin; subC	P00780.2	v1.1	PLA	PLA	Peptidase	Peptidase S8/S53 domain;Peptidase S8 propeptide/proteinase inhibitor I9	Bacteria	no	D	#cc490b	6	Peptidase	12	3	10.4762	-61.8307
+604	NylB	P07061.1	v1.1	PA	PA	Peptidase	DD-peptidase/beta-lactamase superfamily;Methane Monooxygenase Hydroxylase; Chain G, domain 1 [topology];Single alpha-helices involved in coiled-coils or other helix-helix interfaces [topology]	Bacteria	no	D	#40b6c5	17	Peptidase	3	2	5.4468	-67.9086
+538	M-NylC	KQR39103.1	v1.1	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	59.8334	-11.5496
+539	Nc-NylC	A0A7W8QII1	v1.1	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	54.2451	-11.1051
+540	NylC	Q1EPR4.1	v1.1	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	57.7061	-10.7465
+541	NylC	Q1EPR5.2	v1.1	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	6	56.803	-11.1309
+542	NylC	Q79F77.1	v1.1	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	7	56.7751	-12.6429
+543	Tt-NylC	A0A840P940	v1.1	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	55.137	-12.5182
+544	CPUTNase	XP_036664376.1	v1.1	PUR	PUR	Amidase	Amidase signature (AS) domain	Eukaryota	no	h	#f0c95e	2	Amidase	35	1	56.1552	-32.0063
+545	GatA	ANG60415.1	v1.1	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#f0c95e	2	Amidase	35	3	52.662	-30.0642
+546	GatA-like	WP_293218050.1	v1.1	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	1	60.3397	-31.9316
+547	NylA	P13397.2	v1.1	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	3	52.2416	-32.4509
+548	NylA	P13398.2	v1.1	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	3	52.3712	-33.1846
+549	OoH	BAI44731.1	v1.1	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	6	58.244	-35.4065
+550	PURase	Q12559.2	v1.1	PUR	PUR	Amidase	Amidase signature (AS) domain	Eukaryota	no	h	#f0c95e	2	Amidase	35	0	59.6605	-28.9496
+551	ReU-like	WP_348608127.1	v1.1	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	1	52.6723	-35.3257
+552	TtA	WP_185053500.1	v1.1	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	4	54.7269	-33.0416
+553	UMG-SP-1	WBR49956.1	v1.1	Combi.	PA; PUR	Amidase	Amidase signature (AS) domain	Bacteria	yes	o	#262626	2	Amidase	35	3	55.2292	-27.6531
+554	UMG-SP-2	WBR49957.1	v1.1	Combi.	PA; PUR	Amidase	Amidase signature (AS) domain	Bacteria	yes	o	#262626	2	Amidase	35	3	57.5633	-30.7397
+555	UMG-SP-3	WBR49958.1	v1.1	Combi.	PA; PUR	Amidase	Amidase signature (AS) domain	Bacteria	yes	o	#262626	2	Amidase	35	5	56.5074	-29.6551
+562	LCP_STRK3	Q3L8N0.2	v1.1	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	3	55.405	-58.5858
+563	Lcp1	QZD35498.1	v1.1	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	3	55.5367	-50.2804
+564	Lcp1VH2	H6N162	v1.1	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	5	52.684	-49.8273
+565	Lcp2	QZD35499.1	v1.1	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	4	56.0452	-56.8999
+566	Lcp2VH2	H6N4Z1	v1.1	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	3	50.9183	-49.2835
+177	MnP	AAA33742.1	v260701	PA	PA	Other	Peroxidase, domain 2;Peroxidase; domain 1 [topology]	NA	no	o	#40b6c5	41	Other	1	0	21.8472	-64.7847
+221	CYP450	P08684.4	v260701	PET	PET	Cytochrome C-like	Cytochrome P450	Eukaryota	no	h	#275ca0	47	Cytochrome C-like	1	0	39.0256	-74.8859
+107	RoxA	AAP41848.1	v260701	NR	NR	Cytochrome C-like	Cytochrome c-like domain	Bacteria	no	D	#959595	13	Cytochrome C-like	5	1	39.0256	-72.0859
+109	LatA	WP_085748997.1	v260701	NR	NR	Cytochrome C-like	Cytochrome c-like domain	Bacteria	no	D	#959595	13	Cytochrome C-like	5	2	41.9921	-70.8159
+59	PLAase I	WP_037320891.1	v260701	PLA	PLA	Trypsin-like	Trypsin-like serine proteases	Bacteria	no	D	#cc490b	14	Trypsin-like	4	0	58.8828	-70.7575
+61	PLAase III	ABY67151.1	v260701	PLA	PLA	Trypsin-like	Trypsin-like serine proteases	Bacteria	no	D	#cc490b	22	Trypsin-like	2	1	58.0917	-74.9972
+220	Trypsin	P00761.1	v260701	PET	PET	Trypsin-like	Trypsin-like serine proteases	Eukaryota	no	h	#275ca0	14	Trypsin-like	4	0	60.5454	-72.0431
+311	Nepenthesin-1	BAD07474.1	v260701	Combi.	PET; PUR	Other	Acid Proteases	Eukaryota	no	h	#262626	49	Other	1	0	24.6498	-64.7847
+145	Amidase	WP_012433325.1	v260701	PUR	PUR	Other	Glycoside hydrolase/deacetylase	Bacteria	no	D	#f0c95e	30	Other	2	1	25.64	-61.9847
+463	E4	7C2A_A	v260701	PET	PET	Other	SGNH hydrolase	Bacteria	no	D	#275ca0	20	Other	2	1	22.8352	-61.8307
+2	PET5	CCK74972.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	9.8618	-26.491
+4	PET12	WP_047194864.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	17.9455	-13.3754
+5	PLE628	UUT36764	v260701	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	3	6.4899	-27.4825
+6	PLE629	UUT36763	v260701	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	3	7.6325	-27.7013
+8	PpelaLip	WP_022964382.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	8.2139	-21.2175
+10	PmC	ABP86951	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	19.5501	-17.9291
+13	MG8	MGYP000532440779	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	10.0626	-23.5107
+15	RgPETase	WP_085749752.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.3797	-28.2085
+16	LCC	AEV21261.1	v260701	Combi.	PC; PEF; PET; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	3	10.7389	-9.4357
+18	Cut190	WP_015787089.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	10.6999	-16.2713
+19	BTA-1	CAH17553.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	28.3226	-13.2669
+22	Tfu_0883	WP_011291330.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	26.6325	-14.5898
+23	Tfu_0882	AAZ54920.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	25.2812	-19.124
+24	TfCut_2	CBY05530	v260701	Combi.	PEF; PET; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	28.4157	-16.7051
+29	Tcur_1278	WP_012851645.1	v260701	Combi.	PET; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	17.3979	-8.6172
+30	Tcur0390	WP_012850775.1	v260701	Combi.	PET; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	15.5319	-10.0308
+41	CalB	CAA83122.1	v260701	Combi.	PC; PET; PUR	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#262626	21	A/B hydrolase	2	1	40.5762	-41.5752
+43	HiC	A0A075B5G4	v260701	Combi.	PBAT; PEF; PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#262626	3	A/B hydrolase	29	7	10.6061	-38.3768
+48	PueA	WP_011061486.1	v260701	PUR	PUR	A/B hydrolase	alpha/beta hydrolase;Serralysin-like metalloprotease, C-terminal	Bacteria	no	D	#f0c95e	10	A/B hydrolase	7	4	17.733	-36.8186
+49	PueB	WP_011061489.1	v260701	PUR	PUR	A/B hydrolase	alpha/beta hydrolase;Serralysin-like metalloprotease, C-terminal	Bacteria	no	D	#f0c95e	10	A/B hydrolase	7	3	15.1078	-37.7255
+63	ABO2449	WP_011589723.1	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#cc490b	18	A/B hydrolase	3	2	36.7464	-41.6766
+64	RPA1511	WP_011157072.1	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#cc490b	23	A/B hydrolase	2	1	15.1078	-41.7011
+72	MGS0084	AKJ87250	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	24	A/B hydrolase	2	1	26.1186	-42.1519
+73	MGS0156	AKJ87264	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	25	A/B hydrolase	2	1	40.5762	-44.5292
+74	GEN0105	AKJ87216	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#cc490b	12	A/B hydrolase	5	1	22.6823	-37.2242
+79	CutL1	XP_001817153.1	v260701	Combi.	PBS; PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#262626	3	A/B hydrolase	29	3	12.0476	-42.6247
+81	CfCLE	BAT32793.1	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	4	5.3083	-41.3987
+82	CmCut	BAN42606.1	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	5	6.9414	-37.7611
+83	PCLE	BAN51852.1	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	4	9.7194	-41.2683
+84	PaE	XP_014659518.1	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#cc490b	3	A/B hydrolase	29	3	5.9905	-43.5262
+85	PhaZ1	WP_011614907.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	5	36.7125	-19.5942
+86	PhaZ2	WP_010813770.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	3	34.1612	-17.8972
+87	PhaZ3	WP_011616504.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	4	38.481	-19.6232
+88	PhaZ4	AAP85930.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	3	39.2594	-20.251
+89	PhaZ5	WP_011616952.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	8	A/B hydrolase	9	5	35.9333	-17.9985
+90	PhaZd1	WP_010811062.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	15	A/B hydrolase	4	1	28.292	-38.4307
+91	PhaY1(PhaZ2)	WP_011615575.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	16	A/B hydrolase	4	3	32.5335	-42.241
+92	PhaY2	WP_011615004.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	27	A/B hydrolase	2	1	26.1186	-45.1059
+93	PhaZAfa	AAA21974.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase;Immunoglobulins	Bacteria	no	D	#8fbf5f	11	A/B hydrolase	6	2	35.2713	-37.3085
+94	PhaZ7	WP_132259156.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	28	A/B hydrolase	2	1	36.7464	-45.3402
+95	PhaZ5	AAA65705.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	11	A/B hydrolase	6	2	36.4472	-37.5864
+96	PhaZpst	BAA32541.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase;Immunoglobulins	Bacteria	no	D	#8fbf5f	29	A/B hydrolase	2	1	18.9376	-45.3701
+97	PhaZCac	WP_034398300.1	v260701	PHA	PHA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#8fbf5f	16	A/B hydrolase	4	3	33.3534	-42.8136
+101	TfH	5ZOA_A	v260701	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	0	A/B hydrolase	329	3	26.1524	-15.2843
+102	PFL1	EIW29778.1	v260701	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	7	A/B hydrolase	9	3	36.2856	-33.0949
+114	101		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	4	A/B hydrolase	15	3	39.9398	-7.7371
+115	102		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	4	A/B hydrolase	15	11	38.4781	-8.8082
+116	202		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;E3-binding domain	NA	yes	o	#275ca0	0	A/B hydrolase	329	3	9.667	-11.0411
+117	204		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Archaea	no	D	#275ca0	0	A/B hydrolase	329	1	15.4679	-7.08
+118	211		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Archaea	no	D	#275ca0	0	A/B hydrolase	329	2	27.4788	-23.2385
+119	214		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	3	9.2501	-11.5013
+120	301		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	2	29.767	-26.5739
+121	305		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	1	31.3062	-18.7487
+122	307		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	1	8.13	-29.4033
+124	405	KPI12031.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	14.7701	-28.8225
+125	406	ODU60407.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.9119	-12.8229
+126	407	WP_162908185.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Galactose-binding domain-like	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	4.9741	-23.0823
+127	409	RLT92980.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	7.9247	-12.6706
+128	412	WP_158643351.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	7.3271	-13.4342
+130	CtPl	WP_062195544.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	15.6492	-26.4934
+131	606	SJZ42839.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	12.7943	-16.8465
+132	607-Nsp	KPI31299.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	8.3961	-18.642
+136	711	WP_083947829	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.9529	-15.9786
+153	PHL-5	SAY37587	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	3	6.4262	-15.0007
+154	PHL-6	SAY37589	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	yes	o	#275ca0	0	A/B hydrolase	329	4	5.8637	-15.3196
+156	RgCut-2	WP_085749238	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	9.9385	-31.1799
+159	AdCut	BAB86909	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	13.237	-30.1418
+160	FoCut5a	EXK81749	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#275ca0	3	A/B hydrolase	29	3	10.521	-43.0396
+169	ApLip-Ec		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	25.427	-10.8287
+170	BurPL	OGB27210	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Galactose-binding domain-like	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	19.3977	-13.5671
+171	PET40	WAU86704	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	15	17.432	-16.6828
+172	PbsA	BAB86909	v260701	PBS	PBS	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#23873d	0	A/B hydrolase	329	3	13.3289	-29.6052
+173	FSC	Q99174	v260701	PBS	PBS	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#23873d	3	A/B hydrolase	29	3	8.3476	-43.9386
+174	Hfor_PE-H	WP_090538641	v260701	PUR	PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#f0c95e	0	A/B hydrolase	329	6	10.7606	-22.6205
+175	PaCut	SUD16364	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	29.0046	-20.8875
+176	GlacPETase		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	18.5409	-7.1554
+178	Tcca	WP_015255658	v260701	PBAT	PBAT	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#9a6fd4	4	A/B hydrolase	15	3	39.7598	-10.581
+180	Lip4_120	WP_108898452	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	7	A/B hydrolase	9	3	36.2691	-29.0531
+181	Est8_89	WP_034768559.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	19	A/B hydrolase	3	1	23.3125	-42.4161
+182	Est11_32	WP_041846030	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	31	A/B hydrolase	2	1	29.9484	-45.7676
+183	Est18_23	WP_041847557	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	4	A/B hydrolase	15	3	38.7671	-7.08
+184	Ces19_14	WP_034767800	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	32	A/B hydrolase	2	1	40.5762	-47.4833
+185	Ces39_5	WP_108898647	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	33	A/B hydrolase	2	1	15.1078	-47.6092
+186	CaPETase	SHM40309	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.9632	-14.6825
+197	HG-5	WP_008690040.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	0	4.5838	-16.8261
+198	jmPE13		v260701	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	3	24.328	-21.6024
+199	jmPE14		v260701	Combi.	PBAT; PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	0	A/B hydrolase	329	5	25.014	-22.2611
+201	TaC		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#275ca0	3	A/B hydrolase	29	4	12.1384	-38.6984
+202	DmC	KAH7127633	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#275ca0	3	A/B hydrolase	29	3	11.1661	-40.3735
+203	RtC		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#275ca0	3	A/B hydrolase	29	3	9.7885	-37.0219
+204	BaCut1	XAQ58225	v260701	Combi.	PBAT; PUR	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#262626	3	A/B hydrolase	29	5	7.5971	-39.7287
+206	LipMRD9	APJ12152	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	9	A/B hydrolase	8	4	35.5851	-24.5262
+207	dsPETase01		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	13.2362	-20.0359
+208	dsPETase05		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	19.8216	-16.5556
+209	dsPETase06	MEC8523093	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	5.5298	-18.5029
+210	Dkca1	WID88783	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	4	A/B hydrolase	15	3	36.5062	-9.8051
+211	PpPETase	WP_220815207	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	27.641	-21.6926
+212	ScPETase	WP_142197250.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	8.0156	-17.698
+213	HGMP01		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	NA	no	o	#275ca0	0	A/B hydrolase	329	0	25.0914	-8.936
+214	PD3	QPA27412.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	34	A/B hydrolase	2	1	4.48	-47.6247
+222	TGL	WAT79796.1	v260701	PLA	PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#cc490b	9	A/B hydrolase	8	5	35.1166	-25.4692
+225	APET-5	WP_218920366.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	2	31.201	-21.3365
+226	KbPETase	WP_209642273.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	24.0279	-13.1739
+227	APET-15	WP_019629726.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	16.4129	-33.6758
+228	APET-17	MBX3625601.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	10	10.7295	-29.5476
+229	APET-19	WP_116023875.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	30.8414	-17.7927
+230	APET-20	MBO9532528.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	6.9799	-28.7978
+231	APET-23	MSQ87502.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	48	A/B hydrolase	1	0	18.9376	-48.1701
+232	APET-24	WP_018657411.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	24.2917	-9.6553
+233	APET-25	MPZ00478.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	23.9611	-32.6769
+234	APET-26	WP_203847453.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	22.1962	-33.3249
+235	APET-27	WP_104739856.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	20.6253	-16.7071
+236	APET-28	MBX2857432.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	26.5393	-20.1894
+237	APET-29	MBE65357.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	0	25.0846	-32.0621
+238	APET-32	KZY99137.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	4.8554	-17.7554
+239	Mipa-P	SDZ16714.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	19.8954	-9.0575
+240	1628	WP_091553551.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	24.1345	-26.94
+241	1611	WP_124822775.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	26.3666	-29.3781
+242	1625	WP_101366623.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	22.8204	-27.4356
+243	1603	WP_110567505.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	27.3329	-29.7967
+244	1663	WP_084434874.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	23.2824	-12.4771
+245	Kubu-P	WP_116180173.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	23.3473	-13.9993
+246	1538	WP_130464304.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	22.552	-31.2496
+247	1465	WP_073887759.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	13.9902	-24.2288
+248	1621	WP_088988822.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	27.7328	-26.4884
+249	1617	CCH19814.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	27.7261	-29.3886
+250	1534	WP_082377728.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	28.177	-27.383
+251	1489	WP_132386942.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.8088	-24.5573
+252	1521	WP_132337032.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	14.9086	-23.2221
+253	1525	WP_099848711.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	20.6416	-28.5589
+254	1468	WP_132413760.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	8.7763	-24.2575
+255	1507	WP_144126986.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.3697	-7.551
+256	1491	WP_082403176.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	14.4698	-22.3346
+257	1821	WP_137976057.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	27.0115	-10.8759
+258	1477	WP_125191182.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	17.6336	-28.8255
+259	1482	WP_141984372.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	12.9532	-23.6478
+260	1522	WP_155388305.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	22.0074	-8.1683
+261	1546	WP_013736455.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.196	-29.548
+262	385	WP_143590710.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	8	17.4559	-11.5208
+263	1642	WP_139584963.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	25.4575	-26.3182
+264	917	WP_083950838.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.9304	-7.3174
+265	1537	OKK16161.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	28.8259	-23.8413
+266	1519	WP_131056699.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	22.5814	-29.711
+267	1678	WP_045318561.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	5.8215	-25.7215
+268	1496	WP_075737041.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	30.1076	-24.2419
+269	1169	WP_065917710.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.469	-18.824
+270	1637	WP_130401777.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	26.6415	-26.7422
+271	1463	WP_081971423.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	21.0482	-10.3123
+272	1545	WP_093411427.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.2759	-30.4432
+273	554	WP_086849962.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	17.3388	-18.5726
+274	1573	WP_109639600.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	8	5.7194	-24.3543
+275	1654	WP_086784246.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	5.1122	-25.1785
+276	1555	WP_078844206.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.1862	-29.1604
+277	1591	WP_091283529.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	22.6794	-23.8947
+278	1620	WP_112669767.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	25.2808	-30.0891
+279	1240	KNX38636.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	13.5257	-21.2671
+280	1594	WP_083302694.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	22.1202	-24.6223
+281	1457	WP_093954453.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.3192	-25.7054
+282	247	WP_116813002.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	23.6405	-11.1963
+283	1641	WP_089021493.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	25.9351	-30.5264
+284	1309	TQL66274.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	8.4132	-15.6256
+285	414	WP_123685830.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	14.8655	-14.1645
+286	1506	WP_084400763.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	7.511	-24.3912
+287	1493	WP_132183354.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Galactose-binding domain-like	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	13.8928	-25.716
+288	1395	RZL02950.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	23.6755	-8.4991
+289	1478	WP_141569747.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	17.4886	-29.9725
+290	1571	WP_124770494.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	23.6563	-29.0646
+291	169	OPG10926.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	5.6191	-21.0897
+292	1638	WP_051808300.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.7514	-11.7344
+293	1868	WP_111700265.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	15.9294	-31.7618
+294	1718	WP_084578793.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	12.8782	-27.6733
+295	401	WP_104115406.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	18.2351	-10.4007
+296	1392	SPF04022.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	9.4436	-27.5242
+297	486	WP_120326365.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	18.7416	-9.6694
+298	1424	WP_110080872.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	7.301	-22.0818
+299	1475	WP_086668955.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	8	6.999	-23.5554
+300	282	WP_092528534.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	14.1047	-15.4221
+301	1635	WP_145923095.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.7364	-22.9927
+302	1228	WP_091450391.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	6.6328	-17.619
+303	1876	WP_067035690.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Galactose-binding domain-like	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	29.8029	-18.6952
+304	1340	WP_103564314.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	13.0591	-9.7485
+305	191	WP_129849678.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	9.0727	-16.7818
+306	PC3	WP_103939557.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	15.4375	-8.7328
+307	PC4	WP_125313231.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.4643	-18.9562
+308	PC5	WP_075975245.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	15.9661	-15.8343
+309	PC6	WP_068752972.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	23.3269	-16.2897
+310	PC8	MBA55398.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	19.1808	-24.5142
+350	DP003	ACV09511	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	15.6028	-20.291
+351	DP006	TDP67440	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	13.7474	-7.9629
+352	DP007	WP_035284691	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	12.6481	-8.3121
+353	DP008	WP_130342639	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.9844	-17.8642
+354	DP016	WP_151597653.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	11.6686	-31.272
+355	DP017	WP_187224800.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.4719	-12.8248
+356	DP021	MBT8227529.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	19.1757	-23.0954
+357	DP038	MBX3624429.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	15.4322	-25.3133
+358	DP039	WP_085750434.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.6065	-26.2133
+359	DP040	WP_233427406.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	9.0276	-25.2153
+360	DP043	WP_229068674.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	19.9056	-21.2498
+361	DP054	WP_161104454.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	25.3731	-23.7192
+362	DP056	MGYP001489421514	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.9417	-11.6253
+363	DP057	MBN2622270.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	12.9359	-12.5304
+364	DP059	MGYP001121581011	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	23.785	-31.1674
+365	DP061	WP_221382552.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	23.6963	-25.5306
+366	DP068	MGYP000271253724	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	23.8578	-23.7962
+367	DP078	WP_184682765.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	26.6641	-21.4221
+368	DP080	MBJ7347705.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	10.6883	-12.1507
+369	DP081	MGYP000221121644	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.2224	-28.036
+370	DP082	WP_203733135.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	12.9996	-18.5465
+371	DP084	NUT34383.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	19.2679	-10.835
+372	DP089	WP_129786244.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	13.9137	-13.2396
+373	DP090	WP_233872418.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	9.9777	-13.2008
+374	DP092	WP_139580723.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	14.4264	-32.2091
+375	ESM006	WP_267938240.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	13.7365	-22.813
+376	ESM010	WP_167521412.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.0232	-30.8875
+377	ESM012	WBC00352.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	24.4825	-24.5597
+378	ESM021	WP_210157342.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	13.2004	-33.1625
+379	ESM024	MBO4274871.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	14.9109	-30.9231
+380	ESM026	WP_232326807.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	14.8037	-33.5383
+381	ESM033	GFJ87714.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	17.262	-27.3986
+382	ESM035	WP_158852571.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	13.3525	-24.9225
+383	ESM038	WP_182904095.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	15.5238	-32.437
+384	ESM043	WP_031525917.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.1151	-32.1536
+385	ESM045	MBX3621832.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	9.0851	-30.4906
+386	ESM050	GIU85367.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	27.4926	-19.1455
+387	ESM052	WP_203777396.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	17.8325	-33.1932
+388	ESM058	WP_173061649.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	22.4998	-26.2911
+389	ESM059	WP_111214096.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.8845	-28.7311
+390	ESM060	WP_203790592.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	18.9773	-21.7369
+391	ESM061	MBF9135495.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	21.6588	-27.2096
+392	ESM062	TWG17167.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	8	26.823	-25.755
+393	ESM064	WP_281901711.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.259	-22.3068
+394	ESM065	WP_204038550.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	19.8267	-29.3064
+395	ESM069	WP_181548579.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	13	26.8571	-28.0428
+396	ESM070	GHJ08786.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	30.1792	-25.3658
+397	ESM080	WP_084261341.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.1685	-22.3345
+398	ESM081	WP_265247586.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.19	-21.6217
+399	ESM082	UAC02078.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	22.646	-9.7674
+400	ESM084	WP_252811421.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.852	-32.8518
+401	ESM090	WP_229836555.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.7493	-9.7245
+402	ESM093	WP_239135698.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	22.0481	-10.666
+403	ESM096	WP_252275389.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	28.083	-20.7937
+404	ESM097	WP_271190254.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	29.3144	-25.2165
+405	ESM101	MBW4703769.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.7015	-22.8461
+406	ESM121	WP_247684544.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	18	25.1354	-28.3778
+407	ESM128	WP_269740835.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	18.8466	-20.5544
+408	ESM130	MCF0091346.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	25.7189	-25.4285
+409	ESM136	GGR16917.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	18.9889	-33.8201
+410	ESM139	WP_199199185.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	13.1689	-32.1219
+411	ESM140	WP_247056560.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.1795	-16.9628
+412	ESM144	WP_239125827.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	20.4972	-7.7661
+413	ESM156	WP_203812622.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	16.3249	-14.6757
+414	ESM157	PWR09075.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	9	17.6022	-21.0316
+415	ESM159	WP_203906211.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	17.5153	-22.8615
+416	ESM160	WP_144022925.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	18.0237	-22.017
+417	ESM167	WP_091317053.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	16.7236	-17.9809
+418	ESM169	MBT9528079.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	16.4219	-24.7937
+419	ESM173	MTK05241.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	19.7299	-27.403
+420	ESM177	WP_239086781.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.26	-8.2472
+421	ESM186	WP_093473685.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	11.7939	-20.0433
+422	TEP010	WP_164449727.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	7	21.3831	-30.869
+423	TEP014	MGYP001477358452	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	22.5704	-16.9436
+424	TEP024	WP_264933993.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	29.4957	-22.9126
+425	TEP037		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	16.1017	-13.0923
+426	TEP041	WP_256510026.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	9	12.5862	-26.2633
+427	TEP054	WP_260709492.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	18.8979	-32.6193
+428	TEP061	GGO06455.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	5.1439	-20.3103
+429	TEP067	WP_149259982.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	11.8972	-32.4333
+430	TEP083	MBN1171866.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	17.6908	-31.9855
+431	TEP091	MBO9569276.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	8.9938	-13.7139
+432	TEP092	GIG90696.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	21.3396	-25.7968
+433	TEP097	WP_086599340.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	30.6249	-23.1797
+434	TEP101	WP_019633337.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	13.8826	-9.1803
+435	TEP102	WP_109361459.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	30.4319	-22.2875
+436	TEP103	WP_211769896.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	22.5067	-13.4995
+437	TEP105	WP_150070118.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	15.0025	-12.3792
+438	TEP109	WP_307855560.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	18.6313	-31.13
+439	TEP111	WP_260422593.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	9	21.1268	-24.3301
+440	TEP114	WP_252811421.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	20.5084	-33.31
+441	TEP163	WP_218517662.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	10.6032	-24.6023
+442	TEP164	WP_256510519.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	6	7.3978	-25.4608
+443	TEP165	WP_233604767.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Immunoglobulin-like [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	22.8236	-32.0678
+444	TEP168	WP_239095870.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	19.2833	-28.072
+445	TEP178	WP_253762837.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	18.9817	-11.8635
+446	TEP181	WP_212846608.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase;Trefoil (Acidic Fibroblast Growth Factor, subunit A) [topology]	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	18.3364	-34.0186
+447	TEP189	GIU85371.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	3	28.4514	-19.2776
+448	TEP194	WP_250563816.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	5	4.48	-21.2197
+449	KaPETase	WP_143447025.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	0	A/B hydrolase	329	4	10.6038	-17.5829
+452	DIEGO	YCL34723	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	yes	o	#275ca0	0	A/B hydrolase	329	4	11.1204	-10.3406
+453	TA21	WDT94064	v260701	Combi.	PET; PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	12	A/B hydrolase	5	2	23.8186	-37.7003
+454	TA26	WDT94443	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	50	A/B hydrolase	1	0	33.7782	-48.4136
+455	TA29	WDT94189	v260701	Combi.	PET; PLA	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	18	A/B hydrolase	3	2	37.451	-42.3862
+456	JW44_1708		v260701	Combi.	PBAT; PLA; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	9	A/B hydrolase	8	4	34.5963	-24.6849
+457	JW45_1534		v260701	Combi.	PBAT; PLA; PUR	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#262626	7	A/B hydrolase	9	3	37.5411	-29.912
+458	GuaPA		v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Archaea	yes	o	#275ca0	0	A/B hydrolase	329	0	24.2587	-14.9325
+459	HP	ATH80290	v260701	PBS	PBS	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#23873d	0	A/B hydrolase	329	6	20.5877	-18.2347
+464	PET93	WKW63607.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	9	A/B hydrolase	8	1	38.6548	-24.0237
+465	PET94	WKW63608.1	v260701	PET	PET	A/B hydrolase	alpha/beta hydrolase	Bacteria	no	D	#275ca0	9	A/B hydrolase	8	1	40.2811	-23.4299
+467	porcine pancreatic lipase	1ETH_A	v260701	PC	PC	A/B hydrolase	alpha/beta hydrolase;PLAT/LH2 domain	Eukaryota	no	h	#8c6d46	52	A/B hydrolase	1	0	28.5122	-48.5676
+468	CRL	CAA34684	v260701	PC	PC	A/B hydrolase	alpha/beta hydrolase	Eukaryota	no	h	#8c6d46	4	A/B hydrolase	15	1	34.1612	-14.2234
+605	PhaZcac	BAA19791.1	v260701	NR	NA	A/B hydrolase	alpha/beta hydrolase;Immunoglobulins	NA	no	o	#959595	11	A/B hydrolase	6	1	37.6039	-38.1555
+609	PhaZ Sa	WP_011617846.1	v260701	NR	NA	A/B hydrolase	alpha/beta hydrolase	NA	no	o	#959595	15	A/B hydrolase	4	1	28.9985	-37.5857
+58	serineprotease	WP_378272130.1	v260701	PLA	PLA	Peptidase	Peptidase S8/S53 domain;Peptidase S8 propeptide/proteinase inhibitor I9	Bacteria	no	D	#cc490b	6	Peptidase	12	3	5.0378	-63.4194
+65	Subtilisin Savinase	P29600	v260701	PLA	PLA	Peptidase	Peptidase S8/S53 domain	Bacteria	no	D	#cc490b	6	Peptidase	12	7	11.2902	-63.4741
+66	Subtilisin BL	P29599	v260701	PLA	PLA	Peptidase	Peptidase S8/S53 domain	Bacteria	no	D	#cc490b	6	Peptidase	12	3	12.3851	-64.1534
+67	Subtilisin SubC	CAB56500	v260701	PLA	PLA	Peptidase	Peptidase S8/S53 domain;Peptidase S8 propeptide/proteinase inhibitor I9	Bacteria	no	D	#cc490b	6	Peptidase	12	3	11.4761	-61.8356
+68	LP175	ATG80622.1	v260701	PLA	PLA	Peptidase	Peptidase S8/S53 domain;Peptidase S8 propeptide/proteinase inhibitor I9	Bacteria	no	D	#cc490b	6	Peptidase	12	3	10.102	-64.8716
+78	Proteinase K	CAA32820.1	v260701	PLA	PLA	Peptidase	Peptidase S8/S53 domain;Peptidase S8 propeptide/proteinase inhibitor I9	Eukaryota	no	h	#cc490b	6	Peptidase	12	3	6.7852	-62.9133
+223	PAM	BAU20375	v260701	PLA	PLA	Peptidase	Peptidase S8/S53 domain;Peptidase S8 propeptide/proteinase inhibitor I9	Bacteria	no	D	#cc490b	6	Peptidase	12	3	5.2159	-61.993
+52	NylB	CAA24927.1	v260701	PA	PA	Peptidase	DD-peptidase/beta-lactamase superfamily;Methane Monooxygenase Hydroxylase; Chain G, domain 1 [topology];Single alpha-helices involved in coiled-coils or other helix-helix interfaces [topology]	Bacteria	no	D	#40b6c5	17	Peptidase	3	2	4.48	-68.164
+219	PA4-degrading enzyme	BEG79545	v260701	PA	PA	Peptidase	DD-peptidase/beta-lactamase superfamily;Galactose-binding domain-like	Bacteria	no	D	#40b6c5	46	Peptidase	1	0	11.0861	-70.7086
+451	NylB'	CAA26616.1	v260701	PA	PA	Peptidase	DD-peptidase/beta-lactamase superfamily;Methane Monooxygenase Hydroxylase; Chain G, domain 1 [topology]	Bacteria	no	D	#40b6c5	17	Peptidase	3	2	5.1846	-68.8736
+466	BsMPPE	NP_390179.1	v260701	PC	PC	Other	Purple Acid Phosphatase; chain A, domain 2 [topology]	Bacteria	no	D	#8c6d46	51	Other	1	0	21.8472	-67.5847
+53	NylC	WP_012476895.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	56.5569	-11.9349
+54	NylCA	BAE95769.2	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	57.2811	-11.7583
+55	NylCK	BAE95770.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	58.1028	-11.2927
+189	M-NylC	KQR39103	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	59.4272	-11.1679
+190	Nc-NylC	WP_312893488.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	55.0012	-11.5141
+215	TvgC	WP_068749367	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	21	54.746	-8.6962
+216	NylC1	XHH12374	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	7	58.2556	-12.5503
+217	NylC2	XHH12375	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	59.5207	-12.1444
+218	NylC5	XHH12378	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	55.3303	-10.3321
+312	Nyl04	KXS08985	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Eukaryota	no	h	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	55.5171	-14.7117
+313	Nyl10	WP_073391230.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	52.0052	-12.2924
+314	Nyl11	WP_082766707.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	55.4827	-7.08
+315	Nyl12	A0A1Q3SHB0	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	0	54.1414	-15.8471
+316	Nyl13	WP_075885500.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	58.4916	-9.5544
+317	Nyl14	A0A1Y4BJH4	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	8	54.2955	-13.3728
+318	Nyl16	OWT56952	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase;Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding domain	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	59.0372	-13.8039
+319	Nyl18	A0A2E3XQJ6	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	55.8212	-13.8073
+320	Nyl25	PSR30050	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	59.4432	-9.8441
+321	Nyl29	A0A315R6Z8	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	56.2726	-9.5757
+322	Nyl30	PWX09261.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	52.2186	-10.3446
+323	Nyl32	A0A351YZM4	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	51.1324	-10.2792
+324	Nyl34	A0A368EC02	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	0	59.211	-9.0075
+325	Nyl37	A0A3D1YDR8	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase;Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding domain	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	57.6021	-7.5198
+326	Nyl39	A0A3D4HM79	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	6	51.7633	-9.1089
+327	Nyl40	A0A3M1X2K7	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	0	58.884	-8.3938
+328	Nyl44	A0A432H965	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	6	56.3031	-15.5577
+329	Nyl45	RYL92504.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	15	57.5059	-14.476
+330	Nyl47	WP_131292212.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	51.856	-11.4934
+331	Nyl50	TAL40028	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	52.9051	-8.8805
+332	Nyl54	WP_170322449.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	52.8889	-12.6394
+333	Nyl57	A0A661XAJ6	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	51.0249	-12.49
+334	Nyl58	A0A6A7M915	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	52.3042	-14.5525
+335	Nyl60	A0A6I1QW75	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase;Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding domain	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	56.6212	-8.2573
+336	Nyl63	A0A7C3G8G6	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	53.2125	-15.2339
+337	Nyl65	A0A7C6SQZ1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	7	54.2893	-14.76
+338	Nyl66	A0A7C7DKE8	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	52.9236	-11.2322
+339	Nyl68	A0A7V5VEC1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	57.3551	-9.3343
+340	Nyl71	A0A7V9NEU5	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	55.1131	-15.7891
+341	Nyl72	A0A7W0NYQ1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	50.9183	-11.3418
+342	Nyl73	MSS57807	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase;arginine biosynthesis bifunctional protein suprefamily	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	6	53.3722	-9.9362
+343	Nyl74	A0A7X7N2B0	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	52.8657	-7.86
+344	Nyl82	WP_014810472.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	53.9883	-7.1689
+345	Nyl83	XP_005707592.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Eukaryota	no	h	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	56.5973	-7.1412
+346	Nyl84	WP_010949597.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	51.7368	-13.4452
+347	Nyl85	R5FI29	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	4	58.0502	-8.3821
+348	Nyl87	U7UHN3	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	5	53.0458	-13.7487
+349	Nyl93	WP_170196788.1	v260701	PA	PA	"L-amino peptidase
+D-ALA esterase"	L-amino peptidase D-ALA esterase/amidase	Bacteria	no	D	#40b6c5	1	"L-amino peptidase
+D-ALA esterase"	53	3	53.6487	-12.1226
+50	P-nylA	AAA25908.1	v260701	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	3	51.5553	-32.4915
+51	NylA	WP_012476897.1	v260701	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	3	51.566	-33.3798
+137	UMG-SP-1	OP972509	v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	NA	yes	o	#f0c95e	2	Amidase	35	3	56.2153	-27.4071
+138	UMG-SP-2	OP972510	v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	NA	yes	o	#f0c95e	2	Amidase	35	3	58.242	-30.3867
+139	UMG-SP-3	OP972511	v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	NA	yes	o	#f0c95e	2	Amidase	35	5	57.6672	-29.0873
+140	Urethanase	ANG60415	v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#f0c95e	2	Amidase	35	3	52.4978	-29.2468
+147	CPUTNase	BBP47208.1	v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	Eukaryota	no	h	#f0c95e	2	Amidase	35	1	56.4356	-32.3806
+179	aryl acylamidase	WZH92451.1	v260701	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	4	58.714	-34.438
+188	TtA	WP_185053500	v260701	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	4	54.9753	-34.1356
+191	GatA		v260701	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	1	60.6123	-32.4856
+192	OoH	BAI44731	v260701	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	3	57.3105	-35.0479
+193	ReU		v260701	PA	PA	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#40b6c5	2	Amidase	35	1	53.4226	-35.8043
+205	GatA	ANG60415	v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	no	D	#f0c95e	2	Amidase	35	3	53.3489	-29.494
+224	GatA250		v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	NA	no	o	#f0c95e	2	Amidase	35	0	56.5213	-37.021
+460	pQR3139		v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	yes	o	#f0c95e	2	Amidase	35	1	54.8127	-30.6448
+461	pQR3141		v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	yes	o	#f0c95e	2	Amidase	35	3	55.2247	-36.2619
+462	pQR3144		v260701	PUR	PUR	Amidase	Amidase signature (AS) domain	Bacteria	yes	o	#f0c95e	2	Amidase	35	1	54.0675	-31.4463
+56	Arylacylamidase	P80008.1	v260701	PA	PA	Unassigned	NA	Bacteria	no	D	#40b6c5	2	Amidase	35	6	58.6996	-33.1654
+106	LCP_STRK3	AAR25849.1	v260701	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	4	55.046	-57.1163
+110	Lcp1	WP_189902969.1	v260701	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	3	56.1487	-51.3873
+111	Lcp2	WP_254586337.1	v260701	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	3	56.3554	-58.3718
+112	Lcp1	UFE15760.1	v260701	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	3	55.4805	-54.3954
+113	Lcp2	UFE15761.1	v260701	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	3	52.7926	-51.2069
+167	Lcp1VH2	WP_006368739.1	v260701	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	5	52.1144	-50.3113
+168	Lcp2VH2	AFA76036.1	v260701	NR	NR	Oxygenase-like	oxygenase MpaB family protein	Bacteria	no	D	#959595	5	Oxygenase-like	15	3	51.6299	-48.581
+606	lcp1	UFE15762.1	v260701	NR	NA	Oxygenase-like	oxygenase MpaB family protein	NA	no	o	#959595	5	Oxygenase-like	15	3	56.4093	-50.5203
+607	lcp2	UFE15763.1	v260701	NR	NA	Oxygenase-like	oxygenase MpaB family protein	NA	no	o	#959595	5	Oxygenase-like	15	8	54.3937	-51.7683
+608	lcp3	UFE15764.1	v260701	NR	NA	Oxygenase-like	oxygenase MpaB family protein	NA	no	o	#959595	5	Oxygenase-like	15	3	54.4665	-54.6059

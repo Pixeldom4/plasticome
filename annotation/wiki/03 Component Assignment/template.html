@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Component Assignment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+/* Wiki tokens from src/styles/globalStyles.js, plus chart series (validated, dataviz palette slots 1-3) */
+:root {
+  --color-bg: #f0ede6;
+  --color-surface: #faf8f3;
+  --color-accent: #c8f050;
+  --color-text: #0a0a0a;
+  --color-text-2: #52514e;
+  --color-muted: #8a8780;
+  --color-rule: #d9d4c8;
+  --color-grid: #e4dfd4;
+  --s-v2: #2a78d6;   /* CATH class 3, alpha-beta */
+  --s-both: #1baf7a; /* CATH class 1, mainly alpha */
+  --s-v1: #eb6834;   /* CATH class 2, mainly beta */
+  --s-one: #2a78d6;  /* single-series charts */
+  --note-bg: #fff7d6;
+  --note-rule: #d9b84a;
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #121211; --color-surface: #1a1a19; --color-text: #f0efec; --color-text-2: #c3c2b7;
+    --color-muted: #8f8d85; --color-rule: #34332f; --color-grid: #2a2a27;
+    --s-v2: #3987e5; --s-both: #199e70; --s-v1: #d95926; --s-one: #3987e5;
+    --note-bg: #2b2716; --note-rule: #8a7430;
+  }
+}
+:root[data-theme="dark"] {
+  --color-bg: #121211; --color-surface: #1a1a19; --color-text: #f0efec; --color-text-2: #c3c2b7;
+  --color-muted: #8f8d85; --color-rule: #34332f; --color-grid: #2a2a27;
+  --s-v2: #3987e5; --s-both: #199e70; --s-v1: #d95926; --s-one: #3987e5;
+  --note-bg: #2b2716; --note-rule: #8a7430;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--color-bg); color: var(--color-text); font: 16px/1.6 var(--font-body); }
+a { color: inherit; text-decoration-color: var(--color-muted); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--color-text); }
+code, .mono { font-family: var(--font-mono); font-size: 0.9em; }
+
+/* draft chrome, not part of the wiki page */
+.draftbar { position: sticky; top: 0; z-index: 10; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+  padding: 10px 16px; background: var(--color-text); color: var(--color-bg); font-size: 13px; }
+.draftbar b { font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; font-size: 11px; opacity: 0.7; }
+.draftbar nav { display: flex; gap: 4px; }
+.draftbar nav a { padding: 4px 12px; border-radius: 99px; text-decoration: none; }
+.draftbar .xpage { padding: 4px 12px; border: 1px solid currentColor; border-radius: 99px; text-decoration: none; opacity: 0.8; }
+.draftbar nav a[aria-current="page"] { background: var(--color-accent); color: #0a0a0a; }
+.draftbar label { margin-left: auto; display: flex; gap: 6px; align-items: center; cursor: pointer; }
+
+main { max-width: 1040px; margin: 0 auto; padding: 40px 16px 96px; }
+.page[hidden] { display: none; }
+.eyebrow { font: 500 12px/1 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-2); }
+h1 { font: 400 clamp(36px, 6vw, 60px)/1.05 var(--font-display); margin: 12px 0 16px; letter-spacing: -0.01em; }
+h2 { font: 400 30px/1.15 var(--font-display); margin: 64px 0 12px; }
+h3 { font: 700 17px/1.3 var(--font-body); margin: 32px 0 8px; }
+.lede { font-size: 20px; line-height: 1.5; max-width: 62ch; color: var(--color-text-2); margin: 0; }
+.prose { max-width: 70ch; }
+.prose p { margin: 0 0 14px; }
+
+/* writer notes: visible in the draft, become MDX comments on the real page */
+.note { border: 1.5px dashed var(--note-rule); background: var(--note-bg); border-radius: 10px; padding: 12px 14px;
+  font-size: 14px; line-height: 1.5; margin: 16px 0; max-width: 78ch; }
+.note::before { content: "Writer note"; display: block; font: 500 11px/1 var(--font-mono); letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--color-text-2); margin-bottom: 6px; }
+.note ul { margin: 4px 0 0; padding-left: 18px; }
+.show-notes-off .note { display: none; }
+
+/* text provenance markers: draft only, hidden with the notes */
+:root { --src-hand: #7fae00; --src-ai: #d9a400; --src-own: #8a8780; }
+.ms-hand, .ms-ai, .own { border-left: 3px solid transparent; padding-left: 12px; margin-left: -15px; }
+.ms-hand { border-left-color: var(--src-hand); }
+.ms-ai { border-left-color: var(--src-ai); }
+.own { border-left: 3px dashed var(--src-own); }
+.show-notes-off .ms-hand, .show-notes-off .ms-ai, .show-notes-off .own { border-left-color: transparent; }
+.key { display: inline-block; padding: 1px 8px; margin: 2px 4px 2px 0; border-left: 3px solid; font-size: 12.5px; }
+.key.hand { border-color: var(--src-hand); } .key.ai { border-color: var(--src-ai); } .key.own { border-left-style: dashed; border-color: var(--src-own); }
+@media (max-width: 760px) { .ms-hand, .ms-ai, .own { margin-left: 0; } }
+
+.fighead { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; flex-wrap: wrap; }
+.fighead select { font: inherit; font-size: 14px; padding: 6px 10px; border-radius: 10px; border: 1px solid var(--color-rule); background: var(--color-bg); color: var(--color-text); }
+.bars.wide { grid-template-columns: minmax(120px, 290px) 1fr 44px; }
+.bars .lab b { font-weight: 700; }
+@media (max-width: 600px) { .bars.wide .lab small { display: none; } .bars.wide { grid-template-columns: 64px 1fr 36px; } }
+
+/* stat tiles */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 36px 0 8px; }
+.stat { background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 14px; padding: 16px; }
+.stat .v { font: 400 40px/1 var(--font-display); }
+.stat .k { font-size: 13px; color: var(--color-text-2); margin-top: 8px; line-height: 1.35; }
+.stat.hero { background: var(--color-accent); border-color: transparent; color: #0a0a0a; }
+.stat.hero .k { color: #2a2a26; }
+
+/* figures */
+figure { margin: 28px 0 0; background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 16px; padding: 20px; }
+figcaption { font-size: 14px; color: var(--color-text-2); margin-top: 14px; line-height: 1.5; max-width: 80ch; }
+figcaption b { color: var(--color-text); font-weight: 700; }
+.figtitle { font-weight: 700; font-size: 15px; margin: 0 0 4px; }
+.figsub { font-size: 13px; color: var(--color-text-2); margin: 0 0 16px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; color: var(--color-text-2); margin: 0 0 12px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+
+/* flow figure */
+.flow { display: grid; grid-template-columns: 1fr 40px 1fr 40px 1.1fr; align-items: center; gap: 0; }
+.lane { display: flex; flex-direction: column; gap: 12px; }
+.node { border: 1px solid var(--color-rule); border-radius: 12px; padding: 12px 14px; background: var(--color-bg); }
+.node .n { font: 400 28px/1 var(--font-display); }
+.node .t { font-weight: 700; font-size: 14px; margin-top: 4px; }
+.node .d { font-size: 12.5px; color: var(--color-text-2); margin-top: 4px; line-height: 1.4; }
+.node.out { background: var(--color-accent); border-color: transparent; color: #0a0a0a; }
+.node.out .d { color: #2a2a26; }
+.arrow { text-align: center; color: var(--color-muted); font-size: 20px; }
+.mini { display: flex; height: 8px; gap: 2px; margin-top: 10px; }
+.mini i { display: block; height: 100%; border-radius: 3px; }
+@media (max-width: 760px) {
+  .flow { grid-template-columns: 1fr; }
+  .arrow { transform: rotate(90deg); padding: 4px 0; }
+}
+
+/* bar charts */
+.bars { display: grid; grid-template-columns: 96px 1fr 44px; gap: 6px 10px; align-items: center; font-size: 13px; }
+.bars .lab { color: var(--color-text); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bars .lab small { color: var(--color-muted); }
+.bars .track { display: flex; gap: 2px; height: 16px; }
+.bars .seg { height: 100%; border-radius: 0; position: relative; }
+.bars .seg:first-child { border-radius: 4px 0 0 4px; }
+.bars .seg:last-child { border-radius: 0 4px 4px 0; }
+.bars .seg:only-child { border-radius: 4px; }
+.bars .seg:hover, .bars .seg.hl { filter: brightness(1.12); outline: 2px solid var(--color-text); outline-offset: 1px; z-index: 1; }
+.bars .val { color: var(--color-text-2); font-variant-numeric: tabular-nums; }
+.bars.dim .seg:not(.hl) { opacity: 0.35; }
+
+/* dumbbell */
+.dumb svg { width: 100%; height: auto; display: block; overflow: visible; }
+.dumb text { font: 12px var(--font-body); fill: var(--color-text-2); }
+.dumb .axis line { stroke: var(--color-grid); }
+.dumb .row:hover text.name { fill: var(--color-text); font-weight: 700; }
+
+/* tooltip */
+#tip { position: fixed; pointer-events: none; z-index: 20; background: var(--color-text); color: var(--color-bg);
+  font-size: 12.5px; line-height: 1.4; padding: 8px 10px; border-radius: 8px; max-width: 260px; opacity: 0; transition: opacity .08s; }
+#tip b { font-weight: 700; }
+
+/* demo */
+.demo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 16px; }
+@media (max-width: 860px) { .demo { grid-template-columns: 1fr; } }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.controls input, .controls select { font: inherit; font-size: 14px; padding: 8px 10px; border-radius: 10px;
+  border: 1px solid var(--color-rule); background: var(--color-bg); color: var(--color-text); min-width: 0; }
+.controls input { flex: 1 1 180px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+.chip { font: inherit; font-size: 12.5px; border: 1px solid var(--color-rule); background: transparent; color: var(--color-text);
+  border-radius: 99px; padding: 4px 10px; cursor: pointer; }
+.chip:hover { border-color: var(--color-text); }
+.list { max-height: 460px; overflow: auto; border: 1px solid var(--color-rule); border-radius: 12px; background: var(--color-bg); }
+.list button { display: grid; grid-template-columns: 52px 1fr auto; gap: 8px; align-items: center; width: 100%; text-align: left;
+  font: inherit; font-size: 14px; color: inherit; background: none; border: 0; border-bottom: 1px solid var(--color-grid); padding: 8px 12px; cursor: pointer; }
+.list button:hover { background: var(--color-surface); }
+.list button[aria-selected="true"] { background: var(--color-accent); color: #0a0a0a; }
+.list .pl { font-family: var(--font-mono); font-size: 12px; color: var(--color-text-2); }
+.list button[aria-selected="true"] .pl { color: #2a2a26; }
+.list .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tag { font: 500 11px/1 var(--font-mono); padding: 4px 6px; border-radius: 6px; color: #fff; white-space: nowrap; }
+.count { font-size: 13px; color: var(--color-text-2); margin: 8px 2px 0; }
+.card { border: 1px solid var(--color-rule); border-radius: 14px; background: var(--color-bg); padding: 18px; }
+.card h4 { font: 400 28px/1.1 var(--font-display); margin: 4px 0 6px; }
+.card .meta { font-size: 13px; color: var(--color-text-2); }
+.kv { display: grid; grid-template-columns: 120px 1fr; gap: 4px 12px; font-size: 13.5px; margin: 14px 0; }
+.kv dt { color: var(--color-text-2); }
+.kv dd { margin: 0; overflow-wrap: anywhere; }
+.trail { list-style: none; padding: 0; margin: 16px 0 0; position: relative; }
+.trail li { position: relative; padding: 0 0 14px 26px; font-size: 13.5px; line-height: 1.45; }
+.trail li::before { content: ""; position: absolute; left: 6px; top: 6px; width: 9px; height: 9px; border-radius: 50%; background: var(--color-text); }
+.trail li::after { content: ""; position: absolute; left: 10px; top: 18px; bottom: 0; width: 1px; background: var(--color-rule); }
+.trail li:last-child::after { display: none; }
+.trail li.skip::before { background: var(--color-bg); border: 1.5px solid var(--color-muted); }
+.trail li.skip { color: var(--color-muted); }
+.trail .st { font-weight: 700; display: block; }
+.trail q { color: var(--color-text-2); font-style: italic; }
+
+/* methods */
+.methods-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; }
+@media (max-width: 900px) { .methods-layout { grid-template-columns: 1fr; } .toc { display: none; } }
+.toc { position: sticky; top: 64px; align-self: start; font-size: 13.5px; }
+.toc ol { list-style: none; padding: 0; margin: 0; border-left: 1px solid var(--color-rule); }
+.toc a { display: block; padding: 4px 0 4px 12px; text-decoration: none; color: var(--color-text-2); }
+.toc a:hover { color: var(--color-text); }
+.callout { border-left: 4px solid var(--color-accent); background: var(--color-surface); padding: 12px 16px; border-radius: 0 10px 10px 0; margin: 24px 0; max-width: 70ch; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 12px 0 20px; }
+.tablewrap { overflow-x: auto; max-width: 100%; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--color-rule); vertical-align: top; }
+th { font-weight: 700; font-size: 13px; color: var(--color-text-2); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+pre { background: var(--color-surface); border: 1px solid var(--color-rule); border-radius: 10px; padding: 14px; overflow-x: auto; font: 13px/1.5 var(--font-mono); }
+.cta { display: inline-flex; gap: 8px; align-items: center; margin-top: 28px; padding: 12px 18px; border-radius: 99px;
+  background: var(--color-text); color: var(--color-bg); text-decoration: none; font-weight: 500; }
+.cta:hover { background: #333; }
+/* forest figure */
+.forest { display: block; background: #fbfbf9; border-radius: 12px; padding: 8px; cursor: zoom-in; }
+.forest img { display: block; width: 100%; height: auto; }
+.foldbtns { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.foldbtns a { text-decoration: none;  font: inherit; font-size: 12.5px; border: 1px solid var(--color-rule); background: transparent; color: var(--color-text); border-radius: 99px; padding: 4px 10px; cursor: pointer; }
+.foldbtns a:hover { border-color: var(--color-text); }
+.foldbtns a small { color: var(--color-muted); font-family: var(--font-mono); margin-left: 4px; }
+
+
+/* ---- Component Assignment additions ---- */
+.flow4 { display: grid; grid-template-columns: 1fr 32px 1fr 32px 1fr 32px 1fr; align-items: center; }
+@media (max-width: 860px) { .flow4 { grid-template-columns: 1fr; } .flow4 .arrow { transform: rotate(90deg); padding: 4px 0; } }
+.node .rt { font: 500 11px/1 var(--font-mono); letter-spacing: 0.06em; color: var(--color-text-2); text-transform: uppercase; }
+.hist svg { width: 100%; height: auto; display: block; overflow: visible; }
+.hist text { font: 12px var(--font-body); fill: var(--color-text-2); }
+.hist .axis line { stroke: var(--color-grid); }
+.hist rect.bar:hover { filter: brightness(1.15); }
+tr.used td { font-weight: 700; }
+.foldbtns a .dom { max-width: 22ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; vertical-align: bottom; }
+.foldbtns .sep { flex-basis: 100%; height: 0; }
+/* interactive component map */
+.mapbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+.mapbar input { flex: 1 1 220px; min-width: 0; font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 10px; border: 1px solid var(--color-rule); background: var(--color-bg); color: var(--color-text); }
+.zoom { display: flex; }
+.zoom button { font: inherit; font-size: 14px; min-width: 34px; padding: 6px 10px; border: 1px solid var(--color-rule); background: var(--color-bg); color: var(--color-text); cursor: pointer; }
+.zoom button:first-child { border-radius: 10px 0 0 10px; } .zoom button:last-child { border-radius: 0 10px 10px 0; } .zoom button + button { border-left: 0; }
+.zoom button:hover { background: var(--color-surface); }
+.mapbar .static { font-size: 13px; color: var(--color-text-2); }
+.maplegend button { font: inherit; font-size: 13px; color: var(--color-text-2); background: none; border: 1px solid transparent; border-radius: 99px; padding: 2px 8px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.maplegend button:hover, .maplegend button[aria-pressed="true"] { border-color: var(--color-text); color: var(--color-text); }
+.maplegend .shp { display: inline-flex; gap: 6px; align-items: center; }
+:root { --map-halo: #e6e4de; --map-halo-on: #cfccc3; --map-edge: #b4b4b0; --map-stroke: #3a3a3a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --map-halo: #2a2a27; --map-halo-on: #46453f; --map-edge: #5c5b56; --map-stroke: #d8d6cf; } }
+:root[data-theme="dark"] { --map-halo: #2a2a27; --map-halo-on: #46453f; --map-edge: #5c5b56; --map-stroke: #d8d6cf; }
+.mapwrap { overflow: hidden; touch-action: none; }
+#map { display: block; width: 100%; height: auto; cursor: grab; user-select: none; }
+#map.drag { cursor: grabbing; }
+#map .halo circle, #map .halo line { fill: var(--map-halo); stroke: var(--map-halo); }
+#map .halo .on { fill: var(--map-halo-on); stroke: var(--map-halo-on); }
+#map .edges line { stroke: var(--map-edge); transition: opacity .15s; }
+#map .edges line.dim { opacity: 0.12; }
+#map .nd { stroke: var(--map-stroke); cursor: pointer; transition: opacity .15s; }
+#map .nd.dim { opacity: 0.14; }
+#map .nd.hit, #map .nd.seed { stroke: var(--color-text); }
+#map text { fill: var(--color-text); font-family: var(--font-body); pointer-events: none; }
+#map text.sub { fill: var(--color-text-2); }
+#map text.lab { paint-order: stroke; stroke: var(--color-surface); stroke-linejoin: round; }
+.maplegend .sw { box-shadow: 0 0 0 1px var(--color-rule); }
+.mappanel { font-size: 13.5px; color: var(--color-text-2); margin: 10px 0 0; min-height: 1.5em; }
+.mappanel b { color: var(--color-text); }
+.mappanel a { white-space: nowrap; }
+.comptoggle { margin-top: 10px; border-top: 1px solid var(--color-rule); }
+.comptoggle summary { display: flex; gap: 8px; align-items: center; width: fit-content; padding: 10px 0 2px; font-size: 13.5px; font-weight: 700; color: var(--color-text-2); cursor: pointer; list-style: none; }
+.comptoggle summary::-webkit-details-marker { display: none; }
+.comptoggle summary::before { content: ""; width: 6px; height: 6px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .15s; }
+.comptoggle[open] summary::before { transform: rotate(45deg); }
+.comptoggle summary small { font-weight: 400; color: var(--color-muted); }
+.comptoggle .foldbtns { margin-top: 8px; }
+.foldbtns a[aria-pressed="true"] { border-color: var(--color-text); background: var(--color-surface); }
+</style>
+</head>
+<body>
+<div id="tip" role="tooltip"></div>
+
+<div class="draftbar">
+  <b>Draft</b>
+  <nav aria-label="Draft pages">
+    <a href="#overview" data-page="overview">1 · Overview (on Model page)</a>
+    <a href="#methods" data-page="methods">2 · Methods page</a>
+  </nav>
+  <a class="xpage" href="../02%20CATH%20Assignment/cath-assignment.html#overview">← 02 CATH Assignment</a>
+  <a class="xpage" href="../01%20plasticome/plasticome-curation.html#explore">01 Explorer</a>
+  <label><input type="checkbox" id="notesToggle" checked> Writer notes</label>
+  <label><input type="checkbox" id="darkToggle"> Dark</label>
+</div>
+
+<main>
+<!-- =========================================================== -->
+<!-- PAGE 1: OVERVIEW. Lives at /dry-lab/model/#component-assignment -->
+<!-- =========================================================== -->
+<section class="page" id="page-overview">
+  <div class="eyebrow">Model · Dataset Generation · 3 of 7</div>
+  <h1>Component Assignment</h1>
+  <div class="own">
+    <p class="lede">PETadex searches outward from families of enzymes, not from single enzymes, so the way the plasticome is split into families decides what gets searched for. We call these families components.</p>
+    <p class="lede" style="margin-top:14px">We aligned the <span data-n="stats.n_nodes"></span> cluster centroids of the plasticome against each other and linked any two that share at least 30% amino acid identity. Each connected group is one component. This gives <span data-n="stats.n_components"></span> components. One α/β-hydrolase component, the family of IsPETase and LCC, holds <span data-n="stats.largest_component"></span> centroids, and <span data-n="stats.n_singletons"></span> centroids are not linked to any other.</p>
+  </div>
+
+  <div class="note">
+    This block replaces the placeholder under <code>### Component Assignment</code> in <code>src/content/wiki/dry-lab/model/index.mdx</code>.
+    <ul>
+      <li><b>Every passage on both pages is marked <span class="key own">no manuscript text, drafted for the wiki</span>.</b> Check against the manuscript's component paragraphs before publishing and re-mark any sentence that matches.</li>
+      <li><b>411 or 412.</b> The wiki outline says to write 412 centroids "without hedging". The final run (<code>runs/2026-08-06.final-usearch.3</code>) has 411 clusters, 411 nodes and 46 components, and 02 CATH Assignment and the forest figure both use 411. This draft uses the run's 411. Settle which run fed the nr search before publishing; if it was a 412-centroid run, its component count needs checking too.</li>
+      <li>Every number comes from the final run through <code>extract_data.py</code>. The 2×2 comparison comes from <code>archive/diamond-usearch-comparison/</code>.</li>
+    </ul>
+  </div>
+
+  <figure aria-labelledby="ft">
+    <p class="figtitle" id="ft">Figure 1. The plasticome as a map of components</p>
+    <p class="figsub">Hover an enzyme for its details. Click an enzyme to highlight every enzyme in its component, or open the component list below. Drag to pan; pinch or ⌘/Ctrl-scroll to zoom.</p>
+    <div class="mapbar">
+      <input id="mapQ" type="search" placeholder="Find an enzyme (name or PL number)" aria-label="Find an enzyme">
+      <div class="zoom" role="group" aria-label="Zoom">
+        <button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button><button type="button" data-z="reset">Reset</button>
+      </div>
+      <a class="static" href="assets/component-map-full.png" target="_blank" rel="noopener">Static figure</a>
+    </div>
+    <div class="legend maplegend" id="mapLegend"></div>
+    <div class="mapwrap"><svg id="map" role="img" aria-label="Interactive sequence similarity network of the 609 plasticome enzymes, grouped into sections by catalytic family. Nodes are coloured by substrate and shaped by origin; grey halos outline components."></svg></div>
+    <div class="mappanel" id="mapPanel" aria-live="polite"></div>
+    <details class="comptoggle">
+      <summary>Highlight a component <small id="compCount"></small></summary>
+      <div class="foldbtns" id="compBtns" aria-label="Components"></div>
+    </details>
+    <figcaption class="own">Each node is one plasticome enzyme, coloured by the plastic it acts on and shaped by its origin. A grey halo outlines one component: nodes inside the same halo are linked by a chain of alignments at 30% identity or more. Components are grouped by catalytic family. Drawn lines are the strongest links only (40% identity and up), and a node can belong to a component without any drawn line. Labelled nodes are the curated seed enzymes. Because this map is drawn on all 609 enzymes and also requires 50% alignment coverage, it shows 56 components; the assignment itself, on the 411 centroids without a coverage rule, gives 46 (<a href="#m-fig">Methods</a>).</figcaption>
+  </figure>
+  <div class="note">
+    Figure 1 is panel a-i, rendered from the hand-edited <code>logan-plasticome-figure/ssn/out/figure_ai_c30_d40_k3.svg</code> (30 September; the PNG and PDF beside it predate the edits) with <code>rsvg-convert -w 4800</code>, saved in this folder's <code>assets/</code> as the full PNG plus a 2400 px JPEG. Re-render after further SVG edits. Two leftovers to fix in the SVG: stray "Legen" text after "15 seqs" under Oxygenase-like, and one green A/B hydrolase node sitting just outside the bottom-left of the dashed frame. It is <b>not</b> drawn from the pipeline partition: it runs DIAMOND on 609 sequences with 30% identity over 50% coverage, giving 56 components (the same 56 the forest caption on 02 calls "sequence-similarity families"). Crosswalk by plasticome ID: the map's largest component is C001 plus one C033 singleton, and C001 falls apart into 8 map components because of the coverage rule; C014, C034 and C015 also split. One other map component holds the six C045 enzymes plus two C001 enzymes. Either redraw the map from <code>05-union-with-components.tsv</code>, or keep the caption's last sentence. The chips under the figure use the pipeline's 46 and link to the 01 plasticome explorer with that component selected (<code>#comp=C001</code>).
+  </div>
+  <h3>What the map shows</h3>
+  <p class="prose own">Most of what is known about plastic-degrading enzymes sits in one component. C001, the α/β-hydrolase family of IsPETase and LCC, holds 337 of the 609 plasticome enzymes and 327 of the 376 that act on PET. The other 272 enzymes are spread over 45 components, and 27 of those have only one or two enzymes. Research has followed a few successful PET hydrolases and their close relatives, so the known diversity is narrow. PETadex searches outward from every component, not only C001, to find plastic-degrading enzymes beyond this one family.</p>
+  <p class="prose own">Each enzyme's component is listed in the <a href="../01%20plasticome/plasticome-curation.html#explore">plasticome explorer</a>, which can also filter by component.</p>
+  <a class="cta" href="#methods">Read the full assignment methods →</a>
+</section>
+
+<!-- =========================================================== -->
+<!-- PAGE 2: METHODS. Lives at /dry-lab/model/component-assignment/ (not in any menu) -->
+<!-- =========================================================== -->
+<section class="page" id="page-methods" hidden>
+  <div class="eyebrow">Model · Methods</div>
+  <h1>Component Assignment: Methods</h1>
+  <div class="note">
+    New MDX file, following <code>dry-lab/model/plasticome/</code>: frontmatter <code>path: "/dry-lab/model/component-assignment/"</code>, <code>order: 24</code>, reached only from the link at the end of the overview. Facts follow <code>lib/03 alignment/README.md</code>, the run's <code>summary.md</code> and <code>runs/2026-08-05.diamond/REPORT_diamond_vs_usearch.md</code>.
+    <ul><li>Source key: <span class="key own">no manuscript text, drafted for the wiki</span>.</li></ul>
+  </div>
+  <div class="callout">This page is the full write-up behind the <a href="#overview">Component Assignment</a> subsection of the Model page. It picks up where <a href="../01%20plasticome/plasticome-curation.html#methods">Plasticome Reference Curation</a> ends, with 609 enzymes clustered at 90% identity into <span data-n="stats.n_nodes"></span> centroids.</div>
+
+  <div class="methods-layout">
+    <nav class="toc" aria-label="On this page"><ol>
+      <li><a href="#m-why">Why components</a></li>
+      <li><a href="#m-inputs">Inputs</a></li>
+      <li><a href="#m-align">All-against-all alignment</a></li>
+      <li><a href="#m-edge">When two centroids are linked</a></li>
+      <li><a href="#m-cc">Connected components</a></li>
+      <li><a href="#m-cut">Choosing 30%</a></li>
+      <li><a href="#m-fold">Components and folds</a></li>
+      <li><a href="#m-2x2">USEARCH or DIAMOND</a></li>
+      <li><a href="#m-check">Checks</a></li>
+      <li><a href="#m-out">Back to 609 enzymes</a></li>
+      <li><a href="#m-fig">About Figure 1</a></li>
+      <li><a href="#m-limits">Limitations</a></li>
+      <li><a href="#m-repro">Reproducing</a></li>
+    </ol></nav>
+
+    <div class="prose" style="max-width:none">
+      <h2 id="m-why" style="margin-top:0">Why components</h2>
+      <div class="own">
+        <p>The next steps of PETadex search public sequence databases for relatives of the plasticome. Those searches, and the profile models that filter their results, are built per family. A component is our working definition of a family: a set of plasticome enzymes joined to each other by chains of clear sequence similarity.</p>
+        <p>The plasticome cannot be treated as one family. It contains several unrelated folds (see <a href="../02%20CATH%20Assignment/cath-assignment.html#overview">CATH Assignment</a>), and sequences from different folds do not align in any meaningful way. Components split it into groups that can each be aligned and searched on their own.</p>
+      </div>
+
+      <figure aria-labelledby="fpt">
+        <p class="figtitle" id="fpt">Figure 2. From 411 centroids to 46 components</p>
+        <p class="figsub">Counts are from the final run.</p>
+        <div class="flow4" id="flow"></div>
+        <figcaption class="own">Every centroid is aligned to every other. Each pair keeps its best alignment. A pair becomes a link if it passes both the identity and the E-value rule, and the components are the connected groups of the resulting graph. Each of the 609 enzymes then takes the component of its centroid.</figcaption>
+      </figure>
+
+      <h2 id="m-inputs">Inputs</h2>
+      <div class="own">
+        <p>The input is the <span data-n="stats.n_nodes"></span> cluster centroids from clustering the plasticome at 90% identity. Clustering first keeps near-identical enzymes from adding hundreds of redundant alignments. Cluster members are not aligned here; each joins the component of its centroid, which it matches at 90% identity or more.</p>
+        <p>Each centroid becomes one node of the graph, identified by the MD5 hash of its sequence (letters only, upper case). Identical sequences from different records are therefore one node. All <span data-n="stats.n_nodes"></span> centroid sequences are distinct, giving <span data-n="stats.n_nodes"></span> nodes and <span data-n="stats.db_letters_N"></span> residues in total.</p>
+      </div>
+
+      <h2 id="m-align">All-against-all alignment</h2>
+      <div class="own">
+        <p>Every centroid was aligned to every other with USEARCH v11, using local alignment and keeping every hit, however weak:</p>
+      </div>
+      <pre>usearch -allpairs_local combined.fasta -acceptall -userout combined_pairs.tsv \
+    -userfields query+target+id+evalue+bits
+usearch -allpairs_local combined_rev.fasta -acceptall -userout combined_rev_pairs.tsv ...</pre>
+      <div class="own">
+        <p><code>-allpairs_local</code> aligns each sequence only against those after it in the file, so a pair can come out differently depending on which sequence is the query. The search is therefore run twice, once on the file reversed, and both outputs are pooled. This gave <span data-n="stats.raw_alignments"></span> alignments over <span data-n="stats.aligned_pairs"></span> distinct pairs. Each pair keeps the alignment with the highest bit score (ties go to the lower E-value), so every pair is judged on one alignment.</p>
+        <p>No threshold is applied during the search. All filtering happens afterwards, on the saved alignments, so the cutoff can be changed and the components recomputed without aligning again.</p>
+      </div>
+
+      <h2 id="m-edge">When two centroids are linked</h2>
+      <div class="own">
+        <p>Two centroids are linked if their best alignment has both:</p>
+        <ul>
+          <li><b>at least 30% amino acid identity</b>, and</li>
+          <li><b>E-value below 10<sup>−5</sup></b>, as reported for this search (a database of <span data-n="stats.db_letters_N"></span> residues).</li>
+        </ul>
+        <p>The E-value rule removes short, chance alignments that reach 30% identity over a few dozen residues. The identity rule removes long alignments between distant relatives whose E-values are small only because the sequences are long. <span data-n="stats.edges_passing"></span> of the <span data-n="stats.aligned_pairs"></span> aligned pairs pass both.</p>
+      </div>
+      <figure aria-labelledby="fht" class="hist">
+        <p class="figtitle" id="fht">Figure 3. Where the identity cutoff sits</p>
+        <p class="figsub">Best alignment per pair of centroids, for every pair with E &lt; 10<sup>−5</sup>, binned by percent identity. Hover a bar for the count.</p>
+        <div id="hist"></div>
+        <figcaption class="own">Almost every pair that passes the E-value rule is at 20% identity or more, and most sit between 35% and 50%: these are the many members of the α/β-hydrolase component aligned to each other. The pairs below 30% (grey) are links the cutoff refuses. They matter far more than their number suggests, because one such link is enough to join two components (<a href="#m-cut">Choosing 30%</a>).</figcaption>
+      </figure>
+      <div class="note">Figure 3 is recomputed from <code>combined_pairs.tsv</code> and <code>combined_rev_pairs.tsv</code> with the same best-HSP rule as <code>step23_graph.py</code>, so the bars above 30% add up to the run's <span data-n="stats.edges_passing"></span> edges.</div>
+
+      <h2 id="m-cc">Connected components</h2>
+      <div class="own">
+        <p>The links form a graph, and each connected piece of it is one component: two centroids are in the same component if a chain of links joins them, even when they are not linked directly (single linkage). Components are numbered by size, largest first.</p>
+        <p>We use connected components instead of assigning each centroid to its single best match. Best-hit assignment breaks up families that are continuous: a chain A–B–C, where A and C are too distant to align, can end up as two groups depending on which of B's matches scores higher. Families like the α/β-hydrolases are exactly such chains, with distant members joined through intermediates.</p>
+      </div>
+      <div class="bars" id="sizeBars" style="max-width:520px;margin:12px 0 4px"></div>
+      <p class="count">Components by number of centroids.</p>
+
+      <h2 id="m-cut">Choosing 30%</h2>
+      <div class="own">
+        <p>The cutoff decides how coarse the components are. We re-ran the partition at other identity cutoffs on the same alignments and scored each against the CATH superfamily of each centroid's catalytic domain. A component is "mixed" if it contains more than one catalytic superfamily.</p>
+      </div>
+      <div class="tablewrap" style="max-width:720px"><table>
+        <thead><tr><th class="num">Identity cutoff</th><th class="num">Components</th><th class="num">Single centroids</th><th class="num">Largest</th><th class="num">Mixed components</th><th class="num">Centroids in their component's majority fold</th></tr></thead>
+        <tbody id="tSweep"></tbody>
+      </table></div>
+      <div class="own">
+        <p>30% is the loosest cutoff at which no component mixes folds. Below it, the five subtilisin-family protease centroids join an α/β-hydrolase component. Above it, components only break into smaller pieces of the same fold: nothing is gained in purity, and each family is split into more, smaller searches.</p>
+      </div>
+      <div class="note">The sweep is computed in <code>extract_data.py</code> on this run's alignments. The fold labels come from 02 CATH Assignment, which was itself split into catalytic and accessory domains using these components, so the purity score is a consistency check, not an independent one. <code>logan-plasticome-figure/ssn/README.md</code> has the same kind of table for the 609-sequence map (99.8% at 30%).</div>
+
+      <h2 id="m-fold">Components and folds</h2>
+      <div class="own">
+        <p>Components are finer than folds. Every component contains one catalytic fold, but one fold can be spread over many components. The α/β-hydrolase fold alone spans <span id="nAB"></span> components: its members are related by structure, but many are too distant in sequence to be linked at 30%. The fold groups of the <a href="../02%20CATH%20Assignment/cath-assignment.html#overview">forest figure</a> gather components back together by fold.</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Component</th><th class="num">Centroids</th><th class="num">Enzymes</th><th>Catalytic domain</th><th>Examples</th></tr></thead>
+        <tbody id="tComps"></tbody>
+      </table></div>
+      <p class="count">The ten largest components. All <span data-n="stats.n_components"></span> are in the plasticome explorer.</p>
+
+      <h2 id="m-2x2">USEARCH or DIAMOND</h2>
+      <div class="own">
+        <p>Two steps depend on an alignment engine: clustering at 90% (which sequences become centroids) and this all-against-all alignment (how centroids group into components). To see how much the components depend on that choice, we ran all four combinations of USEARCH and DIAMOND on the same input, with the same linking rule.</p>
+      </div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Clustering</th><th>Alignment</th><th class="num">Centroids</th><th class="num">Aligned pairs</th><th class="num">Links</th><th class="num">Components</th><th class="num">Single</th><th class="num">Largest</th></tr></thead>
+        <tbody id="tFac"></tbody>
+      </table></div>
+      <div class="own">
+        <p><b>The aligner barely matters.</b> With the clustering held fixed, 42 of 47 components are identical with either aligner, and six or seven centroids cross a component boundary on links close to the cutoff. DIAMOND reports fewer aligned pairs but passes about 120 more links.</p>
+        <p><b>The clusterer matters only through the centroids.</b> With the USEARCH aligner, the 295 centroids both clusterers chose keep exactly the same components; with DIAMOND, two move. The real difference is which and how many centroids there are (404 against 413).</p>
+        <p>In every combination the second to fifth largest components have 45, 19, 16 and 14 centroids. Only the large α/β-hydrolase component changes size, from 218 to 233, as distant members join or leave it. The partition is therefore stable to the choice of engine, and we use USEARCH for both steps.</p>
+      </div>
+      <div class="note">The 2×2 ran on an earlier 610-row union (2026-08-05), which is why it shows 413 and 404 centroids and 47 to 48 components, against 411 and 46 in the final run. The final run uses the USEARCH/USEARCH arm. Per-cell detail: <code>runs/2026-08-05.diamond/REPORT_diamond_vs_usearch.md</code>.</div>
+
+      <h2 id="m-check">Checks</h2>
+      <div class="own">
+        <ul>
+          <li><b>Reproducing the original PETadex components.</b> The same code, applied to the 213 sequences of the original PETadex seed set, gives the published 42 components (3,178 links). This engine check is step 0 of the standalone driver.</li>
+          <li><b>Old component labels are respected.</b> <span data-n="stats.n_nodes_with_v1_overlay"></span> centroids carry a component label from the original set. The labels are compared afterwards and never used to build the partition. No old component is split across two new ones (<span data-n="stats.n_v1_labels_split_across_components"></span> splits).</li>
+          <li><b>Identical sequences cannot be separated.</b> Nodes are sequence hashes, so two records with the same sequence are always in the same component.</li>
+        </ul>
+      </div>
+
+      <h2 id="m-out">Back to 609 enzymes</h2>
+      <div class="own">
+        <p>Each of the 609 plasticome enzymes takes the component of the centroid of its 90% cluster: <span data-n="union.centroids"></span> are centroids themselves and the rest are cluster members. The result is one table with a row per enzyme, giving its cluster, its centroid, its identity to that centroid and its component. This is the table 02 CATH Assignment uses to separate catalytic from accessory domains, and the component column is what later steps search by.</p>
+      </div>
+
+      <h2 id="m-fig">About Figure 1</h2>
+      <div class="own">
+        <p>Figure 1 is drawn for readability, not as the assignment itself. It shows all 609 enzymes, not only the centroids, and uses DIAMOND with an extra rule that an alignment must cover at least half of the shorter sequence. That rule cuts some long-range links inside the α/β-hydrolase family, so the map shows 56 components instead of 46. Almost every component of the map lies inside one component of the assignment. The exceptions are three α/β-hydrolase enzymes that sit with a different α/β-hydrolase group on the map than in the assignment.</p>
+      </div>
+
+      <h2 id="m-limits">Limitations</h2>
+      <div class="own">
+        <ul>
+          <li><b>One link is enough.</b> Single linkage joins two groups through one alignment. This is what keeps continuous families together, and also what would merge two families if a single spurious alignment passed both rules.</li>
+          <li><b>No coverage rule.</b> A link can come from an alignment over part of each sequence, such as a shared accessory domain. The fold check above found no component that mixes catalytic folds at 30%.</li>
+          <li><b>Components are not folds.</b> Distant members of one fold land in separate components. Fold-level grouping comes from CATH, not from this step.</li>
+          <li><b>Single centroids.</b> <span data-n="stats.n_singletons"></span> centroids have no link. Each is still searched on its own, but from a family of one.</li>
+        </ul>
+      </div>
+
+      <h2 id="m-repro">Reproducing</h2>
+      <p class="own">Component assignment is step 3 of the plasticome pipeline. One driver runs it with the steps around it:</p>
+      <pre>./pipeline_run.bash &lt;run-name&gt; --engine usearch --to 6
+# step 3 alone, on an existing cluster table
+ENGINE=usearch "lib/03 alignment/run_from_clusters.sh" runs/&lt;run&gt;/02-clusters.tsv</pre>
+      <p class="own">USEARCH v11 is a Linux binary and runs in Docker. The step writes <code>03-alignment.tsv</code> (the cluster table with a <code>component_id</code> column), the per-enzyme table <code>05-union-with-components.tsv</code>, and every intermediate (alignments, links, component members, run statistics) under <code>03-alignment.intermediates/</code>.</p>
+      <div class="note">The pipeline's default engine is now DIAMOND; the final run used <code>--engine usearch</code>, so the command above names it. Step 0 (the 213-sequence check) runs in <code>lib/03 alignment/run.sh</code>, not in <code>run_from_clusters.sh</code>. Add the GitHub link once the repository is public. Demo ideas, not built: an interactive version of Figure 1 with the cutoff as a slider, redrawn from the saved alignments.</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+const D = /*DATA*/null;
+const $ = (s, r = document) => r.querySelector(s);
+const fmt = n => n.toLocaleString("en-US");
+const get = path => path.split(".").reduce((o, k) => o == null ? o : o[k], D);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const blank = v => !v || v === "-" || v === "NA";
+const pretty = s => s.replace("alpha/beta", "α/β").replace(/\s+-\s+/, ", ");
+const domOf = c => blank(c.cath) ? pretty(c.dom) : pretty(D.names[c.cath] || c.dom);
+
+/* ---------- tooltip ---------- */
+const tip = $("#tip");
+function showTip(e, html) { tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e) {
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + pad, y = e.clientY + pad;
+  if (x + w > innerWidth - 8) x = e.clientX - w - pad;
+  if (y + h > innerHeight - 8) y = e.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() { tip.style.opacity = 0; }
+function bindTip(el, html) {
+  el.addEventListener("pointerenter", e => showTip(e, html));
+  el.addEventListener("pointermove", moveTip);
+  el.addEventListener("pointerleave", hideTip);
+}
+
+/* ---------- number slots ---------- */
+document.querySelectorAll("[data-n]").forEach(el => { const v = get(el.dataset.n); el.textContent = v == null ? "?" : fmt(v); });
+
+/* ---------- figure 1: interactive component map ---------- */
+const XP = "../01%20plasticome/plasticome-curation.html";
+const M = D.map, MN = M.nodes, COMP = Object.fromEntries(D.comps.map(c => [c.c, c]));
+const SUB = { PET: "#275ca0", PE: "#e8559e", PA: "#40b6c5", PUR: "#f0c95e", PLA: "#cc490b", PBAT: "#9a6fd4", PBS: "#23873d", PHA: "#8fbf5f", PC: "#8c6d46", NR: "#959595", "Combi.": "#262626" };
+const SUBNAME = { NR: "Not reported", "Combi.": "Several plastics" };
+const ORIGIN = { D: "Bacterial", h: "Eukaryotic", o: "Metagenomic" };
+const SVGNS = "http://www.w3.org/2000/svg";
+const map = $("#map");
+const el = (tag, attrs, parent) => { const e = document.createElementNS(SVGNS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const fy = y => -y; // the layout is y-up
+function markPath(shape, x, y, r) {
+  if (shape === "D") return `M${x} ${y - r * 1.25}L${x + r * 1.25} ${y}L${x} ${y + r * 1.25}L${x - r * 1.25} ${y}Z`;
+  if (shape === "h") return Array.from({ length: 6 }, (_, k) => { const a = Math.PI / 6 + k * Math.PI / 3; return `${k ? "L" : "M"}${(x + r * 1.1 * Math.cos(a)).toFixed(3)} ${(y + r * 1.1 * Math.sin(a)).toFixed(3)}`; }).join("") + "Z";
+  return `M${x - r} ${y}a${r} ${r} 0 1 0 ${2 * r} 0a${r} ${r} 0 1 0 ${-2 * r} 0`;
+}
+// sections: one per catalytic family, headed above the bounding box of its nodes
+const FAM = {};
+MN.forEach(n => { const f = FAM[n.fam] ||= { fam: n.fam, x0: 1e9, x1: -1e9, top: 1e9, maps: new Set(), n: 0 }; f.x0 = Math.min(f.x0, n.x); f.x1 = Math.max(f.x1, n.x); f.top = Math.min(f.top, fy(n.y)); f.maps.add(n.m); f.n++; });
+const BOX = (() => { const xs = MN.map(n => n.x), ys = MN.map(n => fy(n.y)); const x0 = Math.min(...xs) - 2, y0 = Math.min(...ys) - 4.2; return { x: x0, y: y0, w: Math.max(...xs) + 2 - x0, h: Math.max(...ys) + 2 - y0 }; })();
+let view = { ...BOX };
+const setView = v => { view = v; map.setAttribute("viewBox", `${v.x} ${v.y} ${v.w} ${v.h}`); };
+(function draw() {
+  const halo = el("g", { class: "halo" }, map), edges = el("g", { class: "edges" }, map), nodes = el("g", { class: "nodes" }, map), labs = el("g", {}, map);
+  MN.forEach((n, i) => { n.halo = el("circle", { cx: n.x, cy: fy(n.y), r: M.pad }, halo); });
+  M.bridges.forEach(([a, b]) => { const l = el("line", { x1: MN[a].x, y1: fy(MN[a].y), x2: MN[b].x, y2: fy(MN[b].y), "stroke-width": 2 * M.pad * 0.42, "stroke-linecap": "round" }, halo); (MN[a].bridges ||= []).push(l); });
+  M.edges.forEach(([a, b, p]) => { const l = el("line", { x1: MN[a].x, y1: fy(MN[a].y), x2: MN[b].x, y2: fy(MN[b].y), "stroke-width": (0.03 + 0.11 * (p - 40) / 60).toFixed(3), "stroke-opacity": 0.75 }, edges); (MN[a].edges ||= []).push([l, MN[b]]); (MN[b].edges ||= []).push([l, MN[a]]); });
+  MN.forEach((n, i) => {
+    n.el = el("path", { d: markPath(n.shape, n.x, fy(n.y), n.seed ? 0.4 : 0.32), fill: SUB[n.sub] || "#959595", "stroke-width": n.seed ? 0.13 : 0.05, class: "nd" + (n.seed ? " seed" : ""), "data-i": i }, nodes);
+    if (n.seed) { const t = el("text", { x: n.x + 0.7, y: fy(n.y) - 0.55, "font-size": 0.95, class: "lab", "stroke-width": 0.25 }, labs); t.textContent = n.seed; }
+  });
+  Object.values(FAM).forEach(f => {
+    const t = el("text", { x: f.x0 - 0.8, y: f.top - 2.6, "font-size": 1.5 }, labs); t.textContent = f.fam;
+    const u = el("text", { x: f.x0 - 0.8, y: f.top - 1.4, "font-size": 0.85, class: "sub" }, labs);
+    u.textContent = `${f.maps.size} component${f.maps.size > 1 ? "s" : ""} on the map, ${f.n} enzymes`;
+  });
+  const bb = map.getBBox(), m = 1.2;
+  Object.assign(BOX, { x: bb.x - m, y: bb.y - m, w: bb.width + 2 * m, h: bb.height + 2 * m });
+  setView({ ...BOX });
+})();
+
+// legend: substrates are buttons that highlight; shapes are a key
+const subsPresent = Object.keys(SUB).filter(k => MN.some(n => n.sub === k));
+$("#mapLegend").innerHTML = subsPresent.map(k => `<button type="button" data-sub="${k}" aria-pressed="false"><i class="sw" style="background:${SUB[k]}"></i>${SUBNAME[k] || k}</button>`).join("") +
+  Object.entries(ORIGIN).map(([k, l]) => `<span class="shp"><svg width="12" height="12" viewBox="-1 -1 2 2"><path d="${markPath(k, 0, 0, k === "D" ? 0.7 : 0.8)}" fill="none" stroke="currentColor" stroke-width="0.2"/></svg>${l}</span>`).join("");
+
+// focus: one highlight at a time, a component, a substrate or a search
+let focus = null;
+const chipHTML = c => `<a href="${XP}#comp=${c.c}" data-c="${c.c}" aria-pressed="false" title="${esc(c.c)}: ${c.cent} centroid${c.cent > 1 ? "s" : ""}, ${c.enz} enzymes. ${esc(c.ex.join(", "))}"><span class="dom">${esc(domOf(c))}</span><small>${c.c} · ${c.enz}</small></a>`;
+const multi = D.comps.filter(c => c.cent > 1), single = D.comps.filter(c => c.cent === 1);
+$("#compCount").textContent = `(${D.comps.length})`;
+$("#compBtns").innerHTML = multi.map(chipHTML).join("") + `<span class="sep"></span>` + single.map(chipHTML).join("");
+function fit(ns) {
+  if (!ns.length) return;
+  const xs = ns.map(n => n.x), ys = ns.map(n => fy(n.y)), pad = 3.5;
+  let x0 = Math.min(...xs) - pad, x1 = Math.max(...xs) + pad, y0 = Math.min(...ys) - pad - 2, y1 = Math.max(...ys) + pad;
+  const ar = BOX.w / BOX.h, w = Math.max(x1 - x0, (y1 - y0) * ar, 12), h = w / ar;
+  setView({ x: (x0 + x1) / 2 - w / 2, y: (y0 + y1) / 2 - h / 2, w, h });
+}
+function applyFocus(f, zoom) {
+  focus = f;
+  const on = f ? MN.filter(f.test) : [];
+  const onSet = new Set(on), maps = new Set(on.map(n => n.m));
+  MN.forEach(n => {
+    n.el.classList.toggle("dim", !!f && !onSet.has(n)); n.el.classList.toggle("hit", !!f && onSet.has(n));
+    const lit = !!f && f.kind === "comp" && maps.has(n.m) && onSet.has(n);
+    n.halo.classList.toggle("on", lit); (n.bridges || []).forEach(b => b.classList.toggle("on", lit));
+  });
+  MN.forEach(n => (n.edges || []).forEach(([l, o]) => l.classList.toggle("dim", !!f && !(onSet.has(n) && onSet.has(o)))));
+  document.querySelectorAll("#compBtns a").forEach(a => a.setAttribute("aria-pressed", f && f.kind === "comp" && f.key === a.dataset.c));
+  document.querySelectorAll("#mapLegend [data-sub]").forEach(b => b.setAttribute("aria-pressed", f && f.kind === "sub" && f.key === b.dataset.sub));
+  const P = $("#mapPanel");
+  if (!f) P.innerHTML = "Click an enzyme to highlight its component.";
+  else if (f.kind === "comp") {
+    const c = COMP[f.key], ms = maps.size;
+    P.innerHTML = `<b>${c.c} · ${esc(domOf(c))}</b>: ${c.cent} centroid${c.cent > 1 ? "s" : ""}, ${c.enz} enzymes${ms > 1 ? `, drawn as ${ms} separate groups on the map (the map also requires 50% coverage)` : ""}. ` +
+      `<a href="${XP}#comp=${c.c}">List them in the plasticome explorer →</a> · <a href="#" data-clear>Clear</a>`;
+  } else P.innerHTML = `<b>${on.length}</b> enzyme${on.length === 1 ? "" : "s"} ${f.kind === "sub" ? `act on ${esc(SUBNAME[f.key] || f.key)}` : `match “${esc(f.key)}”`}. <a href="#" data-clear>Clear</a>`;
+  if (zoom) on.length ? fit(on) : setView({ ...BOX });
+}
+const compFocus = (c, zoom) => applyFocus({ kind: "comp", key: c, test: n => n.c === c }, zoom);
+applyFocus(null);
+$("#mapPanel").addEventListener("click", e => { if (e.target.closest("[data-clear]")) { e.preventDefault(); $("#mapQ").value = ""; applyFocus(null, true); } });
+$("#compBtns").addEventListener("click", e => { const a = e.target.closest("[data-c]"); if (!a || e.metaKey || e.ctrlKey) return; e.preventDefault(); focus && focus.key === a.dataset.c ? applyFocus(null, true) : compFocus(a.dataset.c, true); });
+$("#mapLegend").addEventListener("click", e => { const b = e.target.closest("[data-sub]"); if (!b) return; const k = b.dataset.sub; focus && focus.key === k ? applyFocus(null) : applyFocus({ kind: "sub", key: k, test: n => n.sub === k }); });
+$("#mapQ").addEventListener("input", e => { const q = e.target.value.trim().toLowerCase(); q ? applyFocus({ kind: "q", key: e.target.value.trim(), test: n => n.name.toLowerCase().includes(q) || `pl${n.id}` === q.replace(/\s/g, "") }) : applyFocus(null); });
+$("#mapQ").addEventListener("keydown", e => { if (e.key === "Enter" && focus) applyFocus(focus, true); });
+
+// hover and click on nodes
+const nodeAt = e => { const t = e.target.closest && e.target.closest(".nd"); return t ? MN[+t.dataset.i] : null; };
+map.addEventListener("pointermove", e => { if (drag) return; const n = nodeAt(e); if (!n) return hideTip(); const c = COMP[n.c];
+  showTip(e, `<b>${esc(n.name)}</b> · PL${n.id}${n.seed ? " · seed" : ""}<br>${esc(n.raw && n.raw !== "NA" ? n.raw : "Substrate not reported")} · ${ORIGIN[n.shape]}<br>${esc(pretty(n.dom.split(";")[0]))}<br>Component <b>${n.c}</b> (${c ? c.enz : "?"} enzymes)`); });
+map.addEventListener("pointerleave", hideTip);
+
+// pan, zoom
+let drag = null;
+const toSvg = (cx, cy) => { const r = map.getBoundingClientRect(); return { x: view.x + (cx - r.left) / r.width * view.w, y: view.y + (cy - r.top) / r.height * view.h }; };
+function zoomAt(k, cx, cy) {
+  const p = cx == null ? { x: view.x + view.w / 2, y: view.y + view.h / 2 } : toSvg(cx, cy);
+  const w = Math.min(Math.max(view.w * k, 8), BOX.w * 1.5), h = w * BOX.h / BOX.w, s = w / view.w;
+  setView({ x: p.x - (p.x - view.x) * s, y: p.y - (p.y - view.y) * s, w, h });
+}
+map.addEventListener("pointerdown", e => { drag = { x: e.clientX, y: e.clientY, v: { ...view }, moved: false, n: nodeAt(e) }; map.setPointerCapture(e.pointerId); });
+map.addEventListener("pointermove", e => { if (!drag) return; const dx = e.clientX - drag.x, dy = e.clientY - drag.y; if (Math.hypot(dx, dy) < 4 && !drag.moved) return;
+  drag.moved = true; map.classList.add("drag"); hideTip(); const r = map.getBoundingClientRect();
+  setView({ ...drag.v, x: drag.v.x - dx / r.width * drag.v.w, y: drag.v.y - dy / r.height * drag.v.h }); });
+map.addEventListener("pointerup", () => { if (drag && !drag.moved) { const n = drag.n; n ? (focus && focus.kind === "comp" && focus.key === n.c ? applyFocus(null) : compFocus(n.c)) : focus && applyFocus(null); }
+  drag = null; map.classList.remove("drag"); });
+map.addEventListener("wheel", e => { if (!e.ctrlKey && !e.metaKey) return; e.preventDefault(); zoomAt(Math.exp(e.deltaY * 0.01), e.clientX, e.clientY); }, { passive: false });
+map.addEventListener("dblclick", e => zoomAt(0.6, e.clientX, e.clientY));
+document.querySelector(".zoom").addEventListener("click", e => { const z = e.target.closest("[data-z]"); if (!z) return; z.dataset.z === "reset" ? setView({ ...BOX }) : zoomAt(z.dataset.z === "in" ? 0.7 : 1 / 0.7); });
+
+/* ---------- bars helper (as on the plasticome page) ---------- */
+function stacked(el, rows, max) {
+  el.innerHTML = "";
+  rows.forEach(({ label, parts, title }) => {
+    const tot = parts.reduce((a, p) => a + p.n, 0);
+    const lab = document.createElement("div"); lab.className = "lab"; lab.innerHTML = label; lab.title = title || "";
+    const track = document.createElement("div"); track.className = "track";
+    parts.filter(p => p.n).forEach(p => {
+      const s = document.createElement("div"); s.className = "seg";
+      s.style.cssText = `width:${100 * p.n / max}%;background:${p.c}`;
+      bindTip(s, `<b>${label.replace(/<[^>]+>/g, "")}</b><br>${p.l}: ${fmt(p.n)}${parts.length > 1 ? " of " + fmt(tot) : ""}`);
+      track.appendChild(s);
+    });
+    const val = document.createElement("div"); val.className = "val"; val.textContent = fmt(tot);
+    el.append(lab, track, val);
+  });
+}
+
+/* ---------- methods: flow ---------- */
+const S = D.stats;
+$("#flow").innerHTML = `
+  <div class="lane"><div class="node"><div class="n">${fmt(S.n_nodes)}</div><div class="t">Centroids</div><div class="d">Plasticome clustered at 90% identity; one node per distinct sequence</div></div></div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="lane"><div class="node"><div class="rt">USEARCH · both orientations</div><div class="n">${fmt(S.aligned_pairs)}</div><div class="t">Aligned pairs</div><div class="d">${fmt(S.raw_alignments)} alignments, best per pair by bit score</div></div></div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="lane"><div class="node"><div class="rt">≥ 30% identity · E &lt; 10⁻⁵</div><div class="n">${fmt(S.edges_passing)}</div><div class="t">Links</div><div class="d">Applied after the search, never during it</div></div>
+    <div class="node"><div class="n">${fmt(S.n_components)}</div><div class="t">Connected components</div><div class="d">Largest ${fmt(S.largest_component)} centroids; ${fmt(S.n_singletons)} single</div></div></div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="lane"><div class="node out"><div class="n">${fmt(D.union.n)}</div><div class="t">Plasticome, one row per enzyme</div><div class="d">Each enzyme takes the component of its centroid</div></div></div>`;
+
+/* ---------- methods: identity histogram ---------- */
+(function () {
+  const h = D.pid_hist, n = h.counts.length, mx = Math.max(...h.counts);
+  const W = 760, H = 260, l = 56, r = 12, t = 16, b = 40;
+  const x = i => l + i / n * (W - l - r), y = v => t + (1 - v / mx) * (H - t - b);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Histogram of percent identity for centroid pairs with E-value below 1e-5"><g class="axis">`;
+  for (let v = 0; v <= mx; v += 1000) s += `<line x1="${l}" x2="${W - r}" y1="${y(v)}" y2="${y(v)}"/><text x="${l - 8}" y="${y(v) + 4}" text-anchor="end">${fmt(v)}</text>`;
+  for (let i = 0; i <= n; i += 2) s += `<text x="${x(i)}" y="${H - b + 18}" text-anchor="middle">${i * h.w}%</text>`;
+  s += `<text x="${(l + W - r) / 2}" y="${H - 4}" text-anchor="middle">Identity of the best alignment</text></g>`;
+  h.counts.forEach((c, i) => {
+    const good = i * h.w >= 30;
+    s += `<rect class="bar" data-i="${i}" x="${x(i) + 1}" y="${y(c)}" width="${Math.max(x(i + 1) - x(i) - 2, 1)}" height="${y(0) - y(c)}" rx="2" fill="${good ? "var(--s-v2)" : "var(--color-muted)"}"/>`;
+  });
+  const cx = x(30 / h.w);
+  s += `<line x1="${cx}" x2="${cx}" y1="${t - 6}" y2="${y(0)}" stroke="var(--color-text)" stroke-dasharray="4 4"/><text x="${cx - 6}" y="${t + 4}" text-anchor="end">cutoff 30%</text>`;
+  $("#hist").innerHTML = s + "</svg>";
+  $("#hist").querySelectorAll("rect.bar").forEach(rc => { const i = +rc.dataset.i;
+    bindTip(rc, `<b>${i * h.w}% to ${(i + 1) * h.w}%</b><br>${fmt(h.counts[i])} pairs`); });
+})();
+
+/* ---------- methods: component sizes ---------- */
+const sz = Object.entries(D.size_hist).map(([k, n]) => [+k, n]).sort((a, b) => b[0] - a[0]);
+stacked($("#sizeBars"), sz.map(([k, n]) => ({ label: `${k} centroid${k > 1 ? "s" : ""}`, parts: [{ n, c: "var(--s-one)", l: "Components" }] })), Math.max(...sz.map(r => r[1])));
+
+/* ---------- methods: tables ---------- */
+$("#tSweep").innerHTML = D.sweep.map(r => `<tr class="${r.cut === 30 ? "used" : ""}"><td class="num">${r.cut}%${r.cut === 30 ? " (used)" : ""}</td><td class="num">${fmt(r.comps)}</td><td class="num">${fmt(r.single)}</td><td class="num">${fmt(r.largest)}</td><td class="num">${r.mixed}</td><td class="num">${r.purity}%</td></tr>`).join("");
+$("#nAB").textContent = D.comps.filter(c => c.cath === "3.40.50.1820").length;
+$("#tComps").innerHTML = D.comps.slice(0, 10).map(c => `<tr><td><a class="mono" href="${XP}#comp=${c.c}">${c.c}</a></td><td class="num">${c.cent}</td><td class="num">${c.enz}</td><td>${blank(c.cath) ? `<span class="mono">none</span>` : `<span class="mono">${c.cath}</span>`} ${esc(domOf(c))}</td><td>${esc([...new Set(c.ex)].join(", "))}</td></tr>`).join("");
+const ENG = { usearch: "USEARCH", diamond: "DIAMOND" };
+$("#tFac").innerHTML = D.factorial.map(r => `<tr class="${r.clust === "usearch" && r.align === "usearch" ? "used" : ""}"><td>${ENG[r.clust]}</td><td>${ENG[r.align]}</td><td class="num">${fmt(r.nodes)}</td><td class="num">${fmt(r.pairs)}</td><td class="num">${fmt(r.edges)}</td><td class="num">${r.comps}</td><td class="num">${r.single}</td><td class="num">${r.largest}</td></tr>`).join("");
+
+/* ---------- routing + toggles ---------- */
+function route() {
+  const p = location.hash === "#methods" || location.hash.startsWith("#m-") ? "methods" : "overview";
+  $("#page-overview").hidden = p !== "overview"; $("#page-methods").hidden = p !== "methods";
+  document.querySelectorAll(".draftbar nav a").forEach(a => a.dataset.page === p ? a.setAttribute("aria-current", "page") : a.removeAttribute("aria-current"));
+  if (location.hash === "#methods" || location.hash === "#overview" || !location.hash) scrollTo(0, 0);
+}
+addEventListener("hashchange", route); route();
+$("#notesToggle").addEventListener("change", e => document.body.classList.toggle("show-notes-off", !e.target.checked));
+$("#darkToggle").checked = matchMedia("(prefers-color-scheme: dark)").matches;
+$("#darkToggle").addEventListener("change", e => document.documentElement.dataset.theme = e.target.checked ? "dark" : "light");
+</script>
+</body>
+</html>

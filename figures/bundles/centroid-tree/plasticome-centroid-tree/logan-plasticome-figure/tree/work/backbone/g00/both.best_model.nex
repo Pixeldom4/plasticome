@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+  charset aa = aa.afa: AA;
+  charset di = 3di.afa: AA;
+  charpartition mymodels =
+    Q.PFAM+F+R4{0.00646782,0.0328339,0.0544527,0.254796,0.390214,0.64231,0.548866,1.33963}: aa{102.476},
+    3DI+G4{6.32729}: di{34.7227};
+end;

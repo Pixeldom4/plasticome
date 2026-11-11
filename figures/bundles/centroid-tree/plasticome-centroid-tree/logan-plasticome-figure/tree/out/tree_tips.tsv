@@ -1,0 +1,493 @@
+tip	fold_group	fold_key	component	order_in_tree	is_representative	enzyme_name	accession	records	substrate_group	shape	family_group	homology
+72	g00	3.40.50.1820	c24	0	1	MGS0084	AKJ87250	72;567	PLA	o	A/B hydrolase	confirmed
+467	g00	3.40.50.1820	c52	1	1	porcine pancreatic lipase	1ETH_A	467	PC	h	A/B hydrolase	confirmed
+14	g00	3.40.50.1820	c35	2	1	EstB	QDD67397.1	14	PET	D	A/B hydrolase	confirmed
+96	g00	3.40.50.1820	c29	3	1	PhaZpst	BAA32541.1	96;591	PHA	D	A/B hydrolase	confirmed
+454	g00	3.40.50.1820	c50	4	1	TA26	WDT94443	454	PET	D	A/B hydrolase	confirmed
+69	g00	3.40.50.1820	c36	5	1	MGS0109	AGT96415.1	69	PLA	o	A/B hydrolase	confirmed
+64	g00	3.40.50.1820	c23	6	1	RPA1511	WP_011157072.1	64;536	PLA	D	A/B hydrolase	confirmed
+576	g00	3.40.50.1820	c55	7	1	phaZ-like	WP_013956815.1	576	PHA	D	A/B hydrolase	confirmed
+92	g00	3.40.50.1820	c27	8	1	PhaY2	WP_011615004.1	92;597	PHA	D	A/B hydrolase	confirmed
+77	g00	3.40.50.1820	c39	9	1	PlaM9	BAF57214.1	77	PLA	o	A/B hydrolase	confirmed
+187	g00	3.40.50.1820	c42	10	1	CE_Ubrb	SIP63154.1	187	PUR	o	A/B hydrolase	confirmed
+182	g00	3.40.50.1820	c31	11	1	Est11_32	WP_041846030	182;602	PET	D	A/B hydrolase	confirmed
+195	g00	3.40.50.1820	c44	12	1	HG-3	RGD93181.1	195	PET	D	A/B hydrolase	confirmed
+194	g00	3.40.50.1820	c43	13	1	HG-2	WP_118011433.1	194	PET	D	A/B hydrolase	confirmed
+73	g00	3.40.50.1820	c25	14	1	MGS0156	AKJ87264	73;584	PLA	o	A/B hydrolase	confirmed
+90	g00	3.40.50.1820	c15	15	1	PhaZd1	WP_010811062.1	90;594	PHA	D	A/B hydrolase	confirmed
+595	g00	3.40.50.1820	c15	16	0	PhaZ7	Q0JYJ1	595;609	PHA	D	A/B hydrolase	confirmed
+146	g00	3.40.50.1820	c19	17	1	Amidase	ACY56506.1	146	PUR	D	A/B hydrolase	confirmed
+181	g00	3.40.50.1820	c19	18	0	Est8_89	WP_034768559.1	181;575	PET	D	A/B hydrolase	confirmed
+63	g00	3.40.50.1820	c18	19	1	ABO2449	WP_011589723.1	63;596	PLA	D	A/B hydrolase	confirmed
+455	g00	3.40.50.1820	c18	20	0	TA29	WDT94189	455	Combi.	D	A/B hydrolase	confirmed
+91	g00	3.40.50.1820	c16	21	1	PhaY1(PhaZ2)	WP_011615575.1	91;589	PHA	D	A/B hydrolase	confirmed
+97	g00	3.40.50.1820	c16	22	0	PhaZCac	WP_034398300.1	97;590	PHA	D	A/B hydrolase	confirmed
+231	g00	3.40.50.1820	c48	23	1	APET-23	MSQ87502.1	231	PET	D	A/B hydrolase	confirmed
+214	g00	3.40.50.1820	c34	24	1	PD3	QPA27412.1	214;600	PET	D	A/B hydrolase	confirmed
+196	g00	3.40.50.1820	c45	25	1	HG-4	WP_013858543.1	196	PET	D	A/B hydrolase	confirmed
+185	g00	3.40.50.1820	c33	26	1	Ces39_5	WP_108898647	185;603	PET	D	A/B hydrolase	confirmed
+184	g00	3.40.50.1820	c32	27	1	Ces19_14	WP_034767800	184;601	PET	D	A/B hydrolase	confirmed
+74	g00	3.40.50.1820	c12	28	1	GEN0105	AKJ87216	74;581	PLA	o	A/B hydrolase	confirmed
+453	g00	3.40.50.1820	c12	29	0	TA21	WDT94064	453	Combi.	D	A/B hydrolase	confirmed
+166	g00	3.40.50.1820	c12	30	0	IS12	UNZ81748.1	166	PET	D	A/B hydrolase	confirmed
+164	g00	3.40.50.1820	c12	31	0	IS10	UNZ81746.1	164	PET	D	A/B hydrolase	confirmed
+46	g00	3.40.50.1820	c10	32	0	LipasePueB	AAF01331.1	46	PUR	D	A/B hydrolase	confirmed
+49	g00	3.40.50.1820	c10	33	0	PueB	WP_011061489.1	49;534	PUR	D	A/B hydrolase	confirmed
+47	g00	3.40.50.1820	c10	34	0	EsterasePulA	AAF66684.1	47	PUR	D	A/B hydrolase	confirmed
+48	g00	3.40.50.1820	c10	35	0	PueA	WP_011061486.1	48;533	PUR	D	A/B hydrolase	confirmed
+45	g00	3.40.50.1820	c10	36	1	LipasePueA	AAD22743.1	45	PUR	D	A/B hydrolase	confirmed
+593	g00	3.40.50.1820	c11	37	0	PhaZAfa	P94146	593	PHA	D	A/B hydrolase	confirmed
+95	g00	3.40.50.1820	c11	38	0	PhaZ5	AAA65705.1	95;592	PHA	D	A/B hydrolase	confirmed
+93	g00	3.40.50.1820	c11	39	1	PhaZAfa	AAA21974.1	93	PHA	D	A/B hydrolase	confirmed
+605	g00	3.40.50.1820	c11	40	0	PhaZcac	BAA19791.1	605	NR	o	A/B hydrolase	confirmed
+98	g00	3.40.50.1820	c11	41	0	PHB depolymerase	BAG32152.1	98	PHA	h	A/B hydrolase	confirmed
+86	g00	3.40.50.1820	c08	42	0	PhaZ2	WP_010813770.1	86;530	PHA	D	A/B hydrolase	confirmed
+89	g00	3.40.50.1820	c08	43	0	PhaZ5	WP_011616952.1	89;532	PHA	D	A/B hydrolase	confirmed
+85	g00	3.40.50.1820	c08	44	0	PhaZ1	WP_011614907.1	85;529	PHA	D	A/B hydrolase	confirmed
+88	g00	3.40.50.1820	c08	45	0	PhaZ4	AAP85930.1	88	PHA	D	A/B hydrolase	confirmed
+87	g00	3.40.50.1820	c08	46	1	PhaZ3	WP_011616504.1	87;531	PHA	D	A/B hydrolase	confirmed
+104	g00	3.40.50.1820	c07	47	0	Cbotu_EstB	AKZ20829.1	104	PBAT	D	A/B hydrolase	confirmed
+587	g00	3.40.50.1820	c07	48	0	PlaM5 depolymerase	BAF57211.1	587	PLA	o	A/B hydrolase	confirmed
+75	g00	3.40.50.1820	c07	49	1	PlaM4	BAF57210.1	75	PLA	o	A/B hydrolase	confirmed
+180	g00	3.40.50.1820	c07	50	0	Lip4_120	WP_108898452	180;585	PET	D	A/B hydrolase	confirmed
+457	g00	3.40.50.1820	c07	51	0	JW45_1534		457	Combi.	D	A/B hydrolase	confirmed
+103	g00	3.40.50.1820	c07	52	0	Cbotu_EstA	AKZ20828.1	103	Combi.	D	A/B hydrolase	confirmed
+102	g00	3.40.50.1820	c07	53	0	PFL1	EIW29778.1	102;586	PBAT	D	A/B hydrolase	confirmed
+44	g00	3.40.50.1820	c04	54	0	PudA	BAA76305.1	44	Combi.	D	A/B hydrolase	confirmed
+468	g00	3.40.50.1820	c04	55	0	CRL	CAA34684	468	PC	h	A/B hydrolase	confirmed
+582	g00	3.40.50.1820	c04	56	1	Lip1; Lip5	P20261.3	582	PUR	h	A/B hydrolase	confirmed
+178	g00	3.40.50.1820	c04	57	0	Tcca	WP_015255658	178;583	PBAT	D	A/B hydrolase	confirmed
+115	g00	3.40.50.1820	c04	58	0	102		115;578	PET	o	A/B hydrolase	confirmed
+114	g00	3.40.50.1820	c04	59	0	101		114;577	PET	o	A/B hydrolase	confirmed
+210	g00	3.40.50.1820	c04	60	0	Dkca1	WID88783	210;579	PET	D	A/B hydrolase	confirmed
+100	g00	3.40.50.1820	c04	61	0	Chath_Est1	ALS54749.1	100	PBAT	D	A/B hydrolase	confirmed
+183	g00	3.40.50.1820	c04	62	0	Est18_23	WP_041847557	183;580	PET	D	A/B hydrolase	confirmed
+35	g00	3.40.50.1820	c04	63	0	BsEstB	ADH43200.1	35	PET	D	A/B hydrolase	confirmed
+41	g00	3.40.50.1820	c21	64	1	CalB	CAA83122.1	41;537	Combi.	h	A/B hydrolase	confirmed
+94	g00	3.40.50.1820	c28	65	1	PhaZ7	WP_132259156.1	94;598	PHA	D	A/B hydrolase	confirmed
+76	g00	3.40.50.1820	c26	66	1	PlaM7	BAF57212.1	76	PLA	o	A/B hydrolase	confirmed
+535	g00	3.40.50.1820	c26	67	0	PlaM8 depolymerase	BAF57213.1	535	PLA	o	A/B hydrolase	confirmed
+465	g00	3.40.50.1820	c09	68	0	PET94	WKW63608.1	465	PET	D	A/B hydrolase	confirmed
+464	g00	3.40.50.1820	c09	69	0	PET93	WKW63607.1	464	PET	D	A/B hydrolase	confirmed
+62	g00	3.40.50.1820	c09	70	0	PLaA	BAC67195.1	62	PLA	D	A/B hydrolase	confirmed
+456	g00	3.40.50.1820	c09	71	0	JW44_1708		456	Combi.	D	A/B hydrolase	confirmed
+105	g00	3.40.50.1820	c09	72	0	PBATHBp	BAV72205.1	105	PBAT	D	A/B hydrolase	confirmed
+222	g00	3.40.50.1820	c09	73	0	TGL	WAT79796.1	222	PLA	D	A/B hydrolase	confirmed
+206	g00	3.40.50.1820	c09	74	1	LipMRD9	APJ12152	206;588	PET	D	A/B hydrolase	confirmed
+155	g00	3.40.50.1820	c03	75	0	Sub1	QEX94755.1	155	PET	D	A/B hydrolase	confirmed
+99	g00	3.40.50.1820	c03	76	0	PBATHRF	BCL64964.1	99;148	Combi.	D	A/B hydrolase	confirmed
+84	g00	3.40.50.1820	c03	77	0	PaE	XP_014659518.1	84;527	PLA	h	A/B hydrolase	confirmed
+204	g00	3.40.50.1820	c03	78	0	BaCut1	XAQ58225	204;519	Combi.	h	A/B hydrolase	confirmed
+82	g00	3.40.50.1820	c03	79	0	CmCut	BAN42606.1	82;520	PLA	h	A/B hydrolase	confirmed
+81	g00	3.40.50.1820	c03	80	0	CfCLE	BAT32793.1	81;525	PLA	h	A/B hydrolase	confirmed
+80	g00	3.40.50.1820	c03	81	0	Cutinase	BAC67242.1	80	PLA	h	A/B hydrolase	confirmed
+161	g00	3.40.50.1820	c03	82	0	MRCUT1	ESK97883.1	161	PET	h	A/B hydrolase	confirmed
+200	g00	3.40.50.1820	c03	83	0	CpCut1	WKA69984.1	200	PUR	h	A/B hydrolase	confirmed
+79	g00	3.40.50.1820	c03	84	0	CutL1	XP_001817153.1	79;521	Combi.	h	A/B hydrolase	confirmed
+83	g00	3.40.50.1820	c03	85	0	PCLE	BAN51852.1	83;528	PLA	h	A/B hydrolase	confirmed
+160	g00	3.40.50.1820	c03	86	0	FoCut5a	EXK81749	160;523	PET	h	A/B hydrolase	confirmed
+173	g00	3.40.50.1820	c03	87	0	FSC	Q99174	173;524	PBS	h	A/B hydrolase	confirmed
+42	g00	3.40.50.1820	c03	88	0	FsC	AAA33335.1	42	PET	h	A/B hydrolase	confirmed
+202	g00	3.40.50.1820	c03	89	0	DmC	KAH7127633	202;522	PET	h	A/B hydrolase	confirmed
+201	g00	3.40.50.1820	c03	90	0	TaC		201	PET	h	A/B hydrolase	confirmed
+203	g00	3.40.50.1820	c03	91	0	RtC		203	PET	h	A/B hydrolase	confirmed
+43	g00	3.40.50.1820	c03	92	1	HiC	A0A075B5G4	43;526	Combi.	h	A/B hydrolase	confirmed
+122	g00	3.40.50.1820	c00	93	0	307		122;473	PET	o	A/B hydrolase	confirmed
+118	g00	3.40.50.1820	c00	94	0	211		118;470	PET	D	A/B hydrolase	confirmed
+40	g00	3.40.50.1820	c00	95	0	PET46	RLI42440.1	40	PET	D	A/B hydrolase	confirmed
+117	g00	3.40.50.1820	c00	96	0	204		117;469	PET	D	A/B hydrolase	confirmed
+119	g00	3.40.50.1820	c00	97	0	214		119;471	PET	o	A/B hydrolase	confirmed
+116	g00	3.40.50.1820	c00	98	0	202		116;485	PET	o	A/B hydrolase	confirmed
+121	g00	3.40.50.1820	c00	99	0	305		121;599	PET	o	A/B hydrolase	confirmed
+225	g00	3.40.50.1820	c00	100	0	APET-5	WP_218920366.1	225	PET	D	A/B hydrolase	confirmed
+120	g00	3.40.50.1820	c00	101	0	301		120;472	PET	o	A/B hydrolase	confirmed
+458	g00	3.40.50.1820	c00	102	0	GuaPA		458	PET	o	A/B hydrolase	confirmed
+213	g00	3.40.50.1820	c00	103	0	HGMP01		213	PET	o	A/B hydrolase	confirmed
+197	g00	3.40.50.1820	c00	104	0	HG-5	WP_008690040.1	197	PET	D	A/B hydrolase	confirmed
+234	g00	3.40.50.1820	c00	105	0	APET-26	WP_203847453.1	234	PET	D	A/B hydrolase	confirmed
+232	g00	3.40.50.1820	c00	106	0	APET-24	WP_018657411.1	232	PET	D	A/B hydrolase	confirmed
+233	g00	3.40.50.1820	c00	107	0	APET-25	MPZ00478.1	233	PET	D	A/B hydrolase	confirmed
+236	g00	3.40.50.1820	c00	108	0	APET-28	MBX2857432.1	236	PET	D	A/B hydrolase	confirmed
+235	g00	3.40.50.1820	c00	109	0	APET-27	WP_104739856.1	235	PET	D	A/B hydrolase	confirmed
+208	g00	3.40.50.1820	c00	110	0	dsPETase05		208	PET	D	A/B hydrolase	confirmed
+569	g00	3.40.50.1820	c00	111	0	PE-H; B7O88_11480	2FX5	569	PET	D	A/B hydrolase	confirmed
+459	g00	3.40.50.1820	c00	112	0	HP	ATH80290	459	PBS	D	A/B hydrolase	confirmed
+10	g00	3.40.50.1820	c00	113	0	PmC	ABP86951	10	PET	D	A/B hydrolase	confirmed
+238	g00	3.40.50.1820	c00	114	0	APET-32	KZY99137.1	238	PET	D	A/B hydrolase	confirmed
+209	g00	3.40.50.1820	c00	115	0	dsPETase06	MEC8523093	209;484	PET	D	A/B hydrolase	confirmed
+492	g00	3.40.50.1820	c00	116	0	GlacPETase	WNY00484.1	492	PET	D	A/B hydrolase	confirmed
+176	g00	3.40.50.1820	c00	117	0	GlacPETase		176	PET	D	A/B hydrolase	confirmed
+237	g00	3.40.50.1820	c00	118	0	APET-29	MBE65357.1	237	PET	D	A/B hydrolase	confirmed
+288	g00	3.40.50.1820	c00	119	0	1395	RZL02950.1	288	PET	D	A/B hydrolase	confirmed
+303	g00	3.40.50.1820	c00	120	0	1876	WP_067035690.1	303	PET	D	A/B hydrolase	confirmed
+257	g00	3.40.50.1820	c00	121	0	1821	WP_137976057.1	257	PET	D	A/B hydrolase	confirmed
+358	g00	3.40.50.1820	c00	122	0	DP039	WP_085750434.1	358	PET	D	A/B hydrolase	confirmed
+130	g00	3.40.50.1820	c00	123	0	CtPl	WP_062195544.1	130	PET	D	A/B hydrolase	confirmed
+4	g00	3.40.50.1820	c00	124	0	PET12	WP_047194864.1	4;502	PET	D	A/B hydrolase	confirmed
+15	g00	3.40.50.1820	c00	125	0	RgPETase	WP_085749752.1	15;491	PET	D	A/B hydrolase	confirmed
+159	g00	3.40.50.1820	c00	126	0	AdCut	BAB86909	159;172;482;499	Combi.	D	A/B hydrolase	confirmed
+228	g00	3.40.50.1820	c00	127	0	APET-17	MBX3625601.1	228	PET	D	A/B hydrolase	confirmed
+1	g00	3.40.50.1820	c00	128	0	ISPETase	WP_054022242.1	1	Combi.	D	A/B hydrolase	confirmed
+385	g00	3.40.50.1820	c00	129	0	ESM045	MBX3621832.1	385	PET	D	A/B hydrolase	confirmed
+156	g00	3.40.50.1820	c00	130	0	RgCut-2	WP_085749238	156;509	PET	D	A/B hydrolase	confirmed
+170	g00	3.40.50.1820	c00	131	0	BurPL	OGB27210	170;479	PET	D	A/B hydrolase	confirmed
+475	g00	3.40.50.1820	c00	132	0	Enzyme 406		475	PET	D	A/B hydrolase	confirmed
+125	g00	3.40.50.1820	c00	133	0	406	ODU60407.1	125	PET	D	A/B hydrolase	confirmed
+38	g00	3.40.50.1820	c00	134	0	PET30	WP_039353427.1	38	PET	D	A/B hydrolase	confirmed
+37	g00	3.40.50.1820	c00	135	0	PET27	WP_111881932.1	37	PET	D	A/B hydrolase	confirmed
+477	g00	3.40.50.1820	c00	136	0	Enzyme 412		477	PET	D	A/B hydrolase	confirmed
+128	g00	3.40.50.1820	c00	137	0	412	WP_158643351.1	128	PET	D	A/B hydrolase	confirmed
+476	g00	3.40.50.1820	c00	138	0	Enzyme 409		476	PET	D	A/B hydrolase	confirmed
+127	g00	3.40.50.1820	c00	139	0	409	RLT92980.1	127	PET	D	A/B hydrolase	confirmed
+3	g00	3.40.50.1820	c00	140	0	PET6	ASA57064.1	3	PET	D	A/B hydrolase	confirmed
+11	g00	3.40.50.1820	c00	141	0	Mors1	P19833.1	11	Combi.	D	A/B hydrolase	confirmed
+310	g00	3.40.50.1820	c00	142	0	PC8	MBA55398.1	310	PET	D	A/B hydrolase	confirmed
+474	g00	3.40.50.1820	c00	143	0	Enzyme 403		474	PET	D	A/B hydrolase	confirmed
+123	g00	3.40.50.1820	c00	144	0	403	RLU00646.1	123	PET	D	A/B hydrolase	confirmed
+496	g00	3.40.50.1820	c00	145	0	jmPE14	WP_068824797.1	496	PBAT	D	A/B hydrolase	confirmed
+199	g00	3.40.50.1820	c00	146	0	jmPE14		199	Combi.	D	A/B hydrolase	confirmed
+198	g00	3.40.50.1820	c00	147	0	jmPE13		198;495	Combi.	D	A/B hydrolase	confirmed
+211	g00	3.40.50.1820	c00	148	0	PpPETase	WP_220815207	211	PET	D	A/B hydrolase	confirmed
+367	g00	3.40.50.1820	c00	149	0	DP078	WP_184682765.1	367	PET	D	A/B hydrolase	confirmed
+403	g00	3.40.50.1820	c00	150	0	ESM096	WP_252275389.1	403	PET	D	A/B hydrolase	confirmed
+175	g00	3.40.50.1820	c00	151	0	PaCut	SUD16364	175;498	PET	D	A/B hydrolase	confirmed
+2	g00	3.40.50.1820	c00	152	0	PET5	CCK74972.1	2;503	PET	D	A/B hydrolase	confirmed
+39	g00	3.40.50.1820	c00	153	0	PET2	ACC95208.1	39	PET	o	A/B hydrolase	confirmed
+6	g00	3.40.50.1820	c00	154	0	PLE629	UUT36763	6;506	Combi.	D	A/B hydrolase	confirmed
+5	g00	3.40.50.1820	c00	155	0	PLE628	UUT36764	5;500	Combi.	D	A/B hydrolase	confirmed
+8	g00	3.40.50.1820	c00	156	0	PpelaLip	WP_022964382.1	8;507	PET	D	A/B hydrolase	confirmed
+9	g00	3.40.50.1820	c00	157	0	PE-H	WP_088276085.1	9	PET	D	A/B hydrolase	confirmed
+174	g00	3.40.50.1820	c00	158	0	Hfor_PE-H	WP_090538641	174;493	PUR	D	A/B hydrolase	confirmed
+158	g00	3.40.50.1820	c00	159	0	PbauzCut	WP_036989706.1	158	PET	D	A/B hydrolase	confirmed
+157	g00	3.40.50.1820	c00	160	0	PsCut	WP_044499735.1	157	PET	D	A/B hydrolase	confirmed
+7	g00	3.40.50.1820	c00	161	0	PpCutA	ADK73612.1	7	PET	D	A/B hydrolase	confirmed
+421	g00	3.40.50.1820	c00	162	0	ESM186	WP_093473685.1	421	PET	D	A/B hydrolase	confirmed
+13	g00	3.40.50.1820	c00	163	0	MG8	MGYP000532440779	13	PET	D	A/B hydrolase	confirmed
+418	g00	3.40.50.1820	c00	164	0	ESM169	MBT9528079.1	418	PET	D	A/B hydrolase	confirmed
+357	g00	3.40.50.1820	c00	165	0	DP038	MBX3624429.1	357	PET	D	A/B hydrolase	confirmed
+269	g00	3.40.50.1820	c00	166	0	1169	WP_065917710.1	269	PET	D	A/B hydrolase	confirmed
+370	g00	3.40.50.1820	c00	167	0	DP082	WP_203733135.1	370	PET	D	A/B hydrolase	confirmed
+368	g00	3.40.50.1820	c00	168	0	DP080	MBJ7347705.1	368	PET	D	A/B hydrolase	confirmed
+284	g00	3.40.50.1820	c00	169	0	1309	TQL66274.1	284	PET	D	A/B hydrolase	confirmed
+129	g00	3.40.50.1820	c00	170	0	503	EGD44994.1	129	PET	D	A/B hydrolase	confirmed
+302	g00	3.40.50.1820	c00	171	0	1228	WP_091450391.1	302	PET	D	A/B hydrolase	confirmed
+351	g00	3.40.50.1820	c00	172	0	DP006	TDP67440	351	PET	D	A/B hydrolase	confirmed
+352	g00	3.40.50.1820	c00	173	0	DP007	WP_035284691	352	PET	D	A/B hydrolase	confirmed
+434	g00	3.40.50.1820	c00	174	0	TEP101	WP_019633337.1	434	PET	D	A/B hydrolase	confirmed
+304	g00	3.40.50.1820	c00	175	0	1340	WP_103564314.1	304	PET	D	A/B hydrolase	confirmed
+162	g00	3.40.50.1820	c00	176	0	PET1	ADV66860.1	162	PET	D	A/B hydrolase	confirmed
+279	g00	3.40.50.1820	c00	177	0	1240	KNX38636.1	279	PET	D	A/B hydrolase	confirmed
+230	g00	3.40.50.1820	c00	178	0	APET-20	MBO9532528.1	230	PET	D	A/B hydrolase	confirmed
+16	g00	3.40.50.1820	c00	179	0	LCC	AEV21261.1	16;494	Combi.	D	A/B hydrolase	confirmed
+452	g00	3.40.50.1820	c00	180	0	DIEGO	YCL34723	452	PET	o	A/B hydrolase	confirmed
+17	g00	3.40.50.1820	c00	181	0	BhrPETase	GBD22443.1	17	Combi.	D	A/B hydrolase	confirmed
+282	g00	3.40.50.1820	c00	182	0	247	WP_116813002.1	282	PET	D	A/B hydrolase	confirmed
+450	g00	3.40.50.1820	c00	183	0	Sis	XDS72785.1	450	PET	o	A/B hydrolase	confirmed
+169	g00	3.40.50.1820	c00	184	0	ApLip-Ec		169;478	PET	D	A/B hydrolase	confirmed
+508	g00	3.40.50.1820	c00	185	0	PurH	XCO66867.1	508	PUR	D	A/B hydrolase	confirmed
+207	g00	3.40.50.1820	c00	186	0	dsPETase01		207	PET	D	A/B hydrolase	confirmed
+350	g00	3.40.50.1820	c00	187	0	DP003	ACV09511	350	PET	D	A/B hydrolase	confirmed
+163	g00	3.40.50.1820	c00	188	0	SM14est	DAC80635.1	163	PET	D	A/B hydrolase	confirmed
+308	g00	3.40.50.1820	c00	189	0	PC5	WP_075975245.1	308	PET	D	A/B hydrolase	confirmed
+171	g00	3.40.50.1820	c00	190	0	PET40	WAU86704	171;501	PET	D	A/B hydrolase	confirmed
+411	g00	3.40.50.1820	c00	191	0	ESM140	WP_247056560.1	411	PET	D	A/B hydrolase	confirmed
+307	g00	3.40.50.1820	c00	192	0	PC4	WP_125313231.1	307	PET	D	A/B hydrolase	confirmed
+417	g00	3.40.50.1820	c00	193	0	ESM167	WP_091317053.1	417	PET	D	A/B hydrolase	confirmed
+273	g00	3.40.50.1820	c00	194	0	554	WP_086849962.1	273	PET	D	A/B hydrolase	confirmed
+285	g00	3.40.50.1820	c00	195	0	414	WP_123685830.1	285	PET	D	A/B hydrolase	confirmed
+449	g00	3.40.50.1820	c00	196	0	KaPETase	WP_143447025.1	449	PET	D	A/B hydrolase	confirmed
+300	g00	3.40.50.1820	c00	197	0	282	WP_092528534.1	300	PET	D	A/B hydrolase	confirmed
+212	g00	3.40.50.1820	c00	198	0	ScPETase	WP_142197250.1	212	PET	D	A/B hydrolase	confirmed
+305	g00	3.40.50.1820	c00	199	0	191	WP_129849678.1	305	PET	D	A/B hydrolase	confirmed
+488	g00	3.40.50.1820	c00	200	0	Enzyme 607	WP_107095481.1	488	PET	D	A/B hydrolase	confirmed
+132	g00	3.40.50.1820	c00	201	0	607-Nsp	KPI31299.1	132	PET	D	A/B hydrolase	confirmed
+413	g00	3.40.50.1820	c00	202	0	ESM156	WP_203812622.1	413	PET	D	A/B hydrolase	confirmed
+448	g00	3.40.50.1820	c00	203	0	TEP194	WP_250563816.1	448	PET	D	A/B hydrolase	confirmed
+428	g00	3.40.50.1820	c00	204	0	TEP061	GGO06455.1	428	PET	D	A/B hydrolase	confirmed
+510	g00	3.40.50.1820	c00	205	0	SIBER-1	WOR09923.1	510	PET	D	A/B hydrolase	confirmed
+291	g00	3.40.50.1820	c00	206	0	169	OPG10926.1	291	PET	D	A/B hydrolase	confirmed
+363	g00	3.40.50.1820	c00	207	0	DP057	MBN2622270.1	363	PET	D	A/B hydrolase	confirmed
+151	g00	3.40.50.1820	c00	208	0	PHL-3	SAY37583.1	151	PET	o	A/B hydrolase	confirmed
+36	g00	3.40.50.1820	c00	209	0	PHL-7	7NEI	36	Combi.	o	A/B hydrolase	confirmed
+31	g00	3.40.50.1820	c00	210	0	Thh_Est	AFA45122.1	31	PET	D	A/B hydrolase	confirmed
+34	g00	3.40.50.1820	c00	211	0	Est119	BAK48590.1	34	Combi.	D	A/B hydrolase	confirmed
+32	g00	3.40.50.1820	c00	212	0	Est1	BAI99230.2	32;490	Combi.	D	A/B hydrolase	confirmed
+309	g00	3.40.50.1820	c00	213	0	PC6	WP_068752972.1	309	PET	D	A/B hydrolase	confirmed
+423	g00	3.40.50.1820	c00	214	0	TEP014	MGYP001477358452	423	PET	D	A/B hydrolase	confirmed
+136	g00	3.40.50.1820	c00	215	0	711	WP_083947829	136;489	PET	D	A/B hydrolase	confirmed
+28	g00	3.40.50.1820	c00	216	0	Thc_Cut2	ADV92527.1	28;516	Combi.	D	A/B hydrolase	confirmed
+23	g00	3.40.50.1820	c00	217	0	Tfu_0882	AAZ54920.1	23;25;517	PET	D	A/B hydrolase	confirmed
+20	g00	3.40.50.1820	c00	218	0	BTA-2	CAH17554.1	20	PET	D	A/B hydrolase	confirmed
+513	g00	3.40.50.1820	c00	219	0	TfCut_1; Cut-1.kw3	E5BBQ2	513	PET	D	A/B hydrolase	confirmed
+134	g00	3.40.50.1820	c00	220	0	701	WP_104613137.1	134	PET	D	A/B hydrolase	confirmed
+21	g00	3.40.50.1820	c00	221	0	TfH42_Cut1	ADV92528.1	21	PET	D	A/B hydrolase	confirmed
+24	g00	3.40.50.1820	c00	222	0	TfCut_2	CBY05530	24;514	Combi.	D	A/B hydrolase	confirmed
+33	g00	3.40.50.1820	c00	223	0	Tha_Cut1	ADV92525.1	33	PET	D	A/B hydrolase	confirmed
+19	g00	3.40.50.1820	c00	224	0	BTA-1	CAH17553.1	19;22;26;480;518	PET	D	A/B hydrolase	confirmed
+135	g00	3.40.50.1820	c00	225	0	702	ADM47605.1	135	PET	D	A/B hydrolase	confirmed
+101	g00	3.40.50.1820	c00	226	0	TfH	5ZOA_A	101	PBAT	D	A/B hydrolase	confirmed
+27	g00	3.40.50.1820	c00	227	0	Thc_Cut1	ADV92526.1	27;515	Combi.	D	A/B hydrolase	confirmed
+373	g00	3.40.50.1820	c00	228	0	DP090	WP_233872418.1	373	PET	D	A/B hydrolase	confirmed
+18	g00	3.40.50.1820	c00	229	0	Cut190	WP_015787089.1	18;483	PET	D	A/B hydrolase	confirmed
+150	g00	3.40.50.1820	c00	230	0	PHL-1	SAY37579.1	150	PET	o	A/B hydrolase	confirmed
+149	g00	3.40.50.1820	c00	231	0	PHL-2	SAY37582.1	149	PET	o	A/B hydrolase	confirmed
+131	g00	3.40.50.1820	c00	232	0	606	SJZ42839.1	131;497	PET	D	A/B hydrolase	confirmed
+431	g00	3.40.50.1820	c00	233	0	TEP091	MBO9569276.1	431	PET	D	A/B hydrolase	confirmed
+372	g00	3.40.50.1820	c00	234	0	DP089	WP_129786244.1	372	PET	D	A/B hydrolase	confirmed
+425	g00	3.40.50.1820	c00	235	0	TEP037		425	PET	D	A/B hydrolase	confirmed
+437	g00	3.40.50.1820	c00	236	0	TEP105	WP_150070118.1	437	PET	D	A/B hydrolase	confirmed
+133	g00	3.40.50.1820	c00	237	0	611	WP_093412886.1	133	PET	D	A/B hydrolase	confirmed
+362	g00	3.40.50.1820	c00	238	0	DP056	MGYP001489421514	362	PET	D	A/B hydrolase	confirmed
+153	g00	3.40.50.1820	c00	239	0	PHL-5	SAY37587	153;504	PET	o	A/B hydrolase	confirmed
+154	g00	3.40.50.1820	c00	240	0	PHL-6	SAY37589	154;505	PET	o	A/B hydrolase	confirmed
+152	g00	3.40.50.1820	c00	241	0	PHL-4	SAY37584.1	152	PET	o	A/B hydrolase	confirmed
+447	g00	3.40.50.1820	c00	242	0	TEP189	GIU85371.1	447	PET	D	A/B hydrolase	confirmed
+386	g00	3.40.50.1820	c00	243	0	ESM050	GIU85367.1	386	PET	D	A/B hydrolase	confirmed
+355	g00	3.40.50.1820	c00	244	0	DP017	WP_187224800.1	355	PET	D	A/B hydrolase	confirmed
+353	g00	3.40.50.1820	c00	245	0	DP008	WP_130342639	353	PET	D	A/B hydrolase	confirmed
+124	g00	3.40.50.1820	c00	246	0	405	KPI12031.1	124;486	PET	D	A/B hydrolase	confirmed
+227	g00	3.40.50.1820	c00	247	0	APET-15	WP_019629726.1	227	PET	D	A/B hydrolase	confirmed
+361	g00	3.40.50.1820	c00	248	0	DP054	WP_161104454.1	361	PET	D	A/B hydrolase	confirmed
+296	g00	3.40.50.1820	c00	249	0	1392	SPF04022.1	296	PET	D	A/B hydrolase	confirmed
+429	g00	3.40.50.1820	c00	250	0	TEP067	WP_149259982.1	429	PET	D	A/B hydrolase	confirmed
+354	g00	3.40.50.1820	c00	251	0	DP016	WP_151597653.1	354	PET	D	A/B hydrolase	confirmed
+229	g00	3.40.50.1820	c00	252	0	APET-19	WP_116023875.1	229	PET	D	A/B hydrolase	confirmed
+359	g00	3.40.50.1820	c00	253	0	DP040	WP_233427406.1	359	PET	D	A/B hydrolase	confirmed
+298	g00	3.40.50.1820	c00	254	0	1424	WP_110080872.1	298	PET	D	A/B hydrolase	confirmed
+264	g00	3.40.50.1820	c00	255	0	917	WP_083950838.1	264	PET	D	A/B hydrolase	confirmed
+29	g00	3.40.50.1820	c00	256	0	Tcur_1278	WP_012851645.1	29;511	Combi.	D	A/B hydrolase	confirmed
+30	g00	3.40.50.1820	c00	257	0	Tcur0390	WP_012850775.1	30;512	Combi.	D	A/B hydrolase	confirmed
+306	g00	3.40.50.1820	c00	258	0	PC3	WP_103939557.1	306	PET	D	A/B hydrolase	confirmed
+186	g00	3.40.50.1820	c00	259	0	CaPETase	SHM40309	186;481	PET	D	A/B hydrolase	confirmed
+445	g00	3.40.50.1820	c00	260	0	TEP178	WP_253762837.1	445	PET	D	A/B hydrolase	confirmed
+371	g00	3.40.50.1820	c00	261	0	DP084	NUT34383.1	371	PET	D	A/B hydrolase	confirmed
+262	g00	3.40.50.1820	c00	262	0	385	WP_143590710.1	262	PET	D	A/B hydrolase	confirmed
+297	g00	3.40.50.1820	c00	263	0	486	WP_120326365.1	297	PET	D	A/B hydrolase	confirmed
+295	g00	3.40.50.1820	c00	264	0	401	WP_104115406.1	295	PET	D	A/B hydrolase	confirmed
+239	g00	3.40.50.1820	c00	265	0	Mipa-P	SDZ16714.1	239	PET	D	A/B hydrolase	confirmed
+292	g00	3.40.50.1820	c00	266	0	1638	WP_051808300.1	292	PET	D	A/B hydrolase	confirmed
+436	g00	3.40.50.1820	c00	267	0	TEP103	WP_211769896.1	436	PET	D	A/B hydrolase	confirmed
+245	g00	3.40.50.1820	c00	268	0	Kubu-P	WP_116180173.1	245	PET	D	A/B hydrolase	confirmed
+244	g00	3.40.50.1820	c00	269	0	1663	WP_084434874.1	244	PET	D	A/B hydrolase	confirmed
+226	g00	3.40.50.1820	c00	270	0	KbPETase	WP_209642273.1	226	PET	D	A/B hydrolase	confirmed
+401	g00	3.40.50.1820	c00	271	0	ESM090	WP_229836555.1	401	PET	D	A/B hydrolase	confirmed
+402	g00	3.40.50.1820	c00	272	0	ESM093	WP_239135698.1	402	PET	D	A/B hydrolase	confirmed
+399	g00	3.40.50.1820	c00	273	0	ESM082	UAC02078.1	399	PET	D	A/B hydrolase	confirmed
+271	g00	3.40.50.1820	c00	274	0	1463	WP_081971423.1	271	PET	D	A/B hydrolase	confirmed
+420	g00	3.40.50.1820	c00	275	0	ESM177	WP_239086781.1	420	PET	D	A/B hydrolase	confirmed
+260	g00	3.40.50.1820	c00	276	0	1522	WP_155388305.1	260	PET	D	A/B hydrolase	confirmed
+412	g00	3.40.50.1820	c00	277	0	ESM144	WP_239125827.1	412	PET	D	A/B hydrolase	confirmed
+255	g00	3.40.50.1820	c00	278	0	1507	WP_144126986.1	255	PET	D	A/B hydrolase	confirmed
+398	g00	3.40.50.1820	c00	279	0	ESM081	WP_265247586.1	398	PET	D	A/B hydrolase	confirmed
+393	g00	3.40.50.1820	c00	280	0	ESM064	WP_281901711.1	393	PET	D	A/B hydrolase	confirmed
+360	g00	3.40.50.1820	c00	281	0	DP043	WP_229068674.1	360	PET	D	A/B hydrolase	confirmed
+415	g00	3.40.50.1820	c00	282	0	ESM159	WP_203906211.1	415	PET	D	A/B hydrolase	confirmed
+390	g00	3.40.50.1820	c00	283	0	ESM060	WP_203790592.1	390	PET	D	A/B hydrolase	confirmed
+416	g00	3.40.50.1820	c00	284	0	ESM160	WP_144022925.1	416	PET	D	A/B hydrolase	confirmed
+414	g00	3.40.50.1820	c00	285	0	ESM157	PWR09075.1	414	PET	D	A/B hydrolase	confirmed
+407	g00	3.40.50.1820	c00	286	0	ESM128	WP_269740835.1	407	PET	D	A/B hydrolase	confirmed
+356	g00	3.40.50.1820	c00	287	0	DP021	MBT8227529.1	356	PET	D	A/B hydrolase	confirmed
+380	g00	3.40.50.1820	c00	288	0	ESM026	WP_232326807.1	380	PET	D	A/B hydrolase	confirmed
+410	g00	3.40.50.1820	c00	289	0	ESM139	WP_199199185.1	410	PET	D	A/B hydrolase	confirmed
+378	g00	3.40.50.1820	c00	290	0	ESM021	WP_210157342.1	378	PET	D	A/B hydrolase	confirmed
+374	g00	3.40.50.1820	c00	291	0	DP092	WP_139580723.1	374	PET	D	A/B hydrolase	confirmed
+383	g00	3.40.50.1820	c00	292	0	ESM038	WP_182904095.1	383	PET	D	A/B hydrolase	confirmed
+293	g00	3.40.50.1820	c00	293	0	1868	WP_111700265.1	293	PET	D	A/B hydrolase	confirmed
+379	g00	3.40.50.1820	c00	294	0	ESM024	MBO4274871.1	379	PET	D	A/B hydrolase	confirmed
+376	g00	3.40.50.1820	c00	295	0	ESM010	WP_167521412.1	376	PET	D	A/B hydrolase	confirmed
+377	g00	3.40.50.1820	c00	296	0	ESM012	WBC00352.1	377	PET	D	A/B hydrolase	confirmed
+366	g00	3.40.50.1820	c00	297	0	DP068	MGYP000271253724	366	PET	D	A/B hydrolase	confirmed
+364	g00	3.40.50.1820	c00	298	0	DP059	MGYP001121581011	364	PET	D	A/B hydrolase	confirmed
+443	g00	3.40.50.1820	c00	299	0	TEP165	WP_233604767.1	443	PET	D	A/B hydrolase	confirmed
+246	g00	3.40.50.1820	c00	300	0	1538	WP_130464304.1	246	PET	D	A/B hydrolase	confirmed
+277	g00	3.40.50.1820	c00	301	0	1591	WP_091283529.1	277	PET	D	A/B hydrolase	confirmed
+439	g00	3.40.50.1820	c00	302	0	TEP111	WP_260422593.1	439	PET	D	A/B hydrolase	confirmed
+280	g00	3.40.50.1820	c00	303	0	1594	WP_083302694.1	280	PET	D	A/B hydrolase	confirmed
+249	g00	3.40.50.1820	c00	304	0	1617	CCH19814.1	249	PET	D	A/B hydrolase	confirmed
+397	g00	3.40.50.1820	c00	305	0	ESM080	WP_084261341.1	397	PET	D	A/B hydrolase	confirmed
+405	g00	3.40.50.1820	c00	306	0	ESM101	MBW4703769.1	405	PET	D	A/B hydrolase	confirmed
+301	g00	3.40.50.1820	c00	307	0	1635	WP_145923095.1	301	PET	D	A/B hydrolase	confirmed
+432	g00	3.40.50.1820	c00	308	0	TEP092	GIG90696.1	432	PET	D	A/B hydrolase	confirmed
+272	g00	3.40.50.1820	c00	309	0	1545	WP_093411427.1	272	PET	D	A/B hydrolase	confirmed
+422	g00	3.40.50.1820	c00	310	1	TEP010	WP_164449727.1	422	PET	D	A/B hydrolase	confirmed
+444	g00	3.40.50.1820	c00	311	0	TEP168	WP_239095870.1	444	PET	D	A/B hydrolase	confirmed
+419	g00	3.40.50.1820	c00	312	0	ESM173	MTK05241.1	419	PET	D	A/B hydrolase	confirmed
+261	g00	3.40.50.1820	c00	313	0	1546	WP_013736455.1	261	PET	D	A/B hydrolase	confirmed
+365	g00	3.40.50.1820	c00	314	0	DP061	WP_221382552.1	365	PET	D	A/B hydrolase	confirmed
+266	g00	3.40.50.1820	c00	315	0	1519	WP_131056699.1	266	PET	D	A/B hydrolase	confirmed
+253	g00	3.40.50.1820	c00	316	0	1525	WP_099848711.1	253	PET	D	A/B hydrolase	confirmed
+394	g00	3.40.50.1820	c00	317	0	ESM065	WP_204038550.1	394	PET	D	A/B hydrolase	confirmed
+389	g00	3.40.50.1820	c00	318	0	ESM059	WP_111214096.1	389	PET	D	A/B hydrolase	confirmed
+248	g00	3.40.50.1820	c00	319	0	1621	WP_088988822.1	248	PET	D	A/B hydrolase	confirmed
+392	g00	3.40.50.1820	c00	320	0	ESM062	TWG17167.1	392	PET	D	A/B hydrolase	confirmed
+250	g00	3.40.50.1820	c00	321	0	1534	WP_082377728.1	250	PET	D	A/B hydrolase	confirmed
+241	g00	3.40.50.1820	c00	322	0	1611	WP_124822775.1	241	PET	D	A/B hydrolase	confirmed
+240	g00	3.40.50.1820	c00	323	0	1628	WP_091553551.1	240	PET	D	A/B hydrolase	confirmed
+263	g00	3.40.50.1820	c00	324	0	1642	WP_139584963.1	263	PET	D	A/B hydrolase	confirmed
+388	g00	3.40.50.1820	c00	325	0	ESM058	WP_173061649.1	388	PET	D	A/B hydrolase	confirmed
+391	g00	3.40.50.1820	c00	326	0	ESM061	MBF9135495.1	391	PET	D	A/B hydrolase	confirmed
+242	g00	3.40.50.1820	c00	327	0	1625	WP_101366623.1	242	PET	D	A/B hydrolase	confirmed
+283	g00	3.40.50.1820	c00	328	0	1641	WP_089021493.1	283	PET	D	A/B hydrolase	confirmed
+278	g00	3.40.50.1820	c00	329	0	1620	WP_112669767.1	278	PET	D	A/B hydrolase	confirmed
+290	g00	3.40.50.1820	c00	330	0	1571	WP_124770494.1	290	PET	D	A/B hydrolase	confirmed
+270	g00	3.40.50.1820	c00	331	0	1637	WP_130401777.1	270	PET	D	A/B hydrolase	confirmed
+408	g00	3.40.50.1820	c00	332	0	ESM130	MCF0091346.1	408	PET	D	A/B hydrolase	confirmed
+406	g00	3.40.50.1820	c00	333	0	ESM121	WP_247684544.1	406	PET	D	A/B hydrolase	confirmed
+395	g00	3.40.50.1820	c00	334	0	ESM069	WP_181548579.1	395	PET	D	A/B hydrolase	confirmed
+243	g00	3.40.50.1820	c00	335	0	1603	WP_110567505.1	243	PET	D	A/B hydrolase	confirmed
+381	g00	3.40.50.1820	c00	336	0	ESM033	GFJ87714.1	381	PET	D	A/B hydrolase	confirmed
+369	g00	3.40.50.1820	c00	337	0	DP081	MGYP000221121644	369	PET	D	A/B hydrolase	confirmed
+400	g00	3.40.50.1820	c00	338	0	ESM084	WP_252811421.1	400;440	PET	D	A/B hydrolase	confirmed
+384	g00	3.40.50.1820	c00	339	0	ESM043	WP_031525917.1	384	PET	D	A/B hydrolase	confirmed
+258	g00	3.40.50.1820	c00	340	0	1477	WP_125191182.1	258	PET	D	A/B hydrolase	confirmed
+289	g00	3.40.50.1820	c00	341	0	1478	WP_141569747.1	289	PET	D	A/B hydrolase	confirmed
+276	g00	3.40.50.1820	c00	342	0	1555	WP_078844206.1	276	PET	D	A/B hydrolase	confirmed
+438	g00	3.40.50.1820	c00	343	0	TEP109	WP_307855560.1	438	PET	D	A/B hydrolase	confirmed
+430	g00	3.40.50.1820	c00	344	0	TEP083	MBN1171866.1	430	PET	D	A/B hydrolase	confirmed
+427	g00	3.40.50.1820	c00	345	0	TEP054	WP_260709492.1	427	PET	D	A/B hydrolase	confirmed
+387	g00	3.40.50.1820	c00	346	0	ESM052	WP_203777396.1	387	PET	D	A/B hydrolase	confirmed
+446	g00	3.40.50.1820	c00	347	0	TEP181	WP_212846608.1	446	PET	D	A/B hydrolase	confirmed
+409	g00	3.40.50.1820	c00	348	0	ESM136	GGR16917.1	409	PET	D	A/B hydrolase	confirmed
+294	g00	3.40.50.1820	c00	349	0	1718	WP_084578793.1	294	PET	D	A/B hydrolase	confirmed
+404	g00	3.40.50.1820	c00	350	0	ESM097	WP_271190254.1	404	PET	D	A/B hydrolase	confirmed
+396	g00	3.40.50.1820	c00	351	0	ESM070	GHJ08786.1	396	PET	D	A/B hydrolase	confirmed
+268	g00	3.40.50.1820	c00	352	0	1496	WP_075737041.1	268	PET	D	A/B hydrolase	confirmed
+265	g00	3.40.50.1820	c00	353	0	1537	OKK16161.1	265	PET	D	A/B hydrolase	confirmed
+424	g00	3.40.50.1820	c00	354	0	TEP024	WP_264933993.1	424	PET	D	A/B hydrolase	confirmed
+435	g00	3.40.50.1820	c00	355	0	TEP102	WP_109361459.1	435	PET	D	A/B hydrolase	confirmed
+433	g00	3.40.50.1820	c00	356	0	TEP097	WP_086599340.1	433	PET	D	A/B hydrolase	confirmed
+254	g00	3.40.50.1820	c00	357	0	1468	WP_132413760.1	254	PET	D	A/B hydrolase	confirmed
+299	g00	3.40.50.1820	c00	358	0	1475	WP_086668955.1	299	PET	D	A/B hydrolase	confirmed
+286	g00	3.40.50.1820	c00	359	0	1506	WP_084400763.1	286	PET	D	A/B hydrolase	confirmed
+274	g00	3.40.50.1820	c00	360	0	1573	WP_109639600.1	274	PET	D	A/B hydrolase	confirmed
+442	g00	3.40.50.1820	c00	361	0	TEP164	WP_256510519.1	442	PET	D	A/B hydrolase	confirmed
+275	g00	3.40.50.1820	c00	362	0	1654	WP_086784246.1	275	PET	D	A/B hydrolase	confirmed
+267	g00	3.40.50.1820	c00	363	0	1678	WP_045318561.1	267	PET	D	A/B hydrolase	confirmed
+426	g00	3.40.50.1820	c00	364	0	TEP041	WP_256510026.1	426	PET	D	A/B hydrolase	confirmed
+281	g00	3.40.50.1820	c00	365	0	1457	WP_093954453.1	281	PET	D	A/B hydrolase	confirmed
+441	g00	3.40.50.1820	c00	366	0	TEP163	WP_218517662.1	441	PET	D	A/B hydrolase	confirmed
+487	g00	3.40.50.1820	c00	367	0	Enzyme 407	WP_117215036.1	487	PET	D	A/B hydrolase	confirmed
+126	g00	3.40.50.1820	c00	368	0	407	WP_162908185.1	126	PET	D	A/B hydrolase	confirmed
+287	g00	3.40.50.1820	c00	369	0	1493	WP_132183354.1	287	PET	D	A/B hydrolase	confirmed
+252	g00	3.40.50.1820	c00	370	0	1521	WP_132337032.1	252	PET	D	A/B hydrolase	confirmed
+251	g00	3.40.50.1820	c00	371	0	1489	WP_132386942.1	251	PET	D	A/B hydrolase	confirmed
+247	g00	3.40.50.1820	c00	372	0	1465	WP_073887759.1	247	PET	D	A/B hydrolase	confirmed
+382	g00	3.40.50.1820	c00	373	0	ESM035	WP_158852571.1	382	PET	D	A/B hydrolase	confirmed
+259	g00	3.40.50.1820	c00	374	0	1482	WP_141984372.1	259	PET	D	A/B hydrolase	confirmed
+375	g00	3.40.50.1820	c00	375	0	ESM006	WP_267938240.1	375	PET	D	A/B hydrolase	confirmed
+256	g00	3.40.50.1820	c00	376	0	1491	WP_082403176.1	256	PET	D	A/B hydrolase	confirmed
+327	g01	3.60.70.12	c01	0	0	Nyl40	A0A3M1X2K7	327	PA	D	L-amino peptidase D-ALA esterase	alone
+319	g01	3.60.70.12	c01	1	0	Nyl18	A0A2E3XQJ6	319	PA	D	L-amino peptidase D-ALA esterase	alone
+312	g01	3.60.70.12	c01	2	0	Nyl04	KXS08985	312	PA	h	L-amino peptidase D-ALA esterase	alone
+315	g01	3.60.70.12	c01	3	0	Nyl12	A0A1Q3SHB0	315	PA	D	L-amino peptidase D-ALA esterase	alone
+332	g01	3.60.70.12	c01	4	0	Nyl54	WP_170322449.1	332	PA	D	L-amino peptidase D-ALA esterase	alone
+190	g01	3.60.70.12	c01	5	0	Nc-NylC	WP_312893488.1	190;539	PA	D	L-amino peptidase D-ALA esterase	alone
+543	g01	3.60.70.12	c01	6	0	Tt-NylC	A0A840P940	543	PA	D	L-amino peptidase D-ALA esterase	alone
+189	g01	3.60.70.12	c01	7	0	M-NylC	KQR39103	189;538	PA	D	L-amino peptidase D-ALA esterase	alone
+217	g01	3.60.70.12	c01	8	0	NylC2	XHH12375	217	PA	D	L-amino peptidase D-ALA esterase	alone
+216	g01	3.60.70.12	c01	9	0	NylC1	XHH12374	216	PA	D	L-amino peptidase D-ALA esterase	alone
+53	g01	3.60.70.12	c01	10	0	NylC	WP_012476895.1	53;542	PA	D	L-amino peptidase D-ALA esterase	alone
+55	g01	3.60.70.12	c01	11	0	NylCK	BAE95770.1	55;540	PA	D	L-amino peptidase D-ALA esterase	alone
+54	g01	3.60.70.12	c01	12	0	NylCA	BAE95769.2	54;541	PA	D	L-amino peptidase D-ALA esterase	alone
+333	g01	3.60.70.12	c01	13	0	Nyl57	A0A661XAJ6	333	PA	D	L-amino peptidase D-ALA esterase	alone
+341	g01	3.60.70.12	c01	14	0	Nyl72	A0A7W0NYQ1	341	PA	D	L-amino peptidase D-ALA esterase	alone
+336	g01	3.60.70.12	c01	15	0	Nyl63	A0A7C3G8G6	336	PA	D	L-amino peptidase D-ALA esterase	alone
+326	g01	3.60.70.12	c01	16	0	Nyl39	A0A3D4HM79	326	PA	D	L-amino peptidase D-ALA esterase	alone
+320	g01	3.60.70.12	c01	17	0	Nyl25	PSR30050	320	PA	D	L-amino peptidase D-ALA esterase	alone
+318	g01	3.60.70.12	c01	18	0	Nyl16	OWT56952	318	PA	D	L-amino peptidase D-ALA esterase	alone
+321	g01	3.60.70.12	c01	19	0	Nyl29	A0A315R6Z8	321	PA	D	L-amino peptidase D-ALA esterase	alone
+347	g01	3.60.70.12	c01	20	0	Nyl85	R5FI29	347	PA	D	L-amino peptidase D-ALA esterase	alone
+325	g01	3.60.70.12	c01	21	0	Nyl37	A0A3D1YDR8	325	PA	D	L-amino peptidase D-ALA esterase	alone
+342	g01	3.60.70.12	c01	22	0	Nyl73	MSS57807	342	PA	D	L-amino peptidase D-ALA esterase	alone
+323	g01	3.60.70.12	c01	23	0	Nyl32	A0A351YZM4	323	PA	D	L-amino peptidase D-ALA esterase	alone
+316	g01	3.60.70.12	c01	24	0	Nyl13	WP_075885500.1	316	PA	D	L-amino peptidase D-ALA esterase	alone
+331	g01	3.60.70.12	c01	25	0	Nyl50	TAL40028	331	PA	D	L-amino peptidase D-ALA esterase	alone
+335	g01	3.60.70.12	c01	26	0	Nyl60	A0A6I1QW75	335	PA	D	L-amino peptidase D-ALA esterase	alone
+330	g01	3.60.70.12	c01	27	0	Nyl47	WP_131292212.1	330	PA	D	L-amino peptidase D-ALA esterase	alone
+313	g01	3.60.70.12	c01	28	0	Nyl10	WP_073391230.1	313	PA	D	L-amino peptidase D-ALA esterase	alone
+314	g01	3.60.70.12	c01	29	0	Nyl11	WP_082766707.1	314	PA	D	L-amino peptidase D-ALA esterase	alone
+343	g01	3.60.70.12	c01	30	0	Nyl74	A0A7X7N2B0	343	PA	D	L-amino peptidase D-ALA esterase	alone
+317	g01	3.60.70.12	c01	31	0	Nyl14	A0A1Y4BJH4	317	PA	D	L-amino peptidase D-ALA esterase	alone
+339	g01	3.60.70.12	c01	32	0	Nyl68	A0A7V5VEC1	339	PA	D	L-amino peptidase D-ALA esterase	alone
+340	g01	3.60.70.12	c01	33	0	Nyl71	A0A7V9NEU5	340	PA	D	L-amino peptidase D-ALA esterase	alone
+328	g01	3.60.70.12	c01	34	0	Nyl44	A0A432H965	328	PA	D	L-amino peptidase D-ALA esterase	alone
+215	g01	3.60.70.12	c01	35	1	TvgC	WP_068749367	215	PA	D	L-amino peptidase D-ALA esterase	alone
+322	g01	3.60.70.12	c01	36	0	Nyl30	PWX09261.1	322	PA	D	L-amino peptidase D-ALA esterase	alone
+348	g01	3.60.70.12	c01	37	0	Nyl87	U7UHN3	348	PA	D	L-amino peptidase D-ALA esterase	alone
+329	g01	3.60.70.12	c01	38	0	Nyl45	RYL92504.1	329	PA	D	L-amino peptidase D-ALA esterase	alone
+338	g01	3.60.70.12	c01	39	0	Nyl66	A0A7C7DKE8	338	PA	D	L-amino peptidase D-ALA esterase	alone
+337	g01	3.60.70.12	c01	40	0	Nyl65	A0A7C6SQZ1	337	PA	D	L-amino peptidase D-ALA esterase	alone
+346	g01	3.60.70.12	c01	41	0	Nyl84	WP_010949597.1	346	PA	D	L-amino peptidase D-ALA esterase	alone
+349	g01	3.60.70.12	c01	42	0	Nyl93	WP_170196788.1	349	PA	D	L-amino peptidase D-ALA esterase	alone
+218	g01	3.60.70.12	c01	43	0	NylC5	XHH12378	218	PA	D	L-amino peptidase D-ALA esterase	alone
+344	g01	3.60.70.12	c01	44	0	Nyl82	WP_014810472.1	344	PA	D	L-amino peptidase D-ALA esterase	alone
+334	g01	3.60.70.12	c01	45	0	Nyl58	A0A6A7M915	334	PA	D	L-amino peptidase D-ALA esterase	alone
+345	g01	3.60.70.12	c01	46	0	Nyl83	XP_005707592.1	345	PA	h	L-amino peptidase D-ALA esterase	alone
+324	g01	3.60.70.12	c01	47	0	Nyl34	A0A368EC02	324	PA	D	L-amino peptidase D-ALA esterase	alone
+550	g02	3.90.1300.10	c02	0	0	PURase	Q12559.2	550	PUR	h	Amidase	alone
+147	g02	3.90.1300.10	c02	1	0	CPUTNase	BBP47208.1	147;544	PUR	h	Amidase	alone
+546	g02	3.90.1300.10	c02	2	0	GatA-like	WP_293218050.1	546	PA	D	Amidase	alone
+191	g02	3.90.1300.10	c02	3	0	GatA		191	PA	D	Amidase	alone
+137	g02	3.90.1300.10	c02	4	0	UMG-SP-1	OP972509	137;553	Combi.	o	Amidase	alone
+139	g02	3.90.1300.10	c02	5	0	UMG-SP-3	OP972511	139;555	Combi.	o	Amidase	alone
+138	g02	3.90.1300.10	c02	6	0	UMG-SP-2	OP972510	138;554	Combi.	o	Amidase	alone
+141	g02	3.90.1300.10	c02	7	0	Amidase	AGT90042.1	141	PUR	D	Amidase	alone
+144	g02	3.90.1300.10	c02	8	0	AmdA	AAK28498.1	144	PUR	D	Amidase	alone
+142	g02	3.90.1300.10	c02	9	0	Amidase	AAK11724.1	142	PUR	D	Amidase	alone
+143	g02	3.90.1300.10	c02	10	0	Amidase	ARF18137.1	143	PUR	D	Amidase	alone
+140	g02	3.90.1300.10	c02	11	0	Urethanase	ANG60415	140;205;545	PUR	D	Amidase	alone
+224	g02	3.90.1300.10	c02	12	0	GatA250		224	PUR	o	Amidase	alone
+551	g02	3.90.1300.10	c02	13	0	ReU-like	WP_348608127.1	551	PA	D	Amidase	alone
+193	g02	3.90.1300.10	c02	14	0	ReU		193	PA	D	Amidase	alone
+51	g02	3.90.1300.10	c02	15	0	NylA	WP_012476897.1	51;548	PA	D	Amidase	alone
+50	g02	3.90.1300.10	c02	16	0	P-nylA	AAA25908.1	50;547	PA	D	Amidase	alone
+461	g02	3.90.1300.10	c02	17	0	pQR3141		461	PUR	o	Amidase	alone
+462	g02	3.90.1300.10	c02	18	0	pQR3144		462	PUR	o	Amidase	alone
+460	g02	3.90.1300.10	c02	19	0	pQR3139		460	PUR	o	Amidase	alone
+188	g02	3.90.1300.10	c02	20	0	TtA	WP_185053500	188;552	PA	D	Amidase	alone
+192	g02	3.90.1300.10	c02	21	1	OoH	BAI44731	192;549	PA	D	Amidase	alone
+179	g02	3.90.1300.10	c02	22	0	aryl acylamidase	WZH92451.1	179	PA	D	Amidase	alone
+57	g02	3.90.1300.10	c02	23	0	Arylacylamidase	WP_011209364.1	57	PA	D	Amidase	alone
+110	g03	domain:oxygenase MpaB family protein	c05	0	0	Lcp1	WP_189902969.1	110;563	NR	D	Oxygenase-like	alone
+606	g03	domain:oxygenase MpaB family protein	c05	1	0	lcp1	UFE15762.1	606	NR	o	Oxygenase-like	alone
+607	g03	domain:oxygenase MpaB family protein	c05	2	0	lcp2	UFE15763.1	607	NR	o	Oxygenase-like	alone
+113	g03	domain:oxygenase MpaB family protein	c05	3	0	Lcp2	UFE15761.1	113	NR	D	Oxygenase-like	alone
+168	g03	domain:oxygenase MpaB family protein	c05	4	0	Lcp2VH2	AFA76036.1	168;566	NR	D	Oxygenase-like	alone
+167	g03	domain:oxygenase MpaB family protein	c05	5	0	Lcp1VH2	WP_006368739.1	167;564	NR	D	Oxygenase-like	alone
+608	g03	domain:oxygenase MpaB family protein	c05	6	0	lcp3	UFE15764.1	608	NR	o	Oxygenase-like	alone
+112	g03	domain:oxygenase MpaB family protein	c05	7	0	Lcp1	UFE15760.1	112	NR	D	Oxygenase-like	alone
+111	g03	domain:oxygenase MpaB family protein	c05	8	0	Lcp2	WP_254586337.1	111;565	NR	D	Oxygenase-like	alone
+562	g03	domain:oxygenase MpaB family protein	c05	9	0	LCP_STRK3	Q3L8N0.2	562	NR	D	Oxygenase-like	alone
+106	g03	domain:oxygenase MpaB family protein	c05	10	1	LCP_STRK3	AAR25849.1	106	NR	D	Oxygenase-like	alone
+78	g04	3.40.50.200	c06	0	0	Proteinase K	CAA32820.1	78;571	PLA	h	Peptidase	alone
+223	g04	3.40.50.200	c06	1	0	PAM	BAU20375	223	PLA	D	Peptidase	alone
+58	g04	3.40.50.200	c06	2	0	serineprotease	WP_378272130.1	58	PLA	D	Peptidase	alone
+68	g04	3.40.50.200	c06	3	0	LP175	ATG80622.1	68;570	PLA	D	Peptidase	alone
+574	g04	3.40.50.200	c06	4	0	Subtilisin; subC	P00780.2	574	PLA	D	Peptidase	alone
+67	g04	3.40.50.200	c06	5	0	Subtilisin SubC	CAB56500	67	PLA	D	Peptidase	alone
+66	g04	3.40.50.200	c06	6	0	Subtilisin BL	P29599	66;572	PLA	D	Peptidase	alone
+65	g04	3.40.50.200	c06	7	1	Subtilisin Savinase	P29600	65;573	PLA	D	Peptidase	alone
+61	g05	2.40.10.10	c22	0	1	PLAase III	ABY67151.1	61	PLA	D	Trypsin-like	confirmed
+557	g05	2.40.10.10	c22	1	0	PLase3	WP_044849715.1	557	PLA	D	Trypsin-like	confirmed
+220	g05	2.40.10.10	c14	2	0	Trypsin	P00761.1	220	PET	h	Trypsin-like	confirmed
+60	g05	2.40.10.10	c14	3	1	PLAase II	ABY53108.1	60	PLA	D	Trypsin-like	confirmed
+556	g05	2.40.10.10	c14	4	0	PLAase	Q75UA4	556	PLA	D	Trypsin-like	confirmed
+59	g05	2.40.10.10	c14	5	0	PLAase I	WP_037320891.1	59	PLA	D	Trypsin-like	confirmed
+71	g06	3.40.710.10	c38	0	1	MGS0105	AGT96414.1	71	PLA	o	Peptidase	confirmed
+52	g06	3.40.710.10	c17	1	1	NylB	CAA24927.1	52;604	PA	D	Peptidase	confirmed
+451	g06	3.40.710.10	c17	2	0	NylB'	CAA26616.1	451	PA	D	Peptidase	confirmed
+165	g06	3.40.710.10	c40	3	1	IS11	UNZ81747.1	165	PET	D	Peptidase	confirmed
+70	g06	3.40.710.10	c37	4	1	MGS0010	AHG30919.1	70	PLA	o	Peptidase	confirmed
+107	g07	1.10.760.10	c13	0	0	RoxA	AAP41848.1	107;561	NR	D	Cytochrome C-like	alone
+109	g07	1.10.760.10	c13	1	0	LatA	WP_085748997.1	109;560	NR	D	Cytochrome C-like	alone
+108	g07	1.10.760.10	c13	2	1	RoxB	AQV11968.1	108	NR	D	Cytochrome C-like	alone
+558	g08	2.60.40.420	c53	0	1	LMC021	AII11185.1	558	PE	D	Other	confirmed
+559	g08	2.60.40.420	c54	1	1	LMC031	AII11221.1	559	PE	D	Other	confirmed
+12	g09	3.40.50.1110	c20	0	1	PpEst	WP_003460012.1	12	Combi.	D	Other	alone
+463	g09	3.40.50.1110	c20	1	0	E4	7C2A_A	463	PET	D	Other	alone
+177	g10	1.10.420.10;1.10.520.10	c41	0	1	MnP	AAA33742.1	177	PA	o	Other	alone
+221	g11	1.10.630.10	c47	0	1	CYP450	P08684.4	221	PET	h	Cytochrome C-like	alone
+311	g12	2.40.70.10	c49	0	1	Nepenthesin-1	BAD07474.1	311	Combi.	h	Other	alone
+145	g13	3.20.20.370	c30	0	1	Amidase	WP_012433325.1	145;568	PUR	D	Other	alone
+466	g14	3.60.21.10	c51	0	1	BsMPPE	NP_390179.1	466	PC	D	Other	alone
+219	g15	3.40.710.10	c46	0	1	PA4-degrading enzyme	BEG79545	219	PA	D	Peptidase	unconfirmed

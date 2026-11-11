@@ -1,0 +1,14 @@
+test	n_a	n_b	stat_a	stat_b	p
+accessory vs none, plastic substrates	14	317	0.48	0.52	0.265
+accessory vs none, model substrates	62	136	0.53	0.56	0.545
+within reference, plastic: references with both	3		-0.14		0.25
+within reference, model: references with both	3		-0.20		0.5
+spearman source temperature vs activity, plastic	276		0.03		0.675
+spearman source temperature vs activity, model	97		0.06		0.561
+spearman source pH vs activity, plastic	270		0.01		0.889
+spearman source pH vs activity, model	99		-0.02		0.865
+spearman source salinity vs activity, plastic	264		-0.02		0.741
+spearman source salinity vs activity, model	90		0.08		0.466
+spearman source temperature vs measured Tm	63		-0.08		0.524
+halo assay active, accessory vs none (Fisher)	5	192	0.00	0.15	1
+kruskal ecosystem vs plastic activity	275				0.897

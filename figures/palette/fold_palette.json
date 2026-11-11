@@ -1,0 +1,125 @@
+{
+  "folds": [
+    {
+      "slice": "g00",
+      "fold": "Alpha/beta hydrolase",
+      "catalytic_cath": "3.40.50.1820",
+      "hue": 210,
+      "hue_source": "atlas",
+      "tint": "#d4e3f2",
+      "tint_second": "#c4d9ed",
+      "label": "#5b8ab9",
+      "atlas_base": "#27619b"
+    },
+    {
+      "slice": "g01",
+      "fold": "L-amino peptidase D-ALA esterase/amidase",
+      "catalytic_cath": "3.60.70.12",
+      "hue": 25,
+      "hue_source": "atlas",
+      "tint": "#f2e1d4",
+      "tint_second": "#edd6c4",
+      "label": "#b9825b",
+      "atlas_base": "#9b5727"
+    },
+    {
+      "slice": "g02",
+      "fold": "Amidase signature (AS) domain",
+      "catalytic_cath": "3.90.1300.10",
+      "hue": 0,
+      "hue_source": "atlas",
+      "tint": "#f2d4d4",
+      "tint_second": "#edc4c4",
+      "label": "#b95b5b",
+      "atlas_base": "#9b2727"
+    },
+    {
+      "slice": "g03",
+      "fold": "Oxygenase MpaB family protein",
+      "catalytic_cath": "none",
+      "hue": 90,
+      "hue_source": "extended",
+      "tint": "#e3f2d4",
+      "tint_second": "#d9edc4",
+      "label": "#8ab95b",
+      "atlas_base": "#619b27"
+    },
+    {
+      "slice": "g04",
+      "fold": "DD-peptidase/beta-lactamase superfamily",
+      "catalytic_cath": "3.40.710.10",
+      "hue": 140,
+      "hue_source": "atlas",
+      "tint": "#d4f2de",
+      "tint_second": "#c4edd2",
+      "label": "#5bb97a",
+      "atlas_base": "#279b4e"
+    },
+    {
+      "slice": "g05",
+      "fold": "Trypsin-like serine proteases",
+      "catalytic_cath": "2.40.10.10",
+      "hue": 270,
+      "hue_source": "atlas",
+      "tint": "#e3d4f2",
+      "tint_second": "#d9c4ed",
+      "label": "#8a5bb9",
+      "atlas_base": "#61279b"
+    },
+    {
+      "slice": "g06",
+      "fold": "Peptidase S8/S53 domain",
+      "catalytic_cath": "3.40.50.200",
+      "hue": 175,
+      "hue_source": "extended",
+      "tint": "#d4f2ef",
+      "tint_second": "#c4ede9",
+      "label": "#5bb9b1",
+      "atlas_base": "#279b91"
+    },
+    {
+      "slice": "g07",
+      "fold": "Cytochrome c-like domain",
+      "catalytic_cath": "1.10.760.10",
+      "hue": 315,
+      "hue_source": "extended",
+      "tint": "#f2d4ea",
+      "tint_second": "#edc4e2",
+      "label": "#b95ba1",
+      "atlas_base": "#9b277e"
+    },
+    {
+      "slice": "g08",
+      "fold": "Cupredoxins, blue copper proteins",
+      "catalytic_cath": "2.60.40.420",
+      "hue": 50,
+      "hue_source": "atlas",
+      "tint": "#f2edd4",
+      "tint_second": "#ede6c4",
+      "label": "#b9a95b",
+      "atlas_base": "#9b8827"
+    },
+    {
+      "slice": "g09",
+      "fold": "SGNH hydrolase",
+      "catalytic_cath": "3.40.50.1110",
+      "hue": 240,
+      "hue_source": "extended",
+      "tint": "#d4d4f2",
+      "tint_second": "#c4c4ed",
+      "label": "#5b5bb9",
+      "atlas_base": "#27279b"
+    }
+  ],
+  "other_folds": {
+    "tint": "#e9e9e6",
+    "fold": "Other folds (single sequences)"
+  },
+  "construction": {
+    "saturation": 51.9,
+    "lightness": 89.0,
+    "label_saturation": 40.0,
+    "label_lightness": 54.0,
+    "second_tint_factor": 0.955
+  }
+}

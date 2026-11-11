@@ -1,0 +1,17 @@
+fold_group	fold	centroids	ssn_components	clusters_30	clusters_40	clusters_50	clusters_60	clusters_70	clusters_80	clusters_90
+g00	Alpha/beta hydrolase	309	36	36	60	84	116	166	235	309
+g01	L-amino peptidase D-ALA esterase/amidase	45	1	1	5	32	40	43	44	45
+g02	Amidase signature (AS) domain	19	1	1	13	15	17	17	18	19
+g03	Oxygenase MpaB family protein	10	1	1	1	1	2	7	9	10
+g04	DD-peptidase/beta-lactamase superfamily	5	4	4	4	4	4	4	4	5
+g05	Trypsin-like serine proteases	5	2	2	5	5	5	5	5	5
+g06	Peptidase S8/S53 domain	5	1	1	2	4	4	5	5	5
+g07	Cytochrome c-like domain	3	1	1	2	2	2	2	2	3
+g08	Cupredoxins - blue copper proteins	2	2	2	2	2	2	2	2	2
+g09	SGNH hydrolase	2	1	1	1	2	2	2	2	2
+g10	Peroxidase, domain 2	1	1	1	1	1	1	1	1	1
+g11	Cytochrome P450	1	1	1	1	1	1	1	1	1
+g12	Acid Proteases	1	1	1	1	1	1	1	1	1
+g13	Glycoside hydrolase/deacetylase	1	1	1	1	1	1	1	1	1
+g14	Purple Acid Phosphatase	1	1	1	1	1	1	1	1	1
+g15	DD-peptidase/beta-lactamase superfamily (unconfirmed)	1	1	1	1	1	1	1	1	1

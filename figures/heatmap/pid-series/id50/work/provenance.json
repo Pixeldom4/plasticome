@@ -1,0 +1,14 @@
+{
+  "engine": "diamond",
+  "engine_version": "diamond version 2.2.4",
+  "invocation": "native /opt/homebrew/bin/diamond",
+  "id": 0.5,
+  "member_cov": 0.9,
+  "greedy_ordering": "graph degree (greedy-vertex-cover)",
+  "on_seed_collapse": "keep",
+  "n_records": 609,
+  "n_clusters": 184,
+  "n_reference_clusters": 13,
+  "n_recruited": 153,
+  "n_singletons": 94
+}

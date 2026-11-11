@@ -1,0 +1,1220 @@
+seq_md5	catalytic	accessory	has_accessory	length	family_id	temperature_c	ph	salinity_psu	ecosystem	tm_measured	activity_plastic	activity_model	halo_active
+00855c73c087597a6c69fa2b114d731e	PETase		False	260.0	182.0	25.0	8.3	30.0	Soil and plant		0.625		
+009e600d3a7df316a22764026a76e2bc	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant		0.4	1.0	
+00a064e3b106a55880ecbbeb69dc9951	Lipase_3		False	281.0									
+00ac787ef2ddd37d0db0629c94fe2845	lci		False	47.0									
+00c28e4a8cf149058833c927cc5d9336	COesterase		False	566.0	35419.0	8.0		40.0					
+00d183db2aee3ce5545991ef4922d7b3	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.48684210526315785		
+010eea6b74fcd6cf6ffcbc8670ff6c67	AAA_16	GerE	True	923.0	12025.0					28.0	0.8333333333333334		
+011da5a96319680f9cbe3cb397471f6f	PETase		False	309.0	47364.0								False
+0121ff4c96b7e898af1b70cea817bd43	Amidase		False	493.0	29071.0	2.0	6.71	18.4	Soil and plant				
+0128d40c04a5782b7db3cde245df57f8	Cutinase		False	222.0	58202.0								
+01abab0d347ac897ca3ea5a888bb3581	Lipase_2		False	289.0	20963.0	18.03333333	8.3	100.0	Animal				
+0205876d7fa764164b81510ae9aabe10	PETase		False	345.0	182.0	25.0	8.3	30.0	Soil and plant				False
+020ae9b8fd97bf1e0a879e191b4b87c7	PETase		False	306.0	47364.0								False
+024678fb7e5f5a204647fd2d1e393aab	MPAB_Lcp_cat		False	407.0	8501.0				Engineered				
+02cb72e95904f9970724c19e8e4d7800	PETase		False	295.0	182.0	25.0	8.3	30.0	Soil and plant				
+033714efecf502a3908bc3eb9ba922b9	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.8611111111111112		
+0344a64c5e3d164e8875cbced975f5d2	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant				
+03589827ba68db787fee3c847910c056	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.85		
+0359555e62089faecce78f51c5acfd42	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				False
+039894d56dfa4d43207b8dada265161b	PETase		False	266.0	182.0	25.0	8.3	30.0	Soil and plant		0.8888888888888888		
+039e4cca1ef55bbe92c9e5e075988434	PETase		False	328.0	40904.0	1.1	8.177		Aquatic				False
+03b2c2643b7b2db65ae47558f9cc018b	Lipase_2		False	344.0	16360.0	12.9	8.3		Soil and plant				
+03c634ad6fad827ad680079eb5d0d7b0	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant				
+03d89fca17adbc9275cef7b6a6f5fd8c	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.5650623885918004	0.95	
+03d984a5b0da3c0d39f9a8964d199132	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+042015bbac54a4975a0f3b9af703879a	Response_reg	HTH_30;HTH_8	True	179.0								0.05555555555555555	
+045de4fa675b9ceb519b3377232cdf60	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.23529411764705882		
+0490795cd2741f57b9030b38e67e284d	COesterase	AChE_tetra	True	614.0	40953.0							0.13333333333333333	
+04d08af1b49f3cebdd89d78e31bc2d6f	Abhydrolase_1		False	257.0	28853.0	18.0	6.5		Soil and plant				
+04dcc08154b027d20661dc80010396e0	Cutinase		False	224.0	58202.0								
+050b26a60b83de200664f4e2b4ae4819	PETase		False	272.0	182.0	25.0	8.3	30.0	Soil and plant				False
+054ad3a5fa52ce3709f920edf23b1f74	PETase		False	280.0	182.0	25.0	8.3	30.0	Soil and plant				False
+05c473b38ef0a7b5312ffac74fd74ad9	PETase		False	311.0	47364.0								False
+05ce4f9ded1951e9a9ca496cd1c83ebf	Cutinase		False	219.0	673.0	22.0	5.0	35.325105	Soil and plant				
+05ce90b4df2f6713b264685c25df2f54	PETase		False	298.0	47364.0								False
+061f3a38931d423b1a84f2e6d5b51668	Sod_Fe_C	Sod_Fe_N	True	207.0									
+06211360f5260de7fb294a4afa7d8839	PETase		False	280.0	47364.0					58.0			
+067e281972e92f24fb345ef6c8870caa	Lipase_2		False	215.0	26105.0	13.5			Soil and plant				
+06a249fc0d5bf25e7ce6edea5f904c2e	PETase		False	289.0	11810.0	54.0	7.3		Other environmental				False
+06d89e9f595b7abc6f662a4ea5fc3f77	Amidase	Amidase	True	439.0	4786.0	6.18	5.6	21.3	Other environmental				
+06fa87807926e6578527c10dbbf38181	PETase		False	264.0	182.0	25.0	8.3	30.0	Soil and plant				False
+07182ab508eed2d8814c95424d79c137	DUF6230		False	219.0									
+0746c7c2cee5fe2d072085c23c38be32	Tannase		False	611.0									
+074bf5f4d3c31636f9e618177147d87a	PETase		False	43.0							0.3333333333333333	0.13333333333333333	
+07f650739f910ab2319680d2f061d42d	Esterase_PHB	TSP_3	True	683.0	62260.0	17.93	7.5	39.25	Aquatic				
+085add734f10d1917f9638347ab618d2	Lipase_2		False	380.0	16360.0	12.9	8.3		Soil and plant				
+09122b1ab9022d8ab82ec605105933b3	PETase	Por_Secre_tail	True	361.0	4486.0	22.15	7.5	2.85	Engineered		0.4772727272727273	0.22727272727272727	
+097fae18a4d2659e25be95f1384ef8c9	PETase		False	295.0	182.0	25.0	8.3	30.0	Soil and plant			0.7727272727272727	
+09c68f4fbc3a8ff618389a741bebc71a	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.4901960784313726	0.575	
+09fbbcc69d426e1602e7ffb1ba41b8b3	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.9655172413793104		
+0a2e2ac8664fcf6233da358ccbe305ea	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant		1.0		
+0a3a94716bd0744f5a1e07815366e932	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant				True
+0b0324f0117400b842c7984201b93c37	PETase		False	85.0	22990.0				Soil and plant				
+0b18b79df4698a6ce5073b0bf485da5b	Cutinase		False	231.0	22638.0	22.0	8.4		Soil and plant				
+0b490a6d93d67b0ebb2d6cd3d80f9d9a	PAF-AH_p_II		False	434.0	10882.0	10.6465625	8.12	21.588752999999997					
+0b85af92ab547928c78143645e53a2e0			False		29697.0								
+0b900fbc2c0fb28366a36751624db551	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		1.0		
+0ba95b324e42cdddd55abf4c6f825573	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.13770053475935828	0.2	
+0bdcaa27f13943af0240f7a47a3bd0df	PETase		False	272.0	182.0	25.0	8.3	30.0	Soil and plant				
+0bff7eaf4270f3bc13a7d03f7f9b16bb			False										
+0c3e28aa4bd3dfa46f4eed53d777185f	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.7361111111111112	
+0c75d9f81ae52914a609ec24d4c68ea2	PETase		False	257.0	182.0	25.0	8.3	30.0	Soil and plant		0.3125		
+0c7ebdbabddcd8f48deed968a192dcdc	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+0cc8e49f66f688e6f7c64e7be59ec37b	Hydrolase_4		False	246.0	18470.0								
+0ccba4d53ac83e5437ecd1027cfe4ab8	Peptidase_S58		False	305.0	63803.0	2.3	6.84	0.9	Soil and plant				
+0cf24500194e66155e9b1cee60e98dd2	PETase		False	258.0	182.0	25.0	8.3	30.0	Soil and plant				
+0d1cb13e5388729a873ab043e2fc4c19	Cutinase		False	217.0	7505.0				Other environmental				
+0d2217cce41cc5f6214040a16e3f95f5	PETase		False	309.0	182.0	25.0	8.3	30.0	Soil and plant				True
+0d26a77d2ffda03e4582e295927066c6	HemolysinCabind	HemolysinCabind	True	617.0	11912.0								
+0d62bd0744d4ec1c67f7b4662fbeb1c3	MPAB_Lcp_cat	TAT_signal	True	404.0	8501.0				Engineered				
+0d89a7b8c8c646d83fd469abec4d9250	COesterase	AChE_tetra	True	614.0	40953.0							0.8166666666666667	
+0d89bc203a24737bcf6524ca2018b69c	PETase		False	309.0	47364.0								False
+0e33abbdd9bb203a9034233c18ec766d	PETase		False	318.0	182.0	25.0	8.3	30.0	Soil and plant				False
+0e43427fd5fde41be66448e674fc73d2	PETase		False	292.0	11810.0	54.0	7.3		Other environmental				False
+0e44f32b93d45c553be86539c8b31160	Peroxidase_2		False	325.0									
+0e841a3c1f59a0cfd7b1ac47b6e7b1bd	Cutinase		False	221.0	1641.0	23.333333333333332		35.845669	Other environmental				
+0ea606ea33403fe434a332f04d7e1df6	PETase		False	289.0	20121.0								False
+0eb4d54a1db32a9592889ce0cdf63c42	COesterase	AChE_tetra	True	614.0	40953.0							0.5416666666666666	
+0eb6bb9a1cb1c3ca818bc2fb301fba7b	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+0eb9dd918baef3c896c6e37b767d94fd	Peptidase_S8	Fervidolysin_NPro-like;Inhibitor_I9	True	381.0	172.0	22.2			Engineered				
+0f1193f969c01b3a6904b5679dd31d5d	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant				
+0f2c8eff649b16320b87cfa2fc0faca6	Amidase	Amidase	True	442.0	4786.0	6.18	5.6	21.3	Other environmental				
+0f41f35754ce7d427ec6606ce777320c	Esterase_PHB	fn3	True	488.0	62258.0	12.6	7.07	19.37	Soil and plant				
+0faf61e14fd8729c4f8929ef04727c51	Peptidase_S9		False	257.0	46367.0	55.0			Other environmental	87.0	1.0	1.0	
+0fccd8db42af31e74a32c063c7a25b31	Peptidase_S8	Inhibitor_I9	True	502.0	745.0	22.2	7.300000000000001	177.5	Engineered				
+0ff17ebdb173018728d2219bcd5f4e38	Esterase_PHB	fn3	True	488.0	62258.0	12.6	7.07	19.37	Soil and plant				
+1028fd79bfd17acbd7b558403696a9de	PETase		False	290.0	47364.0								
+10d87dbad4c4c7bfd7d5c331cef5b9ce	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant				
+1101bda63c95a021aad8d9924dfba646	COesterase		False	528.0	34861.0				Animal				
+1131d29d6652fb711ba9a0ebb01dceb5	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.7777777777777778		
+113b3781f9fab7d869f9cc1aaa82efba	Abhydrolase_5		False	253.0									
+113bf47f052fd74f460408939562af0b	PETase		False	296.0	182.0	25.0	8.3	30.0	Soil and plant				True
+1156cbd4cefbac4192a6882d8e04089e	Cu-oxidase_3	Cu-oxidase;Cu-oxidase_2	True	494.0	15608.0	19.881449	5.7	34.692499999999995	Engineered				
+119a8f15705fde4cc5cc1d2bec597846	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant				False
+11f0f060c81ac11d2d6e230fd3cb855f	Esterase_PHB		False	355.0	29697.0						0.30000000000000004		
+1208d4604d4af571935ed58d6abb0e21	PETase		False	298.0	47364.0						0.6	0.2	
+120de40842f09c701ea3673b7b4f109c	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	78.95	0.3333333333333333		
+1210c24426221d58ccef23e406e8ac70	Amidohydro_1		False	387.0									
+12bd327626be636fdce7d78edbf0e4b9	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	30.2	0.2222222222222222		
+12efbdad63de5275909365067113db41	Beta-lactamase		False	455.0	6143.0	14.0	7.4	9.98	Engineered				
+1324122742e41430b993041722b43508	PETase		False	448.0	26121.0	20.00755	8.06	34.861100845336914	Aquatic				False
+1361228bf3f1c19ea8214555076414a7	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant		1.0		
+141fb3376717b27f59fdaddd541e46c8	PETase		False	299.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+14313a5950453ad652ce96e7c1c0586d	DUF6230		False	217.0									
+143e05b5421cd1bc1eb19bcc570aed8a	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.2777777777777778		
+1460d2e587bd0f383218f6172c507ffa	Abhydrolase_3		False	319.0	34.0	37.0	7.7	40.0	Human			0.8125	
+14a89dd5a72796c46cadf66fd2681bc7	PETase		False	305.0	47364.0								False
+150f9d93d00e73a91b25a7a1237f7080	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.46153846153846156		
+15317ec096461afae2a6111e17b27633	Abhydrolase_6		False	293.0	284.0	30.0	6.5	30.0	Human				
+1539325e08edb9cc4e70df63d26ab1bf	Esterase_PHB	CHB_HEX_C_1;Fn3_assoc	True	590.0	37444.0	24.6			Engineered				
+153e9b0856ceb04d01d754d8c43f0307	PETase		False	298.0	47364.0							0.6	
+1545cf731ea10ee62b256807199e37d8	PETase		False	312.0	182.0	25.0	8.3	30.0	Soil and plant				True
+15938ddd57d7448aa110a9139193c91b	PETase		False	307.0	47364.0								
+15b02ddeac9e8e5bccfad3d4ba3ffd53	Peptidase_S58		False	355.0	1118.0	28.075	9.51	34.671	Soil and plant				
+15b9f90a069e195bb4c199ba8bdf8843	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant	0.7165			
+1612ad6c686df9a59fe438f129725b68	Abhydrolase_1		False	307.0									
+167404af3d5d39db1bbe80cfb688ea40	Cutinase		False	226.0	673.0	22.0	5.0	35.325105	Soil and plant				
+167f1e4e4481dfb27bd087d9b3902929	Trypsin		False	238.0	198.0	22.5	5.74		Soil and plant				
+16f4b56ae73d159d8628ec17828515fe	Peptidase_S8		False	282.0	30.0	22.15	9.0	1.87	Human				
+1730ba3c614454a7412b272b4607c9e4	PETase		False	292.0	182.0	25.0	8.3	30.0	Soil and plant			0.7272727272727273	
+17786eed1ad19e27b59ffaaec06a746b	PETase		False	283.0	182.0	25.0	8.3	30.0	Soil and plant				False
+17bc870add3dd5f06901d39ce4a9f360	HTH_3		False	72.0									
+17ce7a364fdbc0ac344b3a770d66353c	Abhydrolase_1		False	364.0									
+1825599eda3fb3a78763126d00597799	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant				
+18267dca335619468ae2e4afcfda7f1f	Hydrolase_4		False	248.0	30634.0								
+182fedbeb861288c57a6315a27f8f2aa	COesterase	AChE_tetra	True	614.0	40953.0							0.8166666666666667	
+188226aef8597208696b7968426af1b3	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.4107142857142857		
+18978990abc9abc69b5f7714243b070e	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				False
+19816cf0ce1cd4f4f9a55d83b338530c	Abhydrolase_3		False	319.0	34.0	37.0	7.7	40.0	Human			0.9375	
+198d14bb37149debc526a3f90e777956	MPAB_Lcp_cat		False	407.0	8501.0				Engineered				
+19c26dd27af7e8b43a13fbc79ff272b6	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.4722222222222222		
+1a3a1f0d8124444731a59328ee48ab62	PAF-AH_p_II	PAF-AH_p_II	True	348.0	20248.0	27.2	3.57		Soil and plant		0.4772727272727273	0.7272727272727273	
+1a90f35ede870f1d524f2ce5074b3579	PETase		False	260.0	182.0	25.0	8.3	30.0	Soil and plant				
+1aa4aad7e173d87536d8b7bbaf1bbe22	COesterase	AChE_tetra	True	614.0	40953.0							0.5666666666666667	
+1aae10cbc1c1146b8ae67327f8ee78a8	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.2727272727272727	
+1ad3d37b2bb9476abd40d19fc90f4418	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant			0.075	
+1ad53dec3abb8dc92d2a67cae75671df	BD-FAE		False	311.0	1286.0	26.3	10.0	21.13	Other environmental			0.5555555555555556	
+1afef40568f1987feb70e807b90edd27	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.2222222222222222		
+1b0d2c147b96bad033703fb124a50764	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant		0.6916666666666668		
+1b4d83af69b8a4fa5a9cd61c2543291b	Lipase_2		False	342.0	16360.0	12.9	8.3		Soil and plant				
+1b6b481ae8c381caa14940dd3dfac3ef	PETase		False	282.0	5885.0	25.0	8.3	30.0	Soil and plant				
+1ba0ae2efc27f851a31594fd3fb4e61e	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.3103448275862069		
+1ba52de8a68a0fd1bd6badeb0d9394ea	PETase		False	325.0	182.0	25.0	8.3	30.0	Soil and plant				False
+1bd6dd8af584d0fb186bbbb12dcb9190	PETase		False	286.0	182.0	25.0	8.3	30.0	Soil and plant				
+1ca7edde442f94ec96fd32f05ed7b7cf	COesterase		False	443.0	59201.0							0.5	
+1cd132c13fd6ea6e6df38e1c8ee6654f	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.8823529411764706		
+1ce04e9cb48634193b909674bb857693	PETase		False	298.0	47364.0							0.8	
+1d02beba5129c51de9045db8a985c415	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.9230769230769231		
+1d215253e9d74e64c27ddb20c79d372d	Cu-oxidase	Cu-oxidase_2;Cu-oxidase_3	True	496.0	1933.0	9.0	4.029999999999999						
+1d5ffddc584d9cf996afc028bb6bab80	PETase		False	301.0	182.0	25.0	8.3	30.0	Soil and plant				
+1db2073243958b590a15ed74ae8fae01	PETase		False	390.0	182.0	25.0	8.3	30.0	Soil and plant				False
+1db287be4fdf3e1cd9af3c6eca6f7c78	Polysacc_deac_1		False	446.0									
+1dd270b564b3d69c3f8b6079eb3090a2	PETase		False	244.0	55846.0	13.2787865	7.7	34.854	Aquatic				
+1de664ad653cba71b0261792098dee7b	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.46551724137931033		
+1deee0d2ea9a1ec038c2685390796296	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.6428571428571429		
+1e03b9f6530e764e68f1767fc0f78fc5	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.8214285714285714		
+1e0a4142e7e6f0cf3fcd444151b96695	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human			0.3888888888888889	
+1e2d93c3f175629bdc01af896f787a19	Cutinase		False	200.0	673.0	22.0	5.0	35.325105	Soil and plant				
+1ec1ed5aec7132afe34aaac29e35a325	PETase		False	286.0	47364.0						0.6363636363636364		
+1ec218b6cdcc86f5ef25e815bd452564	PETase		False	540.0	182.0	25.0	8.3	30.0	Soil and plant				False
+1ef018542edf01b3a631f08cd98160bb	PETase		False	286.0	939.0	10.5	8.4		Soil and plant				
+1ef84b4b6175e86a376c982d31bf69d7	Lipase_3		False	333.0									
+1effc600f88af34c6561b314154dc62f	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+1f67eee50079e3b34faafd7dd2ca0345	Lipase_GDSL_2		False	208.0	43.0	37.0	7.9	40.0	Human			0.3333333333333333	
+1fb329f12a4abca99091f7b32a3bc03f	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant	83.0	0.7307692307692307	0.7692307692307693	
+1fb4e340454786e9efac7d88b8d585ef			False										
+1fb7cedd3584fe1b3f2ebeadc0aa1d6a	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+2035fbd3419ae82c3a71f56aad580562	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	67.8			
+20723ebc31f281e1710082cf83b1b937	COesterase	AChE_tetra	True	614.0	40953.0							0.3833333333333333	
+209fad43f495814c733cbf3f1d8d2f2d	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.20689655172413793		
+20d65d977e9ca958a5871d1570e01128	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant	56.5			
+20e28c7e2740f9fb00efad3f6d42077a	PETase		False	308.0	47364.0								True
+20f6958660060fad575a502d8c4e6209	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant				
+20f897e9ee00f8c7efbd1e4876ae35d2	peroxidase	Peroxidase_ext	True	338.0									
+21445c45d122118a5e635a1992a17d1e	COesterase	AChE_tetra	True	614.0	40953.0							0.6	
+21668eb8a13fff9c30836d0e6c41b02b	Cutinase		False	198.0	58202.0								
+21bcb8b7d68d12cd90028d427bc6380d	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human			0.3888888888888889	
+2209ef2e7d6c5be2909e1f15677d5eff	PETase		False	304.0	47364.0								False
+226d24ce9962f0e251d6add73b79524a	Esterase_PHB		False	418.0	54816.0								
+228c0163d52c242094dea0f2adf2b334	Abhydrolase_3		False	310.0	21187.0	11.98333335	7.6	5.15	Soil and plant				
+229e69695bcd1b91a3aa54162ec75f53	PETase	F5_F8_type_C;F5_F8_type_C_2	True	443.0	182.0	25.0	8.3	30.0	Soil and plant				False
+22a6cc01a1784fd471c391920323effb	DLH		False	258.0	1069.0	28.0	6.5		Soil and plant		0.4		
+22c19101c81dbb6e02a0bf3742f3bcaf	PETase		False	231.0	20121.0								False
+232a4b998c6493ae873bf4e7c0d5e6a4	Amidase	Amidase	True	439.0	4786.0	6.18	5.6	21.3	Other environmental				
+2331fe21eadd1b98f9d1550136f52fa1	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.5263157894736842		
+234b012d2d4805f1cc79f791da629638	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.38461538461538464		
+236406ceb4d696fca9c81ee3bc397b9b	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+23d74f893ffd74085043d596231387f9	Abhydrolase_3		False	317.0	26615.0				Aquatic				
+24182b676deb7c83c7be31520d83bb61	Amidase	Amidase	True	439.0	4786.0	6.18	5.6	21.3	Other environmental				
+242bc869f819d4e0580a57412db23d53	PETase		False	313.0	182.0	25.0	8.3	30.0	Soil and plant				
+243a181026c317774d4b71e6adc9b4d2	Lip_C		False	387.0	70.0	22.0			Engineered	133.0			
+24a67ec5fcd027647406ca50ab13b92e	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.2857142857142857		
+24fde616f973bb9995e8e25c7a3d400f	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.1388888888888889		
+2568f7e4f48ad0b7a8daa94d5caeef13	Abhydrolase_1		False	270.0	93.0	27.0	8.99	30.0	Human				
+259133c23d8dc2f47cbe78b1059f5a03	Lipase_3		False	305.0									
+25addc0df8bbc36af89281e9a0901ae5	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.7692307692307693		
+25bdd4a3048572e952422ea7e450247f	Peptidase_S58		False	355.0	1118.0	28.075	9.51	34.671	Soil and plant				
+2617ae949ef7f036e1d86700511409f5	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.39655172413793105		
+263b6d9cf1f73ddee6c8d0410fdaf229	PHB_depo_C		False	419.0	173.0	33.5	5.6	30.0	Human				
+264d0cf3f06671cf010ae7b6f1b3b2d0	Cutinase		False	197.0	1641.0	23.333333333333332		35.845669	Other environmental				
+2676c6354483b94c135bb4365707cb43	Esterase_PHB	RGI_lyase;fn3	True	491.0	29697.0								
+26e47dd1ae9191c0c0aca75bde3bb9e4	HemolysinCabind		False	614.0	11912.0								
+27043b1792888fc3390a27ad20359664	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.8928571428571429		
+270dc714461b0c6181fe35f80173d828	PETase		False	370.0	182.0	25.0	8.3	30.0	Soil and plant				False
+271439d857fcbee0645a530b2641056d	Esterase_PHB		False	376.0	7690.0	7.6502	7.66	34.67996	Engineered		1.0		
+2751cebfebc96a2b26b3de8872b1fd0e	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.3055555555555556	
+27586e51de99b545b42c2d3bada54f36	PETase		False	295.0	182.0	25.0	8.3	30.0	Soil and plant				
+2771e98cf6588a86e7b3cea1455f3d9d	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.8181818181818181	
+2798470a64d0e292e604a4ad45e938c2	PETase		False	263.0	32376.0								
+27e93319f248c01842ab51f84853a843	Lipase_2		False	223.0	26105.0	13.5			Soil and plant	118.18			
+27ef90355189f718114e1932a831042c	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.3055555555555556		
+27fa7e3d4b651689bc08941de6954a14	PETase		False	287.0	47364.0								False
+28558782579c4bb0db39d18a15243418	Lipase_3	Lipase3_N	True	334.0									
+295b9fa3ad337ffc36b1b275db5abd94	Peptidase_S58		False	355.0	1118.0	28.075	9.51	34.671	Soil and plant				
+29bff87d5c2a01d8f1911b7bf9bf3b0d	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.15789473684210525		
+29fb3363f637d4c8430263f37ba588da	PETase		False	296.0	182.0	25.0	8.3	30.0	Soil and plant				
+2a0b44b3e2cdc2988694470dd451e24b	Radical_SAM	LIAS_N	True	298.0									
+2a9215b62ae074282dc7ffcda6232192	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant				
+2ab4d9d9379ee90e3d5df8cc332800f3	PETase		False	312.0	47364.0								False
+2ac712293f04638a5c206a84dd65a47b	Cellulase	CBM_3	True	499.0									
+2ad0ffbc8a06129426c1908829b780db	COesterase	AChE_tetra	True	614.0	40953.0							0.15833333333333333	
+2ad6d0edf2e3ae1256a4127fd0ad4a86	Abhydrolase_6		False	352.0	2640.0	25.0		38.7	Human			0.2222222222222222	
+2b20f26d89ff9c8a7e8e69d216b95694	PETase		False	285.0	182.0	25.0	8.3	30.0	Soil and plant			0.34090909090909094	
+2b7602e12901a106889bc75b1eaeea0d	Glyco_hydro_10	CBM64	True	451.0									
+2b9fd2b29499ad2d285db6505328e11d	PETase		False	296.0	182.0	25.0	8.3	30.0	Soil and plant				
+2be6126b01a3bf07fa63c1ac3412551e	Abhydrolase_6		False	260.0	28853.0	18.0	6.5		Soil and plant				
+2bfbb3747e20ba2390071fe2aca65f4f	Abhydrolase_5		False	303.0									
+2c614d99cd705f7a6d78f2a110de785b	Tannase		False	616.0								0.5714285714285714	
+2c71453465b0acb39d172983ac4a7387	PETase		False	279.0	182.0	25.0	8.3	30.0	Soil and plant				
+2cac76ecdc8a64dcda7c4216958ed142	Tannase		False	603.0								0.8571428571428571	
+2cc112693fb033e14fc776b2093c36f9	PETase		False	310.0	182.0	25.0	8.3	30.0	Soil and plant				False
+2cd5f487f5114193eaf1c99806f6ef63	PETase		False	302.0	47364.0						0.45454545454545453		
+2d024493caa40bc65861c7cbcaef5b4c	GMC_oxred_N	GMC_oxred_C	True	535.0									
+2d59a3fb52de61edb9fb1afac0e546bb	Abhydrolase_1		False	267.0	2222.0				Soil and plant	54.25	1.0	0.9444444444444444	
+2d8e283fb99b6b5df1319a160dd8e163	PETase		False	268.0	182.0	25.0	8.3	30.0	Soil and plant		0.6944444444444444		
+2dd085f5d05d2287fc96272d80ae0820	AAA_16	GerE	True	923.0	12025.0					28.0	0.2777777777777778		
+2ddc62c97241531aed04530538ae54d8	PETase		False	282.0	182.0	25.0	8.3	30.0	Soil and plant	82.0			
+2e0ca1bf88f8e048ae3bbfc7846645d8	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.29444444444444445	
+2e0d4d7406d43b2b4c717b44084f5198	Esterase_PHB		False	322.0	7690.0	7.6502	7.66	34.67996	Engineered				
+2e175892a06814e8b7353c6c52507601	PETase		False	451.0	182.0	25.0	8.3	30.0	Soil and plant				True
+2e300a3c316ef04a6e2f5baae4d3b0ca	COesterase		False	489.0	1344.0	25.0		35.690458	Soil and plant				
+2e366a03444fe0d0d3c603409dadfd43	PETase		False	310.0	47364.0								False
+2e5329ca4518b1c2693fe236a9c34da5	PETase		False	312.0	182.0	25.0	8.3	30.0	Soil and plant	39.7	0.15476190476190477	0.15476190476190477	
+2e5d9cf1a59644a166e93efa70412fce	PETase		False	301.0	182.0	25.0	8.3	30.0	Soil and plant				False
+2e8c53d89ae025da0ad597e1abdfbc36	PETase		False	263.0	182.0	25.0	8.3	30.0	Soil and plant	83.3			
+2ea674dd698e5f45500875133dc7cd4a	Glyco_hydro_6	CBM_10;CBM_5_12_2;Cellulase	True	1010.0									
+2ee83d058798e9416d48e1bb4eaf58b7	Esterase_PHB	fn3	True	519.0	39971.0				Engineered				
+2f05014e6b709275cfe1285e292b9134	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				
+2f4c6a31ad691c900872a77f3fb3c03c	PETase		False	268.0	182.0	25.0	8.3	30.0	Soil and plant		0.6666666666666666		
+2f5d8f52cdc57f6b04cb453a8429100a	COesterase	AChE_tetra	True	614.0	40953.0							1.0	
+2faa60f73ded9c502787ece47fca13f7	Cutinase		False	227.0	673.0	22.0	5.0	35.325105	Soil and plant				
+2fb57b62fcff5b5972662503df1c47eb	PETase		False	295.0	37280.0		7.0		Human		0.7		
+2fe2b06ff9c893cb2ded8560257e88ae	PETase		False	426.0	182.0	25.0	8.3	30.0	Soil and plant	55.650000000000006			
+30507f1ebc558de3fefb3305d276405c	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.9655172413793104		
+30682ec4ae0772006af67bd8f2ec6b35	PETase	FlgD_ig	True	387.0	3653.0	19.562	7.33		Engineered		0.4772727272727273	0.5	
+306b93a6aca33feb199fd088ed5b8251	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human			0.8333333333333334	
+30afade5d93ae30f8681a114cde083c5	Amidase	Amidase	True	436.0	4786.0	6.18	5.6	21.3	Other environmental				
+315111822e9121ba9a222b9efeff5346	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.5833333333333334		
+3159d0f519fd0565b7134f18713e8324	PETase		False	289.0	52569.0	87.0							False
+3161943710db49069fc8c77bbff80612	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant				
+318f7bd17e2e76284cce90e64e38e009	PETase		False	287.0	11810.0	54.0	7.3		Other environmental				False
+31d3dce4b4ecf210036bc0a10683ab9b	PETase		False	264.0	182.0	25.0	8.3	30.0	Soil and plant				
+31e8cee08e99636ef7d35f9f5457bb57	PETase		False	279.0	11810.0	54.0	7.3		Other environmental		0.7272727272727273		
+31f3fec2bef59aff9d8ae1344f02ec58	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.7241379310344828		
+32232b00231530a01944c09bd791a791	PETase		False	298.0	37280.0		7.0		Human		0.7		
+3292977929d6bf30f2cb4f4964d05390	PETase		False	280.0	47364.0								False
+333a30d4162bd0e45bb3bc16a02e2e19	Asp		False	530.0									
+3376517cdc000409a37d13fa9b487f55	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.3611111111111111		
+339540f3809d8ac98ee633f1da7247e9	Cutinase		False	224.0	58202.0								
+33b5fdb52d1d75f58e35ca0eee319152	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.17857142857142858		
+33df78cc0dcde7cdbda033461963bbf8	Abhydrolase_1		False	270.0	1518.0	28.5	6.7	32.56	Aquatic			0.16666666666666666	
+33e7eb574131e819dcc0c82e3398909b	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.027777777777777776		
+3404dded5fe0cda94077c937b11b66b3	PETase		False	266.0	182.0	25.0	8.3	30.0	Soil and plant		0.9444444444444444		
+343d763e4d88cbea056d2ddff2f07a60	PETase	F5_F8_type_C;F5_F8_type_C_2	True	443.0	47364.0								False
+34491095257dae5e0e61e5e195c78cbf	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.7857142857142857		
+344bb31f83ed4d13ac264198af2b467a	Abhydrolase_1		False	318.0	4614.0	18.36839	5.75	35.3315	Aquatic				
+34702a50dfa937ddc8e5d87faf5d1b56	PETase		False	275.0	20121.0								True
+34c1852818547ac366dcf6bde03ccfd0	PETase		False	256.0	55846.0	13.2787865	7.7	34.854	Aquatic				
+3542091fd9ff52a838bb820aab90c89c	Cu-oxidase_3	Cu-oxidase;Cu-oxidase_2;Cu-oxidase_3	True	541.0	9.0	23.8	8.1	35.427733	Human				
+35d26483e43cf926610f1fe7fb7bf36f	Lip_C		False	480.0	70.0	22.0			Engineered				
+35fa558f6b7df3715551646b8c2e28b5			False		47532.0								
+361c61565ce3f76295a6b5800488f88b	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant				
+362632b30b43e3854087c699d608f0b1	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				
+3671c409aedb7604540ef232282ea0ca	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.5294117647058824		
+367d7bb831ca90642a7ef061c946d0c9	PETase		False	261.0	47364.0						0.5953654188948306	0.65	
+3686b64184847c5e417ce330eab7f997	Anemone_cytotox		False	179.0									
+369ddc06beff5b841f72b88ff3040e4d	PETase		False	271.0	47364.0								
+36d6079c0509a5be3b8a5ec5bf8e55c2	AA9	CBM_1	True	293.0									
+36d7df0cdc25bc3c1be8fc7a64506a3f	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.125		
+371b3546f6760feb4e87d2a0be584b80	Cutinase		False	200.0	673.0	22.0	5.0	35.325105	Soil and plant				
+37fcc3ae661beaed339110b6f8aadad9	Cutinase		False	267.0	342.0	1.35	4.74	2.82	Soil and plant	70.9			
+3833f5bf6bc2369165ae7460f5327dd7	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant		0.5		
+38a5823016719cf1af626b4281260f92	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.6785714285714286		
+38ced27bdecc09709f1798e2f6c401f2	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant				
+38ddb4b12a525d03323dbfb090501b2e	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.8235294117647058		
+38de0c7f73ddb062da5ce808296588b6	PETase		False	288.0	52569.0	87.0							False
+3908ce02dbddaf56f202b3d847502660	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.125		
+391319da1ccf5d4d1d4884e0e1215e33	Cu-oxidase_3	Cu-oxidase;Cu-oxidase_2	True	488.0	65.0	37.0	7.9	40.0	Human				
+398c74ebab5682053833054a39156768	Cu-oxidase	Cu-oxidase_2;Cu-oxidase_3	True	499.0	1933.0	9.0	4.029999999999999						
+39a7c590e9109336c6698dc37a248a41	PAF-AH_p_II	PETase	True	365.0							0.4772727272727273	0.8636363636363636	
+3a13dd42e9cffac4777e4ed45c7f3997	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+3a1f253d0bc2ad5125c96406aa64e769	PETase		False	310.0	47364.0								False
+3a6ed7fb2c68ffa7a81e2957a39f87d7	Lipase_3		False	281.0									
+3a926e6366a1bc8bba321c019ee68def	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.7785714285714285		
+3ae7566978071d15eaa4ad637517bdcb	COesterase	AChE_tetra	True	614.0	40953.0							0.55	
+3af818d32536b7a235d4e7165fe350e8	PETase		False	311.0	182.0	25.0	8.3	30.0	Soil and plant				False
+3b16d20b1b4b5f79eb0221cdab8872ba	PETase		False	307.0	182.0	25.0	8.3	30.0	Soil and plant				False
+3b428b793170f7cd5432ee2c61210d7a	PETase		False	291.0	47364.0								False
+3b59b8187176d735470f234f693e7361	Chlorophyllase		False	377.0	36103.0						0.4772727272727273	0.22727272727272727	
+3b640429164462342df9eafe339ceea3	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.06896551724137931		
+3c08846221bdcd6f977e5803409efe87	PETase		False	274.0	182.0	25.0	8.3	30.0	Soil and plant				False
+3c9107b3dc6f4aef807fb0f507a84673	PETase		False	292.0	182.0	25.0	8.3	30.0	Soil and plant	66.4			
+3cb55595660eb4540030cc34a17fe74c	Cutinase		False	238.0	22638.0	22.0	8.4		Soil and plant				
+3cdfba515aeb442e2ce62ef3dbd8e2fd	Lipase_3		False	281.0									
+3cf9ff818397f983a575d07dd8800cad	Amidase	Amidase	True	462.0	4786.0	6.18	5.6	21.3	Other environmental				
+3d78565c234bb7276bb4925fbdc6d792	COesterase		False	567.0	35419.0	8.0		40.0					
+3dbc7373803f45988632f0c1396491da	Cutinase		False	231.0	1646.0				Other environmental				
+3df1fdc4bc8d111e575b8ffbf49853ae	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	30.35	0.9444444444444444		
+3e6032eccf7c1e08037b478643d0640d	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.2727272727272727	
+3e74ab776203d2af8a0b45d891e73f21	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.5263157894736843		
+3ef77edec27a6a13a844e51c94be5ada	COesterase	AChE_tetra	True	614.0	40953.0							0.7666666666666667	
+3f17ac4bfe16164845c7f82ddbdc464e	PETase		False	306.0	182.0	25.0	8.3	30.0	Soil and plant				False
+3f7ed1ac4a9c727a82c498df5a513238	COesterase	AChE_tetra	True	614.0	40953.0							0.8333333333333333	
+3f8340d264a81f403966a694908342a1	PETase		False	403.0	20121.0								True
+3fef706a69fdfdebfdfe1f4f5eb8fc6c	Lipase_3		False	281.0									
+400beb52e03139d397449d980968654f	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.5384615384615384		
+402719b772fa08f9525bcee1d00606f4	COesterase	AChE_tetra	True	614.0	40953.0							0.3333333333333333	
+4056830921f6fd3cc709e6116809d703	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				
+407e8e3a4f34abbd031f97077eb7d334	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+40b9623063fe9941139ecc506a00e8db	PETase		False	289.0	182.0	25.0	8.3	30.0	Soil and plant				False
+40d286b14ef8e9db62d4915478494e03	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.5862068965517241		
+40d6dc9f0f3301ae7533fae9428f5b39	adh_short_C2		False	260.0									
+41242b2c6f0bd46531d9c36527060f4d	PETase		False	305.0	182.0	25.0	8.3	30.0	Soil and plant				False
+417b834dd47b94ffd2a8703afbe81350	PETase		False	307.0	47364.0								False
+4195a02f7058e5bb232890b7e7d8014d	Abhydrolase_1		False	300.0	330.0	22.2	7.355		Soil and plant				
+41a9fa84cf37d7fbb76241e52638db0a	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.4117647058823529		
+41cfa48c5cb4dc30d911391cd6c2bebf	PETase		False	211.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+41d299b29e99681414c360ca56c9e86a	PETase		False	261.0	47364.0						0.6550802139037434	0.75	
+42577cf5b40d849de548204bea6138c4	Tannase	Tannase	True	388.0								0.42857142857142855	
+429e6095a999681161d779c6db7cabe9	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+42aa40364f5684f1f255819ab69b7b92	PETase		False	302.0	47364.0						0.5454545454545454	0.2954545454545454	
+42ad03dbf5d725984b55885038ad00f6	HemolysinCabind	HemolysinCabind	True	617.0	11912.0								
+4307017d78508de526bb8422be94a4c4	PETase		False	292.0	182.0	25.0	8.3	30.0	Soil and plant		0.18181818181818182		
+4379fdd031a030ec673a864ff4f9caf2	PETase		False	475.0	182.0	25.0	8.3	30.0	Soil and plant				False
+43a70220762575851089c4ecb154b6b6	Tannase		False	603.0								0.9285714285714286	
+43b2bfaed2b100130eb606329203f8b7	PETase		False	284.0	182.0	25.0	8.3	30.0	Soil and plant				False
+43b3f967001ab5245f2a0ccfc099d0a9	PETase		False	293.0	52569.0	87.0							False
+43cd3856030bfb1e3da73c63c1a1af05	Peptidase_S8		False	282.0	1832.0	28.0	9.18		Other environmental				
+43e88924bf2a486485305c0474ab8111	Lipase_GDSL_2		False	208.0	43.0	37.0	7.9	40.0	Human			0.8333333333333334	
+43f80dd5287bb5dda4d2b57f2289d7c6	Abhydrolase_5		False	252.0	21629.0	2.0			Human				
+441ca137b4fc8d39553649d203594ffd	AAA_16	GerE	True	923.0	12025.0					65.9	0.05555555555555555		
+448467d1fe714f8d91713072ae77f488	Cutinase		False	211.0	1641.0	23.333333333333332		35.845669	Other environmental		0.6		
+44f818e44281755d01932b50fc5f7ab2	PETase		False	311.0	182.0	25.0	8.3	30.0	Soil and plant				True
+45293ea33d30ee1feda31e27cbe90a0a	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+45296350edda1ff12e638c779373eade	PETase		False	467.0	182.0	25.0	8.3	30.0	Soil and plant				False
+4544e06f0989fc7ff3c06ba5d1d3558f	COesterase	AChE_tetra	True	614.0	40953.0							0.2	
+457a0e95b9321d7e9f777be0490cfdb4	Abhydrolase_1		False	332.0	46.0	24.0	5.795	28.919008	Human				
+45f3b7a63eb1422ad205397684f34b0e	Abhydrolase_1		False	533.0									
+45f62d33a94c6b3f2873d4d27f87b27a	Chlorophyllase		False	312.0							0.17857142857142855		
+460d934b8406a4580bc57ded1248d0ad	COesterase	AChE_tetra	True	614.0	40953.0							0.9	
+4626ea2a6936a6ada6abc3568b3f8b50	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		1.0		
+46578a460f23e13d1ebe0b0ebf887282	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant				
+465aeafd576127448353579e28e744db	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+46613231ed20085a9a63a07ed8e121b3	PETase		False	272.0	47364.0						1.0		
+46aadc29222c181439e0a682efea24ad	Abhydrolase_1		False	320.0									
+46ba67d0b49ce8e58aecff030adc91ea	PETase		False	312.0	182.0	25.0	8.3	30.0	Soil and plant	49.8	1.0	1.0	
+4750d501a912f8ded9a4f3ce0bd62fde	PAF-AH_p_II	Abhydrolase_5;PETase	True	366.0	51918.0				Soil and plant		0.4772727272727273	0.9090909090909091	
+478b4b756c57dfd47624d49970a81982	PETase		False	314.0	47364.0								False
+47aa7f913d9794844583fecb0c26b850	Peptidase_S9		False	264.0	4100.0	15.6875	7.20333333333333		Engineered		0.4772727272727273	0.7272727272727273	
+47bbb2060eff8dfe476bb7792ff56a9a	PETase		False	273.0	182.0	25.0	8.3	30.0	Soil and plant	74.0			
+48318696b55a020a1743504afb537b57	COesterase	AChE_tetra	True	614.0	40953.0							0.4666666666666667	
+48371fa6d978ed50fc95a75935624c51	Autotransporter	Lipase_GDSL	True	629.0									
+484bb1f0d47f67b62833005a413764eb	Cu-oxidase_2	Cu-oxidase_3	True	299.0	26027.0	19.2	7.71	7.11	Soil and plant				
+4861da988efdf1f90cfc109cd0cbe9a3	PETase		False	316.0	47364.0								False
+488ea07f153f9172bf1797901cb1ce91	Lipase_GDSL_2		False	334.0	37334.0	1.75	6.06		Soil and plant				
+48bdc0bce7ae49e4504e29cbcf44a021	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.7916666666666667	
+48e1e17a039553a9ab848b31cbefddee	PETase		False	283.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+48f20be776a941db1473b5a9546e7728	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.2413793103448276		
+491c4de12dd9379b8450fd6fd9ca31c7	Amidase		False	478.0	1907.0	33.5	4.995						
+495be643b2591f07c0a5c392c6918aae	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.7791666666666667	
+4988d0072931990a396b3d570551a7d2	PETase		False	267.0	182.0	25.0	8.3	30.0	Soil and plant				
+49d64607685b78d09c12c3cd36befa40	Abhydrolase_3		False	319.0	34.0	37.0	7.7	40.0	Human			0.5	
+4a9b4b988cc59e138bac5c20dd9d5d01	Fer2	DmmA-like_N	True	320.0									
+4ada757eed15da642a1b37e4f41d975b	Peptidase_M13_N	Peptidase_M13	True	696.0									
+4adac4beb65fed44e71fbb0c9d9da90b	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.7222222222222222		
+4aded4f557fe623b7431b779f623a41b	PETase		False	288.0	182.0	25.0	8.3	30.0	Soil and plant				
+4ae54f06384b9660b40e76e9a902f585	Amidase	Amidase	True	438.0	4786.0	6.18	5.6	21.3	Other environmental				
+4b02a9379189f4f3f4a6d2b07ad427c9	Esterase_PHB		False	362.0	2176.0	22.392973	6.5	34.887046	Soil and plant				
+4b50fcb2d78d50a7f5693abba7e356b1	Lipase_GDSL_2		False	201.0	919.0	16.0	7.56	34.873	Aquatic				
+4b72d25ecd45fd5066d6a480b14649f1	PETase		False	304.0							0.4772727272727273	0.22727272727272727	
+4b7dfef678b9d7726ebe4947b3ebcd77	Peptidase_S58		False	355.0	1118.0	28.075	9.51	34.671	Soil and plant				
+4b93af80f61f6ba0e11595608c8b6bec	Autotransporter	Lipase_GDSL	True	646.0									
+4bc390c7cf54169f8f31c1e9fbe9e8c5	PETase		False	328.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+4be16a85172c726f7f8d6dbd2053955f	Cu-oxidase_3	Cu-oxidase_2	True	348.0	1549.0	12.9	8.3	34.8332	Engineered				
+4d3420dc8f7cf93a2bd84fe1b4576917	Cutinase		False	194.0	673.0	22.0	5.0	35.325105	Soil and plant				
+4d5cfea7522e69598b72a993134d05f7	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant				
+4d6c690dd47d3941954de2c9d2abaf2f	PETase		False	319.0	182.0	25.0	8.3	30.0	Soil and plant		0.4		
+4d6ca5a8aa21d08d477085a3ecdca116	PETase		False	295.0	182.0	25.0	8.3	30.0	Soil and plant		0.2222222222222222		
+4dfca93c424da8986ee3fb484d868de2	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant	105.0			
+4e2089ce7e04b09637ce55cdd8f5c7ed	FAD_binding_5	CO_deh_flav_C;Fer2;Fer2_2	True	494.0									
+4ebe7ce692375dfe585edbf455167698	Lipase_GDSL_2		False	207.0	4423.0	5.0	7.8	6.93	Soil and plant				
+4ef7c330c2e790edd2950b3eafad53c2	Lipase_3	Lipase3_N	True	297.0									
+4f2c717da7c9fdc3292d2e356387ebfb	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.7049910873440286	0.9	
+4f389663c4c643bb4faf8df462a12051	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.03571428571428571		
+4f650b35c74e8fd1d47755208e9a7f19	COesterase		False	499.0	26651.0		7.5						
+4f90a1ac47819261a4f5708f10e70ea3	PETase		False	452.0	182.0	25.0	8.3	30.0	Soil and plant				False
+4f9435edc74adf5b2328e9ef83f39c16	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.6206896551724138		
+4fbfb1ea5d59dd019f9f94fd3febca5d			False								0.4666666666666667	0.9333333333333333	
+4fc52f8431fc746c5423da6e094a7e01	PETase		False	287.0	182.0	25.0	8.3	30.0	Soil and plant				False
+4fe2034662de94dc1f86b4640c430786	Tannase		False	603.0								1.0	
+4ff58e8dfa99620c97e2cebc26e09e33	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant	85.0	0.8846153846153846	0.8461538461538461	
+508a255fd885f77357ad98702a50f7a3	PETase		False	315.0	37280.0		7.0		Human		0.2		
+50ae4c2c01260567778eb5ce7e87999a	COesterase	AChE_tetra	True	614.0	40953.0							0.38333333333333336	
+50f36a89e3cd64e646ab97f8a9e0f983	MOSC	Fer2;YiiM_3-alpha	True	557.0									
+512b62a8993ab9e45d25bcdfa650b798	Lipase_GDSL_2		False	191.0	31098.0			11.24	Aquatic				
+516cb3c6e088dfd88c7e476f8f327492	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human			0.6666666666666666	
+51c8fbe79fd2d11303afe6db5c96dd30	PETase		False	381.0	20121.0								False
+5209e2aa53b0a0f2b7414fac3d514ca1	Lipase_GDSL_2		False	208.0	43.0	37.0	7.9	40.0	Human			0.5	
+5224a54264760293fe928a1d6535d12d	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+528b84f1f4b83dca8cee0d50588f784b	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant				False
+52ac6083b4c7d6faf903f936007224d2	PETase		False	270.0	182.0	25.0	8.3	30.0	Soil and plant				
+52b2c05b1c9af60d2ecc60230d99361d	Abhydrolase_1		False	317.0									
+52e59f592787d64aff5b49dedb6285d2			False										
+5301ef5010f44a71cccb59a857bb3f9d	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.2286096256684492		
+5310924f8b0d6f06d0a453ad0e96e362	PETase		False	396.0	20121.0								False
+5353a76b2d62b148881304e276a3a0e0	Peptidase_S8		False	269.0	51761.0	30.0	7.355	147.0	Other environmental				
+5356e8dc55eb5c9a8d8341f597a9b544	PETase	PETase;Tannase	True	505.0	182.0	25.0	8.3	30.0	Soil and plant			0.5	
+53c6de78078c082037e0a16e5a7c7195	PETase		False	303.0	47364.0								False
+53f3964c46c43bacf408eecc06df828c	COesterase	AChE_tetra	True	614.0	40953.0							0.9	
+543cedad5459e781ba6fe8013d38680c	COesterase	AChE_tetra	True	614.0	40953.0							0.9	
+546363f6f7e62663a681aa0546a7c08c	Abhydrolase_1		False	296.0	13086.0	2.5					0.5208333333333334		
+548de02e0fe08973ef398a325a14826b			False								0.4	0.4	
+54942e03a6ef4197499681873c6ccd84	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant	47.9	0.5192307692307692	0.46153846153846156	
+5497c9a3affdbb6fe456f0e941fda602	Cu-oxidase	Cu-oxidase_2;Cu-oxidase_3	True	499.0	1933.0	9.0	4.029999999999999						
+54aa00a3e311942f092c9143a9d38b60	Esterase_PHB		False	405.0	7690.0	7.6502	7.66	34.67996	Engineered		0.30000000000000004		
+54b71c9f5f15eb7d96c61d843b99cfc9	Hydrophobin_2		False	100.0									
+54c29a9de525058b3d08f9b8da38b4b4	Cutinase		False	241.0	4325.0	22.223999999999997			Animal				
+553239996e512830a1db6b67fb4aa1c7	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant	83.7	0.9885057471264368		
+554aa620a91d7557c1bfd473b6b08470	PETase		False	426.0	182.0	25.0	8.3	30.0	Soil and plant	57.4			
+55d6d75c7530e3ceef78288723cd5456	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.15517241379310345		
+55fd25374dd86686af2d22d88c51f707	AAA_16	GerE	True	923.0	12025.0					31.2	0.5		
+55ffe0de32c7eee7bec11d19ba01b071	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.25		
+572db808330016b2e517a2e6db0d8477	Abhydrolase_3		False	314.0	21187.0	11.98333335	7.6	5.15	Soil and plant				
+5744cfa2d0df01bf5512e63574d2b3db	PETase		False	282.0	182.0	25.0	8.3	30.0	Soil and plant				
+5759b45012a7881ec218c2d0bd33e316	Hydrophobin_2		False	101.0									
+57f3d871934584730b806ddd0501c37d	PETase		False	250.0							0.75		
+5887179fa89a96858950c72ae6c831e3	PETase		False	474.0	182.0	25.0	8.3	30.0	Soil and plant				True
+58eedd5a2d17e2fbc1de452effb3899b	Cutinase		False	214.0	1641.0	23.333333333333332		35.845669	Other environmental				
+58efd2fcb5b530c4d004d7d1152ad5d3	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.3253119429590018	0.35	
+5982fc030e6687afb1348726ed424cb9	DUF6230		False	220.0									
+5a880c3b46d61fb2b4fa713a243c511a	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human	50.0	0.25	0.8888888888888888	
+5a9126e2a6307e86bc4d8748791bf439	Cutinase		False	214.0	673.0	22.0	5.0	35.325105	Soil and plant		0.2		
+5ac110473e7846a359fe2c5955e30b29	PETase		False	240.0	182.0	25.0	8.3	30.0	Soil and plant		0.8181818181818182		
+5ac29202d3d48ccca8c98002cfd3c790	peroxidase		False	308.0									
+5bbfb707369b22076458c1a171217360	p450		False	514.0									
+5bf739f543036b127c28b864e50e5884	PETase		False	269.0	182.0	25.0	8.3	30.0	Soil and plant				
+5c9405a7b15b919b6aadfc1cbd6b4468	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+5c9b27a9109e6b8f58910f7906d45854	PETase		False	311.0	47364.0								False
+5cdaffcfd6a388f0b9cd422493593476			False		53760.0								
+5d3fcbe093b58adc110c6b2a8d547e51	Lipase_GDSL_2		False	249.0	36825.0				Other environmental	50.5	0.125	1.0	
+5d86065bdf71ee93b8099469029af106	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.46551724137931033		
+5d927c8dec6d415e2b4003403321b753	PETase		False	294.0	47364.0								
+5db006e9713f089e550fd7dc899c9c7a	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				
+5db7140ebbdcf6e0c44a1b4268ac4406	PETase		False	323.0	182.0	25.0	8.3	30.0	Soil and plant				False
+5de6fe9605a8df361c120ad4b8c9018b	Abhydrolase_6		False	260.0	28853.0	18.0	6.5		Soil and plant				
+5e2aeb4e3ab867f56b6a39c2466ad44a	PETase		False	305.0	11810.0	54.0	7.3		Other environmental				False
+5e3a225d0c4dad34e74078ea45904b70	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant				
+5e6666386c79f488219fe48c15936824	PETase		False	308.0	47364.0								
+5e68bdb96bdb87681ffedeaf36f094a8	PETase		False	297.0	47364.0								
+5e9df7f0c5b6442f1239982caf867978	PETase		False	267.0	182.0	25.0	8.3	30.0	Soil and plant				
+5f443aa225ef553f328d41a035645414	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.5357142857142857		
+5f68cfbcfd4668c8a3e8f60f36023b30	PETase		False	258.0	182.0	25.0	8.3	30.0	Soil and plant	95.0			
+5f75e04f1b3f56ff308a17187d7634ce	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.4175579322638146		
+5f96c0cda34137309384af91c33767de	PETase		False	281.0	182.0	25.0	8.3	30.0	Soil and plant			0.09090909090909091	
+5fd56fe1ee8d68653e0728cd1931c68b	PETase		False	267.0	182.0	25.0	8.3	30.0	Soil and plant		0.9166666666666666		
+5ffc9f0725fb56d2a088fb739dac5fba	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.6527777777777778	
+60285f880e492eb9ea3ab847bd516a4f	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.6		
+604018ae8af9058028c669f8ed8de020	PETase		False	426.0	182.0	25.0	8.3	30.0	Soil and plant				
+6057a50958ceaa8e6b294fa05bf2b746	PETase		False	312.0	182.0	25.0	8.3	30.0	Soil and plant	49.5	0.6190476190476191	0.7916666666666667	
+607f5dbfcfd42bcc5030102b8656c637	PETase		False	134.0	20121.0								False
+60a8f1a58a960d4234393a0d83ab9632	Abhydrolase_1		False	300.0	250.0	22.0	3.6		Engineered				
+60b3bf9edebe92eabcddbe2bf9bdd597	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	0.0	0.5555555555555556		
+60f73ce67438173d3f92d3fb9271a863	PETase		False	267.0	182.0	25.0	8.3	30.0	Soil and plant				
+61096f3c3c59183340370910481286ed	PETase		False	265.0	182.0	25.0	8.3	30.0	Soil and plant				
+61498d1a4db456a136dfe71d0d766186	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	29.7	0.6666666666666666		
+6179bb764d4b4bc5b1d5d1e06616e922	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.9001782531194295	0.5	
+61a4ab03c350b74dc8e27682811b973f	Esterase_PHB	Big_13	True	635.0	62260.0	17.93	7.5	39.25	Aquatic				
+61d801881a590b1495fd2352c700c042	Abhydrolase_3		False	352.0	58299.0	3.0455	7.63	1.17	Soil and plant		0.7708333333333334		
+621d336b14f6b1be32da1f3e870a2a6f	Esterase_PHB		False	301.0	39971.0				Engineered		0.7		
+626b0c9dbca3f6b2e5af69d38bd1940b	Esterase_PHB		False	302.0	7690.0	7.6502	7.66	34.67996	Engineered				
+628634074502cd013ceda615cce17848	PAF-AH_p_II	Abhydrolase_6;PETase	True	384.0	37241.0	2.8	6.095				0.4772727272727273	0.22727272727272727	
+62cda61a49848a89f068424436245c58			False								0.2	0.3333333333333333	
+6313cae28154c4bd18b9e32c294b717d	FA_desaturase		False	398.0									
+634ba147e4311f294c5a6a9042dd8a94	GFO_IDH_MocA	GFO_IDH_MocA_C;GFO_IDH_MocA_C3	True	392.0									
+6357de25dd087599b27cd8f54f2f622b	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.3076923076923077		
+635ca1a633ed949f1f0a6011385dfad2	PETase		False	311.0	47364.0								True
+635f966275054e2ebb0ac65b5beab198	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.29411764705882354		
+636da0b30e62af88d3e503f43fdb4ff5	PETase		False	316.0	182.0	25.0	8.3	30.0	Soil and plant				
+63779cf354733b09f770a31f9bc1584e	PETase		False	250.0							1.0		
+63f3bcdf9d4e41b30836917c8f069d43	Abhydrolase_3		False	318.0	21187.0	11.98333335	7.6	5.15	Soil and plant				
+6435b353e1e02d2f720bc95ef5cb13af	PETase		False	294.0	182.0	25.0	8.3	30.0	Soil and plant				
+644f03f9a209cd265364cc661f005bfd	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	75.3	0.1388888888888889		
+646aea36fc20829f77fc3fd8650b5b17	PETase		False	279.0	182.0	25.0	8.3	30.0	Soil and plant				
+6487015ec3754abd95c6094aad7f8716	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.9285714285714286		
+6488457d07c9738d3865bb1988ae170c	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant	169.3			
+64cf8c32ef113eab134939bd0aaa1b81	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.125		
+655ca9c606297219126216c08c6f9853	Tannase	Tannase	True	388.0								0.35714285714285715	
+6583e12550b5da72208495f9d8349ca1	PETase		False	289.0	182.0	25.0	8.3	30.0	Soil and plant				False
+65ba0b5fa2ca230cea2171af3c1c1266	PETase		False	421.0	10882.0	10.6465625	8.12	21.588752999999997		80.0	0.4772727272727273	0.9545454545454546	
+6608c21bd233e0c8830312e67d52e4f0	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.8461538461538461		
+66175f827ce6f851ddf5b2a424f73e1c	Cutinase		False	254.0	26023.0	26.0	4.78	35.784769					
+664324f7dbc29247eba29b2624641b8c	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.16666666666666666		
+6691f0bf8e87ee50f91fdfe6804f1772	PETase		False	313.0	47364.0								False
+66bb711651c686544bbc76150a16ad87	PHB_depo_C		False	419.0	76.0	7.5	6.5	15.0	Human				
+66e34f519d98f91780b05233ae907884	Abhydrolase_3		False	310.0	21187.0	11.98333335	7.6	5.15	Soil and plant				
+66f6ecddcaf25d898daaee456934fd15	PETase	F5_F8_type_C;F5_F8_type_C_2	True	443.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+671e8659c12b39d7c99f7cc155e87ee4	COesterase		False	559.0	35419.0	8.0		40.0					
+6738a598464f8c50eb804c9e458dd9c1	PETase		False	265.0	182.0	25.0	8.3	30.0	Soil and plant				
+67a8010f38f32b4dd456a41dc367ecea	LigXa_C	Rieske	True	442.0									
+67c3309c0a9697362f0521da35083477	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant				
+6854aefbf09d567af8045711f6daebbd	Hydrophobin_2		False	93.0									
+685883f6ed20037ac8197e0bfab426a7	PETase		False	448.0	182.0	25.0	8.3	30.0	Soil and plant				False
+68594f9bd33f3a2026955ce5a7d75297	PETase		False	288.0	52569.0	87.0							False
+685d25742e69950e8ed33a4a6f6ecbb8	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.8421052631578947		
+685d6f5c6648ddd7633a641ff6a9b8b5	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.5	
+68f8665dfe8087721f83b8e75ab42c12	Lipase_2		False	213.0	26105.0	13.5			Soil and plant				
+6982498b67c42ccffb1cc2693da54144	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant				
+69e85a8e5869b2aefe9e1b4625ace862	DUF4124		False	223.0									
+6aaa1b35e32d20757ec5a68a936d99b4	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human			0.2777777777777778	
+6ab365767ad240aca759ea13142b2ab7	Hydrolase_4		False	278.0	268.0	1.0	6.824999999999999						
+6aba0768789bde85b96b9852d30a10f4	Amidase_3		False	252.0									
+6ad02a0cff381223848d30d88cd069e9	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.40789473684210525		
+6ae06b94943cd4c4cdc9442a54c70113	Cutinase		False	209.0	22638.0	22.0	8.4		Soil and plant		0.2		
+6b505ec90548a62794e12197e3512ff2	Lip_C		False	387.0	70.0	22.0			Engineered				
+6b7f390441e9ddd44f3fb2980381f261	Peptidase_S15	Peptidase_S9	True	224.0	4617.0	25.3580975	8.02	35.359483	Aquatic				
+6ba9a31f0e6a9e5fe0666d051ff311a3	PETase		False	322.0	47364.0								True
+6be1db5782f386df43992e82f5f4f421	PETase		False	294.0	47364.0								False
+6c1a8e6cc75c0e5950f9cc9deb6e1ebc	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.381578947368421		
+6c2390d1b7ba81e7a411c50837875bd1	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.39473684210526316		
+6c92a78329d5a05cad38caf62075d747	PETase		False	319.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+6ca3cd947a0aa32f3de79f2731f80031	PETase		False	337.0	182.0	25.0	8.3	30.0	Soil and plant				False
+6cd0327a130801739f01f1731fef6c7f	Abhydrolase_5		False	250.0									
+6d1f43a29afdd7b4f7f81e6aab14ee2f	PETase		False	312.0	47364.0								False
+6d530402b31953c860725e225338cf99	PETase		False	290.0	52569.0	87.0							True
+6e0f3eec47a5f0c46d83cc034a10cb43	PETase		False	286.0	20180.0	7.951563	7.53	34.5853375	Aquatic				False
+6e18686949160f94c6ca7433c21ea772	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant	39.5	0.1826923076923077	0.15384615384615385	
+6e22ce3a18487f4ba2aad8dca1a29001	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant	85.0	0.46153846153846156	1.0	
+6eb1a59cb0066a8768f31534de4edaf6	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	84.15	0.1388888888888889		
+6eba12998dc0b3eabb8911eaa3091b20	HSL_N	Abhydrolase_3;BD-FAE;Say1_Mug180	True	1076.0	7020.0	11.0		3.07	Soil and plant				
+6f419cdd708a09bad6d6cfb4acb5c8f2	PHB_depo_C		False	407.0	173.0	33.5	5.6	30.0	Human				
+6f5e826444cc9b1b699315a08f2d1b1b	Tannase		False	603.0								0.6428571428571429	
+6f7771e88ca30734d456383f9465a4e5	PETase		False	272.0	182.0	25.0	8.3	30.0	Soil and plant				
+6fdef0adf636a9a59b2adaa23754d2b5	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+704171551be8877fdb4aaeb9b8fce4eb	Peptidase_S8	Inhibitor_I9;P_proprotein	True	521.0	245.0	28.0	6.2		Soil and plant				
+7045be5d64bacd8d1d30bc490d0d21ed	Abhydrolase_3		False	311.0	21187.0	11.98333335	7.6	5.15	Soil and plant				
+705907ae5c199b0f8fe4797876aab82a	PETase		False	307.0	182.0	25.0	8.3	30.0	Soil and plant				
+7098a4537ac23c1f5b98d7ad0b2b1d7e	Amidase		False	493.0	29071.0	2.0	6.71	18.4	Soil and plant				
+70bb23ae76cafb72c332b1f5857da390	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+70c6166ad50f1d0b8cadc1182f784932	PETase		False	301.0	182.0	25.0	8.3	30.0	Soil and plant		0.125		
+70f3c238713424ad96a373889c5174ea	PETase		False	278.0	63366.0				Soil and plant				False
+70f932bdf234b6a6d0c1d7cde8648125	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.5526315789473684		
+71571fdf730984e15ffa7cae962d1346	Esterase		False	283.0									
+717678d4e27ce77dbb8f852f9ceda708	ZnuA		False	317.0									
+71c6725459ef756030975668b0ecf4eb	PETase		False	311.0	182.0	25.0	8.3	30.0	Soil and plant				
+71d88f44c8ddca8715a62d0d30305df5	Peptidase_S9		False	262.0	31181.0				Other environmental				
+72031e1688a65b9f032d716362861244	Abhydrolase_6		False	260.0	28853.0	18.0	6.5		Soil and plant				
+7222a443dda9d2b15fc1aa7401e89449	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	58.9	0.4166666666666667		
+7290711b3d888830a61b777dcd01df5d	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant		0.75		
+72bcfdca61b074aa4afd8bf8858648da	COesterase		False	534.0	48249.0								
+72da0f739092b6725a5215ce5e926224	Tannase		False	592.0	38391.0				Engineered				
+7372dced90dbec5bab72fcd98cdbb404	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant				
+737bebea42bb3e3d8413824b8d5b8e7a	PETase		False	308.0	47364.0								True
+739b983b438cb927d0b30235a5ab598c	PETase		False	264.0	47364.0								
+73e52a41b02c10df619948c9f0bd9e4c	PETase		False	296.0	182.0	25.0	8.3	30.0	Soil and plant				False
+73e54b369c06873dacfa539c40894da3	PETase		False	58.0									
+74377bd058b269c9fb288820ab70a77b	PETase		False	268.0	182.0	25.0	8.3	30.0	Soil and plant				
+7446169da15688e6090c8a05cae7d49d	MPAB_Lcp_cat		False	407.0	8501.0				Engineered				
+7452d6761b99d133be32ee4b17239cd1	Abhydrolase_6		False	295.0	15349.0	4.800000000000001	7.6	0.14	Aquatic				
+74d92f78819328cad56d07c26a5b2503	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant				
+75045c734ff83f52ae70977e66d2c6bc	PETase		False	285.0	182.0	25.0	8.3	30.0	Soil and plant			0.5909090909090909	
+7537f6b546f8e82a1fd08545fa90d045	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.3448275862068966		
+75b2b72259a73dea11dea49d5062379d	PETase		False	298.0	47364.0						0.2	0.7393939393939394	
+761f31759bb5d73ea55282d40c050c2e	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant				
+767329576f6a5bd3fa5d122f080b0469	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+767fe67adf2b5ac1ca000456f414cb04	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.034482758620689655		
+76973d9e73965252f15a0a60122ac00f	COesterase	AChE_tetra	True	614.0	40953.0							0.5333333333333333	
+76c4c3f2150bbeb593c7c386818c5379	PETase		False	50.0							0.875	0.8	
+76e8e76ee50194cd34bf21f7f070383d	COesterase	AChE_tetra	True	614.0	59201.0							0.23333333333333334	
+76f1598babc9b65c877014823ee12ea9	Isochorismatase		False	218.0									
+76f96fab30fe35bf1916f811e9767af5	Cu-oxidase_3	Cu-oxidase;Cu-oxidase_2	True	580.0	16195.0	22.0			Other environmental				
+77757464d95967fc925170ba18927312	PETase		False	443.0	182.0	25.0	8.3	30.0	Soil and plant				False
+77bca54fb186cc66d3f509d6fb835b65	Amidase		False	493.0	29071.0	2.0	6.71	18.4	Soil and plant				
+7811cb97aee2777ce237907af138c75a	Peptidase_S58		False	355.0	1118.0	28.075	9.51	34.671	Soil and plant	79.05			
+783539b8e9580410ce985195cdfeed1f	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.058823529411764705		
+7875aa2b6d1571fdceaafd78905be0c2	COesterase		False	505.0	40953.0								
+789548b0da62902d338dfdd53d652498	Cutinase		False	239.0	43498.0	16.9		35.165658					
+789fbd391654be25128c21c3ee66d30c	PETase		False	264.0	182.0	25.0	8.3	30.0	Soil and plant				
+78d3d88fd536d7cc68fbe3664ac802de	PETase		False	295.0	182.0	25.0	8.3	30.0	Soil and plant				
+78d475762fca2030d9caab96de506245	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+78f3359ed7ad76f607d20d0d6a492ca2	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	80.1	0.4166666666666667		
+790496a7c66efe4a046bc035070d069e	Beta-lactamase		False	392.0	13472.0	17.93	7.435	34.616	Soil and plant				
+793eb3a9a45d5ad8416a77d1e7b6bd5f	Abhydrolase_6		False	295.0	15349.0	4.800000000000001	7.6	0.14	Aquatic				
+794b1bbeca7b5974c8552070095843b7	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	78.55000000000001	0.6111111111111112		
+7974acef39b1ff12d92d619e6b72eef9	COesterase		False	490.0	1344.0	25.0		35.690458	Soil and plant			1.0	
+79ad56b9d9baf4b6b2ac8e61f111a5c9	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant				
+79d70b702d49bf8b049cf16bc0ffcc0e	PETase		False	458.0	182.0	25.0	8.3	30.0	Soil and plant				True
+79e0d30d527811e9763de35c84d5fedd	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.2638888888888889	
+7a5e072b01d114a7ed18b13305ddc6d4	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.6896551724137931		
+7abd2486b6223721c0f982510aa60786	Beta-lactamase		False	456.0	6143.0	14.0	7.4	9.98	Engineered				
+7ad6bea20f25867f15b3e465c4fafa7a	COesterase	AChE_tetra	True	614.0	40953.0							0.6666666666666667	
+7b931f0efda4177782c6843ab5f94c47	Amidohydro_1		False	377.0									
+7c13ef245b85ff42038b219b977eb803	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+7c2f6f2cc4b32a8b100010b5753dd521	Dyp_perox_C	Dyp_perox_N	True	403.0									
+7c581c6d55a68bda7f8203312f6ea38b	Cutinase		False	199.0	1641.0	23.333333333333332		35.845669	Other environmental				
+7cbe8d58998bae5d47abd7b30c7b2dcf			False										
+7cfbe90e97c1f6ef79271cbeaacf5453	PETase		False	321.0	182.0	25.0	8.3	30.0	Soil and plant				False
+7d1184184e0086123cd94070ab861eb2	TAXi_N	TAXi_C	True	437.0									
+7d43cc8143961b92bacba0d218fe7818	Abhydrolase_1		False	321.0	45003.0		7.94		Other environmental		0.3333333333333333		
+7d6a2741e60ea12aaf7d908d3987f777	PETase		False	308.0	47364.0								False
+7d745ead41c38e7ee7fea84785fddab3	Abhydrolase_3		False	304.0	21187.0	11.98333335	7.6	5.15	Soil and plant				
+7d850bfafca81a8ef86e551f963edbe3	COesterase		False	489.0	1344.0	25.0		35.690458	Soil and plant				
+7dcfaf56b9235a2757771c20731721e6	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.55		
+7e21b5ee68851a9b6583dbc5f9ad0963	Cutinase		False	179.0	20449.0				Soil and plant				
+7e80b61a8ead3bd006fe3e5e08e73d47	Peptidase_S8	Inhibitor_I9	True	379.0	51761.0	30.0	7.355	147.0	Other environmental				
+7ed50978859e4ef4b9ca7d0d5ed9f023	Abhydrolase_3		False	319.0	34.0	37.0	7.7	40.0	Human			0.25	
+7f03a2b1b751b1dc40809a3f424d8142	PETase		False	308.0	47364.0								False
+7f4a015cb1b74e7d17c5b764fe77149f	PETase		False	290.0	52569.0	87.0							False
+7f535bb6d5fd880758d21a70197a1c80	p450		False	523.0									
+7f7ff468a4b91e20808c0579495af165	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.8055555555555556		
+80685e2c9a2206d6d5772db1ec1e05cc	PETase		False	326.0	11810.0	54.0	7.3		Other environmental				False
+80a28de2b65417f9ff5e3e5493b67816	PETase		False	312.0	182.0	25.0	8.3	30.0	Soil and plant	49.65	0.6468253968253969	0.7440476190476191	
+80fac6110e2fef2f87fc54977b0f87d4	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.5517241379310345		
+810fd12f2336d88b3aa1976bd1aaa065	Asp		False	325.0									
+81824b76e86554f5acb2597f2b84b96a	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				False
+81a9df90765d3ca5a2dbd97ac8fe0e4f			False		53760.0								
+81e84ac9e15937b189386ac6c2978411	PETase		False	312.0	47364.0								False
+820759a88311ee3bd2f097894f3cc829	MPAB_Lcp_cat		False	408.0	8501.0				Engineered				
+827d6b6747c839be448e8d5eecf040f8	PETase		False	258.0	182.0	25.0	8.3	30.0	Soil and plant				
+82a8f35fa104c9b6a19a9b14c5b70176	Cutinase		False	195.0	673.0	22.0	5.0	35.325105	Soil and plant				
+82b7aa41d984234dbb69f23c5dfebbb9	Cutinase		False	222.0	58202.0								
+8364bb30a3dc2cf04c512b24ab06fff2	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	76.8	0.11842105263157894		
+836de436834d07934e1bafef764aabcf	FMO-like	FMO-like	True	431.0									
+837c8cc88d3bee11c34fe65c687d9dcb	Peptidase_S58		False	328.0	13662.0	6.0			Engineered				
+83865d12dc908b9052d3d9fbee3ae5b7	PETase		False	316.0	182.0	25.0	8.3	30.0	Soil and plant				False
+83addd781c87e1add0728dfa341c3808	Cu-oxidase_4		False	264.0									
+83ee15fc7f139e4bb1678ffd46e3c31a	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.5882352941176471		
+845fa7db564703ffc7053d4a84670662	PETase		False	451.0	182.0	25.0	8.3	30.0	Soil and plant				True
+846547cc69b066cba6120eb9bd426eeb	HsbA		False	174.0									
+84761d1a59bbb8142068c0c503f3edac	Tannase		False	596.0									
+84a8e9869a9c109f205d339a6d75caf9	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+84ba28218df106867af936d87aba63b4	RoxA-like_Cyt-c		False	678.0	20515.0	12.247171		34.5577335					
+84c4ee940b0f8852deadc2849728074e	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.47058823529411764		
+8586c12fea90fb4941fd4e1811da52d4	CBM_1		False	36.0									
+85ca60d84963852a3671a2ee353e7121	COesterase	COesterase	True	501.0	26651.0		7.5				0.25		
+85ca877a445ef4d4fb49d122106dd073	DLH		False	291.0	25725.0	77.0	8.0			92.6			
+86022cee223ae7084a33eb02f8bda092	Lipase	PLAT	True	448.0									
+86239c641b1da452d8f9686b0e178c5a	Lipase_3		False	281.0									
+8674e0d5c900c9934e3b9036159a8928	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.13770053475935828	0.25	
+868a6ad3936248345f96c6fff950ada8	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.25		
+86d61789cbb4fd072f021725a5c87432	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.14772727272727273	0.575	
+8722edc1d8ee6527fa67deaf57e3cd92	Hydrolase_4	Abhydrolase_1	True	249.0	602.0	41.0	7.02333333333333		Human				
+87db4fea8e3fb96ae6a6462e74d2341f	PETase		False	284.0	182.0	25.0	8.3	30.0	Soil and plant				False
+87e416ba26610d397c9e4f4d5c8845ce	PETase		False	305.0	182.0	25.0	8.3	30.0	Soil and plant				False
+87f9d094011ecd59222d8aa90927f94d	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.9		
+881868c27cac3bb3a5e8c80fe64a976e	PETase		False	326.0	47364.0								False
+88419df85d989f2a9095efd8b2bfc9e3	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.725		
+88430c888c0766bb3a75fdc6553aba08	Tannase		False	559.0									
+8884303d8833a65ead18d238a25201ef	RoxA-like_Cyt-c		False	673.0	20515.0	12.247171		34.5577335					
+88c623e79a892c807c2f59d29aa414e9	PETase		False	296.0	182.0	25.0	8.3	30.0	Soil and plant				False
+88d5d5ad4f13b7f9976990ed82e5489d	PETase	PETase	True	433.0	10882.0	10.6465625	8.12	21.588752999999997					
+899c83771a8b2b4c93222e30533529b1	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+8a19fac8159bd4f10f89819644bfc04b	PETase		False	307.0	47364.0								False
+8a77f7f3921e99a3bac6e653cb8ba1dd	PETase		False	297.0	182.0	25.0	8.3	30.0	Soil and plant				
+8ad28859499133c916d577bcfbe2341b	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.17647058823529413		
+8aeddd8a29d633b4933858c2f3a838af	COesterase	AChE_tetra	True	614.0	40953.0							0.7333333333333333	
+8b518c2b8aaf092cdb803c0dbf60c831	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.7058823529411765		
+8bbd1bb60fe7f26567ae38ca102fdbb2	p450	FAD_binding_1;Flavodoxin_1;NAD_binding_1	True	1049.0									
+8c49a75e9904e304a1e1199ef2bd1c0d	Bact_surface_Ig-like	Esterase;Esterase_PHB;Peptidase_S9	True	580.0	39699.0	13.617275	8.04	35.334717	Other environmental				
+8ca13037e6ab19f4682d0198fae11dcc	Cutinase		False	205.0	26405.0	20.2			Other environmental				
+8cb06764c837feac22486f60e3a3176e	PETase		False	301.0	182.0	25.0	8.3	30.0	Soil and plant				
+8cbc5c568bdbc1af16acebbee49a2281	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	28.65	1.0		
+8cdf4069fbf046e3b5ba5ca8af613b06	Lipase_3	Lipase3_N	True	274.0									
+8d96456ab0ba6ed36df7294c2ae60492	Tannase	Abhydrolase_1;Abhydrolase_6;Hydrolase_4	True	820.0	1632.0	24.835	9.32	19.645	Other environmental				
+8d98abd536e31698884f53a251fb706b	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.27586206896551724		
+8daa2f766b0151aab0627d2f65817f08	PETase		False	311.0	182.0	25.0	8.3	30.0	Soil and plant				False
+8ddcd9d7d7bbf5872959258e293cb55b	PETase		False	270.0	182.0	25.0	8.3	30.0	Soil and plant				
+8deca6619791d1dfb2747e5d6694861e	PETase		False	459.0	52569.0	87.0							False
+8e09c052acabd81064570adbb301c2bc	PETase		False	303.0	182.0	25.0	8.3	30.0	Soil and plant				
+8e7a889c2e4f6f7d6c9ff452c78b47dd	PETase		False	310.0	47364.0								False
+8ef663382932ed1b1db9816120e71f5c	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.6153846153846154		
+8f463d57ca7c4e2bf06367d3ef167267	PETase		False	250.0							0.5		
+8f83a840438244b7e4edc7a9cd313888	PETase		False	327.0	182.0	25.0	8.3	30.0	Soil and plant				False
+8f8fd519f21772d37fc749ef25314a2b	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant				
+8fbe2f62e5f7251051e29b457449dfe1	PETase		False	290.0	47364.0								False
+8feb9668a175c35f72f9401e65279743	PETase	PAF-AH_p_II	True	335.0							0.4772727272727273	0.22727272727272727	
+9056818e2c47c561a00f7b7935b85b40	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.6388888888888888		
+9070e74cdab38f241d16dad67a1f5906	PETase		False	287.0	52569.0	87.0							False
+9079d498509e7f7757ad5afe62be2855			False										
+908c724eff6e276853e85c7797a09a96	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human		0.375	0.7222222222222222	
+909df76714790bcf6892fc9659a97b60	Abhydrolase_1		False	320.0									
+90b020d4398085c06650943887e607ac	PETase		False	338.0	182.0	25.0	8.3	30.0	Soil and plant				True
+90d2aae11636f98b95d3b817daeb58f5	Esterase_PHB		False	414.0	30717.0	16.1	5.505000000000001		Aquatic				
+90dd4e3546b019c08092479057c66d2b	Abhydrolase_1		False	256.0	8453.0	37.0	7.78	40.0	Animal				
+90ebd974151122213eea14d25fa1eea2	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.8571428571428571		
+91052f5794fbcda6547f6872fd8a7b38	DLH		False	200.0	37135.0	14.0	6.5	34.621	Aquatic				
+912e83dc2f08f1fc1029bb0b260a4525	Tannase	Tannase	True	563.0									
+915357be150ba46b8e8a6b3a1c587430	Hydrophobin_2		False	102.0									
+91d4a1b7006a549c5cf943625e30f84c	PETase		False	308.0	47364.0								False
+91f04d87675cfa599a3e816af2c00a80	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.3181818181818182	0.45	
+91fdd1b5e2e32c2e3842e6b87058f3ad	PETase		False	298.0	2469.0	21.0			Other environmental				
+9256e646a5b345b342568f40aa4ab307	PETase		False	348.0	7545.0	2.0			Engineered		0.4772727272727273	0.5	
+925eaa1d8c145880ff409530b973e7fe	PETase		False	260.0	182.0	25.0	8.3	30.0	Soil and plant		0.5		
+929dc2a9c610aa09a31731b386d56929	PETase		False	259.0	47364.0								
+929e7ae0e05f21354c03bf2fab11090f	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.6363636363636364	
+92b7e78b2cd6537c07bfed288d5f65e0	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.05555555555555555		
+92f0fb9ede8642fe72bc56bad09b59d3	Abhydrolase_1		False	303.0	43294.0	11.5	8.05	30.0	Other environmental				
+92f27e7a18fa767a3c28a7a87ff9e262	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				False
+930d999f006b9f8bb67289c0211af928	Cu-oxidase_3	Cu-oxidase;Cu-oxidase_2;Cu-oxidase_3	True	623.0	9.0	23.8	8.1	35.427733	Human				
+939d31dd27f0e4cf136d3e883f7cd87a	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.5		
+941258c3d32a9b3b67757c3a7c6d9d71	Esterase_PHB		False	424.0	7690.0	7.6502	7.66	34.67996	Engineered		0.7		
+94586a8e5e72f1ddd130a7ec2376a233	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.8194444444444444	
+94605adabc3bebd784350aef654a7e71	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.35714285714285715		
+9495fa69ccc37ae523d31b7652774a27	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant				False
+94e8a07a549df6a9a9dba74891a603c8	Tannase	Tannase	True	388.0								0.2857142857142857	
+950974558f64e648bcd2da65dff82862	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic				
+9528bb600d628eef216ec342dc18d465	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.7236842105263158		
+952c268c97c238db7c9c408a4b305b6a	PETase		False	310.0	47364.0								False
+956169ab419009bef65d017b36b12d3b	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.5		
+956a7557b8ee12efbcb6d4b1d57d4221	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		1.0	0.85	
+956adba8f410f76ef4d39da6ea609e36	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.11538461538461539		
+95b8c354124ce6fc0e73869c1285b609	PETase		False	292.0	182.0	25.0	8.3	30.0	Soil and plant				
+95bc464bdabc0b5d34262a39d71d9ea7	Anemone_cytotox		False	179.0									
+95c0b2e775bf2a0d2c1c32bb5daff191	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	75.55	0.7222222222222222		
+95e5c51c0885ce2de51cd8e6fd384447	Cutinase		False	248.0	26023.0	26.0	4.78	35.784769					
+96bd98f4dd9197dd3c72487e80660b82	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant		0.8		
+96ef80112cf98721214b247c7e5879ef	PETase		False	441.0	182.0	25.0	8.3	30.0	Soil and plant				True
+9779282f44f5947a072f15c26945d21a	Esterase_PHB	Bact_surface_Ig-like	True	576.0	39699.0	13.617275	8.04	35.334717	Other environmental				
+978f474017f24404fa05431907928cb8	Lipase_GDSL_2		False	201.0	4423.0	5.0	7.8	6.93	Soil and plant				
+982e6e9863d12df9d72f58bc63f4ef93	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant				
+984a671eef0e2f786e26da3f067bf37a	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+984b41f95f720fea4063e69a7deba0c8			False								0.5333333333333333	0.6666666666666666	
+9859fb9d3e71d1d7df6c89ccc24fe9d5	Lipase_3		False	281.0									
+98817b20d15249221405f6c2aece5a8a	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				False
+98a8c358e6d61696a001f314f24b763a			False										
+99422484855592d0e054aaafebbe5064	PETase		False	265.0	182.0	25.0	8.3	30.0	Soil and plant				
+99b77336ac15b03abc7fd98e81b9be7e	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.1111111111111111		
+9a2d32901525985492563aa339b79812	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant		0.5555555555555556		
+9a4ede3c3da766be9b641bcda9b56a26	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.75		
+9a6fcc670dc9d4703cd91df44effc137	NAD_binding_4	AMP-binding;PP-binding	True	1174.0									
+9a8c5e16449fa6c00fcd65f455119394	Hydrolase_4		False	249.0	30573.0				Soil and plant				
+9ade70bfd8cc4b1ebdc5ce37b9a3ccf1	PETase		False	343.0	182.0	25.0	8.3	30.0	Soil and plant				False
+9aea2497e5bfcd3778c528566fa690f0	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				False
+9afc063f3c54dda45aa8c6f5e8b8d94c	PETase		False	258.0	182.0	25.0	8.3	30.0	Soil and plant				
+9b1953da2f0b1d09986af297aff7debe	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.7222222222222222	
+9b361d2c16557499693210de2a8a01b4	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant		0.2727272727272727		
+9bbff0608357b173b5326ce0aabb875a	PETase		False	264.0	182.0	25.0	8.3	30.0	Soil and plant				
+9bcb0221c2d0052770a78c3feff07cde	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.125		
+9c4ad56bbac0f26f98866f195ee07a32	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.45		
+9c6726c69068e8abf43de5f7f465e825	PETase		False	303.0	182.0	25.0	8.3	30.0	Soil and plant		0.4444444444444444		
+9ca1e6529fa39286ede75d9bdf9d61cb	Aldedh		False	453.0									
+9ccdba7729d0b5f55852290a5581671b	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.8181818181818181	0.4	
+9ced8f49ac02e4048d3dc8dd4af1c4e7	Lipase_2		False	343.0	16360.0	12.9	8.3		Soil and plant				
+9d110c9c39a1e8861c306429b11cf96e	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+9da5a40fd9d71bcaee506deae5e66012	Sod_Fe_C	Sod_Fe_N	True	258.0									
+9dbcc3745a21512bb29bdd242a9f4139	PETase		False	292.0	182.0	25.0	8.3	30.0	Soil and plant				True
+9e2ea04af49fc270231471b9ed151d77	PETase		False	289.0	182.0	25.0	8.3	30.0	Soil and plant				
+9e8d315ef787ee9d382f8bd4b619ef42	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.2631578947368421		
+9e8faebe4f719f7ef05718a256a9c22f	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		1.0		
+9eb86e7d5cbb8afaca5e785ef8475215	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.39473684210526316		
+9eb91b2a266151fb2b7651650516e788	PETase		False	276.0	5099.0	15.15	7.503	34.22	Aquatic				
+9f1c9e1fd6e6463fc3c8580b4a3fe875	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant				False
+9f69ee10492e1619b2a154a3fcd2a12c	PETase		False	336.0	182.0	25.0	8.3	30.0	Soil and plant				False
+a0445e5a5b156ccfedc088c49acfd84a	PETase		False	301.0	182.0	25.0	8.3	30.0	Soil and plant		0.70625		
+a0550530145e06d4170e283fb389aa62	Cutinase		False	230.0	673.0	22.0	5.0	35.325105	Soil and plant				
+a05e7135ca3cc5fdeb729cdfaf906a3d	PETase		False	286.0	182.0	25.0	8.3	30.0	Soil and plant			0.5454545454545454	
+a0669e7bff49fcfc3f54fbecd839ffa8	Cutinase		False	230.0	673.0	22.0	5.0	35.325105	Soil and plant		0.4		
+a0904c35f59716a292ebfca5adfcbc0e	Hydrolase_4		False	254.0	9158.0	37.0	6.75				0.6428571428571428		
+a09afd0d4908958a8d7ea08e153506ed	PETase		False	286.0	182.0	25.0	8.3	30.0	Soil and plant				False
+a0bef80b184695e31fd1d51ef0ae0d4a	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.8		
+a16faa35ade6b2d46e7d6a680f51aef8	Peroxidase_ext	peroxidase	True	357.0									
+a17dc77ddf9112392b95cd5f890e7c6b	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.9500891265597149	1.0	
+a1aad452868831fddd88405d105bde94	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.5555555555555556		
+a1bb7a98a529544cb1767d7ce364e474	MPAB_Lcp_cat		False	413.0	8501.0				Engineered				
+a1f9a13f7913f0b0775d3074dbdf1c9d	COesterase		False	497.0	28136.0								
+a1feb54e5e1badd77c32c68bd7ff426d	Cutinase		False	167.0	58202.0								
+a231cf4880bedee499375b591f4c7cfc	Cu-oxidase_2	Cu-oxidase;Cu-oxidase_3	True	516.0	370.0	25.0	8.902	0.546	Soil and plant				
+a280b5596d263fdfc31a409fd404d8b6	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human			0.5	
+a297bb6d8e61ef17f14647e44f545f73	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.14772727272727273		
+a301aaf3cf1b6d38aedf6e59d9049c11	Beta-lactamase		False	434.0	30393.0	9.954	6.96	0.0	Other environmental				
+a3091f604ee24c660a845c9c95d0fad3	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.08333333333333333		
+a30b3a3a0df69b51397301e8b555206e	PETase		False	291.0	52569.0	87.0							False
+a32980b099d777f5cde7184df50114d3	Lipase_3		False	269.0									
+a34b130ad0417d3f320f67fc24279310	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.4027777777777778	
+a36387dd17f03c638e99f94948045919	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.39655172413793105		
+a4389cebdf3a306b23b17621ffa17686	COesterase	AChE_tetra	True	614.0	40953.0							0.9666666666666667	
+a460e29be71f58dc2b8d085317ba08e0	PETase		False	272.0	43558.0								False
+a4c818ade03b8dd4ac34b64a7842f3ec	MPAB_Lcp_cat		False	397.0	8501.0				Engineered				
+a4cafac901140b6b19f1c384d078b5d5	Lip_C		False	400.0	17617.0	15.0							
+a4f1986dbc9aae3000c41a496e7f8b80	PETase		False	44.0							0.8666666666666667	0.8666666666666667	
+a54c91bf5a86bd099d1ebdf624cff938	Lipase	PLAT	True	465.0									
+a550dd27e9385132946473bbb0c8ca53	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant			0.075	
+a5c5bd1de0d8ce0866afda1c60ee0c7c	Esterase_PHB		False	417.0	62258.0	12.6	7.07	19.37	Soil and plant				
+a5e57aa9699b655bb23f42f50c4debb3	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	64.85	0.7		
+a60a3e9331b3277f95efd56d200c2fb8	COesterase	AChE_tetra	True	614.0	40953.0							0.18333333333333335	
+a63240b31a4a9f7a5204a03c9e405a90	Aldedh		False	479.0									
+a66c79764847ec4000afa27e1a87886a			False								0.6666666666666666	0.06666666666666667	
+a689b507f9659dc72b6c9fe3afd8c677	PETase		False	416.0	182.0	25.0	8.3	30.0	Soil and plant				False
+a6aaf417461fb303879752890d434557	PETase		False	340.0	47364.0								False
+a6dcf158d244a5598f7ba5238bf0a974	PETase		False	301.0	47364.0								False
+a6ec927ddfdac7c74c1d56d8407ea1db	PETase		False	299.0	5885.0	25.0	8.3	30.0	Soil and plant				
+a77e1eeccfe4adb303608729545db2bd	RoxA-like_Cyt-c		False	662.0	20515.0	12.247171		34.5577335					
+a7e9ad93e27a02a67e7faa69207433a4	PETase		False	259.0	47364.0								
+a84e805b154e4890d9033374433e642d	Abhydrolase_3		False	304.0	7020.0	11.0		3.07	Soil and plant	87.2			
+a8755f7dab07326f0bdfa95a2511c23c	PETase		False	311.0	52569.0	87.0							False
+a94c41074f21705a0bece1c54de7e326	PETase		False	327.0	47364.0								False
+a962ab69a84e9173b76e23a3cfd178bb	PETase		False	267.0	182.0	25.0	8.3	30.0	Soil and plant				
+a96d9a8dfdfdc1b536f250efd6b696a1	Esterase		False	278.0									
+a989be66bdccaa4e66329f57fc78e237	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant				
+a99d400594d9bce09eea58f6e0b1b3d3	Abhydrolase_1		False	275.0	8083.0	14.412475		31.771004	Other environmental			0.6111111111111112	
+a9bad1df9172c94be6b225bd32b6bd1d	PETase		False	304.0	47364.0						0.09090909090909091		
+aa1b463709fa62d66034d00d46f2bb52	Chlorophyllase		False	313.0							0.7142857142857142		
+aa4b6e53f6b144b2227bb449f4de9107	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+aaa9786d473a7eb02349e757ab50352c	PETase		False	257.0	182.0	25.0	8.3	30.0	Soil and plant		0.125		
+aacbc15117d86022945daa4e34fbb565	COesterase		False	538.0	30120.0				Soil and plant				
+ab28b3c7f9f31d150eb7c09f9c99f7f4	PETase		False	260.0	182.0	25.0	8.3	30.0	Soil and plant				
+ab6b2d53513cc127c20db4ff15e7a322	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			1.0	
+ab6bcd8f8bd2731c96243c2064d6a6d1	Cu-oxidase_2	Cu-oxidase;Cu-oxidase_3	True	513.0	22335.0								
+ab97cd46ea1dcbc4d1bca97ee3e92fe1	PETase		False	388.0	20121.0								False
+aba8349d754742399eb4e30aca4a5463	Beta-lactamase		False	392.0	13472.0	17.93	7.435	34.616	Soil and plant				
+abb8eb666596aa17dae00590313a3071	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.32142857142857145		
+ac8597b57efea35d2fbe27408fe041a3	HemolysinCabind	HemolysinCabind	True	615.0	11912.0								
+aca2e7506aeadf4b37ac583b47bf5d88	Bact_surface_Ig-like	Esterase;Esterase_PHB;Peptidase_S9	True	578.0	39699.0	13.617275	8.04	35.334717	Other environmental				
+acbaa02ccb466aa44072c80c8609dcba	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+acbdde657dbd7ef171dd206745d6894a	Esterase_PHB	fn3	True	488.0	62258.0	12.6	7.07	19.37	Soil and plant				
+ad0b7f092d6bedfb2cc21f13f45e056b	PETase		False	43.0							0.9333333333333333	0.5333333333333333	
+ad29deb2b26a243723da37164daf5ec3	MPAB_Lcp_cat		False	407.0	8501.0				Engineered				
+ad34ea634194737f274baf0a7250fc67	Cutinase		False	224.0	22638.0	22.0	8.4		Soil and plant				
+ad697986ffc21583c61bf3e5301606aa	PETase		False	302.0	182.0	25.0	8.3	30.0	Soil and plant				False
+ad6a50de1656dc87f60d7255ca655ced	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.7916666666666667	
+adacfa06b8ba2451c428eed9ccc912a4	Lipase_3	Lipase3_N	True	336.0									
+adcac0d766d1eced8a0755dae5213fa5	FAD_binding_1	Flavodoxin_1;NAD_binding_1	True	694.0									
+adfd257d774083524a52123058ec51d1	PETase		False	307.0	182.0	25.0	8.3	30.0	Soil and plant		0.6666666666666666		
+ae2fdb3ef0e2acc744f1488f70c7dab9	Abhydrolase_3		False	319.0	34.0	37.0	7.7	40.0	Human			0.375	
+ae4dc0f8030d33e57fca81fd075c100b	Abhydrolase_6		False	280.0									
+ae63bc4e8d8cc51954e2248933b8690d	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.8620689655172413		
+af196b7b98d23125945a116053a7add5	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.35		
+af2685616f3175160a73874e78e09dda	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.8155080213903743		
+af35a259bdd015f4725d02bdb7ed63c4	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.75		
+afb025038508228d84d2fe8c130d5d14	PETase	Por_Secre_tail	True	364.0	20172.0								
+b007b8710e413f8bd4c4e937274b9f60	PETase		False	299.0	59294.0					79.0	0.9545454545454546	0.22727272727272727	
+b0634874ea3485f14fa051b9f44c9bf2	Esterase		False	289.0									
+b0d80b8e9168c58bc818ce6668770dab	Abhydrolase_5		False	239.0	21629.0	2.0			Human				
+b19c5440699f605de42f654b1cffce97	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	76.2			
+b1c3610a041684e91f3b2557b0de922a	Cutinase		False	229.0	673.0	22.0	5.0	35.325105	Soil and plant				
+b25cd5a22493423ceee8b7bf9ef0182b	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+b2ce4b3f3cb218404c049bd6ca3c3fef	PETase		False	287.0	55846.0	13.2787865	7.7	34.854	Aquatic				
+b316862d7118e4358cbe8bf6be6de118	Cutinase		False	203.0	5984.0	13.75							
+b341c7ccbfbe6331793649e605d7d410	PETase		False	309.0	182.0	25.0	8.3	30.0	Soil and plant				False
+b373066dee7913d59893d9549802b2f7	PETase		False	298.0	47364.0								True
+b393630e6e852d73059f11145dc09ac2	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant			0.15	
+b3abfb13fe28dd4cade22b9ea3d66500	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.3194444444444444	
+b3d2fa9ea2c47010ab50956bb276c406	Lipase_GDSL_2		False	208.0	43.0	37.0	7.9	40.0	Human			0.16666666666666666	
+b3eeaa1e3caffca16e92e5f5dafad4d6	Cutinase		False	202.0	5984.0	13.75							
+b4d4e83e177035434fbb1913a9967ec5	Esterase_PHB		False	373.0	7690.0	7.6502	7.66	34.67996	Engineered				
+b4dd040b7cc5e8007f16ef8da45fc35e	fn3		False	495.0									
+b5e1194a78b8e19f6889cc1b5c502e5e	PETase		False	359.0							0.4772727272727273	0.22727272727272727	
+b607359376f9d87adf967b8f7e9b341c	Tannase		False	603.0								0.10714285714285714	
+b656540fcd22b9dcd06e9b0be7b8a349	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.5714285714285714		
+b6e01367b5bbe5563f23088618279452	Abhydrolase_3		False	319.0	34.0	37.0	7.7	40.0	Human			0.125	
+b7b347dbfaf01be3bd91ebc9a9eda624	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.7194444444444444	
+b81719c5e7a1c9a178bcdb37887117d1	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.6236111111111111	
+b8d2efe3a6d76dcf58f691a374d528ed	COesterase		False	489.0	1344.0	25.0		35.690458	Soil and plant				
+b8dbee2f89d4591ba299f36fb7d9e77e	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.7368421052631579		
+b902cda5d279f327780509f4c1cf869b	Lipase_2		False	343.0	16360.0	12.9	8.3		Soil and plant				
+b90b54b1221491a4b9c988819ec79e9f	PETase		False	310.0	47364.0								False
+b9422da956181cc8d538208378501de2	PETase		False	289.0	182.0	25.0	8.3	30.0	Soil and plant				False
+b9429804e4d91ab4833e0e3490406307	Glyco_hydro_32N	3keto-disac_hyd;Glyco_hydro_32C	True	677.0									
+b96e3838fee9bee7a9d7d7d57eda9386	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant				
+b9aec5e58bea971c7e9c7828bc67a878	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant		0.9090909090909091		
+ba42bb0748f99fd023d87f8ae15d0fd4	Cu-oxidase_3	Cu-oxidase;Cu-oxidase_2;Cu-oxidase_3	True	639.0	30529.0	16.468788	7.53	35.539507	Aquatic				
+ba85d30270a5a484c2418df119ed7a4a	Abhydrolase_1		False	275.0	3248.0	40.182775	6.7	36.193733	Other environmental				
+bab808aadee12b4738b0235769423ffa	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.6111111111111112		
+babfea0b51b7010e29b94c11b75f4123	PETase		False	297.0							0.4772727272727273	0.8181818181818182	
+bb60668c33aefeacbb320f1a972407e4	PETase		False	280.0	55846.0	13.2787865	7.7	34.854	Aquatic				
+bb8933a33738925a62584dcdbf1e6bcb	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant	82.5	0.38461538461538464	0.23076923076923078	
+bbf67ba4665ec798a941311f08e0303c	Amidase		False	493.0	29071.0	2.0	6.71	18.4	Soil and plant				
+bbfc1990d2805f241f4119b6b5dcd094	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant	84.9	0.23076923076923078	0.6923076923076923	
+bc0c4342f182bbb11200ece9cb890f2d	PETase		False	384.0	20121.0								False
+bcbfdef82ba29f098be76f72b5063416	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.5172413793103449		
+bce82b1253c1a7e21bb8e1b56148752e	PETase		False	312.0	182.0	25.0	8.3	30.0	Soil and plant	48.5	0.7142857142857143	0.5714285714285714	
+bcf403c209e8d78978b5c6dbbc1f312f			False								0.7333333333333333	0.2	
+bd2b656e9526f8869e3b04bcf5441226	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.214795008912656		
+bd2f99444174a72967829b8fb2747064	Cu-oxidase	Cu-oxidase_2;Cu-oxidase_3	True	559.0	978.0	15.284298		34.36909	Aquatic				
+bd6a2e3c62073ede47d43f85c7ccaa44	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.125		
+bda45a6ca3c589bddc53c599fd714ed6	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.1388888888888889	
+bdb9c10be7208decbea64cd4227c80cc	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.15517241379310345		
+bdd1f3aa216dc4d41a5b597b9e0dcc6e	PETase		False	463.0	182.0	25.0	8.3	30.0	Soil and plant				True
+bdf64e81c86eae517c995c4452b2fbfe	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.23076923076923078		
+bdfa2d7c3a5b664d03525f0fdbcbae94	PETase		False	290.0	52569.0	87.0							False
+be3168df6d0d7ba7d05b1b4e4a917331	Hydrolase_4		False	288.0							0.4772727272727273	0.6136363636363636	
+be7dd8f21d1b03631b329ecc8c66318e	Beta-lactamase		False	390.0	53.0	37.0	8.045	11.24	Human				
+be83442500bd529c1da180696a528dde	PETase		False	301.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+be8748feeb335dbb23ea57c0ca66828f	PETase		False	289.0	182.0	25.0	8.3	30.0	Soil and plant				
+bea673e57e0d27e2399738816ed4dc86	PETase		False	312.0	47364.0								False
+bec1bb09ce992bbbf8c0f61cef4e00b8	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human			0.7777777777777778	
+bee9ccd8c0724ee6e1e618ce186f7e74	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.65		
+bf1211a762e821d20c1d2d3955fed6f8	p450		False	520.0									
+bf1bfa11fadfcb5d85663bd03991b5c8	PETase		False	283.0	52569.0	87.0							False
+bffea9ee0e06ffc5b42d7462205ba379	PETase		False	466.0	182.0	25.0	8.3	30.0	Soil and plant				True
+c00434071d00d7a5426290ac86d4555b	DLH		False	239.0	24904.0				Aquatic		0.4772727272727273	0.7272727272727273	
+c0173ba184ddb729e7ef9122ecff0145	Peptidase_S9		False	270.0	18668.0				Human		0.9285714285714286		
+c02edb9924a7f5bcd356a4cb811dd674	HemolysinCabind		False	567.0	11912.0								
+c088e5731a8d618ff5fa3a3b8221eafd	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.4605263157894737		
+c0d65d9f3d01223d4c29a38eeb9507b2	PETase		False	294.0	47364.0								
+c0db4cef549bfc4096454ea125b2a5ce	Rieske	Ring_hydroxyl_A	True	428.0									
+c0f6e02c475b865580c610703e9cb7bb	COesterase		False	499.0	1344.0	25.0		35.690458	Soil and plant			0.8	
+c110634add62657d9d48b539414ddbff	PETase		False	302.0	47364.0								True
+c16892247518e6633ce81cd294e48cfb	Cutinase		False	213.0	369.0	14.0	7.3		Soil and plant				
+c1a1ed20efb294068bc8e1483c391d0c	Chlorophyllase		False	326.0									
+c1e7070fc64c642ba97fdab4eda14f9e	ACT_PSP_2	ACT;ACT_6;HAD;Hydrolase;Hydrolase_3	True	415.0									
+c25c4360fbb3e25793d4794f7e3a8d93	PETase	Calx-beta	True	468.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+c2610dc7556aacd9a00bede53a3a5ef9	Beta-lactamase		False	414.0	57420.0	12.0	7.295	10.9208	Other environmental				
+c29210d991dbde3e2101dc5fdba2059f	Amidase		False	493.0	29071.0	2.0	6.71	18.4	Soil and plant				
+c2ec84dd1687e7020635b1272723720d	CBM_1		False	36.0									
+c2fa67d9c7316df654e0d5a5b1f37ea6	PETase		False	280.0	182.0	25.0	8.3	30.0	Soil and plant				False
+c3110dfcac8686d43a79cc620582ab87	PETase		False	265.0	182.0	25.0	8.3	30.0	Soil and plant	68.4			
+c31800065dfbfa1697fbd6657a0789a4	Lipase_3		False	348.0									
+c34a0cdf3e752f380a5b606923633b4c	Lipase_3	Lipase3_N	True	291.0									
+c380f3df13aaf824a87403ab53419e8b	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.5277777777777778		
+c3adcc6da444d6e20a2ccab00feaa287	fn3		False	492.0									
+c3b10fec34299e75939e57d3458275fe	PETase		False	315.0	182.0	25.0	8.3	30.0	Soil and plant				
+c3bc894bfb9a36964104cfd74e6225ba			False								0.26666666666666666	0.7333333333333333	
+c4271430db6e73382801f6901ff23b58	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.631578947368421		
+c490df3f95c441b3e8d50891420be025	Esterase_PHB	Bact_surface_Ig-like	True	576.0	39699.0	13.617275	8.04	35.334717	Other environmental				
+c4b5efa65aad44608ffb21d10e9165a8	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.7647058823529411		
+c4c87c36c70a8f1b15d4f8d38155f609	PETase		False	302.0	182.0	25.0	8.3	30.0	Soil and plant		0.36363636363636365	0.18181818181818182	
+c4e733c3ed99fb7b69f42c2c9ec11973	Cutinase		False	294.0	1417.0	9.657	4.9	30.0	Other environmental				
+c500a863db73daad470cfb58fde825cf	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant	84.5	0.6153846153846154	0.5384615384615384	
+c59292e4542388e18c500aad75e7a1f2	PETase		False	284.0	182.0	25.0	8.3	30.0	Soil and plant				False
+c5a153ebb25630cf39352ef0c13741bb	Beta-lactamase		False	429.0	9179.0	29.0	7.667	35.9615935	Animal				
+c5c958d03feed023c70aead575ffd575			False		47532.0								
+c5f50c29d904a75b7213618e85054f57	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+c627badfbdd42acfa7664595a681b789	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant				
+c658e93c716d7dca4cc51c3110f4bfd8	Esterase_PHB		False	333.0	7690.0	7.6502	7.66	34.67996	Engineered				
+c675d319c2abfc2857acac3da19c8e14	PETase		False	309.0	47364.0								False
+c69919b9eb41ebeff59121a4674efaf5	PETase		False	260.0	182.0	25.0	8.3	30.0	Soil and plant				
+c6e1ef135b977d4bd0b44d7ebe8d5e96	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.11538461538461539		
+c6ec90bb07805c2acdefa6349ac56c3c	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.8333333333333334		
+c6fa6ca500b721c734f9c97460693d2e	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.8181818181818181	
+c7405f698edb18c8774b705760878069	Peptidase_S8	Fervidolysin_NPro-like	True	387.0	5004.0				Other environmental				
+c75c74e702f47a37b3b62637d9b4ef85	Hydrolase_4		False	247.0	18470.0								
+c76711d5159acb8d56ccd05487d08f85	PETase		False	296.0	47364.0								False
+c784ce819ba3ac9a3eaa8a42debfae6d	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.8103448275862069		
+c7b5971fef38cf25b013e7e062ec42f5	Cu-oxidase_2	Cu-oxidase_3	True	617.0	34493.0				Soil and plant				
+c8eddb0240d6ad20c06137ca2ed25ad3	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.3		
+ca52acfca3bc426de38eb3d5f8b9278b	COesterase	AChE_tetra	True	614.0	40953.0							0.6333333333333333	
+ca9ec28899b6636a6a78e3c66f1f5d9b	PETase		False	306.0	47364.0								False
+caa0c4ae41df9f1811f48c5e396d4ee2	PETase		False	308.0	47364.0								False
+cacb2a3c455890e713cdc700f6ed12ea	Lipase_GDSL_2		False	208.0	43.0	37.0	7.9	40.0	Human			1.0	
+cad303d765ece00542eb613626998d4e	Abhydrolase_1		False	341.0	42498.0				Aquatic			0.1111111111111111	
+cae1f0e206dd5d377dbfb013f72cd60c	PETase		False	301.0	182.0	25.0	8.3	30.0	Soil and plant		0.2		
+cb23944a4fdd612203fe013a043236d9	Abhydrolase_2		False	215.0	26515.0	6.77	5.53		Animal				
+cb6b9e26bd9548fc82bad0e8d8448d1c	PETase		False	308.0	47364.0								True
+cb7249b195ab50aebeb388c42ec522ba	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.25		
+cb8e21c6d1178cf354a8876afd28837d	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.5		
+cbd6de4cb5629510d3509dcda79c4104	COesterase		False	454.0	59201.0							0.30000000000000004	
+cbdc0039d7f50f26cd6271d694bb5547	Lipase_2		False	242.0	26105.0	13.5			Soil and plant				
+cbe6e6c036ad8643698609d6a197ff5d	Lipase_2		False	201.0	26105.0	13.5			Soil and plant				
+cbeab884e389e723203018b8b7a0f54d	PETase		False	300.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+cc033710898735d9ebfddf65864182c1	Fer2		False	322.0									
+cc26e498b6015433fd3549c18d44fd69	PETase		False	265.0	182.0	25.0	8.3	30.0	Soil and plant				
+cc536b9cc492d5fd34b0f46aad8565fc	PETase		False	305.0	182.0	25.0	8.3	30.0	Soil and plant		0.1111111111111111		
+cd254bf9ca5304b4de9852db03a8e883	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.125		
+cd3efa9108622a39c229634066ce0292	Cutinase		False	239.0	26405.0	20.2			Other environmental				
+cd7801302d2d6447bb916cdfe6b07b26	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.75		
+cd88e8b0cb1aea6dd19fa0113c19ee9e			False		47532.0								
+cd9a38a5102a1f4d5b98923a5113dbcd	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human		0.625		
+cdb013c0ef3f33d42dfc5a75b0dbf9fc	Abhydrolase_5		False	246.0	21629.0	2.0			Human				
+cdb1e0a9e97e12d5fb6bcb38903c79d1	Abhydrolase_3		False	319.0	34.0	37.0	7.7	40.0	Human			0.625	
+cdbd79d4f748220a3df2cfc12e62cb74	PETase		False	295.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+cdd49bfd35311c027b99cd99b0c4596e	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+cde7dd41054a55e17b175af30e7937ff	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+cded58027c41360143e86b8ee7cb4502	PETase		False	298.0	22990.0				Soil and plant				False
+ce7f99b5e3794e73d375745a3b93656f	PETase		False	316.0	47364.0								False
+cf6fe3050027f560b2bf9b539369f6e8	Amidase	Amidase	True	446.0	4786.0	6.18	5.6	21.3	Other environmental				
+cf88b3e711edffd341ba052fb3365c25	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant	70.0	0.6		
+cf9275c6d58ce4187d0e02460b6c75c0	PETase		False	285.0	20121.0								False
+cfc7cfce650869b06ab40f0a553cb969	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.9736842105263157		
+d03a36b0671215d716f1df2ade24268f	Hydrolase_4		False	259.0	1873.0	37.0		34.52	Human		0.42857142857142855		
+d05cc162ef0dbc006df8ba59e77d29bd	Cu-oxidase	Cu-oxidase_2;Cu-oxidase_3	True	499.0	1933.0	9.0	4.029999999999999						
+d0814e383fbf544e382fabeca6932d1d	PETase		False	363.0	182.0	25.0	8.3	30.0	Soil and plant				False
+d0b5d961c80d8628f403fbed9663fef9	PETase		False	312.0	182.0	25.0	8.3	30.0	Soil and plant	43.8	0.4642857142857143	0.4642857142857143	
+d0e11728f446cf1a314cb2c2fedf9488	PETase		False	258.0	182.0	25.0	8.3	30.0	Soil and plant				
+d1292e1d78b36c3fb659c9ac11fd1347	PETase		False	447.0	182.0	25.0	8.3	30.0	Soil and plant				True
+d1573619666c94c5e98ca8bbc7c8ce34	Cutinase		False	178.0	20449.0				Soil and plant				
+d1872fb3794126bf6fd271becf3eb6d5	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.9642857142857143		
+d18f68f94755b401fc5d72f38898d284	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.3449197860962567	0.7	
+d1a9bfa7844de4d193c141e599c73752	PETase		False	292.0	182.0	25.0	8.3	30.0	Soil and plant				
+d1aa8fa7800d986fee5acab07614bd0d	PETase		False	263.0	182.0	25.0	8.3	30.0	Soil and plant				
+d1c03973cec4260e9639bfa0e8ccf5a7	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.4642857142857143		
+d2928ce7c8e8142e83a402b2f66996e4	PETase		False	260.0	182.0	25.0	8.3	30.0	Soil and plant				
+d30cb209595ef3507d2d046c39bfbf4e	PETase		False	316.0	182.0	25.0	8.3	30.0	Soil and plant				False
+d322439da33fe347743018573df12bd4	PETase		False	287.0	182.0	25.0	8.3	30.0	Soil and plant				False
+d3490bd4900bae3d9f1d7c4012060118	PETase		False	426.0	182.0	25.0	8.3	30.0	Soil and plant	71.3			
+d357a79e14b6376e4d3557864252bfe8	PETase		False	319.0	182.0	25.0	8.3	30.0	Soil and plant				
+d3c5a02a49f6da3b464cdc5315196a4d	Abhydrolase_3		False	319.0	34.0	37.0	7.7	40.0	Human			0.875	
+d4c4cbf0d7c13e52a3063f76f637539b	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human			0.3888888888888889	
+d521ee3dd58613d1f70c003b63fcf324	COesterase	AChE_tetra	True	614.0	40953.0							0.7	
+d5263bf8024e243c27bab777090f3940	PETase		False	270.0	182.0	25.0	8.3	30.0	Soil and plant				
+d64d4182f832a1c47f117404d8880a16	PETase		False	285.0	182.0	25.0	8.3	30.0	Soil and plant				False
+d65fe06a2eaa9aca0cd55046bce847b3	p450		False	490.0									
+d67ede223c06bbb9c7903735558b4123	Abhydrolase_6		False	314.0	2592.0	15.255740500000002		34.586699	Engineered				
+d6835810ab9835168a6415b5a35aaed8	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant		0.8048128342245989	0.3	
+d6e4e094400d67e1a7db97bccaf9fa3a	Lipase	PLAT	True	434.0									
+d75c1459abab2c990fc69f6ed7a1b7af	PETase		False	291.0	182.0	25.0	8.3	30.0	Soil and plant				False
+d78ca54fff3eddbc5a27aec8c337f94f	PETase		False	279.0	182.0	25.0	8.3	30.0	Soil and plant				False
+d78fcd25a18744e240e1310b608716b3	peroxidase	Peroxidase_ext	True	351.0									
+d7e4844b817a511949ba637952c4da7e	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.4444444444444444	
+d831ce662fbf9780e451526744000570	Abhydrolase_6		False	253.0	8110.0	86.5	7.175000000000001	2.7	Other environmental				
+d861abca862c87fca066bbcb058826bd	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.10344827586206896		
+d86bb8a5709b9048cb92c7c3c04d2c45	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.5454545454545454	
+d91b645ebea282e1c771123a7abe685f	Amidase		False	479.0	29073.0	37.0	7.84		Engineered				
+d967d7fc867f53092e7dfd7d9bd8dbd5	PETase	RicinB_lectin_2;Ricin_B_lectin	True	355.0	182.0	25.0	8.3	30.0	Soil and plant				False
+d9764dc67200d99f084eb9de20c7e631	PETase		False	307.0	182.0	25.0	8.3	30.0	Soil and plant				False
+d9afaba80397eb6059122f7d0510ecbb	PETase		False	298.0	47364.0								False
+d9efb041760baa38350675dfe76b71c2	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				
+da6d0d877a81f854ef605a5b09d67945	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant		0.6710526315789473		
+da74b7409b4c0618cc66c7787e557585	HemolysinCabind	HemolysinCabind	True	617.0	11912.0								
+daae168d82ad3e0b0085ecf76254db93	PETase		False	260.0	182.0	25.0	8.3	30.0	Soil and plant				
+dab2da810add966a777bb8c243da293b	Cutinase		False	230.0	673.0	22.0	5.0	35.325105	Soil and plant				
+db57f493d839867b6bc019681af7b463	DyP_N	Dyp_perox_C	True	469.0									
+db932e76df94b5285b030c42afc5c2a6	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.3333333333333333		
+dbb1e6d07031faf3b3362c7eeb2fd408			False								0.13333333333333333	0.4666666666666667	
+dbd8169703104efa2c3db6e44621b1f4	PETase		False	298.0	47364.0							1.0	
+dc5dd734243364ddccd93e1b26564895	PETase		False	305.0	47364.0								False
+dc649e7522d8aa47eb2c59bcdc82391e	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.8571428571428572		
+dc73e99394320efe0a8b2a92bf1cd494	PETase		False	314.0	47364.0								False
+dc8b542de4c98df6b97e15f3b7e9182c			False								0.06666666666666667	0.6	
+dc9fe5ac5b424f225106c1a20960ad62	Abhydrolase_3		False	319.0	5078.0	4.0			Soil and plant				
+dcf211b2d85effe3cb6987d72e2abd5e	Amidase	Amidase	True	461.0	4786.0	6.18	5.6	21.3	Other environmental				
+dcfa96712e48585bfc4a8cf9f2a455c3	Tannase		False	560.0									
+dd36282317161611631c4e55ab750255	Cu-oxidase_2	Cu-oxidase_3	True	620.0	34493.0				Soil and plant				
+dd488653e02984a61a8425c79c1c2766	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.4		
+dd7d4bc61a6db7af300cf5bc86d129d0	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.3888888888888889		
+dd869e7af2dd6b84e57847ad0ff341f4	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.09090909090909091	
+dde4c840fcd533c60d0664bf52b01d82	Abhydrolase_3		False	310.0	7020.0	11.0		3.07	Soil and plant				
+de46f97302c4d7bcdef18ae17cf604b7	PETase		False	291.0	47364.0								False
+de58930843f53b731bc34d03f729488d	PETase		False	304.0	47364.0								False
+de76b77c2d604b5585f20e65978ffd94	HD_4	RelA_SpoT	True	393.0									
+de7fd3cae353ad8fabd922f83140376c	Abhydrolase_3		False	322.0	62259.0	0.8	6.944		Engineered				
+de8fc18a0f99edb4719bbe88f8666897	PAF-AH_p_II	Peptidase_S9	True	468.0	32067.0	54.5	7.7		Other environmental		0.4772727272727273	0.6136363636363636	
+dea4da8f4f93db0b2277eac7ec3e5196	Peptidase_S58		False	285.0	63803.0	2.3	6.84	0.9	Soil and plant				
+deabe6b7417548481c3d68854fbe0435	Hydrolase_4		False	255.0	18470.0								
+debd1e4f3230f7b483be2c3a45b7ba29	Trypsin_2	PDZ_2;PDZ_6;PDZ_Tricorn	True	424.0									
+df38ea060b5dad0dfc9a593e4dce333c	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant	43.475	0.6661821294174235	0.39307081807081806	True
+df816b02ff36c97e37dad7e9045468df	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.5277777777777778	
+df89f07fbc19f6fa23e5d7740633d51b	ADH_Fe_C	Fe-ADH;Fe-ADH_2	True	386.0									
+dfa774a83aa69f004016b46d810775bb	DUF6915		False	142.0									
+e09db313f85dd41a3bed131fad97bb61	PETase		False	308.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+e0b91bc8063c1c7e94e918fcfd8cf2bc	Cutinase		False	194.0	673.0	22.0	5.0	35.325105	Soil and plant		1.0		
+e0db2a4f62c16fd0850cb05f28dbe103	PETase		False	310.0	47364.0								
+e0db603ff57f5b4acee75b507e6e2ff2	COesterase		False	498.0	26651.0		7.5						
+e19e411084db579822f08fe020e4a49b	PETase		False	297.0	182.0	25.0	8.3	30.0	Soil and plant				
+e1a1ea6ee428462b281b661258d4bb19	PETase		False	288.0	55846.0	13.2787865	7.7	34.854	Aquatic				
+e1cc94703cf740cbe9982028db87ad4b	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.5	
+e1f0aa9ae22fcbb21bc5f5d4956c758c	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant				
+e1f58f62a97b0d949521be9fbfffbca5	PETase		False	298.0	47364.0							0.5454545454545454	
+e21524292544ad8afebd98bb1f9d39ec	Hydrolase_4		False	523.0	16613.0						0.4772727272727273	0.22727272727272727	
+e287e3ec68c0a90725e36c4c6f3ffa82	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.8103448275862069		
+e28cdf2c79a79a1f2f1cc834a36faea8	PETase		False	267.0	182.0	25.0	8.3	30.0	Soil and plant		0.875		
+e29e9e79707b987f421a7f9c903d73e8	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant				
+e2c166a771cb8188b6ed3c3cf0e18d53	Amidase		False	493.0	29071.0	2.0	6.71	18.4	Soil and plant				
+e2c717dffc036212eae7f647f1a205f2	PETase		False	330.0	182.0	25.0	8.3	30.0	Soil and plant				
+e344b7197b767f4c2e55fbe3bf873a43	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.896551724137931		
+e34697571a20eae3e90d46038640c5ff	Lipase_3		False	363.0									
+e3d1c09b6f481ca170e74bdfb8033aa2	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant	48.0	0.6987179487179487	0.6153846153846154	
+e3d73a5a68e7ee4c6f40f2d1ae97c40c	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+e3e05b94ddc6f7125ca8434840f1c932	PETase		False	265.0	182.0	25.0	8.3	30.0	Soil and plant				
+e421cc0e0c15f3e162bc8e6a52d9e176	Abhydrolase_3		False	310.0	21187.0	11.98333335	7.6	5.15	Soil and plant				
+e49911a7e5738e9056e9fb9c5a9aa7ae	COesterase		False	548.0	26651.0		7.5						
+e4a4d7f127efee470a7c7d87a518927f	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.6551724137931034		
+e52bfd066055e6f7ff6941a498134428	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+e5571e8fd143e90bd5db0ca52ce67226	PETase		False	284.0	182.0	25.0	8.3	30.0	Soil and plant				
+e56db99e4a0ff79df4c68a9972670396	PETase		False	285.0	25944.0								
+e5e29549c18d9ed81537fe6850d4ccb7			False								0.6	1.0	
+e5f5ea2196ea229cbf148e338e922858	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant				
+e636b0604777b4861aaea8cfa2e7d302	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	29.3	0.8888888888888888		
+e64f4fcdc539132611ac2fb56ee33423	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.11764705882352941		
+e65e54bed8b506d0ddf1f5164bf29425	PETase		False	262.0	182.0	25.0	8.3	30.0	Soil and plant		0.5		True
+e66ff339da44921aeed420341d84e96d	PETase		False	299.0	5885.0	25.0	8.3	30.0	Soil and plant				
+e6c058ef0cee13313066e267bc3baee0	Peptidase_S58		False	355.0	1118.0	28.075	9.51	34.671	Soil and plant				
+e6c1800b97f5f0184a1dd73540deb95a	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.875		
+e6cfd2897ec399a6f1d3ec1c6a98cdb7	PETase	Por_Secre_tail	True	366.0	20172.0								
+e722ebe3249bf672a71c7782f03dbd4d	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant		1.0		
+e777db0d982844366baf7e15a390018f	PETase		False	267.0	182.0	25.0	8.3	30.0	Soil and plant				
+e7a5fce75afe90c2f48de9734ecdb762	Tannase		False	583.0									
+e7e6d2e683b4a6c527b4aec0af51f546	PETase		False	285.0	11810.0	54.0	7.3		Other environmental				False
+e8116d78ffbe25cc7f57874e8c9ff39f	PETase		False	289.0	182.0	25.0	8.3	30.0	Soil and plant				False
+e812f16ff1065e49d60953ee06d0050b	Lig_chan-Glu_bd		False	264.0									
+e81d05ec3908d884c8582399e79e7cfc	PETase		False	309.0	182.0	25.0	8.3	30.0	Soil and plant				
+e8333557237251b84d3fc3f941712ffb	Lipase_GDSL_2		False	208.0	43.0	37.0	7.9	40.0	Human			0.6666666666666666	
+e84d3fdaa0489bf11a1c16bbca268128	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.725		
+e84ed7005876c47e9fe66ee3c8e47b17	CBM_1	Peptidase_S9	True	454.0									
+e8662e9ca3dc751c974c25c78b5aabf1	Cu-oxidase_3	Cu-oxidase;Cu-oxidase_2	True	481.0	6.0	4.0			Engineered				
+e887c44a649eb65fda6f66e41d2d319a	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.6470588235294118		
+e8913106e4bb0c9316c0e48ede4b3c83	Cutinase		False	216.0	59301.0	7.9	5.54						
+e899dbbe1d57220ef049e5f0203f69b9	Polysacc_deac_1		False	293.0									
+e8caacddeb796f92e5a223deb7e37ee0	GST_N	GST_C;GST_C_3	True	252.0									
+e95700643654fe8e56043163af7f60ad	PETase		False	300.0	182.0	25.0	8.3	30.0	Soil and plant	321.8			
+e96300cc46aa20aa07c365f73467444e	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant		0.9411764705882353		
+ea088c79b2e3dd8727b66d2bef104e9e	PETase		False	450.0	47364.0								False
+ea7b887ecd18d486317c124b2bae2c7e	PETase		False	272.0	52569.0	87.0							False
+eac2ced117defb3df45b80086cb643ad			False										
+eaea73ed1586531b0f860ec8e714f64e	Esterase_PHB		False	494.0	29697.0								
+eb2f3ea7566f41b9a1164b0077308669	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human		0.5		
+eb4f7601438827247366c9fc3a91265f	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.07142857142857142		
+eb50e03a64e8c27f134bebd53f2acb1e	Cutinase		False	472.0									
+ebe224480ec04e0b7013d0a785155344	PETase		False	235.0							0.4772727272727273	0.22727272727272727	
+ebe338d36c8190e4df6f724dde2202c8	PETase		False	412.0	182.0	25.0	8.3	30.0	Soil and plant				
+ebe61856f86db52c86c275d08ffeb1c0	Lip_C		False	461.0	70.0	22.0			Engineered				
+ec0a9fa114d750b70012df13c7831bb0	PETase		False	296.0	47364.0								False
+ec1108b84e036f58c2b72e2c1fcd594e	PETase		False	286.0	182.0	25.0	8.3	30.0	Soil and plant				
+ec18d29060d96aff109ddf1ea679b0d0	COesterase	AChE_tetra	True	614.0	40953.0							0.5	
+ed8bb30d2f9e3733f35a4689052902be	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant				
+ed9a2e9775c4e00425afcb02cfca290d	PETase		False	272.0	182.0	25.0	8.3	30.0	Soil and plant				False
+ee0092b4288da1c69a59e16f2b702cdf	PETase		False	308.0	47364.0								
+ee1eb3adb10dca033d521891129e8b16	Beta-lactamase		False	392.0	13472.0	17.93	7.435	34.616	Soil and plant				
+eec6a2c57eec899874b9205c10026b17	Fer2	DmmA-like_N;p450	True	730.0									
+eee8a2a226fb53ffc913f8e4c704c7a9	PETase		False	295.0	52569.0	87.0							False
+ef07ff4575ec0aed1aa0a43ac4b8aa7b	PETase		False	272.0	11810.0	54.0	7.3		Other environmental				
+ef08656ab980fbd8c17fe79b6060a681	PETase		False	311.0	182.0	25.0	8.3	30.0	Soil and plant				
+ef1c775b82ddd809323b933f925a0d63	COesterase	AChE_tetra	True	614.0	40953.0							0.4083333333333333	
+ef2221a4baa8c9bc87562b264c8d3347	PETase		False	262.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+ef2864010dc3fae1ae7837549a46ebd3	PETase		False	318.0	182.0	25.0	8.3	30.0	Soil and plant				
+ef5ffdb26f26a97f930d7a6569288c3d	Hydrolase_4		False	238.0									
+efd321a36640b7905b3deb4aacfda431	Abhydrolase_3		False	341.0	7124.0	27.6449585	7.32	35.032971	Soil and plant				
+efd91d2221927a26cf6baff1cc35ff83	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.21428571428571427		
+efe33de60fac7efa71c3b1b2998f91bb	Abhydrolase_1		False	297.0	42367.0								
+f00445f8b289d0164aff442192f24187	PETase		False	292.0	182.0	25.0	8.3	30.0	Soil and plant		0.3333333333333333		
+f091293ff83d92fa910cae699454f846	Cutinase		False	322.0	58202.0								
+f0c7dd480618fe5d7346e71180cd108d	PETase	RicinB_lectin_2;Ricin_B_lectin	True	432.0	12324.0	12.9	8.4		Soil and plant				
+f0d62a9d29d77fbb531100d3a885810d	PETase		False	270.0	182.0	25.0	8.3	30.0	Soil and plant		1.0		
+f0e9f5f9b6a6badc266f2897ef277d29	PETase		False	457.0	182.0	25.0	8.3	30.0	Soil and plant				True
+f0ef5b5426c1171b0f229df593d4d810	COesterase		False	549.0	48249.0								
+f14b03ac04afcb1102647f3d6e483a83	Abhydrolase_1		False	289.0	702.0	23.99	8.99	35.59348	Engineered				
+f1642e98722cdd7159ca62e0346d8dff	PETase		False	316.0	182.0	25.0	8.3	30.0	Soil and plant				
+f1dc6458fc04fa79d2932f41afe1ad11	Peptidase_S58		False	355.0	1118.0	28.075	9.51	34.671	Soil and plant				
+f1ef153fe8405183ffe455159fe45e36	PETase		False	217.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+f21de0ea2dcb603946ac9638d3076b59	Lip_C		False	452.0	70.0	22.0			Engineered				
+f23b482ecddae2d8f9768533f9f51ea8	Cu-oxidase_3	Cu-oxidase;Cu-oxidase_2;Cu-oxidase_3	True	644.0	30529.0	16.468788	7.53	35.539507	Aquatic				
+f2527aa50f1b72853b5d919d1d802544	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+f2f3a55e1cb686c3b03b21c0742e5cde	PETase		False	267.0	182.0	25.0	8.3	30.0	Soil and plant		0.9722222222222222		
+f2fa5e6768e29aa4ae816c7c1b04ee5b	Anemone_cytotox		False	179.0									
+f31be35df24c4c599ba3883fce083fd2	COesterase		False	549.0	21097.0								
+f31ffc8d6a4a6e797d71e2edd4a2542a	ADH_Fe_C	Aldedh;Fe-ADH;Fe-ADH_2	True	867.0									
+f353d5f2b2f6fa41463b97ce2e8a7824	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant				
+f35ea71c1aebad54aaa3eead6403a07e	FrsA-like		False	415.0									
+f382d762cf0b0bafd3934f5417accc62	PETase		False	268.0	55846.0	13.2787865	7.7	34.854	Aquatic				
+f3e48958d1ecea131109afc633ec76f3	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.4166666666666667		
+f40a1ac70b777b692932448639065ec2	PETase		False	298.0	182.0	25.0	8.3	30.0	Soil and plant				
+f4443e24103b16ed7233d166e12a4e0a	Abhydrolase_1		False	305.0	2229.0	9.3245	5.75	34.914192	Aquatic			0.5454545454545454	
+f4477d34f9210c288ddb10d4747a819b	PETase		False	293.0	182.0	25.0	8.3	30.0	Soil and plant	82.0	0.3076923076923077	0.9230769230769231	
+f4a0627a15e235574bef91e166b86a26	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				
+f58f123feabfc5503338255059865468	PETase		False	319.0	182.0	25.0	8.3	30.0	Soil and plant				False
+f5ac2c525370f659e6c1b4fc71e16ce1	PETase		False	257.0	182.0	25.0	8.3	30.0	Soil and plant		0.4375		
+f5e0736a42e5e83853328ac6f15aed36	PETase		False	299.0	182.0	25.0	8.3	30.0	Soil and plant				False
+f61318070ee7c79e1e2dacdc0e5b6e58	PETase		False	272.0	182.0	25.0	8.3	30.0	Soil and plant				
+f614e04e4a647a5d7648136b178c3408	Peptidase_S8	Inhibitor_I9	True	538.0	5815.0	25.0	8.0	35.986042	Soil and plant				
+f6488243e9cd5b2df843b1c5f6b5ec3d	PETase		False	259.0	11810.0	54.0	7.3		Other environmental				False
+f6764e6a28776c205d12561dd00ee389	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		1.0		
+f6895ceb3474b773a6ffa89e02a9ce74	PETase		False	301.0	182.0	25.0	8.3	30.0	Soil and plant				True
+f69547624900b95ea8809b9ce950e9b0	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant	40.4	0.1826923076923077	0.07692307692307693	
+f695fbbbd880aaf0b17227ba877c5065	PETase		False	457.0	47364.0								False
+f699515a842c55160076ff94ed387ad3	MPAB_Lcp_cat		False	408.0	8501.0				Engineered				
+f718679a7fc98dc688903392e0c9dac6	PETase		False	290.0	11810.0	54.0	7.3		Other environmental				
+f722d063842a1107a3f3aead58d29fc3	Esterase_PHB		False	275.0	39971.0				Engineered				
+f725e7783e3aaa0cf9ed9e43de5677a6	PETase		False	315.0	182.0	25.0	8.3	30.0	Soil and plant				
+f768e32a79d0b17b006886911c31b36d	COesterase	COesterase	True	462.0	16361.0	7.6502		34.57915	Human				
+f7e864f6573eccaba6017448237af700	Cutinase		False	213.0	1641.0	23.333333333333332		35.845669	Other environmental		0.8		
+f808c1686a9659e920b82c93add13778	Hydrolase_4		False	352.0	2640.0	25.0		38.7	Human		0.75		
+f8431705c5802dbec7a0a652304162df	PETase		False	328.0	47364.0								False
+f854636fca4bcde45465b5d6b6609403	Patatin		False	294.0									
+f8671686c15e5131d7b3cd7a3569c139	PETase		False	304.0	182.0	25.0	8.3	30.0	Soil and plant	28.95	0.7777777777777778		
+f8af88f33313a6f453a9b1dc3850dc8c	Amidase		False	493.0	29071.0	2.0	6.71	18.4	Soil and plant				
+f8c7a6ab9fcc2b569865c8b35e27bdbd	PETase		False	261.0	182.0	25.0	8.3	30.0	Soil and plant				
+f9432744b0fed8eafc1e52317f17bbc1	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.4444444444444444		
+f973f16d4086c8c6c5f102c6f0ed1806	PETase		False	263.0	182.0	25.0	8.3	30.0	Soil and plant				
+f9769e2bea17e0dbe78d263008fdfd29	PETase		False	271.0	182.0	25.0	8.3	30.0	Soil and plant		0.19444444444444445		
+f98ce80207db5fdb349fbe6ea3411be1	PETase		False	311.0	182.0	25.0	8.3	30.0	Soil and plant				
+f9a509d73997ac8f3bbe3567ff9b677f	PETase		False	289.0	182.0	25.0	8.3	30.0	Soil and plant				False
+fa93442e593fee0114b39f359f683e10	COesterase	AChE_tetra	True	614.0	40953.0							0.03333333333333333	
+fabc6bd383b369c9f98feeba702f2598	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant	48.5	0.858974358974359	0.3076923076923077	
+faf83550cc36cba3b9301914d1427717	Abhydrolase_1		False	311.0	1921.0	23.45	7.285		Human				
+fbb094dd3b7ab0d0ae269239dad611d5	PETase		False	254.0	182.0	25.0	8.3	30.0	Soil and plant				
+fc2ce4409d207480e3b08bca9143333a	PAF-AH_p_II	PETase	True	377.0							0.4772727272727273	0.5	
+fc325e41f13422a4bf92e0ab7000ef56	Lipase_2		False	335.0	16360.0	12.9	8.3		Soil and plant				
+fc4994d2c13735a89c027808fcb30915	PETase		False	259.0	182.0	25.0	8.3	30.0	Soil and plant		0.7586206896551724		
+fc5d2a25775df6af48d23fde3a939bc3	PETase		False	298.0	47364.0								
+fc8d4b3cace013d4fd8fbf3286660df1	Peptidase_S8	Inhibitor_I9	True	410.0	245.0	28.0	6.2		Soil and plant				
+fcafc8f695c58e71718b19c1a7c315ba	PETase		False	258.0	55846.0	13.2787865	7.7	34.854	Aquatic				
+fccb85e50e0fef0361835f029d74df18	PETase		False	276.0	182.0	25.0	8.3	30.0	Soil and plant		0.6923076923076923		
+fcff8f821efb4bf77ce26511eb9c95c3	Abhydrolase_2		False	285.0	426.0	23.3	8.01	35.8981	Aquatic				
+fd03b203b22c743dccbf8b0d95172e37	COesterase		False	482.0	40953.0								
+fd442c66def953cd63ed446ddd458aeb	Tannase		False	650.0								0.7857142857142857	
+fd5ba09e9a33dcfad17dba920bedfa3a	Tannase		False	592.0	38391.0				Engineered			0.7142857142857143	
+fdd020d387dc32e7f9715770be7a21e5	PETase		False	289.0	55846.0	13.2787865	7.7	34.854	Aquatic		0.4107142857142857		
+fe0739cd12d95ca737e594fe187ece7d	Hydrolase_4	E3_binding	True	388.0	10224.0	16.99	7.905	34.893	Soil and plant				
+fe08eef9c8f87d7d57af2914ff906b14	PETase		False	316.0	47364.0								False
+fe1766a388c03c1e83be5dd8c749ba4b	COesterase	COesterase	True	508.0	40953.0								
+fe354046ad936ac3305fe124cc0c4bcc	PETase		False	309.0	182.0	25.0	8.3	30.0	Soil and plant		0.8888888888888888		
+fe626bf2ef347b4332f108d770c4b00f	PETase		False	413.0	5885.0	25.0	8.3	30.0	Soil and plant				False
+fe7cff2a6eaf448091cc39e7f0f548ea	PETase		False	312.0	182.0	25.0	8.3	30.0	Soil and plant	45.2	0.30952380952380953	0.30952380952380953	
+fe9f215e0d1791af2a41e71e6c5cf399	Abhydrolase_3		False	310.0	21187.0	11.98333335	7.6	5.15	Soil and plant				
+fec6688265d74a163d4e1c5dcf9f4f4f	Peptidase_S8		False	279.0	5815.0	25.0	8.0	35.986042	Soil and plant				
+ff03603ad12f86301c83ff881e2ae872	Amidase	Amidase	True	444.0	4786.0	6.18	5.6	21.3	Other environmental				
+ff1a6744252a291b0289acf4d1c9c5a6			False										
+ff5175fbc34c75e23efec1167fcc5610	PETase		False	310.0	182.0	25.0	8.3	30.0	Soil and plant				
+ff5c0c13e2e13008db48a90c1c70ab3a	PETase		False	290.0	182.0	25.0	8.3	30.0	Soil and plant			0.21428571428571427	
+ffd319804c802e7a3a4a90f8b4eec5fc	COesterase	AChE_tetra	True	614.0	26651.0		7.5					0.2222222222222222	

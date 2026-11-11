@@ -1,0 +1,17 @@
+slice	fold_(catalytic_domain)	cath	cath_class	fill	components	sequences	records	pet	pe	pa	pur	pla	pbat	pbs	pha	pc	nr	combi.	bacterial	eukaryotic	metagenomic	with_pdb_structure	curated_seeds	accessory_domains_(records)	homology_check	weakest_tm_link	backbone_branches_kept
+g00	Alpha/beta hydrolase	3.40.50.1820	Alpha beta	#f3ead6	36	377	466	291			11	18	7	2	17	2	1	28	326	21	30	51	Cut190, HiC, ISPETase, Kubu-P, LCC, Mipa-P, PhaZ1, PueA, TfCut_2	2.80.10.50 Trefoil (Acidic Fibroblast Growth Factor, subunit A) (55); 2.60.40.290 Immunoglobulin-like (20); 2.60.40.10 Immunoglobulins (7); 2.150.10.10 Serralysin-like metalloprotease, C-terminal (7); 2.60.120.260 Galactose-binding domain-like (6); 4.10.320.10 E3-binding domain (2); 2.60.60.20 PLAT/LH2 domain (1)	confirmed by structure	0.6	3 of 33
+g01	L-amino peptidase D-ALA esterase/amidase	3.60.70.12	Alpha beta	#f5dde2	1	48	53			48									46	2		3	NylC	3.30.365.10 Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding domain (3); 3.30.2330.10 Arginine biosynthesis bifunctional protein suprefamily (1)	single component, nothing to check		
+g02	Amidase signature (AS) domain	3.90.1300.10	Alpha beta	#e4dff3	1	24	35			10	11							3	15	2	7	2	NylA	1.10.20.60 Glu-tRNAGln amidotransferase C subunit, N-terminal domain (1)	single component, nothing to check		
+g03	Oxygenase MpaB family protein	none		#dcedd6	1	11	15										11		8		3	2			single component, nothing to check		
+g04	Peptidase S8/S53 domain	3.40.50.200	Alpha beta	#d8e6f5	1	8	12					8							7	1		5		3.30.70.80 Peptidase S8 propeptide/proteinase inhibitor I9 (8)	single component, nothing to check		
+g05	Trypsin-like serine proteases	2.40.10.10	Mainly beta	#fbe2cf	2	6	6	1				5							5	1			PLAase I	3.30.300.50 GMP Synthetase; Chain A, domain 3 (1)	confirmed by structure	0.75	
+g06	DD-peptidase/beta-lactamase superfamily	3.40.710.10	Alpha beta	#d3ece8	4	5	6	1		2		2							3		2	2	NylB	1.20.58.710 Methane Monooxygenase Hydroxylase; Chain G, domain 1 (3); 6.10.250.420 Single alpha-helices involved in coiled-coils or other helix-helix interfaces (2); 2.40.128.50 Lipocalin (1)	confirmed by structure	0.73	1 of 1
+g07	Cytochrome c-like domain	1.10.760.10	Mainly alpha	#f4efc2	1	3	5										3		3			1			single component, nothing to check		
+g08	Cupredoxins - blue copper proteins	2.60.40.420	Mainly beta	#eddcee	2	2	2		2										2						confirmed by structure	0.67	
+g09	SGNH hydrolase	3.40.50.1110	Alpha beta	#e2e8cc	1	2	2	1										1	2			1			single component, nothing to check		
+g10	Peroxidase, domain 2	1.10.420.10; 1.10.520.10	Mainly alpha	#e9e9e6	1	1	1			1											1				single component, nothing to check		
+g11	Cytochrome P450	1.10.630.10	Mainly alpha	#e9e9e6	1	1	1	1												1					single component, nothing to check		
+g12	Acid Proteases	2.40.70.10	Mainly beta	#e9e9e6	1	1	1											1		1					single component, nothing to check		
+g13	Glycoside hydrolase/deacetylase	3.20.20.370	Alpha beta	#e9e9e6	1	1	2				1								1						single component, nothing to check		
+g14	Purple Acid Phosphatase	3.60.21.10	Alpha beta	#e9e9e6	1	1	1									1			1						single component, nothing to check		
+g15	DD-peptidase/beta-lactamase superfamily (unconfirmed)	3.40.710.10	Alpha beta	#e9e9e6	1	1	1			1									1					2.60.120.260 Galactose-binding domain-like (1)	not confirmed, stands alone		

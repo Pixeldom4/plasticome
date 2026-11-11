@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="200mm"
+   viewBox="0 0 210 200"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="1a.plastics-production.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4823793"
+     inkscape:cx="591.95374"
+     inkscape:cy="400.36985"
+     inkscape:window-width="2706"
+     inkscape:window-height="1589"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff"
+     showgrid="false"
+     showguides="true" />
+  <defs
+     id="defs1">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5806">
+      <stop
+         style="stop-color:#f2b3b4;stop-opacity:0.40000001;"
+         offset="0"
+         id="stop5802" />
+      <stop
+         style="stop-color:#7db3e8;stop-opacity:0.2;"
+         offset="1"
+         id="stop5804" />
+    </linearGradient>
+    <rect
+       x="572.18226"
+       y="179.87347"
+       width="64.067203"
+       height="19.302519"
+       id="rect2306" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5806"
+       id="linearGradient5808"
+       x1="151.07313"
+       y1="49.943999"
+       x2="157.16109"
+       y2="49.943999"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5226082,0,0,1.0192684,-79.069346,-1.4049834)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5806"
+       id="linearGradient10109"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5226082,0,0,1.0192684,-8.3788518,-41.06794)"
+       x1="151.07313"
+       y1="49.943999"
+       x2="157.16109"
+       y2="49.943999" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7px;font-family:'Ubuntu Sans Mono';-inkscape-font-specification:'Ubuntu Sans Mono';text-align:start;text-anchor:start;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:3.53537;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="11.9055"
+       y="27.290001"
+       id="text545283-1"><tspan
+         sodipodi:role="line"
+         id="tspan545281-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;fill-opacity:1;stroke-width:3.53537"
+         x="11.9055"
+         y="27.290001">A.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:7px;font-family:'Ubuntu Sans Mono';-inkscape-font-specification:'Ubuntu Sans Mono Bold';text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="21.105499"
+       y="27.290001"
+       id="panel-title-1a"><tspan
+         sodipodi:role="line"
+         id="panel-title-1a-span"
+         x="21.105499"
+         y="27.290001"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'">Carbon in biomass and plastics</tspan></text>
+    <rect
+       x="11.992119"
+       y="31.709593"
+       width="103.07135"
+       height="127.54868"
+       rx="1.1348345"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#7de8a1;fill-opacity:1;stroke:none;stroke-width:0.657031;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-8" />
+    <rect
+       x="115.69098"
+       y="-159.25923"
+       width="22.04409"
+       height="93.814919"
+       rx="1.1496267"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#c59bed;fill-opacity:1;stroke:none;stroke-width:0.658113;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2-30"
+       transform="scale(1,-1)" />
+    <g
+       id="g83-1"
+       transform="matrix(0.28645045,0,0,0.28987562,73.194324,53.608246)"
+       style="fill:#2a2133;fill-opacity:1;stroke:#bababa;stroke-width:2.3137;stroke-opacity:1">
+      <text
+         x="-188.9446"
+         y="209.70428"
+         text-anchor="middle"
+         font-size="22"
+         style="color:#0b0b0b;font-weight:500;font-size:24.485px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#2a2133;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="text6-9-9"
+         transform="rotate(-90)"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.485px;font-family:Arial;-inkscape-font-specification:Arial;fill:#2a2133;fill-opacity:1"
+           id="tspan82-0-6">70 Gt</tspan></text>
+      <g
+         style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#2a2133;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+         id="g7-2">
+        <text
+           x="-189.30815"
+           y="186.99152"
+           text-anchor="middle"
+           font-size="22"
+           style="color:#0b0b0b;font-weight:500;font-size:29.382px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#2a2133;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+           id="text6-1"
+           transform="rotate(-90)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.382px;font-family:Arial;-inkscape-font-specification:Arial;fill:#2a2133;fill-opacity:1"
+             id="tspan82-2">Bacteria</tspan></text>
+      </g>
+    </g>
+    <rect
+       x="115.70213"
+       y="31.711521"
+       width="22.046408"
+       height="14.87629"
+       rx="1.1497474"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#f0c5a6;fill-opacity:1;stroke:none;stroke-width:0.658788;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3-1" />
+    <g
+       id="g84"
+       transform="matrix(0.28645045,0,0,0.28987562,7.4498981,-67.600466)"
+       style="fill:#332a23;fill-opacity:1;stroke:#bababa;stroke-width:2.3137;stroke-opacity:1">
+      <text
+         x="415.96484"
+         y="380.78726"
+         text-anchor="middle"
+         font-size="22"
+         style="color:#0b0b0b;font-weight:500;font-size:12.24251431px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#332a23;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="text6-9-3"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#332a23;fill-opacity:1;font-size:12.24251431px"
+           id="tspan82-0-1">12 Gt</tspan></text>
+      <g
+         style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#332a23;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="g7-1"
+         transform="translate(224.67474,181.13118)">
+        <text
+           x="191.60001"
+           y="184.21481"
+           text-anchor="middle"
+           font-size="22"
+           style="color:#0b0b0b;font-weight:500;font-size:17.3135px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#332a23;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+           id="text6-90"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3135px;font-family:Arial;-inkscape-font-specification:Arial;fill:#332a23;fill-opacity:1"
+             id="tspan82-5">Fungi</tspan></text>
+      </g>
+    </g>
+    <rect
+       x="115.71269"
+       y="47.230656"
+       width="11.148151"
+       height="17.512814"
+       rx="1.0797241"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#ecde97;fill-opacity:1;stroke:none;stroke-width:0.658417;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4-7" />
+    <rect
+       x="127.52148"
+       y="-64.74337"
+       width="10.209376"
+       height="11.121247"
+       rx="1.1536016"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#7cd9de;fill-opacity:1;stroke:none;stroke-width:0.657031;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5-8"
+       transform="scale(1,-1)" />
+    <rect
+       x="140.7014"
+       y="-52.911861"
+       width="10.252066"
+       height="5.6739998"
+       rx="1.1584255"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#f2b3b4;fill-opacity:1;stroke:none;stroke-width:0.657031;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6-9"
+       transform="scale(1,-1)" />
+    <rect
+       x="127.52148"
+       y="-52.904655"
+       width="10.252066"
+       height="5.6739998"
+       rx="1.1584255"
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:none;fill-opacity:1;stroke:#f2e6e6;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6-9-1"
+       transform="scale(1,-1)" />
+    <g
+       id="g83"
+       transform="matrix(0.28645045,0,0,0.28987562,8.4355642,40.673491)"
+       style="fill:#000000;fill-opacity:1;stroke:#bababa;stroke-width:2.3137;stroke-opacity:1">
+      <text
+         x="191.96356"
+         y="220.43222"
+         text-anchor="middle"
+         font-size="22"
+         style="color:#0b0b0b;font-weight:500;font-size:24.485px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#1b3323;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="text6-9"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.485px;font-family:Arial;-inkscape-font-specification:Arial;fill:#1b3323;fill-opacity:1"
+           id="tspan82-0">450 Gt</tspan></text>
+      <g
+         style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#1b3323;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+         id="g7">
+        <text
+           x="191.60001"
+           y="184.21481"
+           text-anchor="middle"
+           font-size="22"
+           style="color:#0b0b0b;font-weight:500;font-size:29.382px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#1b3323;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+           id="text6"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.382px;font-family:Arial;-inkscape-font-specification:Arial;fill:#1b3323;fill-opacity:1"
+             id="tspan82">Plants</tspan></text>
+      </g>
+    </g>
+    <text
+       x="121.91425"
+       y="56.923145"
+       text-anchor="middle"
+       font-size="22"
+       style="color:#0b0b0b;font-weight:500;font-size:3.52777776px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#c19622;fill-opacity:1;stroke:none;stroke-width:0.288159px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6-9-3-4"
+       transform="scale(0.99407443,1.0059609)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;fill:#c19622;fill-opacity:1;stroke-width:0.288159px;font-size:3.52777776px"
+         id="tspan82-0-1-0">7 Gt</tspan></text>
+    <g
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#c19622;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="g7-1-6"
+       transform="matrix(0.28645043,0,0,0.28987559,48.181053,3.6402184)">
+      <text
+         x="191.60001"
+         y="184.21481"
+         text-anchor="middle"
+         font-size="22"
+         style="color:#0b0b0b;font-weight:500;font-size:17.3135px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#c19622;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+         id="text6-90-4"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3135px;font-family:Arial;-inkscape-font-specification:Arial;fill:#c19622;fill-opacity:1"
+           id="tspan82-5-7">Archaea</tspan></text>
+    </g>
+    <text
+       x="133.38689"
+       y="59.993011"
+       text-anchor="middle"
+       font-size="22"
+       style="color:#0b0b0b;font-weight:500;font-size:3.52778px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#299ba1;fill-opacity:1;stroke:none;stroke-width:0.288159px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6-9-3-4-5"
+       transform="scale(0.99407443,1.0059609)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Arial;-inkscape-font-specification:Arial;fill:#299ba1;fill-opacity:1;stroke-width:0.288159px"
+         id="tspan82-0-1-0-8">4 Gt</tspan></text>
+    <g
+       style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#299ba1;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="g7-1-6-2"
+       transform="matrix(0.28645043,0,0,0.28987559,49.328897,10.180887)">
+      <text
+         x="191.60001"
+         y="185.00864"
+         text-anchor="middle"
+         font-size="22"
+         style="color:#0b0b0b;font-weight:500;font-size:17.3135px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;opacity:1;fill:#299ba1;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+         id="text6-90-4-6"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.3135px;font-family:Arial;-inkscape-font-specification:Arial;fill:#299ba1;fill-opacity:1"
+           id="tspan82-5-7-0">Protists</tspan></text>
+    </g>
+    <text
+       x="146.59521"
+       y="50.992535"
+       text-anchor="middle"
+       font-size="22"
+       style="color:#0b0b0b;font-weight:500;font-size:3.52778px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#dd3c3c;fill-opacity:1;stroke:none;stroke-width:0.288159px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6-9-3-4-5-4"
+       transform="scale(0.99407443,1.0059609)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Arial;-inkscape-font-specification:Arial;fill:#dd3c3c;fill-opacity:1;stroke-width:0.288159px"
+         id="tspan82-0-1-0-8-6">2 Gt</tspan></text>
+    <text
+       x="146.85304"
+       y="43.51503"
+       text-anchor="middle"
+       font-size="22"
+       style="color:#0b0b0b;font-weight:500;font-size:4.93889px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:middle;fill:#dd3c3c;fill-opacity:1;stroke:none;stroke-width:0.288158px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="text6-90-4-6-8"
+       transform="scale(0.99407443,1.0059609)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Arial;-inkscape-font-specification:Arial;fill:#dd3c3c;fill-opacity:1;stroke-width:0.288158px"
+         id="tspan82-5-7-0-9">Animal</tspan></text>
+    <g
+       id="g88"
+       transform="matrix(0.03905653,-0.04710231,0.04654575,0.03952354,430.75709,356.1059)"
+       style="fill:#bababa;fill-opacity:1;stroke:#bababa;stroke-width:2.3137;stroke-opacity:1">
+      <rect
+         x="-4773.7021"
+         y="-4599.8945"
+         width="84.751312"
+         height="84.751312"
+         rx="9.5764189"
+         style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;fill:#676767;fill-opacity:1;stroke:none;stroke-width:10.7493;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         id="rect6-9-2"
+         transform="rotate(49.999999)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.6221px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#353535;stroke-width:9.25479;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="-4656.5317"
+         y="-4529.877"
+         id="text87"
+         transform="rotate(49.999999)"><tspan
+           sodipodi:role="line"
+           id="tspan87"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.6221px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:9.25479"
+           x="-4656.5317"
+           y="-4529.877">= 1 Gigatonne (Gt)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:81.6221px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:1;stroke:none;stroke-width:9.25479"
+           x="-4656.5317"
+           y="-4427.8491"
+           id="tspan7322">      of carbon</tspan></text>
+    </g>
+    <text
+       id="plastics-title"
+       xml:space="preserve"
+       x="172.35887"
+       y="36.791187"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:middle;fill:#1b5998;fill-opacity:1;stroke:none">Plastics 10.2 Gt</text>
+    <g
+       id="g6"
+       transform="translate(-3.7773805,-12.27553)">
+      <rect
+         id="plastics-remaining"
+         x="163.9198"
+         y="53.382229"
+         width="10.9751"
+         height="17.2342"
+         rx="0.80000001"
+         style="fill:#7db3e8;fill-opacity:1;stroke:none;stroke-width:0.658;stroke-linejoin:miter;stroke-opacity:1" />
+      <rect
+         id="plastics-recycled"
+         x="178.86479"
+         y="53.382229"
+         width="5.6591001"
+         height="6.7582002"
+         rx="0.80000001"
+         style="fill:#1b5998;fill-opacity:1;stroke:none;stroke-width:0.658;stroke-linejoin:miter;stroke-opacity:1" />
+      <rect
+         id="plastics-incinerated"
+         x="178.86479"
+         y="60.740429"
+         width="5.6591001"
+         height="9.8760004"
+         rx="0.80000001"
+         style="fill:#d2e3f5;fill-opacity:1;stroke:none;stroke-width:0.658;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         id="plastics-key-value-0"
+         xml:space="preserve"
+         x="164.78867"
+         y="63.47253"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:start;fill:#1b5998;fill-opacity:1;stroke:none">6.7 Gt</text>
+      <g
+         id="g2"
+         transform="translate(7.99599,-39.702395)">
+        <text
+           id="plastics-key-value-1"
+           xml:space="preserve"
+           x="177.78798"
+           y="95.420753"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:start;fill:#1b5998;fill-opacity:1;stroke:none"><tspan
+             sodipodi:role="line"
+             id="tspan6572"
+             x="177.78798"
+             y="95.420753"
+             style="font-size:3.52778px">1.4 Gt</tspan><tspan
+             sodipodi:role="line"
+             id="tspan6574"
+             x="177.78798"
+             y="99.830475"
+             style="font-size:3.52778px">Recycled</tspan></text>
+      </g>
+      <g
+         id="g1"
+         transform="translate(8.5498063,-44.281828)">
+        <text
+           id="plastics-key-value-2"
+           xml:space="preserve"
+           x="177.01648"
+           y="109.24177"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:start;fill:#1b5998;fill-opacity:1;stroke:none"><tspan
+             sodipodi:role="line"
+             id="tspan6568"
+             x="177.01648"
+             y="109.24177"
+             style="font-size:3.52778px">2.1 Gt</tspan><tspan
+             sodipodi:role="line"
+             id="tspan6570"
+             x="177.01648"
+             y="113.65149"
+             style="font-size:3.52778px">Incinerated</tspan></text>
+      </g>
+      <g
+         id="g1-0"
+         transform="translate(-19.804892,-29.495636)"
+         style="fill:#7db3e8;fill-opacity:1">
+        <text
+           id="plastics-key-value-2-8"
+           xml:space="preserve"
+           x="183.5098"
+           y="103.52715"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.4px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:start;fill:#7db3e8;fill-opacity:1;stroke:none">Surface</text>
+      </g>
+    </g>
+    <path
+       style="fill:#299ba1;fill-opacity:1;stroke:#299ba1;stroke-width:0.25;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 113.57679,62.581883 h 14.83966"
+       id="path4206"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#1b5998;stroke-width:0.185606;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+       d="M 160.31956,40.617617 V 39.67643 h 20.45217 v 1.013175"
+       id="path4206-5"
+       sodipodi:nodetypes="cc" />
+    <path
+       id="rect5776"
+       style="fill:url(#linearGradient5808);fill-opacity:1;stroke-width:0.356965;stroke-linecap:round;stroke-miterlimit:10"
+       d="m 150.95582,48.524044 c 3.99575,-1.337804 6.72785,-3.996868 9.26958,-6.854977 0,0.619819 0.0446,16.398068 0.0446,16.398068 -2.77333,-2.378459 -5.30689,-5.055581 -9.3142,-5.896997 z"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       id="plastics-remaining-6"
+       x="151.53793"
+       y="103.7586"
+       width="41.98418"
+       height="36.666817"
+       rx="3.0603225"
+       style="fill:#d2e3f5;fill-opacity:1;stroke:#1b5998;stroke-width:1.87718;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       id="plastics-title-3"
+       xml:space="preserve"
+       x="172.37622"
+       y="146.67484"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:middle;fill:#1b5998;fill-opacity:1;stroke:none"><tspan
+         sodipodi:role="line"
+         id="tspan6630"
+         x="172.37622"
+         y="146.67484">Projected Plastics</tspan><tspan
+         sodipodi:role="line"
+         id="tspan6632"
+         x="172.37622"
+         y="152.84845">2050</tspan></text>
+    <text
+       id="plastics-title-3-8"
+       xml:space="preserve"
+       x="172.85173"
+       y="123.43988"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:middle;fill:#1b5998;fill-opacity:1;stroke:none"><tspan
+         sodipodi:role="line"
+         id="tspan6632-6"
+         x="172.85173"
+         y="123.43988">XX Gt</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#1b5998;stroke-width:0.185606;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+       d="m 170.54565,39.620324 v -0.64008"
+       id="path4206-5-1"
+       sodipodi:nodetypes="cc" />
+    <text
+       id="plastics-key-value-0-9"
+       xml:space="preserve"
+       x="153.20714"
+       y="51.012115"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:start;fill:#808080;fill-opacity:1;stroke:none"><tspan
+         style="font-style:italic;font-size:2.82222px;fill:#808080;stroke:none"
+         id="tspan9975">2.6x</tspan></text>
+    <path
+       id="rect5776-8"
+       style="fill:url(#linearGradient10109);fill-opacity:1;stroke-width:0.356965;stroke-linecap:round;stroke-miterlimit:10"
+       d="m 221.64631,8.8610868 9.26958,-6.854977 c 0,0.619819 0.0446,16.3980682 0.0446,16.3980682 l -9.3142,-5.896997 z"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

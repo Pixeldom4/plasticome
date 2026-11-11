@@ -1,0 +1,359 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c01/ml.afa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 1
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 48 sequences with 263 amino-acid sites
+Number of constant sites: 16 (= 6.08365% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 16 (= 6.08365% of all sites)
+Number of parsimony informative sites: 237
+Number of distinct site patterns: 254
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: Q.PFAM+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+Q.PFAM+I+G4      -18754.400   37698.799 - 6.68e-06   37808.021 +    0.296   38038.154 +    0.642
+Q.PFAM+I+R5      -18735.483   37674.966 +        1   37806.291 +    0.704   38039.325 +    0.358
+LG+I+G4          -18773.263   37736.525 - 4.29e-14   37845.747 -  1.9e-09   38075.880 - 4.13e-09
+LG+I+R5          -18756.244   37716.487 - 9.63e-10   37847.812 - 6.78e-10   38080.847 - 3.44e-10
+LG+I+R6          -18755.295   37718.590 - 3.37e-10   37856.818 - 7.51e-12   38090.094 - 3.38e-12
+LG+I+R4          -18766.868   37733.736 - 1.73e-13   37858.428 - 3.36e-12   38090.952 -  2.2e-12
+LG+R5            -18768.183   37738.367 - 1.71e-14   37866.342 - 6.42e-14   38099.154 - 3.64e-14
+LG+R6            -18766.450   37738.900 - 1.31e-14   37873.642 - 1.67e-15   38106.831 - 7.85e-16
+LG+G4            -18794.273   37776.547 - 8.75e-23   37882.856 - 1.66e-17   38112.329 - 5.02e-17
+LG+I+R3          -18789.935   37775.870 - 1.23e-22   37894.187 - 5.77e-20   38125.941 - 5.56e-20
+LG+R4            -18788.566   37775.133 - 1.77e-22   37896.605 - 1.72e-20   38128.776 - 1.35e-20
+LG+R3            -18834.772   37863.544 - 1.12e-41   37978.768 - 2.48e-38   38210.043 - 3.04e-38
+WAG+I+G4         -18842.832   37875.665 - 2.62e-44   37984.886 - 1.16e-39   38215.019 - 2.52e-39
+WAG+I+R5         -18832.155   37868.309 - 1.04e-42   37999.634 -  7.3e-43   38232.669 - 3.71e-43
+LG+F+I+G4        -18799.789   37827.579 - 7.25e-34   38004.741 - 5.68e-44   38234.804 - 1.28e-43
+LG+F+I+R5        -18785.514   37813.028 - 1.05e-30   38022.418 - 8.24e-48   38245.258 - 6.85e-46
+Q.PFAM+F+I+G4    -18825.072   37878.144 - 7.59e-45   38055.306 - 5.95e-55   38285.370 - 1.34e-54
+Q.PFAM+F+I+R5    -18809.861   37861.722 - 2.79e-41   38071.112 -  2.2e-58   38293.953 - 1.83e-56
+WAG+F+I+G4       -18854.536   37937.072 - 1.21e-57   38114.234 - 9.51e-68   38344.298 - 2.14e-67
+WAG+F+I+R5       -18842.087   37926.174 - 2.82e-55   38135.564 - 2.22e-72   38358.404 - 1.85e-70
+LG+I+R2          -18918.361   38028.722 - 1.52e-77   38140.915 - 1.53e-73   38371.649 - 2.46e-73
+LG+R2            -19008.142   38206.284 - 4.22e-116   38315.505 - 1.87e-111   38545.638 - 4.06e-111
+JTT+I+G4         -19051.132   38292.264 - 9.02e-135   38401.485 -   4e-130   38631.618 - 8.68e-130
+JTT+I+R5         -19035.530   38275.061 - 4.91e-131   38406.386 - 3.45e-131   38639.421 - 1.76e-131
+JTT+F+I+G4       -19187.051   38602.101 - 4.73e-202   38779.263 - 3.71e-212   39009.327 - 8.32e-212
+JTT+F+I+R5       -19170.636   38583.272 - 5.81e-198   38792.662 - 4.57e-215   39015.502 - 3.8e-213
+LG+I             -19569.419   39326.838 -        0   39433.147 -        0   39662.620 -        0
+LG               -19789.701   39765.401 -        0   39868.857 -        0   40097.612 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.PFAM+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0566
+Gamma shape alpha: 1.2317
+
+ Category  Relative_rate  Proportion
+  0         0              0.0566
+  1         0.1916         0.2358
+  2         0.5690         0.2358
+  3         1.0916         0.2358
+  4         2.3878         0.2358
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -18702.5089 (s.e. 549.9551)
+Unconstrained log-likelihood (without tree): -1445.5451
+Number of free parameters (#branches + #model parameters): 95
+Akaike information criterion (AIC) score: 37595.0178
+Corrected Akaike information criterion (AICc) score: 37704.2393
+Bayesian information criterion (BIC) score: 37934.3724
+
+Total tree length (sum of branch lengths): 33.1919
+Sum of internal branch lengths: 6.8435 (20.6180% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0038) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon '53' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**53
+|
+|  +**54
++--| (98)
+|  +--55
+|
+|          +--189
+|     +----| (100)
+|     |    +**217
+|  +--| (100)
+|  |  |     +--190
+|  |  |  +--| (54)
+|  |  |  |  |                                                     +---215
+|  |  |  |  |                                                  +--| (48)
+|  |  |  |  |                                                  |  |  +------322
+|  |  |  |  |                                                  |  +--| (40)
+|  |  |  |  |                                                  |     |  +---329
+|  |  |  |  |                                                  |     +--| (51)
+|  |  |  |  |                                                  |        +--------348
+|  |  |  |  |                                               +--| (26)
+|  |  |  |  |                                               |  |     +------328
+|  |  |  |  |                                               |  |  +--| (75)
+|  |  |  |  |                                               |  |  |  +----------340
+|  |  |  |  |                                               |  +--| (71)
+|  |  |  |  |                                               |     +-------339
+|  |  |  |  |                                            +--| (28)
+|  |  |  |  |                                            |  |            +--218
+|  |  |  |  |                                            |  |         +--| (100)
+|  |  |  |  |                                            |  |         |  +--349
+|  |  |  |  |                                            |  |     +---| (100)
+|  |  |  |  |                                            |  |     |   +---346
+|  |  |  |  |                                            |  |  +--| (95)
+|  |  |  |  |                                            |  |  |  |        +--------------324
+|  |  |  |  |                                            |  |  |  |     +--| (55)
+|  |  |  |  |                                            |  |  |  |     |  +--------345
+|  |  |  |  |                                            |  |  |  |  +--| (61)
+|  |  |  |  |                                            |  |  |  |  |  +-----334
+|  |  |  |  |                                            |  |  |  +--| (88)
+|  |  |  |  |                                            |  |  |     +------344
+|  |  |  |  |                                            |  +--| (52)
+|  |  |  |  |                                            |     |  +------337
+|  |  |  |  |                                            |     +--| (56)
+|  |  |  |  |                                            |        +-------338
+|  |  |  |  |                                         +--| (38)
+|  |  |  |  |                                         |  |  +------314
+|  |  |  |  |                                         |  +--| (51)
+|  |  |  |  |                                         |     |  +------317
+|  |  |  |  |                                         |     +--| (82)
+|  |  |  |  |                                         |        +------343
+|  |  |  |  |                                      +--| (26)
+|  |  |  |  |                                      |  |              +--313
+|  |  |  |  |                                      |  |  +-----------| (100)
+|  |  |  |  |                                      |  |  |           +---330
+|  |  |  |  |                                      |  +**| (24)
+|  |  |  |  |                                      |     +--------335
+|  |  |  |  |                                   +--| (49)
+|  |  |  |  |                                   |  +----------331
+|  |  |  |  |                                +--| (25)
+|  |  |  |  |                                |  |     +----316
+|  |  |  |  |                                |  |  +--| (91)
+|  |  |  |  |                                |  |  |  +----------323
+|  |  |  |  |                                |  +--| (64)
+|  |  |  |  |                                |     +-------342
+|  |  |  |  |                             +--| (45)
+|  |  |  |  |                             |  |  +----------321
+|  |  |  |  |                             |  +--| (52)
+|  |  |  |  |                             |     |  +--------325
+|  |  |  |  |                             |     +--| (56)
+|  |  |  |  |                             |        +---------347
+|  |  |  |  |                          +--| (59)
+|  |  |  |  |                          |  |  +-------318
+|  |  |  |  |                          |  +--| (67)
+|  |  |  |  |                          |     +------------320
+|  |  |  |  |                       +--| (51)
+|  |  |  |  |                       |  +---------326
+|  |  |  |  |                    +--| (80)
+|  |  |  |  |                    |  |  +----------333
+|  |  |  |  |                    |  +--| (66)
+|  |  |  |  |                    |     |  +-----------336
+|  |  |  |  |                    |     +--| (82)
+|  |  |  |  |                    |        +-----------341
+|  |  |  |  |            +-------| (100)
+|  |  |  |  |            |       +----------------327
+|  |  |  |  |         +--| (97)
+|  |  |  |  |         |  +---------319
+|  |  |  |  |      +--| (96)
+|  |  |  |  |      |  +----------312
+|  |  |  |  |   +--| (88)
+|  |  |  |  |   |  +------------315
+|  |  |  |  +---| (100)
+|  |  |  |      +---------332
+|  |  +--| (99)
+|  |     +--543
++--| (99)
+   +--216
+
+Tree in newick format:
+
+(53:0.0000020263,(54:0.0000028685,55:0.0191892585)98:0.0242802575,(((189:0.0441466457,217:0.0000021538)100:0.3742468611,((190:0.2055523139,((((((((((((((((215:0.3167351002,(322:0.5255960540,(329:0.3158196163,348:0.7243889681)51:0.0989931101)40:0.0430200091)48:0.0855326075,((328:0.5368359800,340:0.8063036362)75:0.0603954468,339:0.6039103917)71:0.1069589736)26:0.0315349437,((((218:0.2160322451,349:0.1794030359)100:0.2301570883,346:0.3499565499)100:0.3380566830,(((324:1.1163473885,345:0.7170681111)55:0.1022528688,334:0.4905133454)61:0.1393531930,344:0.5485162992)88:0.1055506840)95:0.1839830528,(337:0.5226971229,338:0.6272192975)56:0.0521620872)52:0.0764944702)28:0.0765214884,(314:0.5444906846,(317:0.5405676573,343:0.5409906116)82:0.0989344708)51:0.0867311545)38:0.0749928760,((313:0.1418926832,330:0.2918592903)100:0.8806103332,335:0.6904531518)24:0.0000021154)26:0.0331233458,331:0.8077648358)49:0.0526049853,((316:0.4322244430,323:0.8367935681)91:0.0891931861,342:0.6140535150)64:0.1995579916)25:0.0238035278,(321:0.8082860428,(325:0.6880169152,347:0.7333630079)56:0.0913505612)52:0.1542237245)45:0.0907436488,(318:0.6490833546,320:0.9458964654)67:0.2618715215)59:0.0535040483,326:0.7563459730)51:0.0639177669,(333:0.8534150490,(336:0.9261812196,341:0.8833854000)82:0.1620959404)66:0.1404438655)80:0.1329184566,327:1.2485830615)100:0.6100516331,319:0.7304520289)97:0.2433120943,312:0.8045228452)96:0.1895421960,315:0.9906808852)88:0.1232032125,332:0.7798920761)100:0.2900208697)54:0.1106193318,543:0.1476562522)99:0.1745221311)100:0.2225867032,216:0.0952949441)99:0.0595138000);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -18704.774600
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--53
+|
+|  +--54
++--| (98)
+|  +--55
+|
+|          +--189
+|     +----| (100)
+|     |    +--217
+|  +--| (100)
+|  |  |     +--190
+|  |  |  +--| (54)
+|  |  |  |  |                                                     +---215
+|  |  |  |  |                                                  +--| (48)
+|  |  |  |  |                                                  |  |  +------322
+|  |  |  |  |                                                  |  +--| (40)
+|  |  |  |  |                                                  |     |  +---329
+|  |  |  |  |                                                  |     +--| (51)
+|  |  |  |  |                                                  |        +--------348
+|  |  |  |  |                                               +--| (26)
+|  |  |  |  |                                               |  |     +------328
+|  |  |  |  |                                               |  |  +--| (75)
+|  |  |  |  |                                               |  |  |  +----------340
+|  |  |  |  |                                               |  +--| (71)
+|  |  |  |  |                                               |     +-------339
+|  |  |  |  |                                            +--| (28)
+|  |  |  |  |                                            |  |            +--218
+|  |  |  |  |                                            |  |         +--| (100)
+|  |  |  |  |                                            |  |         |  +--349
+|  |  |  |  |                                            |  |     +---| (100)
+|  |  |  |  |                                            |  |     |   +---346
+|  |  |  |  |                                            |  |  +--| (95)
+|  |  |  |  |                                            |  |  |  |        +--------------324
+|  |  |  |  |                                            |  |  |  |     +--| (55)
+|  |  |  |  |                                            |  |  |  |     |  +--------345
+|  |  |  |  |                                            |  |  |  |  +--| (61)
+|  |  |  |  |                                            |  |  |  |  |  +-----334
+|  |  |  |  |                                            |  |  |  +--| (88)
+|  |  |  |  |                                            |  |  |     +------344
+|  |  |  |  |                                            |  +--| (52)
+|  |  |  |  |                                            |     |  +------337
+|  |  |  |  |                                            |     +--| (56)
+|  |  |  |  |                                            |        +-------338
+|  |  |  |  |                                         +--| (38)
+|  |  |  |  |                                         |  |  +------314
+|  |  |  |  |                                         |  +--| (51)
+|  |  |  |  |                                         |     |  +------317
+|  |  |  |  |                                         |     +--| (82)
+|  |  |  |  |                                         |        +------343
+|  |  |  |  |                                      +--| (29)
+|  |  |  |  |                                      |  +----------331
+|  |  |  |  |                                   +--| (49)
+|  |  |  |  |                                   |  |              +--313
+|  |  |  |  |                                   |  |  +-----------| (100)
+|  |  |  |  |                                   |  |  |           +--330
+|  |  |  |  |                                   |  +--| (24)
+|  |  |  |  |                                   |     +--------335
+|  |  |  |  |                                +--| (25)
+|  |  |  |  |                                |  |     +----316
+|  |  |  |  |                                |  |  +--| (91)
+|  |  |  |  |                                |  |  |  +----------323
+|  |  |  |  |                                |  +--| (64)
+|  |  |  |  |                                |     +-------342
+|  |  |  |  |                             +--| (45)
+|  |  |  |  |                             |  |  +----------321
+|  |  |  |  |                             |  +--| (52)
+|  |  |  |  |                             |     |  +--------325
+|  |  |  |  |                             |     +--| (56)
+|  |  |  |  |                             |        +---------347
+|  |  |  |  |                          +--| (59)
+|  |  |  |  |                          |  |  +-------318
+|  |  |  |  |                          |  +--| (67)
+|  |  |  |  |                          |     +------------320
+|  |  |  |  |                       +--| (51)
+|  |  |  |  |                       |  +---------326
+|  |  |  |  |                    +--| (80)
+|  |  |  |  |                    |  |  +----------333
+|  |  |  |  |                    |  +--| (66)
+|  |  |  |  |                    |     |  +-----------336
+|  |  |  |  |                    |     +--| (82)
+|  |  |  |  |                    |        +-----------341
+|  |  |  |  |            +-------| (100)
+|  |  |  |  |            |       +----------------327
+|  |  |  |  |         +--| (97)
+|  |  |  |  |         |  +---------319
+|  |  |  |  |      +--| (96)
+|  |  |  |  |      |  +----------312
+|  |  |  |  |   +--| (88)
+|  |  |  |  |   |  +------------315
+|  |  |  |  +---| (100)
+|  |  |  |      +---------332
+|  |  +--| (99)
+|  |     +--543
++--| (99)
+   +--216
+
+
+Consensus tree in newick format: 
+
+(53:0.0000028841,(54:0.0000028701,55:0.0190599455)98:0.0241157918,(((189:0.0438487208,217:0.0000028841)100:0.3713099867,((190:0.2037757648,((((((((((((((((215:0.3139634656,(322:0.5230696595,(329:0.3131401132,348:0.7187510032)51:0.0980923198)40:0.0432997599)48:0.0910182151,((328:0.5329758885,340:0.7989834009)75:0.0601821953,339:0.6003240432)71:0.0990967683)26:0.0304813577,((((218:0.2142549049,349:0.1782193372)100:0.2274952439,346:0.3487656200)100:0.3297317242,(((324:1.1010378147,345:0.7106786735)55:0.1018063688,334:0.4880550793)61:0.1358171985,344:0.5445029071)88:0.1102574761)95:0.1811717517,(337:0.5228141859,338:0.6173136764)56:0.0520760808)52:0.0741054531)28:0.0702596748,(314:0.5393215513,(317:0.5344486929,343:0.5359503220)82:0.0964005955)51:0.0922642059)38:0.0552579860,331:0.8036954257)29:0.0392129530,((313:0.1486993326,330:0.2816865171)100:0.8697758919,335:0.6832747383)24:0.0000021396)49:0.0772977693,((316:0.4318710245,323:0.8284532119)91:0.0923648519,342:0.6043463199)64:0.1907320018)25:0.0226957865,(321:0.7959975457,(325:0.6832976599,347:0.7277829195)56:0.0914482584)52:0.1548484760)45:0.0886419453,(318:0.6441451907,320:0.9370553453)67:0.2574849237)59:0.0529046648,326:0.7536770461)51:0.0652519855,(333:0.8515284164,(336:0.9146664512,341:0.8764970566)82:0.1567885006)66:0.1376939575)80:0.1317074983,327:1.2339473108)100:0.6081993005,319:0.7242932859)97:0.2415505601,312:0.7981040437)96:0.1872815539,315:0.9812722188)88:0.1226293488,332:0.7708203298)100:0.2890551122)54:0.1097446888,543:0.1465632936)99:0.1733782467)100:0.2203540637,216:0.0945490869)99:0.0591631795);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c01/iq.treefile -m "Q.PFAM+I{0.0566241}+G4{1.2317}" --length 263
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c01/ml.afa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /Users/Pixel/Documents/projects/plasticome/logan-plasticome-figure/tree/work/components/c01/ml.afa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  1 15:31:41 2026
+Total CPU time used: 107.503215 seconds (0h:1m:47s)
+Total wall-clock time used: 108.396857 seconds (0h:1m:48s)
+

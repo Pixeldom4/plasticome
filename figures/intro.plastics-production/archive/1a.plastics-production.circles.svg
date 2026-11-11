@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="217.0mm" height="162.2mm" viewBox="0 0 217.0 162.2">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12.0" y="12.0" font-family="'Ubuntu Sans Mono'" font-size="7.0" font-weight="bold" fill="#000000">A.</text>
+<text x="21.2" y="12.0" font-family="'Ubuntu Sans Mono'" font-size="7.0" font-weight="bold" fill="#000000">The Scale of Global Plastics Production</text>
+<circle cx="125.000" cy="79.000" r="60.000" fill="#7de8a1" stroke="#24ca5b" stroke-width="0.5"/>
+<circle cx="125.000" cy="115.336" r="23.664" fill="#c59bed" stroke="#a15ee3" stroke-width="0.5"/>
+<circle cx="125.000" cy="129.202" r="9.798" fill="#f0c5a6" stroke="#e59f6c" stroke-width="0.5"/>
+<circle cx="125.000" cy="131.517" r="7.483" fill="#ecde97" stroke="#ddc23c" stroke-width="0.5"/>
+<circle cx="125.000" cy="133.343" r="5.657" fill="#7cd9de" stroke="#33c0c8" stroke-width="0.5"/>
+<circle cx="125.000" cy="135.000" r="4.000" fill="#f2b3b4" stroke="#e1595b" stroke-width="0.5"/>
+<path d="M200.019,129.981 L200.019,120.963 A9.019,9.019 0 1 1 192.410,134.824 Z" fill="#7db3e8" stroke="#ffffff" stroke-width="0.35" stroke-linejoin="round"/>
+<path d="M200.019,129.981 L192.410,134.824 A9.019,9.019 0 0 1 191.407,127.302 Z" fill="#1b5998" stroke="#ffffff" stroke-width="0.35" stroke-linejoin="round"/>
+<path d="M200.019,129.981 L191.407,127.302 A9.019,9.019 0 0 1 200.019,120.963 Z" fill="#d2e3f5" stroke="#ffffff" stroke-width="0.35" stroke-linejoin="round"/>
+<circle cx="200.019" cy="129.981" r="9.019" fill="none" stroke="#1b5998" stroke-width="0.8"/>
+<line x1="59.00" y1="131.00" x2="125.00" y2="131.00" stroke="#e1595b" stroke-width="0.3"/>
+<circle cx="125.00" cy="131.00" r="0.5" fill="#a24042"/>
+<line x1="59.00" y1="131.00" x2="54.80" y2="131.00" stroke="#a24042" stroke-width="0.3"/>
+<text x="54.00" y="132.19" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#a24042"><tspan font-size="3.4" font-weight="bold">Animals</tspan><tspan font-size="2.89" dx="1.2">2 Gt C</tspan></text>
+<line x1="59.00" y1="127.69" x2="125.00" y2="127.69" stroke="#33c0c8" stroke-width="0.3"/>
+<circle cx="125.00" cy="127.69" r="0.5" fill="#258a90"/>
+<line x1="59.00" y1="127.69" x2="54.80" y2="126.20" stroke="#258a90" stroke-width="0.3" stroke-dasharray="0.6 0.45"/>
+<text x="54.00" y="127.39" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#258a90"><tspan font-size="3.4" font-weight="bold">Protists</tspan><tspan font-size="2.89" dx="1.2">4 Gt C</tspan></text>
+<line x1="59.00" y1="124.03" x2="125.00" y2="124.03" stroke="#ddc23c" stroke-width="0.3"/>
+<circle cx="125.00" cy="124.03" r="0.5" fill="#9f8c2b"/>
+<line x1="59.00" y1="124.03" x2="54.80" y2="121.40" stroke="#9f8c2b" stroke-width="0.3" stroke-dasharray="0.6 0.45"/>
+<text x="54.00" y="122.59" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#9f8c2b"><tspan font-size="3.4" font-weight="bold">Archaea</tspan><tspan font-size="2.89" dx="1.2">7 Gt C</tspan></text>
+<line x1="59.00" y1="120.96" x2="200.02" y2="120.96" stroke="#1b5998" stroke-width="0.3"/>
+<circle cx="200.02" cy="120.96" r="0.5" fill="#13406d"/>
+<line x1="59.00" y1="120.96" x2="54.80" y2="116.60" stroke="#13406d" stroke-width="0.3" stroke-dasharray="0.6 0.45"/>
+<text x="54.00" y="117.79" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#13406d"><tspan font-size="3.4" font-weight="bold">Plastics</tspan><tspan font-size="2.89" dx="1.2">10.2 Gt C</tspan></text>
+<line x1="59.00" y1="119.40" x2="125.00" y2="119.40" stroke="#e59f6c" stroke-width="0.3"/>
+<circle cx="125.00" cy="119.40" r="0.5" fill="#a5724e"/>
+<line x1="59.00" y1="119.40" x2="54.80" y2="111.80" stroke="#a5724e" stroke-width="0.3" stroke-dasharray="0.6 0.45"/>
+<text x="54.00" y="112.99" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#a5724e"><tspan font-size="3.4" font-weight="bold">Fungi</tspan><tspan font-size="2.89" dx="1.2">12 Gt C</tspan></text>
+<line x1="59.00" y1="91.67" x2="125.00" y2="91.67" stroke="#a15ee3" stroke-width="0.3"/>
+<circle cx="125.00" cy="91.67" r="0.5" fill="#7444a3"/>
+<line x1="59.00" y1="91.67" x2="54.80" y2="91.67" stroke="#7444a3" stroke-width="0.3"/>
+<text x="54.00" y="92.86" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#7444a3"><tspan font-size="3.4" font-weight="bold">Bacteria</tspan><tspan font-size="2.89" dx="1.2">70 Gt C</tspan></text>
+<line x1="59.00" y1="19.00" x2="125.00" y2="19.00" stroke="#24ca5b" stroke-width="0.3"/>
+<circle cx="125.00" cy="19.00" r="0.5" fill="#1a9142"/>
+<line x1="59.00" y1="19.00" x2="54.80" y2="19.00" stroke="#1a9142" stroke-width="0.3"/>
+<text x="54.00" y="20.19" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#1a9142"><tspan font-size="3.4" font-weight="bold">Plants</tspan><tspan font-size="2.89" dx="1.2">450 Gt C</tspan></text>
+<rect x="206.44" y="142.50" width="2.6" height="2.6" rx="0.4" fill="#7db3e8" stroke="#1b5998" stroke-width="0.3"/>
+<text x="204.84" y="145.00" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#000000"><tspan font-size="3.2">Landfill, Environment or In-Use</tspan><tspan font-size="2.9" fill="#555555" dx="1.2">6.7 Gt C</tspan></text>
+<rect x="206.44" y="147.10" width="2.6" height="2.6" rx="0.4" fill="#1b5998" stroke="#1b5998" stroke-width="0.3"/>
+<text x="204.84" y="149.60" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#000000"><tspan font-size="3.2">Recycled</tspan><tspan font-size="2.9" fill="#555555" dx="1.2">1.4 Gt C</tspan></text>
+<rect x="206.44" y="151.70" width="2.6" height="2.6" rx="0.4" fill="#d2e3f5" stroke="#1b5998" stroke-width="0.3"/>
+<text x="204.84" y="154.20" text-anchor="end" font-family="'Ubuntu Sans Mono', monospace" fill="#000000"><tspan font-size="3.2">Incinerated</tspan><tspan font-size="2.9" fill="#555555" dx="1.2">2.1 Gt C</tspan></text>
+<circle cx="14.828" cy="147.828" r="2.828" fill="#aeaeae" stroke="#989898" stroke-width="0.5"/>
+<text x="19.66" y="149.03" font-family="'Ubuntu Sans Mono', monospace" font-size="3.4" fill="#000000">= 1 billion tonnes of carbon</text>
+</svg>

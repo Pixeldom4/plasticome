@@ -1,0 +1,6 @@
+#nexus
+begin sets;
+  charset aa = aa.afa: AA, *;
+  charset di = 3di.afa: AA, *;
+  charpartition both = Q.PFAM+F+R4: aa, 3DI+G4: di;
+end;

@@ -1,0 +1,110 @@
+IQ-TREE version 3.1.4 for MacOS ARM 64-bit built Sep 29 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    MacBook-Air-239.local (SSE4.2, 16 GB RAM)
+Command: /opt/homebrew/Caskroom/miniconda/base/envs/plasticome-tree/bin/iqtree -s aa.afa -m Q.PFAM+F+R4 -te both.treefile -seed 1 -T 1 -pre aa_lengths -redo -quiet
+Seed:    1 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  1 16:21:07 2026
+Kernel:  SSE2 - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file aa.afa ... Fasta format detected
+Reading fasta file: done in 0.000142097 secs using 88.67% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000265837 secs using 78.24% CPU
+Alignment has 36 sequences with 324 columns, 324 distinct patterns
+321 parsimony-informative, 3 singleton sites, 0 constant sites
+     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.3113e-05 secs using 91.51% CPU
+   1  c00    9.26%    failed      0.00%
+   2  c03   44.75%    passed     24.97%
+   3  c04    7.10%    passed     78.55%
+   4  c07   25.31%    failed      0.47%
+   5  c08   33.02%    failed      0.00%
+   6  c09   41.05%    failed      0.42%
+   7  c10   21.30%    failed      0.01%
+   8  c11   24.07%    failed      0.16%
+   9  c12   17.28%    passed     44.41%
+  10  c15   20.68%    failed      0.35%
+  11  c16    7.41%    passed     10.69%
+  12  c18   23.46%    passed     40.89%
+  13  c19   23.77%    passed     24.19%
+  14  c21   19.44%    failed      0.01%
+  15  c23   20.68%    failed      0.08%
+  16  c24   19.75%    passed     54.98%
+  17  c25   35.49%    failed      4.07%
+  18  c26   27.78%    passed     46.43%
+  19  c27   19.75%    passed     76.53%
+  20  c28   12.96%    failed      0.00%
+  21  c29   19.44%    passed     12.19%
+  22  c31   25.00%    failed      0.17%
+  23  c32   30.56%    failed      0.08%
+  24  c33   25.93%    failed      0.00%
+  25  c34   16.98%    passed     30.11%
+  26  c35   45.99%    passed     13.51%
+  27  c36   23.77%    passed     28.86%
+  28  c39   41.36%    failed      3.16%
+  29  c42   19.75%    passed     58.74%
+  30  c43   22.53%    failed      0.00%
+  31  c44   20.37%    failed      0.44%
+  32  c45   26.23%    passed      7.37%
+  33  c48   33.33%    passed     14.03%
+  34  c50   17.90%    failed      0.00%
+  35  c52   11.42%    failed      4.55%
+  36  c55   25.00%    failed      4.27%
+****  TOTAL   23.89%  20 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 4.31538e-05 secs using 74.15% CPU
+Reading input tree file both.treefile ...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -24299.974
+2. Current log-likelihood: -24155.918
+3. Current log-likelihood: -24147.855
+4. Current log-likelihood: -24147.057
+5. Current log-likelihood: -24146.377
+6. Current log-likelihood: -24145.631
+7. Current log-likelihood: -24144.833
+8. Current log-likelihood: -24144.080
+9. Current log-likelihood: -24143.473
+10. Current log-likelihood: -24143.048
+11. Current log-likelihood: -24142.755
+12. Current log-likelihood: -24142.530
+13. Current log-likelihood: -24142.357
+14. Current log-likelihood: -24142.206
+15. Current log-likelihood: -24142.080
+16. Current log-likelihood: -24141.977
+17. Current log-likelihood: -24141.890
+18. Current log-likelihood: -24141.810
+19. Current log-likelihood: -24141.740
+20. Current log-likelihood: -24141.672
+21. Current log-likelihood: -24141.611
+22. Current log-likelihood: -24141.551
+23. Current log-likelihood: -24141.504
+24. Current log-likelihood: -24141.472
+25. Current log-likelihood: -24141.448
+26. Current log-likelihood: -24141.435
+27. Current log-likelihood: -24141.423
+Optimal log-likelihood: -24141.408
+Site proportion and rates:  (0.015,0.105) (0.065,0.305) (0.405,0.688) (0.515,1.359)
+Parameters optimization took 27 rounds (4.247 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -24141.408
+Total tree length: 109.501
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 4.221 sec (0h:0m:4s)
+Total wall-clock time used: 4.260 sec (0h:0m:4s)
+
+Analysis results written to: 
+  IQ-TREE report:                aa_lengths.iqtree
+  Maximum-likelihood tree:       aa_lengths.treefile
+  Screen log file:               aa_lengths.log
+
+Date and Time: Thu Oct  1 16:21:11 2026
