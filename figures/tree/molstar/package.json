@@ -1,0 +1,9 @@
+{
+  "name": "plasticome-molstar-render",
+  "private": true,
+  "type": "module",
+  "description": "Headless Mol* renders of the annotated fold structures (step 17)",
+  "dependencies": {
+    "playwright-core": "1.48.2"
+  }
+}

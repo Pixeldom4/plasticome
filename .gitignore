@@ -70,5 +70,13 @@ runs/**/*.domtbl
 !archive/thomas/*.tsv
 !archive/plasticome_centroids_final.*.tsv
 
-# phylogenetic tree renders: ~920 MB, too large for git
-figures/tree/
+# phylogenetic tree renders: ~1.8 GB, too large for git. The code that makes
+# them is tracked (scripts, README, templates, model files, the Mol* page)
+figures/tree/*
+!figures/tree/*.py
+!figures/tree/README.md
+!figures/tree/templates/
+!figures/tree/iqtree-models/
+!figures/tree/molstar/
+figures/tree/molstar/node_modules/
+figures/tree/molstar/vendor/

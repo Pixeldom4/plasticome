@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<!--
+  Ring tree editor, written by 18_ring_tree.py (ring_scene.py fills in the
+  scene). Coordinates in the scene are figure inches, y up, as in matplotlib;
+  the SVG works in points (72 per inch), y down.
+-->
+<style>
+  :root {
+    --paper: #fcfbf8; --ink: #1f1f1f; --muted: #6b6b6b; --line: #dedbd4;
+    --panel: #f4f2ed; --accent: #2f6fba;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #e9e7e2; color: var(--ink);
+    font: 13px/1.4 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+  body { display: grid; grid-template-columns: 290px 1fr; }
+  aside { background: var(--panel); border-right: 1px solid var(--line); padding: 14px 14px 40px;
+    overflow-y: auto; height: 100vh; }
+  aside h1 { font-size: 14px; margin: 0 0 2px; }
+  aside h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted);
+    margin: 18px 0 6px; font-weight: 600; }
+  aside p.note { color: var(--muted); font-size: 12px; margin: 4px 0 0; }
+  label.row { display: flex; align-items: center; gap: 6px; padding: 2px 0; cursor: pointer; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 6px; }
+  button { font: inherit; padding: 5px 9px; border: 1px solid #c9c5bc; background: white;
+    border-radius: 6px; cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  input[type=range] { width: 100%; }
+  textarea, input[type=text] { width: 100%; font: inherit; padding: 4px 6px; border: 1px solid #c9c5bc;
+    border-radius: 5px; background: white; }
+  #inspector { display: none; }
+  #inspector.on { display: block; }
+  #stage { position: relative; overflow: hidden; height: 100vh; cursor: grab; }
+  #stage.panning { cursor: grabbing; }
+  #stage svg { position: absolute; left: 0; top: 0; transform-origin: 0 0; background: var(--paper);
+    box-shadow: 0 1px 6px rgba(0,0,0,.15); }
+  .drag { cursor: move; }
+  .editable { cursor: text; }
+  .selected .frame { stroke: var(--accent) !important; stroke-width: 1.2; stroke-dasharray: 3 2; }
+  .legend-block:hover .frame, .struct:hover .frame { stroke: #b9b4a8; }
+  #status { position: absolute; right: 10px; bottom: 8px; background: rgba(255,255,255,.85);
+    padding: 3px 8px; border-radius: 5px; color: var(--muted); font-size: 12px; pointer-events: none; }
+  #selContents { margin: 0; font-size: 12px; }
+  #selContents dt { font-weight: 600; margin-top: 6px; }
+  #selContents dt span { font-weight: 400; color: var(--muted); }
+  #selContents dd { margin: 1px 0 0; }
+  kbd { font: 11px ui-monospace, Menlo, monospace; background: white; border: 1px solid #ccc;
+    border-radius: 3px; padding: 0 3px; }
+</style>
+</head>
+<body>
+<aside>
+  <h1 id="title"></h1>
+  <p class="note">Drag structures and legends. Double click a label to reword it.
+    Scroll to zoom, drag the background to pan, <kbd>0</kbd> to fit.
+    Edits are kept in this browser until you reset.</p>
+
+  <h2>Layers</h2>
+  <div id="layers"></div>
+
+  <h2>Structures</h2>
+  <label class="row">Size <input id="allSize" type="range" min="1" max="3.2" step="0.05"></label>
+  <div class="buttons">
+    <button id="allFull">All full view</button>
+    <button id="allZoom">All site zoom</button>
+    <button id="resetStructs">Reset positions</button>
+  </div>
+
+  <div id="inspector">
+    <h2>Selected structure</h2>
+    <label class="row">Size <input id="selSize" type="range" min="0.8" max="4" step="0.05"></label>
+    <label class="row"><input type="radio" name="view" value="full"> full view</label>
+    <label class="row"><input type="radio" name="view" value="zoom"> site zoom</label>
+    <label>Title <input id="selTitle" type="text"></label>
+    <label>Caption <textarea id="selSub" rows="3"></textarea></label>
+    <h2>What is in this structure</h2>
+    <dl id="selContents"></dl>
+  </div>
+
+  <h2>Save</h2>
+  <div class="buttons">
+    <button id="exportLayout">Export layout</button>
+    <button id="importLayout">Import layout</button>
+    <button id="svgOut">SVG</button>
+    <button id="pngOut">PNG 300 dpi</button>
+    <button id="resetAll">Reset all edits</button>
+  </div>
+  <p class="note">Export layout saves <code id="layoutName"></code>. Put it in
+    <code>figures/tree/</code> and rerun
+    <code>18_ring_tree.py</code>: the PDF picks up the moved structures, sizes, views,
+    reworded labels and legend positions.</p>
+  <input id="layoutFile" type="file" accept="application/json" hidden>
+</aside>
+<div id="stage"><div id="status"></div></div>
+
+<script>
+const SCENE = /*__SCENE__*/null
+const PT = 72
+const NS = "http://www.w3.org/2000/svg"
+const [X0, Y0, X1, Y1] = SCENE.box
+const W = (X1 - X0) * PT, H = (Y1 - Y0) * PT
+const sx = (x) => (x - X0) * PT
+const sy = (y) => (Y1 - y) * PT
+const FONT = '"DejaVu Sans", "Helvetica Neue", Arial, sans-serif'
+
+// layers in paint order, and which start visible
+const LAYERS = [
+  ["query flow", "query flow"],
+  ["slices", "slice backgrounds"], ["ring tracks", "empty ring tracks"], ["rings", "rings"],
+  ["guides", "rainbow guides"], ["branches", "branches"], ["groups", "fold types"],
+  ["leaders", "leaders"], ["structures", "structures"],
+  ["tips", "tips"], ["seed names", "seed names"], ["ring names", "ring names"],
+  ["fold labels", "fold labels"], ["legends", "legends"],
+]
+
+// --- edits, kept per figure in this browser ---------------------------------
+const STORE = `ring-editor:${SCENE.title}`
+const blank = () => ({ structures: {}, text: {}, legends: {}, hidden: [] })
+let edits = blank()
+try { edits = Object.assign(blank(), JSON.parse(localStorage.getItem(STORE)) || {}) } catch (e) {}
+const save = () => { try { localStorage.setItem(STORE, JSON.stringify(edits)) } catch (e) {} }
+const textOf = (id, s) => (id && edits.text[id] != null ? edits.text[id] : s)
+
+// --- svg helpers ------------------------------------------------------------
+const el = (tag, attrs = {}, parent) => {
+  const e = document.createElementNS(NS, tag)
+  for (const [k, v] of Object.entries(attrs)) if (v != null) e.setAttribute(k, v)
+  if (parent) parent.appendChild(e)
+  return e
+}
+const P = (r, a) => [sx(r * Math.cos(a)), sy(r * Math.sin(a))]
+
+function wedgePath(r0, w, a0, a1) {
+  const r1 = r0 + w, big = a1 - a0 > Math.PI ? 1 : 0
+  const [ax, ay] = P(r1, a0), [bx, by] = P(r1, a1), [cx, cy] = P(r0, a1), [dx, dy] = P(r0, a0)
+  return `M${ax},${ay}A${r1 * PT},${r1 * PT} 0 ${big} 0 ${bx},${by}L${cx},${cy}` +
+         `A${r0 * PT},${r0 * PT} 0 ${big} 1 ${dx},${dy}Z`
+}
+
+function markerPath(shape, x, y, s) {
+  const r = Math.sqrt(s) / 2
+  const poly = (n, rot, k = 1) => Array.from({ length: n }, (_, i) => {
+    const a = rot + (2 * Math.PI * i) / n
+    return `${x + r * k * Math.cos(a)},${y - r * k * Math.sin(a)}`
+  }).join(" ")
+  if (shape === "D") return ["polygon", { points: poly(4, Math.PI / 2, 0.92) }]
+  if (shape === "^") return ["polygon", { points: poly(3, Math.PI / 2, 1.05) }]
+  if (shape === "h") return ["polygon", { points: poly(6, Math.PI / 2, 1.0) }]
+  if (shape === "s") return ["rect", { x: x - r, y: y - r, width: 2 * r, height: 2 * r }]
+  return ["circle", { cx: x, cy: y, r }]
+}
+
+/** Text in points, matplotlib's ha/va/rotation (anchor mode). */
+function drawText(parent, t, cls) {
+  const lines = String(t.s).split("\n")
+  const lh = t.size * (t.lineSpacing || 1.25)
+  const anchor = { left: "start", right: "end", center: "middle" }[t.ha] || "middle"
+  const x = sx(t.x), y = sy(t.y)
+  const g = el("g", { transform: `translate(${x},${y}) rotate(${-(t.rotation || 0)})`, class: cls }, parent)
+  const n = lines.length
+  let first
+  if (t.va === "top") first = t.size * 0.8
+  else if (t.va === "bottom") first = -(n - 1) * lh - t.size * 0.2
+  else if (t.va === "baseline") first = 0
+  else first = -((n - 1) * lh) / 2 + t.size * 0.35
+  const text = el("text", { "text-anchor": anchor, "font-size": t.size, fill: t.color,
+    "font-weight": t.weight === "bold" ? 700 : 400, "font-family": FONT }, g)
+  lines.forEach((ln, i) => {
+    const ts = el("tspan", { x: 0, y: first + i * lh }, text)
+    ts.textContent = ln
+  })
+  if (t.box) {
+    requestAnimationFrame(() => {
+      const b = text.getBBox(), p = t.size * 0.18
+      const rect = el("rect", { x: b.x - p, y: b.y - p * 0.6, width: b.width + 2 * p, height: b.height + p * 1.2,
+        rx: p * 1.5, fill: "white", stroke: "#2b2b2b", "stroke-width": 0.4 })
+      g.insertBefore(rect, text)
+    })
+  }
+  return g
+}
+
+// --- build ------------------------------------------------------------------
+const stage = document.getElementById("stage")
+const svg = el("svg", { xmlns: NS, width: W, height: H, viewBox: `0 0 ${W} ${H}` })
+stage.prepend(svg)
+const defs = el("defs", {}, svg)
+const hatch = el("pattern", { id: "hatch", width: 3, height: 3, patternUnits: "userSpaceOnUse",
+  patternTransform: "rotate(45)" }, defs)
+el("rect", { width: 3, height: 3, fill: "white" }, hatch)
+el("line", { x1: 0, y1: 0, x2: 0, y2: 3, stroke: "#9a9a9a", "stroke-width": 0.5 }, hatch)
+el("rect", { width: W, height: H, fill: "#fcfbf8", class: "paper" }, svg)
+
+const layerG = {}
+for (const [id, name] of LAYERS) {
+  layerG[id] = el("g", { id: `layer-${id.replace(/ /g, "-")}`, "data-name": name }, svg)
+}
+
+// lines: one path per layer, style; branches drawn weak, solid, backbone
+const lineSets = new Map()
+for (const it of SCENE.items) {
+  if (it.kind === "wedge") {
+    const p = el("path", { d: wedgePath(it.r0, it.w, it.a0, it.a1),
+      fill: it.hatch ? "url(#hatch)" : it.fill, stroke: it.hatch ? "#9a9a9a" : "none",
+      "stroke-width": it.hatch ? 0.3 : null }, layerG[it.layer])
+    if (it.title) el("title", {}, p).textContent = it.title
+  } else if (it.kind === "rect") {
+    const r = el("rect", { x: sx(it.x0), y: sy(it.y1), width: (it.x1 - it.x0) * PT,
+      height: (it.y1 - it.y0) * PT, fill: it.fill }, layerG[it.layer])
+    if (it.title) el("title", {}, r).textContent = it.title
+  } else if (it.kind === "poly") {
+    const xy = (q, i) => `${sx(q[i]).toFixed(2)},${sy(q[i + 1]).toFixed(2)}`
+    const d = it.pts.map((q, j) => (j === 0 ? "M" : q.length === 6 ? "C" : "L") +
+      (q.length === 6 ? [0, 2, 4].map(i => xy(q, i)).join(" ") : xy(q, 0))).join("") + "Z"
+    const p = el("path", { d,
+      fill: it.fill }, layerG[it.layer])
+    if (it.title) el("title", {}, p).textContent = it.title
+  } else if (it.kind === "line") {
+    const key = `${it.layer}|${it.color}|${it.lw}|${it.dash}`
+    if (!lineSets.has(key)) lineSets.set(key, { it, d: [] })
+    lineSets.get(key).d.push("M" + it.pts.map(([x, y]) => `${sx(x).toFixed(2)},${sy(y).toFixed(2)}`).join("L"))
+  } else if (it.kind === "marker") {
+    const [tag, attrs] = markerPath(it.shape, sx(it.x), sy(it.y), it.s)
+    const m = el(tag, { ...attrs, fill: it.hollow ? "none" : it.color,
+      stroke: it.hollow ? it.color : "#3a3a3a", "stroke-width": it.lw }, layerG[it.layer])
+    if (it.title) el("title", {}, m).textContent = it.title
+  } else if (it.kind === "text") {
+    const t = { ...it, s: textOf(it.id, it.s) }
+    const g = drawText(layerG[it.layer], t, it.id ? "editable" : null)
+    if (it.id) { g.dataset.tid = it.id; g.dataset.orig = it.s }
+  }
+}
+const rank = (k) => (k.includes("#c4c4c0") ? 0 : k.endsWith("null") ? 1 : 2)
+for (const [key, { it, d }] of [...lineSets].sort((a, b) => rank(a[0]) - rank(b[0]))) {
+  el("path", { d: d.join(""), fill: "none", stroke: it.color, "stroke-width": it.lw,
+    "stroke-dasharray": it.dash ? it.dash.join(" ") : null,
+    "stroke-linecap": it.dash ? "butt" : "round", "stroke-linejoin": "round" }, layerG[it.layer])
+}
+
+// --- structures: image, title, caption and leader, moved together ----------
+const STRUCTS = SCENE.structures.map((s) => ({ ...s, home: { x: s.x, y: s.y, size: s.size, view: s.view || "full" } }))
+let selected = null
+
+function structState(s) {
+  const e = edits.structures[s.key] || {}
+  return { x: e.x ?? s.home.x, y: e.y ?? s.home.y, size: e.size ?? s.home.size, view: e.view ?? s.home.view }
+}
+
+function drawStruct(s) {
+  const st = structState(s)
+  s.g?.remove(); s.lead?.remove()
+  // leader: out from the ring to its lane, along the lane, then to the near
+  // side of the structure (the same route as 18_ring_tree.py's leader())
+  // the panel layout has no leaders: a numbered badge on the slice and on
+  // the picture instead
+  const R = s.route
+  if (R) drawLeader(s, st, R)
+  drawPicture(s, st)
+}
+
+function drawLeader(s, st, R) {
+  let as = Math.atan2(st.y, st.x)
+  as = R.angle + ((as - R.angle + Math.PI) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI) - Math.PI
+  const n = Math.max(2, Math.ceil(Math.abs(as - R.angle) / (0.8 * Math.PI / 180)) + 2)
+  const pts = [[R.r0 * Math.cos(R.angle), R.r0 * Math.sin(R.angle)]]
+  for (let i = 0; i < n; i++) {
+    const a = R.angle + (as - R.angle) * i / (n - 1)
+    pts.push([R.lane * Math.cos(a), R.lane * Math.sin(a)])
+  }
+  // stop at the edge of the structure's box, picture and caption (as
+  // 18_ring_tree.py's leader() does), so it never runs through its own text
+  const [ex, ey] = pts[pts.length - 1]
+  const box = s.image
+    ? [st.x - st.size / 2, st.y - st.size / 2 - 0.36, st.x + st.size / 2, st.y + st.size / 2]
+    : [st.x - 0.9, st.y - 0.12, st.x + 0.9, st.y + 0.12]
+  const dx = st.x - ex, dy = st.y - ey
+  let t = 1
+  for (const [lo, hi, p0, dp, lo2, hi2, q0, dq] of [
+    [box[0], box[2], ex, dx, box[1], box[3], ey, dy],
+    [box[1], box[3], ey, dy, box[0], box[2], ex, dx]]) {
+    if (Math.abs(dp) < 1e-9) continue
+    const tin = Math.min((lo - p0) / dp, (hi - p0) / dp)
+    const other = q0 + dq * tin
+    if (tin > 0 && tin < t && other >= lo2 - 1e-6 && other <= hi2 + 1e-6) t = tin
+  }
+  t = Math.max(t - 0.06 / (Math.hypot(dx, dy) || 1), 0)
+  if (t > 0) pts.push([ex + dx * t, ey + dy * t])
+  s.lead = el("g", {}, layerG.leaders)
+  el("path", { d: "M" + pts.map(([x, y]) => `${sx(x)},${sy(y)}`).join("L"),
+    fill: "none", stroke: s.color, "stroke-width": 0.8, "stroke-dasharray": "0.8 1.6",
+    "stroke-linecap": "round" }, s.lead)
+  s.anchor = pts[0]
+  el("circle", { cx: sx(s.anchor[0]), cy: sy(s.anchor[1]), r: 1.0, fill: s.color }, s.lead)
+}
+
+function drawPicture(s, st) {
+  s.g = el("g", { class: "struct drag" + (selected === s ? " selected" : "") }, layerG.structures)
+  s.g.dataset.key = s.key
+  if (s.contents?.length) {
+    el("title", {}, s.g).textContent = [s.name, ...s.contents.map(([role, how, what]) =>
+      `${role}${how ? ` (${how})` : ""}: ${what}`)].join("\n")
+  }
+  const half = (st.size / 2) * PT
+  el("rect", { class: "frame", x: sx(st.x) - half, y: sy(st.y) - half, width: 2 * half, height: 2 * half,
+    fill: "transparent", stroke: "transparent", "stroke-width": 0.8 }, s.g)
+  if (s.image && SCENE.images[s.key]) {
+    el("image", { href: SCENE.images[s.key][st.view], x: sx(st.x) - half, y: sy(st.y) - half,
+      width: 2 * half, height: 2 * half }, s.g)
+  }
+  // a fold with no structure: its name alone, where the picture would be
+  const cs = s.text_scale || 1
+  const ty = s.image ? st.y - st.size * 0.5 - 0.02 : st.y + 0.05
+  const title = drawText(s.g, { x: st.x, y: ty, s: textOf(`fold|${s.key}|name`, s.name), size: 6.6 * cs,
+    color: s.color, ha: "center", va: "top", weight: "bold" }, "editable")
+  title.dataset.tid = `fold|${s.key}|name`; title.dataset.orig = s.name
+  const sub = drawText(s.g, { x: st.x, y: ty - 0.14 * cs, s: textOf(`fold|${s.key}|sub`, s.lines), size: 4.8 * cs,
+    color: "#6b6b6b", ha: "center", va: "top", lineSpacing: 1.3 }, "editable")
+  sub.dataset.tid = `fold|${s.key}|sub`; sub.dataset.orig = s.lines
+  if (s.badge) {
+    const bx = sx(st.x - st.size / 2 + 0.1), by = sy(st.y + st.size / 2 - 0.1)
+    el("circle", { cx: bx, cy: by, r: (s.badge_r || 4.5), fill: s.color }, s.g)
+    drawText(s.g, { x: st.x - st.size / 2 + 0.1, y: st.y + st.size / 2 - 0.1, s: String(s.badge),
+      size: 5.2 * cs, color: "#ffffff", ha: "center", va: "center", weight: "bold" })
+  }
+}
+STRUCTS.forEach(drawStruct)
+
+// --- legends ----------------------------------------------------------------
+function drawLegend(lg) {
+  lg.g?.remove()
+  const off = edits.legends[lg.id] || { dx: 0, dy: 0 }
+  const g = el("g", { class: "legend-block drag",
+    transform: `translate(${off.dx * PT},${-off.dy * PT})` }, layerG.legends)
+  lg.g = g
+  const x = sx(lg.x), y = sy(lg.y)
+  const k = lg.scale || 1, fs = 7 * k, row = fs * 1.75
+  // column width from the longest label line, as matplotlib sizes its columns
+  const longest = Math.max(...lg.entries.flatMap((e) => e.label.split("\n").map((l) => l.length)))
+  const colW = 22 * k + longest * fs * 0.56 + (lg.ncol > 1 ? 10 * k : 0)
+  const titleLines = textOf(`legend|${lg.id}`, lg.title).split("\n")
+  const tg = drawText(g, { x: lg.x, y: lg.y, s: titleLines.join("\n"), size: 7.5 * k, color: "#1f1f1f",
+    ha: "left", va: "top", weight: "bold" }, "editable")
+  tg.dataset.tid = `legend|${lg.id}`; tg.dataset.orig = lg.title
+  let top = y + titleLines.length * 7.5 * k * 1.25 + 3
+  let maxH = 0
+  lg.entries.forEach((e, i) => {
+    const c = i % lg.ncol, r = Math.floor(i / lg.ncol)
+    const lines = e.label.split("\n")
+    const ex = x + c * colW, ey = top + r * row
+    const hx = ex + 9 * k, hy = ey + fs * 0.4
+    if (e.kind === "square") {
+      el("rect", { x: hx - 3.5 * k, y: hy - 3.5 * k, width: 7 * k, height: 7 * k, fill: e.color,
+        stroke: e.edge || "none", "stroke-width": 0.6 }, g)
+    } else if (e.kind === "marker") {
+      const [tag, attrs] = markerPath(e.shape, hx, hy, e.size)
+      el(tag, { ...attrs, fill: e.hollow ? "none" : e.color, stroke: e.hollow ? e.color : "#3a3a3a",
+        "stroke-width": e.hollow ? 0.8 : 0.3 }, g)
+    } else {
+      el("line", { x1: ex + k, x2: ex + 17 * k, y1: hy, y2: hy, stroke: e.color, "stroke-width": e.lw,
+        "stroke-dasharray": e.dash ? e.dash.join(" ") : null }, g)
+    }
+    drawText(g, { x: (ex + 21 * k) / PT + X0, y: Y1 - (ey - fs * 0.05) / PT, s: e.label, size: fs,
+      color: "#1f1f1f", ha: "left", va: "top" })
+    maxH = Math.max(maxH, ey + lines.length * fs * 1.25)
+    if (lines.length > 1 && lg.ncol === 1) top += (lines.length - 1) * fs * 1.25
+  })
+  const b = { x: x - 4, y: y - 4, w: (lg.ncol > 1 ? colW * lg.ncol : colW) + 8, h: maxH - y + 8 }
+  g.insertBefore(el("rect", { class: "frame", x: b.x, y: b.y, width: b.w, height: b.h, fill: "transparent",
+    stroke: "transparent", "stroke-width": 0.8 }), g.firstChild)
+}
+SCENE.legends.forEach(drawLegend)
+{
+  const sb = SCENE.scaleBar
+  const g = el("g", { class: "legend-block" }, layerG.legends)
+  el("line", { x1: sx(sb.x), x2: sx(sb.x + sb.length), y1: sy(sb.y), y2: sy(sb.y), stroke: "#1f1f1f",
+    "stroke-width": 1 }, g)
+  drawText(g, { x: sb.x, y: sb.y + 0.06, s: sb.label, size: 7 * (sb.scale || 1), color: "#6b6b6b", ha: "left", va: "bottom" })
+}
+
+// --- layers panel -----------------------------------------------------------
+const layersBox = document.getElementById("layers")
+for (const [id, name] of LAYERS) {
+  const row = document.createElement("label")
+  row.className = "row"
+  row.innerHTML = `<input type="checkbox"> ${name}`
+  const cb = row.querySelector("input")
+  cb.checked = !edits.hidden.includes(id)
+  const apply = () => { layerG[id].style.display = cb.checked ? "" : "none" }
+  apply()
+  cb.onchange = () => {
+    edits.hidden = edits.hidden.filter((h) => h !== id)
+    if (!cb.checked) edits.hidden.push(id)
+    apply(); save()
+  }
+  layersBox.appendChild(row)
+}
+
+// --- pan and zoom -------------------------------------------------------------
+let view = { k: 1, x: 0, y: 0 }
+const applyView = () => { svg.style.transform = `translate(${view.x}px,${view.y}px) scale(${view.k})` }
+function fit() {
+  const r = stage.getBoundingClientRect()
+  view.k = Math.min(r.width / W, r.height / H) * 0.96
+  view.x = (r.width - W * view.k) / 2
+  view.y = (r.height - H * view.k) / 2
+  applyView()
+}
+fit()
+stage.addEventListener("wheel", (e) => {
+  e.preventDefault()
+  const r = stage.getBoundingClientRect()
+  const mx = e.clientX - r.left, my = e.clientY - r.top
+  const f = Math.exp(-e.deltaY * 0.0015)
+  view.x = mx - (mx - view.x) * f
+  view.y = my - (my - view.y) * f
+  view.k *= f
+  applyView()
+}, { passive: false })
+window.addEventListener("keydown", (e) => {
+  if (e.target.matches("input, textarea")) return
+  if (e.key === "0") fit()
+})
+
+// screen px to scene inches
+const toInches = (dxPx, dyPx) => [dxPx / view.k / PT, -dyPx / view.k / PT]
+
+// --- dragging -------------------------------------------------------------------
+let drag = null
+stage.addEventListener("pointerdown", (e) => {
+  const sg = e.target.closest(".struct")
+  const lg = e.target.closest(".legend-block.drag")
+  if (sg) {
+    const s = STRUCTS.find((t) => t.key === sg.dataset.key)
+    select(s)
+    const st = structState(s)
+    drag = { kind: "struct", s, x0: e.clientX, y0: e.clientY, sx: st.x, sy: st.y }
+  } else if (lg) {
+    const L = SCENE.legends.find((l) => l.g === lg)
+    const off = edits.legends[L.id] || { dx: 0, dy: 0 }
+    drag = { kind: "legend", L, x0: e.clientX, y0: e.clientY, dx: off.dx, dy: off.dy }
+  } else {
+    if (!e.target.closest("aside")) select(null)
+    drag = { kind: "pan", x0: e.clientX, y0: e.clientY, vx: view.x, vy: view.y }
+    stage.classList.add("panning")
+  }
+  stage.setPointerCapture(e.pointerId)
+})
+stage.addEventListener("pointermove", (e) => {
+  if (!drag) return
+  const [dx, dy] = toInches(e.clientX - drag.x0, e.clientY - drag.y0)
+  if (drag.kind === "pan") {
+    view.x = drag.vx + e.clientX - drag.x0
+    view.y = drag.vy + e.clientY - drag.y0
+    applyView()
+  } else if (drag.kind === "struct") {
+    const s = drag.s
+    edits.structures[s.key] = { ...structState(s), x: drag.sx + dx, y: drag.sy + dy }
+    drawStruct(s)
+    status(`${s.name}: ${(drag.sx + dx).toFixed(2)}, ${(drag.sy + dy).toFixed(2)} in`)
+  } else {
+    edits.legends[drag.L.id] = { dx: drag.dx + dx, dy: drag.dy + dy }
+    drawLegend(drag.L)
+  }
+})
+stage.addEventListener("pointerup", () => {
+  if (drag && drag.kind !== "pan") save()
+  drag = null
+  stage.classList.remove("panning")
+})
+
+// --- text editing -------------------------------------------------------------
+stage.addEventListener("dblclick", (e) => {
+  const t = e.target.closest("[data-tid]")
+  if (!t) return
+  const id = t.dataset.tid
+  const now = textOf(id, t.dataset.orig)
+  const next = prompt("Text (use \\n for a new line; empty restores the original)", now.replace(/\n/g, "\\n"))
+  if (next == null) return
+  if (next === "") delete edits.text[id]
+  else edits.text[id] = next.replace(/\\n/g, "\n")
+  save()
+  redrawTexts()
+})
+function redrawTexts() {
+  document.querySelectorAll("#layer-seed-names [data-tid], #layer-ring-names [data-tid]").forEach((g) => {
+    const it = SCENE.items.find((i) => i.id === g.dataset.tid)
+    const ng = drawText(g.parentNode, { ...it, s: textOf(it.id, it.s) }, "editable")
+    ng.dataset.tid = it.id; ng.dataset.orig = it.s
+    g.replaceWith(ng)
+  })
+  STRUCTS.forEach(drawStruct)
+  SCENE.legends.forEach(drawLegend)
+  if (selected) select(selected)
+}
+
+// --- inspector ------------------------------------------------------------------
+const insp = document.getElementById("inspector")
+const selSize = document.getElementById("selSize")
+const selTitle = document.getElementById("selTitle")
+const selSub = document.getElementById("selSub")
+function select(s) {
+  const prev = selected
+  selected = s
+  if (prev && prev !== s) drawStruct(prev)
+  insp.classList.toggle("on", !!s)
+  if (!s) return
+  drawStruct(s)
+  const st = structState(s)
+  selSize.value = st.size
+  document.querySelectorAll("input[name=view]").forEach((r) => { r.checked = r.value === st.view })
+  selTitle.value = textOf(`fold|${s.key}|name`, s.name)
+  selSub.value = textOf(`fold|${s.key}|sub`, s.lines)
+  const dl = document.getElementById("selContents")
+  dl.innerHTML = ""
+  for (const [role, how, what] of s.contents || []) {
+    const dt = document.createElement("dt")
+    dt.textContent = role[0].toUpperCase() + role.slice(1) + " "
+    if (how) { const sp = document.createElement("span"); sp.textContent = how; dt.appendChild(sp) }
+    const dd = document.createElement("dd")
+    dd.textContent = what
+    dl.append(dt, dd)
+  }
+}
+const editSel = (patch) => {
+  if (!selected) return
+  edits.structures[selected.key] = { ...structState(selected), ...patch }
+  drawStruct(selected); save()
+}
+selSize.oninput = () => editSel({ size: +selSize.value })
+document.querySelectorAll("input[name=view]").forEach((r) => { r.onchange = () => editSel({ view: r.value }) })
+selTitle.oninput = () => { edits.text[`fold|${selected.key}|name`] = selTitle.value; drawStruct(selected); save() }
+selSub.oninput = () => { edits.text[`fold|${selected.key}|sub`] = selSub.value; drawStruct(selected); save() }
+
+const allSize = document.getElementById("allSize")
+allSize.value = STRUCTS[0]?.home.size || 1.8
+allSize.oninput = () => {
+  STRUCTS.forEach((s) => { edits.structures[s.key] = { ...structState(s), size: +allSize.value }; drawStruct(s) })
+  save()
+}
+const allView = (v) => {
+  STRUCTS.forEach((s) => { edits.structures[s.key] = { ...structState(s), view: v }; drawStruct(s) })
+  save()
+}
+document.getElementById("allFull").onclick = () => allView("full")
+document.getElementById("allZoom").onclick = () => allView("zoom")
+document.getElementById("resetStructs").onclick = () => {
+  edits.structures = {}
+  STRUCTS.forEach(drawStruct); save()
+}
+
+// --- save and load --------------------------------------------------------------
+const layoutName = /centroid/i.test(SCENE.title) ? "ring_layout.centroids.json" : "ring_layout.all.json"
+document.getElementById("layoutName").textContent = layoutName
+document.getElementById("title").textContent = SCENE.title
+const download = (name, blob) => {
+  const a = document.createElement("a")
+  a.href = URL.createObjectURL(blob)
+  a.download = name
+  a.click()
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000)
+}
+document.getElementById("exportLayout").onclick = () => {
+  // only structures that moved or changed, so a rerun keeps the computed
+  // placement of the rest
+  const out = { structures: {}, text: edits.text, legends: edits.legends, hidden: edits.hidden }
+  for (const s of STRUCTS) {
+    const st = structState(s), h = s.home
+    if (st.x !== h.x || st.y !== h.y || st.size !== h.size || st.view !== h.view) out.structures[s.key] = st
+  }
+  download(layoutName, new Blob([JSON.stringify(out, null, 1)], { type: "application/json" }))
+}
+const fileIn = document.getElementById("layoutFile")
+document.getElementById("importLayout").onclick = () => fileIn.click()
+fileIn.onchange = async () => {
+  const f = fileIn.files[0]
+  if (!f) return
+  edits = Object.assign(blank(), JSON.parse(await f.text()))
+  save(); location.reload()
+}
+document.getElementById("resetAll").onclick = () => {
+  if (!confirm("Discard every edit to this figure in this browser?")) return
+  try { localStorage.removeItem(STORE) } catch (e) {}
+  location.reload()
+}
+function cleanSvg() {
+  const c = svg.cloneNode(true)
+  c.removeAttribute("style")
+  c.querySelectorAll(".frame").forEach((r) => r.remove())
+  c.querySelectorAll("g[style*='display: none']").forEach((g) => g.remove())
+  c.querySelectorAll("[class]").forEach((n) => n.removeAttribute("class"))
+  c.querySelectorAll("[data-tid],[data-orig],[data-key]").forEach((n) => {
+    delete n.dataset.tid; delete n.dataset.orig; delete n.dataset.key
+  })
+  // layer names for Inkscape and Illustrator
+  c.setAttribute("xmlns:inkscape", "http://www.inkscape.org/namespaces/inkscape")
+  c.querySelectorAll("g[id^=layer-]").forEach((g) => {
+    g.setAttribute("inkscape:groupmode", "layer")
+    g.setAttribute("inkscape:label", g.dataset.name)
+  })
+  return new XMLSerializer().serializeToString(c)
+}
+const stem = layoutName.replace("ring_layout", "tree").replace(".json", "")
+document.getElementById("svgOut").onclick = () =>
+  download(`${stem}.svg`, new Blob([cleanSvg()], { type: "image/svg+xml" }))
+document.getElementById("pngOut").onclick = () => {
+  const img = new Image()
+  img.onload = () => {
+    const k = 300 / PT
+    const cv = document.createElement("canvas")
+    cv.width = Math.round(W * k); cv.height = Math.round(H * k)
+    const ctx = cv.getContext("2d")
+    ctx.drawImage(img, 0, 0, cv.width, cv.height)
+    cv.toBlob((b) => download(`${stem}.png`, b), "image/png")
+  }
+  img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(cleanSvg())
+}
+
+function status(s) { document.getElementById("status").textContent = s }
+status(`${SCENE.items.filter((i) => i.kind === "marker").length} tip marks, ${STRUCTS.length} folds`)
+</script>
+</body>
+</html>
